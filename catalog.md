@@ -18,6 +18,8 @@ Concepts: Patient, Health Care Provider, Facility, Encounter, Medical Case, Heal
 
 Reusable patterns: Patient/Provider Role, Encounter, Case Management, Health Care Claim, Service Delivery, Facility, Status Lifecycle, and Privacy/Access Control.
 
+See the full [Health Care model pattern](patterns/health-care.md).
+
 ## Insurance
 
 Concepts: Insurer, Insurance Product, Policy, Coverage, Policyholder, Policy Party, Insured Party, Insured Item, Claim, Claim Party, Claim Assessment, Settlement, and Payment.
