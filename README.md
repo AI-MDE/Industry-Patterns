@@ -13,6 +13,7 @@ The current release captures the work completed so far: cross-industry concepts,
 - [Professional services](patterns/professional-services.md)
 - [E-Commerce](patterns/e-commerce.md)
 - [Health Care](patterns/health-care.md)
+- [Real-World Extensions and Legacy Conversion](patterns/legacy-conversion.md)
 - [Pattern anatomy and roadmap](pattern-anatomy.md)
 
 ## Industry subjects
