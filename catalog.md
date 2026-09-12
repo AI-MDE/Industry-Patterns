@@ -50,6 +50,8 @@ Concepts: Customer, Product, Product Offering, Catalog, Shopping Cart, Sales Ord
 
 This subject reuses Party, Product, Order, Payment, Shipment, and Status Lifecycle patterns.
 
+See the full [E-Commerce model pattern](patterns/e-commerce.md).
+
 ## Real-World Extensions and Legacy Conversion
 
 Concerns: mapping legacy tables to canonical concepts, preserving external identifiers, supporting organization-specific terminology, handling incomplete or denormalized data, using classifications rather than proliferating entity types, progressive migration, and lineage between legacy data and MDE knowledge.
