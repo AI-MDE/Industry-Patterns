@@ -20,6 +20,13 @@ The current release captures the work completed so far: cross-industry concepts,
 - [Health Care knowledge base](knowledge-bases/health-care/README.md)
 - [Pattern anatomy and roadmap](pattern-anatomy.md)
 
+### Applied industry extensions
+
+These patterns extend the catalog beyond the original book-derived industry subjects.
+
+- [Physical Therapy Clinic](patterns/physical-therapy-clinic.md)
+- [Industrial & Commercial Crane Rental Orchestration](patterns/crane-rental-orchestration.md)
+
 ## Industry subjects
 
 Manufacturing, Telecommunications, Health Care, Insurance, Financial Services, Professional Services, Travel, E-Commerce, and Real-World Extensions/Legacy Conversion.
