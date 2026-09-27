@@ -8,6 +8,8 @@ Concepts: Product, Part, Component, Product Specification, Bill of Materials, En
 
 Reusable patterns: Product/Part, Bill of Materials, Engineering Change, Inventory Configuration, Manufacturing Order, Work Effort/Process Plan, Production Run, Product Deployment, and Manufacturing Star Schema.
 
+See the full [Manufacturing model pattern](patterns/manufacturing.md).
+
 ## Telecommunications
 
 **Business overview:** Telecommunications providers design products and services over network resources, determine availability, accept and fulfill service orders, deploy connections, measure usage, manage subscriptions, and bill customers for recurring and consumption-based services.
@@ -15,6 +17,8 @@ Reusable patterns: Product/Part, Bill of Materials, Engineering Change, Inventor
 Concepts: Telecommunications Product, Telecommunications Service, Network Component, Circuit, Network Connection, Service Order, Service Availability, Service Deployment, Service Usage, Subscription, Usage Billing, Invoice, Communication Identifier, and Contact Mechanism.
 
 Reusable patterns: Product/Service, Network Component, Circuit/Connection, Service Order, Deployment/Usage, Subscription, Usage Billing, and Contact Mechanism.
+
+See the full [Telecommunications model pattern](patterns/telecommunications.md).
 
 ## Health Care
 
