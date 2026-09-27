@@ -4,12 +4,14 @@ Reusable industry knowledge patterns for Method Driven Engineering (MDE).
 
 This repository adapts recurring business concepts inspired by *The Data Model Resource Book, Revised Edition, Volume 2: A Library of Universal Data Models by Industry Types*. It is a derived MDE planning and knowledge resource, not a reproduction of the book.
 
-The current release captures the work completed so far: cross-industry concepts, industry subject summaries, and a detailed professional-services pattern. The patterns are primarily domain-model foundations enriched with business context and operational relationships. Full capabilities, use cases, business rules, state-transition models, pages, and test scenarios remain future extensions.
+The repository now contains detailed logical model patterns for every original industry subject, plus applied extensions. Each pattern combines business context, complexity variants, roles, concepts, relationships, lifecycles, events, baseline rules, AI modeling questions, MDE guidance, anti-patterns, and candidate behavioral expansion.
 
 ## Contents
 
 - [Catalog](catalog.md)
 - [Cross-industry concepts](patterns/cross-industry.md)
+- [Manufacturing](patterns/manufacturing.md)
+- [Telecommunications](patterns/telecommunications.md)
 - [Professional services](patterns/professional-services.md)
 - [E-Commerce](patterns/e-commerce.md)
 - [Health Care](patterns/health-care.md)
