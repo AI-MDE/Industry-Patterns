@@ -63,3 +63,23 @@ See the full [E-Commerce model pattern](patterns/e-commerce.md).
 Concerns: mapping legacy tables to canonical concepts, preserving external identifiers, supporting organization-specific terminology, handling incomplete or denormalized data, using classifications rather than proliferating entity types, progressive migration, and lineage between legacy data and MDE knowledge.
 
 See the full [Real-World Extensions and Legacy Conversion pattern](patterns/legacy-conversion.md).
+
+## Applied Industry Extensions
+
+The following patterns extend the catalog beyond the original book-derived industry subjects.
+
+### Physical Therapy Clinic
+
+Concepts: Patient Intake, Referral, Therapy Episode, Initial Evaluation, Clinical Finding, Outcome Measure, Plan of Care, Therapy Goal, Therapy Visit, Intervention Delivery, Home Exercise Program, Progress Evaluation, Authorization, Charge, Claim, Payment, and Discharge.
+
+Reusable patterns: Patient/Provider Role, Referral and Intake, Evaluation, Plan of Care and Goal, Appointment/Visit, Intervention Delivery, Exercise Prescription, Outcome Measurement, Authorization Utilization, Billing, and Discharge.
+
+See the full [Physical Therapy Clinic model pattern](patterns/physical-therapy-clinic.md).
+
+### Industrial & Commercial Crane Rental Orchestration
+
+Concepts: Lift Request, Job Site, Load Requirement, Site Survey, Crane Asset, Crane Configuration, Capacity Evidence, Quote, Rental Agreement, Job Order, Lift Plan, Reservation, Crew Assignment, Dispatch, Transport, Setup, Inspection, Lift Activity, Equipment Usage, Maintenance, Charge Event, Invoice, and Payment.
+
+Reusable patterns: Asset/Fleet, Lift Demand Assessment, Equipment Selection and Configuration, Quote/Agreement, Lift Planning, Qualification and Readiness, Reservation and Dispatch, Transport, Setup and Inspection, Lift Execution, Utilization and Maintenance, and Usage-Based Billing.
+
+See the full [Industrial & Commercial Crane Rental Orchestration model pattern](patterns/crane-rental-orchestration.md).
