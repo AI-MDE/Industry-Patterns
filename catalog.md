@@ -32,7 +32,9 @@ See the full [Insurance model pattern](patterns/insurance.md).
 
 Concepts: Financial Institution, Customer, Account, Financial Product, Financial Agreement, Account Role, Ownership, Transaction, Deposit, Withdrawal, Payment, Financial Instrument, Account Status, and Transaction Status.
 
-This subject is currently catalog-level and has not yet been expanded into a detailed MDE pattern.
+Reusable patterns: Party/Customer Role, Product/Offering, Customer Due Diligence, Financial Agreement, Account/Authority, Instruction/Authorization, Transaction/Ledger Entry, Payment/Clearing/Settlement, Reconciliation, and Dispute.
+
+See the full [Financial Services model pattern](patterns/financial-services.md).
 
 ## Professional Services
 
