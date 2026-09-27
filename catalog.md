@@ -26,6 +26,8 @@ Concepts: Insurer, Insurance Product, Policy, Coverage, Policyholder, Policy Par
 
 The principal distinctions are product versus policy, policy versus coverage, insured subject versus policy party, and claim versus settlement/payment.
 
+See the full [Insurance model pattern](patterns/insurance.md).
+
 ## Financial Services
 
 Concepts: Financial Institution, Customer, Account, Financial Product, Financial Agreement, Account Role, Ownership, Transaction, Deposit, Withdrawal, Payment, Financial Instrument, Account Status, and Transaction Status.
@@ -44,7 +46,7 @@ See [Professional Services](patterns/professional-services.md).
 
 Concepts: Traveler, Travel Provider, Travel Product/Service, Itinerary, Reservation, Booking, Trip Segment, Location, Schedule, Fare, Rate, Ticket, Payment, Cancellation, and Status.
 
-This subject is currently catalog-level.
+See the full [Travel model pattern](patterns/travel.md).
 
 ## E-Commerce
 
