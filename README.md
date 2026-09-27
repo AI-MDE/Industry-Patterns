@@ -14,6 +14,7 @@ The current release captures the work completed so far: cross-industry concepts,
 - [E-Commerce](patterns/e-commerce.md)
 - [Health Care](patterns/health-care.md)
 - [Insurance](patterns/insurance.md)
+- [Financial Services](patterns/financial-services.md)
 - [Travel](patterns/travel.md)
 - [Real-World Extensions and Legacy Conversion](patterns/legacy-conversion.md)
 - [Health Care knowledge base](knowledge-bases/health-care/README.md)
