@@ -6,6 +6,51 @@ Although this work describes the business domain, we deliberately use **requirem
 
 The objective of this phase is therefore a **complete requirements model**: a coherent, sufficiently complete description of the domain and behavior needed as input to application design and implementation.
 
+## Modeling context
+
+The requirements model is produced within a broader modeling context. The architect/modeler and the AI do not work from a blank page: they synthesize stakeholder and SME knowledge, explicit requirements, existing systems, reusable patterns, industry knowledge, and other reference material into one coherent model.
+
+```text
+                              BUSINESS / DOMAIN CONTEXT
+                                        |
+                 +----------------------+----------------------+
+                 |                      |                      |
+          Requirements            Existing Systems       SME / Stakeholders
+                 |                      |                      |
+                 +----------------------+----------------------+
+                                        |
+                                        v
+                             +-----------------------+
+                             | ARCHITECT / MODELER   |
+                             |      + AI AGENT       |
+                             +-----------+-----------+
+                                         |
+                           discovers / selects / composes /
+                                  specializes / challenges
+                                         |
+                 +-----------------------+-----------------------+
+                 |                       |                       |
+                 v                       v                       v
+          INDUSTRY MODELS          MODELING PATTERNS       REFERENCE KNOWLEDGE
+                 |                       |                       |
+          Insurance                  Case                  Standards
+          Healthcare                 Approval              Regulations
+          Finance                    Assignment            Taxonomies
+          Manufacturing              Party / Role          Existing models
+          ...                        SLA                    Terminology
+                                     Documents
+                                     ...
+                 +-----------------------+-----------------------+
+                                         |
+                                         v
+                             +-----------------------+
+                             | COMPLETE REQUIREMENTS |
+                             |        MODEL          |
+                             +-----------------------+
+```
+
+The **SME and stakeholders provide knowledge of the actual organization**. The **architect/modeler owns modeling decisions and scope**. The **AI agent performs discovery, synthesis, composition, challenge, and gap analysis**. Industry models, modeling patterns, existing systems, and reference knowledge are supporting inputs rather than authorities that automatically determine the result.
+
 ## Completeness lens: What, How, Where, Who, When, Why
 
 The Zachman interrogatives provide a useful completeness lens without requiring adoption of the full Zachman Framework.
@@ -25,7 +70,8 @@ The requirements model is not complete merely because a prescribed set of docume
 
 The architect/modeler should not start from a blank page. The AI-assisted modeling process can draw from several sources:
 
-- **Requirements and stakeholder knowledge** — the facts and needs of the specific organization.
+- **Requirements and stakeholder/SME knowledge** — the facts and needs of the specific organization.
+- **Existing systems** — current behavior, terminology, data, integrations, constraints, and legacy knowledge that may need to be preserved, challenged, or replaced.
 - **Industry models/patterns** — curated knowledge for insurance, healthcare, financial services, manufacturing, travel, professional services, and other domains.
 - **Modeling patterns** — reusable cross-industry structures such as Case, Approval, Assignment, Work Queue, Document/Evidence, Lifecycle, SLA, Escalation, Decision, Party/Role, and Audit/History.
 - **Process patterns** — recurring forms of work such as Request–Review–Decision, Submit–Validate–Approve, parallel review, wait/remind/escalate, and exception routing.
@@ -36,7 +82,7 @@ These sources are aids to modeling; none of them is the final requirements model
 
 ## Role of the AI modeler
 
-The AI is the active modeling participant. The pattern and reference libraries are passive knowledge resources.
+The AI is an active modeling participant. The pattern and reference libraries are passive knowledge resources.
 
 The AI should:
 
@@ -91,30 +137,17 @@ The resulting requirements model belongs to the target organization. It is neith
 7. **Validate** — walk scenarios and examples with stakeholders.
 8. **Baseline** — produce the agreed requirements model as input to application design.
 
-## Target picture
+## Requirements model target
 
 ```text
-Requirements + Stakeholders + Existing Systems
-                    |
-                    v
-              AI Modeler + Architect
-                    ^
-       +------------+-------------+
-       |            |             |
- Industry       Modeling       Reference
- Models         Patterns       Knowledge
-       |            |             |
-       +------------+-------------+
-                    |
-                    v
           COMPLETE REQUIREMENTS MODEL
 
-          WHAT   concepts/information
-          HOW    behavior/processes
-          WHERE  location/boundaries
-          WHO    actors/responsibility
-          WHEN   events/lifecycle/time
-          WHY    goals/policies/rules
+          WHAT   concepts / information
+          HOW    behavior / processes
+          WHERE  location / boundaries
+          WHO    actors / responsibility
+          WHEN   events / lifecycle / time
+          WHY    goals / policies / rules
                     |
                     v
               Review / Validate
