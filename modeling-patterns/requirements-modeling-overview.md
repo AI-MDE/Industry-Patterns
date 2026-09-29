@@ -126,16 +126,48 @@ An insurance requirements model, for example, may draw Claim, Policy, Coverage, 
 
 The resulting requirements model belongs to the target organization. It is neither a copy of the industry model nor a mechanical collection of modeling patterns.
 
+## Pattern recognition and composition strategy
+
+During requirements modeling, the AI should actively look for recurring structural and behavioral characteristics that may correspond to known modeling patterns. It should consult the [Modeling Pattern Catalog](catalog.md) for candidates, but patterns must not drive the requirements or be forced onto the domain.
+
+Recognition is semantic rather than keyword-based. Once a candidate is identified, the AI should load its full definition and apply it by **binding abstract pattern roles to existing domain concepts before introducing new concepts**.
+
+When several patterns apply, they are not maintained as separate mini-models. They are semantic overlays on the same canonical requirements model. The AI must reconcile:
+
+- **identity** — two concepts may represent the same thing;
+- **overlap** — multiple patterns may provide the same semantic capability;
+- **dependency** — one pattern may require semantics another already provides;
+- **conflict** — pattern invariants or domain requirements may disagree;
+- **specialization** — a generic role may already be represented by a domain-specific concept;
+- **missing bindings** — a required role may not yet have a domain concept;
+- **redundancy** — composition may have introduced unnecessary duplicate concepts.
+
+Pattern bindings should be retained where useful for provenance and downstream reasoning, for example:
+
+```text
+Complaint        realizes Case.subject
+Employee         realizes Assignment.assignee
+Attachment       realizes DocumentEvidence.item
+SupervisorReview realizes Approval.decision
+```
+
+These bindings add semantics without changing the language of the requirements model.
+
+The standard definition and application rules for patterns are described in [Modeling Pattern Anatomy](pattern-anatomy.md).
+
 ## Recommended modeling flow
 
 1. **Understand** — establish objective, scope, terminology, constraints, and context.
 2. **Seed** — load relevant industry and reference knowledge.
-3. **Discover** — identify candidate concepts, actors, capabilities, processes, rules, events, and applicable patterns.
-4. **Compose** — build one coherent candidate requirements model and resolve overlaps and dependencies.
-5. **Specialize** — adapt the model to how this organization actually works.
-6. **Challenge** — use the six interrogatives to find omissions, contradictions, weak areas, and unresolved questions.
-7. **Validate** — walk scenarios and examples with stakeholders.
-8. **Baseline** — produce the agreed requirements model as input to application design.
+3. **Discover** — identify candidate concepts, actors, capabilities, processes, rules, events, and semantic signatures of applicable patterns.
+4. **Retrieve** — consult the pattern catalog and load only relevant pattern definitions.
+5. **Bind** — map pattern roles onto existing domain concepts.
+6. **Extend** — add only genuinely missing concepts, relationships, rules, or behavior.
+7. **Reconcile** — merge overlapping pattern semantics into one canonical requirements model and resolve conflicts, dependencies, and redundancy.
+8. **Specialize** — adapt generic and industry knowledge to how this organization actually works.
+9. **Challenge** — use pattern invariants and the six interrogatives to find omissions, contradictions, weak areas, and unresolved questions.
+10. **Validate** — walk scenarios and examples with stakeholders.
+11. **Baseline** — produce the agreed requirements model as input to application design.
 
 ## Requirements model target
 
@@ -158,6 +190,6 @@ The resulting requirements model belongs to the target organization. It is neith
 
 ## Key principle
 
-**Patterns and industry models do not replace AI reasoning. They give the AI curated, inspectable, reusable knowledge and modeling contracts that help it produce a more consistent, traceable, complete requirements model.**
+**Patterns and industry models do not replace AI reasoning. They give the AI curated, inspectable, reusable knowledge and modeling contracts that help it produce a more consistent, traceable, complete requirements model. Patterns contribute semantics before they contribute new concepts.**
 
 The target of the modeling phase is the requirements model itself. Application design and implementation are downstream concerns.
