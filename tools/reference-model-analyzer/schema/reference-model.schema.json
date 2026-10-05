@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MDE normalized reference model",
+  "type": "object",
+  "required": ["source", "domains"],
+  "properties": {
+    "source": { "type": "object", "required": ["system"], "properties": { "system": { "$ref": "#/$defs/name" }, "version": { "$ref": "#/$defs/name" }, "file": { "type": "string" }, "adapter": { "type": "string" }, "sha256": { "type": "string" } }, "additionalProperties": true },
+    "domains": { "type": "array", "items": { "$ref": "#/$defs/domain" } },
+    "capabilities": { "type": "array", "items": { "$ref": "#/$defs/capability" } },
+    "interfaces": { "type": "array", "items": { "$ref": "#/$defs/interface" } },
+    "modules": { "type": "array", "items": { "$ref": "#/$defs/named" } },
+    "workflows": { "type": "array", "items": { "$ref": "#/$defs/named" } },
+    "unmapped": { "type": "array", "items": { "type": "object", "required": ["name", "sourceType", "provenance"], "properties": { "name": { "$ref": "#/$defs/name" }, "sourceType": { "$ref": "#/$defs/name" }, "provenance": { "type": "object" } }, "additionalProperties": true } },
+    "warnings": { "type": "array", "items": { "$ref": "#/$defs/name" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "name": { "type": "string", "minLength": 1, "pattern": "\\S" },
+    "named": { "type": "object", "required": ["name"], "properties": { "name": { "$ref": "#/$defs/name" }, "id": { "$ref": "#/$defs/name" }, "provenance": { "type": "object" } }, "additionalProperties": true },
+    "domain": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "required": ["abes"], "properties": { "abes": { "type": "array", "items": { "$ref": "#/$defs/abe" } } } }] },
+    "abe": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "required": ["entities"], "properties": { "entities": { "type": "array", "items": { "$ref": "#/$defs/entity" } } } }] },
+    "entity": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "properties": { "attributes": { "type": "array", "items": { "$ref": "#/$defs/attribute" } }, "relationships": { "type": "array", "items": { "$ref": "#/$defs/relationship" } }, "specializes": { "$ref": "#/$defs/name" }, "sourceSpecific": { "type": "boolean" } } }] },
+    "attribute": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "properties": { "type": { "$ref": "#/$defs/name" }, "required": { "type": "boolean" } } }] },
+    "relationship": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "required": ["target"], "properties": { "target": { "$ref": "#/$defs/name" }, "cardinality": { "$ref": "#/$defs/name" }, "kind": { "type": "string" }, "lifecycle": { "type": "string" } } }] },
+    "capability": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "properties": { "relatedAbes": { "type": "array", "items": { "$ref": "#/$defs/name" } } } }] },
+    "interface": { "allOf": [{ "$ref": "#/$defs/named" }, { "type": "object", "properties": { "operations": { "type": "array", "items": { "$ref": "#/$defs/name" } } } }] }
+  }
+}
