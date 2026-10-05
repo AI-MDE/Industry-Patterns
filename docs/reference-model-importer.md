@@ -251,3 +251,26 @@ Apply to new industries
 ```
 
 The goal is not to inherit the complexity of existing standards. The goal is to use their accumulated modeling experience to improve MDE's smaller, cross-industry, AI-composable semantic model.
+
+
+## Terminology alignment
+
+The importer preserves each source model's original terminology and uses a separate alias registry to align equivalent terms with canonical MDE terminology.
+
+Registry:
+
+```text
+tools/reference-model-analyzer/terminology-aliases.json
+```
+
+Example:
+
+```text
+SID: Business Entity
+  → MDE: Entity
+
+BIAN: Service Domain
+  → MDE: Module
+```
+
+The original source term remains attached to the imported concept. Unknown terms are preserved as unmapped rather than forced into the current MDE meta-model.
