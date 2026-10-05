@@ -712,3 +712,20 @@ The central rules are:
 12. Use AI to recognize, select, compose, specialize, and validate the application model.
 
 The result is a system that preserves the consistency of a canonical model while producing application models that remain small, relevant, modular, replaceable, and appropriate to the actual business.
+
+
+## Reference-model analysis
+
+MDE may learn from mature external reference models without adopting their industry scope or copying their source artifacts.
+
+The [Reference Model Importer and Analyzer](reference-model-importer.md) provides a source-neutral pipeline for:
+
+- importing authorized reference-model files through adapters;
+- normalizing Domains, ABEs, Entities, Capabilities, and Interfaces;
+- comparing them with existing MDE Industry Patterns;
+- identifying matches, specializations, extensions, candidate ABEs, and gaps;
+- preserving source provenance for review.
+
+SID and BIAN are the initial reference targets. The same mechanism can later support FHIR, ACORD, GS1, and other models.
+
+The analyzer informs the canonical model; it does not automatically modify it.
