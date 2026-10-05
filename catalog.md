@@ -113,3 +113,13 @@ Concepts: Lift Request, Job Site, Load Requirement, Site Survey, Crane Asset, Cr
 Reusable patterns: Asset/Fleet, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling, Lift Demand Assessment, Equipment Selection and Configuration, Quote/Agreement, Lift Planning, Qualification and Readiness, Reservation and Dispatch, Transport, Setup and Inspection, Lift Execution, Utilization and Maintenance, and Usage-Based Billing.
 
 See the full [Industrial & Commercial Crane Rental Orchestration model pattern](patterns/crane-rental-orchestration.md).
+
+### Equipment Service and Field Service
+
+**Business overview:** Equipment service organizations register customer equipment, receive on-demand service requests and generate planned maintenance and inspections, derive the skills the work requires, schedule and assign qualified technicians, perform the work in workshops or at customer sites, record labor and outcomes, keep an auditable service history, and may also sell or lease the equipment they service.
+
+Concepts: Customer, Contact, Equipment Category, Equipment Model, Equipment, Meter Reading, Service Type, Service Request, Maintenance Requirement, Service Plan, Technician, Skill, Technician Skill (certification), Skill Requirement, Technician Availability, Service Request Assignment, Work Effort, Service Visit, Time Entry, Service Outcome, Status History, Equipment Agreement (sale, lease), Agreement Role, and Agreement Term.
+
+Reusable patterns: Party/Contact, Asset Catalog vs. Instance, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling (skills and certification), Assignment, Work Effort, Time Entry, Status Lifecycle and History, and Agreement.
+
+See the full [Equipment Service and Field Service model pattern](patterns/equipment-service.md).

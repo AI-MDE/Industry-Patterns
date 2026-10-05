@@ -351,6 +351,8 @@ Outcome            -> Functional Progress / Discharge
 
 ### Equipment service and maintenance
 
+See the [Equipment Service and Field Service model pattern](../patterns/equipment-service.md) for the full industry specialization.
+
 ```text
 Service Request    -> On-Demand Service Request
 Service Plan       -> Maintenance / Inspection Plan

@@ -37,6 +37,7 @@ These patterns extend the catalog beyond the original book-derived industry subj
 
 - [Physical Therapy Clinic](patterns/physical-therapy-clinic.md)
 - [Industrial & Commercial Crane Rental Orchestration](patterns/crane-rental-orchestration.md)
+- [Equipment Service and Field Service](patterns/equipment-service.md)
 
 ### Complexity variants
 
