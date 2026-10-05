@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, architecture]
 
 This reusable knowledge base contains business requirements, not an executable application architecture.
 
-It follows the repository metamodel architecture guidance. A consuming application must state its own technology, jurisdiction, security, persistence, integration, deployment, testing, and operational decisions.
+It follows the MDE metamodel architecture guidance. A consuming application must state its own technology, jurisdiction, security, persistence, integration, deployment, testing, and operational decisions.
 
 ## Durable constraints
 

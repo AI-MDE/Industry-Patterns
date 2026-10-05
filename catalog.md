@@ -2,7 +2,7 @@
 
 ## Cross-Industry Modeling Patterns
 
-Industry patterns may compose reusable modeling patterns that cut across domains. Of particular importance for service-oriented applications is [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md): repeated or on-demand demand is matched to constrained people, teams, rooms, locations, vehicles, equipment, and other resources using configurable time, capability, location, capacity, and policy rules.
+Industry patterns may compose reusable modeling patterns that cut across domains. Of particular importance for service-oriented applications is [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md): repeated or on-demand demand is matched to constrained people, teams, rooms, locations, vehicles, equipment, and other resources using configurable time, capability, location, capacity, and policy rules. See the [Modeling Pattern Catalog](modeling-patterns/catalog.md) for the full set (Case, Assignment, Approval, SLA, Work Queue, and others).
 
 ## Manufacturing
 

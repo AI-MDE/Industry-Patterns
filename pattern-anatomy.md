@@ -18,7 +18,7 @@ The current material is a domain-model foundation enriched with business meaning
 
 ## Current coverage
 
-The repository currently covers business overview, concepts, relationships, broad operational flow, lifecycle-adjacent statuses, complexity variants, selection signals, and modeling questions. Professional Services is the most detailed subject.
+Every industry pattern except Professional Services now carries a detailed logical model: business overview, complexity variants, actors and roles, concepts, relationships, lifecycles, business events, baseline rules, AI modeling questions, MDE guidance, anti-patterns, and candidate behavioral expansion. Professional Services is the least detailed and does not yet follow this structure (no variants, lifecycles, events, or baseline rules sections). Health Care is the only subject instantiated as a [knowledge base](knowledge-bases/health-care/README.md).
 
 ## Future work
 
