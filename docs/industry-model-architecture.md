@@ -138,38 +138,42 @@ The ABE is useful because AI and human modelers should not have to reason at the
 
 ### ABE detail
 
-An ABE may contain different levels of detail without introducing a separate Profile concept.
+An ABE may define multiple named levels of detail without introducing a separate Profile concept. These levels are part of the ABE itself and allow the same ABE to serve simple, standard, advanced, or specialized application needs.
 
 For example:
 
 ```text
 ABE: Inventory
 
-Core
+Level 1 — Core
   Item
   Location
   Quantity
 
-Additional detail as required
-  Inventory Unit
-  Movement
-  Reservation
-  Assignment
-  Lot / Batch
-  Serial Tracking
-  Warehouse / Bin
-  Inspection
-  Traceability
-  Work Order Consumption
+Level 2 — Operational
+  + Inventory Unit
+  + Movement
+  + Reservation
+  + Assignment
+
+Level 3 — Advanced
+  + Lot / Batch
+  + Serial Tracking
+  + Warehouse / Bin
+  + Inspection
+
+Level 4 — Specialized
+  + Traceability
+  + Work Order Consumption
 ```
 
 A simple consulting application may use only the core portion. A manufacturing or regulated application may use much more of the same ABE.
 
-The level of ABE detail is an application-selection decision, not a separate first-class modeling concept.
+The selected ABE level of detail is an application-selection decision, not a separate first-class modeling concept. Levels may be cumulative or specialized branches when the business semantics require it.
 
 ### ABE principle
 
-> **ABE is the primary reusable semantic unit for organizing, selecting, composing, and navigating industry models.**
+> **ABE is the primary reusable semantic unit for organizing, selecting, composing, and navigating industry models, and it may expose multiple levels of semantic detail.**
 
 An ABE is not automatically a capability and is not automatically an implementation module. It is first-class in the modeling language and Industry Patterns catalog, even though it does not need to become a runtime business entity.
 
