@@ -9,7 +9,7 @@ The objective is to avoid two bad extremes:
 - one universal application model containing every possible concept; and
 - many disconnected fragments that duplicate concepts and are difficult to compose.
 
-The preferred approach is a coherent canonical semantic model, organized into domains and Aggregate Business Entities (ABEs), from which application-specific models are selected and composed according to required capabilities and capability profiles.
+The preferred approach is a coherent canonical semantic model, organized into domains and Aggregate Business Entities (ABEs), from which application-specific models are selected and composed according to required capabilities and the level of ABE detail needed by the application.
 
 ## Core principle
 
@@ -34,9 +34,9 @@ Business Need
     ↓
 Capability
     ↓
-Capability Profile
+Relevant ABEs
     ↓
-Relevant ABEs / Concepts
+Required ABE Detail
     ↓
 Architecture Decision
     ↓
@@ -50,7 +50,7 @@ Application Model
 These two views complement each other:
 
 - **Domain / ABE / Entity** structures business meaning.
-- **Capability / Profile / Module / Interface** structures selection and realization.
+- **Capability / ABE / Module / Interface** structures selection and realization.
 
 ## 1. Canonical semantic model
 
@@ -101,9 +101,9 @@ Its primary purpose is organization and semantic coherence.
 
 ## 3. Aggregate Business Entity (ABE)
 
-An **Aggregate Business Entity (ABE)** is the important middle layer between a Domain and individual entities.
+An **Aggregate Business Entity (ABE)** is a primary first-class modeling concept in the Industry Patterns model. It is the principal reusable semantic unit between a Domain and individual entities.
 
-An ABE groups business concepts that belong together semantically and are commonly understood or selected together.
+An ABE groups business concepts that belong together semantically and are commonly understood, selected, specialized, and composed together. Industry models should be organized primarily around ABEs rather than around flat lists of entities.
 
 Example:
 
@@ -136,11 +136,42 @@ ABE: Assignment
 
 The ABE is useful because AI and human modelers should not have to reason at the level of hundreds of individual entities when selecting an application model.
 
+### ABE detail
+
+An ABE may contain different levels of detail without introducing a separate Profile concept.
+
+For example:
+
+```text
+ABE: Inventory
+
+Core
+  Item
+  Location
+  Quantity
+
+Additional detail as required
+  Inventory Unit
+  Movement
+  Reservation
+  Assignment
+  Lot / Batch
+  Serial Tracking
+  Warehouse / Bin
+  Inspection
+  Traceability
+  Work Order Consumption
+```
+
+A simple consulting application may use only the core portion. A manufacturing or regulated application may use much more of the same ABE.
+
+The level of ABE detail is an application-selection decision, not a separate first-class modeling concept.
+
 ### ABE principle
 
-> **ABE structures the semantic model at a useful composition granularity.**
+> **ABE is the primary reusable semantic unit for organizing, selecting, composing, and navigating industry models.**
 
-An ABE is not automatically a capability and is not automatically an implementation module.
+An ABE is not automatically a capability and is not automatically an implementation module. It is first-class in the modeling language and Industry Patterns catalog, even though it does not need to become a runtime business entity.
 
 ## 4. Entity / Concept
 
@@ -188,41 +219,41 @@ A capability may be realized by:
 
 > **Capability expresses required business ability, not model structure or implementation ownership.**
 
-## 6. Capability Profile
+## 6. Capability and ABE selection
 
-One model does not fit all applications that require the same capability.
+A Capability describes what the business or application must be able to do. It may require one or several ABEs.
 
-A Capability Profile identifies the required semantic breadth, depth, rigor, and complexity for a particular application.
+The capability does not introduce another modeling layer between itself and the ABEs.
+
+```text
+Capability
+    ↓ uses
+ABE[]
+    ↓ selects required detail
+Entity[] + Rules + Relationships
+```
+
+Different applications may use different amounts of detail from the same ABE.
 
 ### Inventory example
 
 ```text
 Capability: Manage Inventory
-
-Profiles:
-  Asset Custody
-  Basic Stock
-  Warehouse Inventory
-  Manufacturing Inventory
-  Regulated / Traceable Inventory
+    ↓
+ABE: Inventory
 ```
 
-A consulting company may need only laptop custody:
+A consulting company may select only:
 
 ```text
 Item
 Inventory Unit
-Serial Number
 Location
 Status
 Assignment
-Receive
-Assign
-Return
-Retire
 ```
 
-An aircraft manufacturer may require:
+An aircraft manufacturer may select additional detail from the same ABE:
 
 ```text
 Part
@@ -233,47 +264,37 @@ Warehouse / Bin
 Reservation
 Allocation
 Material Requirement
-Receipt / Issue / Transfer
 Inspection
 Quarantine
 Traceability
-Supplier Lot
 Certificate
-Configuration
 Work Order Consumption
 Substitution
 ```
-
-These are not merely different screen configurations. They represent materially different semantic depth.
 
 ### CRM example
 
 ```text
 Capability: Manage Customer Relationships
-
-Profiles:
-  Contact Relationship
-  Sales CRM
-  Service Relationship
-  Enterprise Account Management
+    ↓
+ABE: Customer Relationship
 ```
 
-A simple relationship profile may need:
+A simple service application may require:
 
 ```text
 Party
 Organization
 Contact
 Interaction
-Note
+Preference
 Follow-up
 ```
 
-A sales profile may add:
+A sales-oriented application may additionally require:
 
 ```text
 Lead
-Prospect
 Opportunity
 Sales Stage
 Activity
@@ -281,22 +302,11 @@ Quote
 Forecast
 ```
 
-A service relationship profile may instead add:
+The ABE remains the stable reusable modeling unit; Strategy selects the amount of detail needed by the application.
 
-```text
-Service Request
-Service History
-Preference
-Complaint
-Satisfaction
-Relationship Status
-```
+### Selection principle
 
-### Profile principle
-
-> **Do not select a model by capability name alone. Select the capability profile appropriate to the business context.**
-
-A profile can often be expressed as a selection and composition of ABEs plus additional profile-specific rules and concepts.
+> **Capability tells us which business area is needed. ABE tells us the reusable semantic unit. Strategy selects the required detail from the ABE.**
 
 ## 7. Module
 
@@ -470,8 +480,7 @@ Strategy identifies:
 
 - the business goal;
 - required capabilities;
-- relevant capability profiles;
-- applicable patterns and ABEs;
+- applicable ABEs and patterns;
 - the required level of semantic and verification rigor.
 
 ```text
@@ -479,9 +488,9 @@ Business Goal
     ↓
 Required Capabilities
     ↓
-Capability Profiles
-    ↓
 Relevant ABEs / Patterns
+    ↓
+Required ABE Detail
 ```
 
 Strategy should not select individual entities prematurely.
@@ -508,7 +517,7 @@ Interface Binding
 
 ### Separation principle
 
-> **Strategy decides what capabilities and model depth are needed. Architecture decides how those capabilities are realized and connected.**
+> **Strategy decides what capabilities, ABEs, and ABE detail are needed. Architecture decides how those capabilities are realized and connected.**
 
 ## 12. Composition model
 
@@ -535,7 +544,9 @@ Domains
         ↓
 ABEs
         ↓
-Capability / Profile Selection
+Capability-Based Selection
+        ↓
+Required ABE Detail
         ↓
 Application Semantic Projection
         ↓
@@ -550,7 +561,7 @@ Interfaces
 
 > **Fragment the model for use, not for meaning.**
 
-There should be one canonical meaning for a concept, while different applications select different ABEs, entities, profiles, and implementations.
+There should be one canonical meaning for a concept, while different applications select different ABEs, different levels of ABE detail, and different implementations.
 
 ## 13. Pattern packages
 
@@ -584,8 +595,6 @@ Recognize business goals
         ↓
 Identify required capabilities
         ↓
-Determine capability profiles
-        ↓
 Select relevant domains / ABEs / patterns
         ↓
 Bind to existing business concepts
@@ -604,8 +613,8 @@ AI should avoid:
 - copying an entire canonical model into every application;
 - inventing duplicate concepts when an existing canonical concept already fits;
 - assuming every capability must be implemented internally;
-- selecting overly sophisticated profiles for simple businesses;
-- selecting simplistic profiles for regulated or complex businesses;
+- selecting unnecessary ABE detail for simple businesses;
+- selecting insufficient ABE detail for regulated or complex businesses;
 - coupling modules through each other's internal entities.
 
 ## 15. Why ABE matters
@@ -634,14 +643,14 @@ Entity
 
 AI can reason about cohesive semantic clusters before expanding them into detailed entities.
 
-This supports capability profiles particularly well:
+This allows Strategy to work at the ABE level before expanding into detailed entities:
 
 ```text
-Capability Profile
+Capability
       ↓ selects
 ABE[]
-      ↓ refines
-Entity[] + Rules
+      ↓ chooses required detail
+Entity[] + Rules + Relationships
 ```
 
 ## 16. Summary
@@ -666,12 +675,13 @@ ENTITY / CONCEPT
 CAPABILITY
   required business ability
 
-    ↓
+    ↓ uses
 
-PROFILE
-  required breadth / depth / rigor
+ABE
+  primary reusable semantic unit
+  with application-selected detail
 
-    ↓
+    ↓ realized through
 
 MODULE or INTEGRATION
   bounded realization / ownership
@@ -686,14 +696,14 @@ The central rules are:
 
 1. Maintain one coherent canonical semantic model.
 2. Organize it into Domains and ABEs.
-3. Use capabilities to express what the application needs.
-4. Use capability profiles to select appropriate semantic depth.
-5. Let profiles select and refine relevant ABEs rather than copying the entire model.
+3. Treat ABE as the primary reusable modeling concept between Domain and Entity.
+4. Use capabilities to express what the application needs and which ABEs are relevant.
+5. Let Strategy select only the required detail from each ABE rather than introducing a separate Profile layer.
 6. Treat modules as bounded implementation and ownership units.
 7. Allow capabilities to be realized internally or externally.
 8. Make dependencies explicit through provided and required interfaces.
 9. Give every implemented entity one primary owner.
-10. Let Strategy determine capabilities, profiles, and semantic rigor.
+10. Let Strategy determine capabilities, ABEs, required ABE detail, and semantic rigor.
 11. Let Architecture determine realization and interface bindings.
 12. Use AI to recognize, select, compose, specialize, and validate the application model.
 
