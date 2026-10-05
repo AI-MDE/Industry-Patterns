@@ -22,6 +22,8 @@ A pattern is not copied into a requirements model. Its abstract roles are **boun
 | **Party / Role** | A person or organization participates in different capacities | Party, role, participation, relationship |
 | **Audit / History** | Significant actions or changes must be traceable | Event/change, actor, timestamp, subject, before/after context |
 | **Workflow** | Activities require sequencing, branching, waiting, coordination, parallelism, or human work | Activities, transitions, conditions, events, work steps |
+| **Recurring Service** | A service need repeats by cadence, quantity, condition, or trigger and generates future service demand | Service plan, recurrence, demand generation, continuity, completion |
+| **Constraint-Based Scheduling** | Demand must be matched to limited resources subject to time, capability, location, capacity, equipment, or team constraints | Demand, resource, requirement, availability, constraint, assignment, optimization |
 
 ## Discovery guidance
 
@@ -37,7 +39,9 @@ Likewise:
 - “respond within 48 hours” can suggest **SLA**;
 - “unclaimed work is available to qualified reviewers” can suggest **Work Queue**;
 - “the request moves from submitted to reviewed to closed” can suggest **Lifecycle**;
-- “after five days it goes to the manager” can suggest **Escalation**.
+- “after five days it goes to the manager” can suggest **Escalation**;
+- “twice a week for six weeks” can suggest **Recurring Service**;
+- “find an available qualified technician with the right equipment at the client site” can suggest **Constraint-Based Scheduling**.
 
 Recognition signals identify candidates; they do not prove that a pattern applies.
 
@@ -86,3 +90,5 @@ The AI reconciles these bindings into one canonical model.
 ## Pattern definition format
 
 Full pattern definitions should follow [pattern-anatomy.md](pattern-anatomy.md).
+
+See [Recurring Service and Constraint-Based Scheduling](service-scheduling.md) for the reusable scheduling pattern.

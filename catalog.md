@@ -1,5 +1,9 @@
 # Industry Pattern Catalog
 
+## Cross-Industry Modeling Patterns
+
+Industry patterns may compose reusable modeling patterns that cut across domains. Of particular importance for service-oriented applications is [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md): repeated or on-demand demand is matched to constrained people, teams, rooms, locations, vehicles, equipment, and other resources using configurable time, capability, location, capacity, and policy rules.
+
 ## Manufacturing
 
 **Business overview:** Manufacturers define products and components, control product structures and engineering changes, plan material and work, execute production, deploy finished products, and analyze quality, cost, capacity, inventory, and usage.
@@ -96,7 +100,7 @@ The following patterns extend the catalog beyond the original book-derived indus
 
 Concepts: Patient Intake, Referral, Therapy Episode, Initial Evaluation, Clinical Finding, Outcome Measure, Plan of Care, Therapy Goal, Therapy Visit, Intervention Delivery, Home Exercise Program, Progress Evaluation, Authorization, Charge, Claim, Payment, and Discharge.
 
-Reusable patterns: Patient/Provider Role, Referral and Intake, Evaluation, Plan of Care and Goal, Appointment/Visit, Intervention Delivery, Exercise Prescription, Outcome Measurement, Authorization Utilization, Billing, and Discharge.
+Reusable patterns: Patient/Provider Role, Referral and Intake, Evaluation, Plan of Care and Goal, Recurring Service, Constraint-Based Scheduling, Appointment/Visit, Intervention Delivery, Exercise Prescription, Outcome Measurement, Authorization Utilization, Billing, and Discharge.
 
 See the full [Physical Therapy Clinic model pattern](patterns/physical-therapy-clinic.md).
 
@@ -106,6 +110,6 @@ See the full [Physical Therapy Clinic model pattern](patterns/physical-therapy-c
 
 Concepts: Lift Request, Job Site, Load Requirement, Site Survey, Crane Asset, Crane Configuration, Capacity Evidence, Quote, Rental Agreement, Job Order, Lift Plan, Reservation, Crew Assignment, Dispatch, Transport, Setup, Inspection, Lift Activity, Equipment Usage, Maintenance, Charge Event, Invoice, and Payment.
 
-Reusable patterns: Asset/Fleet, Lift Demand Assessment, Equipment Selection and Configuration, Quote/Agreement, Lift Planning, Qualification and Readiness, Reservation and Dispatch, Transport, Setup and Inspection, Lift Execution, Utilization and Maintenance, and Usage-Based Billing.
+Reusable patterns: Asset/Fleet, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling, Lift Demand Assessment, Equipment Selection and Configuration, Quote/Agreement, Lift Planning, Qualification and Readiness, Reservation and Dispatch, Transport, Setup and Inspection, Lift Execution, Utilization and Maintenance, and Usage-Based Billing.
 
 See the full [Industrial & Commercial Crane Rental Orchestration model pattern](patterns/crane-rental-orchestration.md).
