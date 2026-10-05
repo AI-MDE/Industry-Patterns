@@ -1,0 +1,46 @@
+{
+  "Entity": [
+    {
+      "alias": "Business Entity",
+      "source": "SID"
+    },
+    {
+      "alias": "Business Object",
+      "source": "BIAN"
+    }
+  ],
+  "ABE": [
+    {
+      "alias": "Aggregate Business Entity",
+      "source": "SID"
+    }
+  ],
+  "Capability": [
+    {
+      "alias": "Business Capability",
+      "source": "BIAN"
+    }
+  ],
+  "Module": [
+    {
+      "alias": "Service Domain",
+      "source": "BIAN"
+    }
+  ],
+  "Interface": [
+    {
+      "alias": "Service Operation",
+      "source": "BIAN"
+    },
+    {
+      "alias": "Semantic API",
+      "source": "BIAN"
+    }
+  ],
+  "Workflow": [
+    {
+      "alias": "Business Scenario",
+      "source": "BIAN"
+    }
+  ]
+}
