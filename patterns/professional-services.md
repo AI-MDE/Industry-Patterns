@@ -79,26 +79,26 @@ The earlier summary contained actual model content. The following restores that 
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Client | Person or organization receiving professional services. | Client Identifier; Client Name; Client Type; Client Status; Primary Contact Name; Primary Email Address; Primary Phone Number; Billing Address |
-| Professional | Staff member, contractor, partner, consultant, lawyer, accountant, or other service provider. | Professional Identifier; Professional Name; Professional Role; Professional Status; Standard Billing Rate; Standard Cost Rate; Email Address |
-| Project | Body of work performed for a Client. | Project Identifier; Project Name; Project Description; Project Status; Start Date; Target End Date; Actual End Date; Billing Method; Budget Amount |
-| Task | Unit of work within a Project. | Task Identifier; Task Name; Task Description; Task Status; Planned Start Date; Planned End Date; Estimated Hours; Actual Hours |
-| Time Entry | Recorded labor time. | Time Entry Identifier; Work Date; Hours Worked; Billable Indicator; Time Entry Status; Work Description |
-| Expense | Reimbursable or non-reimbursable project cost. | Expense Identifier; Expense Date; Expense Type; Expense Amount; Billable Indicator; Expense Status; Expense Description |
-| Invoice | Billing document sent to a Client. | Invoice Identifier; Invoice Number; Invoice Date; Invoice Status; Invoice Total Amount; Due Date |
+| Client | Canonical definition: [Client](../model/requirements/professional-services/project/client.md). | See canonical concept for logical attributes. |
+| Professional | Canonical definition: [Professional](../model/requirements/professional-services/project/professional.md). | See canonical concept for logical attributes. |
+| Project | Canonical definition: [Project](../model/requirements/professional-services/project/project.md). | See canonical concept for logical attributes. |
+| Task | Canonical definition: [Task](../model/requirements/professional-services/project/task.md). | See canonical concept for logical attributes. |
+| Time Entry | Canonical definition: [Time Entry](../model/requirements/professional-services/project/time-entry.md). | See canonical concept for logical attributes. |
+| Expense | Canonical definition: [Expense](../model/requirements/professional-services/project/expense.md). | See canonical concept for logical attributes. |
+| Invoice | Canonical definition: [Invoice](../model/requirements/finance/invoice/invoice.md). | See canonical concept for logical attributes. |
 
 ### Standard extensions
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Engagement | Commercial relationship under which professional work is delivered. | Engagement Identifier; Engagement Name; Engagement Type; Engagement Status; Engagement Start Date; Engagement End Date; Billing Arrangement; Contract Reference; Approved Budget Amount |
-| Service Agreement | Contractual terms governing the professional service. | Service Agreement Identifier; Agreement Number; Agreement Type; Agreement Status; Effective Date; Expiration Date; Payment Terms; Billing Frequency; Retainer Amount; Fixed Fee Amount |
-| Project Assignment | A Professional's role and responsibility on a Project. | Assignment Identifier; Assignment Role; Assignment Status; Assignment Start Date; Assignment End Date; Allocation Percentage; Planned Hours; Billing Rate Override |
-| Billing Rate | Rate used to bill professional work. | Billing Rate Identifier; Rate Name; Rate Type; Billing Rate Amount; Currency; Effective Date; Expiration Date |
-| Deliverable | Work product delivered to the Client. | Deliverable Identifier; Deliverable Name; Deliverable Type; Deliverable Status; Due Date; Delivery Date; Acceptance Date |
-| Approval | Formal approval of time, expense, deliverable, invoice, or project change. | Approval Identifier; Approval Subject Type; Approval Status; Requested Date; Approved Date; Rejection Reason; Approval Notes |
-| Invoice Line | One explainable component of an Invoice. | Invoice Line Identifier; Line Number; Description; Quantity; Unit Rate; Line Amount; Line Type |
-| Payment | Money received against an Invoice. | Payment Identifier; Payment Date; Payment Amount; Payment Method; Payment Status; Payment Reference |
+| Engagement | Canonical definition: [Engagement](../model/requirements/professional-services/project/engagement.md). | See canonical concept for logical attributes. |
+| Service Agreement | Canonical definition: [Service Agreement](../model/requirements/professional-services/project/service-agreement.md). | See canonical concept for logical attributes. |
+| Project Assignment | Canonical definition: [Project Assignment](../model/requirements/professional-services/project/project-assignment.md). | See canonical concept for logical attributes. |
+| Billing Rate | Canonical definition: [Billing Rate](../model/requirements/professional-services/project/billing-rate.md). | See canonical concept for logical attributes. |
+| Deliverable | Canonical definition: [Deliverable](../model/requirements/professional-services/project/deliverable.md). | See canonical concept for logical attributes. |
+| Approval | Canonical definition: [Approval](../model/requirements/professional-services/project/approval.md). | See canonical concept for logical attributes. |
+| Invoice Line | Canonical definition: [Invoice Line](../model/requirements/finance/invoice/invoice-line.md). | See canonical concept for logical attributes. |
+| Payment | Canonical definition: [Payment](../model/requirements/finance/invoice/payment.md). | See canonical concept for logical attributes. |
 
 ### Relationship model
 
@@ -148,15 +148,45 @@ erDiagram
 
 ### Enterprise concepts
 
-- **Practice Area** — service line, department, or specialty; owns Engagements, groups Professionals, and provides Service Offerings.
-- **Service Offering** — professional service sold through an Engagement and delivered through a Project.
-- **Skill** — capability, certification, technology, domain, language, or credential; Professionals have Skills and Projects require them.
-- **Resource Plan** — forecasts staffing needs and allocates Professional capacity.
-- **Client Account** — continuing commercial relationship that groups Engagements.
-- **Matter** — case-like work unit governed by an Engagement.
-- **Work Effort** — generalized task, phase, milestone, activity, or matter step; may contain child Work Efforts.
-- **Billing Event** — approved time, milestone, retainer, installment, expense, or deliverable acceptance that generates an Invoice Line.
+- **Practice Area** — Canonical concept: [Practice Area](../model/requirements/professional-services/project/practice-area.md).
+- **Service Offering** — Canonical concept: [Service Offering](../model/requirements/professional-services/project/service-offering.md).
+- **Skill** — Canonical concept: [Skill](../model/requirements/professional-services/project/skill.md).
+- **Resource Plan** — Canonical concept: [Resource Plan](../model/requirements/professional-services/project/resource-plan.md).
+- **Client Account** — Canonical concept: [Client Account](../model/requirements/professional-services/project/client-account.md).
+- **Matter** — Canonical concept: [Matter](../model/requirements/professional-services/project/matter.md).
+- **Work Effort** — Canonical concept: [Work Effort](../model/requirements/professional-services/project/work-effort.md).
+- **Billing Event** — Canonical concept: [Billing Event](../model/requirements/professional-services/project/billing-event.md).
 
 ### Physical mapping
 
 Keep logical names authoritative. Example physical mappings are Client → `client`, Client Identifier → `client_id`, Service Agreement → `service_agreement`, Project Assignment → `project_assignment`, Time Entry → `time_entry`, Billing Rate → `billing_rate`, and Invoice Line → `invoice_line`. Final naming is generated by the selected technology-stack rules.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Client | [Client](../model/requirements/professional-services/project/client.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Professional | [Professional](../model/requirements/professional-services/project/professional.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Project | [Project](../model/requirements/professional-services/project/project.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Task | [Task](../model/requirements/professional-services/project/task.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Time Entry | [Time Entry](../model/requirements/professional-services/project/time-entry.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Expense | [Expense](../model/requirements/professional-services/project/expense.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Engagement | [Engagement](../model/requirements/professional-services/project/engagement.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Service Agreement | [Service Agreement](../model/requirements/professional-services/project/service-agreement.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Project Assignment | [Project Assignment](../model/requirements/professional-services/project/project-assignment.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Billing Rate | [Billing Rate](../model/requirements/professional-services/project/billing-rate.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Deliverable | [Deliverable](../model/requirements/professional-services/project/deliverable.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Approval | [Approval](../model/requirements/professional-services/project/approval.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Invoice Line | [Invoice Line](../model/requirements/finance/invoice/invoice-line.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Practice Area | [Practice Area](../model/requirements/professional-services/project/practice-area.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Service Offering | [Service Offering](../model/requirements/professional-services/project/service-offering.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Skill | [Skill](../model/requirements/professional-services/project/skill.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Resource Plan | [Resource Plan](../model/requirements/professional-services/project/resource-plan.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Client Account | [Client Account](../model/requirements/professional-services/project/client-account.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Matter | [Matter](../model/requirements/professional-services/project/matter.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Work Effort | [Work Effort](../model/requirements/professional-services/project/work-effort.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Billing Event | [Billing Event](../model/requirements/professional-services/project/billing-event.md) | [Project](../model/requirements/professional-services/project/README.md) |

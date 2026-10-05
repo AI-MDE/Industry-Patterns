@@ -57,359 +57,349 @@ Rule: Customer, Subscriber, Account Holder, Service User, Contact, and authentic
 
 ### Telecommunications Product
 
-A governed commercial definition of connectivity, voice, messaging, data, media, managed network, device, or related service.
+Canonical concept: [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/telecommunications-product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Market; Customer Segment; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-A versioned definition of product components, eligibility, commercial terms, dependencies, and lifecycle actions.
+Canonical concept: [Product Version](../model/requirements/telecommunications/telecommunications-product/product-version.md).
 
-Logical attributes: Product Version Identifier; Version; Status; Effective From; Effective Through; Approval Reference; Superseded By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Offering
 
-A Product Version made available through a channel, market, geography, or customer segment at defined prices and terms.
+Canonical concept: [Product Offering](../model/requirements/telecommunications/telecommunications-product/product-offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel; Market; Geography; Available From; Available Through; Price Plan.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Component
 
-A required, optional, or conditional element of a Product bundle.
+Canonical concept: [Product Component](../model/requirements/telecommunications/telecommunications-product/product-component.md).
 
-Logical attributes: Component Identifier; Component Type; Referenced Product or Service Specification; Minimum Quantity; Maximum Quantity; Default Indicator; Dependency Rule.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Specification
 
-A reusable definition of the technical and operational behavior of a Service.
+Canonical concept: [Service Specification](../model/requirements/telecommunications/telecommunications-product/service-specification.md).
 
-Logical attributes: Service Specification Identifier; Name; Service Type; Version; Status; Performance Profile; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Specification
 
-A reusable definition of a physical, logical, virtual, software, identifier, or capacity resource.
+Canonical concept: [Resource Specification](../model/requirements/telecommunications/telecommunications-product/resource-specification.md).
 
-Logical attributes: Resource Specification Identifier; Name; Resource Type; Version; Status; Capacity Type; Compatibility Rule; Effective From; Effective Through.
-
-Rule: commercial Product, Product Offering, technical Service Specification, and Resource Specification are separate layers connected by governed mappings.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Customer, account, agreement, and subscription
 
 ### Customer Account
 
-The provider's commercial relationship with a Customer.
+Canonical concept: [Customer Account](../model/requirements/telecommunications/customer-account/customer-account.md).
 
-Logical attributes: Customer Account Identifier; Account Number; Account Status; Customer; Segment; Credit Status; Responsible Organization; Opened Date; Closed Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Billing Account
 
-A grouping of recurring, usage, one-time, adjustment, tax, invoice, and payment activity.
+Canonical concept: [Billing Account](../model/requirements/telecommunications/customer-account/billing-account.md).
 
-Logical attributes: Billing Account Identifier; Billing Account Number; Status; Bill Cycle; Currency; Payment Terms; Responsible Party; Delivery Preference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Customer Agreement
 
-An Agreement defining products, terms, commitments, pricing, service levels, responsibilities, and effective periods.
+Canonical concept: [Customer Agreement](../model/requirements/telecommunications/customer-account/customer-agreement.md).
 
-Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agreement Status; Provider; Customer; Effective Date; Expiration Date; Currency; Renewal Policy.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription
 
-A Customer's ongoing entitlement to and responsibility for one or more Product or Service instances.
+Canonical concept: [Subscription](../model/requirements/telecommunications/customer-account/subscription.md).
 
-Logical attributes: Subscription Identifier; Subscription Number; Subscription Status; Customer Account; Product Offering; Start Date; End Date; Commitment End; Billing Account.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription Party
 
-A Party participating in a Subscription in a defined role.
+Canonical concept: [Subscription Party](../model/requirements/telecommunications/customer-account/subscription-party.md).
 
-Logical attributes: Subscription Party Identifier; Party; Role Type; Status; Effective From; Effective Through; Authority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Qualification and availability
 
 ### Service Request
 
-An expression of Customer need before an order is accepted.
+Canonical concept: [Service Request](../model/requirements/telecommunications/service-request/service-request.md).
 
-Logical attributes: Request Identifier; Request Type; Status; Requested Date; Customer; Requested Product; Location; Desired Date; Requirements.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Location
 
-A physical, geographic, virtual, or logical place where service is delivered or terminated.
+Canonical concept: [Service Location](../model/requirements/telecommunications/service-request/service-location.md).
 
-Logical attributes: Location Identifier; Location Type; Address or Coordinates; Premises; Building; Floor; Room; Coverage Zone; Validation Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Qualification
 
-A controlled evaluation of whether and how a requested Service can be delivered.
+Canonical concept: [Service Qualification](../model/requirements/telecommunications/service-request/service-qualification.md).
 
-Logical attributes: Qualification Identifier; Qualification Type; Status; Requested At; Completed At; Offering; Location; Requested Characteristics; Result; Valid Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Qualification Result
 
-An available, unavailable, conditionally available, or build-required outcome with evidence.
+Canonical concept: [Qualification Result](../model/requirements/telecommunications/service-request/qualification-result.md).
 
-Logical attributes: Result Identifier; Result Type; Feasible Date; Available Capacity; Technology; Estimated Construction; Constraint; Evidence Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Serviceability Rule
 
-A governed rule determining commercial or technical availability.
+Canonical concept: [Serviceability Rule](../model/requirements/telecommunications/service-request/serviceability-rule.md).
 
-Logical attributes: Rule Identifier; Rule Type; Version; Geography; Technology; Eligibility Condition; Effective From; Effective Through.
-
-Rule: commercial eligibility, geographic coverage, technical feasibility, available capacity, and committed delivery date are independent decisions.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Quote, order, and decomposition
 
 ### Telecommunications Quote
 
-A time-bounded proposal of products, services, installation, recurring charges, usage rates, commitments, and assumptions.
+Canonical concept: [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/telecommunications-quote.md).
 
-Logical attributes: Quote Identifier; Quote Number; Quote Status; Issued Date; Expiration Date; Customer; Currency; Total One-Time Charge; Estimated Recurring Charge.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Order
 
-A Customer-facing request to add, change, move, suspend, resume, migrate, or terminate products.
+Canonical concept: [Product Order](../model/requirements/telecommunications/telecommunications-quote/product-order.md).
 
-Logical attributes: Product Order Identifier; Order Number; Order Type; Order Status; Requested Date; Requested Completion; Customer Account; Agreement; Channel; Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Order Item
 
-An order line concerning a Product Offering or Subscription action.
+Canonical concept: [Product Order Item](../model/requirements/telecommunications/telecommunications-quote/product-order-item.md).
 
-Logical attributes: Order Item Identifier; Action; Status; Offering; Quantity; Subscription; Requested Start; Requested Characteristics; Parent Item.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Order
 
-An operational order to create, modify, test, activate, suspend, migrate, or terminate Services.
+Canonical concept: [Service Order](../model/requirements/telecommunications/telecommunications-quote/service-order.md).
 
-Logical attributes: Service Order Identifier; Service Order Number; Order Type; Status; Product Order; Planned Start; Planned Completion; Actual Completion; Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Order Item
 
-An action concerning a Service Specification or Service Instance.
+Canonical concept: [Service Order Item](../model/requirements/telecommunications/telecommunications-quote/service-order-item.md).
 
-Logical attributes: Service Order Item Identifier; Action; Status; Service Specification; Service Instance; Requested Configuration; Dependency; Sequence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Order
 
-An order to reserve, install, configure, move, recover, or retire Resources.
+Canonical concept: [Resource Order](../model/requirements/telecommunications/telecommunications-quote/resource-order.md).
 
-Logical attributes: Resource Order Identifier; Order Type; Status; Service Order; Planned Dates; Responsible Organization.
-
-Rule: Product Order expresses the Customer commitment; Service and Resource Orders implement it. Their structures and lifecycles must not be collapsed.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Service and network inventory
 
 ### Service Instance
 
-An individually managed realization of a Service Specification.
+Canonical concept: [Service Instance](../model/requirements/telecommunications/service-instance/service-instance.md).
 
-Logical attributes: Service Identifier; Service Number; Service Type; Service Status; Specification Version; Subscription; Start Date; End Date; Provider; Customer-Facing Indicator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Characteristic
 
-An effective value configuring or describing a Service.
+Canonical concept: [Service Characteristic](../model/requirements/telecommunications/service-instance/service-characteristic.md).
 
-Logical attributes: Characteristic Identifier; Characteristic Name; Value; Unit; Effective From; Effective Through; Source; Configuration Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Resource
 
-An individually managed physical, logical, or virtual network element or capacity.
+Canonical concept: [Network Resource](../model/requirements/telecommunications/service-instance/network-resource.md).
 
-Logical attributes: Resource Identifier; Resource Type; Resource Status; Specification; Owner; Operator; Location; Capacity; Installed Date; Retired Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Component
 
-A device, module, port, card, antenna, fiber, cable, server, function, or other resource component.
+Canonical concept: [Network Component](../model/requirements/telecommunications/service-instance/network-component.md).
 
-Logical attributes: Component Identifier; Component Type; Model; Serial or Logical Identifier; Status; Parent Resource; Location.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Endpoint
 
-A termination or attachment point through which a Service or Connection participates in a Network.
+Canonical concept: [Network Endpoint](../model/requirements/telecommunications/service-instance/network-endpoint.md).
 
-Logical attributes: Endpoint Identifier; Endpoint Type; Status; Resource; Location; Address or Identifier; Capacity; Direction.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Circuit
 
-A managed end-to-end or segment connectivity construct.
+Canonical concept: [Circuit](../model/requirements/telecommunications/service-instance/circuit.md).
 
-Logical attributes: Circuit Identifier; Circuit Number; Circuit Type; Circuit Status; Bandwidth; Start Endpoint; End Endpoint; Protection Type; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Connection
 
-A relationship connecting two or more Endpoints or Resources.
+Canonical concept: [Network Connection](../model/requirements/telecommunications/service-instance/network-connection.md).
 
-Logical attributes: Connection Identifier; Connection Type; Status; Endpoint A; Endpoint B; Capacity; Technology; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service-Resource Assignment
 
-An effective-dated allocation of a Resource, Circuit, Endpoint, Identifier, or capacity to a Service Instance.
+Canonical concept: [Service-Resource Assignment](../model/requirements/telecommunications/service-instance/service-resource-assignment.md).
 
-Logical attributes: Assignment Identifier; Service; Resource; Assignment Type; Quantity; Effective From; Effective Through; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Communication Identifier
 
-A number, address, domain, subscriber identity, circuit identifier, device identity, or other routable or customer-visible identifier.
+Canonical concept: [Communication Identifier](../model/requirements/telecommunications/service-instance/communication-identifier.md).
 
-Logical attributes: Identifier Record Identifier; Identifier Type; Identifier Value; Status; Inventory Pool; Assigned Service; Assigned From; Assigned Through.
-
-Examples include telephone number, IP address, SIM/eSIM identifier, IMSI, MAC address, circuit ID, domain, email-like service identity, or network access identifier.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Provisioning, activation, and field work
 
 ### Resource Reservation
 
-A temporary allocation of resource or capacity for an Order.
+Canonical concept: [Resource Reservation](../model/requirements/telecommunications/resource-reservation/resource-reservation.md).
 
-Logical attributes: Reservation Identifier; Resource or Pool; Quantity; Service Order; Reserved From; Reserved Through; Status; Expiration.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provisioning Task
 
-A unit of configuration, activation, installation, testing, or recovery work.
+Canonical concept: [Provisioning Task](../model/requirements/telecommunications/resource-reservation/provisioning-task.md).
 
-Logical attributes: Task Identifier; Task Type; Task Status; Service or Resource Order; Assigned Role or System; Planned Start; Actual Start; Completed At; Result.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Field Work Order
 
-An instruction for on-site installation, repair, survey, replacement, or recovery.
+Canonical concept: [Field Work Order](../model/requirements/telecommunications/resource-reservation/field-work-order.md).
 
-Logical attributes: Work Order Identifier; Work Type; Status; Site; Appointment; Assigned Technician; Required Skill; Equipment; Planned Start; Completed At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Configuration
 
-A versioned representation of intended or actual Service characteristics and resource relationships.
+Canonical concept: [Service Configuration](../model/requirements/telecommunications/resource-reservation/service-configuration.md).
 
-Logical attributes: Configuration Identifier; Service; Version; Configuration Status; Effective From; Effective Through; Source Order; Applied At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Activation Test
 
-A controlled test demonstrating that a Service or Resource meets release criteria.
+Canonical concept: [Activation Test](../model/requirements/telecommunications/resource-reservation/activation-test.md).
 
-Logical attributes: Test Identifier; Test Type; Test Status; Executed At; Service or Resource; Expected Result; Actual Result; Evidence; Executed By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Activation
 
-An authorized event making a Service available for use and, where applicable, billing.
+Canonical concept: [Service Activation](../model/requirements/telecommunications/resource-reservation/service-activation.md).
 
-Logical attributes: Activation Identifier; Service; Activation Status; Requested At; Activated At; Activated By; Configuration; Test Evidence; Billing Effective Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Assurance and performance
 
 ### Trouble Ticket
 
-A managed case concerning degraded, unavailable, incorrect, or disputed Service behavior.
+Canonical concept: [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/trouble-ticket.md).
 
-Logical attributes: Ticket Identifier; Ticket Number; Ticket Type; Ticket Status; Reported At; Customer; Service; Priority; Impact; Assigned Group; Resolved At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Alarm
 
-A system-generated indication of a resource, service, capacity, configuration, or environmental condition.
+Canonical concept: [Alarm](../model/requirements/telecommunications/trouble-ticket/alarm.md).
 
-Logical attributes: Alarm Identifier; Alarm Type; Severity; Alarm Status; Raised At; Cleared At; Resource; Probable Cause; Correlation Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Impact
 
-An assessment of which Services, Customers, locations, or obligations are affected by an Event or Resource condition.
+Canonical concept: [Service Impact](../model/requirements/telecommunications/trouble-ticket/service-impact.md).
 
-Logical attributes: Impact Identifier; Event; Service; Impact Type; Severity; Start Time; End Time; Customer Impact; SLA Impact.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Performance Measurement
 
-A measured value concerning availability, latency, loss, throughput, signal, error, utilization, quality, or another service metric.
+Canonical concept: [Performance Measurement](../model/requirements/telecommunications/trouble-ticket/performance-measurement.md).
 
-Logical attributes: Measurement Identifier; Metric; Observed At; Interval; Value; Unit; Service or Resource; Threshold Status; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Level Agreement
 
-A governed commitment for service performance, restoration, response, availability, or support.
+Canonical concept: [Service Level Agreement](../model/requirements/telecommunications/trouble-ticket/service-level-agreement.md).
 
-Logical attributes: SLA Identifier; SLA Type; Status; Agreement; Service Scope; Effective From; Effective Through; Measurement Rule; Target; Remedy.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outage
 
-A confirmed period of service unavailability or material degradation.
+Canonical concept: [Outage](../model/requirements/telecommunications/trouble-ticket/outage.md).
 
-Logical attributes: Outage Identifier; Outage Type; Status; Start Time; End Time; Cause; Affected Domain; Restoration; Planned Indicator.
-
-Rule: Alarm, Trouble Ticket, Incident, Outage, Service Impact, and SLA violation are related but distinct concepts.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Usage, mediation, rating, and billing
 
 ### Usage Event
 
-A raw or source-received record of service consumption or network activity.
+Canonical concept: [Usage Event](../model/requirements/telecommunications/usage-event/usage-event.md).
 
-Logical attributes: Usage Event Identifier; Event Type; Source; Source Reference; Start Time; End Time; Quantity; Unit; Origin; Destination; Service Identifier; Received At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Mediation Record
 
-A normalized, validated, enriched, correlated, or aggregated usage record.
+Canonical concept: [Mediation Record](../model/requirements/telecommunications/usage-event/mediation-record.md).
 
-Logical attributes: Mediation Record Identifier; Usage Event; Mediation Status; Processed At; Service; Customer; Quantity; Unit; Duplicate Status; Error Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Rule
 
-A governed rule converting usage, subscription, time, destination, quality, allowance, or event conditions into charge amounts.
+Canonical concept: [Rating Rule](../model/requirements/telecommunications/usage-event/rating-rule.md).
 
-Logical attributes: Rating Rule Identifier; Rule Type; Version; Effective From; Effective Through; Unit; Rate; Currency; Condition; Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rated Usage
 
-A rated result derived from one or more Mediation Records.
+Canonical concept: [Rated Usage](../model/requirements/telecommunications/usage-event/rated-usage.md).
 
-Logical attributes: Rated Usage Identifier; Service; Billing Account; Usage Period; Quantity; Unit; Rate; Amount; Currency; Rating Rule Version; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Allowance or Bucket
 
-A tracked entitlement such as included minutes, messages, data, credit, or shared capacity.
+Canonical concept: [Allowance or Bucket](../model/requirements/telecommunications/usage-event/allowance-or-bucket.md).
 
-Logical attributes: Allowance Identifier; Allowance Type; Subscription; Initial Quantity; Remaining Quantity; Unit; Period Start; Period End; Rollover Rule.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Charge
 
-A one-time, recurring, usage, adjustment, penalty, credit, tax, or discount amount.
+Canonical concept: [Charge](../model/requirements/telecommunications/usage-event/charge.md).
 
-Logical attributes: Charge Identifier; Charge Type; Charge Status; Billing Account; Service or Subscription; Charge Date; Period; Amount; Currency; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-A request for payment grouping approved Charges.
+Canonical concept: [Invoice](../model/requirements/finance/invoice/invoice.md).
 
-Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; Billing Account; Invoice Status; Currency; Previous Balance; New Charges; Tax; Total Due.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment and Adjustment
 
-A financial settlement or correction applied to a Billing Account or Invoice.
+Canonical concept: [Payment and Adjustment](../model/requirements/telecommunications/usage-event/payment-and-adjustment.md).
 
-Logical attributes: Transaction Identifier; Transaction Type; Status; Effective Date; Amount; Currency; Reason; Source Invoice; Allocation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Partners, interconnect, and settlement
 
 ### Interconnect Agreement
 
-An Agreement governing network interconnection, traffic exchange, rates, quality, and settlement with another Provider.
+Canonical concept: [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/interconnect-agreement.md).
 
-Logical attributes: Agreement Identifier; Agreement Number; Status; Partner; Effective Date; Expiration Date; Currency; Traffic Scope.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Partner Service
 
-A Service supplied by or to another Provider.
+Canonical concept: [Partner Service](../model/requirements/telecommunications/interconnect-agreement/partner-service.md).
 
-Logical attributes: Partner Service Identifier; Service Type; Status; Partner; External Reference; Effective From; Effective Through; Related Service.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Partner Usage
 
-Usage attributed to an interconnect, roaming, wholesale, or content Partner.
+Canonical concept: [Partner Usage](../model/requirements/telecommunications/interconnect-agreement/partner-usage.md).
 
-Logical attributes: Partner Usage Identifier; Partner; Direction; Service Type; Period; Quantity; Unit; Source; Reconciliation Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Settlement
 
-A calculated obligation between Providers for exchanged services or usage.
+Canonical concept: [Settlement](../model/requirements/telecommunications/interconnect-agreement/settlement.md).
 
-Logical attributes: Settlement Identifier; Settlement Type; Status; Partner; Period; Gross Amount; Adjustments; Net Amount; Currency; Settled Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -645,3 +635,65 @@ Logical names remain authoritative. Stack, service domain, network technology, m
 A metamodel-conformant Telecommunications knowledge base should instantiate separate capabilities, entities, roles, business rules, use cases, workflows, pages, scenarios, and tests for Catalog, Customer, Qualification, Ordering, Service Design, Inventory, Provisioning, Activation, Assurance, Usage, Charging, Billing, and Partners. The first vertical slice should be:
 
 **Qualify Service → Submit Product Order → Decompose Order → Reserve Resources and Identifier → Configure and Test Service → Activate Subscription → Mediate Usage → Rate Charge → Generate Invoice**
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Telecommunications Product | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/telecommunications-product.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Product Version | [Product Version](../model/requirements/telecommunications/telecommunications-product/product-version.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Product Offering | [Product Offering](../model/requirements/telecommunications/telecommunications-product/product-offering.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Product Component | [Product Component](../model/requirements/telecommunications/telecommunications-product/product-component.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Service Specification | [Service Specification](../model/requirements/telecommunications/telecommunications-product/service-specification.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Resource Specification | [Resource Specification](../model/requirements/telecommunications/telecommunications-product/resource-specification.md) | [Telecommunications Product](../model/requirements/telecommunications/telecommunications-product/README.md) |
+| Customer Account | [Customer Account](../model/requirements/telecommunications/customer-account/customer-account.md) | [Customer Account](../model/requirements/telecommunications/customer-account/README.md) |
+| Billing Account | [Billing Account](../model/requirements/telecommunications/customer-account/billing-account.md) | [Customer Account](../model/requirements/telecommunications/customer-account/README.md) |
+| Customer Agreement | [Customer Agreement](../model/requirements/telecommunications/customer-account/customer-agreement.md) | [Customer Account](../model/requirements/telecommunications/customer-account/README.md) |
+| Subscription | [Subscription](../model/requirements/telecommunications/customer-account/subscription.md) | [Customer Account](../model/requirements/telecommunications/customer-account/README.md) |
+| Subscription Party | [Subscription Party](../model/requirements/telecommunications/customer-account/subscription-party.md) | [Customer Account](../model/requirements/telecommunications/customer-account/README.md) |
+| Service Request | [Service Request](../model/requirements/telecommunications/service-request/service-request.md) | [Service Request](../model/requirements/telecommunications/service-request/README.md) |
+| Service Location | [Service Location](../model/requirements/telecommunications/service-request/service-location.md) | [Service Request](../model/requirements/telecommunications/service-request/README.md) |
+| Service Qualification | [Service Qualification](../model/requirements/telecommunications/service-request/service-qualification.md) | [Service Request](../model/requirements/telecommunications/service-request/README.md) |
+| Qualification Result | [Qualification Result](../model/requirements/telecommunications/service-request/qualification-result.md) | [Service Request](../model/requirements/telecommunications/service-request/README.md) |
+| Serviceability Rule | [Serviceability Rule](../model/requirements/telecommunications/service-request/serviceability-rule.md) | [Service Request](../model/requirements/telecommunications/service-request/README.md) |
+| Telecommunications Quote | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/telecommunications-quote.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Product Order | [Product Order](../model/requirements/telecommunications/telecommunications-quote/product-order.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Product Order Item | [Product Order Item](../model/requirements/telecommunications/telecommunications-quote/product-order-item.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Service Order | [Service Order](../model/requirements/telecommunications/telecommunications-quote/service-order.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Service Order Item | [Service Order Item](../model/requirements/telecommunications/telecommunications-quote/service-order-item.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Resource Order | [Resource Order](../model/requirements/telecommunications/telecommunications-quote/resource-order.md) | [Telecommunications Quote](../model/requirements/telecommunications/telecommunications-quote/README.md) |
+| Service Instance | [Service Instance](../model/requirements/telecommunications/service-instance/service-instance.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Service Characteristic | [Service Characteristic](../model/requirements/telecommunications/service-instance/service-characteristic.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Network Resource | [Network Resource](../model/requirements/telecommunications/service-instance/network-resource.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Network Component | [Network Component](../model/requirements/telecommunications/service-instance/network-component.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Network Endpoint | [Network Endpoint](../model/requirements/telecommunications/service-instance/network-endpoint.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Circuit | [Circuit](../model/requirements/telecommunications/service-instance/circuit.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Network Connection | [Network Connection](../model/requirements/telecommunications/service-instance/network-connection.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Service-Resource Assignment | [Service-Resource Assignment](../model/requirements/telecommunications/service-instance/service-resource-assignment.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Communication Identifier | [Communication Identifier](../model/requirements/telecommunications/service-instance/communication-identifier.md) | [Service Instance](../model/requirements/telecommunications/service-instance/README.md) |
+| Resource Reservation | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/resource-reservation.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Provisioning Task | [Provisioning Task](../model/requirements/telecommunications/resource-reservation/provisioning-task.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Field Work Order | [Field Work Order](../model/requirements/telecommunications/resource-reservation/field-work-order.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Service Configuration | [Service Configuration](../model/requirements/telecommunications/resource-reservation/service-configuration.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Activation Test | [Activation Test](../model/requirements/telecommunications/resource-reservation/activation-test.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Service Activation | [Service Activation](../model/requirements/telecommunications/resource-reservation/service-activation.md) | [Resource Reservation](../model/requirements/telecommunications/resource-reservation/README.md) |
+| Trouble Ticket | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/trouble-ticket.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Alarm | [Alarm](../model/requirements/telecommunications/trouble-ticket/alarm.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Service Impact | [Service Impact](../model/requirements/telecommunications/trouble-ticket/service-impact.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Performance Measurement | [Performance Measurement](../model/requirements/telecommunications/trouble-ticket/performance-measurement.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Service Level Agreement | [Service Level Agreement](../model/requirements/telecommunications/trouble-ticket/service-level-agreement.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Outage | [Outage](../model/requirements/telecommunications/trouble-ticket/outage.md) | [Trouble Ticket](../model/requirements/telecommunications/trouble-ticket/README.md) |
+| Usage Event | [Usage Event](../model/requirements/telecommunications/usage-event/usage-event.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Mediation Record | [Mediation Record](../model/requirements/telecommunications/usage-event/mediation-record.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Rating Rule | [Rating Rule](../model/requirements/telecommunications/usage-event/rating-rule.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Rated Usage | [Rated Usage](../model/requirements/telecommunications/usage-event/rated-usage.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Allowance or Bucket | [Allowance or Bucket](../model/requirements/telecommunications/usage-event/allowance-or-bucket.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Charge | [Charge](../model/requirements/telecommunications/usage-event/charge.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment and Adjustment | [Payment and Adjustment](../model/requirements/telecommunications/usage-event/payment-and-adjustment.md) | [Usage Event](../model/requirements/telecommunications/usage-event/README.md) |
+| Interconnect Agreement | [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/interconnect-agreement.md) | [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/README.md) |
+| Partner Service | [Partner Service](../model/requirements/telecommunications/interconnect-agreement/partner-service.md) | [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/README.md) |
+| Partner Usage | [Partner Usage](../model/requirements/telecommunications/interconnect-agreement/partner-usage.md) | [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/README.md) |
+| Settlement | [Settlement](../model/requirements/telecommunications/interconnect-agreement/settlement.md) | [Interconnect Agreement](../model/requirements/telecommunications/interconnect-agreement/README.md) |

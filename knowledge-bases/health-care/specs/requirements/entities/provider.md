@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Provider
 
+## Canonical origin
+
+This selected specification derives from [Provider](../../../../../model/requirements/health-care/health-care-organization/provider.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A Party authorized or assigned to deliver, order, supervise, interpret, or coordinate care.
@@ -33,3 +37,4 @@ proposed; active; suspended; inactive
 ## Rules
 
 - [provider-must-act-within-active-scope](../rules/provider-must-act-within-active-scope.md)
+

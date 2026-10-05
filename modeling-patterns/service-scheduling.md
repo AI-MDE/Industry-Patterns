@@ -38,122 +38,69 @@ Examples include physical therapy visits, chiropractic treatment, lawn mowing, s
 
 ### Service
 
-An act or capability delivered for a client, beneficiary, site, asset, or other subject.
+Canonical concept: [Service](../model/requirements/product-and-service/product/service.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Request
 
-An on-demand expression of need for a Service.
+Canonical concept: [Service Request](../model/requirements/service-management/service-request/service-request.md).
 
-Typical examples: equipment breakdown, repair request, urgent treatment request, or ad-hoc room reservation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Plan
 
-A continuing or planned need for one or more Services.
+Canonical concept: [Service Plan](../model/requirements/service-management/service-plan/service-plan.md).
 
-A Service Plan may generate repeated Demand according to a cadence, quantity, condition, or event trigger.
-
-Examples:
-
-- physical therapy twice weekly for six weeks;
-- lawn mowing every seven days during a season;
-- annual safety inspection;
-- maintenance every 500 operating hours;
-- snow removal when snowfall exceeds a configured threshold.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Demand
 
-A schedulable requirement to perform a Service.
+Canonical concept: [Demand](../model/requirements/scheduling/demand/demand.md).
 
-Logical attributes may include: Demand Identifier; Service; Subject; Client; Priority; Duration; Earliest Start; Latest Finish; Location Requirement; Requirement Set; Source; Status.
-
-Demand may originate from:
-
-- an on-demand Service Request;
-- a Recurring Service Plan;
-- a Maintenance Plan;
-- an Inspection Plan;
-- a condition or event;
-- manual scheduling.
-
-The scheduler should not depend on how the Demand was created.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource
 
-Something whose constrained capacity may be allocated to satisfy Demand.
+Canonical concept: [Resource](../model/requirements/resource-management/resource/resource.md).
 
-Resource types may include:
-
-- Person;
-- Team;
-- Room;
-- Location;
-- Vehicle;
-- Equipment;
-- Facility;
-- other capacity-bearing resources.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Requirement
 
-A condition that Demand places on candidate Resources or on the complete Assignment.
+Canonical concept: [Requirement](../model/requirements/scheduling/demand/requirement.md).
 
-Requirements are configuration-time business definitions rather than fixed application fields.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capability
 
-A property of a Resource that may satisfy a Requirement.
+Canonical concept: [Resource Capability](../model/requirements/resource-management/resource/resource-capability.md).
 
-For people, a Capability may represent a skill, certification, specialty, language, or authorization. For rooms it may represent seating capacity, layout, accessibility, or equipment. For vehicles and equipment it may represent payload, function, rating, or configuration.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability
 
-The periods and capacity during which a Resource may be allocated.
+Canonical concept: [Availability](../model/requirements/resource-management/resource/availability.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Constraint
 
-A condition that a feasible schedule must satisfy or should prefer.
+Canonical concept: [Constraint](../model/requirements/scheduling/demand/constraint.md).
 
-Constraints commonly include:
-
-- **Time:** availability, duration, time windows, recurrence, simultaneous availability;
-- **Capability / Requirement:** skill, qualification, certification, attributes;
-- **Location:** required site, territory, proximity, travel time;
-- **Capacity:** people, workload, room capacity, throughput;
-- **Resource Combination:** required team, room, vehicle, tools, or equipment;
-- **Business Policy:** workload limits, continuity rules, authorization, service-level commitments.
-
-Constraints may be hard or soft.
-
-A hard constraint must be satisfied for an Assignment to be valid. A soft constraint contributes to preference, ranking, or optimization.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Assignment
 
-The commitment of one or more Resources to a Demand for a defined period and context.
+Canonical concept: [Assignment](../model/requirements/scheduling/assignment/assignment.md).
 
-One Demand may require a resource bundle. For example:
-
-```text
-Physiotherapy Session
-  = Therapist
-  + Treatment Room
-  + Required Equipment
-  + 45 minutes of simultaneous availability
-```
-
-or:
-
-```text
-Field Service
-  = Technician
-  + Service Vehicle
-  + Required Tools
-  + Client Site
-```
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Event
 
-The actual bounded occurrence in which the Service is delivered, attempted, cancelled, missed, or otherwise resolved.
+Canonical concept: [Service Event](../model/requirements/service-management/service-event/service-event.md).
 
-An Assignment is planned allocation; a Service Event records what actually happened.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Recurring service
 
@@ -402,3 +349,21 @@ When this pattern is recognized, AI should:
 8. make business-specific rules explicit configuration;
 9. reuse existing domain concepts before introducing new generic entities;
 10. validate the model with representative scheduling scenarios.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Service | [Service](../model/requirements/product-and-service/product/service.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Service Request | [Service Request](../model/requirements/service-management/service-request/service-request.md) | [Service Request](../model/requirements/service-management/service-request/README.md) |
+| Service Plan | [Service Plan](../model/requirements/service-management/service-plan/service-plan.md) | [Service Plan](../model/requirements/service-management/service-plan/README.md) |
+| Demand | [Demand](../model/requirements/scheduling/demand/demand.md) | [Demand](../model/requirements/scheduling/demand/README.md) |
+| Resource | [Resource](../model/requirements/resource-management/resource/resource.md) | [Resource](../model/requirements/resource-management/resource/README.md) |
+| Requirement | [Requirement](../model/requirements/scheduling/demand/requirement.md) | [Demand](../model/requirements/scheduling/demand/README.md) |
+| Capability | [Resource Capability](../model/requirements/resource-management/resource/resource-capability.md) | [Resource](../model/requirements/resource-management/resource/README.md) |
+| Availability | [Availability](../model/requirements/resource-management/resource/availability.md) | [Resource](../model/requirements/resource-management/resource/README.md) |
+| Constraint | [Constraint](../model/requirements/scheduling/demand/constraint.md) | [Demand](../model/requirements/scheduling/demand/README.md) |
+| Assignment | [Assignment](../model/requirements/scheduling/assignment/assignment.md) | [Assignment](../model/requirements/scheduling/assignment/README.md) |
+| Service Event | [Service Event](../model/requirements/service-management/service-event/service-event.md) | [Service Event](../model/requirements/service-management/service-event/README.md) |

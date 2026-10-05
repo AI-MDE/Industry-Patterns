@@ -51,285 +51,277 @@ Rule: Patient is a Party Role, not a duplicate of Person. Practitioner identity,
 
 ### Patient
 
-A Person acting as the subject or recipient of health care.
+Canonical concept: [Patient](../model/requirements/health-care/patient/patient.md).
 
-Logical attributes: Patient Identifier; Patient Status; Date of Birth; Administrative Sex; Preferred Name; Preferred Language; Deceased Indicator; Deceased Date; Primary Contact reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Identifier
 
-An identifier assigned to a Patient by an organization, jurisdiction, payer, or external system.
+Canonical concept: [Patient Identifier](../model/requirements/health-care/patient/patient-identifier.md).
 
-Logical attributes: Identifier Record Identifier; Identifier Type; Identifier Value; Assigning Authority; Status; Effective From; Effective Through.
-
-Rule: support multiple identifiers and never assume that one organization's medical-record number is universal identity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Related Person
 
-A Person related to a Patient for care, consent, contact, or financial purposes.
+Canonical concept: [Related Person](../model/requirements/health-care/patient/related-person.md).
 
-Logical attributes: Related Person Identifier; Relationship Type; Relationship Status; Effective From; Effective Through; Contact Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Contact
 
-A purpose-specific contact mechanism or address for a Patient.
+Canonical concept: [Patient Contact](../model/requirements/health-care/patient/patient-contact.md).
 
-Logical attributes: Patient Contact Identifier; Purpose; Preferred Indicator; Confidential Indicator; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## organization, provider, facility, and location
 
 ### Health Care Organization
 
-An organization responsible for arranging, governing, funding, or delivering health-care services.
+Canonical concept: [Health Care Organization](../model/requirements/health-care/health-care-organization/health-care-organization.md).
 
-Logical attributes: Organization Identifier; Organization Name; Organization Type; Organization Status; Accreditation reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provider
 
-A Party authorized or assigned to deliver, order, supervise, interpret, or coordinate care.
+Canonical concept: [Provider](../model/requirements/health-care/health-care-organization/provider.md).
 
-Logical attributes: Provider Identifier; Provider Type; Provider Status; Primary Specialty; License reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Practitioner Role
 
-A Provider's role within an Organization, Facility, specialty, or service context.
+Canonical concept: [Practitioner Role](../model/requirements/health-care/health-care-organization/practitioner-role.md).
 
-Logical attributes: Practitioner Role Identifier; Role Type; Specialty; Role Status; Effective From; Effective Through; Supervising Provider reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Facility
 
-A physical or virtual environment operated for care delivery.
+Canonical concept: [Facility](../model/requirements/health-care/health-care-organization/facility.md).
 
-Logical attributes: Facility Identifier; Facility Name; Facility Type; Facility Status; Operator Organization reference; Contact reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Location
 
-A place within or associated with a Facility, such as campus, building, ward, room, bed, clinic, mobile unit, or virtual endpoint.
+Canonical concept: [Location](../model/requirements/health-care/health-care-organization/location.md).
 
-Logical attributes: Location Identifier; Location Name; Location Type; Location Status; Parent Location reference; Capacity; Operational Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Access and scheduling concepts
 
 ### Schedule
 
-Planned availability of a Provider, service, resource, or Location.
+Canonical concept: [Schedule](../model/requirements/health-care/schedule/schedule.md).
 
-Logical attributes: Schedule Identifier; Schedule Type; Effective From; Effective Through; Time Zone; Capacity; Schedule Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Appointment
 
-A planned allocation of time and resources for a Patient to receive or discuss care.
+Canonical concept: [Appointment](../model/requirements/health-care/schedule/appointment.md).
 
-Logical attributes: Appointment Identifier; Appointment Type; Appointment Status; Scheduled Start; Scheduled End; Priority; Reason; Channel; Cancellation Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Appointment Participant
 
-A Patient, Provider, Related Person, Location, device, interpreter, or other resource expected to participate.
+Canonical concept: [Appointment Participant](../model/requirements/health-care/schedule/appointment-participant.md).
 
-Logical attributes: Participant Identifier; Participant Type; Participation Status; Required Indicator; Response Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Referral
 
-A Provider's request that another Provider or Organization evaluate, advise, or deliver care.
+Canonical concept: [Referral](../model/requirements/health-care/schedule/referral.md).
 
-Logical attributes: Referral Identifier; Referral Type; Referral Status; Requested Date; Priority; Reason; Referred From; Referred To; Expiration Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Care context
 
 ### Encounter
 
-A bounded interaction in which care is assessed, discussed, delivered, or documented.
+Canonical concept: [Encounter](../model/requirements/health-care/encounter/encounter.md).
 
-Logical attributes: Encounter Identifier; Encounter Type; Encounter Status; Start Date/Time; End Date/Time; Service Setting; Priority; Reason; Disposition.
-
-Examples: office visit, emergency visit, inpatient stay, telehealth visit, home visit, or asynchronous consultation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Episode of Care
 
-A period during which related care is coordinated toward a health concern or objective.
+Canonical concept: [Episode of Care](../model/requirements/health-care/encounter/episode-of-care.md).
 
-Logical attributes: Episode Identifier; Episode Type; Episode Status; Start Date; End Date; Managing Organization; Primary Coordinator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Medical Case
 
-A managed body of work concerning a Patient's condition, event, investigation, authorization, or service need.
+Canonical concept: [Medical Case](../model/requirements/health-care/encounter/medical-case.md).
 
-Logical attributes: Case Identifier; Case Type; Case Status; Opened Date; Closed Date; Priority; Case Reason; Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Team
 
-A group of participants responsible for an Episode, Case, Encounter, or Care Plan.
+Canonical concept: [Care Team](../model/requirements/health-care/encounter/care-team.md).
 
-Logical attributes: Care Team Identifier; Care Team Name; Care Team Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Team Member
 
-A Party Role's participation in a Care Team.
+Canonical concept: [Care Team Member](../model/requirements/health-care/encounter/care-team-member.md).
 
-Logical attributes: Membership Identifier; Team Role; Membership Status; Effective From; Effective Through; Responsibility.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Clinical evidence and assessment
 
 ### Clinical Note
 
-A versioned clinical narrative authored in a declared context.
+Canonical concept: [Clinical Note](../model/requirements/health-care/clinical-note/clinical-note.md).
 
-Logical attributes: Note Identifier; Note Type; Note Status; Authored At; Author; Encounter reference; Version; Supersedes Note reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Observation
 
-A measured, asserted, or observed fact about a Patient or specimen.
+Canonical concept: [Observation](../model/requirements/health-care/clinical-note/observation.md).
 
-Logical attributes: Observation Identifier; Observation Code; Observation Status; Observed Date/Time; Value; Unit; Interpretation; Method; Body Site; Reference Range; Performer; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Condition
 
-A health concern, problem, disease, symptom, or other condition associated with a Patient.
+Canonical concept: [Condition](../model/requirements/health-care/clinical-note/condition.md).
 
-Logical attributes: Condition Identifier; Condition Code; Clinical Status; Verification Status; Onset Date; Abatement Date; Severity; Body Site; Recorded Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Diagnosis
 
-A Provider's diagnostic assertion made in a particular Encounter, Episode, or Case.
+Canonical concept: [Diagnosis](../model/requirements/health-care/clinical-note/diagnosis.md).
 
-Logical attributes: Diagnosis Identifier; Diagnosis Code; Diagnosis Type; Diagnosis Status; Rank; Diagnosed Date; Diagnosing Provider; Evidence reference.
-
-Rule: keep longitudinal Condition separate from an Encounter-specific Diagnosis when both meanings are required.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Procedure
 
-A clinical intervention or diagnostic action performed for a Patient.
+Canonical concept: [Procedure](../model/requirements/health-care/clinical-note/procedure.md).
 
-Logical attributes: Procedure Identifier; Procedure Code; Procedure Status; Performed Start; Performed End; Performer; Location; Outcome; Complication; Body Site.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Specimen
 
-Material collected for examination or testing.
+Canonical concept: [Specimen](../model/requirements/health-care/clinical-note/specimen.md).
 
-Logical attributes: Specimen Identifier; Specimen Type; Specimen Status; Collected At; Collected By; Body Site; Received At; Container reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Requests, orders, and care planning
 
 ### Service Request
 
-A request or order for evaluation, procedure, diagnostic test, therapy, referral, consultation, device, or other service.
+Canonical concept: [Service Request](../model/requirements/health-care/service-request/service-request.md).
 
-Logical attributes: Service Request Identifier; Request Type; Service Code; Request Status; Intent; Priority; Authored Date; Requester; Requested Performer; Occurrence Window; Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Medication Order
 
-An instruction or authorization to supply or administer medication.
+Canonical concept: [Medication Order](../model/requirements/health-care/service-request/medication-order.md).
 
-Logical attributes: Medication Order Identifier; Medication Code; Order Status; Intent; Dose; Route; Frequency; Duration; Quantity; Repeats; Authored Date; Prescriber.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Plan
 
-An organized set of goals and planned activities for a Patient.
+Canonical concept: [Care Plan](../model/requirements/health-care/service-request/care-plan.md).
 
-Logical attributes: Care Plan Identifier; Care Plan Type; Care Plan Status; Start Date; End Date; Author; Description.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Goal
 
-A desired measurable health or care outcome.
+Canonical concept: [Care Goal](../model/requirements/health-care/service-request/care-goal.md).
 
-Logical attributes: Goal Identifier; Goal Description; Goal Status; Priority; Target Measure; Target Value; Target Date; Outcome reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Planned Activity
 
-A proposed service, observation, education, intervention, or coordination activity in a Care Plan.
+Canonical concept: [Planned Activity](../model/requirements/health-care/service-request/planned-activity.md).
 
-Logical attributes: Activity Identifier; Activity Type; Activity Status; Scheduled Timing; Performer Role; Instructions.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Service delivery
 
 ### Health Care Service
 
-A defined clinical, diagnostic, administrative, or supportive service.
+Canonical concept: [Health Care Service](../model/requirements/health-care/health-care-service/health-care-service.md).
 
-Logical attributes: Service Identifier; Service Code; Service Name; Service Type; Service Status; Standard Duration; Delivering Specialty.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Delivery
 
-Evidence that a requested or planned Health Care Service was performed or supplied.
+Canonical concept: [Service Delivery](../model/requirements/health-care/health-care-service/service-delivery.md).
 
-Logical attributes: Delivery Identifier; Delivery Status; Delivered Start; Delivered End; Quantity; Unit; Delivering Provider; Location; Result reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Authorization
 
-A decision permitting specified care or financial coverage under stated conditions.
+Canonical concept: [Authorization](../model/requirements/health-care/health-care-service/authorization.md).
 
-Logical attributes: Authorization Identifier; Authorization Number; Authorization Type; Authorization Status; Requested Date; Decision Date; Effective From; Effective Through; Authorized Quantity; Conditions.
-
-Rule: clinical orders, patient consent, organizational approval, and payer authorization are distinct concepts.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Consent, privacy, and provenance
 
 ### Consent
 
-A Patient's or authorized representative's permission, refusal, or directive concerning care, disclosure, research, or another specified activity.
+Canonical concept: [Consent](../model/requirements/health-care/consent/consent.md).
 
-Logical attributes: Consent Identifier; Consent Type; Consent Status; Decision; Given By; Recorded By; Effective From; Effective Through; Scope; Revocation Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Access Restriction
 
-A rule or directive restricting access, use, or disclosure of specified information.
+Canonical concept: [Access Restriction](../model/requirements/health-care/consent/access-restriction.md).
 
-Logical attributes: Restriction Identifier; Restriction Type; Restriction Status; Scope; Reason; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provenance
 
-Evidence of who created, asserted, transformed, imported, or attested to a record.
+Canonical concept: [Provenance](../model/requirements/health-care/consent/provenance.md).
 
-Logical attributes: Provenance Identifier; Recorded At; Activity Type; Agent; Source System; Source Record Identifier; Signature reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Audit Event
 
-Evidence of access to or action upon protected health information or system functionality.
+Canonical concept: [Audit Event](../model/requirements/health-care/consent/audit-event.md).
 
-Logical attributes: Audit Event Identifier; Event Type; Occurred At; Actor; Action; Subject; Purpose; Outcome; Source; Correlation Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Coverage, claim, and payment
 
 ### Coverage
 
-A Patient's entitlement to funded or insured services.
+Canonical concept: [Coverage](../model/requirements/health-care/coverage/coverage.md).
 
-Logical attributes: Coverage Identifier; Coverage Type; Coverage Status; Subscriber Identifier; Member Identifier; Effective From; Effective Through; Payer; Plan reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Guarantor
 
-A Party accepting financial responsibility for some or all Patient charges.
+Canonical concept: [Guarantor](../model/requirements/health-care/coverage/guarantor.md).
 
-Logical attributes: Guarantor Identifier; Relationship to Patient; Responsibility Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Charge
 
-A billable amount arising from a delivered service, supply, facility use, or adjustment.
+Canonical concept: [Charge](../model/requirements/health-care/coverage/charge.md).
 
-Logical attributes: Charge Identifier; Charge Code; Charge Type; Charge Status; Service Date; Quantity; Unit Price; Amount; Currency; Source reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-A request to a Payer for adjudication and payment of covered health-care charges.
+Canonical concept: [Claim](../model/requirements/health-care/coverage/claim.md).
 
-Logical attributes: Claim Identifier; Claim Number; Claim Type; Claim Status; Submitted Date; Service Period Start; Service Period End; Total Claimed Amount; Patient; Provider; Payer.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Line
 
-A detailed service or charge submitted within a Claim.
+Canonical concept: [Claim Line](../model/requirements/health-care/coverage/claim-line.md).
 
-Logical attributes: Claim Line Identifier; Line Number; Service Code; Service Date; Quantity; Claimed Amount; Diagnosis reference; Authorization reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjudication
 
-A Payer decision concerning coverage and financial responsibility.
+Canonical concept: [Adjudication](../model/requirements/health-care/coverage/adjudication.md).
 
-Logical attributes: Adjudication Identifier; Decision Date; Decision Status; Allowed Amount; Paid Amount; Patient Responsibility Amount; Denial Reason; Adjustment Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-A transfer of funds settling an adjudicated Claim, Invoice, or Patient balance.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Payment Amount; Currency; Payment Type; Payment Status; Remittance Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -546,3 +538,53 @@ Logical names remain authoritative. Stack and jurisdiction rules generate physic
 ## Future behavioral expansion
 
 This file is an actual logical industry pattern. A later behavioral layer should define capabilities and actor-goal use cases such as Register Patient, Schedule Appointment, Conduct Encounter, Record Observation, Establish Diagnosis, Order Service, Manage Care Plan, Capture Consent, Authorize Service, Deliver Service, Submit Claim, Adjudicate Claim, and Receive Payment, with pages, rules, scenarios, and tests.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Patient | [Patient](../model/requirements/health-care/patient/patient.md) | [Patient](../model/requirements/health-care/patient/README.md) |
+| Patient Identifier | [Patient Identifier](../model/requirements/health-care/patient/patient-identifier.md) | [Patient](../model/requirements/health-care/patient/README.md) |
+| Related Person | [Related Person](../model/requirements/health-care/patient/related-person.md) | [Patient](../model/requirements/health-care/patient/README.md) |
+| Patient Contact | [Patient Contact](../model/requirements/health-care/patient/patient-contact.md) | [Patient](../model/requirements/health-care/patient/README.md) |
+| Health Care Organization | [Health Care Organization](../model/requirements/health-care/health-care-organization/health-care-organization.md) | [Health Care Organization](../model/requirements/health-care/health-care-organization/README.md) |
+| Provider | [Provider](../model/requirements/health-care/health-care-organization/provider.md) | [Health Care Organization](../model/requirements/health-care/health-care-organization/README.md) |
+| Practitioner Role | [Practitioner Role](../model/requirements/health-care/health-care-organization/practitioner-role.md) | [Health Care Organization](../model/requirements/health-care/health-care-organization/README.md) |
+| Facility | [Facility](../model/requirements/health-care/health-care-organization/facility.md) | [Health Care Organization](../model/requirements/health-care/health-care-organization/README.md) |
+| Location | [Location](../model/requirements/health-care/health-care-organization/location.md) | [Health Care Organization](../model/requirements/health-care/health-care-organization/README.md) |
+| Schedule | [Schedule](../model/requirements/health-care/schedule/schedule.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
+| Appointment | [Appointment](../model/requirements/health-care/schedule/appointment.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
+| Appointment Participant | [Appointment Participant](../model/requirements/health-care/schedule/appointment-participant.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
+| Referral | [Referral](../model/requirements/health-care/schedule/referral.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
+| Encounter | [Encounter](../model/requirements/health-care/encounter/encounter.md) | [Encounter](../model/requirements/health-care/encounter/README.md) |
+| Episode of Care | [Episode of Care](../model/requirements/health-care/encounter/episode-of-care.md) | [Encounter](../model/requirements/health-care/encounter/README.md) |
+| Medical Case | [Medical Case](../model/requirements/health-care/encounter/medical-case.md) | [Encounter](../model/requirements/health-care/encounter/README.md) |
+| Care Team | [Care Team](../model/requirements/health-care/encounter/care-team.md) | [Encounter](../model/requirements/health-care/encounter/README.md) |
+| Care Team Member | [Care Team Member](../model/requirements/health-care/encounter/care-team-member.md) | [Encounter](../model/requirements/health-care/encounter/README.md) |
+| Clinical Note | [Clinical Note](../model/requirements/health-care/clinical-note/clinical-note.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Observation | [Observation](../model/requirements/health-care/clinical-note/observation.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Condition | [Condition](../model/requirements/health-care/clinical-note/condition.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Diagnosis | [Diagnosis](../model/requirements/health-care/clinical-note/diagnosis.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Procedure | [Procedure](../model/requirements/health-care/clinical-note/procedure.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Specimen | [Specimen](../model/requirements/health-care/clinical-note/specimen.md) | [Clinical Note](../model/requirements/health-care/clinical-note/README.md) |
+| Service Request | [Service Request](../model/requirements/health-care/service-request/service-request.md) | [Service Request](../model/requirements/health-care/service-request/README.md) |
+| Medication Order | [Medication Order](../model/requirements/health-care/service-request/medication-order.md) | [Service Request](../model/requirements/health-care/service-request/README.md) |
+| Care Plan | [Care Plan](../model/requirements/health-care/service-request/care-plan.md) | [Service Request](../model/requirements/health-care/service-request/README.md) |
+| Care Goal | [Care Goal](../model/requirements/health-care/service-request/care-goal.md) | [Service Request](../model/requirements/health-care/service-request/README.md) |
+| Planned Activity | [Planned Activity](../model/requirements/health-care/service-request/planned-activity.md) | [Service Request](../model/requirements/health-care/service-request/README.md) |
+| Health Care Service | [Health Care Service](../model/requirements/health-care/health-care-service/health-care-service.md) | [Health Care Service](../model/requirements/health-care/health-care-service/README.md) |
+| Service Delivery | [Service Delivery](../model/requirements/health-care/health-care-service/service-delivery.md) | [Health Care Service](../model/requirements/health-care/health-care-service/README.md) |
+| Authorization | [Authorization](../model/requirements/health-care/health-care-service/authorization.md) | [Health Care Service](../model/requirements/health-care/health-care-service/README.md) |
+| Consent | [Consent](../model/requirements/health-care/consent/consent.md) | [Consent](../model/requirements/health-care/consent/README.md) |
+| Access Restriction | [Access Restriction](../model/requirements/health-care/consent/access-restriction.md) | [Consent](../model/requirements/health-care/consent/README.md) |
+| Provenance | [Provenance](../model/requirements/health-care/consent/provenance.md) | [Consent](../model/requirements/health-care/consent/README.md) |
+| Audit Event | [Audit Event](../model/requirements/health-care/consent/audit-event.md) | [Consent](../model/requirements/health-care/consent/README.md) |
+| Coverage | [Coverage](../model/requirements/health-care/coverage/coverage.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Guarantor | [Guarantor](../model/requirements/health-care/coverage/guarantor.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Charge | [Charge](../model/requirements/health-care/coverage/charge.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Claim | [Claim](../model/requirements/health-care/coverage/claim.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Claim Line | [Claim Line](../model/requirements/health-care/coverage/claim-line.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Adjudication | [Adjudication](../model/requirements/health-care/coverage/adjudication.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |

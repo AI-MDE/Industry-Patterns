@@ -6,11 +6,16 @@ MDE consults this catalog when it elicits the requirements of a new domain or ca
 
 The industry patterns adapt recurring business concepts inspired by *The Data Model Resource Book, Revised Edition, Volume 2: A Library of Universal Data Models by Industry Types*. This is a derived MDE planning and knowledge resource, not a reproduction of the book.
 
+## Coherent model
+
+The [canonical model](model/README.md) now connects the detailed industry concepts through **Domain → ABE → Entity**, with one page per concept, explicit reuse and specialization, and source-aware terminology. Industry files are pattern views onto this model. Start with the [Domain index](model/requirements/index.md) or inspect the [integration review](model/integration-review.md).
+
 ## Repository areas
 
 ```text
 catalog.md          discovery index of industry patterns (start here)
-patterns/           logical model pattern per industry subject or applied extension
+model/              canonical Domains, ABEs, Entities, bindings, and relationship registry
+patterns/           industry views selecting and connecting canonical concepts
 modeling-patterns/  cross-industry requirements patterns bound to domain concepts
 knowledge-bases/    industry knowledge instantiated as MDE requirements specs
 pattern-anatomy.md  target anatomy of an industry pattern and roadmap
@@ -67,8 +72,9 @@ An MDE agent eliciting requirements:
 
 1. Reads the [Catalog](catalog.md), then the pattern or patterns closest to the business, and any modeling patterns the requirements signal.
 2. Chooses the variant the goal needs.
-3. Takes only what the business confirms (concepts, relationships, lifecycles, baseline rules, roles), named in the business's own words. A pattern informs the meaning, never the vocabulary.
+3. Follows canonical bindings, reuses shared concepts, and resolves overlaps and specialization before choosing the application vocabulary. Takes only what the business confirms (concepts, relationships, lifecycles, baseline rules, roles), named in the business's own words. A pattern informs the meaning, never the vocabulary.
 4. Turns unanswered modeling questions into open Questions with the pattern's suggested defaults, and checks the model against the anti-patterns.
 5. Records in the Domain's `## Industry patterns` section which patterns and variants were used, what was taken, and what was left out.
 
 The resulting specifications remain application-specific and traceable.
+

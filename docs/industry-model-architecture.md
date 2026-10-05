@@ -11,6 +11,14 @@ The objective is to avoid two bad extremes:
 
 The preferred approach is a coherent canonical semantic model, organized into domains and Aggregate Business Entities (ABEs), from which application-specific models are selected and composed according to required capabilities and the level of ABE detail needed by the application.
 
+## Canonical repository model
+
+The [coherent model](../model/README.md) implements the semantic organization described here. [Domains](../model/requirements/index.md) contain named ABE folders; each ABE has one Primary Entity and supporting concept pages. A [manifest](../model/model.json) connects source bindings, specialization references, pattern selections, and relationship expressions. Industry patterns now link to those canonical definitions.
+
+Capabilities select and use ABEs. The reusable catalog has one semantic home per concept; application projections may place selected ABEs under capabilities. Initial ABE groupings preserve the cohesive concept sections already present in the patterns and can be refined as additional business relationships are reviewed.
+
+See the [integration review](../model/integration-review.md) for current coverage and unresolved expressions. This integration changes Industry-Patterns; the separately proposed MDE meta-model changes remain documented in [Changes to MDE](changes-to-mde.md).
+
 ## Core principle
 
 **Keep one coherent semantic universe, but do not force one model depth or one implementation on every application.**
@@ -729,3 +737,4 @@ The [Reference Model Importer and Analyzer](reference-model-importer.md) provide
 SID and BIAN are the initial reference targets. The same mechanism can later support FHIR, ACORD, GS1, and other models.
 
 The analyzer informs the canonical model; it does not automatically modify it.
+

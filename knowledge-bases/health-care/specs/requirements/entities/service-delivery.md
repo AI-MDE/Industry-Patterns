@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Service Delivery
 
+## Canonical origin
+
+This selected specification derives from [Service Delivery](../../../../../model/requirements/health-care/health-care-service/service-delivery.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 Evidence that an authorized or planned Health Care Service was performed or supplied.
@@ -35,3 +39,4 @@ planned; in-progress; completed; partially-completed; cancelled; entered-in-erro
 
 - [service-delivery-requires-traceability](../rules/service-delivery-requires-traceability.md)
 - [provider-must-act-within-active-scope](../rules/provider-must-act-within-active-scope.md)
+

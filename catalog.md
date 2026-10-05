@@ -1,5 +1,9 @@
 # Industry Pattern Catalog
 
+## Canonical model
+
+This catalog is a discovery view of the [coherent industry model](model/README.md). Select patterns here, then follow their canonical bindings to [Domains and ABEs](model/requirements/index.md). Shared definitions are reused; industry specializations preserve distinct meaning. See the [integration review](model/integration-review.md) for unresolved relationship expressions.
+
 ## Cross-Industry Modeling Patterns
 
 Industry patterns may compose reusable modeling patterns that cut across domains. The governing structure is documented in [Industry Model Architecture](docs/industry-model-architecture.md), including Domain → ABE → Entity organization, Capabilities, Modules, Interfaces, ownership, and internal-versus-external realization.
@@ -127,3 +131,4 @@ Concepts: Customer, Contact, Equipment Category, Equipment Model, Equipment, Met
 Reusable patterns: Party/Contact, Asset Catalog vs. Instance, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling (skills and certification), Assignment, Work Effort, Time Entry, Status Lifecycle and History, and Agreement.
 
 See the full [Equipment Service and Field Service model pattern](patterns/equipment-service.md).
+

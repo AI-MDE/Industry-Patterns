@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Service Request
 
+## Canonical origin
+
+This selected specification derives from [Service Request](../../../../../model/requirements/health-care/service-request/service-request.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A request or order for evaluation, procedure, test, therapy, consultation, device, or other service.
@@ -35,3 +39,4 @@ draft; active; accepted; in-progress; completed; on-hold; revoked; rejected; can
 ## Rules
 
 - [service-delivery-must-trace-to-request-or-plan](../rules/service-delivery-must-trace-to-request-or-plan.md)
+

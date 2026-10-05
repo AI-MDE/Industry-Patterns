@@ -70,411 +70,387 @@ Rule: a Person's application account does not establish operational qualificatio
 
 ### Customer Account
 
-The Rental Provider's governed commercial relationship with a Customer.
+Canonical concept: [Customer Account](../model/requirements/crane-rental/customer-account/customer-account.md).
 
-Logical attributes: Customer Account Identifier; Account Status; Credit Status; Billing Terms; Tax Status; Responsible Branch; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Project
 
-A Customer initiative or construction, industrial, infrastructure, energy, maintenance, or event context containing one or more crane Jobs.
+Canonical concept: [Project](../model/requirements/crane-rental/customer-account/project.md).
 
-Logical attributes: Project Identifier; Project Name; Project Type; Project Status; Customer; General Contractor; Start Date; End Date; Primary Site.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Job Site
 
-A physical location where equipment is delivered, assembled, operated, stored, or removed.
+Canonical concept: [Job Site](../model/requirements/crane-rental/customer-account/job-site.md).
 
-Logical attributes: Site Identifier; Site Name; Address or Coordinates; Site Type; Access Window; Operating Hours; Site Contact; Jurisdiction; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Site Access Constraint
 
-A condition affecting equipment choice, delivery, setup, movement, or removal.
+Canonical concept: [Site Access Constraint](../model/requirements/crane-rental/customer-account/site-access-constraint.md).
 
-Logical attributes: Constraint Identifier; Constraint Type; Description; Dimension or Limit; Effective Time; Source; Verification Status; Required Action.
-
-Examples: gate width, bridge limit, road restriction, turning radius, overhead obstruction, underground utility, slope, exclusion zone, noise window, or traffic restriction.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ground Condition
 
-Evidence concerning the surface and subsurface supporting crane setup or travel.
+Canonical concept: [Ground Condition](../model/requirements/crane-rental/customer-account/ground-condition.md).
 
-Logical attributes: Ground Condition Identifier; Assessment Date; Location Zone; Surface Type; Bearing Evidence; Slope; Underground Condition; Source; Assessor; Status.
-
-Rule: site information supplied by a Customer remains a sourced assertion until verified to the level required for the Lift.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Lift demand and assessment
 
 ### Lift Request
 
-A Customer request for equipment rental, lifting service, planning, or consultation.
+Canonical concept: [Lift Request](../model/requirements/crane-rental/lift-request/lift-request.md).
 
-Logical attributes: Request Identifier; Request Number; Request Status; Requested Date; Customer; Project; Job Site; Requested Start; Requested End; Service Model; Priority; Description.
-
-Service models may include bare rental, operated rental, managed lift, taxi crane, long-term rental, tower-crane service, or consultation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Load Requirement
 
-A description of the object or material to be lifted and the required movement.
+Canonical concept: [Load Requirement](../model/requirements/crane-rental/lift-request/load-requirement.md).
 
-Logical attributes: Load Requirement Identifier; Load Description; Load Type; Verified Weight; Estimated Weight; Dimensions; Center of Gravity Evidence; Pick Location; Set Location; Required Height; Required Radius; Orientation; Lift Points.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Condition
 
-An operating or environmental condition relevant to planning and execution.
+Canonical concept: [Lift Condition](../model/requirements/crane-rental/lift-request/lift-condition.md).
 
-Logical attributes: Condition Identifier; Condition Type; Value; Unit; Source; Observed or Expected Time; Verification Status.
-
-Examples: wind, temperature, visibility, proximity to power lines, simultaneous operations, personnel exposure, marine condition, or restricted operating window.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Site Survey
 
-A controlled assessment of the site, load path, access, setup area, hazards, and coordination requirements.
+Canonical concept: [Site Survey](../model/requirements/crane-rental/lift-request/site-survey.md).
 
-Logical attributes: Survey Identifier; Survey Status; Survey Date; Surveyor; Site; Request; Findings; Media Reference; Recommended Action; Approval Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Classification
 
-A governed classification that determines planning, review, approval, and execution requirements.
+Canonical concept: [Lift Classification](../model/requirements/crane-rental/lift-request/lift-classification.md).
 
-Logical attributes: Classification Identifier; Classification Type; Basis; Risk Level; Rule Version; Classified By; Classification Date; Review Requirement.
-
-A classification may identify routine, standard, complex, critical, engineered, tandem, blind, personnel, or another locally defined lift category.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Equipment and configuration concepts
 
 ### Equipment Model
 
-A manufacturer and model definition for a class of Equipment.
+Canonical concept: [Equipment Model](../model/requirements/crane-rental/equipment-model/equipment-model.md).
 
-Logical attributes: Model Identifier; Manufacturer; Model Name; Equipment Type; Rated Capacity; Boom Range; Configuration Options; Transport Profile; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crane Asset
 
-An individually controlled fleet asset.
+Canonical concept: [Crane Asset](../model/requirements/crane-rental/equipment-model/crane-asset.md).
 
-Logical attributes: Asset Identifier; Fleet Number; Serial Number; Equipment Model; Ownership Type; Asset Status; Home Branch; Current Location; Commissioned Date; Meter Reading; Certification Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Component
 
-A separately controlled component, attachment, or accessory.
+Canonical concept: [Equipment Component](../model/requirements/crane-rental/equipment-model/equipment-component.md).
 
-Logical attributes: Component Identifier; Component Type; Serial or Fleet Number; Status; Current Location; Compatible Model; Certification Status.
-
-Examples: boom section, jib, counterweight, outrigger mat, hook block, personnel platform, spreader beam, sling set, or remote control.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crane Configuration
 
-A planned or actual assembly of a Crane Asset and compatible components for a Job.
+Canonical concept: [Crane Configuration](../model/requirements/crane-rental/equipment-model/crane-configuration.md).
 
-Logical attributes: Configuration Identifier; Configuration Type; Status; Crane Asset or Model; Boom Length; Jib; Counterweight; Reeving; Outrigger Position; Matting; Applicable Chart Reference; Effective Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capacity Evidence
 
-The governed source and evaluated result supporting equipment suitability for defined conditions.
+Canonical concept: [Capacity Evidence](../model/requirements/crane-rental/equipment-model/capacity-evidence.md).
 
-Logical attributes: Capacity Evidence Identifier; Evidence Type; Manufacturer Reference; Configuration; Radius; Boom Length; Capacity; Deductions; Allowed Load; Unit; Evaluated By; Evaluation Date.
-
-Rule: a generic crane capacity is not a commitment that a particular configuration can perform a Lift. Suitability must be evaluated against verified conditions, configuration, deductions, manufacturer information, and applicable rules.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Compatibility
 
-A governed statement that a Component or configuration option may be used with an Equipment Model or Asset under stated conditions.
+Canonical concept: [Equipment Compatibility](../model/requirements/crane-rental/equipment-model/equipment-compatibility.md).
 
-Logical attributes: Compatibility Identifier; Parent Model or Asset; Component; Status; Effective From; Effective Through; Condition; Source Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Commercial offering, quote, and agreement
 
 ### Rental Offering
 
-A governed commercial service definition.
+Canonical concept: [Rental Offering](../model/requirements/crane-rental/rental-offering/rental-offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Type; Status; Equipment Category; Service Model; Included Services; Available Territory; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rate Card
 
-An effective-dated set of rental, labor, transport, overtime, standby, fuel, mobilization, permit, and other rates.
+Canonical concept: [Rate Card](../model/requirements/crane-rental/rental-offering/rate-card.md).
 
-Logical attributes: Rate Card Identifier; Rate Card Name; Version; Currency; Territory; Customer Segment; Effective From; Effective Through; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote
 
-A time-bounded commercial proposal responding to a Lift Request.
+Canonical concept: [Quote](../model/requirements/crane-rental/rental-offering/quote.md).
 
-Logical attributes: Quote Identifier; Quote Number; Quote Status; Issued Date; Expiration Date; Customer; Request; Currency; Estimated Total; Prepared By; Assumptions; Exclusions.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote Line
 
-A proposed equipment, labor, transport, accessory, permit, planning, or other charge.
+Canonical concept: [Quote Line](../model/requirements/crane-rental/rental-offering/quote-line.md).
 
-Logical attributes: Quote Line Identifier; Line Type; Description; Quantity; Unit; Rate; Amount; Rate Card Reference; Tax Treatment; Optional Indicator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rental Agreement
 
-An Agreement governing equipment custody, services, responsibility, pricing, risk allocation, timing, and return.
+Canonical concept: [Rental Agreement](../model/requirements/crane-rental/rental-offering/rental-agreement.md).
 
-Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agreement Status; Customer; Provider; Effective Date; Expiration Date; Currency; Billing Terms; Master Agreement Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Job Order
 
-An authorized operational order to plan and perform a rental or lifting engagement.
+Canonical concept: [Job Order](../model/requirements/crane-rental/rental-offering/job-order.md).
 
-Logical attributes: Job Order Identifier; Job Number; Job Status; Agreement; Project; Site; Scheduled Start; Scheduled End; Service Model; Responsible Branch; Coordinator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Change Order
 
-A governed change to scope, schedule, equipment, configuration, personnel, assumptions, price, or responsibility.
+Canonical concept: [Change Order](../model/requirements/crane-rental/rental-offering/change-order.md).
 
-Logical attributes: Change Order Identifier; Change Type; Change Status; Requested Date; Approved Date; Reason; Scope Change; Price Change; Schedule Impact; Approved By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Planning and compliance concepts
 
 ### Lift Plan
 
-A versioned plan defining the Lift, equipment, configuration, load, path, roles, hazards, controls, communications, and execution conditions.
+Canonical concept: [Lift Plan](../model/requirements/crane-rental/lift-plan/lift-plan.md).
 
-Logical attributes: Lift Plan Identifier; Plan Number; Version; Plan Status; Job Order; Lift Classification; Prepared By; Reviewed By; Approved By; Effective Date; Execution Window.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Plan Item
 
-A structured element of a Lift Plan.
+Canonical concept: [Lift Plan Item](../model/requirements/crane-rental/lift-plan/lift-plan-item.md).
 
-Logical attributes: Plan Item Identifier; Item Type; Description; Sequence; Requirement; Responsible Role; Evidence Reference; Status.
-
-Items may address load, pick/set locations, crane position, configuration, radius, rigging, ground support, exclusion zone, communications, weather limits, contingency, and emergency response.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rigging Plan
 
-A governed specification of rigging equipment, arrangement, capacity, angles, connection points, and inspection requirements.
+Canonical concept: [Rigging Plan](../model/requirements/crane-rental/lift-plan/rigging-plan.md).
 
-Logical attributes: Rigging Plan Identifier; Status; Load Requirement; Configuration Description; Component List; Capacity Evidence; Prepared By; Approved By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Permit
 
-An authorization from a government, road authority, site owner, utility, or other authority.
+Canonical concept: [Permit](../model/requirements/crane-rental/lift-plan/permit.md).
 
-Logical attributes: Permit Identifier; Permit Type; Permit Number; Permit Status; Issuing Authority; Effective From; Effective Through; Conditions; Document Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Qualification
 
-Evidence that a Person or organization meets a training, license, certification, competency, or authorization requirement.
+Canonical concept: [Qualification](../model/requirements/crane-rental/lift-plan/qualification.md).
 
-Logical attributes: Qualification Identifier; Qualification Type; Holder; Issuer; Reference; Status; Issued Date; Expiration Date; Scope; Evidence Document.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Planning Requirement
 
-A required document, decision, review, resource, or approval before a Job stage.
+Canonical concept: [Planning Requirement](../model/requirements/crane-rental/lift-plan/planning-requirement.md).
 
-Logical attributes: Requirement Identifier; Requirement Type; Requirement Status; Due Date; Responsible Role; Satisfied Date; Evidence; Waiver Authority; Waiver Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Readiness Review
 
-A controlled decision that defined prerequisites are satisfied for dispatch, setup, or Lift execution.
+Canonical concept: [Readiness Review](../model/requirements/crane-rental/lift-plan/readiness-review.md).
 
-Logical attributes: Review Identifier; Review Type; Review Status; Performed At; Reviewer; Job Order; Findings; Outstanding Items; Decision; Rationale.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Reservation, dispatch, and transport
 
 ### Resource Requirement
 
-A required asset, component, person, service, or capacity for a Job Order.
+Canonical concept: [Resource Requirement](../model/requirements/crane-rental/resource-requirement/resource-requirement.md).
 
-Logical attributes: Requirement Identifier; Resource Type; Required Capability; Quantity; Start Time; End Time; Location; Priority; Substitution Rule.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reservation
 
-A time-bounded allocation of a Resource to a Job Order.
+Canonical concept: [Reservation](../model/requirements/crane-rental/resource-requirement/reservation.md).
 
-Logical attributes: Reservation Identifier; Reservation Status; Resource; Job Order; Reserved From; Reserved Through; Quantity; Priority; Conflict Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crew Assignment
 
-A Person's scheduled operational role on a Job Order, movement, setup, or Lift.
+Canonical concept: [Crew Assignment](../model/requirements/crane-rental/resource-requirement/crew-assignment.md).
 
-Logical attributes: Assignment Identifier; Person; Role; Job Order; Shift; Start Time; End Time; Status; Qualification Verification; Supervisor.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Dispatch Plan
 
-A coordinated plan for assets, components, transport units, drivers, crew, route, sequence, and timing.
+Canonical concept: [Dispatch Plan](../model/requirements/crane-rental/resource-requirement/dispatch-plan.md).
 
-Logical attributes: Dispatch Plan Identifier; Plan Status; Job Order; Dispatch Date; Origin; Destination; Coordinator; Planned Departure; Planned Arrival; Sequence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Transport Movement
 
-A movement of Equipment or Components between locations.
+Canonical concept: [Transport Movement](../model/requirements/crane-rental/resource-requirement/transport-movement.md).
 
-Logical attributes: Movement Identifier; Movement Type; Movement Status; Origin; Destination; Planned Departure; Actual Departure; Planned Arrival; Actual Arrival; Carrier; Vehicle; Route Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fleet Transfer
 
-A controlled movement of an Asset between branch or fleet custody locations.
+Canonical concept: [Fleet Transfer](../model/requirements/crane-rental/resource-requirement/fleet-transfer.md).
 
-Logical attributes: Transfer Identifier; Asset; From Location; To Location; Transfer Status; Released Date; Received Date; Condition Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Delivery, setup, and inspection
 
 ### Delivery
 
-The arrival and transfer of Equipment, Components, or custody at a Job Site.
+Canonical concept: [Delivery](../model/requirements/crane-rental/delivery/delivery.md).
 
-Logical attributes: Delivery Identifier; Delivery Status; Job Order; Movement; Delivered At; Received By; Asset List; Condition; Document Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Setup Activity
 
-Assembly, positioning, configuration, stabilization, calibration, or commissioning work preparing Equipment for operation.
+Canonical concept: [Setup Activity](../model/requirements/crane-rental/delivery/setup-activity.md).
 
-Logical attributes: Setup Identifier; Setup Type; Setup Status; Start Time; End Time; Asset; Configuration; Location Zone; Responsible Person; Completion Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection
 
-A documented examination of Equipment, Component, configuration, setup, or work condition.
+Canonical concept: [Inspection](../model/requirements/crane-rental/delivery/inspection.md).
 
-Logical attributes: Inspection Identifier; Inspection Type; Inspection Status; Inspected At; Inspector; Asset or Component; Job Order; Result; Finding Count; Document Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection Finding
 
-A condition, defect, nonconformance, or observation found during Inspection.
+Canonical concept: [Inspection Finding](../model/requirements/crane-rental/delivery/inspection-finding.md).
 
-Logical attributes: Finding Identifier; Finding Type; Severity; Description; Status; Required Action; Responsible Party; Due Date; Resolution Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Release for Service
 
-An authorized decision that Equipment and required conditions are acceptable for a defined operational scope and time.
+Canonical concept: [Release for Service](../model/requirements/crane-rental/delivery/release-for-service.md).
 
-Logical attributes: Release Identifier; Release Status; Released At; Released By; Asset; Configuration; Job Order; Scope; Conditions; Expiration.
-
-Rule: arrival at site, setup completion, inspection completion, and release for service are distinct events.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Lift execution and operational events
 
 ### Pre-Lift Meeting
 
-A recorded briefing confirming the Lift Plan, roles, communications, hazards, controls, stop-work authority, and changes.
+Canonical concept: [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/pre-lift-meeting.md).
 
-Logical attributes: Meeting Identifier; Held At; Job Order; Lift Plan Version; Leader; Participant List; Topics; Questions; Acknowledgements; Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Activity
 
-A bounded operational activity moving, holding, placing, or testing a Load.
+Canonical concept: [Lift Activity](../model/requirements/crane-rental/pre-lift-meeting/lift-activity.md).
 
-Logical attributes: Lift Activity Identifier; Lift Number; Lift Status; Job Order; Lift Plan Version; Load Requirement; Start Time; End Time; Crane Asset; Actual Configuration; Operator; Lift Director; Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operational Observation
 
-A measured or observed condition during setup or Lift execution.
+Canonical concept: [Operational Observation](../model/requirements/crane-rental/pre-lift-meeting/operational-observation.md).
 
-Logical attributes: Observation Identifier; Observation Type; Observed At; Value; Unit; Location; Source; Observer; Threshold Status.
-
-Examples: wind, ground movement, radius, load indication, boom angle, equipment alarm, or exclusion-zone breach.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operational Delay
 
-A period in which planned work could not proceed.
+Canonical concept: [Operational Delay](../model/requirements/crane-rental/pre-lift-meeting/operational-delay.md).
 
-Logical attributes: Delay Identifier; Delay Type; Delay Status; Start Time; End Time; Duration; Responsible Category; Reason; Job Order; Commercial Treatment.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Standby Period
 
-A period during which committed Equipment or personnel remain available but are not productively operating.
+Canonical concept: [Standby Period](../model/requirements/crane-rental/pre-lift-meeting/standby-period.md).
 
-Logical attributes: Standby Identifier; Start Time; End Time; Resource; Reason; Authorized By; Billable Status; Rate Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Stop-Work Event
 
-A controlled halt due to safety, condition, authority, equipment, weather, plan deviation, or other concern.
+Canonical concept: [Stop-Work Event](../model/requirements/crane-rental/pre-lift-meeting/stop-work-event.md).
 
-Logical attributes: Stop Event Identifier; Stopped At; Stopped By; Reason; Scope; Condition; Immediate Action; Resume Criteria; Resumed At; Authorized By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Incident
 
-An injury, damage, near miss, equipment event, environmental event, or regulatory concern.
+Canonical concept: [Incident](../model/requirements/crane-rental/pre-lift-meeting/incident.md).
 
-Logical attributes: Incident Identifier; Incident Type; Incident Status; Occurred At; Reported At; Job Order; Site; Severity; Description; Immediate Action; Investigation Reference.
-
-Rule: any material change to load, radius, site, configuration, rigging, weather, personnel, or planned method must be evaluated against the approved Lift Plan before proceeding.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Utilization, return, and maintenance
 
 ### Equipment Usage Record
 
-A measured period or quantity of Asset use or availability.
+Canonical concept: [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/equipment-usage-record.md).
 
-Logical attributes: Usage Identifier; Asset; Job Order; Usage Type; Start Time; End Time; Meter Start; Meter End; Operating Hours; Standby Hours; Source; Verification Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fuel or Consumable Record
 
-A record of fuel, lubricant, power, wear item, or other consumable supplied or used.
+Canonical concept: [Fuel or Consumable Record](../model/requirements/crane-rental/equipment-usage-record/fuel-or-consumable-record.md).
 
-Logical attributes: Consumable Record Identifier; Type; Quantity; Unit; Recorded At; Asset; Job Order; Source; Chargeable Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Teardown Activity
 
-Disassembly, deconfiguration, packing, loading, or site-restoration work following service.
+Canonical concept: [Teardown Activity](../model/requirements/crane-rental/equipment-usage-record/teardown-activity.md).
 
-Logical attributes: Teardown Identifier; Status; Start Time; End Time; Asset; Configuration; Responsible Person; Component Reconciliation; Completion Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return
 
-The return of Equipment or Components to a Provider-controlled location or transfer of custody.
+Canonical concept: [Return](../model/requirements/crane-rental/equipment-usage-record/return.md).
 
-Logical attributes: Return Identifier; Return Status; Returned At; Asset List; Receiving Location; Received By; Meter Reading; Fuel Level; Condition Summary.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Damage Report
 
-A documented change in condition, loss, contamination, or damage.
+Canonical concept: [Damage Report](../model/requirements/crane-rental/equipment-usage-record/damage-report.md).
 
-Logical attributes: Damage Report Identifier; Status; Detected At; Asset or Component; Job Order; Description; Severity; Probable Cause; Responsibility Status; Estimate; Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Maintenance Work Order
 
-A controlled request to inspect, service, repair, certify, or restore an Asset.
+Canonical concept: [Maintenance Work Order](../model/requirements/crane-rental/equipment-usage-record/maintenance-work-order.md).
 
-Logical attributes: Work Order Identifier; Work Order Type; Status; Asset; Opened Date; Priority; Reason; Assigned Technician; Planned Completion; Actual Completion; Release Decision.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Asset Availability
 
-A derived or declared state indicating whether an Asset may be reserved or dispatched.
+Canonical concept: [Asset Availability](../model/requirements/crane-rental/equipment-usage-record/asset-availability.md).
 
-Logical attributes: Availability Identifier; Asset; Availability Status; Effective From; Effective Through; Reason; Source; Restriction.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Charges, invoicing, and settlement
 
 ### Charge Event
 
-A billable occurrence or measured quantity arising from the Agreement or Job.
+Canonical concept: [Charge Event](../model/requirements/crane-rental/charge-event/charge-event.md).
 
-Logical attributes: Charge Event Identifier; Charge Type; Status; Occurred At; Job Order; Resource; Quantity; Unit; Rate; Amount; Currency; Source Evidence.
-
-Charge types may include minimum rental, hourly or daily rental, operating time, standby, overtime, crew, mobilization, demobilization, transport, permit, engineering, rigging, fuel, environmental fee, damage, cleaning, cancellation, or extension.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Timesheet
 
-A person's recorded working, travel, standby, overtime, or allowance time.
+Canonical concept: [Timesheet](../model/requirements/crane-rental/charge-event/timesheet.md).
 
-Logical attributes: Timesheet Identifier; Person; Job Order; Work Date; Time Type; Start Time; End Time; Hours; Approval Status; Approved By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-A request for payment under an Agreement for one or more approved Charge Events.
+Canonical concept: [Invoice](../model/requirements/finance/invoice/invoice.md).
 
-Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; Invoice Status; Customer; Agreement; Currency; Subtotal; Tax; Total.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice Line
 
-A billed line tracing to one or more Charge Events.
+Canonical concept: [Invoice Line](../model/requirements/finance/invoice/invoice-line.md).
 
-Logical attributes: Invoice Line Identifier; Line Number; Charge Type; Description; Quantity; Unit; Rate; Amount; Tax; Source Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Funds received and allocated to Invoices or other obligations.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Amount; Currency; Method; Status; Customer; Reference; Allocation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commercial Dispute
 
-A Customer challenge concerning scope, time, condition, responsibility, rate, charge, damage, or Invoice.
+Canonical concept: [Commercial Dispute](../model/requirements/crane-rental/charge-event/commercial-dispute.md).
 
-Logical attributes: Dispute Identifier; Dispute Type; Status; Opened Date; Customer; Job Order; Invoice; Disputed Amount; Reason; Evidence; Resolution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -766,3 +742,71 @@ A metamodel-conformant Crane Rental Orchestration knowledge base should instanti
 **Submit Lift Request → Conduct Site Survey → Select Crane Configuration → Issue and Accept Quote → Approve Lift Plan → Reserve Asset and Crew → Dispatch and Deliver → Inspect and Release → Execute Lift → Record Usage → Return Asset → Generate Invoice**
 
 Recommended verification scenarios include incomplete load information, unverified ground condition, equipment reservation conflict, expired operator qualification, unavailable component, permit delay, substitute crane, blocking inspection defect, wind hold, stop-work and resume, breakdown with replacement Asset, overtime and standby billing, missing return component, damage dispute, mandatory maintenance due, and Lift Plan revision after site conditions change.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Customer Account | [Customer Account](../model/requirements/crane-rental/customer-account/customer-account.md) | [Customer Account](../model/requirements/crane-rental/customer-account/README.md) |
+| Project | [Project](../model/requirements/crane-rental/customer-account/project.md) | [Customer Account](../model/requirements/crane-rental/customer-account/README.md) |
+| Job Site | [Job Site](../model/requirements/crane-rental/customer-account/job-site.md) | [Customer Account](../model/requirements/crane-rental/customer-account/README.md) |
+| Site Access Constraint | [Site Access Constraint](../model/requirements/crane-rental/customer-account/site-access-constraint.md) | [Customer Account](../model/requirements/crane-rental/customer-account/README.md) |
+| Ground Condition | [Ground Condition](../model/requirements/crane-rental/customer-account/ground-condition.md) | [Customer Account](../model/requirements/crane-rental/customer-account/README.md) |
+| Lift Request | [Lift Request](../model/requirements/crane-rental/lift-request/lift-request.md) | [Lift Request](../model/requirements/crane-rental/lift-request/README.md) |
+| Load Requirement | [Load Requirement](../model/requirements/crane-rental/lift-request/load-requirement.md) | [Lift Request](../model/requirements/crane-rental/lift-request/README.md) |
+| Lift Condition | [Lift Condition](../model/requirements/crane-rental/lift-request/lift-condition.md) | [Lift Request](../model/requirements/crane-rental/lift-request/README.md) |
+| Site Survey | [Site Survey](../model/requirements/crane-rental/lift-request/site-survey.md) | [Lift Request](../model/requirements/crane-rental/lift-request/README.md) |
+| Lift Classification | [Lift Classification](../model/requirements/crane-rental/lift-request/lift-classification.md) | [Lift Request](../model/requirements/crane-rental/lift-request/README.md) |
+| Equipment Model | [Equipment Model](../model/requirements/crane-rental/equipment-model/equipment-model.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Crane Asset | [Crane Asset](../model/requirements/crane-rental/equipment-model/crane-asset.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Equipment Component | [Equipment Component](../model/requirements/crane-rental/equipment-model/equipment-component.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Crane Configuration | [Crane Configuration](../model/requirements/crane-rental/equipment-model/crane-configuration.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Capacity Evidence | [Capacity Evidence](../model/requirements/crane-rental/equipment-model/capacity-evidence.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Equipment Compatibility | [Equipment Compatibility](../model/requirements/crane-rental/equipment-model/equipment-compatibility.md) | [Equipment Model](../model/requirements/crane-rental/equipment-model/README.md) |
+| Rental Offering | [Rental Offering](../model/requirements/crane-rental/rental-offering/rental-offering.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Rate Card | [Rate Card](../model/requirements/crane-rental/rental-offering/rate-card.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Quote | [Quote](../model/requirements/crane-rental/rental-offering/quote.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Quote Line | [Quote Line](../model/requirements/crane-rental/rental-offering/quote-line.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Rental Agreement | [Rental Agreement](../model/requirements/crane-rental/rental-offering/rental-agreement.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Job Order | [Job Order](../model/requirements/crane-rental/rental-offering/job-order.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Change Order | [Change Order](../model/requirements/crane-rental/rental-offering/change-order.md) | [Rental Offering](../model/requirements/crane-rental/rental-offering/README.md) |
+| Lift Plan | [Lift Plan](../model/requirements/crane-rental/lift-plan/lift-plan.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Lift Plan Item | [Lift Plan Item](../model/requirements/crane-rental/lift-plan/lift-plan-item.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Rigging Plan | [Rigging Plan](../model/requirements/crane-rental/lift-plan/rigging-plan.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Permit | [Permit](../model/requirements/crane-rental/lift-plan/permit.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Qualification | [Qualification](../model/requirements/crane-rental/lift-plan/qualification.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Planning Requirement | [Planning Requirement](../model/requirements/crane-rental/lift-plan/planning-requirement.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Readiness Review | [Readiness Review](../model/requirements/crane-rental/lift-plan/readiness-review.md) | [Lift Plan](../model/requirements/crane-rental/lift-plan/README.md) |
+| Resource Requirement | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/resource-requirement.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Reservation | [Reservation](../model/requirements/crane-rental/resource-requirement/reservation.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Crew Assignment | [Crew Assignment](../model/requirements/crane-rental/resource-requirement/crew-assignment.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Dispatch Plan | [Dispatch Plan](../model/requirements/crane-rental/resource-requirement/dispatch-plan.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Transport Movement | [Transport Movement](../model/requirements/crane-rental/resource-requirement/transport-movement.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Fleet Transfer | [Fleet Transfer](../model/requirements/crane-rental/resource-requirement/fleet-transfer.md) | [Resource Requirement](../model/requirements/crane-rental/resource-requirement/README.md) |
+| Delivery | [Delivery](../model/requirements/crane-rental/delivery/delivery.md) | [Delivery](../model/requirements/crane-rental/delivery/README.md) |
+| Setup Activity | [Setup Activity](../model/requirements/crane-rental/delivery/setup-activity.md) | [Delivery](../model/requirements/crane-rental/delivery/README.md) |
+| Inspection | [Inspection](../model/requirements/crane-rental/delivery/inspection.md) | [Delivery](../model/requirements/crane-rental/delivery/README.md) |
+| Inspection Finding | [Inspection Finding](../model/requirements/crane-rental/delivery/inspection-finding.md) | [Delivery](../model/requirements/crane-rental/delivery/README.md) |
+| Release for Service | [Release for Service](../model/requirements/crane-rental/delivery/release-for-service.md) | [Delivery](../model/requirements/crane-rental/delivery/README.md) |
+| Pre-Lift Meeting | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/pre-lift-meeting.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Lift Activity | [Lift Activity](../model/requirements/crane-rental/pre-lift-meeting/lift-activity.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Operational Observation | [Operational Observation](../model/requirements/crane-rental/pre-lift-meeting/operational-observation.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Operational Delay | [Operational Delay](../model/requirements/crane-rental/pre-lift-meeting/operational-delay.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Standby Period | [Standby Period](../model/requirements/crane-rental/pre-lift-meeting/standby-period.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Stop-Work Event | [Stop-Work Event](../model/requirements/crane-rental/pre-lift-meeting/stop-work-event.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Incident | [Incident](../model/requirements/crane-rental/pre-lift-meeting/incident.md) | [Pre-Lift Meeting](../model/requirements/crane-rental/pre-lift-meeting/README.md) |
+| Equipment Usage Record | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/equipment-usage-record.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Fuel or Consumable Record | [Fuel or Consumable Record](../model/requirements/crane-rental/equipment-usage-record/fuel-or-consumable-record.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Teardown Activity | [Teardown Activity](../model/requirements/crane-rental/equipment-usage-record/teardown-activity.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Return | [Return](../model/requirements/crane-rental/equipment-usage-record/return.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Damage Report | [Damage Report](../model/requirements/crane-rental/equipment-usage-record/damage-report.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Maintenance Work Order | [Maintenance Work Order](../model/requirements/crane-rental/equipment-usage-record/maintenance-work-order.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Asset Availability | [Asset Availability](../model/requirements/crane-rental/equipment-usage-record/asset-availability.md) | [Equipment Usage Record](../model/requirements/crane-rental/equipment-usage-record/README.md) |
+| Charge Event | [Charge Event](../model/requirements/crane-rental/charge-event/charge-event.md) | [Charge Event](../model/requirements/crane-rental/charge-event/README.md) |
+| Timesheet | [Timesheet](../model/requirements/crane-rental/charge-event/timesheet.md) | [Charge Event](../model/requirements/crane-rental/charge-event/README.md) |
+| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Invoice Line | [Invoice Line](../model/requirements/finance/invoice/invoice-line.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Commercial Dispute | [Commercial Dispute](../model/requirements/crane-rental/charge-event/commercial-dispute.md) | [Charge Event](../model/requirements/crane-rental/charge-event/README.md) |

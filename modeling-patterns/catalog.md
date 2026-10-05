@@ -6,6 +6,10 @@ This catalog is a compact discovery index for AI-assisted requirements modeling.
 
 A pattern is not copied into a requirements model. Its abstract roles are **bound to existing domain concepts first**; missing concepts are introduced only when necessary. Multiple patterns are reconciled into one canonical requirements model.
 
+## Canonical model connection
+
+The [coherent industry model](../model/README.md) supplies reusable concept definitions and source bindings. Apply the patterns below as semantic overlays on selected concepts. The [scheduling pattern](service-scheduling.md) has explicit canonical concept bindings; other catalog entries preserve their existing abstract roles and invariants.
+
 ## Catalog
 
 | Pattern | Recognition signals | Core contribution |
@@ -92,3 +96,4 @@ The AI reconciles these bindings into one canonical model.
 Full pattern definitions should follow [pattern-anatomy.md](pattern-anatomy.md).
 
 See [Recurring Service and Constraint-Based Scheduling](service-scheduling.md) for the reusable scheduling pattern.
+

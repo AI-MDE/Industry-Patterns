@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "scope": "Business concept terminology; separate from importer meta-type aliases",
+  "aliases": [
+    {
+      "term": "Invoice",
+      "source": "patterns/crane-rental-orchestration.md",
+      "canonical": "model/requirements/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Invoice Line",
+      "source": "patterns/crane-rental-orchestration.md",
+      "canonical": "model/requirements/finance/invoice/invoice-line.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/crane-rental-orchestration.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Service",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/product-and-service/product/service.md"
+    },
+    {
+      "term": "Price",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/product-and-service/product/price.md"
+    },
+    {
+      "term": "Agreement Role",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/agreement/agreement/agreement-role.md"
+    },
+    {
+      "term": "Agreement Term",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/agreement/agreement/agreement-term.md"
+    },
+    {
+      "term": "Status History",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/work-management/status-type/status-history.md"
+    },
+    {
+      "term": "Invoice",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Invoice Line",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/finance/invoice/invoice-line.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Payment Allocation",
+      "source": "patterns/cross-industry.md",
+      "canonical": "model/requirements/finance/invoice/payment-allocation.md"
+    },
+    {
+      "term": "Price",
+      "source": "patterns/e-commerce.md",
+      "canonical": "model/requirements/product-and-service/product/price.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/e-commerce.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Payment Allocation",
+      "source": "patterns/e-commerce.md",
+      "canonical": "model/requirements/finance/invoice/payment-allocation.md"
+    },
+    {
+      "term": "Meter Reading (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/customer/meter-reading.md"
+    },
+    {
+      "term": "Maintenance Requirement (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/service-type/maintenance-requirement.md"
+    },
+    {
+      "term": "Service Plan (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/service-type/service-plan.md"
+    },
+    {
+      "term": "Technician Availability (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/technician/technician-availability.md"
+    },
+    {
+      "term": "Service Visit (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/service-request-assignment/service-visit.md"
+    },
+    {
+      "term": "Service Outcome and Finding (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/service-request-assignment/service-outcome-and-finding.md"
+    },
+    {
+      "term": "Status History",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/work-management/status-type/status-history.md"
+    },
+    {
+      "term": "Agreement Role",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/agreement/agreement/agreement-role.md"
+    },
+    {
+      "term": "Agreement Term",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/agreement/agreement/agreement-term.md"
+    },
+    {
+      "term": "Warranty or Service Entitlement (Standard)",
+      "source": "patterns/equipment-service.md",
+      "canonical": "model/requirements/equipment-service/equipment-agreement/warranty-or-service-entitlement.md"
+    },
+    {
+      "term": "Referral",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/health-care/schedule/referral.md"
+    },
+    {
+      "term": "Coverage",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/health-care/coverage/coverage.md"
+    },
+    {
+      "term": "Claim",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/health-care/coverage/claim.md"
+    },
+    {
+      "term": "Claim Line",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/health-care/coverage/claim-line.md"
+    },
+    {
+      "term": "Adjudication",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/health-care/coverage/adjudication.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/health-care.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Invoice",
+      "source": "patterns/insurance.md",
+      "canonical": "model/requirements/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/insurance.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Referral",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/health-care/schedule/referral.md"
+    },
+    {
+      "term": "Coverage",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/health-care/coverage/coverage.md"
+    },
+    {
+      "term": "Claim",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/health-care/coverage/claim.md"
+    },
+    {
+      "term": "Claim Line",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/health-care/coverage/claim-line.md"
+    },
+    {
+      "term": "Adjudication",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/health-care/coverage/adjudication.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/physical-therapy-clinic.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Invoice",
+      "source": "patterns/professional-services.md",
+      "canonical": "model/requirements/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Invoice Line",
+      "source": "patterns/professional-services.md",
+      "canonical": "model/requirements/finance/invoice/invoice-line.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/professional-services.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Invoice",
+      "source": "patterns/telecommunications.md",
+      "canonical": "model/requirements/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Payment",
+      "source": "patterns/travel.md",
+      "canonical": "model/requirements/finance/invoice/payment.md"
+    },
+    {
+      "term": "Payment Allocation",
+      "source": "patterns/travel.md",
+      "canonical": "model/requirements/finance/invoice/payment-allocation.md"
+    },
+    {
+      "term": "Service",
+      "source": "modeling-patterns/service-scheduling.md",
+      "canonical": "model/requirements/product-and-service/product/service.md"
+    },
+    {
+      "term": "Capability",
+      "source": "modeling-patterns/service-scheduling.md",
+      "canonical": "model/requirements/resource-management/resource/resource-capability.md"
+    }
+  ]
+}

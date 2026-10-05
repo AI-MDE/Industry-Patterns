@@ -66,111 +66,161 @@ Rule: Person, Technician, employee, application user, and Customer Contact are d
 
 ### Customer
 
-Party whose equipment is serviced or supplied. Specializes cross-industry Party in a customer role.
+Canonical concept: [Customer](../model/requirements/equipment-service/customer/customer.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Contact
 
-Person representing a Customer in a capacity such as site manager, operator, or procurement. Specializes Party Contact. One Contact is primary per Customer.
+Canonical concept: [Contact](../model/requirements/equipment-service/customer/contact.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Category
 
-Functional classification of equipment (excavator, crane, generator). Drives skill requirements and maintenance requirements.
+Canonical concept: [Equipment Category](../model/requirements/equipment-service/customer/equipment-category.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Model
 
-Make and model designation within a category. Catalog content, not a physical item.
+Canonical concept: [Equipment Model](../model/requirements/equipment-service/customer/equipment-model.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment
 
-A specific physical item, identified by serial number, instance of one Equipment Model, owned by or registered to one Customer. It is the subject of service history and of agreements.
+Canonical concept: [Equipment](../model/requirements/equipment-service/customer/equipment.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Meter Reading (Standard)
 
-Recorded operating hours, mileage, or cycles at a point in time, with source and reader. Drives usage-based maintenance.
+Canonical concept: [Meter Reading](../model/requirements/equipment-service/customer/meter-reading.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Service demand concepts
 
 ### Service Type
 
-Configured classification of service work (repair, preventive maintenance, inspection, overhaul).
+Canonical concept: [Service Type](../model/requirements/equipment-service/service-type/service-type.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Request
 
-On-demand expression of need for service on one Equipment item, from a Contact, with priority, location (workshop or on site), requested date, and lifecycle. Binds the **Service Request** and **Demand** roles of the scheduling pattern.
+Canonical concept: [Service Request](../model/requirements/equipment-service/service-type/service-request.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Maintenance Requirement (Standard)
 
-Recurring obligation defined for an Equipment Category (or Model): service type, interval by months and/or operating hours. Configuration-time definition.
+Canonical concept: [Maintenance Requirement](../model/requirements/equipment-service/service-type/maintenance-requirement.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Plan (Standard)
 
-Equipment-specific application of Maintenance Requirements: next due date or meter value, last performed, and status. Binds the **Service Plan** role; generates Service Requests (Demand) when due and remains a governing object afterwards.
+Canonical concept: [Service Plan](../model/requirements/equipment-service/service-type/service-plan.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Resource and qualification concepts
 
 ### Technician
 
-Staff member who performs service work. Active or Inactive; never deleted.
+Canonical concept: [Technician](../model/requirements/equipment-service/technician/technician.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Skill
 
-Area of technical expertise, flagged when certification is required to exercise it. Binds the **Capability** role.
+Canonical concept: [Skill](../model/requirements/equipment-service/technician/skill.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Technician Skill
 
-Technician's holding of a Skill with certification date, expiry, and certificate number. An expired certification means the skill is not held for assignment purposes.
+Canonical concept: [Technician Skill](../model/requirements/equipment-service/technician/technician-skill.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Skill Requirement
 
-Configuration mapping (Service Type × Equipment Category → Skill set) used to derive the Skills a request requires. Binds the **Requirement** role.
+Canonical concept: [Skill Requirement](../model/requirements/equipment-service/technician/skill-requirement.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Technician Availability (Standard)
 
-Working periods, absences, and capacity during which a Technician can be assigned. Binds **Availability**.
+Canonical concept: [Technician Availability](../model/requirements/equipment-service/technician/technician-availability.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Execution concepts
 
 ### Service Request Assignment
 
-Commitment of a Technician to a Service Request (and, in Standard, to a period). A request may need several Technicians who together cover all required Skills. Binds **Assignment**.
+Canonical concept: [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/service-request-assignment.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Effort
 
-Planned or performed unit of work within a request, hierarchical (phase → task) and sequenced, optionally assigned to one of the request's Technicians. Specializes cross-industry Work Effort.
+Canonical concept: [Work Effort](../model/requirements/equipment-service/service-request-assignment/work-effort.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Visit (Standard)
 
-The actual bounded occurrence at a location: arrival, start, end, attended technicians, result (completed, partially completed, no access, rescheduled). Binds **Service Event**. Distinct from the Assignment that planned it.
+Canonical concept: [Service Visit](../model/requirements/equipment-service/service-request-assignment/service-visit.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Time Entry
 
-Labor recorded by a Technician against a request and optionally a Work Effort: date, hours, billable flag, and approval lifecycle.
+Canonical concept: [Time Entry](../model/requirements/equipment-service/service-request-assignment/time-entry.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Outcome and Finding (Standard)
 
-Structured result of the work: work performed, findings and defects, inspection pass/fail, follow-up recommended, customer sign-off. Free-text completion notes alone are the Simple variant.
+Canonical concept: [Service Outcome and Finding](../model/requirements/equipment-service/service-request-assignment/service-outcome-and-finding.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status History
 
-Immutable record of every status transition on tracked entities: subject, from/to status, when, who, and reason. Specializes cross-industry Status History.
+Canonical concept: [Status History](../model/requirements/work-management/status-type/status-history.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Agreement concepts
 
 ### Equipment Agreement
 
-Sale or Lease of an Equipment item to a Customer, with effective and expiration dates and lifecycle. Specializes cross-industry Agreement.
+Canonical concept: [Equipment Agreement](../model/requirements/equipment-service/equipment-agreement/equipment-agreement.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Role
 
-Capacity in which a party participates in an agreement (buyer, seller, lessee, lessor, guarantor).
+Canonical concept: [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Term
 
-Structured clause: payment schedule, renewal, warranty, penalty, insurance, return, with value, unit, and effective period.
+Canonical concept: [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Warranty or Service Entitlement (Standard)
 
-Coverage derived from an Agreement Term or service contract that determines whether service is covered, by whom, and until when.
+Canonical concept: [Warranty or Service Entitlement](../model/requirements/equipment-service/equipment-agreement/warranty-or-service-entitlement.md).
+
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -360,3 +410,35 @@ A metamodel-conformant Equipment Service knowledge base should instantiate separ
 **Register Equipment → Create and Accept Service Request → Derive Required Skills → Assign Qualified Technician → Schedule → Start Work → Log Time → Complete with Outcome → Approve Time → View Service History**
 
 Recommended verification scenarios include: no qualified technician available, certification expired before the scheduled date, two technicians needed to cover the required skills, no access on site, reschedule after partial work, rejected request, maintenance due by operating hours, overdue maintenance, lease overlapping an existing active lease, and sale transferring ownership.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Customer | [Customer](../model/requirements/equipment-service/customer/customer.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Contact | [Contact](../model/requirements/equipment-service/customer/contact.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Equipment Category | [Equipment Category](../model/requirements/equipment-service/customer/equipment-category.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Equipment Model | [Equipment Model](../model/requirements/equipment-service/customer/equipment-model.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Equipment | [Equipment](../model/requirements/equipment-service/customer/equipment.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Meter Reading (Standard) | [Meter Reading](../model/requirements/equipment-service/customer/meter-reading.md) | [Customer](../model/requirements/equipment-service/customer/README.md) |
+| Service Type | [Service Type](../model/requirements/equipment-service/service-type/service-type.md) | [Service Type](../model/requirements/equipment-service/service-type/README.md) |
+| Service Request | [Service Request](../model/requirements/equipment-service/service-type/service-request.md) | [Service Type](../model/requirements/equipment-service/service-type/README.md) |
+| Maintenance Requirement (Standard) | [Maintenance Requirement](../model/requirements/equipment-service/service-type/maintenance-requirement.md) | [Service Type](../model/requirements/equipment-service/service-type/README.md) |
+| Service Plan (Standard) | [Service Plan](../model/requirements/equipment-service/service-type/service-plan.md) | [Service Type](../model/requirements/equipment-service/service-type/README.md) |
+| Technician | [Technician](../model/requirements/equipment-service/technician/technician.md) | [Technician](../model/requirements/equipment-service/technician/README.md) |
+| Skill | [Skill](../model/requirements/equipment-service/technician/skill.md) | [Technician](../model/requirements/equipment-service/technician/README.md) |
+| Technician Skill | [Technician Skill](../model/requirements/equipment-service/technician/technician-skill.md) | [Technician](../model/requirements/equipment-service/technician/README.md) |
+| Skill Requirement | [Skill Requirement](../model/requirements/equipment-service/technician/skill-requirement.md) | [Technician](../model/requirements/equipment-service/technician/README.md) |
+| Technician Availability (Standard) | [Technician Availability](../model/requirements/equipment-service/technician/technician-availability.md) | [Technician](../model/requirements/equipment-service/technician/README.md) |
+| Service Request Assignment | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/service-request-assignment.md) | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/README.md) |
+| Work Effort | [Work Effort](../model/requirements/equipment-service/service-request-assignment/work-effort.md) | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/README.md) |
+| Service Visit (Standard) | [Service Visit](../model/requirements/equipment-service/service-request-assignment/service-visit.md) | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/README.md) |
+| Time Entry | [Time Entry](../model/requirements/equipment-service/service-request-assignment/time-entry.md) | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/README.md) |
+| Service Outcome and Finding (Standard) | [Service Outcome and Finding](../model/requirements/equipment-service/service-request-assignment/service-outcome-and-finding.md) | [Service Request Assignment](../model/requirements/equipment-service/service-request-assignment/README.md) |
+| Status History | [Status History](../model/requirements/work-management/status-type/status-history.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
+| Equipment Agreement | [Equipment Agreement](../model/requirements/equipment-service/equipment-agreement/equipment-agreement.md) | [Equipment Agreement](../model/requirements/equipment-service/equipment-agreement/README.md) |
+| Agreement Role | [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Agreement Term | [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Warranty or Service Entitlement (Standard) | [Warranty or Service Entitlement](../model/requirements/equipment-service/equipment-agreement/warranty-or-service-entitlement.md) | [Equipment Agreement](../model/requirements/equipment-service/equipment-agreement/README.md) |
