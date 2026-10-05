@@ -2,7 +2,9 @@
 
 ## Cross-Industry Modeling Patterns
 
-Industry patterns may compose reusable modeling patterns that cut across domains. The governing structure is documented in [Industry Model Architecture](docs/industry-model-architecture.md), including Domain → ABE → Entity organization, Capability Profiles, Modules, Interfaces, ownership, and internal-versus-external realization.
+Industry patterns may compose reusable modeling patterns that cut across domains. The governing structure is documented in [Industry Model Architecture](docs/industry-model-architecture.md), including Domain → ABE → Entity organization, Capabilities, Modules, Interfaces, ownership, and internal-versus-external realization.
+
+External standards can be studied through the [Reference Model Importer and Analyzer](docs/reference-model-importer.md), which normalizes source models such as SID and BIAN for comparison without making their source artifacts part of the MDE canonical model.
 
 Of particular importance for service-oriented applications is [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md): repeated or on-demand demand is matched to constrained people, teams, rooms, locations, vehicles, equipment, and other resources using configurable time, capability, location, capacity, and policy rules. See the [Modeling Pattern Catalog](modeling-patterns/catalog.md) for the full set (Case, Assignment, Approval, SLA, Work Queue, and others).
 
