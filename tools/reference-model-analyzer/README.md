@@ -28,7 +28,7 @@ The default target is `../../model/model.json`. Existing output files are protec
 ```bash
 npm run import -- /path/source.xmi --adapter sid-xmi --out output/sid-normalized.json
 npm run import -- /path/export.csv --adapter bian-csv --out output/bian-normalized.json
-npm run import -- /path/openapi.json --adapter bian-openapi --out output/bian-api.json
+npm run import -- /path/openapi.yaml --adapter bian-openapi --out output/bian-api.json
 npm run analyze -- output/sid-normalized.json --out output/sid-report.json
 npm run analyze -- /path/normalized.json /path/legacy-concepts.json
 npm run run -- /path/source.xmi --adapter sid-xmi --out output/sid
@@ -45,11 +45,11 @@ Use `--system`/`--version` to identify generic sources, `--model` to select a ta
 | `csv` | CSV using the record contract | Quoted commas/newlines, escaped quotes, JSON array cells |
 | `sid-xmi` | UML/XMI XML | Named Classes, Package context, ownedAttribute references, binary ownedEnd associations, multiplicities, generalization |
 | `bian-json` / `bian-csv` | BIAN records using the record contract | Business Objects → Entities; Service Domains → Modules; Service Operations/Semantic APIs → Interfaces |
-| `bian-openapi` | OpenAPI 3.x JSON | Direct schema properties/local schema references and path operations |
+| `bian-openapi` | OpenAPI 3.x JSON or YAML (`.yaml` / `.yml`) | Direct schema properties/local schema references and path operations |
 
-These are explicit export contracts, not a claim to parse every vendor dialect. BIAN JSON expects the record contract below. OpenAPI YAML, external schema references, and vendor-specific XML normalization are not supported. Schema composition, stereotypes, memberEnd-only associations, multiple inheritance, and unsupported elements are retained in original payloads for review. External OpenAPI references and XML DTD/entity declarations fail clearly.
+These are explicit export contracts, not a claim to parse every vendor dialect. BIAN JSON expects the record contract below. External schema references and vendor-specific XML normalization are not supported. JSON and YAML use the same `bian-openapi` adapter; no conversion step is needed. YAML must contain one document with unique mapping keys; unsupported tags, cyclic structures, and excessive alias expansion are rejected. Schema composition, stereotypes, memberEnd-only associations, multiple inheritance, and unsupported elements are retained in original payloads for review. External OpenAPI references and XML DTD/entity declarations fail clearly.
 
-No external artifacts are downloaded automatically. Use authorized local exports. Examples and tests are synthetic, not redistributed standards.
+No external artifacts are downloaded automatically. Use authorized local exports. Committed examples and tests are synthetic, not redistributed standards. The YAML adapter was also verified locally against all 258 public BIAN 14.0.0 API files.
 
 ## Record contract
 

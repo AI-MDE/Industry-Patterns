@@ -222,7 +222,7 @@ The importer should operate on source files supplied locally by an authorized us
 
 [The importer tool](../tools/reference-model-analyzer/README.md) implements local import, normalization, canonical comparison, and JSON/Markdown review reports.
 
-Supported export contracts are normalized JSON, generic record JSON/CSV, SID-style UML/XMI, BIAN record JSON/CSV, and BIAN OpenAPI 3.x JSON. The tool README defines each adapter's scope; the [normalized schema](../tools/reference-model-analyzer/schema/reference-model.schema.json) defines the common analysis structure.
+Supported export contracts are normalized JSON, generic record JSON/CSV, SID-style UML/XMI, BIAN record JSON/CSV, and BIAN OpenAPI 3.x JSON or YAML. The tool README defines each adapter's scope; the [normalized schema](../tools/reference-model-analyzer/schema/reference-model.schema.json) defines the common analysis structure.
 
 The analyzer loads the coherent model manifest and Markdown concept pages. Source-aware type alignment uses the small alias table. Original names, types, IDs, payloads, and unsupported constructs remain reviewable.
 

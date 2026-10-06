@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { xml2js } from 'xml-js';
+import { parseDocument } from 'yaml';
 import type { ImportOptions, Provenance, ReferenceModel, ReferenceEntity } from './types.ts';
 import { object, name, list, validateReference } from './validation.ts';
 export const adapters = ['normalized', 'records-json', 'csv', 'sid-xmi', 'bian-json', 'bian-csv', 'bian-openapi'] as const;
@@ -152,7 +153,7 @@ export function parseCsv(text: string): Array<Record<string, unknown>> {
 function importOpenApi(value: unknown, options: ImportOptions): ReferenceModel {
     const api = object(value, 'OpenAPI');
     if (typeof api.openapi !== 'string' || !api.openapi.startsWith('3.'))
-        throw new Error('BIAN OpenAPI adapter requires an OpenAPI 3.x JSON document');
+        throw new Error('BIAN OpenAPI adapter requires an OpenAPI 3.x JSON or YAML document');
     const info = object(api.info, 'OpenAPI.info');
     const title = name(info.title, 'info.title');
     const records: Array<Record<string, unknown>> = [{ name: title, type: 'Service Domain', description: info.description }];
@@ -303,8 +304,16 @@ export function importModel(text: string, adapter: Adapter, options: ImportOptio
     }
     else if (adapter === 'sid-xmi')
         model = importXmi(text, options);
-    else if (adapter === 'bian-openapi')
-        model = importOpenApi(JSON.parse(text), options);
+    else if (adapter === 'bian-openapi') {
+        // YAML also accepts JSON: both formats use the same extraction and validation.
+        const document = parseDocument(text, { uniqueKeys: true, stringKeys: true, merge: false });
+        const problem = document.errors[0] ?? document.warnings[0];
+        if (problem)
+            throw new Error(`Invalid OpenAPI JSON/YAML: ${problem.message}`);
+        const value = document.toJS({ maxAliasCount: 100 });
+        // Normalize aliases to JSON values and reject cyclic YAML structures.
+        model = importOpenApi(JSON.parse(JSON.stringify(value)), options);
+    }
     else
         model = recordsModel(adapter.endsWith('csv') || adapter === 'csv' ? parseCsv(text) : JSON.parse(text), { ...options, system: options.system ?? (adapter.startsWith('bian') ? 'BIAN' : undefined) }, adapter);
     model.source.sha256 = createHash('sha256').update(text).digest('hex');
