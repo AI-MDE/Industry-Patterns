@@ -1,32 +1,30 @@
-# Project
+# Professional Services Delivery
 
 Domain: [Professional Services](../README.md).
 
-Primary Entity: [Project](project.md).
+This folder currently contains the detailed concepts that were originally grouped under a single Project ABE. The canonical boundary has now been narrowed: generic enterprise concepts are supplied by shared domains, while this folder retains Professional Services refinements until the detailed concepts are migrated to their shared canonical homes.
 
-## Entities
+## Industry-specific concepts
 
-- [Client](client.md)
-- [Professional](professional.md)
-- [Project](project.md)
-- [Task](task.md)
-- [Time Entry](time-entry.md)
-- [Expense](expense.md)
 - [Engagement](engagement.md)
-- [Service Agreement](service-agreement.md)
-- [Project Assignment](project-assignment.md)
-- [Billing Rate](billing-rate.md)
-- [Deliverable](deliverable.md)
-- [Approval](approval.md)
+- [Matter](matter.md)
 - [Practice Area](practice-area.md)
 - [Service Offering](service-offering.md)
-- [Skill](skill.md)
-- [Resource Plan](resource-plan.md)
-- [Client Account](client-account.md)
-- [Matter](matter.md)
-- [Work Effort](work-effort.md)
+- [Project Assignment](project-assignment.md)
+- [Deliverable](deliverable.md)
 - [Billing Event](billing-event.md)
+- [Billing Rate](billing-rate.md)
 
-## Selected detail
+## Generic concepts being reused
 
-Select the core definition first. Include industry refinements and supporting entities only when the business goal needs them. Simple, Standard, and Enterprise selections remain defined by the linked industry patterns; this ABE does not introduce a separate Profile.
+These are no longer considered owned by Professional Services:
+
+- Client → Common / Party role
+- Professional → Administration / Human Resources
+- Skill → Administration / Human Resources
+- Project, Task, Work Effort, Time Entry, Approval → Work Management
+- Resource Plan → Resource Management
+- Expense, Client Account, Invoice, Invoice Line, Payment → Administration / Accounting
+- Service Agreement → Common / Agreement
+
+The existing pages remain temporarily for source traceability and compatibility with the current navigation manifest. New modeling should reference the shared domains rather than create new Professional Services definitions for these concepts.
