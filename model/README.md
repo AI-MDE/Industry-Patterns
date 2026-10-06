@@ -2,15 +2,19 @@
 
 Industry-Patterns has one connected semantic model. Shared concepts have one canonical home; industry specializations inherit shared meaning and preserve the details that distinguish their business context.
 
-Start with the [Domain index](requirements/index.md), use the [industry catalog](../catalog.md) to discover a suitable pattern, or inspect the [integration review](integration-review.md).
+Start with the [Domain index](domains/index.md), use the [industry catalog](../catalog.md) to discover a suitable pattern, or inspect the [integration review](integration-review.md).
 
 ## Organization
 
-The canonical model is organized as **Domain → ABE → Entity**. Every ABE has one Primary Entity and is named after it. Each Entity has its own Markdown page. A domain may reference ABEs from other domains without duplicating their definitions.
+The canonical model is organized as **Domain → ABE → Entity**. Industry profiles compose reusable domains and add only their industry-specific semantics. Every ABE has one Primary Entity and is named after it. Each Entity has its own Markdown page. A domain may reference ABEs from other domains without duplicating their definitions.
 
 Capabilities describe what the business needs and **use ABEs**. They are a selection view of the model. Implementation modules and interfaces belong to architecture; an ABE does not dictate an implementation boundary.
 
-The canonical catalog uses named Domain and ABE folders under `model/requirements/`. An application may organize selected ABEs under capabilities as described in [Changes to MDE](../docs/changes-to-mde.md). Reusing an ABE across capabilities does not give it multiple canonical definitions.
+The canonical catalog uses named Domain and ABE folders under `model/domains/`. An application may organize selected ABEs under capabilities as described in [Changes to MDE](../docs/changes-to-mde.md). Reusing an ABE across capabilities does not give it multiple canonical definitions.
+
+## Reuse and profile boundaries
+
+Reusable domains such as Common, Administration, Work Management, Resource Management, and Accounting provide concepts used across industries. An industry profile such as Professional Services should reference or specialize those concepts rather than redefine them.
 
 ## Meaning and source terminology
 
