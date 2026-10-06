@@ -8,25 +8,38 @@ MDE selection signals include client engagement, project delivery, billable work
 
 ## Business overview
 
-The core decomposition is:
+The Professional Services profile sits on top of reusable enterprise domains.
 
-**Client → Engagement → Project/Matter → Assignment/Task → Time/Expense → Approval → Billing → Payment**
+The industry-specific delivery flow is:
 
-A client sponsors an engagement. An engagement and its service agreement authorize one or more projects or matters. Projects contain tasks and receive professional assignments. Work produces time entries, expenses, and deliverables. Required approvals control acceptance and billing. Invoice lines charge for approved work or billing events, and payments settle invoices.
+**Client Role → Engagement → Project/Matter → Professional Assignment → Deliverable/Billing Event**
 
-## Core concepts
+Shared domains provide agreements, workforce structure, projects and tasks, time and expense recording, approvals, accounting, invoicing, receivables, and payment. Professional Services adds the semantics that distinguish expert client work: engagements, matters, practice areas, professional assignments, deliverables, and professional billing triggers.
 
-- Client and Client Contact
-- Professional
-- Engagement and Service Agreement
-- Project and Project Assignment
-- Task
-- Time Entry and Expense
-- Billing Rate
+## Profile composition
+
+Professional Services does not own the generic enterprise concepts needed to run the business. It composes shared domains and adds professional-service-specific semantics.
+
+### Reused concepts
+
+- Party / Client role
+- Agreement / Service Agreement
+- Organization and Human Resources
+- Skill and workforce capability
+- Project, Task, Work Effort, Time Entry, and Approval
+- Resource planning and assignment
+- Expense, Invoice, Invoice Line, Receivable, Payment, and Client Account
+- Service Offering
+
+### Professional Services concepts
+
+- Engagement
+- Matter
+- Practice Area
+- Professional Service Assignment
 - Deliverable
-- Approval
-- Invoice and Invoice Line
-- Payment
+- Billing Event
+- Professional Billing Rate, when industry-specific pricing behavior is required
 
 ## Enterprise extensions
 
@@ -79,26 +92,26 @@ The earlier summary contained actual model content. The following restores that 
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Client | Canonical definition: [Client](../model/requirements/professional-services/project/client.md). | See canonical concept for logical attributes. |
-| Professional | Canonical definition: [Professional](../model/requirements/professional-services/project/professional.md). | See canonical concept for logical attributes. |
-| Project | Canonical definition: [Project](../model/requirements/professional-services/project/project.md). | See canonical concept for logical attributes. |
-| Task | Canonical definition: [Task](../model/requirements/professional-services/project/task.md). | See canonical concept for logical attributes. |
-| Time Entry | Canonical definition: [Time Entry](../model/requirements/professional-services/project/time-entry.md). | See canonical concept for logical attributes. |
-| Expense | Canonical definition: [Expense](../model/requirements/professional-services/project/expense.md). | See canonical concept for logical attributes. |
-| Invoice | Canonical definition: [Invoice](../model/requirements/finance/invoice/invoice.md). | See canonical concept for logical attributes. |
+| Client | Canonical definition: [Client](../model/domains/professional-services/project/client.md). | See canonical concept for logical attributes. |
+| Professional | Canonical definition: [Professional](../model/domains/professional-services/project/professional.md). | See canonical concept for logical attributes. |
+| Project | Canonical definition: [Project](../model/domains/professional-services/project/project.md). | See canonical concept for logical attributes. |
+| Task | Canonical definition: [Task](../model/domains/professional-services/project/task.md). | See canonical concept for logical attributes. |
+| Time Entry | Canonical definition: [Time Entry](../model/domains/professional-services/project/time-entry.md). | See canonical concept for logical attributes. |
+| Expense | Canonical definition: [Expense](../model/domains/professional-services/project/expense.md). | See canonical concept for logical attributes. |
+| Invoice | Canonical definition: [Invoice](../model/domains/finance/invoice/invoice.md). | See canonical concept for logical attributes. |
 
 ### Standard extensions
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Engagement | Canonical definition: [Engagement](../model/requirements/professional-services/project/engagement.md). | See canonical concept for logical attributes. |
-| Service Agreement | Canonical definition: [Service Agreement](../model/requirements/professional-services/project/service-agreement.md). | See canonical concept for logical attributes. |
-| Project Assignment | Canonical definition: [Project Assignment](../model/requirements/professional-services/project/project-assignment.md). | See canonical concept for logical attributes. |
-| Billing Rate | Canonical definition: [Billing Rate](../model/requirements/professional-services/project/billing-rate.md). | See canonical concept for logical attributes. |
-| Deliverable | Canonical definition: [Deliverable](../model/requirements/professional-services/project/deliverable.md). | See canonical concept for logical attributes. |
-| Approval | Canonical definition: [Approval](../model/requirements/professional-services/project/approval.md). | See canonical concept for logical attributes. |
-| Invoice Line | Canonical definition: [Invoice Line](../model/requirements/finance/invoice/invoice-line.md). | See canonical concept for logical attributes. |
-| Payment | Canonical definition: [Payment](../model/requirements/finance/invoice/payment.md). | See canonical concept for logical attributes. |
+| Engagement | Canonical definition: [Engagement](../model/domains/professional-services/project/engagement.md). | See canonical concept for logical attributes. |
+| Service Agreement | Canonical definition: [Service Agreement](../model/domains/professional-services/project/service-agreement.md). | See canonical concept for logical attributes. |
+| Project Assignment | Canonical definition: [Project Assignment](../model/domains/professional-services/project/project-assignment.md). | See canonical concept for logical attributes. |
+| Billing Rate | Canonical definition: [Billing Rate](../model/domains/professional-services/project/billing-rate.md). | See canonical concept for logical attributes. |
+| Deliverable | Canonical definition: [Deliverable](../model/domains/professional-services/project/deliverable.md). | See canonical concept for logical attributes. |
+| Approval | Canonical definition: [Approval](../model/domains/professional-services/project/approval.md). | See canonical concept for logical attributes. |
+| Invoice Line | Canonical definition: [Invoice Line](../model/domains/finance/invoice/invoice-line.md). | See canonical concept for logical attributes. |
+| Payment | Canonical definition: [Payment](../model/domains/finance/invoice/payment.md). | See canonical concept for logical attributes. |
 
 ### Relationship model
 
@@ -148,14 +161,14 @@ erDiagram
 
 ### Enterprise concepts
 
-- **Practice Area** — Canonical concept: [Practice Area](../model/requirements/professional-services/project/practice-area.md).
-- **Service Offering** — Canonical concept: [Service Offering](../model/requirements/professional-services/project/service-offering.md).
-- **Skill** — Canonical concept: [Skill](../model/requirements/professional-services/project/skill.md).
-- **Resource Plan** — Canonical concept: [Resource Plan](../model/requirements/professional-services/project/resource-plan.md).
-- **Client Account** — Canonical concept: [Client Account](../model/requirements/professional-services/project/client-account.md).
-- **Matter** — Canonical concept: [Matter](../model/requirements/professional-services/project/matter.md).
-- **Work Effort** — Canonical concept: [Work Effort](../model/requirements/professional-services/project/work-effort.md).
-- **Billing Event** — Canonical concept: [Billing Event](../model/requirements/professional-services/project/billing-event.md).
+- **Practice Area** — Canonical concept: [Practice Area](../model/domains/professional-services/project/practice-area.md).
+- **Service Offering** — Canonical concept: [Service Offering](../model/domains/professional-services/project/service-offering.md).
+- **Skill** — Canonical concept: [Skill](../model/domains/professional-services/project/skill.md).
+- **Resource Plan** — Canonical concept: [Resource Plan](../model/domains/professional-services/project/resource-plan.md).
+- **Client Account** — Canonical concept: [Client Account](../model/domains/professional-services/project/client-account.md).
+- **Matter** — Canonical concept: [Matter](../model/domains/professional-services/project/matter.md).
+- **Work Effort** — Canonical concept: [Work Effort](../model/domains/professional-services/project/work-effort.md).
+- **Billing Event** — Canonical concept: [Billing Event](../model/domains/professional-services/project/billing-event.md).
 
 ### Physical mapping
 
@@ -167,26 +180,26 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Client | [Client](../model/requirements/professional-services/project/client.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Professional | [Professional](../model/requirements/professional-services/project/professional.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Project | [Project](../model/requirements/professional-services/project/project.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Task | [Task](../model/requirements/professional-services/project/task.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Time Entry | [Time Entry](../model/requirements/professional-services/project/time-entry.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Expense | [Expense](../model/requirements/professional-services/project/expense.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Engagement | [Engagement](../model/requirements/professional-services/project/engagement.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Service Agreement | [Service Agreement](../model/requirements/professional-services/project/service-agreement.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Project Assignment | [Project Assignment](../model/requirements/professional-services/project/project-assignment.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Billing Rate | [Billing Rate](../model/requirements/professional-services/project/billing-rate.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Deliverable | [Deliverable](../model/requirements/professional-services/project/deliverable.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Approval | [Approval](../model/requirements/professional-services/project/approval.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Invoice Line | [Invoice Line](../model/requirements/finance/invoice/invoice-line.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Practice Area | [Practice Area](../model/requirements/professional-services/project/practice-area.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Service Offering | [Service Offering](../model/requirements/professional-services/project/service-offering.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Skill | [Skill](../model/requirements/professional-services/project/skill.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Resource Plan | [Resource Plan](../model/requirements/professional-services/project/resource-plan.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Client Account | [Client Account](../model/requirements/professional-services/project/client-account.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Matter | [Matter](../model/requirements/professional-services/project/matter.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Work Effort | [Work Effort](../model/requirements/professional-services/project/work-effort.md) | [Project](../model/requirements/professional-services/project/README.md) |
-| Billing Event | [Billing Event](../model/requirements/professional-services/project/billing-event.md) | [Project](../model/requirements/professional-services/project/README.md) |
+| Client | [Client](../model/domains/professional-services/project/client.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Professional | [Professional](../model/domains/professional-services/project/professional.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Project | [Project](../model/domains/professional-services/project/project.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Task | [Task](../model/domains/professional-services/project/task.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Time Entry | [Time Entry](../model/domains/professional-services/project/time-entry.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Expense | [Expense](../model/domains/professional-services/project/expense.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Engagement | [Engagement](../model/domains/professional-services/project/engagement.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Service Agreement | [Service Agreement](../model/domains/professional-services/project/service-agreement.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Project Assignment | [Project Assignment](../model/domains/professional-services/project/project-assignment.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Billing Rate | [Billing Rate](../model/domains/professional-services/project/billing-rate.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Deliverable | [Deliverable](../model/domains/professional-services/project/deliverable.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Approval | [Approval](../model/domains/professional-services/project/approval.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Invoice Line | [Invoice Line](../model/domains/finance/invoice/invoice-line.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Practice Area | [Practice Area](../model/domains/professional-services/project/practice-area.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Service Offering | [Service Offering](../model/domains/professional-services/project/service-offering.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Skill | [Skill](../model/domains/professional-services/project/skill.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Resource Plan | [Resource Plan](../model/domains/professional-services/project/resource-plan.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Client Account | [Client Account](../model/domains/professional-services/project/client-account.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Matter | [Matter](../model/domains/professional-services/project/matter.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Work Effort | [Work Effort](../model/domains/professional-services/project/work-effort.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Billing Event | [Billing Event](../model/domains/professional-services/project/billing-event.md) | [Project](../model/domains/professional-services/project/README.md) |
