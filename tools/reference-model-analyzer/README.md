@@ -30,11 +30,22 @@ npm run import -- /path/source.xmi --adapter sid-xmi --out output/sid-normalized
 npm run import -- /path/export.csv --adapter bian-csv --out output/bian-normalized.json
 npm run import -- /path/openapi.yaml --adapter bian-openapi --out output/bian-api.json
 npm run analyze -- output/sid-normalized.json --out output/sid-report.json
+npm run analyze -- /path/openapi.yaml --adapter bian-openapi --out output/bian-report.json
 npm run analyze -- /path/normalized.json /path/legacy-concepts.json
 npm run run -- /path/source.xmi --adapter sid-xmi --out output/sid
 ```
 
 Use `--system`/`--version` to identify generic sources, `--model` to select a target manifest, and `--aliases` for a custom meta-type terminology table. SID and BIAN adapters default to their source names. Import/analyze prints JSON when `--out` is omitted. `--help` lists options.
+
+`analyze` defaults to normalized JSON. To analyze raw source files directly, select their adapter (for BIAN YAML, `--adapter bian-openapi`). Use `run` with the same adapter when you also want the normalized model and Markdown report saved.
+
+On Windows PowerShell, use `npm.cmd` in place of `npm` if flags disappear from the echoed command. Some `npm.ps1` wrappers lose the `--` separator, causing npm to consume `--adapter` and `--out` instead of passing them to the tool:
+
+```powershell
+npm.cmd run analyze -- /path/openapi.yaml --adapter bian-openapi --out output/bian-report.json
+```
+
+You can also invoke the CLI directly: `node src/index.ts analyze /path/openapi.yaml --adapter bian-openapi --out output/bian-report.json`.
 
 ## Supported exports
 

@@ -10,11 +10,12 @@ import { validateReference } from './validation.ts';
 const tool = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const help = `Reference Model Importer (Node >=22.18)
   node src/index.ts import <input> --adapter <adapter> --out <normalized.json> [--system SID|BIAN]
-  node src/index.ts analyze <normalized.json> [<model/model.json>|<legacy-concepts.json>] [--out <report.json>]
+  node src/index.ts analyze <input> [<model/model.json>|<legacy-concepts.json>] [--adapter <adapter>] [--out <report.json>]
   node src/index.ts run <input> --adapter <adapter> --out <new-output-directory> [--model <manifest>]
 Adapters: ${adapters.join(', ')}
 Options: --system <source>, --version <version>, --aliases <meta-type-aliases.json>, --force
 Without --out, import/analyze prints JSON. run writes normalized.json, report.json, and report.md.
+analyze defaults to normalized JSON. For BIAN YAML, pass --adapter bian-openapi.
 All proposed mappings require review; the canonical model is never modified.`;
 function markdown(report: AnalysisReport): string {
     const escape = (s: unknown) => String(s ?? '').replace(/\|/g, '\\|').replace(/[\r\n]/g, ' ');
@@ -75,8 +76,10 @@ async function main() {
     const aliases = JSON.parse(await readFile(aliasFile, 'utf8'));
     const input = positional[0];
     const text = await readFile(input, 'utf8');
-    const parsed = command === 'analyze' ? validateReference(JSON.parse(text)) : undefined;
-    const normalized = parsed?.source.file ? parsed : importModel(text, command === 'analyze' ? 'normalized' : adapter, { file: path.resolve(input), system: flags.system as string | undefined, version: flags.version as string | undefined, aliases });
+    if (adapter === 'normalized' && /\.ya?ml$/i.test(input))
+        throw new Error('The normalized adapter expects JSON. For BIAN OpenAPI YAML, pass --adapter bian-openapi.');
+    const parsed = command === 'analyze' && adapter === 'normalized' ? validateReference(JSON.parse(text)) : undefined;
+    const normalized = parsed?.source.file ? parsed : importModel(text, adapter, { file: path.resolve(input), system: flags.system as string | undefined, version: flags.version as string | undefined, aliases });
     const json = (value: unknown) => JSON.stringify(value, null, 2) + '\n';
     if (command === 'import') {
         if (flags.out)

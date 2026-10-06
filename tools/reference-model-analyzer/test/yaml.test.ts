@@ -69,3 +69,30 @@ test('CLI imports .yaml and .yml directly with bian-openapi', async () => {
         }
     } finally { await rm(dir, { recursive: true, force: true }); }
 });
+
+test('CLI analyzes raw YAML like imported normalized JSON and explains a missing adapter', async () => {
+    const dir = await mkdtemp(path.join(os.tmpdir(), 'mde-yaml-analyze-test-'));
+    try {
+        const model = path.join(dir, 'concepts.json');
+        await writeFile(model, JSON.stringify([{ domain: 'Party', abe: 'Party', entity: 'Person' }]));
+        const cli = (...args: string[]) => spawnSync(process.execPath, [path.join(tool, 'src/index.ts'), ...args], { encoding: 'utf8' });
+        for (const extension of ['yaml', 'yml']) {
+            const input = path.join(dir, `source.${extension}`);
+            const normalized = path.join(dir, `${extension}-normalized.json`);
+            await writeFile(input, yaml);
+            const missing = cli('analyze', input, '--model', model);
+            assert.equal(missing.status, 1);
+            assert.match(missing.stderr, /--adapter bian-openapi/);
+            const imported = cli('import', input, '--adapter', 'bian-openapi', '--out', normalized);
+            assert.equal(imported.status, 0, imported.stderr);
+            const expected = cli('analyze', normalized, model);
+            assert.equal(expected.status, 0, expected.stderr);
+            const actual = cli('analyze', input, '--adapter', 'bian-openapi', '--model', model);
+            assert.equal(actual.status, 0, actual.stderr);
+            const report = JSON.parse(actual.stdout);
+            assert.deepEqual(report, JSON.parse(expected.stdout));
+            assert.equal(report.source.adapter, 'bian-openapi');
+            assert.ok(report.matches.some((match: any) => match.source.entity === 'Person'));
+        }
+    } finally { await rm(dir, { recursive: true, force: true }); }
+});
