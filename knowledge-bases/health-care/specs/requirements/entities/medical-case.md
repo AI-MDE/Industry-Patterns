@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Medical Case
 
+## Canonical origin
+
+This selected specification derives from [Medical Case](../../../../../model/requirements/health-care/encounter/medical-case.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A managed body of work concerning a Patient condition, event, investigation, authorization, or service need.
@@ -35,3 +39,4 @@ open; assigned; investigating; decision-required; resolved; closed
 ## Rules
 
 - [case-resolution-requires-evidence](../rules/case-resolution-requires-evidence.md)
+

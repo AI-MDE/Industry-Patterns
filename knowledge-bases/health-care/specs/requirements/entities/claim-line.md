@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Claim Line
 
+## Canonical origin
+
+This selected specification derives from [Claim Line](../../../../../model/requirements/health-care/coverage/claim-line.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A detailed service or Charge submitted within a Claim.
@@ -33,3 +37,4 @@ draft; validated; submitted; adjudicated; denied; paid
 ## Rules
 
 - [claim-line-must-trace-to-delivered-service](../rules/claim-line-must-trace-to-delivered-service.md)
+

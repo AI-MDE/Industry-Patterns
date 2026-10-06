@@ -47,303 +47,289 @@ Adds: System of Record Assignment; Data Ownership Rule; Golden Record; Match Can
 
 ### System
 
-A bounded application, service, file-based process, database, or external provider that stores or processes business information.
+Canonical concept: [System](../model/requirements/legacy-conversion/system/system.md).
 
-Logical attributes: System Identifier; System Name; System Type; System Status; Owner; Vendor; Version; Environment; Time Zone; Character Encoding; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Source Dataset
 
-A defined collection of source information to be analyzed or converted.
+Canonical concept: [Source Dataset](../model/requirements/legacy-conversion/system/source-dataset.md).
 
-Logical attributes: Dataset Identifier; Dataset Name; Dataset Type; Source System; Location Reference; Format; Schema Version; Extract Criteria; As-of Time; Record Count; Sensitivity Classification.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Source Entity
 
-A structural record type in the Source Dataset, such as a table, file record, message, document type, or API resource.
+Canonical concept: [Source Entity](../model/requirements/legacy-conversion/system/source-entity.md).
 
-Logical attributes: Source Entity Identifier; Source Name; Description; Storage Type; Natural Key Description; Estimated Volume; Retention Period.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Source Field
 
-A named source data element.
+Canonical concept: [Source Field](../model/requirements/legacy-conversion/system/source-field.md).
 
-Logical attributes: Source Field Identifier; Field Name; Description; Data Type; Length; Nullable Indicator; Format; Default Value; Code Set; Sensitivity Classification.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Source Record
 
-One observed record from a Source Entity at a particular extraction point.
+Canonical concept: [Source Record](../model/requirements/legacy-conversion/system/source-record.md).
 
-Logical attributes: Source Record Identifier; Source Key; Extracted At; Source Version; Source Timestamp; Raw Hash; Record Status.
-
-Rule: Source Record identity must be stable enough to reproduce or explain a conversion result.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Canonical and target concepts
 
 ### Canonical Concept
 
-A technology-independent business concept accepted by the target knowledge model.
+Canonical concept: [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/canonical-concept.md).
 
-Logical attributes: Concept Identifier; Concept Name; Definition; Concept Type; Model Version; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Canonical Attribute
 
-A defined fact belonging to a Canonical Concept.
+Canonical concept: [Canonical Attribute](../model/requirements/legacy-conversion/canonical-concept/canonical-attribute.md).
 
-Logical attributes: Attribute Identifier; Attribute Name; Definition; Logical Type; Required Indicator; Multiplicity; Classification Scheme reference; Constraint reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Target Store
 
-The application, service, database, index, archive, or event stream that receives converted information.
+Canonical concept: [Target Store](../model/requirements/legacy-conversion/canonical-concept/target-store.md).
 
-Logical attributes: Target Store Identifier; Target Name; Target Type; Target System; Schema Version; Owner; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Target Record
 
-A created or updated representation of a Canonical Concept in a Target Store.
+Canonical concept: [Target Record](../model/requirements/legacy-conversion/canonical-concept/target-record.md).
 
-Logical attributes: Target Record Identifier; Target Key; Canonical Concept; Created At; Updated At; Target Version; Record Status; Record Hash.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Identity and correspondence
 
 ### External Identifier
 
-An identifier assigned by a source, partner, jurisdiction, or prior application.
+Canonical concept: [External Identifier](../model/requirements/legacy-conversion/external-identifier/external-identifier.md).
 
-Logical attributes: External Identifier Record; Identifier Type; Identifier Value; Assigning Authority; Source System; Status; Effective From; Effective Through.
-
-Rule: preserve External Identifiers as mappings; do not make mutable or system-specific identifiers the canonical business identity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Record Link
 
-An asserted relationship between a Source Record and a canonical or Target Record.
+Canonical concept: [Record Link](../model/requirements/legacy-conversion/external-identifier/record-link.md).
 
-Logical attributes: Record Link Identifier; Link Type; Link Status; Confidence; Effective From; Effective Through; Decision reference.
-
-Link types include exact match, probable match, created from, supersedes, duplicate of, split from, or merged into.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Match Candidate
 
-A proposed correspondence between records or Parties.
+Canonical concept: [Match Candidate](../model/requirements/legacy-conversion/external-identifier/match-candidate.md).
 
-Logical attributes: Candidate Identifier; Match Score; Match Method; Candidate Status; Created At; Explanation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Match Decision
 
-An accepted or rejected identity decision.
+Canonical concept: [Match Decision](../model/requirements/legacy-conversion/external-identifier/match-decision.md).
 
-Logical attributes: Decision Identifier; Decision Type; Decision Status; Decided At; Decided By; Reason; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Golden Record
 
-A governed canonical view assembled from one or more source assertions under survivorship and ownership rules.
+Canonical concept: [Golden Record](../model/requirements/legacy-conversion/external-identifier/golden-record.md).
 
-Logical attributes: Golden Record Identifier; Concept Type; Golden Record Status; Created At; Updated At; Survivorship Rule Version.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Merge/Split History
 
-Immutable evidence that canonical identities were merged or separated.
+Canonical concept: [Merge/Split History](../model/requirements/legacy-conversion/external-identifier/merge-split-history.md).
 
-Logical attributes: Identity Change Identifier; Change Type; Effective At; Changed By; Reason; Prior Identity reference; Resulting Identity reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Mapping and transformation
 
 ### Mapping Specification
 
-A versioned declaration of how source structures and meanings correspond to canonical and target concepts.
+Canonical concept: [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/mapping-specification.md).
 
-Logical attributes: Mapping Identifier; Mapping Name; Mapping Version; Mapping Status; Source Schema Version; Target Model Version; Effective From; Effective Through; Approved By; Approved At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Field Mapping
 
-A mapping from one or more Source Fields to a Canonical Attribute or Target Field.
+Canonical concept: [Field Mapping](../model/requirements/legacy-conversion/mapping-specification/field-mapping.md).
 
-Logical attributes: Field Mapping Identifier; Mapping Type; Source Expression; Target Attribute; Required Indicator; Default Rule; Null Handling; Sequence.
-
-Mapping types include direct, rename, concatenate, split, derive, lookup, aggregate, classify, ignore, and manual.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Value Mapping
 
-A governed translation from a source value or code to a canonical value or Classification.
+Canonical concept: [Value Mapping](../model/requirements/legacy-conversion/mapping-specification/value-mapping.md).
 
-Logical attributes: Value Mapping Identifier; Source Value; Target Value; Mapping Status; Effective From; Effective Through; Mapping Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Transformation Rule
 
-A deterministic rule that converts, normalizes, derives, validates, or suppresses data.
+Canonical concept: [Transformation Rule](../model/requirements/legacy-conversion/mapping-specification/transformation-rule.md).
 
-Logical attributes: Transformation Rule Identifier; Rule Name; Rule Version; Rule Type; Rule Expression; Input Contract; Output Contract; Error Behavior; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Default Rule
 
-A declared method for supplying a value absent from the source.
+Canonical concept: [Default Rule](../model/requirements/legacy-conversion/mapping-specification/default-rule.md).
 
-Logical attributes: Default Rule Identifier; Default Type; Default Value or Expression; Applicability Condition; Evidence Requirement.
-
-Rule: defaulted, inferred, and manually supplied values must remain distinguishable from observed source values.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Discovery and data quality
 
 ### Data Profile
 
-Measured characteristics of a Dataset, Source Entity, or Source Field.
+Canonical concept: [Data Profile](../model/requirements/legacy-conversion/data-profile/data-profile.md).
 
-Logical attributes: Profile Identifier; Profiled At; Record Count; Null Count; Distinct Count; Minimum; Maximum; Pattern Summary; Sample Reference; Source Hash.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Data Quality Rule
 
-A test of completeness, validity, consistency, uniqueness, timeliness, or referential integrity.
+Canonical concept: [Data Quality Rule](../model/requirements/legacy-conversion/data-profile/data-quality-rule.md).
 
-Logical attributes: Quality Rule Identifier; Rule Name; Quality Dimension; Rule Expression; Severity; Threshold; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Data Quality Finding
 
-Evidence that source or converted data satisfied or violated a Data Quality Rule.
+Canonical concept: [Data Quality Finding](../model/requirements/legacy-conversion/data-profile/data-quality-finding.md).
 
-Logical attributes: Finding Identifier; Finding Status; Observed At; Observed Value; Expected Condition; Severity; Affected Record Count; Sample Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Semantic Issue
 
-An ambiguity or conflict in business meaning that cannot be resolved by structural mapping alone.
+Canonical concept: [Semantic Issue](../model/requirements/legacy-conversion/data-profile/semantic-issue.md).
 
-Logical attributes: Semantic Issue Identifier; Issue Type; Description; Impact; Issue Status; Owner; Resolution Due Date.
-
-Examples: overloaded legacy field, undocumented code, changed definition, conflicting dates, or one source concept representing several canonical concepts.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Migration planning and execution
 
 ### Migration Plan
 
-A governed plan defining scope, sequence, controls, acceptance criteria, cutover, recovery, and responsibilities.
+Canonical concept: [Migration Plan](../model/requirements/legacy-conversion/migration-plan/migration-plan.md).
 
-Logical attributes: Migration Plan Identifier; Plan Name; Plan Version; Plan Status; Scope; Source Baseline; Target Version; Acceptance Criteria; Cutover Strategy; Rollback Strategy.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Migration Wave
 
-A business-meaningful portion of migration scope released together.
+Canonical concept: [Migration Wave](../model/requirements/legacy-conversion/migration-plan/migration-wave.md).
 
-Logical attributes: Wave Identifier; Wave Name; Wave Status; Sequence; Planned Start; Planned Cutover; Actual Cutover; Scope Criteria.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Migration Batch
 
-One repeatable execution of an approved Mapping Specification against an identified source extract.
+Canonical concept: [Migration Batch](../model/requirements/legacy-conversion/migration-plan/migration-batch.md).
 
-Logical attributes: Batch Identifier; Batch Type; Batch Status; Started At; Completed At; Source Extract reference; Mapping Version; Target Version; Submitted Count; Succeeded Count; Failed Count; Operator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Migration Item
 
-The conversion outcome for one Source Record or logical group of records.
+Canonical concept: [Migration Item](../model/requirements/legacy-conversion/migration-plan/migration-item.md).
 
-Logical attributes: Migration Item Identifier; Item Status; Source Record reference; Target Record reference; Attempt Number; Started At; Completed At; Result Code.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Validation Result
 
-Evidence that a Source Record, transformed record, Target Record, or batch satisfies a declared rule.
+Canonical concept: [Validation Result](../model/requirements/legacy-conversion/migration-plan/validation-result.md).
 
-Logical attributes: Validation Result Identifier; Validation Stage; Rule reference; Result Status; Observed Value; Message; Evaluated At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Conversion Error
 
-A technical or deterministic mapping failure.
+Canonical concept: [Conversion Error](../model/requirements/legacy-conversion/migration-plan/conversion-error.md).
 
-Logical attributes: Error Identifier; Error Type; Error Code; Severity; Message; Occurred At; Retryable Indicator; Source Context; Rule reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exception
 
-A business or governance decision required because automated processing cannot safely determine the result.
+Canonical concept: [Exception](../model/requirements/legacy-conversion/migration-plan/exception.md).
 
-Logical attributes: Exception Identifier; Exception Type; Exception Status; Severity; Opened At; Owner; Due Date; Business Impact.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resolution
 
-The approved disposition of an Exception or Finding.
+Canonical concept: [Resolution](../model/requirements/legacy-conversion/migration-plan/resolution.md).
 
-Logical attributes: Resolution Identifier; Resolution Type; Decision; Corrective Action; Decided By; Decided At; Reason; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Lineage, reconciliation, and evidence
 
 ### Lineage Record
 
-Evidence connecting a target fact to its source records, mapping, transformation, execution, and decisions.
+Canonical concept: [Lineage Record](../model/requirements/legacy-conversion/lineage-record/lineage-record.md).
 
-Logical attributes: Lineage Identifier; Target Record; Target Attribute; Source Record; Source Field; Mapping Version; Transformation Rule Version; Batch; Created At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reconciliation
 
-A controlled comparison between source scope and target results.
+Canonical concept: [Reconciliation](../model/requirements/legacy-conversion/lineage-record/reconciliation.md).
 
-Logical attributes: Reconciliation Identifier; Reconciliation Type; Status; Source Count; Target Count; Source Total; Target Total; Difference; Tolerance; Evaluated At; Approved By.
-
-Reconciliation types include record count, control total, monetary total, balance, status distribution, relationship count, hash, and sampled semantic comparison.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Control Evidence
 
-An immutable artifact proving that a required migration or cutover control was performed.
+Canonical concept: [Control Evidence](../model/requirements/legacy-conversion/lineage-record/control-evidence.md).
 
-Logical attributes: Evidence Identifier; Control Type; Performed At; Performed By; Result; Artifact Reference; Hash; Retention Policy.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Coexistence and synchronization
 
 ### System of Record Assignment
 
-A time-bounded declaration of which System is authoritative for a Canonical Concept, attribute, population, or operation.
+Canonical concept: [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/system-of-record-assignment.md).
 
-Logical attributes: Assignment Identifier; Scope; Authority Type; System; Effective From; Effective Through; Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Data Ownership Rule
 
-A rule declaring who may create, update, correct, or approve a particular fact.
+Canonical concept: [Data Ownership Rule](../model/requirements/legacy-conversion/system-of-record-assignment/data-ownership-rule.md).
 
-Logical attributes: Ownership Rule Identifier; Subject Scope; Attribute Scope; Owning Role; Permitted Operations; Condition; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Synchronization Contract
 
-A versioned agreement governing data exchanged between Systems.
+Canonical concept: [Synchronization Contract](../model/requirements/legacy-conversion/system-of-record-assignment/synchronization-contract.md).
 
-Logical attributes: Contract Identifier; Contract Version; Publisher; Consumer; Data Scope; Direction; Trigger; Delivery Guarantee; Ordering Rule; Idempotency Rule; Error Policy; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Change Capture
 
-Evidence of a source change offered for synchronization.
+Canonical concept: [Change Capture](../model/requirements/legacy-conversion/system-of-record-assignment/change-capture.md).
 
-Logical attributes: Change Identifier; Source Record; Change Type; Source Version; Occurred At; Captured At; Sequence; Payload Hash.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Conflict
 
-Competing changes or assertions that violate ownership, ordering, or consistency rules.
+Canonical concept: [Conflict](../model/requirements/legacy-conversion/system-of-record-assignment/conflict.md).
 
-Logical attributes: Conflict Identifier; Conflict Type; Conflict Status; Detected At; Source Assertions; Resolution Policy; Resolved At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Cutover, archive, and retirement
 
 ### Cutover Event
 
-The controlled transfer of operational responsibility from one system configuration to another.
+Canonical concept: [Cutover Event](../model/requirements/legacy-conversion/cutover-event/cutover-event.md).
 
-Logical attributes: Cutover Identifier; Cutover Type; Cutover Status; Planned At; Started At; Completed At; Decision Authority; Rollback Deadline.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rollback Point
 
-A verified state to which systems and data can be restored.
+Canonical concept: [Rollback Point](../model/requirements/legacy-conversion/cutover-event/rollback-point.md).
 
-Logical attributes: Rollback Point Identifier; Captured At; Scope; Storage Reference; Validation Status; Expiration Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Archive Package
 
-A preserved collection of legacy records, metadata, schemas, documentation, and access instructions.
+Canonical concept: [Archive Package](../model/requirements/legacy-conversion/cutover-event/archive-package.md).
 
-Logical attributes: Archive Identifier; Archive Type; Created At; Content Scope; Format; Encryption Reference; Hash; Retention End; Access Policy.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Retention Policy
 
-A rule governing how long information and evidence must be retained and how it may be disposed.
+Canonical concept: [Retention Policy](../model/requirements/legacy-conversion/cutover-event/retention-policy.md).
 
-Logical attributes: Retention Policy Identifier; Record Class; Retention Period; Trigger Event; Disposition; Jurisdiction; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Decommission Plan
 
-A governed plan for removing a legacy System from operational use.
+Canonical concept: [Decommission Plan](../model/requirements/legacy-conversion/cutover-event/decommission-plan.md).
 
-Logical attributes: Decommission Plan Identifier; Plan Status; Preconditions; Dependency Summary; Archive Requirement; Access Requirement; Planned Date; Actual Date; Approval.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -551,3 +537,55 @@ Logical names remain authoritative. Technology-stack rules generate physical nam
 ## Future behavioral expansion
 
 A later behavioral layer should define capabilities and actor-goal use cases such as Register Source, Profile Dataset, Define Mapping, Approve Mapping, Execute Trial Migration, Resolve Exception, Reconcile Batch, Match Identity, Execute Cutover, Roll Back Cutover, Archive Legacy Records, and Decommission System, with pages, scenarios, controls, and tests.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| System | [System](../model/requirements/legacy-conversion/system/system.md) | [System](../model/requirements/legacy-conversion/system/README.md) |
+| Source Dataset | [Source Dataset](../model/requirements/legacy-conversion/system/source-dataset.md) | [System](../model/requirements/legacy-conversion/system/README.md) |
+| Source Entity | [Source Entity](../model/requirements/legacy-conversion/system/source-entity.md) | [System](../model/requirements/legacy-conversion/system/README.md) |
+| Source Field | [Source Field](../model/requirements/legacy-conversion/system/source-field.md) | [System](../model/requirements/legacy-conversion/system/README.md) |
+| Source Record | [Source Record](../model/requirements/legacy-conversion/system/source-record.md) | [System](../model/requirements/legacy-conversion/system/README.md) |
+| Canonical Concept | [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/canonical-concept.md) | [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/README.md) |
+| Canonical Attribute | [Canonical Attribute](../model/requirements/legacy-conversion/canonical-concept/canonical-attribute.md) | [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/README.md) |
+| Target Store | [Target Store](../model/requirements/legacy-conversion/canonical-concept/target-store.md) | [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/README.md) |
+| Target Record | [Target Record](../model/requirements/legacy-conversion/canonical-concept/target-record.md) | [Canonical Concept](../model/requirements/legacy-conversion/canonical-concept/README.md) |
+| External Identifier | [External Identifier](../model/requirements/legacy-conversion/external-identifier/external-identifier.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Record Link | [Record Link](../model/requirements/legacy-conversion/external-identifier/record-link.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Match Candidate | [Match Candidate](../model/requirements/legacy-conversion/external-identifier/match-candidate.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Match Decision | [Match Decision](../model/requirements/legacy-conversion/external-identifier/match-decision.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Golden Record | [Golden Record](../model/requirements/legacy-conversion/external-identifier/golden-record.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Merge/Split History | [Merge/Split History](../model/requirements/legacy-conversion/external-identifier/merge-split-history.md) | [External Identifier](../model/requirements/legacy-conversion/external-identifier/README.md) |
+| Mapping Specification | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/mapping-specification.md) | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/README.md) |
+| Field Mapping | [Field Mapping](../model/requirements/legacy-conversion/mapping-specification/field-mapping.md) | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/README.md) |
+| Value Mapping | [Value Mapping](../model/requirements/legacy-conversion/mapping-specification/value-mapping.md) | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/README.md) |
+| Transformation Rule | [Transformation Rule](../model/requirements/legacy-conversion/mapping-specification/transformation-rule.md) | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/README.md) |
+| Default Rule | [Default Rule](../model/requirements/legacy-conversion/mapping-specification/default-rule.md) | [Mapping Specification](../model/requirements/legacy-conversion/mapping-specification/README.md) |
+| Data Profile | [Data Profile](../model/requirements/legacy-conversion/data-profile/data-profile.md) | [Data Profile](../model/requirements/legacy-conversion/data-profile/README.md) |
+| Data Quality Rule | [Data Quality Rule](../model/requirements/legacy-conversion/data-profile/data-quality-rule.md) | [Data Profile](../model/requirements/legacy-conversion/data-profile/README.md) |
+| Data Quality Finding | [Data Quality Finding](../model/requirements/legacy-conversion/data-profile/data-quality-finding.md) | [Data Profile](../model/requirements/legacy-conversion/data-profile/README.md) |
+| Semantic Issue | [Semantic Issue](../model/requirements/legacy-conversion/data-profile/semantic-issue.md) | [Data Profile](../model/requirements/legacy-conversion/data-profile/README.md) |
+| Migration Plan | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/migration-plan.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Migration Wave | [Migration Wave](../model/requirements/legacy-conversion/migration-plan/migration-wave.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Migration Batch | [Migration Batch](../model/requirements/legacy-conversion/migration-plan/migration-batch.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Migration Item | [Migration Item](../model/requirements/legacy-conversion/migration-plan/migration-item.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Validation Result | [Validation Result](../model/requirements/legacy-conversion/migration-plan/validation-result.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Conversion Error | [Conversion Error](../model/requirements/legacy-conversion/migration-plan/conversion-error.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Exception | [Exception](../model/requirements/legacy-conversion/migration-plan/exception.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Resolution | [Resolution](../model/requirements/legacy-conversion/migration-plan/resolution.md) | [Migration Plan](../model/requirements/legacy-conversion/migration-plan/README.md) |
+| Lineage Record | [Lineage Record](../model/requirements/legacy-conversion/lineage-record/lineage-record.md) | [Lineage Record](../model/requirements/legacy-conversion/lineage-record/README.md) |
+| Reconciliation | [Reconciliation](../model/requirements/legacy-conversion/lineage-record/reconciliation.md) | [Lineage Record](../model/requirements/legacy-conversion/lineage-record/README.md) |
+| Control Evidence | [Control Evidence](../model/requirements/legacy-conversion/lineage-record/control-evidence.md) | [Lineage Record](../model/requirements/legacy-conversion/lineage-record/README.md) |
+| System of Record Assignment | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/system-of-record-assignment.md) | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/README.md) |
+| Data Ownership Rule | [Data Ownership Rule](../model/requirements/legacy-conversion/system-of-record-assignment/data-ownership-rule.md) | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/README.md) |
+| Synchronization Contract | [Synchronization Contract](../model/requirements/legacy-conversion/system-of-record-assignment/synchronization-contract.md) | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/README.md) |
+| Change Capture | [Change Capture](../model/requirements/legacy-conversion/system-of-record-assignment/change-capture.md) | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/README.md) |
+| Conflict | [Conflict](../model/requirements/legacy-conversion/system-of-record-assignment/conflict.md) | [System of Record Assignment](../model/requirements/legacy-conversion/system-of-record-assignment/README.md) |
+| Cutover Event | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/cutover-event.md) | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/README.md) |
+| Rollback Point | [Rollback Point](../model/requirements/legacy-conversion/cutover-event/rollback-point.md) | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/README.md) |
+| Archive Package | [Archive Package](../model/requirements/legacy-conversion/cutover-event/archive-package.md) | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/README.md) |
+| Retention Policy | [Retention Policy](../model/requirements/legacy-conversion/cutover-event/retention-policy.md) | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/README.md) |
+| Decommission Plan | [Decommission Plan](../model/requirements/legacy-conversion/cutover-event/decommission-plan.md) | [Cutover Event](../model/requirements/legacy-conversion/cutover-event/README.md) |

@@ -56,293 +56,287 @@ Rule: Person identity, employee relationship, application user, qualification, a
 
 ### Product
 
-A governed definition of an item manufactured, sold, installed, consumed, or serviced.
+Canonical concept: [Product](../model/requirements/manufacturing/product/product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Product Family; Make/Buy Policy; Lifecycle Phase.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-An effective version or revision of a Product definition.
+Canonical concept: [Product Version](../model/requirements/manufacturing/product/product-version.md).
 
-Logical attributes: Product Version Identifier; Revision; Status; Effective From; Effective Through; Release Date; Superseded By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Part
 
-A material, component, subassembly, consumable, packaging item, or finished item used in manufacturing.
+Canonical concept: [Part](../model/requirements/manufacturing/product/part.md).
 
-Logical attributes: Part Identifier; Part Number; Part Name; Part Type; Unit of Measure; Lot Control; Serial Control; Shelf-Life Policy; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Part Revision
 
-A controlled version of a Part's definition and specifications.
+Canonical concept: [Part Revision](../model/requirements/manufacturing/product/part-revision.md).
 
-Logical attributes: Part Revision Identifier; Revision; Status; Effective From; Effective Through; Change Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Specification
 
-A controlled requirement for form, fit, function, material, performance, labeling, packaging, or acceptance.
+Canonical concept: [Product Specification](../model/requirements/manufacturing/product/product-specification.md).
 
-Logical attributes: Specification Identifier; Specification Type; Version; Status; Requirement; Unit; Tolerance; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Bill of Material
 
-A versioned product structure describing required Parts and quantities.
+Canonical concept: [Bill of Material](../model/requirements/manufacturing/product/bill-of-material.md).
 
-Logical attributes: BOM Identifier; BOM Type; Version; Status; Parent Product or Part; Effective From; Effective Through; Base Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### BOM Component
 
-A Part's effective-dated participation in a Bill of Material.
+Canonical concept: [BOM Component](../model/requirements/manufacturing/product/bom-component.md).
 
-Logical attributes: BOM Component Identifier; Component Part Revision; Quantity; Unit; Scrap Factor; Issue Method; Sequence; Effective From; Effective Through; Alternate Group.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Engineering Change
 
-A governed proposal and decision changing a Product, Part, BOM, Specification, process, document, or effectivity.
+Canonical concept: [Engineering Change](../model/requirements/manufacturing/product/engineering-change.md).
 
-Logical attributes: Change Identifier; Change Number; Change Type; Change Status; Requested Date; Reason; Impact; Disposition; Approved Date; Effective Date.
-
-Rule: Product, Product Version, Part, Part Revision, Specification, and BOM Version are distinct. Historical production must retain the definitions effective when work was executed.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Process engineering concepts
 
 ### Routing
 
-A versioned sequence or network of Operations required to manufacture a Product.
+Canonical concept: [Routing](../model/requirements/manufacturing/routing/routing.md).
 
-Logical attributes: Routing Identifier; Version; Status; Product Version; Facility; Effective From; Effective Through; Standard Lead Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operation Definition
 
-A reusable or routing-specific definition of work.
+Canonical concept: [Operation Definition](../model/requirements/manufacturing/routing/operation-definition.md).
 
-Logical attributes: Operation Identifier; Operation Code; Name; Operation Type; Sequence; Standard Setup Time; Standard Run Time; Yield; Work Center Type.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Requirement
 
-A required capability, labor role, machine, tool, material, instruction, or condition for an Operation.
+Canonical concept: [Resource Requirement](../model/requirements/manufacturing/routing/resource-requirement.md).
 
-Logical attributes: Requirement Identifier; Resource Type; Required Capability; Quantity; Duration; Qualification; Alternate Group.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Instruction
 
-A controlled instruction describing how an Operation is performed.
+Canonical concept: [Work Instruction](../model/requirements/manufacturing/routing/work-instruction.md).
 
-Logical attributes: Instruction Identifier; Instruction Type; Version; Status; Language; Effective From; Effective Through; Approval Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Recipe or Process Parameter
 
-A governed target or limit for material, equipment, environment, or process behavior.
+Canonical concept: [Recipe or Process Parameter](../model/requirements/manufacturing/routing/recipe-or-process-parameter.md).
 
-Logical attributes: Parameter Identifier; Parameter Name; Value Type; Target; Lower Limit; Upper Limit; Unit; Collection Method; Critical Indicator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Facility, capacity, and resources
 
 ### Manufacturing Facility
 
-A plant, factory, workshop, laboratory, or contract-manufacturing location.
+Canonical concept: [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/manufacturing-facility.md).
 
-Logical attributes: Facility Identifier; Facility Name; Facility Type; Status; Time Zone; Address; Operating Calendar.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Center
 
-A logical or physical production capacity where Operations are performed.
+Canonical concept: [Work Center](../model/requirements/manufacturing/manufacturing-facility/work-center.md).
 
-Logical attributes: Work Center Identifier; Work Center Name; Work Center Type; Facility; Capacity Unit; Calendar; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Machine Asset
 
-An individual production machine, line, cell, device, or equipment asset.
+Canonical concept: [Machine Asset](../model/requirements/manufacturing/manufacturing-facility/machine-asset.md).
 
-Logical attributes: Asset Identifier; Asset Number; Asset Type; Model; Serial Number; Status; Work Center; Commissioned Date; Meter Reading.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Tool
 
-A controlled die, fixture, mold, gauge, cutter, program, or other production aid.
+Canonical concept: [Tool](../model/requirements/manufacturing/manufacturing-facility/tool.md).
 
-Logical attributes: Tool Identifier; Tool Type; Tool Number; Revision; Status; Current Location; Life Limit; Usage Count; Calibration Due.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capacity Plan
 
-A time-phased view of required and available production capacity.
+Canonical concept: [Capacity Plan](../model/requirements/manufacturing/manufacturing-facility/capacity-plan.md).
 
-Logical attributes: Capacity Plan Identifier; Period; Work Center; Required Capacity; Available Capacity; Unit; Overload; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Demand, planning, and manufacturing orders
 
 ### Manufacturing Requirement
 
-A demand for a quantity of Product by a required date and destination.
+Canonical concept: [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-requirement.md).
 
-Logical attributes: Requirement Identifier; Requirement Type; Product Version; Quantity; Unit; Required Date; Destination; Priority; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Production Schedule
 
-A time-phased commitment or proposal for manufacturing work.
+Canonical concept: [Production Schedule](../model/requirements/manufacturing/manufacturing-requirement/production-schedule.md).
 
-Logical attributes: Schedule Identifier; Schedule Type; Period; Facility; Status; Frozen Horizon; Planned Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Manufacturing Order
 
-An authorized order to produce a defined quantity of a Product Version.
+Canonical concept: [Manufacturing Order](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-order.md).
 
-Logical attributes: Order Identifier; Order Number; Order Type; Order Status; Product Version; Ordered Quantity; Unit; Facility; Planned Start; Planned End; Due Date; Priority.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Order Operation
 
-An order-specific instance of an Operation Definition.
+Canonical concept: [Work Order Operation](../model/requirements/manufacturing/manufacturing-requirement/work-order-operation.md).
 
-Logical attributes: Work Operation Identifier; Sequence; Status; Work Center; Planned Start; Planned End; Actual Start; Actual End; Planned Quantity; Completed Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Requirement
 
-An order-specific need for a Part Revision or material.
+Canonical concept: [Material Requirement](../model/requirements/manufacturing/manufacturing-requirement/material-requirement.md).
 
-Logical attributes: Material Requirement Identifier; Part Revision; Required Quantity; Issued Quantity; Unit; Need Date; Source BOM Component; Substitute Status.
-
-Rule: planned demand, scheduled work, Manufacturing Order, Production Run, and actual output are separate states of commitment and execution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Inventory and material control
 
 ### Inventory Item
 
-A controlled stock identity for a Part at a location, status, lot, serial, or ownership dimension.
+Canonical concept: [Inventory Item](../model/requirements/manufacturing/inventory-item/inventory-item.md).
 
-Logical attributes: Inventory Item Identifier; Part Revision; Facility; Location; Lot; Serial; Inventory Status; Ownership; Quantity; Unit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Lot
 
-A quantity of material produced or received under common traceability conditions.
+Canonical concept: [Material Lot](../model/requirements/manufacturing/inventory-item/material-lot.md).
 
-Logical attributes: Lot Identifier; Lot Number; Part Revision; Origin; Manufactured Date; Expiration Date; Lot Status; Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inventory Transaction
 
-A movement, receipt, issue, return, adjustment, transfer, quarantine, or disposition of inventory.
+Canonical concept: [Inventory Transaction](../model/requirements/manufacturing/inventory-item/inventory-transaction.md).
 
-Logical attributes: Transaction Identifier; Transaction Type; Status; Transaction Time; Part; Quantity; Unit; From Location; To Location; Lot or Serial; Source Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Reservation
 
-A planned allocation of inventory to a Manufacturing Order or Operation.
+Canonical concept: [Material Reservation](../model/requirements/manufacturing/inventory-item/material-reservation.md).
 
-Logical attributes: Reservation Identifier; Order; Material Requirement; Inventory Item; Reserved Quantity; Status; Reserved At; Released At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Issue
 
-Evidence that material was supplied to production.
+Canonical concept: [Material Issue](../model/requirements/manufacturing/inventory-item/material-issue.md).
 
-Logical attributes: Issue Identifier; Order; Operation; Part Revision; Lot or Serial; Quantity; Unit; Issued At; Issued By; Source Location.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Production execution
 
 ### Production Run
 
-A bounded execution of manufacturing work for an Order, batch, shift, or campaign.
+Canonical concept: [Production Run](../model/requirements/manufacturing/production-run/production-run.md).
 
-Logical attributes: Run Identifier; Run Number; Run Type; Run Status; Manufacturing Order; Start Time; End Time; Work Center; Supervisor.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operation Execution
 
-The actual performance of a Work Order Operation.
+Canonical concept: [Operation Execution](../model/requirements/manufacturing/production-run/operation-execution.md).
 
-Logical attributes: Execution Identifier; Work Operation; Status; Start Time; End Time; Work Center; Machine Asset; Good Quantity; Reject Quantity; Rework Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Labor Entry
 
-A Person's recorded production time or activity.
+Canonical concept: [Labor Entry](../model/requirements/manufacturing/production-run/labor-entry.md).
 
-Logical attributes: Labor Entry Identifier; Operator; Role; Operation Execution; Start Time; End Time; Hours; Time Type; Approval Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Machine Entry
 
-A Machine Asset's recorded runtime, setup, idle time, or cycle activity.
+Canonical concept: [Machine Entry](../model/requirements/manufacturing/production-run/machine-entry.md).
 
-Logical attributes: Machine Entry Identifier; Asset; Operation Execution; Start Time; End Time; Runtime; Cycle Count; Downtime; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Process Measurement
 
-An observed value for an Operation, Product, machine, environment, or process parameter.
+Canonical concept: [Process Measurement](../model/requirements/manufacturing/production-run/process-measurement.md).
 
-Logical attributes: Measurement Identifier; Parameter; Observed At; Value; Unit; Method; Asset; Operator; Status; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Production Output
 
-A quantity or serialized unit produced by an Operation or Run.
+Canonical concept: [Production Output](../model/requirements/manufacturing/production-run/production-output.md).
 
-Logical attributes: Output Identifier; Product or Part Revision; Quantity; Unit; Lot; Serial; Produced At; Output Status; Source Operation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Scrap and Rework
 
-A disposition of nonconforming material or output.
+Canonical concept: [Scrap and Rework](../model/requirements/manufacturing/production-run/scrap-and-rework.md).
 
-Logical attributes: Disposition Identifier; Disposition Type; Quantity; Unit; Reason; Source Output; Authorized By; Destination; Cost.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Quality and traceability
 
 ### Quality Plan
 
-A versioned definition of inspections, tests, sampling, limits, and acceptance rules.
+Canonical concept: [Quality Plan](../model/requirements/manufacturing/quality-plan/quality-plan.md).
 
-Logical attributes: Quality Plan Identifier; Version; Status; Product or Operation; Effective From; Effective Through; Sampling Rule.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection
 
-A controlled evaluation of material, process, output, equipment, or environment.
+Canonical concept: [Inspection](../model/requirements/manufacturing/quality-plan/inspection.md).
 
-Logical attributes: Inspection Identifier; Inspection Type; Status; Inspected At; Inspector; Source; Sample Size; Result; Quality Plan Version.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection Result
 
-A measured or classified result for one inspection characteristic.
+Canonical concept: [Inspection Result](../model/requirements/manufacturing/quality-plan/inspection-result.md).
 
-Logical attributes: Result Identifier; Characteristic; Value; Unit; Lower Limit; Upper Limit; Conformance; Method; Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Nonconformance
 
-Evidence that material, output, process, or equipment failed a requirement.
+Canonical concept: [Nonconformance](../model/requirements/manufacturing/quality-plan/nonconformance.md).
 
-Logical attributes: Nonconformance Identifier; Type; Status; Detected At; Source; Requirement; Severity; Quantity; Containment; Disposition.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Corrective Action
 
-A governed response addressing the causes of a defect or process failure.
+Canonical concept: [Corrective Action](../model/requirements/manufacturing/quality-plan/corrective-action.md).
 
-Logical attributes: Action Identifier; Action Type; Status; Owner; Opened Date; Due Date; Cause; Planned Action; Verification; Closed Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Genealogy
 
-A traceable relationship showing which inputs, lots, serials, resources, and processes produced an output.
+Canonical concept: [Product Genealogy](../model/requirements/manufacturing/quality-plan/product-genealogy.md).
 
-Logical attributes: Genealogy Identifier; Parent Output; Input Material or Output; Quantity; Operation; Consumed At; Traceability Type.
-
-Rule: inspection, conformance decision, nonconformance, disposition, and corrective action require separate lifecycles.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Maintenance, deployment, and usage
 
 ### Maintenance Work Order
 
-A controlled request to inspect, calibrate, service, or repair a Machine Asset or Tool.
+Canonical concept: [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/maintenance-work-order.md).
 
-Logical attributes: Maintenance Order Identifier; Type; Status; Asset or Tool; Priority; Opened Date; Due Date; Started Date; Completed Date; Release Decision.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Deployment
 
-Placement, installation, commissioning, or transfer of a finished Product to a customer, site, asset, or operational context.
+Canonical concept: [Product Deployment](../model/requirements/manufacturing/maintenance-work-order/product-deployment.md).
 
-Logical attributes: Deployment Identifier; Product Unit or Lot; Destination; Deployed Date; Status; Installer; Commissioned Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Usage
 
-A measured or reported use, cycle, operating condition, consumption, or performance event.
+Canonical concept: [Product Usage](../model/requirements/manufacturing/maintenance-work-order/product-usage.md).
 
-Logical attributes: Usage Identifier; Product Unit; Usage Type; Observed At; Value; Unit; Location; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Warranty or Field Issue
 
-A reported failure, complaint, return, or service condition associated with deployed output.
+Canonical concept: [Warranty or Field Issue](../model/requirements/manufacturing/maintenance-work-order/warranty-or-field-issue.md).
 
-Logical attributes: Field Issue Identifier; Issue Type; Status; Reported Date; Product Unit or Lot; Customer; Symptom; Failure Mode; Resolution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -555,3 +549,55 @@ Logical names remain authoritative. Stack, production mode, plant, regulation, a
 A metamodel-conformant Manufacturing knowledge base should instantiate separate capabilities, entities, roles, business rules, use cases, workflows, pages, scenarios, and tests for Product Engineering, Process Engineering, Planning, Inventory, Production, Quality, Maintenance, Costing, Deployment, and Analytics. The first vertical slice should be:
 
 **Release Product and BOM → Create Manufacturing Order → Reserve and Issue Material → Execute Operation → Record Output → Inspect Output → Receive Finished Inventory → Trace Genealogy**
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Product | [Product](../model/requirements/manufacturing/product/product.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Product Version | [Product Version](../model/requirements/manufacturing/product/product-version.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Part | [Part](../model/requirements/manufacturing/product/part.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Part Revision | [Part Revision](../model/requirements/manufacturing/product/part-revision.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Product Specification | [Product Specification](../model/requirements/manufacturing/product/product-specification.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Bill of Material | [Bill of Material](../model/requirements/manufacturing/product/bill-of-material.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| BOM Component | [BOM Component](../model/requirements/manufacturing/product/bom-component.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Engineering Change | [Engineering Change](../model/requirements/manufacturing/product/engineering-change.md) | [Product](../model/requirements/manufacturing/product/README.md) |
+| Routing | [Routing](../model/requirements/manufacturing/routing/routing.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
+| Operation Definition | [Operation Definition](../model/requirements/manufacturing/routing/operation-definition.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
+| Resource Requirement | [Resource Requirement](../model/requirements/manufacturing/routing/resource-requirement.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
+| Work Instruction | [Work Instruction](../model/requirements/manufacturing/routing/work-instruction.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
+| Recipe or Process Parameter | [Recipe or Process Parameter](../model/requirements/manufacturing/routing/recipe-or-process-parameter.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
+| Manufacturing Facility | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/manufacturing-facility.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
+| Work Center | [Work Center](../model/requirements/manufacturing/manufacturing-facility/work-center.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
+| Machine Asset | [Machine Asset](../model/requirements/manufacturing/manufacturing-facility/machine-asset.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
+| Tool | [Tool](../model/requirements/manufacturing/manufacturing-facility/tool.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
+| Capacity Plan | [Capacity Plan](../model/requirements/manufacturing/manufacturing-facility/capacity-plan.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
+| Manufacturing Requirement | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-requirement.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
+| Production Schedule | [Production Schedule](../model/requirements/manufacturing/manufacturing-requirement/production-schedule.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
+| Manufacturing Order | [Manufacturing Order](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-order.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
+| Work Order Operation | [Work Order Operation](../model/requirements/manufacturing/manufacturing-requirement/work-order-operation.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
+| Material Requirement | [Material Requirement](../model/requirements/manufacturing/manufacturing-requirement/material-requirement.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
+| Inventory Item | [Inventory Item](../model/requirements/manufacturing/inventory-item/inventory-item.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
+| Material Lot | [Material Lot](../model/requirements/manufacturing/inventory-item/material-lot.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
+| Inventory Transaction | [Inventory Transaction](../model/requirements/manufacturing/inventory-item/inventory-transaction.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
+| Material Reservation | [Material Reservation](../model/requirements/manufacturing/inventory-item/material-reservation.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
+| Material Issue | [Material Issue](../model/requirements/manufacturing/inventory-item/material-issue.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
+| Production Run | [Production Run](../model/requirements/manufacturing/production-run/production-run.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Operation Execution | [Operation Execution](../model/requirements/manufacturing/production-run/operation-execution.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Labor Entry | [Labor Entry](../model/requirements/manufacturing/production-run/labor-entry.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Machine Entry | [Machine Entry](../model/requirements/manufacturing/production-run/machine-entry.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Process Measurement | [Process Measurement](../model/requirements/manufacturing/production-run/process-measurement.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Production Output | [Production Output](../model/requirements/manufacturing/production-run/production-output.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Scrap and Rework | [Scrap and Rework](../model/requirements/manufacturing/production-run/scrap-and-rework.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
+| Quality Plan | [Quality Plan](../model/requirements/manufacturing/quality-plan/quality-plan.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Inspection | [Inspection](../model/requirements/manufacturing/quality-plan/inspection.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Inspection Result | [Inspection Result](../model/requirements/manufacturing/quality-plan/inspection-result.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Nonconformance | [Nonconformance](../model/requirements/manufacturing/quality-plan/nonconformance.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Corrective Action | [Corrective Action](../model/requirements/manufacturing/quality-plan/corrective-action.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Product Genealogy | [Product Genealogy](../model/requirements/manufacturing/quality-plan/product-genealogy.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
+| Maintenance Work Order | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/maintenance-work-order.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
+| Product Deployment | [Product Deployment](../model/requirements/manufacturing/maintenance-work-order/product-deployment.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
+| Product Usage | [Product Usage](../model/requirements/manufacturing/maintenance-work-order/product-usage.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
+| Warranty or Field Issue | [Warranty or Field Issue](../model/requirements/manufacturing/maintenance-work-order/warranty-or-field-issue.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |

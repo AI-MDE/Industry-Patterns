@@ -218,19 +218,17 @@ The repository should not store third-party model artifacts unless their license
 
 The importer should operate on source files supplied locally by an authorized user or downloaded under appropriate terms.
 
-## Initial implementation
+## Implemented importer
 
-The first implementation uses a generic normalized JSON input.
+[The importer tool](../tools/reference-model-analyzer/README.md) implements local import, normalization, canonical comparison, and JSON/Markdown review reports.
 
-This keeps the analyzer independent from source formats.
+Supported export contracts are normalized JSON, generic record JSON/CSV, SID-style UML/XMI, BIAN record JSON/CSV, and BIAN OpenAPI 3.x JSON or YAML. The tool README defines each adapter's scope; the [normalized schema](../tools/reference-model-analyzer/schema/reference-model.schema.json) defines the common analysis structure.
 
-Initial sequence:
+The analyzer loads the coherent model manifest and Markdown concept pages. Source-aware type alignment uses the small alias table. Original names, types, IDs, payloads, and unsupported constructs remain reviewable.
 
-1. create the normalized reference-model schema;
-2. implement mapping and gap analysis against MDE concepts;
-3. add SID adapter;
-4. add BIAN adapter;
-5. later add FHIR, ACORD, GS1, or other adapters where useful.
+Equal-name candidates are compared with Domain/ABE context. Unresolved ties become conflicts. Explicit source generalizations support specialization findings. Attributes and relationships are compared where both sides provide evidence. Domain, ABE, capability, and interface comparisons are included. Every mapping requires review; no concept is automatically adopted.
+
+The current canonical manifest has no separate capability/interface inventory. Imported structures therefore remain review candidates until a target inventory is supplied. Adapter dialect limitations are reported. FHIR, ACORD, GS1, and additional vendor-specific adapters remain future work.
 
 ## Strategic value
 
@@ -274,3 +272,4 @@ BIAN: Service Domain
 ```
 
 The original source term remains attached to the imported concept. Unknown terms are preserved as unmapped rather than forced into the current MDE meta-model.
+

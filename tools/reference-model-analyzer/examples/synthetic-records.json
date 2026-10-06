@@ -1,0 +1,11 @@
+{
+  "source": { "system": "Example", "version": "1" },
+  "records": [
+    { "name": "Party", "type": "Domain", "id": "domain:party" },
+    { "name": "Party", "type": "ABE", "domain": "Party", "id": "abe:party" },
+    { "name": "Person", "type": "Entity", "id": "entity:person", "domain": "Party", "abe": "Party", "attributes": [{ "name": "Given Name", "type": "string" }] },
+    { "name": "Example Employee", "type": "Entity", "domain": "Party", "abe": "Party", "specializes": "entity:person", "attributes": [{ "name": "Employment Start", "type": "date" }] },
+    { "name": "Register Participant", "type": "Capability", "relatedAbes": ["Party"] },
+    { "name": "Example source construct", "type": "Unrecognized Source Construct", "sourceDetail": { "preserve": true } }
+  ]
+}

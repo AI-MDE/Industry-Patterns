@@ -61,339 +61,313 @@ Rule: Person, Patient, Provider, employee, application user, and billing Party a
 
 ### Physical Therapy Clinic
 
-A Health Care Organization or organizational unit responsible for providing physical therapy services.
+Canonical concept: [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md).
 
-Logical attributes: Clinic Identifier; Clinic Name; Clinic Type; Clinic Status; Legal Entity; Operating Hours; Contact; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinic Location
 
-A physical, mobile, home-care, or virtual setting in which clinic services are organized or delivered.
+Canonical concept: [Clinic Location](../model/requirements/physical-therapy/physical-therapy-clinic/clinic-location.md).
 
-Logical attributes: Location Identifier; Location Name; Location Type; Address or Virtual Endpoint; Accessibility Features; Time Zone; Capacity; Operational Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Provider
 
-A Practitioner acting as a Physical Therapist, Physical Therapist Assistant, aide, or other permitted care role.
+Canonical concept: [Therapy Provider](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-provider.md).
 
-Logical attributes: Provider Identifier; Provider Type; Professional Status; Specialty; License Reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provider Assignment
 
-A Provider's responsibility within an Episode, Plan of Care, Visit, or program.
+Canonical concept: [Provider Assignment](../model/requirements/physical-therapy/physical-therapy-clinic/provider-assignment.md).
 
-Logical attributes: Assignment Identifier; Assignment Role; Assignment Status; Assigned Date; Effective From; Effective Through; Supervising Provider; Responsibility.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Resource
 
-A room, treatment area, device, equipment item, pool, exercise station, or other schedulable resource.
+Canonical concept: [Therapy Resource](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-resource.md).
 
-Logical attributes: Resource Identifier; Resource Type; Resource Name; Resource Status; Location; Capacity; Maintenance Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Access, referral, and intake
 
 ### Referral
 
-A request or recommendation for physical therapy evaluation or treatment.
+Canonical concept: [Referral](../model/requirements/health-care/schedule/referral.md).
 
-Logical attributes: Referral Identifier; Referral Type; Referral Status; Referral Date; Referring Provider; Reason; Diagnosis or Concern; Requested Service; Priority; Expiration Date; Visit Limit.
-
-Referral types may include physician referral, internal referral, self-referral, employer referral, insurer referral, or post-operative protocol.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Intake
 
-A controlled collection of demographic, contact, medical, functional, financial, consent, and administrative information before care begins.
+Canonical concept: [Patient Intake](../model/requirements/physical-therapy/patient-intake/patient-intake.md).
 
-Logical attributes: Intake Identifier; Intake Status; Started Date; Completed Date; Source; Preferred Communication; Accessibility Need; Responsible Staff.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intake Response
 
-A Patient- or representative-supplied response to a clinic question.
+Canonical concept: [Intake Response](../model/requirements/physical-therapy/patient-intake/intake-response.md).
 
-Logical attributes: Response Identifier; Question Code; Response Value; Recorded Date; Respondent; Source; Verification Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Eligibility Verification
 
-Evidence that coverage or another funding arrangement was checked for planned services.
+Canonical concept: [Eligibility Verification](../model/requirements/physical-therapy/patient-intake/eligibility-verification.md).
 
-Logical attributes: Verification Identifier; Coverage; Verification Status; Verified Date; Service Type; Effective From; Effective Through; Benefit Detail; Source; Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Authorization
 
-A Payer, employer, case-manager, or organizational decision permitting specified therapy services under stated conditions.
+Canonical concept: [Therapy Authorization](../model/requirements/physical-therapy/patient-intake/therapy-authorization.md).
 
-Logical attributes: Authorization Identifier; Authorization Number; Authorization Status; Requested Date; Decision Date; Effective From; Effective Through; Authorized Visits or Units; Used Visits or Units; Service Scope; Conditions.
-
-Rule: Referral, clinical order, Patient consent, payer authorization, and clinic acceptance are separate decisions.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Attendance Event
 
-A record of arrival, cancellation, rescheduling, lateness, or failure to attend.
+Canonical concept: [Attendance Event](../model/requirements/physical-therapy/patient-intake/attendance-event.md).
 
-Logical attributes: Attendance Event Identifier; Event Type; Event Time; Appointment; Recorded By; Reason; Notice Duration; Policy Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Episode and care context
 
 ### Therapy Episode
 
-An Episode of Care grouping related physical therapy evaluation, plans, visits, outcomes, and discharge activity for a Patient concern.
+Canonical concept: [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/therapy-episode.md).
 
-Logical attributes: Episode Identifier; Episode Type; Episode Status; Start Date; End Date; Primary Concern; Referring Provider; Managing Therapist; Location; Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Presenting Concern
 
-The Patient's reported reason for seeking therapy and its effect on function and participation.
+Canonical concept: [Presenting Concern](../model/requirements/physical-therapy/therapy-episode/presenting-concern.md).
 
-Logical attributes: Concern Identifier; Concern Type; Description; Onset Date; Mechanism; Irritability; Severity; Patient Priority; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Precaution or Contraindication
 
-A condition or risk affecting evaluation, treatment choice, intensity, supervision, or need for referral.
+Canonical concept: [Precaution or Contraindication](../model/requirements/physical-therapy/therapy-episode/precaution-or-contraindication.md).
 
-Logical attributes: Precaution Identifier; Precaution Type; Status; Description; Source; Identified Date; Effective From; Effective Through; Required Action.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Functional Limitation
 
-A limitation in activity or participation relevant to the Patient's daily life and therapy goals.
+Canonical concept: [Functional Limitation](../model/requirements/physical-therapy/therapy-episode/functional-limitation.md).
 
-Logical attributes: Limitation Identifier; Activity Domain; Description; Severity; Baseline Status; Patient Priority; Onset Date; Resolution Date.
-
-Examples include walking, stairs, transfers, lifting, reaching, dressing, work, sport, balance, endurance, and pain-limited participation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Evaluation and clinical evidence
 
 ### Therapy Evaluation
 
-A structured clinical assessment performed to determine therapy needs, diagnosis or classification, prognosis, goals, and Plan of Care.
+Canonical concept: [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/therapy-evaluation.md).
 
-Logical attributes: Evaluation Identifier; Evaluation Type; Evaluation Status; Evaluation Date; Evaluating Therapist; Episode; Referral; Complexity; Clinical Impression; Prognosis; Recommendation.
-
-Evaluation types may include initial evaluation, progress evaluation, reassessment, re-evaluation, screening, and discharge evaluation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subjective History
 
-Patient- or representative-reported symptoms, function, history, goals, and contextual factors.
+Canonical concept: [Subjective History](../model/requirements/physical-therapy/therapy-evaluation/subjective-history.md).
 
-Logical attributes: History Identifier; Recorded Date; Symptom Description; Functional History; Relevant Medical History; Prior Level of Function; Current Level of Function; Patient Goal; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Finding
 
-A measured, observed, tested, or asserted fact recorded during evaluation or treatment.
+Canonical concept: [Clinical Finding](../model/requirements/physical-therapy/therapy-evaluation/clinical-finding.md).
 
-Logical attributes: Finding Identifier; Finding Type; Code; Status; Observed Date/Time; Value; Unit; Body Region; Side; Method; Position; Interpretation; Performer; Source.
-
-Finding types may include pain, range of motion, strength, sensation, posture, gait, balance, edema, endurance, coordination, mobility, and special-test results.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Definition
 
-A governed definition of a standardized or clinic-defined instrument.
+Canonical concept: [Outcome Measure Definition](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-definition.md).
 
-Logical attributes: Measure Definition Identifier; Measure Name; Version; Domain; Scoring Method; Minimum Value; Maximum Value; Interpretation Guidance; License Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Result
 
-A scored result for a Patient at a declared point in the Episode.
+Canonical concept: [Outcome Measure Result](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-result.md).
 
-Logical attributes: Result Identifier; Measure Definition; Assessment Date; Raw Responses Reference; Score; Unit; Interpretation; Completed By; Administered By; Episode; Visit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Assessment
 
-The Therapist's reasoned synthesis of history, findings, function, response, prognosis, and need for skilled care.
+Canonical concept: [Therapy Assessment](../model/requirements/physical-therapy/therapy-evaluation/therapy-assessment.md).
 
-Logical attributes: Assessment Identifier; Assessment Status; Authored Date; Author; Clinical Classification; Problem Summary; Skilled Need; Prognosis; Rationale; Evidence Reference.
-
-Rule: raw findings, standardized outcome scores, and the Therapist's clinical assessment remain distinct and traceable.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Plan of care and goals
 
 ### Plan of Care
 
-An effective-dated clinical plan governing the intended physical therapy services for an Episode.
+Canonical concept: [Plan of Care](../model/requirements/physical-therapy/plan-of-care/plan-of-care.md).
 
-Logical attributes: Plan Identifier; Plan Status; Version; Authored Date; Effective From; Effective Through; Responsible Therapist; Frequency; Duration; Certification Due Date; Medical Necessity Rationale.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Goal
 
-A measurable desired improvement in impairment, activity, participation, self-management, or risk.
+Canonical concept: [Therapy Goal](../model/requirements/physical-therapy/plan-of-care/therapy-goal.md).
 
-Logical attributes: Goal Identifier; Goal Type; Goal Status; Description; Baseline Value; Target Value; Unit; Target Date; Priority; Patient Agreement; Outcome Measure Reference.
-
-Goal types may include short-term, long-term, maintenance, prevention, or Patient-defined goals.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Goal Progress
 
-An evidence-based assessment of progress toward a Therapy Goal.
+Canonical concept: [Goal Progress](../model/requirements/physical-therapy/plan-of-care/goal-progress.md).
 
-Logical attributes: Progress Identifier; Goal; Assessment Date; Progress Status; Measured Value; Percent Progress; Evidence; Assessed By; Comment.
-
-Progress statuses may include not started, progressing, met, partially met, not met, regressed, deferred, and discontinued.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Treatment Plan Item
 
-A planned category of intervention, education, monitoring, or coordination within a Plan of Care.
+Canonical concept: [Treatment Plan Item](../model/requirements/physical-therapy/plan-of-care/treatment-plan-item.md).
 
-Logical attributes: Plan Item Identifier; Intervention Type; Plan Item Status; Intended Frequency; Intended Duration; Dosage Guidance; Responsible Role; Goal Reference; Precaution Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Plan Approval or Certification
 
-An attestation, approval, or certification of a Plan of Care when required.
+Canonical concept: [Plan Approval or Certification](../model/requirements/physical-therapy/plan-of-care/plan-approval-or-certification.md).
 
-Logical attributes: Approval Identifier; Approval Type; Approval Status; Requested Date; Decision Date; Approving Party; Effective From; Effective Through; Conditions; Signature Reference.
-
-Rule: retain every Plan of Care version and the goals, approvals, frequency, duration, and rationale effective for each Visit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Scheduling and visit concepts
 
 ### Provider Schedule
 
-Planned availability of a Provider, Location, or Therapy Resource.
+Canonical concept: [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/provider-schedule.md).
 
-Logical attributes: Schedule Identifier; Schedule Type; Effective From; Effective Through; Time Zone; Capacity; Schedule Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Appointment
 
-A planned allocation of time, Provider, Patient, Location, and resources.
+Canonical concept: [Therapy Appointment](../model/requirements/physical-therapy/provider-schedule/therapy-appointment.md).
 
-Logical attributes: Appointment Identifier; Appointment Type; Appointment Status; Scheduled Start; Scheduled End; Patient; Provider; Location; Episode; Reason; Channel.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Visit
 
-The actual bounded care interaction during which physical therapy is evaluated, delivered, discussed, or documented.
+Canonical concept: [Therapy Visit](../model/requirements/physical-therapy/provider-schedule/therapy-visit.md).
 
-Logical attributes: Visit Identifier; Visit Type; Visit Status; Start Date/Time; End Date/Time; Patient; Episode; Treating Provider; Supervising Provider; Location or Channel; Visit Number; Disposition.
-
-Visit types may include initial evaluation, treatment, progress evaluation, re-evaluation, group therapy, aquatic therapy, home visit, tele-rehabilitation, and discharge visit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Visit Note
 
-A versioned clinical document describing the Visit.
+Canonical concept: [Visit Note](../model/requirements/physical-therapy/provider-schedule/visit-note.md).
 
-Logical attributes: Note Identifier; Note Type; Note Status; Authored At; Author; Signed At; Signer; Visit; Plan Version; Version; Supersedes Note; Amendment Reason.
-
-Common logical sections include subjective report, objective findings, interventions, response, assessment, plan, education, and required attestations.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Intervention and exercise concepts
 
 ### Intervention Definition
 
-A governed type of therapeutic service or activity.
+Canonical concept: [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/intervention-definition.md).
 
-Logical attributes: Intervention Definition Identifier; Intervention Code; Intervention Name; Intervention Category; Description; Standard Unit; Required Provider Type; Status.
-
-Categories may include therapeutic exercise, therapeutic activity, neuromuscular re-education, manual therapy, gait training, self-care education, modalities, group therapy, and remote monitoring.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intervention Delivery
 
-Evidence that an Intervention was actually performed during a Visit.
+Canonical concept: [Intervention Delivery](../model/requirements/physical-therapy/intervention-definition/intervention-delivery.md).
 
-Logical attributes: Delivery Identifier; Visit; Intervention Definition; Delivery Status; Start Time; End Time; Timed Minutes; Untimed Units; Body Region; Parameters; Delivering Provider; Supervising Provider; Patient Response; Goal Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Definition
 
-A reusable definition of a movement or activity that may be prescribed or performed.
+Canonical concept: [Exercise Definition](../model/requirements/physical-therapy/intervention-definition/exercise-definition.md).
 
-Logical attributes: Exercise Identifier; Exercise Name; Exercise Category; Instructions; Media Reference; Default Precautions; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Prescription
 
-A Patient-specific exercise instruction within a clinic or Home Exercise Program.
+Canonical concept: [Exercise Prescription](../model/requirements/physical-therapy/intervention-definition/exercise-prescription.md).
 
-Logical attributes: Prescription Identifier; Exercise Definition; Status; Sets; Repetitions; Duration; Frequency; Resistance; Hold Time; Side; Progression Criteria; Start Date; End Date; Prescribed By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Exercise Program
 
-A versioned set of Patient instructions, exercises, education, precautions, and progression guidance intended outside supervised Visits.
+Canonical concept: [Home Exercise Program](../model/requirements/physical-therapy/intervention-definition/home-exercise-program.md).
 
-Logical attributes: Program Identifier; Program Status; Version; Issued Date; Effective From; Effective Through; Patient; Episode; Prescribing Therapist; Delivery Method; Language.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Program Activity
 
-A record of Patient-reported or remotely observed home-program performance.
+Canonical concept: [Home Program Activity](../model/requirements/physical-therapy/intervention-definition/home-program-activity.md).
 
-Logical attributes: Activity Identifier; Program; Activity Date; Exercise Prescription; Completion Status; Quantity; Symptom Response; Patient Comment; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Education
 
-Education delivered to the Patient or caregiver concerning condition, safety, exercises, self-management, equipment, or prevention.
+Canonical concept: [Patient Education](../model/requirements/physical-therapy/intervention-definition/patient-education.md).
 
-Logical attributes: Education Identifier; Visit; Topic; Recipient; Method; Material Reference; Understanding Status; Teach-Back Result; Educator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Progress, safety, and discharge
 
 ### Progress Evaluation
 
-A periodic comparison of Patient status with baseline, prior results, Plan of Care, and Therapy Goals.
+Canonical concept: [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/progress-evaluation.md).
 
-Logical attributes: Progress Evaluation Identifier; Evaluation Date; Evaluator; Episode; Plan Version; Visit Range; Progress Summary; Continued Skilled Need; Recommendation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adverse Event
 
-An unintended event, symptom escalation, injury, fall, equipment incident, or other safety concern occurring in relation to care.
+Canonical concept: [Adverse Event](../model/requirements/physical-therapy/progress-evaluation/adverse-event.md).
 
-Logical attributes: Adverse Event Identifier; Event Type; Event Status; Occurred At; Detected At; Patient; Visit; Severity; Description; Immediate Action; Reported By; Review Outcome.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Communication
 
-A communication with a Patient, Provider, caregiver, Payer, employer, or case manager concerning care.
+Canonical concept: [Clinical Communication](../model/requirements/physical-therapy/progress-evaluation/clinical-communication.md).
 
-Logical attributes: Communication Identifier; Communication Type; Status; Occurred At; Sender; Recipient; Subject; Summary; Episode; Follow-up Required.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge
 
-The clinical and administrative conclusion or transition of a Therapy Episode.
+Canonical concept: [Discharge](../model/requirements/physical-therapy/progress-evaluation/discharge.md).
 
-Logical attributes: Discharge Identifier; Discharge Date; Discharge Status; Disposition; Reason; Discharging Therapist; Goal Summary; Functional Status; Follow-up Plan; Referral Recommendation.
-
-Discharge reasons may include goals met, maximum benefit, independent self-management, transfer, medical change, non-attendance, authorization exhausted, Patient choice, or administrative closure.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge Summary
 
-A finalized clinical document summarizing the Episode, services, outcomes, remaining limitations, home plan, precautions, and follow-up.
+Canonical concept: [Discharge Summary](../model/requirements/physical-therapy/progress-evaluation/discharge-summary.md).
 
-Logical attributes: Summary Identifier; Document Status; Authored At; Author; Signed At; Episode; Plan Version; Final Outcome Results; Recipient List.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Billing and payment
 
 ### Coverage
 
-A Patient's entitlement to insured, public, employer-funded, or other third-party-funded services.
+Canonical concept: [Coverage](../model/requirements/health-care/coverage/coverage.md).
 
-Logical attributes: Coverage Identifier; Coverage Type; Coverage Status; Payer; Plan; Member Identifier; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Charge
 
-A billable amount arising from a documented evaluation, intervention, supply, or other service.
+Canonical concept: [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/therapy-charge.md).
 
-Logical attributes: Charge Identifier; Charge Code; Charge Status; Service Date; Visit; Intervention Delivery; Quantity; Unit; Unit Price; Amount; Currency; Rendering Provider; Location.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-A request to a Payer for adjudication of covered therapy services.
+Canonical concept: [Claim](../model/requirements/health-care/coverage/claim.md).
 
-Logical attributes: Claim Identifier; Claim Number; Claim Status; Submitted Date; Patient; Provider; Payer; Service Period; Total Claimed Amount.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Line
 
-A detailed service or charge within a Claim.
+Canonical concept: [Claim Line](../model/requirements/health-care/coverage/claim-line.md).
 
-Logical attributes: Claim Line Identifier; Line Number; Service Code; Service Date; Units; Claimed Amount; Diagnosis Reference; Authorization Reference; Rendering Provider; Charge Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjudication
 
-A Payer decision determining allowed, paid, adjusted, denied, and Patient-responsibility amounts.
+Canonical concept: [Adjudication](../model/requirements/health-care/coverage/adjudication.md).
 
-Logical attributes: Adjudication Identifier; Decision Date; Decision Status; Allowed Amount; Paid Amount; Adjustment Amount; Patient Responsibility; Denial Reason; Remittance Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Invoice
 
-A request for payment of Patient or guarantor responsibility.
+Canonical concept: [Patient Invoice](../model/requirements/physical-therapy/therapy-charge/patient-invoice.md).
 
-Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; Invoice Status; Patient or Guarantor; Amount; Currency; Source Charges.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-A transfer of funds settling a Claim, Invoice, or Patient balance.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Amount; Currency; Payment Type; Payment Status; Payer or Patient; Allocation Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -692,3 +666,59 @@ A metamodel-conformant Physical Therapy Clinic knowledge base should instantiate
 **Receive Referral → Complete Intake → Conduct Initial Evaluation → Activate Plan of Care → Book and Complete Therapy Visit → Record Intervention Delivery → Assess Goal Progress → Create Charge → Discharge Episode**
 
 Recommended verification scenarios include direct access without referral, authorization required before treatment, authorization exhausted, Patient no-show, Therapist unavailable, red flag identified, Plan revision after reassessment, delegated treatment under supervision, timed-unit validation, signed-note amendment, claim denial, goals met discharge, and administrative discharge for non-attendance.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Physical Therapy Clinic | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
+| Clinic Location | [Clinic Location](../model/requirements/physical-therapy/physical-therapy-clinic/clinic-location.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
+| Therapy Provider | [Therapy Provider](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-provider.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
+| Provider Assignment | [Provider Assignment](../model/requirements/physical-therapy/physical-therapy-clinic/provider-assignment.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
+| Therapy Resource | [Therapy Resource](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-resource.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
+| Referral | [Referral](../model/requirements/health-care/schedule/referral.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
+| Patient Intake | [Patient Intake](../model/requirements/physical-therapy/patient-intake/patient-intake.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
+| Intake Response | [Intake Response](../model/requirements/physical-therapy/patient-intake/intake-response.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
+| Eligibility Verification | [Eligibility Verification](../model/requirements/physical-therapy/patient-intake/eligibility-verification.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
+| Therapy Authorization | [Therapy Authorization](../model/requirements/physical-therapy/patient-intake/therapy-authorization.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
+| Attendance Event | [Attendance Event](../model/requirements/physical-therapy/patient-intake/attendance-event.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
+| Therapy Episode | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/therapy-episode.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
+| Presenting Concern | [Presenting Concern](../model/requirements/physical-therapy/therapy-episode/presenting-concern.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
+| Precaution or Contraindication | [Precaution or Contraindication](../model/requirements/physical-therapy/therapy-episode/precaution-or-contraindication.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
+| Functional Limitation | [Functional Limitation](../model/requirements/physical-therapy/therapy-episode/functional-limitation.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
+| Therapy Evaluation | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/therapy-evaluation.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Subjective History | [Subjective History](../model/requirements/physical-therapy/therapy-evaluation/subjective-history.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Clinical Finding | [Clinical Finding](../model/requirements/physical-therapy/therapy-evaluation/clinical-finding.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Outcome Measure Definition | [Outcome Measure Definition](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-definition.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Outcome Measure Result | [Outcome Measure Result](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-result.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Therapy Assessment | [Therapy Assessment](../model/requirements/physical-therapy/therapy-evaluation/therapy-assessment.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
+| Plan of Care | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/plan-of-care.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
+| Therapy Goal | [Therapy Goal](../model/requirements/physical-therapy/plan-of-care/therapy-goal.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
+| Goal Progress | [Goal Progress](../model/requirements/physical-therapy/plan-of-care/goal-progress.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
+| Treatment Plan Item | [Treatment Plan Item](../model/requirements/physical-therapy/plan-of-care/treatment-plan-item.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
+| Plan Approval or Certification | [Plan Approval or Certification](../model/requirements/physical-therapy/plan-of-care/plan-approval-or-certification.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
+| Provider Schedule | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/provider-schedule.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
+| Therapy Appointment | [Therapy Appointment](../model/requirements/physical-therapy/provider-schedule/therapy-appointment.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
+| Therapy Visit | [Therapy Visit](../model/requirements/physical-therapy/provider-schedule/therapy-visit.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
+| Visit Note | [Visit Note](../model/requirements/physical-therapy/provider-schedule/visit-note.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
+| Intervention Definition | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/intervention-definition.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Intervention Delivery | [Intervention Delivery](../model/requirements/physical-therapy/intervention-definition/intervention-delivery.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Exercise Definition | [Exercise Definition](../model/requirements/physical-therapy/intervention-definition/exercise-definition.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Exercise Prescription | [Exercise Prescription](../model/requirements/physical-therapy/intervention-definition/exercise-prescription.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Home Exercise Program | [Home Exercise Program](../model/requirements/physical-therapy/intervention-definition/home-exercise-program.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Home Program Activity | [Home Program Activity](../model/requirements/physical-therapy/intervention-definition/home-program-activity.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Patient Education | [Patient Education](../model/requirements/physical-therapy/intervention-definition/patient-education.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
+| Progress Evaluation | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/progress-evaluation.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
+| Adverse Event | [Adverse Event](../model/requirements/physical-therapy/progress-evaluation/adverse-event.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
+| Clinical Communication | [Clinical Communication](../model/requirements/physical-therapy/progress-evaluation/clinical-communication.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
+| Discharge | [Discharge](../model/requirements/physical-therapy/progress-evaluation/discharge.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
+| Discharge Summary | [Discharge Summary](../model/requirements/physical-therapy/progress-evaluation/discharge-summary.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
+| Coverage | [Coverage](../model/requirements/health-care/coverage/coverage.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Therapy Charge | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/therapy-charge.md) | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/README.md) |
+| Claim | [Claim](../model/requirements/health-care/coverage/claim.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Claim Line | [Claim Line](../model/requirements/health-care/coverage/claim-line.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Adjudication | [Adjudication](../model/requirements/health-care/coverage/adjudication.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
+| Patient Invoice | [Patient Invoice](../model/requirements/physical-therapy/therapy-charge/patient-invoice.md) | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |

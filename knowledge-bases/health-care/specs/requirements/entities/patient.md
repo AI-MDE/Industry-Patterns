@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Patient
 
+## Canonical origin
+
+This selected specification derives from [Patient](../../../../../model/requirements/health-care/patient/patient.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A Person acting as the subject or recipient of health care.
@@ -34,3 +38,4 @@ active; inactive; deceased; entered-in-error
 
 - [patient-identity-must-be-traceable](../rules/patient-identity-must-be-traceable.md)
 - [minimum-necessary-access](../rules/minimum-necessary-access.md)
+

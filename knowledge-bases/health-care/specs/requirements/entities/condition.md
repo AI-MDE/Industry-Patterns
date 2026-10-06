@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Condition
 
+## Canonical origin
+
+This selected specification derives from [Condition](../../../../../model/requirements/health-care/clinical-note/condition.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A longitudinal health concern, problem, disease, symptom, or other condition associated with a Patient.
@@ -33,3 +37,4 @@ provisional; confirmed; active; inactive; resolved; entered-in-error
 ## Rules
 
 - [clinical-assertion-requires-provenance](../rules/clinical-assertion-requires-provenance.md)
+

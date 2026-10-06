@@ -1,0 +1,1822 @@
+{
+  "source": "BIAN",
+  "release": "14.0.0",
+  "repository": "https://github.com/bian-official/public",
+  "commit": "b58bf4c2c300dd018afc084e9bb24b7adaaa3500",
+  "files": [
+    {
+      "name": "ATMNetworkOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ATMNetworkOperations.yaml",
+      "sha": "8cce278af1b944554b59214d4a59941defbd43b8",
+      "size": 54990,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ATMNetworkOperations.yaml"
+    },
+    {
+      "name": "AccountReconciliation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AccountReconciliation.yaml",
+      "sha": "53283a91cd68c47bdf555e84ca8049301ace0f55",
+      "size": 161518,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AccountReconciliation.yaml"
+    },
+    {
+      "name": "AccountRecovery.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AccountRecovery.yaml",
+      "sha": "afaea3c0aec53cb0bffc082dd8350971465e8ae2",
+      "size": 157495,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AccountRecovery.yaml"
+    },
+    {
+      "name": "AccountsReceivable.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AccountsReceivable.yaml",
+      "sha": "ee9d81385b69d02ceee38a475ba1beb6276e2f84",
+      "size": 87445,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AccountsReceivable.yaml"
+    },
+    {
+      "name": "AdvancedVoiceServicesManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AdvancedVoiceServicesManagement.yaml",
+      "sha": "c0a32b6ba930bc8a644f984b8930749f7b521dd3",
+      "size": 53586,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AdvancedVoiceServicesManagement.yaml"
+    },
+    {
+      "name": "AdvancedVoiceServicesOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AdvancedVoiceServicesOperations.yaml",
+      "sha": "f71f21ec054cc808c866898323a403a0a816a892",
+      "size": 50164,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AdvancedVoiceServicesOperations.yaml"
+    },
+    {
+      "name": "Advertising.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Advertising.yaml",
+      "sha": "b61132abff6539284cb579a3698c5c9f027ae7d2",
+      "size": 60984,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Advertising.yaml"
+    },
+    {
+      "name": "ArchiveServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ArchiveServices.yaml",
+      "sha": "67d731dd89d9a279e1cfc61751e32e1f9d715e21",
+      "size": 60357,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ArchiveServices.yaml"
+    },
+    {
+      "name": "AssetAndLiabilityManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AssetAndLiabilityManagement.yaml",
+      "sha": "7ff0c966745dee5790a613039a5cf45d90fd0456",
+      "size": 49234,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AssetAndLiabilityManagement.yaml"
+    },
+    {
+      "name": "AssetSecuritization.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/AssetSecuritization.yaml",
+      "sha": "e23019e4d18e09abba4009c3164b6bb448a83494",
+      "size": 163540,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/AssetSecuritization.yaml"
+    },
+    {
+      "name": "BankDrafts.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BankDrafts.yaml",
+      "sha": "dacd18e1edca6d28b5c8d1eba05bc00b7402db0c",
+      "size": 135706,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BankDrafts.yaml"
+    },
+    {
+      "name": "BankGuarantee.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BankGuarantee.yaml",
+      "sha": "dab453864eb583998311a9bb9303d6c8944aaf57",
+      "size": 157976,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BankGuarantee.yaml"
+    },
+    {
+      "name": "BranchCurrencyDistribution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BranchCurrencyDistribution.yaml",
+      "sha": "804b47a6211a6627c4ef06b8dde91721cc5967b9",
+      "size": 83373,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BranchCurrencyDistribution.yaml"
+    },
+    {
+      "name": "BranchCurrencyManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BranchCurrencyManagement.yaml",
+      "sha": "eb589b808871484697603284415ef423ed51e62b",
+      "size": 67050,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BranchCurrencyManagement.yaml"
+    },
+    {
+      "name": "BranchLocationManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BranchLocationManagement.yaml",
+      "sha": "6b86eb012b6d49afe8f3cc678eba6a50bc807b2d",
+      "size": 73417,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BranchLocationManagement.yaml"
+    },
+    {
+      "name": "BranchLocationOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BranchLocationOperations.yaml",
+      "sha": "636bcc13325562e88f54b9379fed593bed7ea417",
+      "size": 75494,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BranchLocationOperations.yaml"
+    },
+    {
+      "name": "BrandManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BrandManagement.yaml",
+      "sha": "ba0fd96a6fbcb9e6c36f714b8b7a1a245c2e00d6",
+      "size": 39877,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BrandManagement.yaml"
+    },
+    {
+      "name": "BrokeredProductProxy.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BrokeredProductProxy.yaml",
+      "sha": "dec4b270688c8dfcbd871b375593a22c47d2a65c",
+      "size": 2972,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BrokeredProductProxy.yaml"
+    },
+    {
+      "name": "BusinessDevelopment.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BusinessDevelopment.yaml",
+      "sha": "7831601616abe656d52a38f194e6e7ee46026ba6",
+      "size": 83144,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BusinessDevelopment.yaml"
+    },
+    {
+      "name": "BusinessUnitManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/BusinessUnitManagement.yaml",
+      "sha": "c801d9e67493dc406268d60de9a43e0e6026c0f3",
+      "size": 42530,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/BusinessUnitManagement.yaml"
+    },
+    {
+      "name": "CardAuthorization.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardAuthorization.yaml",
+      "sha": "1944086f61b121d8681fbf5b7680051274256331",
+      "size": 231400,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardAuthorization.yaml"
+    },
+    {
+      "name": "CardCase.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardCase.yaml",
+      "sha": "8057512d47f9bad0535dd014500f82d81d89f99a",
+      "size": 217216,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardCase.yaml"
+    },
+    {
+      "name": "CardClearing.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardClearing.yaml",
+      "sha": "ef4c58803bcc25dc9ade803eeb85c4d7d93f8f3e",
+      "size": 199231,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardClearing.yaml"
+    },
+    {
+      "name": "CardCollections.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardCollections.yaml",
+      "sha": "41d0eb4ce90217f7a72bee0f616825016636c3c1",
+      "size": 249794,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardCollections.yaml"
+    },
+    {
+      "name": "CardFinancialSettlement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardFinancialSettlement.yaml",
+      "sha": "2887fc690c4518d19916785a2dced30d1ddb6370",
+      "size": 125990,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardFinancialSettlement.yaml"
+    },
+    {
+      "name": "CardNetworkParticipantFacility.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardNetworkParticipantFacility.yaml",
+      "sha": "293017af5e363287dfe3ca07d577c970ef08fe1c",
+      "size": 39429,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardNetworkParticipantFacility.yaml"
+    },
+    {
+      "name": "CardTerminalAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardTerminalAdministration.yaml",
+      "sha": "4a3eb7733886842e6936b43b1c2345ca1459ee20",
+      "size": 131518,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardTerminalAdministration.yaml"
+    },
+    {
+      "name": "CardTerminalOperation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardTerminalOperation.yaml",
+      "sha": "e33f86ed4a1ae4ca79088fd88f2ef2d6b404e442",
+      "size": 164329,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardTerminalOperation.yaml"
+    },
+    {
+      "name": "CardTransactionCapture.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardTransactionCapture.yaml",
+      "sha": "8959ee52b8c3d506c86801467eae0ae8eea06fb0",
+      "size": 166777,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardTransactionCapture.yaml"
+    },
+    {
+      "name": "CardTransactionSwitch.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardTransactionSwitch.yaml",
+      "sha": "d2c49691d5abae141ba7a4d301133574809873bf",
+      "size": 180960,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardTransactionSwitch.yaml"
+    },
+    {
+      "name": "CardTransactionTracking.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardTransactionTracking.yaml",
+      "sha": "388cdccd0d51a86d90ed93ee1e96e011d8862152",
+      "size": 6239,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardTransactionTracking.yaml"
+    },
+    {
+      "name": "CardeCommerceGateway.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CardeCommerceGateway.yaml",
+      "sha": "ea3f15155d146a238365316eefd6450146979fe7",
+      "size": 149842,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CardeCommerceGateway.yaml"
+    },
+    {
+      "name": "CaseRootCauseAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CaseRootCauseAnalysis.yaml",
+      "sha": "6bdd59fbaa974cf1466cc8e2603690a9c612c8ad",
+      "size": 48670,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CaseRootCauseAnalysis.yaml"
+    },
+    {
+      "name": "CashConcentration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CashConcentration.yaml",
+      "sha": "e66a478bf2e7c0e6b7490a0e3f612d2e58d6d7c0",
+      "size": 159525,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CashConcentration.yaml"
+    },
+    {
+      "name": "CashManagementAndAccountServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CashManagementAndAccountServices.yaml",
+      "sha": "c4a432797e50717d2f48df18ccd34ebaa53cfee0",
+      "size": 329371,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CashManagementAndAccountServices.yaml"
+    },
+    {
+      "name": "CentralCashHandling.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CentralCashHandling.yaml",
+      "sha": "870e280863a24f34f1128bfbc45c06a7c1c3d78b",
+      "size": 75686,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CentralCashHandling.yaml"
+    },
+    {
+      "name": "ChannelActivityAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ChannelActivityAnalysis.yaml",
+      "sha": "7ff0a7ff2d6cbe2348ad3fda3ebe4704b0f82dff",
+      "size": 30981,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ChannelActivityAnalysis.yaml"
+    },
+    {
+      "name": "ChannelActivityHistory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ChannelActivityHistory.yaml",
+      "sha": "659ca502822969095a4e810fd773908fbaee3ddb",
+      "size": 60693,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ChannelActivityHistory.yaml"
+    },
+    {
+      "name": "ChequeLockBox.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ChequeLockBox.yaml",
+      "sha": "5fc8cdaba886ec5696a207f303124e567501c10a",
+      "size": 184744,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ChequeLockBox.yaml"
+    },
+    {
+      "name": "ChequeProcessing.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ChequeProcessing.yaml",
+      "sha": "11d016e3092930d24d392fb6dc89fbdbf59800cb",
+      "size": 45011,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ChequeProcessing.yaml"
+    },
+    {
+      "name": "ClaimAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ClaimAdministration.yaml",
+      "sha": "2467220bf1069b48957cf7f90451f8893f859727",
+      "size": 14460,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ClaimAdministration.yaml"
+    },
+    {
+      "name": "ClaimAssessment.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ClaimAssessment.yaml",
+      "sha": "f2ce06e8514458cdc2d97592f4ed410a8f0aa59b",
+      "size": 11962,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ClaimAssessment.yaml"
+    },
+    {
+      "name": "CollateralAllocationManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CollateralAllocationManagement.yaml",
+      "sha": "728857c8687adfca7a8c354fade493a5e5ab2ff3",
+      "size": 20012,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CollateralAllocationManagement.yaml"
+    },
+    {
+      "name": "CollateralAssetAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CollateralAssetAdministration.yaml",
+      "sha": "ede21a882c4f203fe61f052ff127dc4cffcbbf40",
+      "size": 155016,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CollateralAssetAdministration.yaml"
+    },
+    {
+      "name": "Collections.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Collections.yaml",
+      "sha": "1fa995abcd416e3686391bfa82772d0e673cce1f",
+      "size": 91428,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Collections.yaml"
+    },
+    {
+      "name": "CommissionAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CommissionAgreement.yaml",
+      "sha": "4efad4d681094d7c6211eaacb5513e71f8559ca0",
+      "size": 77384,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CommissionAgreement.yaml"
+    },
+    {
+      "name": "Commissions.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Commissions.yaml",
+      "sha": "544f9169844c7af72d888d8032e761e0707ae3d6",
+      "size": 157280,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Commissions.yaml"
+    },
+    {
+      "name": "CompetitorAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CompetitorAnalysis.yaml",
+      "sha": "47157f47c42b27ff9b3e6ef51e14eaf678d457f8",
+      "size": 37921,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CompetitorAnalysis.yaml"
+    },
+    {
+      "name": "ComplianceReporting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ComplianceReporting.yaml",
+      "sha": "8a1bd82651caca6af562b755c4aa7f45c5888ef8",
+      "size": 67138,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ComplianceReporting.yaml"
+    },
+    {
+      "name": "ConsumerAdvisoryServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ConsumerAdvisoryServices.yaml",
+      "sha": "c52a84a4392c5fa8b621eb06da0c2cbec96488ca",
+      "size": 145938,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ConsumerAdvisoryServices.yaml"
+    },
+    {
+      "name": "ConsumerInvestments.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ConsumerInvestments.yaml",
+      "sha": "1a5d0b2cd388a55a14cbf3fcc88db1e4b4ed92ac",
+      "size": 53346,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ConsumerInvestments.yaml"
+    },
+    {
+      "name": "ConsumerLoan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ConsumerLoan.yaml",
+      "sha": "45c348cfcb09aa0388eaa86ff2ef20effba4d84a",
+      "size": 308231,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ConsumerLoan.yaml"
+    },
+    {
+      "name": "ContactCenterManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ContactCenterManagement.yaml",
+      "sha": "8d14462b7f968f5df5a0f2a1e58168cc09855a51",
+      "size": 45915,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ContactCenterManagement.yaml"
+    },
+    {
+      "name": "ContactCenterOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ContactCenterOperations.yaml",
+      "sha": "f248c7d2acba420512aba5a6266dcbf01c3e4635",
+      "size": 49689,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ContactCenterOperations.yaml"
+    },
+    {
+      "name": "ContactHandler.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ContactHandler.yaml",
+      "sha": "f951da94ffda7bfc5ba9d1575f5e6af6737b9b5d",
+      "size": 53138,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ContactHandler.yaml"
+    },
+    {
+      "name": "ContactRouting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ContactRouting.yaml",
+      "sha": "296cfa9433c30eaecd0f0c09e10a30931475c4e6",
+      "size": 39599,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ContactRouting.yaml"
+    },
+    {
+      "name": "ContractorandSupplierAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ContractorandSupplierAgreement.yaml",
+      "sha": "0626bf42faeca95bd5167d37edee32ffaf91ce6a",
+      "size": 100928,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ContractorandSupplierAgreement.yaml"
+    },
+    {
+      "name": "CorporateAction.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateAction.yaml",
+      "sha": "a7c6b4047cecbf712013fe313232f326c26199f7",
+      "size": 223962,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateAction.yaml"
+    },
+    {
+      "name": "CorporateCurrentAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateCurrentAccount.yaml",
+      "sha": "5d0fb8f86dacc0bfdd1212f0a71e68957cab113e",
+      "size": 359612,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateCurrentAccount.yaml"
+    },
+    {
+      "name": "CorporateFinance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateFinance.yaml",
+      "sha": "e757e48a615882e53b196cdbc921264186726175",
+      "size": 79928,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateFinance.yaml"
+    },
+    {
+      "name": "CorporateLease.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateLease.yaml",
+      "sha": "4b45cce862cdf3a2863ef3395259d1c690723548",
+      "size": 67742,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateLease.yaml"
+    },
+    {
+      "name": "CorporateLoan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateLoan.yaml",
+      "sha": "51ca88dc3d076e89ef7cb43bd306ef3653ceff68",
+      "size": 309624,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateLoan.yaml"
+    },
+    {
+      "name": "CorporatePayrollServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporatePayrollServices.yaml",
+      "sha": "c7894aa75c06762abc118221352bf170ebd03d89",
+      "size": 158317,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporatePayrollServices.yaml"
+    },
+    {
+      "name": "CorporateTaxAdvisory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateTaxAdvisory.yaml",
+      "sha": "f07c5ea019e42dc1a6e34d1e3537ad5fe93ddf4e",
+      "size": 155098,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateTaxAdvisory.yaml"
+    },
+    {
+      "name": "CorporateTreasury.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateTreasury.yaml",
+      "sha": "20583bdd98d5a48a013c058a354ab19d8eb5996a",
+      "size": 51610,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateTreasury.yaml"
+    },
+    {
+      "name": "CorporateTrustServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorporateTrustServices.yaml",
+      "sha": "a3843ac6f18290fbcf27992e67db20a95bcdb1b2",
+      "size": 191295,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorporateTrustServices.yaml"
+    },
+    {
+      "name": "Correspondence.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Correspondence.yaml",
+      "sha": "65c15ba330772a3b88af538d7bb5efb300b92bd7",
+      "size": 46533,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Correspondence.yaml"
+    },
+    {
+      "name": "CorrespondentBankDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorrespondentBankDirectory.yaml",
+      "sha": "cf517134def903dcc3bfb07c534d3ccc2ffc20da",
+      "size": 36769,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorrespondentBankDirectory.yaml"
+    },
+    {
+      "name": "CorrespondentBankRelationshipManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CorrespondentBankRelationshipManagement.yaml",
+      "sha": "13a7c2899a8057e3ae01161102fcb2728aea2705",
+      "size": 89518,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CorrespondentBankRelationshipManagement.yaml"
+    },
+    {
+      "name": "CounterpartyAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CounterpartyAdministration.yaml",
+      "sha": "1f7745fd0e524634d4ae233d8f8cba31222d68eb",
+      "size": 72927,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CounterpartyAdministration.yaml"
+    },
+    {
+      "name": "CreditCard.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CreditCard.yaml",
+      "sha": "01f086c959153d5b609a01ca4debb064006c4b64",
+      "size": 328458,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CreditCard.yaml"
+    },
+    {
+      "name": "CreditFacility.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CreditFacility.yaml",
+      "sha": "aa72dde7de0f5d38d865455861180031f683d3eb",
+      "size": 208777,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CreditFacility.yaml"
+    },
+    {
+      "name": "CreditManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CreditManagement.yaml",
+      "sha": "3de6ff9ab1a527d67f53c5cafa7a60b5f4b82dd5",
+      "size": 41263,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CreditManagement.yaml"
+    },
+    {
+      "name": "CreditRiskModels.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CreditRiskModels.yaml",
+      "sha": "6c1c18fb227129168a0417906ac9fca5cdfaefe0",
+      "size": 41299,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CreditRiskModels.yaml"
+    },
+    {
+      "name": "CreditRiskOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CreditRiskOperations.yaml",
+      "sha": "c716407c3fa19baf15608c173e8e62ed3d1f875b",
+      "size": 125282,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CreditRiskOperations.yaml"
+    },
+    {
+      "name": "CurrencyExchange.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CurrencyExchange.yaml",
+      "sha": "fb46b811c90b9e0c059ca50235f40c0b2e969f88",
+      "size": 159570,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CurrencyExchange.yaml"
+    },
+    {
+      "name": "CurrentAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CurrentAccount.yaml",
+      "sha": "ee54a56f8d604993cab8241a18c032e5d7ad4470",
+      "size": 358644,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CurrentAccount.yaml"
+    },
+    {
+      "name": "CustodyAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustodyAdministration.yaml",
+      "sha": "63a3875d7db96fb537bb58f3128ffd0b93318738",
+      "size": 82161,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustodyAdministration.yaml"
+    },
+    {
+      "name": "CustomerAccessEntitlement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerAccessEntitlement.yaml",
+      "sha": "c2ee0b33238cc4e414c58733995ba020ce6dc963",
+      "size": 50934,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerAccessEntitlement.yaml"
+    },
+    {
+      "name": "CustomerAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerAgreement.yaml",
+      "sha": "8ca3ce7990ffdc33b082ca6171ceb18aacdcddfc",
+      "size": 46186,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerAgreement.yaml"
+    },
+    {
+      "name": "CustomerBehaviorInsights.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerBehaviorInsights.yaml",
+      "sha": "ac9af5cda480a8d4bab9532ddd4248d4fb718605",
+      "size": 43857,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerBehaviorInsights.yaml"
+    },
+    {
+      "name": "CustomerBehaviorModels.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerBehaviorModels.yaml",
+      "sha": "49f6f70346350ae1942343de9bd00336d8572e18",
+      "size": 58378,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerBehaviorModels.yaml"
+    },
+    {
+      "name": "CustomerBilling.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerBilling.yaml",
+      "sha": "7e4741d01c1d0697948ef21d79f6e042b25c2954",
+      "size": 126966,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerBilling.yaml"
+    },
+    {
+      "name": "CustomerCampaignDesign.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCampaignDesign.yaml",
+      "sha": "915f880514527c5a179dae5710f9ff1c5f9eef43",
+      "size": 53958,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCampaignDesign.yaml"
+    },
+    {
+      "name": "CustomerCampaignExecution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCampaignExecution.yaml",
+      "sha": "a4ab9335af28624db5749a393b9dff149fb2bb95",
+      "size": 79126,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCampaignExecution.yaml"
+    },
+    {
+      "name": "CustomerCampaignManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCampaignManagement.yaml",
+      "sha": "833b2114d04b2d07da20e4267a62186ee9c7dac9",
+      "size": 100970,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCampaignManagement.yaml"
+    },
+    {
+      "name": "CustomerCase.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCase.yaml",
+      "sha": "db0093ab8d11c74ce94ace31f7a69b0f1f07d68f",
+      "size": 86114,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCase.yaml"
+    },
+    {
+      "name": "CustomerCaseManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCaseManagement.yaml",
+      "sha": "b20dda270e1711bb2e370effd997f7d40a850dfe",
+      "size": 45383,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCaseManagement.yaml"
+    },
+    {
+      "name": "CustomerCreditRating.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerCreditRating.yaml",
+      "sha": "484a9c343a5c2690f6c0d29ec2d259cd763a0905",
+      "size": 53858,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerCreditRating.yaml"
+    },
+    {
+      "name": "CustomerEventHistory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerEventHistory.yaml",
+      "sha": "4a29bdfca6b5f9ec897e5ab783d180482c8500a5",
+      "size": 74935,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerEventHistory.yaml"
+    },
+    {
+      "name": "CustomerFinancialInsights.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerFinancialInsights.yaml",
+      "sha": "9410099c43dfbcb3ecbb508711e61c6fb72683b0",
+      "size": 34323,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerFinancialInsights.yaml"
+    },
+    {
+      "name": "CustomerOffer.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerOffer.yaml",
+      "sha": "80dd82e453f716a0615c2b0d75d0d86075e9d90f",
+      "size": 234184,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerOffer.yaml"
+    },
+    {
+      "name": "CustomerPortfolio.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerPortfolio.yaml",
+      "sha": "ef4279ee78fb7bf0331598a7bfc173fd85f6f141",
+      "size": 60215,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerPortfolio.yaml"
+    },
+    {
+      "name": "CustomerPosition.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerPosition.yaml",
+      "sha": "850401d30af96df80d9541f77957b6fa6f5d0cf0",
+      "size": 95608,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerPosition.yaml"
+    },
+    {
+      "name": "CustomerProductAndServiceEligibility.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerProductAndServiceEligibility.yaml",
+      "sha": "b899a576a83345b40a5efd48aed96e8355ec91f3",
+      "size": 66643,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerProductAndServiceEligibility.yaml"
+    },
+    {
+      "name": "CustomerProductandServiceDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerProductandServiceDirectory.yaml",
+      "sha": "700576a1accce17b49acc511ba5c42ecdf69be59",
+      "size": 45125,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerProductandServiceDirectory.yaml"
+    },
+    {
+      "name": "CustomerProposition.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerProposition.yaml",
+      "sha": "ead657cffa70ed992b183717ce7ee3d31cded575",
+      "size": 97247,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerProposition.yaml"
+    },
+    {
+      "name": "CustomerRelationshipManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerRelationshipManagement.yaml",
+      "sha": "d83ae30c2688b089e1767e70f2a2b8c712007ce2",
+      "size": 76484,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerRelationshipManagement.yaml"
+    },
+    {
+      "name": "CustomerSurveys.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerSurveys.yaml",
+      "sha": "c679286afc47a7e4a60f30a4e491b843278b565a",
+      "size": 8132,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerSurveys.yaml"
+    },
+    {
+      "name": "CustomerTaxHandling.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerTaxHandling.yaml",
+      "sha": "3fcad33b9255624f53e9b6d15c7bdaedb4a9e0ab",
+      "size": 175429,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerTaxHandling.yaml"
+    },
+    {
+      "name": "CustomerWorkbench.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/CustomerWorkbench.yaml",
+      "sha": "82b26cb62717e06e1e239cf79aa94c0244287070",
+      "size": 46708,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/CustomerWorkbench.yaml"
+    },
+    {
+      "name": "DealerDesk.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DealerDesk.yaml",
+      "sha": "c6e8e4aadda34b6dbd586df0cb627f5095b1d203",
+      "size": 59178,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DealerDesk.yaml"
+    },
+    {
+      "name": "DelinquentAccountHandling.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DelinquentAccountHandling.yaml",
+      "sha": "ce58ae2a164efc7a1ec90329ee7b8da3f3729d9c",
+      "size": 186488,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DelinquentAccountHandling.yaml"
+    },
+    {
+      "name": "DirectDebit.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DirectDebit.yaml",
+      "sha": "01cdce12df45dfb5f49596d8399a4f83cb29fa6c",
+      "size": 109382,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DirectDebit.yaml"
+    },
+    {
+      "name": "DirectDebitMandate.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DirectDebitMandate.yaml",
+      "sha": "2926106f58c5121faed251f784fe573762a77772",
+      "size": 153964,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DirectDebitMandate.yaml"
+    },
+    {
+      "name": "Disbursement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Disbursement.yaml",
+      "sha": "2c2b80f056a276aac57c0db43b796e1321570279",
+      "size": 155700,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Disbursement.yaml"
+    },
+    {
+      "name": "DocumentDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DocumentDirectory.yaml",
+      "sha": "266b721b99b35fc582abf1671bc6444b334bbf56",
+      "size": 104547,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DocumentDirectory.yaml"
+    },
+    {
+      "name": "DocumentServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/DocumentServices.yaml",
+      "sha": "79e5ce0d732fd535fc84b0ca8934886dca73ae1b",
+      "size": 68368,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/DocumentServices.yaml"
+    },
+    {
+      "name": "ECMAndDCM.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ECMAndDCM.yaml",
+      "sha": "f49236e0ac001d956678c8c73c6f010334ec9d7a",
+      "size": 63358,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ECMAndDCM.yaml"
+    },
+    {
+      "name": "EnterpriseArchitecture.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/EnterpriseArchitecture.yaml",
+      "sha": "74393f186bc34f46b23e0a654c1b1c36bb1698d5",
+      "size": 54152,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/EnterpriseArchitecture.yaml"
+    },
+    {
+      "name": "Factoring.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Factoring.yaml",
+      "sha": "9276ca901305262e1b0358c0b6c76064e4625b04",
+      "size": 182632,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Factoring.yaml"
+    },
+    {
+      "name": "FiduciaryAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FiduciaryAgreement.yaml",
+      "sha": "069e19c83f57e0981800912fed9e0d7f0199c281",
+      "size": 80653,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FiduciaryAgreement.yaml"
+    },
+    {
+      "name": "FinancialAccounting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialAccounting.yaml",
+      "sha": "ee6a03f511d9e139e33b1f359e87aac3abfe01a0",
+      "size": 41045,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialAccounting.yaml"
+    },
+    {
+      "name": "FinancialGateway.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialGateway.yaml",
+      "sha": "4b61779f2257d79fb7b8429e09c23ddc4c7768af",
+      "size": 33954,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialGateway.yaml"
+    },
+    {
+      "name": "FinancialInstrumentReferenceDataManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialInstrumentReferenceDataManagement.yaml",
+      "sha": "2c735e7b5139aa5039b6f4cacae388ac9e32898a",
+      "size": 81455,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialInstrumentReferenceDataManagement.yaml"
+    },
+    {
+      "name": "FinancialInstrumentValuation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialInstrumentValuation.yaml",
+      "sha": "b4393feccc5b1a6fc87710c93f3eb4351bf5b10e",
+      "size": 91613,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialInstrumentValuation.yaml"
+    },
+    {
+      "name": "FinancialMarketAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialMarketAnalysis.yaml",
+      "sha": "1354c8a45ae95637eddb893ea35c244766118a5c",
+      "size": 31889,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialMarketAnalysis.yaml"
+    },
+    {
+      "name": "FinancialMarketResearch.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialMarketResearch.yaml",
+      "sha": "75c28ab3e8b85a7ad3144af005f0160e6c7640a9",
+      "size": 31680,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialMarketResearch.yaml"
+    },
+    {
+      "name": "FinancialStatementAssessment.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FinancialStatementAssessment.yaml",
+      "sha": "85d6b1566974f3bc6bb6348672ae38937721cb51",
+      "size": 67430,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FinancialStatementAssessment.yaml"
+    },
+    {
+      "name": "FraudDiagnosis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FraudDiagnosis.yaml",
+      "sha": "5de6e2b2499225e62a26b0c5da3d6f39e7755d26",
+      "size": 31652,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FraudDiagnosis.yaml"
+    },
+    {
+      "name": "FraudEvaluation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FraudEvaluation.yaml",
+      "sha": "1439b411c021de972c9f16facdf64d2fbe1c7d96",
+      "size": 24768,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FraudEvaluation.yaml"
+    },
+    {
+      "name": "FraudModel.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FraudModel.yaml",
+      "sha": "3742eabfe246463b298db249c51d68245f8fef7b",
+      "size": 65855,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FraudModel.yaml"
+    },
+    {
+      "name": "FraudResolution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FraudResolution.yaml",
+      "sha": "cea9f503dcc7d723cfd6dff893d0fb0a454395f2",
+      "size": 178246,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FraudResolution.yaml"
+    },
+    {
+      "name": "FuneralPolicy.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/FuneralPolicy.yaml",
+      "sha": "7433f3c0f9d2e4c3a397d81bc71e02c9586480ca",
+      "size": 13453,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/FuneralPolicy.yaml"
+    },
+    {
+      "name": "GuidelineCompliance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/GuidelineCompliance.yaml",
+      "sha": "e4fed96d89edce6efb8dbbd13f38eb9aa0c2dd48",
+      "size": 45867,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/GuidelineCompliance.yaml"
+    },
+    {
+      "name": "HedgeFundAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/HedgeFundAdministration.yaml",
+      "sha": "afb125bcead09a8426c56878c0398a535844c137",
+      "size": 131748,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/HedgeFundAdministration.yaml"
+    },
+    {
+      "name": "ITStandardsAndGuidelines.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ITStandardsAndGuidelines.yaml",
+      "sha": "9df0277dea48fee1a6bbd2ec42d8028202c4178d",
+      "size": 68905,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ITStandardsAndGuidelines.yaml"
+    },
+    {
+      "name": "IncentiveAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IncentiveAccount.yaml",
+      "sha": "de0460adb55c80c8381040d8adb7bd48fe002023",
+      "size": 2931,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IncentiveAccount.yaml"
+    },
+    {
+      "name": "IncentiveProgramDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IncentiveProgramDirectory.yaml",
+      "sha": "5b39b77254a59ca03a7bc75acdedf795293baae3",
+      "size": 3347,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IncentiveProgramDirectory.yaml"
+    },
+    {
+      "name": "InformationProviderOperation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InformationProviderOperation.yaml",
+      "sha": "ab0d418546391e2c33bf9add2c370c06779ca49a",
+      "size": 23777,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InformationProviderOperation.yaml"
+    },
+    {
+      "name": "IntellectualPropertyPortfolio.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IntellectualPropertyPortfolio.yaml",
+      "sha": "3e83d1ceaa2575313db05f444263a4e0fd324738",
+      "size": 61826,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IntellectualPropertyPortfolio.yaml"
+    },
+    {
+      "name": "InteractiveHelp.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InteractiveHelp.yaml",
+      "sha": "59481dfc4f7b9f52ac2ea428b520238d359a2fe6",
+      "size": 12918,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InteractiveHelp.yaml"
+    },
+    {
+      "name": "InterbankRelationshipManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InterbankRelationshipManagement.yaml",
+      "sha": "524cefcfeafa80aaf6f13cecbf3574c770e26751",
+      "size": 45732,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InterbankRelationshipManagement.yaml"
+    },
+    {
+      "name": "InternalAudit.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InternalAudit.yaml",
+      "sha": "63ca25f6cb1aa1336ba19f7a3f1081a523c823ba",
+      "size": 49362,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InternalAudit.yaml"
+    },
+    {
+      "name": "InternalBankAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InternalBankAccount.yaml",
+      "sha": "f6dc981fc3a472dd0cef06f602ca474a0e2de012",
+      "size": 167108,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InternalBankAccount.yaml"
+    },
+    {
+      "name": "InvestmentAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InvestmentAccount.yaml",
+      "sha": "8e33bde48e900ff03d1f6038718124de15dc4d64",
+      "size": 199541,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InvestmentAccount.yaml"
+    },
+    {
+      "name": "InvestmentPortfolioAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InvestmentPortfolioAnalysis.yaml",
+      "sha": "1e81657f54719645099279616a2240ee63ebd3a4",
+      "size": 40594,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InvestmentPortfolioAnalysis.yaml"
+    },
+    {
+      "name": "InvestmentPortfolioManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InvestmentPortfolioManagement.yaml",
+      "sha": "67d16bb48bcadacd615a4dcfff0d312b91a068a5",
+      "size": 32167,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InvestmentPortfolioManagement.yaml"
+    },
+    {
+      "name": "InvestmentPortfolioPlanning.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/InvestmentPortfolioPlanning.yaml",
+      "sha": "e71b8876c745d265cfacc68732dbd2846c129215",
+      "size": 41283,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/InvestmentPortfolioPlanning.yaml"
+    },
+    {
+      "name": "IssuedCertificateDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IssuedCertificateDirectory.yaml",
+      "sha": "f4c2688d44971a53c5303879a993ed423bb006dd",
+      "size": 3347,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IssuedCertificateDirectory.yaml"
+    },
+    {
+      "name": "IssuedDeviceAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IssuedDeviceAdministration.yaml",
+      "sha": "35526b75096fdac46c1511ed8273a349e54b965d",
+      "size": 115781,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IssuedDeviceAdministration.yaml"
+    },
+    {
+      "name": "IssuedDeviceTracking.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/IssuedDeviceTracking.yaml",
+      "sha": "db39b896d174583041e74a0b78b9139f9a47ac7b",
+      "size": 30986,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/IssuedDeviceTracking.yaml"
+    },
+    {
+      "name": "KnowledgeExchange.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/KnowledgeExchange.yaml",
+      "sha": "d8bc449d159734ac5303a94656b0d2b85ccfb599",
+      "size": 60454,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/KnowledgeExchange.yaml"
+    },
+    {
+      "name": "LeadandOpportunityManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LeadandOpportunityManagement.yaml",
+      "sha": "032e436f743a974d0be1c5ee62062d5aac82ac14",
+      "size": 42967,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LeadandOpportunityManagement.yaml"
+    },
+    {
+      "name": "Leasing.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Leasing.yaml",
+      "sha": "60536f8141af78a86ffeddb9f2dec67d26ca356c",
+      "size": 367132,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Leasing.yaml"
+    },
+    {
+      "name": "LeasingItemAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LeasingItemAdministration.yaml",
+      "sha": "542347c38b4ec352bab6beba93a97449bad51407",
+      "size": 68399,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LeasingItemAdministration.yaml"
+    },
+    {
+      "name": "LegalAdvisory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LegalAdvisory.yaml",
+      "sha": "4ab7da75e4fa295bb84a6a7c1c7d73d7444e8f88",
+      "size": 6010,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LegalAdvisory.yaml"
+    },
+    {
+      "name": "LegalCompliance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LegalCompliance.yaml",
+      "sha": "8587ceb18ea639c5fdfe35c40072a5fe58c03476",
+      "size": 152825,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LegalCompliance.yaml"
+    },
+    {
+      "name": "LegalEntityDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LegalEntityDirectory.yaml",
+      "sha": "48960571cb35560038fa615ed16c19c155632e40",
+      "size": 48486,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LegalEntityDirectory.yaml"
+    },
+    {
+      "name": "LetterofCredit.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LetterofCredit.yaml",
+      "sha": "6fc51dd8b15b4c75216f869466f46709731c2b13",
+      "size": 284087,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LetterofCredit.yaml"
+    },
+    {
+      "name": "Loan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Loan.yaml",
+      "sha": "efa1fac21a566777565378b5294143aca5dad26d",
+      "size": 262654,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Loan.yaml"
+    },
+    {
+      "name": "LoanSyndication.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LoanSyndication.yaml",
+      "sha": "e697b1b01d2a4fdfa12fc8ef452243bd03ceaa1c",
+      "size": 52718,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LoanSyndication.yaml"
+    },
+    {
+      "name": "LocationDataManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/LocationDataManagement.yaml",
+      "sha": "65d7ac82cf8cd01f26e3f20d25d411c56004aebf",
+      "size": 34310,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/LocationDataManagement.yaml"
+    },
+    {
+      "name": "ManagementManual.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ManagementManual.yaml",
+      "sha": "c85a299c11f6a2e0480bce725797a82b22a32897",
+      "size": 62516,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ManagementManual.yaml"
+    },
+    {
+      "name": "MarketAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketAnalysis.yaml",
+      "sha": "d19ae5f6b8582ba4ba6ef73651851c5f41de2cbc",
+      "size": 39391,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketAnalysis.yaml"
+    },
+    {
+      "name": "MarketDataSwitchOperation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketDataSwitchOperation.yaml",
+      "sha": "9d63379c0d41b5f649a3d599f6be72b815940468",
+      "size": 45222,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketDataSwitchOperation.yaml"
+    },
+    {
+      "name": "MarketInformationManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketInformationManagement.yaml",
+      "sha": "0e1c4443b375963c2fe11179e7f1390e5e9d0e47",
+      "size": 42233,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketInformationManagement.yaml"
+    },
+    {
+      "name": "MarketMaking.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketMaking.yaml",
+      "sha": "bec641ce00b54694de101ce3825fbd0f55e6a2af",
+      "size": 181650,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketMaking.yaml"
+    },
+    {
+      "name": "MarketOrder.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketOrder.yaml",
+      "sha": "d656c5bc2fe5b002e36ca2da525b8742771f6ff9",
+      "size": 41718,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketOrder.yaml"
+    },
+    {
+      "name": "MarketOrderExecution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketOrderExecution.yaml",
+      "sha": "ec5cce9b22e88ab46412cc5c92c8cc097ba6bea7",
+      "size": 57524,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketOrderExecution.yaml"
+    },
+    {
+      "name": "MarketResearch.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MarketResearch.yaml",
+      "sha": "911fba8745630a6d1d54628d94a9c475a77e0992",
+      "size": 61510,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MarketResearch.yaml"
+    },
+    {
+      "name": "MerchandisingLoan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MerchandisingLoan.yaml",
+      "sha": "35c715605314e33e1e28199da3a127343305b98d",
+      "size": 355531,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MerchandisingLoan.yaml"
+    },
+    {
+      "name": "MerchantAcquiringFacility.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MerchantAcquiringFacility.yaml",
+      "sha": "039fca883e9ac3ee3a21f48e046bea8eac12b6b6",
+      "size": 250828,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MerchantAcquiringFacility.yaml"
+    },
+    {
+      "name": "MerchantRelations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MerchantRelations.yaml",
+      "sha": "0501a87191bed7e91de8ae71a7b0f76e15f7fbb2",
+      "size": 163818,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MerchantRelations.yaml"
+    },
+    {
+      "name": "MergersandAcquisitionsAdvisory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MergersandAcquisitionsAdvisory.yaml",
+      "sha": "5982d81829fb6ef3d8be96d4cdf99515c6fa5104",
+      "size": 47292,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MergersandAcquisitionsAdvisory.yaml"
+    },
+    {
+      "name": "MortgageLoan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MortgageLoan.yaml",
+      "sha": "a12bdff9135880d8bf4774cf387b393768e1af02",
+      "size": 353156,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MortgageLoan.yaml"
+    },
+    {
+      "name": "MutualFundAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/MutualFundAdministration.yaml",
+      "sha": "69b8ffae9915fd0cf526edc37869c18691c42bf8",
+      "size": 124266,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/MutualFundAdministration.yaml"
+    },
+    {
+      "name": "NotionalPooling.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/NotionalPooling.yaml",
+      "sha": "aabd074fbccc93d134e5ccaf3869d4e0ca381651",
+      "size": 158873,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/NotionalPooling.yaml"
+    },
+    {
+      "name": "OpenItemManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/OpenItemManagement.yaml",
+      "sha": "8c493f578213067d9b48513c5b0d7d64c00f3145",
+      "size": 46847,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/OpenItemManagement.yaml"
+    },
+    {
+      "name": "OperationalGateway.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/OperationalGateway.yaml",
+      "sha": "bfb2bce834a9a278565c17cc5ffe4145916aeb65",
+      "size": 56273,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/OperationalGateway.yaml"
+    },
+    {
+      "name": "OperationsLog.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/OperationsLog.yaml",
+      "sha": "96aea5d7ae5a65dad5bb5608f0dd645baa2ce707",
+      "size": 4304,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/OperationsLog.yaml"
+    },
+    {
+      "name": "OrderAllocation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/OrderAllocation.yaml",
+      "sha": "9c134598d510b543c08985439df82bec64e026df",
+      "size": 81625,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/OrderAllocation.yaml"
+    },
+    {
+      "name": "PartnerAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartnerAdministration.yaml",
+      "sha": "34462d416752fcb8cd91cf179f74899e05d1e88d",
+      "size": 3767,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartnerAdministration.yaml"
+    },
+    {
+      "name": "PartnerAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartnerAgreement.yaml",
+      "sha": "6a281b323a25284eafba89659e567c51402e061c",
+      "size": 35185,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartnerAgreement.yaml"
+    },
+    {
+      "name": "PartnerManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartnerManagement.yaml",
+      "sha": "74cd7c4fddee3d1d00149f6654618b172d8d7b8c",
+      "size": 3996,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartnerManagement.yaml"
+    },
+    {
+      "name": "PartyAssetDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartyAssetDirectory.yaml",
+      "sha": "a836e91ba3842b61b05cf1dc04e4012aeb7e369e",
+      "size": 59764,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartyAssetDirectory.yaml"
+    },
+    {
+      "name": "PartyAuthentication.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartyAuthentication.yaml",
+      "sha": "c25eb538949fe82038fb892cdd9d49a57d3af9d9",
+      "size": 74809,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartyAuthentication.yaml"
+    },
+    {
+      "name": "PartyLifecycleManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartyLifecycleManagement.yaml",
+      "sha": "a55ddf36b3f88cb47e50fa06df72a257d6c46a65",
+      "size": 67762,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartyLifecycleManagement.yaml"
+    },
+    {
+      "name": "PartyReferenceDataDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartyReferenceDataDirectory.yaml",
+      "sha": "cb5f84f677210a639c85ad58df08a5f06fd11874",
+      "size": 72526,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartyReferenceDataDirectory.yaml"
+    },
+    {
+      "name": "PartyRoutingProfile.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PartyRoutingProfile.yaml",
+      "sha": "f30c8b84b9a32b697a6f0039c440ee7cccbb0d0f",
+      "size": 31300,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PartyRoutingProfile.yaml"
+    },
+    {
+      "name": "PaymentOrderInitiation.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PaymentOrderInitiation.yaml",
+      "sha": "0756ba24b0bd0c76797b73d80339b1b4debe9077",
+      "size": 176542,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PaymentOrderInitiation.yaml"
+    },
+    {
+      "name": "PaymentRail.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PaymentRail.yaml",
+      "sha": "3235961c0d087c44200a59abdb64ae7043b3e72e",
+      "size": 65256,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PaymentRail.yaml"
+    },
+    {
+      "name": "PointofService.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PointofService.yaml",
+      "sha": "7ae3cd718f432e996b9c6fc8bc39b1412993e79a",
+      "size": 70319,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PointofService.yaml"
+    },
+    {
+      "name": "PositionKeeping.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PositionKeeping.yaml",
+      "sha": "f2c8084a2d9351bd94f88a28d50f005327800402",
+      "size": 110702,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PositionKeeping.yaml"
+    },
+    {
+      "name": "PositionManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PositionManagement.yaml",
+      "sha": "93146a41df610a25d156b77d2f622ceeb43c6e29",
+      "size": 62336,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PositionManagement.yaml"
+    },
+    {
+      "name": "PrivatePlacement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PrivatePlacement.yaml",
+      "sha": "04fece3cac62564d5223562fb735f64a8719a12e",
+      "size": 175398,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PrivatePlacement.yaml"
+    },
+    {
+      "name": "ProcessingOrder.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProcessingOrder.yaml",
+      "sha": "6be07079e3e048e31b9c163b2e0f5db5875a3314",
+      "size": 56888,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProcessingOrder.yaml"
+    },
+    {
+      "name": "ProductCombination.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductCombination.yaml",
+      "sha": "669b0314d4ee76dd7b6f4ad7a52409efcf1d3494",
+      "size": 66460,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductCombination.yaml"
+    },
+    {
+      "name": "ProductDeployment.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductDeployment.yaml",
+      "sha": "7dcb9bc72130f28fdc8b4c0170ef4c6feeba311f",
+      "size": 88101,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductDeployment.yaml"
+    },
+    {
+      "name": "ProductDesign.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductDesign.yaml",
+      "sha": "47b9c1f9775bfe0d1279623e2bc119889acadb7c",
+      "size": 46877,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductDesign.yaml"
+    },
+    {
+      "name": "ProductDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductDirectory.yaml",
+      "sha": "5e0f76bca8967e2941545873cd88846f7c5b1dbe",
+      "size": 76357,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductDirectory.yaml"
+    },
+    {
+      "name": "ProductExpertSalesSupport.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductExpertSalesSupport.yaml",
+      "sha": "a1c8d28e9be9a92aafddbe9398e7d3bd11c345c7",
+      "size": 129940,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductExpertSalesSupport.yaml"
+    },
+    {
+      "name": "ProductInventoryDistribution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductInventoryDistribution.yaml",
+      "sha": "8a78a96830a6b4f7b4fd889f449ed7d8c797e515",
+      "size": 84041,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductInventoryDistribution.yaml"
+    },
+    {
+      "name": "ProductInventoryItemManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductInventoryItemManagement.yaml",
+      "sha": "26de6fda16c3a950f9ccb9edd7a8e456b30f49fb",
+      "size": 122370,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductInventoryItemManagement.yaml"
+    },
+    {
+      "name": "ProductMatching.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductMatching.yaml",
+      "sha": "d66050797e3e8e6a0dd35bf2ca5bbee14c1f1d49",
+      "size": 61276,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductMatching.yaml"
+    },
+    {
+      "name": "ProductPortfolio.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductPortfolio.yaml",
+      "sha": "a76a58c82038d8491c5da889790a791d8aed082c",
+      "size": 27513,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductPortfolio.yaml"
+    },
+    {
+      "name": "ProductQualityAssurance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductQualityAssurance.yaml",
+      "sha": "00bd2f9056a156ef2be055ac3299c345b741aefa",
+      "size": 62476,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductQualityAssurance.yaml"
+    },
+    {
+      "name": "ProductSalesSupport.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductSalesSupport.yaml",
+      "sha": "afed52065cec7212574bccd7d83709247532f9d6",
+      "size": 77300,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductSalesSupport.yaml"
+    },
+    {
+      "name": "ProductServiceAgency.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductServiceAgency.yaml",
+      "sha": "e52452c739cfb35d34a3466684c63c8ab0bba78b",
+      "size": 100651,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductServiceAgency.yaml"
+    },
+    {
+      "name": "ProductTraining.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductTraining.yaml",
+      "sha": "2cd7e7efc54d089612eadd6cd78a9f72a6c05f1e",
+      "size": 80502,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductTraining.yaml"
+    },
+    {
+      "name": "ProductionRelease.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProductionRelease.yaml",
+      "sha": "de9adfda29e24cc1ffbe5bce9f774f77e921d898",
+      "size": 29995,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProductionRelease.yaml"
+    },
+    {
+      "name": "ProgramTrading.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProgramTrading.yaml",
+      "sha": "020e10b29597a38403435fbd048b8e99ce67437a",
+      "size": 58259,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProgramTrading.yaml"
+    },
+    {
+      "name": "ProjectFinance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProjectFinance.yaml",
+      "sha": "5db3cbe750ab3dcc52f90c1212ee441589250775",
+      "size": 183220,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProjectFinance.yaml"
+    },
+    {
+      "name": "PromotionalEvents.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PromotionalEvents.yaml",
+      "sha": "086404098acc1a943872c9e8142badfb230eac49",
+      "size": 50605,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PromotionalEvents.yaml"
+    },
+    {
+      "name": "ProspectCampaignDesign.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProspectCampaignDesign.yaml",
+      "sha": "cfa546da15225c24e0540bce67855ed16bb0bdc3",
+      "size": 51584,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProspectCampaignDesign.yaml"
+    },
+    {
+      "name": "ProspectCampaignExecution.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProspectCampaignExecution.yaml",
+      "sha": "846093afa37982600a3315ee9fa9ab206bc49a70",
+      "size": 42508,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProspectCampaignExecution.yaml"
+    },
+    {
+      "name": "ProspectCampaignManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ProspectCampaignManagement.yaml",
+      "sha": "3994cfa620d7f204c643a3e9710f8fc6c534502e",
+      "size": 68310,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ProspectCampaignManagement.yaml"
+    },
+    {
+      "name": "PublicOffering.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PublicOffering.yaml",
+      "sha": "cda070100904e3742a8cd14480c6904b44ed8558",
+      "size": 200172,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PublicOffering.yaml"
+    },
+    {
+      "name": "PublicReferenceDataManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/PublicReferenceDataManagement.yaml",
+      "sha": "d1a503ce0130b5fd9fae898e1d0bc1a735033a6a",
+      "size": 26187,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/PublicReferenceDataManagement.yaml"
+    },
+    {
+      "name": "QuoteManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/QuoteManagement.yaml",
+      "sha": "40737742b731f6821482f3fd8f88315068af78da",
+      "size": 79034,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/QuoteManagement.yaml"
+    },
+    {
+      "name": "RegulatoryAndLegalAuthority.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RegulatoryAndLegalAuthority.yaml",
+      "sha": "f95e53bb6714d7143bad6d3ddcc5ddc4ea3f2b43",
+      "size": 79275,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RegulatoryAndLegalAuthority.yaml"
+    },
+    {
+      "name": "RegulatoryCompliance.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RegulatoryCompliance.yaml",
+      "sha": "06f2fbeca4b2112481349cae3cb7dbe807c862b7",
+      "size": 43113,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RegulatoryCompliance.yaml"
+    },
+    {
+      "name": "RegulatoryReporting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RegulatoryReporting.yaml",
+      "sha": "b5a4a8f078327244567da0b105430cb87778de1a",
+      "size": 59716,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RegulatoryReporting.yaml"
+    },
+    {
+      "name": "RewardPointsAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RewardPointsAccount.yaml",
+      "sha": "f051ffbf203dd8ecd757a085b9550b7bdcd9394f",
+      "size": 55133,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RewardPointsAccount.yaml"
+    },
+    {
+      "name": "RewardPointsAwardsAndRedemption.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RewardPointsAwardsAndRedemption.yaml",
+      "sha": "192a23eb3f7abcb2df81037c254c2d3577e1dba1",
+      "size": 148943,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RewardPointsAwardsAndRedemption.yaml"
+    },
+    {
+      "name": "RewardsDelivery.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RewardsDelivery.yaml",
+      "sha": "6f811510895ef186ec648dd55272bdde783a7dac",
+      "size": 6307,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RewardsDelivery.yaml"
+    },
+    {
+      "name": "RewardsInventory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RewardsInventory.yaml",
+      "sha": "dc9d2358de3a46a3aa050f78eca2514597fb9a35",
+      "size": 5384,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RewardsInventory.yaml"
+    },
+    {
+      "name": "RewardsMenu.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/RewardsMenu.yaml",
+      "sha": "938a419f042cd6457583e69d9c977da991f45e17",
+      "size": 3225,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/RewardsMenu.yaml"
+    },
+    {
+      "name": "SalesProduct.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SalesProduct.yaml",
+      "sha": "07db36e738824e094ce5600d58c6952304d0ccc6",
+      "size": 104417,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SalesProduct.yaml"
+    },
+    {
+      "name": "SalesProductAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SalesProductAgreement.yaml",
+      "sha": "74e32bc6c176640e1830184cf141a7e26c816e09",
+      "size": 55883,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SalesProductAgreement.yaml"
+    },
+    {
+      "name": "SavingsAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SavingsAccount.yaml",
+      "sha": "455ce3f924e2148e77a80b01d2b55e8d23ce9afe",
+      "size": 358687,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SavingsAccount.yaml"
+    },
+    {
+      "name": "SecuritiesFailsProcessing.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SecuritiesFailsProcessing.yaml",
+      "sha": "729b125d5117f4d5eb75acb1c6b4a7ccf08e466b",
+      "size": 81476,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SecuritiesFailsProcessing.yaml"
+    },
+    {
+      "name": "SecuritiesPositionKeeping.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SecuritiesPositionKeeping.yaml",
+      "sha": "c881faced73401aec896e6015e4dce988f1cf7c4",
+      "size": 35089,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SecuritiesPositionKeeping.yaml"
+    },
+    {
+      "name": "SegmentDirection.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SegmentDirection.yaml",
+      "sha": "73d17ff970fb7a4c8574e2bcbcaae5794fb16cbd",
+      "size": 51785,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SegmentDirection.yaml"
+    },
+    {
+      "name": "ServiceDirectory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServiceDirectory.yaml",
+      "sha": "8b7defd554fa7d2539acc90477363e3e61776f40",
+      "size": 69679,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServiceDirectory.yaml"
+    },
+    {
+      "name": "ServiceProviderOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServiceProviderOperations.yaml",
+      "sha": "e908c08795c89a35e883480efb0954834f3ea944",
+      "size": 26676,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServiceProviderOperations.yaml"
+    },
+    {
+      "name": "ServicingActivityAnalysis.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServicingActivityAnalysis.yaml",
+      "sha": "64635ca009f0401ef2b33c64fde8b96408d9497e",
+      "size": 20853,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServicingActivityAnalysis.yaml"
+    },
+    {
+      "name": "ServicingEventHistory.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServicingEventHistory.yaml",
+      "sha": "2568de1f915a369bb014669577f135fac646e15b",
+      "size": 53599,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServicingEventHistory.yaml"
+    },
+    {
+      "name": "ServicingIssue.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServicingIssue.yaml",
+      "sha": "5ab1145c74a414002fb84844d24b923dff98dd05",
+      "size": 89196,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServicingIssue.yaml"
+    },
+    {
+      "name": "ServicingMandate.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServicingMandate.yaml",
+      "sha": "3582cec309c210909faf2943189ca9cd250954f9",
+      "size": 59310,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServicingMandate.yaml"
+    },
+    {
+      "name": "ServicingOrder.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/ServicingOrder.yaml",
+      "sha": "f036dcbe35f7b7ed3a2fe418ce192496ddc34af6",
+      "size": 26483,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/ServicingOrder.yaml"
+    },
+    {
+      "name": "SessionDialogue.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SessionDialogue.yaml",
+      "sha": "9003ac28af222bcd3f65ffd0281e155166dd3e43",
+      "size": 63860,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SessionDialogue.yaml"
+    },
+    {
+      "name": "SpecialPricingConditions.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SpecialPricingConditions.yaml",
+      "sha": "f2108bbe6493d1dbe682a5eeb978910a30c95910",
+      "size": 38427,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SpecialPricingConditions.yaml"
+    },
+    {
+      "name": "StandingOrder.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/StandingOrder.yaml",
+      "sha": "3d5853e2d2a2f083e8ceecd8e61dfee1d601a0e0",
+      "size": 152929,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/StandingOrder.yaml"
+    },
+    {
+      "name": "StockLendingandRepos.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/StockLendingandRepos.yaml",
+      "sha": "7f6b0b1be4cd8232a54b15db1a1eb78beceef3f9",
+      "size": 101648,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/StockLendingandRepos.yaml"
+    },
+    {
+      "name": "SubCustodianAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SubCustodianAgreement.yaml",
+      "sha": "5b34d1f238821de4caeec9a48eca79faab7a36f2",
+      "size": 100378,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SubCustodianAgreement.yaml"
+    },
+    {
+      "name": "SuitabilityChecking.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SuitabilityChecking.yaml",
+      "sha": "d11f45673a3af247d24084847adf9981a32d8e1a",
+      "size": 41875,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SuitabilityChecking.yaml"
+    },
+    {
+      "name": "SyndicateManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SyndicateManagement.yaml",
+      "sha": "51062501119bfcb1d0e11c1bd46f329f637e47c8",
+      "size": 57092,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SyndicateManagement.yaml"
+    },
+    {
+      "name": "SyndicatedLoan.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SyndicatedLoan.yaml",
+      "sha": "85863ae120340626cfe43e280a549d61e149f4b5",
+      "size": 80752,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SyndicatedLoan.yaml"
+    },
+    {
+      "name": "SystemDevelopment.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SystemDevelopment.yaml",
+      "sha": "f145940dc844080befd1ee4f471ffa7c7070088a",
+      "size": 49643,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SystemDevelopment.yaml"
+    },
+    {
+      "name": "SystemsAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/SystemsAdministration.yaml",
+      "sha": "95ee7cc4c0308ae496531325dc60f63c5c1038c2",
+      "size": 85097,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/SystemsAdministration.yaml"
+    },
+    {
+      "name": "TermDeposit.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TermDeposit.yaml",
+      "sha": "5fd7d40e345910ba2e503c930f547eb70c98dc87",
+      "size": 361236,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TermDeposit.yaml"
+    },
+    {
+      "name": "TermDepositFrameworkAgreement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TermDepositFrameworkAgreement.yaml",
+      "sha": "7341459c2bb3298f253c4861cdab4e5c679ee5ab",
+      "size": 140531,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TermDepositFrameworkAgreement.yaml"
+    },
+    {
+      "name": "TradeClearing.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TradeClearing.yaml",
+      "sha": "2e406117abbc2f62ec1f6830240a74c652b365af",
+      "size": 108499,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TradeClearing.yaml"
+    },
+    {
+      "name": "TradeConfirmationMatching.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TradeConfirmationMatching.yaml",
+      "sha": "4742a5f645a4341e99ddd9a8c0a6ade68b1d8c84",
+      "size": 59055,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TradeConfirmationMatching.yaml"
+    },
+    {
+      "name": "TradeSettlement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TradeSettlement.yaml",
+      "sha": "9f86bc9648a178cd4980be7e0277f4b428d0b1c9",
+      "size": 90484,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TradeSettlement.yaml"
+    },
+    {
+      "name": "TradeandPriceReporting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TradeandPriceReporting.yaml",
+      "sha": "4f676390e8137b65577a101be6b8e89253784bef",
+      "size": 40449,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TradeandPriceReporting.yaml"
+    },
+    {
+      "name": "TraderPositionOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TraderPositionOperations.yaml",
+      "sha": "41d3b492338cdb6989805818b3d2987673042b27",
+      "size": 77264,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TraderPositionOperations.yaml"
+    },
+    {
+      "name": "TradingBookOversight.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TradingBookOversight.yaml",
+      "sha": "ca962c1d6a26d67771bea33101d0d38bbca94d5f",
+      "size": 78699,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TradingBookOversight.yaml"
+    },
+    {
+      "name": "TransactionAuthorization.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TransactionAuthorization.yaml",
+      "sha": "6c589ac921197d9f83f2e053199a597523b6c6c9",
+      "size": 58451,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TransactionAuthorization.yaml"
+    },
+    {
+      "name": "TransactionEngine.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TransactionEngine.yaml",
+      "sha": "6849b896bcac3d13d6a959db55c839b5b38b3025",
+      "size": 126239,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TransactionEngine.yaml"
+    },
+    {
+      "name": "TrustServices.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/TrustServices.yaml",
+      "sha": "a9682930a2c30a7c1e26f6e8c8f993bbc4b4833b",
+      "size": 168180,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/TrustServices.yaml"
+    },
+    {
+      "name": "Underwriting.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Underwriting.yaml",
+      "sha": "6f2aaf558e2b8b50bc13762ffc2e209784a5bb15",
+      "size": 83660,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Underwriting.yaml"
+    },
+    {
+      "name": "UnitTrustAdministration.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/UnitTrustAdministration.yaml",
+      "sha": "4b51f835dc83abb60f2bec39dae3a2687e8557eb",
+      "size": 108221,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/UnitTrustAdministration.yaml"
+    },
+    {
+      "name": "VirtualAccount.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/VirtualAccount.yaml",
+      "sha": "0474a1809e65e9295d228d8f0727cc0bfa519ffe",
+      "size": 287515,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/VirtualAccount.yaml"
+    },
+    {
+      "name": "eBranchManagement.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/eBranchManagement.yaml",
+      "sha": "9e65da2a9b289a578c3f645dce653f9f0b98c301",
+      "size": 42730,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/eBranchManagement.yaml"
+    },
+    {
+      "name": "eBranchOperations.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/eBranchOperations.yaml",
+      "sha": "d4562edc10145de0665c9f4ee17efb95175524f2",
+      "size": 53680,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/eBranchOperations.yaml"
+    },
+    {
+      "name": "eTradingWorkbench.yaml",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/eTradingWorkbench.yaml",
+      "sha": "10b89d9a9f4eb6b086f461de2420d9600ce39b18",
+      "size": 65793,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/eTradingWorkbench.yaml"
+    },
+    {
+      "name": "Readme.md",
+      "path": "release14.0.0/semantic-apis/oas3 /yamls/Readme.md",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://raw.githubusercontent.com/bian-official/public/b58bf4c2c300dd018afc084e9bb24b7adaaa3500/release14.0.0/semantic-apis/oas3%20/yamls/Readme.md"
+    }
+  ],
+  "failures": []
+}

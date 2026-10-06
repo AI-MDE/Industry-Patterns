@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Observation
 
+## Canonical origin
+
+This selected specification derives from [Observation](../../../../../model/requirements/health-care/clinical-note/observation.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A measured, asserted, or observed fact about a Patient or specimen.
@@ -35,3 +39,4 @@ registered; preliminary; final; amended; corrected; cancelled; entered-in-error
 
 - [observation-requires-subject-time-source](../rules/observation-requires-subject-time-source.md)
 - [finalized-records-preserve-history](../rules/finalized-records-preserve-history.md)
+

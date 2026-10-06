@@ -28,18 +28,18 @@ An ABE groups a cohesive set of related entities around one primary business con
 
 - An ABE is first-class in the modeling language.
 - An ABE belongs under a Capability in the requirements structure.
-- An ABE is represented by its named folder; no additional `abes/` folder is required.
-- An ABE has one Primary Entity.
-- The ABE is named after its Primary Entity.
+- An ABE is its named folder plus its Primary Entity's spec. It has no file of its own, and no additional `abes/` folder is required.
+- An ABE has one Primary Entity, and is named after it.
+- The Primary Entity's spec also holds what belongs to the ABE as a whole: its purpose, the rules that span its entities, and its levels of detail (see section 11).
 - An ABE may contain multiple levels of detail.
 - The selected application model may use only the amount of detail required from the ABE.
 - A separate Profile concept is not required.
 
-## 2. Add Primary Entity as an Entity specialization
+If ABEs later need much knowledge of their own, the folder may gain a small `README.md` declaring `type: abe`, with no other change to the structure.
 
-Add **Primary Entity** as a specialized Entity concept type.
+## 2. Primary Entity: the entity named after its ABE
 
-The Primary Entity anchors the ABE.
+The **Primary Entity** anchors the ABE. It is an ordinary Entity: no new concept type and no new syntax.
 
 ```text
 ABE: Resource
@@ -57,15 +57,33 @@ Supporting Entities:
 ### Rules
 
 - Every ABE has exactly one Primary Entity.
-- The Primary Entity is still an Entity semantically.
+- The Primary Entity is the entity whose spec file is named after its ABE's folder (`resource/resource.md`). It is recognized by that rule alone.
+- Its spec is `type: entity`, like every other entity, so everything that reads entities reads it unchanged.
 - The Primary Entity is the natural entry point for the ABE.
-- The Workbench should give Primary Entity its own icon.
 - Supporting entities remain normal Entity concepts.
 
-A possible representation is:
+Example of a Primary Entity's spec, carrying the ABE-level content:
 
-```yaml
-type: primary-entity
+```markdown
+---
+type: entity
+title: Resource
+---
+
+# Resource
+
+## Purpose
+A person or piece of equipment that can be scheduled.
+
+## Attributes …
+## Operations …
+
+## Rules
+- A resource with a confirmed assignment cannot be retired.
+
+## Levels
+- Standard: Qualification
+- Enterprise: Resource Type, Resource Status
 ```
 
 ## 3. Keep the requirements tree simple
@@ -100,7 +118,7 @@ ABE folder
   is named for its Primary Entity
 
 Primary Entity
-  appears as the main entity in the ABE
+  the spec named after the folder; also the ABE's spec
 
 Other files
   are supporting Entities
@@ -120,15 +138,13 @@ The Workbench will make the semantic types visually clear through icons.
 
 ## 4. Add Workbench icons for semantic node types
 
-The Workbench tree should display a distinct icon for every semantic node type.
-
-At minimum:
+The Workbench tree should display a distinct icon for every semantic node type, derived from the structure:
 
 ```text
-Capability
-ABE
-Primary Entity
-Entity
+Capability       a folder under capabilities/
+ABE              a folder under a capability
+Primary Entity   the entity spec named after its ABE's folder
+Entity           any other entity spec
 ```
 
 The filesystem remains minimal while the Workbench exposes the semantic meaning of each node.
@@ -141,7 +157,7 @@ Relationships should no longer be represented only by a target and prose cardina
 
 A relationship should carry explicit business semantics.
 
-### Proposed relationship properties
+### Relationship properties
 
 ```text
 Relationship
@@ -150,7 +166,6 @@ Relationship
   Role
   Cardinality
   Kind
-  Lifecycle
   Cascade
   Description
 ```
@@ -186,46 +201,37 @@ Examples:
 
 Keep the vocabulary small.
 
-Initial kinds:
-
 ```text
 association
 composition
 reference
-specialization
 ```
 
-### Lifecycle
+The Kind also states the target's lifecycle, so no separate Lifecycle property is needed:
 
-State whether the target has an independent lifecycle.
+- **composition**: the target belongs to the source and has no life of its own (dependent).
+- **reference** and **association**: the target has its own lifecycle (independent).
 
-Initial values:
-
-```text
-independent
-dependent
-```
+Specialization is not a relationship Kind; it is expressed on the Entity (section 6).
 
 ### Cascade
 
-Cascade rules describe **business lifecycle propagation**, not database foreign-key behavior.
+Cascade rules describe **business propagation of a change**, not database foreign-key behavior. They are relationship behavior, separate from the `hierarchy` aspect.
 
-Initial cascade behaviors:
+Cascade applies to two actions:
+
+```text
+update
+delete
+```
+
+Behaviors:
 
 ```text
 cascade
 restrict
 detach
 none
-```
-
-Cascade may apply to lifecycle actions such as:
-
-```text
-create
-update
-delete
-archive
 ```
 
 Example:
@@ -236,11 +242,9 @@ Resource → Availability
 Role: has availability
 Cardinality: 0..*
 Kind: composition
-Lifecycle: dependent
 
 Cascade:
   delete: cascade
-  archive: cascade
 ```
 
 Example of an independent reference:
@@ -251,11 +255,9 @@ Resource → Location
 Role: located at
 Cardinality: 0..1
 Kind: reference
-Lifecycle: independent
 
 Cascade:
   delete: restrict
-  archive: none
 ```
 
 ## 6. Strengthen Entity specialization semantics
@@ -286,42 +288,13 @@ extends: Resource
 
 Exact DSL syntax can be decided during implementation.
 
-## 7. Add Module as an Architecture concept
+## 7. Module: not adopted for now
 
-Add **Module** to the architecture meta-model.
+A Module, as an implementation and ownership unit, is not added to the Architecture meta-model for now. The Architecture's existing capability slices remain the ownership boundary.
 
-A Module is a bounded implementation and ownership unit.
+## 8. Logical Interface (open)
 
-```text
-Module
-  owns Entity[]
-  provides Interface[]
-  requires Interface[]
-```
-
-A Module is not the same as:
-
-- Capability — business ability;
-- ABE — semantic grouping.
-
-The distinction is:
-
-```text
-Capability
-  explains what is needed
-
-ABE
-  organizes the business meaning
-
-Module
-  explains who owns and realizes it
-```
-
-## 8. Add logical Interface as an Architecture concept
-
-Add **Interface** as a logical architecture contract.
-
-An Interface sits above technical API realization.
+An **Interface** as a logical contract, above its technical realization, remains under discussion now that Module is not adopted.
 
 ```text
 Interface
@@ -331,25 +304,11 @@ Interface
   Contracts[]
 ```
 
-Modules should depend on Interfaces rather than another Module's internal entities.
-
-```text
-Module A
-  requires
-    ↓
-Interface
-    ↑
-  provides
-Module B
-```
-
-An external Integration may also provide the same Interface.
+It could stand between capabilities, or between the application and an external Integration that provides the same Interface. Whether to adopt it, and whether to add an Event Contract with it, is still to be decided.
 
 ## 9. Relate Interface to existing design concepts
 
-Do not replace API Contract or Integration.
-
-Instead:
+If Interface is adopted, it does not replace API Contract or Integration:
 
 ```text
 Interface
@@ -380,19 +339,19 @@ ABEs should have one primary home, while other capabilities may reference or use
 
 Do not introduce a separate Capability Profile or ABE Profile concept.
 
-An ABE itself may contain increasing levels of semantic detail.
+An ABE itself may contain increasing levels of semantic detail, recorded in its Primary Entity's `## Levels`. The levels use the Industry Patterns variants: **Simple**, **Standard**, and **Enterprise**.
 
 Example:
 
 ```text
 ABE: Inventory
 
-Core
+Simple
   Item
   Location
   Quantity
 
-Additional detail
+Standard / Enterprise
   Inventory Unit
   Movement
   Reservation
@@ -428,7 +387,6 @@ Patterns may identify:
 - Entities;
 - Relationships;
 - Rules;
-- Modules;
 - Interfaces.
 
 Strategy can recognize and apply patterns without requiring Pattern to become another application modeling layer.
@@ -444,7 +402,6 @@ The purpose is to identify:
 - missing concepts;
 - richer relationship semantics;
 - reusable ABE structures;
-- module boundaries;
 - interface patterns;
 - useful specialization structures.
 
@@ -457,9 +414,8 @@ External models should inform MDE but should not automatically modify it.
 ```text
 Domain
 Capability
-ABE
-Primary Entity
-Entity
+ABE              (folder + Primary Entity)
+Entity           (the Primary Entity is one)
 Use Case
 Workflow
 Business Rule
@@ -472,8 +428,7 @@ Glossary
 
 ```text
 Architecture
-Module
-Interface
+Interface        (open)
 ```
 
 ### Design
@@ -487,17 +442,22 @@ Data Model
 
 ## Summary of planned changes
 
-1. Add ABE.
-2. Add Primary Entity as an Entity specialization.
+1. Add ABE: a folder under its Capability, plus its Primary Entity's spec.
+2. Primary Entity: the entity spec named after its ABE's folder; an ordinary `type: entity`, no new type.
 3. Keep ABE represented by its named folder under Capability.
-4. Add distinct Workbench icons for ABE and Primary Entity.
-5. Strengthen relationship semantics.
-6. Add explicit cardinality, relationship kind, lifecycle, and cascade rules.
-7. Strengthen Entity abstraction and specialization.
-8. Add Module to Architecture.
-9. Add logical Interface to Architecture.
-10. Relate Interface to API Contract and Integration.
-11. Let Capability use ABEs.
-12. Let ABE carry variable levels of detail without introducing Profile.
-13. Keep Pattern outside the core application meta-model for now.
-14. Use SID and BIAN as reference sources through the importer/analyzer.
+4. Add distinct Workbench icons for Capability, ABE, and Primary Entity, derived from the structure.
+5. Strengthen relationship semantics: Role, Cardinality, Kind, Cascade, Description.
+6. Kind (association, composition, reference) also states the target's lifecycle; Cascade applies to update and delete.
+7. Strengthen Entity abstraction and specialization (`abstract`, `extends`).
+8. Module: not adopted for now.
+9. Logical Interface: open.
+10. Let Capability use ABEs.
+11. Let ABE carry variable levels of detail (Simple, Standard, Enterprise) without introducing Profile.
+12. Keep Pattern outside the core application meta-model for now.
+13. Use SID and BIAN as reference sources through the importer/analyzer.
+
+## Still to plan
+
+- **Migration.** Moving entities from `requirements/entities/` into capability and ABE folders changes where the runtime reads entities, every link to an entity, and existing applications, which `mde update-app` must move.
+- **Use cases and the capability's own spec** within the new tree: where `use-cases/` and the capability's overview file sit.
+- **Specialization in Design and diagrams:** how a specialization is persisted, and how the logical data model draws it.

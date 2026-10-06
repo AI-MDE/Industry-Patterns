@@ -51,247 +51,231 @@ Rule: Customer, Buyer, Recipient, and Payer may be different Parties or roles.
 
 ### Channel
 
-A customer-facing context through which Offerings are presented or sold.
+Canonical concept: [Channel](../model/requirements/e-commerce/channel/channel.md).
 
-Logical attributes: Channel Identifier; Channel Name; Channel Type; Channel Status; Locale; Default Currency; Effective From; Effective Through.
-
-Examples: website, mobile application, marketplace, call center, social storefront, or physical point of sale.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Catalog
 
-A governed collection of Offerings available for a market, channel, customer segment, or time period.
+Canonical concept: [Catalog](../model/requirements/e-commerce/channel/catalog.md).
 
-Logical attributes: Catalog Identifier; Catalog Name; Catalog Type; Catalog Status; Market; Currency; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Category
 
-A navigational or merchandising classification used within a Catalog.
+Canonical concept: [Category](../model/requirements/e-commerce/channel/category.md).
 
-Logical attributes: Category Identifier; Category Name; Category Code; Category Status; Parent Category reference; Display Sequence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product
 
-The stable definition of a good, digital item, bundle, subscription, or service.
+Canonical concept: [Product](../model/requirements/e-commerce/channel/product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Brand; Description; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Variant
 
-A sellable variation of a Product distinguished by selected characteristics.
+Canonical concept: [Product Variant](../model/requirements/e-commerce/channel/product-variant.md).
 
-Logical attributes: Variant Identifier; SKU; Variant Name; Variant Status; Barcode; Weight; Dimensions; Effective From; Effective Through.
-
-Examples: size, color, capacity, format, license tier, or package size.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offering
 
-A Product or Product Variant made available through a Channel under specified commercial conditions.
+Canonical concept: [Offering](../model/requirements/e-commerce/channel/offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Status; Available From; Available Through; Minimum Quantity; Maximum Quantity; Market; Channel reference.
-
-Rule: Product describes what something is; Offering describes how and where it can be acquired.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price
 
-A monetary amount applicable to an Offering under stated conditions.
+Canonical concept: [Price](../model/requirements/product-and-service/product/price.md).
 
-Logical attributes: Price Identifier; Price Type; Amount; Currency; Unit of Measure; Minimum Quantity; Customer Segment; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Promotion
 
-A governed offer that may create a discount, benefit, free item, shipping adjustment, or other reward when its eligibility conditions are satisfied.
+Canonical concept: [Promotion](../model/requirements/e-commerce/channel/promotion.md).
 
-Logical attributes: Promotion Identifier; Promotion Code; Promotion Name; Promotion Type; Promotion Status; Start Date; End Date; Eligibility Rule reference; Benefit Rule reference; Usage Limit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Shopping concepts
 
 ### Shopping Session
 
-A period of customer interaction that provides context for browsing and shopping.
+Canonical concept: [Shopping Session](../model/requirements/e-commerce/shopping-session/shopping-session.md).
 
-Logical attributes: Session Identifier; Started At; Last Activity At; Channel; Locale; Currency; Customer reference; Anonymous Identifier.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cart
 
-A mutable collection of intended purchases before
+Canonical concept: [Cart](../model/requirements/e-commerce/shopping-session/cart.md).
 
-Logical attributes: Cart Identifier; Cart Status; Created At; Updated At; Currency; Customer reference; Expiration Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cart Line
 
-A requested quantity of an Offering in a Cart.
+Canonical concept: [Cart Line](../model/requirements/e-commerce/shopping-session/cart-line.md).
 
-Logical attributes: Cart Line Identifier; Quantity; Selected Unit Price; Estimated Discount; Estimated Tax; Estimated Total; Added At.
-
-Rule: cart price, availability, tax, and delivery values are estimates until checkout validates them.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Saved List
 
-A named collection of Products or Offerings retained for later consideration.
+Canonical concept: [Saved List](../model/requirements/e-commerce/shopping-session/saved-list.md).
 
-Logical attributes: Saved List Identifier; List Name; List Type; Visibility; Created At; Updated At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Order concepts
 
 ### Order
 
-The Merchant's accepted commercial record of a Customer request.
+Canonical concept: [Order](../model/requirements/e-commerce/order/order.md).
 
-Logical attributes: Order Identifier; Order Number; Order Type; Order Status; Order Date; Currency; Subtotal; Discount Total; Tax Total; Shipping Total; Grand Total; Customer reference; Buyer reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Line
 
-An immutable commercial record of one ordered Offering.
+Canonical concept: [Order Line](../model/requirements/e-commerce/order/order-line.md).
 
-Logical attributes: Order Line Identifier; Line Number; Product Name Snapshot; SKU Snapshot; Quantity Ordered; Unit Price; Discount Amount; Tax Amount; Line Total; Line Status; Requested Fulfillment Method.
-
-Rule: retain product, description, price, tax, and promotion snapshots needed to explain the accepted Order even when the current Catalog later changes.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Adjustment
 
-A discount, surcharge, credit, fee, tax, or manual correction applied to an Order or Order Line.
+Canonical concept: [Order Adjustment](../model/requirements/e-commerce/order/order-adjustment.md).
 
-Logical attributes: Adjustment Identifier; Adjustment Type; Description; Amount; Tax Included Indicator; Source reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Address
 
-An immutable address snapshot used for billing, shipping, pickup, or service delivery.
+Canonical concept: [Order Address](../model/requirements/e-commerce/order/order-address.md).
 
-Logical attributes: Order Address Identifier; Address Purpose; Recipient Name; Address Lines; City; Region; Postal Code; Country; Phone Number.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Inventory and availability
 
 ### Inventory Item
 
-Stock or capacity for a Product Variant at a fulfillment location.
+Canonical concept: [Inventory Item](../model/requirements/e-commerce/inventory-item/inventory-item.md).
 
-Logical attributes: Inventory Item Identifier; SKU; Location reference; Inventory Status; Quantity On Hand; Quantity Reserved; Quantity Available; Reorder Level; Updated At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inventory Reservation
 
-A time-bounded hold of inventory for a Cart, Order Line, or Fulfillment Order.
+Canonical concept: [Inventory Reservation](../model/requirements/e-commerce/inventory-item/inventory-reservation.md).
 
-Logical attributes: Reservation Identifier; Reserved Quantity; Reservation Status; Reserved At; Expires At; Released At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability Promise
 
-A calculated promise that a quantity can be delivered or made available by a stated date.
+Canonical concept: [Availability Promise](../model/requirements/e-commerce/inventory-item/availability-promise.md).
 
-Logical attributes: Promise Identifier; Promised Quantity; Promise Date; Fulfillment Method; Promise Status; Calculated At.
-
-Rule: distinguish physical on-hand quantity from available-to-promise quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Payment concepts
 
 ### Payment Method
 
-A tokenized or referenced means by which a Customer intends to pay.
+Canonical concept: [Payment Method](../model/requirements/e-commerce/payment-method/payment-method.md).
 
-Logical attributes: Payment Method Identifier; Method Type; Provider; Masked Display; Token Reference; Expiration; Method Status.
-
-Never store raw payment-card credentials in the domain model.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Authorization
 
-Approval by a Payment Provider to reserve spending capacity.
+Canonical concept: [Payment Authorization](../model/requirements/e-commerce/payment-method/payment-authorization.md).
 
-Logical attributes: Authorization Identifier; Provider Reference; Requested Amount; Authorized Amount; Currency; Authorization Status; Authorized At; Expires At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-A captured or received transfer of value.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Provider Reference; Payment Date; Amount; Currency; Payment Method Type; Payment Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Application of a Payment to an Order, Invoice, or Charge.
+Canonical concept: [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md).
 
-Logical attributes: Allocation Identifier; Allocated Amount; Allocation Date; Allocation Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Refund
 
-A transfer of value back to a Customer or Payer.
+Canonical concept: [Refund](../model/requirements/e-commerce/payment-method/refund.md).
 
-Logical attributes: Refund Identifier; Refund Reference; Refund Amount; Currency; Refund Reason; Refund Status; Requested At; Completed At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Fulfillment concepts
 
 ### Fulfillment Order
 
-Instructions to a fulfillment location or provider to satisfy one or more Order Lines.
+Canonical concept: [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/fulfillment-order.md).
 
-Logical attributes: Fulfillment Order Identifier; Fulfillment Type; Fulfillment Status; Source Location; Planned Date; Released At; Completed At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment Line
 
-The quantity of an Order Line assigned to a Fulfillment Order.
+Canonical concept: [Fulfillment Line](../model/requirements/e-commerce/fulfillment-order/fulfillment-line.md).
 
-Logical attributes: Fulfillment Line Identifier; Quantity Assigned; Quantity Fulfilled; Fulfillment Line Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Shipment
 
-A physical dispatch from a fulfillment location to a destination.
+Canonical concept: [Shipment](../model/requirements/e-commerce/fulfillment-order/shipment.md).
 
-Logical attributes: Shipment Identifier; Shipment Number; Shipment Status; Ship Date; Carrier; Service Level; Tracking Number; Estimated Delivery Date; Actual Delivery Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Shipment Item
 
-The quantity of a Fulfillment Line placed in a Shipment.
+Canonical concept: [Shipment Item](../model/requirements/e-commerce/fulfillment-order/shipment-item.md).
 
-Logical attributes: Shipment Item Identifier; Quantity Shipped; Package reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Package
 
-A physical container within a Shipment.
+Canonical concept: [Package](../model/requirements/e-commerce/fulfillment-order/package.md).
 
-Logical attributes: Package Identifier; Package Type; Weight; Dimensions; Tracking Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Delivery
 
-Evidence that fulfillment reached its destination or recipient.
+Canonical concept: [Delivery](../model/requirements/e-commerce/fulfillment-order/delivery.md).
 
-Logical attributes: Delivery Identifier; Delivery Status; Delivered At; Recipient Name; Evidence Reference; Exception Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Digital Entitlement
 
-A right to access or use a digital Product or Service.
+Canonical concept: [Digital Entitlement](../model/requirements/e-commerce/fulfillment-order/digital-entitlement.md).
 
-Logical attributes: Entitlement Identifier; Entitlement Type; Entitlement Status; Granted At; Effective From; Effective Through; Quantity or Limit; Access Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Cancellation, return, and after-sale concepts
 
 ### Cancellation
 
-An accepted request to stop an unfulfilled or partially fulfilled Order or Order Line.
+Canonical concept: [Cancellation](../model/requirements/e-commerce/cancellation/cancellation.md).
 
-Logical attributes: Cancellation Identifier; Cancellation Reason; Cancellation Status; Requested At; Accepted At; Cancelled Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return
 
-Authorization and tracking for goods or value being returned after fulfillment.
+Canonical concept: [Return](../model/requirements/e-commerce/cancellation/return.md).
 
-Logical attributes: Return Identifier; Return Number; Return Status; Requested At; Authorized At; Received At; Return Method; Return Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return Line
 
-A quantity from an Order Line included in a Return.
+Canonical concept: [Return Line](../model/requirements/e-commerce/cancellation/return-line.md).
 
-Logical attributes: Return Line Identifier; Requested Quantity; Authorized Quantity; Received Quantity; Disposition; Condition.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Disposition
 
-Decision about a returned item.
+Canonical concept: [Disposition](../model/requirements/e-commerce/cancellation/disposition.md).
 
-Logical attributes: Disposition Identifier; Disposition Type; Decision Date; Restock Quantity; Write-off Amount; Notes.
-
-Examples: restock, refurbish, quarantine, return to supplier, destroy, or reject.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Customer Case
 
-A service inquiry, complaint, delivery problem, dispute, or exception related to commerce activity.
+Canonical concept: [Customer Case](../model/requirements/e-commerce/cancellation/customer-case.md).
 
-Logical attributes: Case Identifier; Case Type; Case Status; Priority; Opened At; Closed At; Resolution; Customer reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Standard relationship model
 
@@ -506,3 +490,46 @@ Logical names remain authoritative; stack rules generate physical naming after l
 ## Future behavioral expansion
 
 This file is now an actual logical industry pattern. A later behavioral layer should define capabilities and actor-goal use cases such as Browse Catalog, Maintain Cart, Checkout, Place Order, Authorize Payment, Fulfill Order, Track Delivery, Cancel Order, Return Item, and Issue Refund, along with rules, pages, and test scenarios.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Channel | [Channel](../model/requirements/e-commerce/channel/channel.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Catalog | [Catalog](../model/requirements/e-commerce/channel/catalog.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Category | [Category](../model/requirements/e-commerce/channel/category.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Product | [Product](../model/requirements/e-commerce/channel/product.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Product Variant | [Product Variant](../model/requirements/e-commerce/channel/product-variant.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Offering | [Offering](../model/requirements/e-commerce/channel/offering.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Price | [Price](../model/requirements/product-and-service/product/price.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Promotion | [Promotion](../model/requirements/e-commerce/channel/promotion.md) | [Channel](../model/requirements/e-commerce/channel/README.md) |
+| Shopping Session | [Shopping Session](../model/requirements/e-commerce/shopping-session/shopping-session.md) | [Shopping Session](../model/requirements/e-commerce/shopping-session/README.md) |
+| Cart | [Cart](../model/requirements/e-commerce/shopping-session/cart.md) | [Shopping Session](../model/requirements/e-commerce/shopping-session/README.md) |
+| Cart Line | [Cart Line](../model/requirements/e-commerce/shopping-session/cart-line.md) | [Shopping Session](../model/requirements/e-commerce/shopping-session/README.md) |
+| Saved List | [Saved List](../model/requirements/e-commerce/shopping-session/saved-list.md) | [Shopping Session](../model/requirements/e-commerce/shopping-session/README.md) |
+| Order | [Order](../model/requirements/e-commerce/order/order.md) | [Order](../model/requirements/e-commerce/order/README.md) |
+| Order Line | [Order Line](../model/requirements/e-commerce/order/order-line.md) | [Order](../model/requirements/e-commerce/order/README.md) |
+| Order Adjustment | [Order Adjustment](../model/requirements/e-commerce/order/order-adjustment.md) | [Order](../model/requirements/e-commerce/order/README.md) |
+| Order Address | [Order Address](../model/requirements/e-commerce/order/order-address.md) | [Order](../model/requirements/e-commerce/order/README.md) |
+| Inventory Item | [Inventory Item](../model/requirements/e-commerce/inventory-item/inventory-item.md) | [Inventory Item](../model/requirements/e-commerce/inventory-item/README.md) |
+| Inventory Reservation | [Inventory Reservation](../model/requirements/e-commerce/inventory-item/inventory-reservation.md) | [Inventory Item](../model/requirements/e-commerce/inventory-item/README.md) |
+| Availability Promise | [Availability Promise](../model/requirements/e-commerce/inventory-item/availability-promise.md) | [Inventory Item](../model/requirements/e-commerce/inventory-item/README.md) |
+| Payment Method | [Payment Method](../model/requirements/e-commerce/payment-method/payment-method.md) | [Payment Method](../model/requirements/e-commerce/payment-method/README.md) |
+| Payment Authorization | [Payment Authorization](../model/requirements/e-commerce/payment-method/payment-authorization.md) | [Payment Method](../model/requirements/e-commerce/payment-method/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Refund | [Refund](../model/requirements/e-commerce/payment-method/refund.md) | [Payment Method](../model/requirements/e-commerce/payment-method/README.md) |
+| Fulfillment Order | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/fulfillment-order.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Fulfillment Line | [Fulfillment Line](../model/requirements/e-commerce/fulfillment-order/fulfillment-line.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Shipment | [Shipment](../model/requirements/e-commerce/fulfillment-order/shipment.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Shipment Item | [Shipment Item](../model/requirements/e-commerce/fulfillment-order/shipment-item.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Package | [Package](../model/requirements/e-commerce/fulfillment-order/package.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Delivery | [Delivery](../model/requirements/e-commerce/fulfillment-order/delivery.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Digital Entitlement | [Digital Entitlement](../model/requirements/e-commerce/fulfillment-order/digital-entitlement.md) | [Fulfillment Order](../model/requirements/e-commerce/fulfillment-order/README.md) |
+| Cancellation | [Cancellation](../model/requirements/e-commerce/cancellation/cancellation.md) | [Cancellation](../model/requirements/e-commerce/cancellation/README.md) |
+| Return | [Return](../model/requirements/e-commerce/cancellation/return.md) | [Cancellation](../model/requirements/e-commerce/cancellation/README.md) |
+| Return Line | [Return Line](../model/requirements/e-commerce/cancellation/return-line.md) | [Cancellation](../model/requirements/e-commerce/cancellation/README.md) |
+| Disposition | [Disposition](../model/requirements/e-commerce/cancellation/disposition.md) | [Cancellation](../model/requirements/e-commerce/cancellation/README.md) |
+| Customer Case | [Customer Case](../model/requirements/e-commerce/cancellation/customer-case.md) | [Cancellation](../model/requirements/e-commerce/cancellation/README.md) |

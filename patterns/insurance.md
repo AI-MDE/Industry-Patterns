@@ -55,297 +55,289 @@ Rule: Party identity is independent of role. One Party may perform several roles
 
 ### Insurance Product
 
-A governed definition of insurance protection offered for a line of business and market.
+Canonical concept: [Insurance Product](../model/requirements/insurance/insurance-product/insurance-product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Line of Business; Product Status; Jurisdiction; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-A versioned set of product terms, available Coverages, rules, forms, rating behavior, and underwriting requirements.
+Canonical concept: [Product Version](../model/requirements/insurance/insurance-product/product-version.md).
 
-Logical attributes: Product Version Identifier; Version; Status; Effective From; Effective Through; Approval Reference; Superseded By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insurance Offering
 
-A Product Version made available through a Channel, Producer, market, or customer segment under stated eligibility and commercial conditions.
+Canonical concept: [Insurance Offering](../model/requirements/insurance/insurance-product/insurance-offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel; Market; Customer Segment; Available From; Available Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage Definition
 
-A reusable product-level definition of a type of protection.
+Canonical concept: [Coverage Definition](../model/requirements/insurance/insurance-product/coverage-definition.md).
 
-Logical attributes: Coverage Definition Identifier; Coverage Code; Coverage Name; Coverage Type; Required Indicator; Default Limit; Default Deductible; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Form
 
-A governed contractual document, clause, schedule, notice, or disclosure used by a Product Version.
+Canonical concept: [Policy Form](../model/requirements/insurance/insurance-product/policy-form.md).
 
-Logical attributes: Form Identifier; Form Number; Form Title; Form Type; Form Version; Jurisdiction; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Plan
 
-A governed method for determining premium.
+Canonical concept: [Rating Plan](../model/requirements/insurance/insurance-product/rating-plan.md).
 
-Logical attributes: Rating Plan Identifier; Plan Name; Version; Status; Currency; Effective From; Effective Through; Calculation Rule Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Factor
 
-A risk or commercial input used by a Rating Plan.
+Canonical concept: [Rating Factor](../model/requirements/insurance/insurance-product/rating-factor.md).
 
-Logical attributes: Rating Factor Identifier; Factor Name; Factor Type; Value Type; Source; Applicability Condition.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Quote, application, and underwriting
 
 ### Quote
 
-A time-bounded proposed combination of Coverages, terms, premium, conditions, and assumptions.
+Canonical concept: [Quote](../model/requirements/insurance/quote/quote.md).
 
-Logical attributes: Quote Identifier; Quote Number; Quote Status; Requested Date; Quoted Date; Expiration Date; Currency; Total Premium; Producer; Product Version.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote Option
 
-One alternative configuration within a Quote.
+Canonical concept: [Quote Option](../model/requirements/insurance/quote/quote-option.md).
 
-Logical attributes: Quote Option Identifier; Option Name; Option Status; Premium; Fees; Taxes; Effective Date; Expiration Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insurance Application
 
-A formal request for insurance containing applicant declarations and risk information.
+Canonical concept: [Insurance Application](../model/requirements/insurance/quote/insurance-application.md).
 
-Logical attributes: Application Identifier; Application Number; Application Type; Application Status; Submitted Date; Requested Effective Date; Applicant; Product Version; Source Channel.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Application Answer
 
-A recorded response to an underwriting question or required declaration.
+Canonical concept: [Application Answer](../model/requirements/insurance/quote/application-answer.md).
 
-Logical attributes: Answer Identifier; Question Code; Answer Value; Answer Date; Answered By; Source; Verification Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Risk Item
 
-A Party, property, vehicle, activity, liability, person, contract, location, or other subject being evaluated for insurance.
+Canonical concept: [Risk Item](../model/requirements/insurance/quote/risk-item.md).
 
-Logical attributes: Risk Item Identifier; Risk Type; Description; Location; Valuation; Classification; Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Case
 
-A managed evaluation of an Application, Quote, Policy change, or renewal risk.
+Canonical concept: [Underwriting Case](../model/requirements/insurance/quote/underwriting-case.md).
 
-Logical attributes: Underwriting Case Identifier; Case Type; Case Status; Opened Date; Priority; Assigned Underwriter; Decision Due Date; Product Version.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Requirement
 
-Information, inspection, evidence, approval, or action required before a decision.
+Canonical concept: [Underwriting Requirement](../model/requirements/insurance/quote/underwriting-requirement.md).
 
-Logical attributes: Requirement Identifier; Requirement Type; Requirement Status; Requested Date; Due Date; Received Date; Source; Waiver Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Decision
 
-An explainable decision to accept, decline, refer, postpone, cancel, non-renew, or offer modified terms.
+Canonical concept: [Underwriting Decision](../model/requirements/insurance/quote/underwriting-decision.md).
 
-Logical attributes: Decision Identifier; Decision Type; Decision Status; Decision Date; Decided By; Reason Code; Rationale; Authority Reference; Expiration Date.
-
-Rule: preserve the facts, rules, authority, and rationale supporting an underwriting decision.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Policy and coverage concepts
 
 ### Policy
 
-The insurance Agreement issued by an Insurer for a defined period.
+Canonical concept: [Policy](../model/requirements/insurance/policy/policy.md).
 
-Logical attributes: Policy Identifier; Policy Number; Policy Type; Policy Status; Issue Date; Effective Date; Expiration Date; Cancellation Date; Currency; Product Version; Insurer.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Period
 
-A bounded period during which a Policy's terms apply.
+Canonical concept: [Policy Period](../model/requirements/insurance/policy/policy-period.md).
 
-Logical attributes: Policy Period Identifier; Period Number; Start Date; End Date; Period Status; Transaction Effective Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Party
 
-A Party participating in a Policy in a stated role.
+Canonical concept: [Policy Party](../model/requirements/insurance/policy/policy-party.md).
 
-Logical attributes: Policy Party Identifier; Role Type; Role Status; Effective From; Effective Through; Interest Percentage.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage
 
-A Policy-level grant of protection derived from a Coverage Definition.
+Canonical concept: [Coverage](../model/requirements/insurance/policy/coverage.md).
 
-Logical attributes: Coverage Identifier; Coverage Code; Coverage Status; Effective From; Effective Through; Limit Amount; Deductible Amount; Coinsurance Percentage; Premium.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage Term
 
-A structured condition, limit, sublimit, waiting period, attachment point, territory, or other parameter of Coverage.
+Canonical concept: [Coverage Term](../model/requirements/insurance/policy/coverage-term.md).
 
-Logical attributes: Coverage Term Identifier; Term Type; Term Value; Unit; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exclusion
 
-A condition under which otherwise relevant loss or liability is not covered.
+Canonical concept: [Exclusion](../model/requirements/insurance/policy/exclusion.md).
 
-Logical attributes: Exclusion Identifier; Exclusion Code; Description; Effective From; Effective Through; Form Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insured Object
 
-A Policy-level representation of a Party, property, vehicle, person, activity, or other subject protected or scheduled by the Policy.
+Canonical concept: [Insured Object](../model/requirements/insurance/policy/insured-object.md).
 
-Logical attributes: Insured Object Identifier; Object Type; Description; External Identifier; Valuation; Location; Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Transaction
 
-A versioned business transaction changing the Policy or its financial effect.
+Canonical concept: [Policy Transaction](../model/requirements/insurance/policy/policy-transaction.md).
 
-Logical attributes: Policy Transaction Identifier; Transaction Type; Transaction Status; Requested Date; Effective Date; Processed Date; Reason; Prior Policy Version; Resulting Policy Version.
-
-Types include issue, bind, endorsement, renewal, cancellation, reinstatement, rewrite, and non-renewal.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Endorsement
 
-A Policy Transaction or contractual form that adds, removes, or modifies Policy terms.
+Canonical concept: [Endorsement](../model/requirements/insurance/policy/endorsement.md).
 
-Logical attributes: Endorsement Identifier; Endorsement Type; Status; Requested Date; Effective Date; Description; Premium Change; Form Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Premium, billing, and commission
 
 ### Premium
 
-The amount charged for assuming insurance risk for a Coverage, Policy Period, or transaction.
+Canonical concept: [Premium](../model/requirements/insurance/premium/premium.md).
 
-Logical attributes: Premium Identifier; Premium Type; Amount; Currency; Effective From; Effective Through; Rating Plan; Calculation Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Premium Transaction
 
-A financial change resulting from issue, endorsement, audit, cancellation, reinstatement, or renewal.
+Canonical concept: [Premium Transaction](../model/requirements/insurance/premium/premium-transaction.md).
 
-Logical attributes: Premium Transaction Identifier; Transaction Type; Amount; Tax Amount; Fee Amount; Effective Date; Posting Date; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Billing Account
 
-A financial account grouping Policy charges, invoices, payments, credits, and balances.
+Canonical concept: [Billing Account](../model/requirements/insurance/premium/billing-account.md).
 
-Logical attributes: Billing Account Identifier; Account Number; Account Status; Billing Method; Billing Frequency; Currency; Responsible Party.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-A request for payment of premium, tax, fees, or adjustments.
+Canonical concept: [Invoice](../model/requirements/finance/invoice/invoice.md).
 
-Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; Invoice Status; Total Amount; Currency.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Money received and allocated to one or more insurance obligations.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Amount; Currency; Method; Payment Status; Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commission
 
-Compensation payable to a Producer or distribution Party.
+Canonical concept: [Commission](../model/requirements/insurance/premium/commission.md).
 
-Logical attributes: Commission Identifier; Commission Type; Basis Amount; Rate; Commission Amount; Status; Earned Date; Payable Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Loss and claim concepts
 
 ### Loss Event
 
-An occurrence or circumstance that may give rise to one or more Claims.
+Canonical concept: [Loss Event](../model/requirements/insurance/loss-event/loss-event.md).
 
-Logical attributes: Loss Event Identifier; Event Type; Occurred Start; Occurred End; Reported Date; Location; Description; Catastrophe Reference; Event Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-A request or case seeking Policy benefits, defense, indemnity, service, or another contractual response to a Loss Event.
+Canonical concept: [Claim](../model/requirements/insurance/loss-event/claim.md).
 
-Logical attributes: Claim Identifier; Claim Number; Claim Type; Claim Status; Reported Date; Loss Date; Opened Date; Closed Date; Policy; Reporting Party; Assigned Adjuster.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Party
 
-A Party participating in the Claim in a stated role.
+Canonical concept: [Claim Party](../model/requirements/insurance/loss-event/claim-party.md).
 
-Logical attributes: Claim Party Identifier; Role Type; Role Status; Effective From; Effective Through; Representation Reference.
-
-Roles include claimant, insured, injured party, witness, service provider, attorney, adjuster, investigator, and recovery target.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Exposure
 
-A separately evaluated component of potential Claim obligation.
+Canonical concept: [Claim Exposure](../model/requirements/insurance/loss-event/claim-exposure.md).
 
-Logical attributes: Exposure Identifier; Exposure Type; Exposure Status; Coverage; Claimant; Limit; Deductible; Opened Date; Closed Date.
-
-Examples: property damage, bodily injury, defense expense, medical benefit, income loss, or death benefit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Assignment
 
-Allocation of responsibility for a Claim, Exposure, investigation, or task.
+Canonical concept: [Claim Assignment](../model/requirements/insurance/loss-event/claim-assignment.md).
 
-Logical attributes: Assignment Identifier; Assignment Type; Assigned Role or Party; Assignment Status; Assigned Date; Due Date; Authority Limit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Assessment
 
-An evidence-based evaluation of coverage, causation, liability, damage, benefit eligibility, or amount.
+Canonical concept: [Claim Assessment](../model/requirements/insurance/loss-event/claim-assessment.md).
 
-Logical attributes: Assessment Identifier; Assessment Type; Assessment Status; Assessed Date; Assessor; Finding; Amount; Rationale; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Evidence Item
 
-A document, image, statement, report, estimate, invoice, record, or other information used in claim evaluation.
+Canonical concept: [Evidence Item](../model/requirements/insurance/loss-event/evidence-item.md).
 
-Logical attributes: Evidence Identifier; Evidence Type; Evidence Status; Received Date; Source; Description; Integrity Hash; Confidentiality Classification.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Note
 
-A versioned narrative record of significant Claim activity or reasoning.
+Canonical concept: [Claim Note](../model/requirements/insurance/loss-event/claim-note.md).
 
-Logical attributes: Claim Note Identifier; Note Type; Note Status; Authored At; Author; Text; Supersedes Note Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reserve
 
-An estimate of expected future Claim cost for an Exposure or expense category.
+Canonical concept: [Reserve](../model/requirements/insurance/loss-event/reserve.md).
 
-Logical attributes: Reserve Identifier; Reserve Type; Reserve Status; Amount; Currency; Effective Date; Established By; Reason; Prior Reserve Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Settlement
 
-An approved resolution of all or part of a Claim or Exposure.
+Canonical concept: [Settlement](../model/requirements/insurance/loss-event/settlement.md).
 
-Logical attributes: Settlement Identifier; Settlement Type; Settlement Status; Offered Date; Accepted Date; Gross Amount; Deductible Amount; Net Amount; Payee; Release Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Payment
 
-A payment made to satisfy an approved benefit, expense, service, or Settlement.
+Canonical concept: [Claim Payment](../model/requirements/insurance/loss-event/claim-payment.md).
 
-Logical attributes: Claim Payment Identifier; Payment Type; Payment Status; Requested Date; Approved Date; Issued Date; Amount; Currency; Payee; Payment Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Recovery
 
-Money or value recovered or expected from salvage, subrogation, contribution, deductible, excess insurer, or another responsible Party.
+Canonical concept: [Recovery](../model/requirements/insurance/loss-event/recovery.md).
 
-Logical attributes: Recovery Identifier; Recovery Type; Recovery Status; Expected Amount; Recovered Amount; Recovery Date; Responsible Party.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Reinsurance concepts
 
 ### Reinsurance Contract
 
-An Agreement under which a Reinsurer accepts defined insurance risk from an Insurer.
+Canonical concept: [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/reinsurance-contract.md).
 
-Logical attributes: Reinsurance Contract Identifier; Contract Number; Contract Type; Status; Effective Date; Expiration Date; Currency; Reinsurer.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reinsurance Coverage
 
-The layer, share, limit, retention, territory, portfolio, or peril protected by a Reinsurance Contract.
+Canonical concept: [Reinsurance Coverage](../model/requirements/insurance/reinsurance-contract/reinsurance-coverage.md).
 
-Logical attributes: Reinsurance Coverage Identifier; Coverage Type; Attachment Point; Limit; Share Percentage; Reinstatement Terms.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cession
 
-The portion of a Policy, Coverage, premium, reserve, or loss allocated to reinsurance.
+Canonical concept: [Cession](../model/requirements/insurance/reinsurance-contract/cession.md).
 
-Logical attributes: Cession Identifier; Cession Type; Ceded Percentage; Ceded Premium; Ceded Reserve; Ceded Loss; Effective Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reinsurance Claim
 
-A request to a Reinsurer for recoverable amounts.
+Canonical concept: [Reinsurance Claim](../model/requirements/insurance/reinsurance-contract/reinsurance-claim.md).
 
-Logical attributes: Reinsurance Claim Identifier; Status; Reported Date; Gross Loss; Retention; Recoverable Amount; Paid Amount.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -587,3 +579,56 @@ Logical names remain authoritative. Technology-stack and line-of-business rules 
 ## Future behavioral expansion
 
 This file is an actual logical industry pattern. A metamodel-conformant Insurance knowledge base should create separate capabilities, entities, roles, rules, use cases, and workflows for Product Management, Quote and Application, Underwriting, Policy Administration, Billing, Claims, Recovery, and Reinsurance. Candidate actor-goal use cases include Configure Product Version, Generate Quote, Submit Application, Make Underwriting Decision, Bind Policy, Issue Endorsement, Renew Policy, Report Loss, Open Claim, Determine Coverage, Assess Claim Exposure, Establish Reserve, Approve Settlement, Issue Claim Payment, Pursue Recovery, and Submit Reinsurance Claim.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Insurance Product | [Insurance Product](../model/requirements/insurance/insurance-product/insurance-product.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Product Version | [Product Version](../model/requirements/insurance/insurance-product/product-version.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Insurance Offering | [Insurance Offering](../model/requirements/insurance/insurance-product/insurance-offering.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Coverage Definition | [Coverage Definition](../model/requirements/insurance/insurance-product/coverage-definition.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Policy Form | [Policy Form](../model/requirements/insurance/insurance-product/policy-form.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Rating Plan | [Rating Plan](../model/requirements/insurance/insurance-product/rating-plan.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Rating Factor | [Rating Factor](../model/requirements/insurance/insurance-product/rating-factor.md) | [Insurance Product](../model/requirements/insurance/insurance-product/README.md) |
+| Quote | [Quote](../model/requirements/insurance/quote/quote.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Quote Option | [Quote Option](../model/requirements/insurance/quote/quote-option.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Insurance Application | [Insurance Application](../model/requirements/insurance/quote/insurance-application.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Application Answer | [Application Answer](../model/requirements/insurance/quote/application-answer.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Risk Item | [Risk Item](../model/requirements/insurance/quote/risk-item.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Underwriting Case | [Underwriting Case](../model/requirements/insurance/quote/underwriting-case.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Underwriting Requirement | [Underwriting Requirement](../model/requirements/insurance/quote/underwriting-requirement.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Underwriting Decision | [Underwriting Decision](../model/requirements/insurance/quote/underwriting-decision.md) | [Quote](../model/requirements/insurance/quote/README.md) |
+| Policy | [Policy](../model/requirements/insurance/policy/policy.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Policy Period | [Policy Period](../model/requirements/insurance/policy/policy-period.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Policy Party | [Policy Party](../model/requirements/insurance/policy/policy-party.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Coverage | [Coverage](../model/requirements/insurance/policy/coverage.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Coverage Term | [Coverage Term](../model/requirements/insurance/policy/coverage-term.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Exclusion | [Exclusion](../model/requirements/insurance/policy/exclusion.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Insured Object | [Insured Object](../model/requirements/insurance/policy/insured-object.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Policy Transaction | [Policy Transaction](../model/requirements/insurance/policy/policy-transaction.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Endorsement | [Endorsement](../model/requirements/insurance/policy/endorsement.md) | [Policy](../model/requirements/insurance/policy/README.md) |
+| Premium | [Premium](../model/requirements/insurance/premium/premium.md) | [Premium](../model/requirements/insurance/premium/README.md) |
+| Premium Transaction | [Premium Transaction](../model/requirements/insurance/premium/premium-transaction.md) | [Premium](../model/requirements/insurance/premium/README.md) |
+| Billing Account | [Billing Account](../model/requirements/insurance/premium/billing-account.md) | [Premium](../model/requirements/insurance/premium/README.md) |
+| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Commission | [Commission](../model/requirements/insurance/premium/commission.md) | [Premium](../model/requirements/insurance/premium/README.md) |
+| Loss Event | [Loss Event](../model/requirements/insurance/loss-event/loss-event.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim | [Claim](../model/requirements/insurance/loss-event/claim.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Party | [Claim Party](../model/requirements/insurance/loss-event/claim-party.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Exposure | [Claim Exposure](../model/requirements/insurance/loss-event/claim-exposure.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Assignment | [Claim Assignment](../model/requirements/insurance/loss-event/claim-assignment.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Assessment | [Claim Assessment](../model/requirements/insurance/loss-event/claim-assessment.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Evidence Item | [Evidence Item](../model/requirements/insurance/loss-event/evidence-item.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Note | [Claim Note](../model/requirements/insurance/loss-event/claim-note.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Reserve | [Reserve](../model/requirements/insurance/loss-event/reserve.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Settlement | [Settlement](../model/requirements/insurance/loss-event/settlement.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Claim Payment | [Claim Payment](../model/requirements/insurance/loss-event/claim-payment.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Recovery | [Recovery](../model/requirements/insurance/loss-event/recovery.md) | [Loss Event](../model/requirements/insurance/loss-event/README.md) |
+| Reinsurance Contract | [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/reinsurance-contract.md) | [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/README.md) |
+| Reinsurance Coverage | [Reinsurance Coverage](../model/requirements/insurance/reinsurance-contract/reinsurance-coverage.md) | [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/README.md) |
+| Cession | [Cession](../model/requirements/insurance/reinsurance-contract/cession.md) | [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/README.md) |
+| Reinsurance Claim | [Reinsurance Claim](../model/requirements/insurance/reinsurance-contract/reinsurance-claim.md) | [Reinsurance Contract](../model/requirements/insurance/reinsurance-contract/README.md) |

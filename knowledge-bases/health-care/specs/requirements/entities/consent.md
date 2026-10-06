@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Consent
 
+## Canonical origin
+
+This selected specification derives from [Consent](../../../../../model/requirements/health-care/consent/consent.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A Patient or representative decision concerning care, disclosure, research, or another specified activity.
@@ -36,3 +40,4 @@ proposed; active; inactive; rejected; revoked; entered-in-error
 
 - [consent-evaluated-by-purpose-scope-and-time](../rules/consent-evaluated-by-purpose-scope-and-time.md)
 - [authorization-does-not-replace-consent](../rules/authorization-does-not-replace-consent.md)
+

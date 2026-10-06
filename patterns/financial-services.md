@@ -58,313 +58,305 @@ Rule: Party identity is independent of role. A Party may hold several roles, and
 
 ### Financial Institution
 
-A legal Party authorized to provide one or more financial services.
+Canonical concept: [Financial Institution](../model/requirements/financial-services/financial-institution/financial-institution.md).
 
-Logical attributes: Institution Identifier; Legal Name; Institution Type; Regulatory Status; Jurisdiction; License Reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Institution Unit
 
-A branch, business unit, booking entity, service center, or operating location.
+Canonical concept: [Institution Unit](../model/requirements/financial-services/financial-institution/institution-unit.md).
 
-Logical attributes: Unit Identifier; Unit Name; Unit Type; Parent Unit; Location; Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Financial Product
 
-A governed definition of a deposit, payment, credit, investment, custody, foreign-exchange, or other financial service.
+Canonical concept: [Financial Product](../model/requirements/financial-services/financial-institution/financial-product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Currency Policy; Customer Segment; Jurisdiction; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-A versioned set of eligibility, terms, rates, fees, limits, disclosures, accounting rules, and servicing behavior.
+Canonical concept: [Product Version](../model/requirements/financial-services/financial-institution/product-version.md).
 
-Logical attributes: Product Version Identifier; Version; Status; Effective From; Effective Through; Approval Reference; Superseded By.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Financial Offering
 
-A Product Version made available through a channel, market, region, or customer segment under stated commercial conditions.
+Canonical concept: [Financial Offering](../model/requirements/financial-services/financial-institution/financial-offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel; Market; Customer Segment; Available From; Available Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Pricing Plan
 
-A governed definition of rates, fees, waivers, tiers, and calculation methods.
+Canonical concept: [Pricing Plan](../model/requirements/financial-services/financial-institution/pricing-plan.md).
 
-Logical attributes: Pricing Plan Identifier; Plan Name; Version; Currency; Status; Effective From; Effective Through; Calculation Rule Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Customer onboarding and due diligence
 
 ### Customer Profile
 
-The institution's governed view of a Party as a Customer.
+Canonical concept: [Customer Profile](../model/requirements/financial-services/customer-profile/customer-profile.md).
 
-Logical attributes: Customer Identifier; Customer Type; Customer Status; Risk Rating; Service Segment; Onboarded Date; Review Due Date; Responsible Unit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Application
 
-A request to establish or change a Financial Agreement or Account.
+Canonical concept: [Product Application](../model/requirements/financial-services/customer-profile/product-application.md).
 
-Logical attributes: Application Identifier; Application Number; Application Type; Application Status; Submitted Date; Requested Product Version; Applicant; Channel; Decision Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Identity Evidence
 
-A sourced document, assertion, or verification result used to establish identity or authority.
+Canonical concept: [Identity Evidence](../model/requirements/financial-services/customer-profile/identity-evidence.md).
 
-Logical attributes: Evidence Identifier; Evidence Type; Issuer; Reference; Issued Date; Expiration Date; Verification Status; Verified Date; Source; Integrity Hash.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Due Diligence Case
 
-A managed evaluation of identity, ownership, purpose, eligibility, sanctions, adverse information, and financial-crime risk.
+Canonical concept: [Due Diligence Case](../model/requirements/financial-services/customer-profile/due-diligence-case.md).
 
-Logical attributes: Case Identifier; Case Type; Case Status; Opened Date; Risk Rating; Assigned Role; Review Due Date; Decision; Decision Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Beneficial Ownership
 
-An effective-dated relationship identifying natural persons who ultimately own or control a legal entity, arrangement, Account, or assets.
+Canonical concept: [Beneficial Ownership](../model/requirements/financial-services/customer-profile/beneficial-ownership.md).
 
-Logical attributes: Ownership Identifier; Ownership Type; Ownership Percentage; Control Basis; Effective From; Effective Through; Verification Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Screening Result
 
-A possible or confirmed match produced by sanctions, politically exposed person, adverse-media, or other screening.
+Canonical concept: [Screening Result](../model/requirements/financial-services/customer-profile/screening-result.md).
 
-Logical attributes: Screening Result Identifier; Screening Type; Result Status; Screened Date; Source List; Match Score; Disposition; Disposition Reason.
-
-Rule: identity evidence and screening results are sourced assertions. Preserve source, time, method, reviewer, disposition, and supporting evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Agreement and account concepts
 
 ### Financial Agreement
 
-A contract governing a financial relationship, product, facility, or service.
+Canonical concept: [Financial Agreement](../model/requirements/financial-services/financial-agreement/financial-agreement.md).
 
-Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agreement Status; Effective Date; Expiration Date; Governing Law; Product Version; Institution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Account
 
-An operational record used to hold, track, service, or report financial value or obligations under an Agreement.
+Canonical concept: [Account](../model/requirements/financial-services/financial-agreement/account.md).
 
-Logical attributes: Account Identifier; Account Number; Account Type; Account Status; Currency; Opened Date; Closed Date; Product Version; Servicing Unit.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Account Party
 
-A Party participating in an Account in a stated role.
+Canonical concept: [Account Party](../model/requirements/financial-services/financial-agreement/account-party.md).
 
-Logical attributes: Account Party Identifier; Role Type; Role Status; Ownership Percentage; Authority Level; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Account Relationship
 
-A relationship among Accounts, such as parent/subaccount, sweep, settlement, offset, linked funding, or servicing relationship.
+Canonical concept: [Account Relationship](../model/requirements/financial-services/financial-agreement/account-relationship.md).
 
-Logical attributes: Relationship Identifier; Relationship Type; Status; Effective From; Effective Through; Priority; Terms Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Mandate
 
-An authorization from a Party defining who may initiate or approve which actions and under what conditions.
+Canonical concept: [Mandate](../model/requirements/financial-services/financial-agreement/mandate.md).
 
-Logical attributes: Mandate Identifier; Mandate Type; Mandate Status; Granted By; Effective From; Effective Through; Action Scope; Amount Limit; Approval Rule.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Limit
 
-A governed restriction or capacity for an Account, Customer, Product, channel, transaction type, or risk exposure.
+Canonical concept: [Limit](../model/requirements/financial-services/financial-agreement/limit.md).
 
-Logical attributes: Limit Identifier; Limit Type; Limit Amount; Currency; Period; Used Amount; Available Amount; Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Hold
 
-A temporary reservation or restriction on funds, assets, or Account activity.
+Canonical concept: [Hold](../model/requirements/financial-services/financial-agreement/hold.md).
 
-Logical attributes: Hold Identifier; Hold Type; Hold Status; Amount; Currency; Placed Date; Expiration Date; Reason; Source Instruction; Released Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Balance
 
-A measured amount for an Account, ledger dimension, position, or obligation at a point in time.
+Canonical concept: [Balance](../model/requirements/financial-services/financial-agreement/balance.md).
 
-Logical attributes: Balance Identifier; Balance Type; Amount; Currency; As Of Time; Value Date; Source; Calculation Reference.
-
-Balance types may include ledger, available, collected, pending, reserved, principal, accrued interest, and credit available.
-
-Rule: Account is not the accounting ledger. An Account is a customer or operational arrangement; Ledger Accounts and Ledger Entries provide the controlled accounting representation.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Instruction, transaction, and ledger concepts
 
 ### Financial Instruction
 
-A request or command to perform a financial action.
+Canonical concept: [Financial Instruction](../model/requirements/financial-services/financial-instruction/financial-instruction.md).
 
-Logical attributes: Instruction Identifier; Instruction Type; Instruction Status; Received Time; Requested Execution Time; Initiating Party; Channel; Account; Amount; Currency; Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Authorization
 
-An evidence-based decision permitting or declining an Instruction or Transaction.
+Canonical concept: [Authorization](../model/requirements/financial-services/financial-instruction/authorization.md).
 
-Logical attributes: Authorization Identifier; Authorization Type; Authorization Status; Requested Time; Decision Time; Decision Reason; Authorized Amount; Currency; Actor or System; Rule Evidence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Financial Transaction
 
-A business occurrence that changes or confirms financial value, rights, obligations, or position.
+Canonical concept: [Financial Transaction](../model/requirements/financial-services/financial-instruction/financial-transaction.md).
 
-Logical attributes: Transaction Identifier; Transaction Type; Transaction Status; Transaction Time; Value Date; Booking Date; Amount; Currency; Account; Counterparty; External Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Transaction Relationship
 
-A typed link among Transactions, such as reversal, correction, refund, return, fee, interest, original transaction, or settlement.
+Canonical concept: [Transaction Relationship](../model/requirements/financial-services/financial-instruction/transaction-relationship.md).
 
-Logical attributes: Relationship Identifier; Relationship Type; Source Transaction; Related Transaction; Amount; Effective Date; Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ledger Account
 
-A controlled accounting classification to which entries are posted.
+Canonical concept: [Ledger Account](../model/requirements/financial-services/financial-instruction/ledger-account.md).
 
-Logical attributes: Ledger Account Identifier; Ledger Account Code; Ledger Account Name; Ledger Account Type; Currency Policy; Institution Unit; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ledger Entry
 
-One debit or credit component of a balanced financial posting.
+Canonical concept: [Ledger Entry](../model/requirements/financial-services/financial-instruction/ledger-entry.md).
 
-Logical attributes: Ledger Entry Identifier; Posting Date; Value Date; Debit/Credit Indicator; Amount; Currency; Ledger Account; Transaction; Accounting Dimension; Posting Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Posting Batch
 
-A controlled group of Ledger Entries submitted and posted together.
+Canonical concept: [Posting Batch](../model/requirements/financial-services/financial-instruction/posting-batch.md).
 
-Logical attributes: Posting Batch Identifier; Batch Type; Batch Status; Created Time; Posted Time; Entry Count; Debit Total; Credit Total; Currency or Currency Set.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fee
 
-A charge assessed for a product, service, event, or exception.
+Canonical concept: [Fee](../model/requirements/financial-services/financial-instruction/fee.md).
 
-Logical attributes: Fee Identifier; Fee Type; Fee Status; Assessment Date; Amount; Currency; Pricing Plan; Waiver Reason; Source Transaction.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Interest Accrual
 
-Interest earned or charged over a defined period before or at posting.
+Canonical concept: [Interest Accrual](../model/requirements/financial-services/financial-instruction/interest-accrual.md).
 
-Logical attributes: Accrual Identifier; Accrual Type; Start Date; End Date; Rate; Basis; Principal Amount; Accrued Amount; Currency; Posting Status.
-
-Rule: an Instruction expresses intent, an Authorization records a permission decision, a Transaction records the business occurrence, and Ledger Entries record its accounting effect. They are related but not interchangeable.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Payment, clearing, and settlement
 
 ### Payment Order
 
-An Instruction to transfer money from a Payer to a Payee.
+Canonical concept: [Payment Order](../model/requirements/financial-services/payment-order/payment-order.md).
 
-Logical attributes: Payment Order Identifier; Payment Type; Payment Status; Initiated Time; Requested Execution Date; Payer; Payee; Amount; Currency; Purpose; End-to-End Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Party
 
-A Party participating in a Payment Order in a specified role.
+Canonical concept: [Payment Party](../model/requirements/financial-services/payment-order/payment-party.md).
 
-Logical attributes: Payment Party Identifier; Role Type; Party; Account Reference; Institution Reference; Name and Address Snapshot; Effective Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clearing Item
 
-A claim, message, or item exchanged through a payment, cheque, card, securities, or other clearing arrangement.
+Canonical concept: [Clearing Item](../model/requirements/financial-services/payment-order/clearing-item.md).
 
-Logical attributes: Clearing Item Identifier; Clearing Scheme; Item Type; Item Status; Submitted Time; Clearing Date; Amount; Currency; Network Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Settlement
 
-The discharge of financial obligations between participating Parties or institutions.
+Canonical concept: [Settlement](../model/requirements/financial-services/payment-order/settlement.md).
 
-Logical attributes: Settlement Identifier; Settlement Type; Settlement Status; Settlement Date; Amount; Currency; Settlement Account; Scheme; Finality Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reconciliation
 
-A comparison of internal and external records to identify matches, breaks, and required corrections.
+Canonical concept: [Reconciliation](../model/requirements/financial-services/payment-order/reconciliation.md).
 
-Logical attributes: Reconciliation Identifier; Reconciliation Type; Period; Status; Source A; Source B; Matched Count; Exception Count; Completed Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reconciliation Exception
 
-An unmatched, inconsistent, duplicated, or out-of-balance item requiring resolution.
+Canonical concept: [Reconciliation Exception](../model/requirements/financial-services/payment-order/reconciliation-exception.md).
 
-Logical attributes: Exception Identifier; Exception Type; Exception Status; Detected Time; Amount Difference; Currency; Assigned Role; Resolution; Resolved Time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Credit and lending extensions
 
 ### Credit Facility
 
-An Agreement defining credit capacity and borrowing terms.
+Canonical concept: [Credit Facility](../model/requirements/financial-services/credit-facility/credit-facility.md).
 
-Logical attributes: Facility Identifier; Facility Type; Facility Status; Approved Limit; Available Amount; Currency; Start Date; Maturity Date; Borrower.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Loan
 
-A funded credit obligation governed by a Financial Agreement or Credit Facility.
+Canonical concept: [Loan](../model/requirements/financial-services/credit-facility/loan.md).
 
-Logical attributes: Loan Identifier; Loan Type; Loan Status; Original Principal; Outstanding Principal; Currency; Disbursement Date; Maturity Date; Interest Method.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Repayment Schedule
 
-A versioned plan of expected principal, interest, fee, and escrow obligations.
+Canonical concept: [Repayment Schedule](../model/requirements/financial-services/credit-facility/repayment-schedule.md).
 
-Logical attributes: Schedule Identifier; Version; Effective Date; Payment Frequency; Installment Count; Status; Calculation Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Scheduled Payment
 
-One expected obligation within a Repayment Schedule.
+Canonical concept: [Scheduled Payment](../model/requirements/financial-services/credit-facility/scheduled-payment.md).
 
-Logical attributes: Scheduled Payment Identifier; Due Date; Principal Due; Interest Due; Fee Due; Total Due; Currency; Payment Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Collateral
 
-An asset or right supporting an obligation.
+Canonical concept: [Collateral](../model/requirements/financial-services/credit-facility/collateral.md).
 
-Logical attributes: Collateral Identifier; Collateral Type; Description; Owner; Valuation; Valuation Date; Currency; Lien Priority; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Investment and custody extensions
 
 ### Financial Instrument
 
-A governed definition or issued instance of a security, fund, derivative, currency, or other tradable financial asset.
+Canonical concept: [Financial Instrument](../model/requirements/financial-services/financial-instrument/financial-instrument.md).
 
-Logical attributes: Instrument Identifier; Instrument Type; Instrument Name; Issuer; Currency; Market Identifier; Issue Date; Maturity Date; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order
 
-An Instruction to buy, sell, subscribe, redeem, or otherwise transact in a Financial Instrument.
+Canonical concept: [Order](../model/requirements/financial-services/financial-instrument/order.md).
 
-Logical attributes: Order Identifier; Order Type; Order Status; Entered Time; Account; Instrument; Side; Quantity; Limit Price; Time in Force.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Trade
 
-An executed agreement to exchange a Financial Instrument, money, or risk.
+Canonical concept: [Trade](../model/requirements/financial-services/financial-instrument/trade.md).
 
-Logical attributes: Trade Identifier; Trade Type; Trade Status; Trade Date; Settlement Date; Instrument; Quantity; Price; Gross Amount; Currency; Counterparty.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Position
 
-The quantity, cost, value, and exposure for an Instrument in an Account or Portfolio.
+Canonical concept: [Position](../model/requirements/financial-services/financial-instrument/position.md).
 
-Logical attributes: Position Identifier; Position Date; Account or Portfolio; Instrument; Quantity; Cost Basis; Market Value; Currency; Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Statements, servicing, and disputes
 
 ### Statement
 
-A governed presentation of Account activity, balances, fees, interest, and required disclosures for a period.
+Canonical concept: [Statement](../model/requirements/financial-services/statement/statement.md).
 
-Logical attributes: Statement Identifier; Statement Type; Period Start; Period End; Generated Date; Account; Opening Balance; Closing Balance; Currency; Delivery Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Request
 
-A Customer request concerning an Account, Transaction, access, document, limit, or profile.
+Canonical concept: [Service Request](../model/requirements/financial-services/statement/service-request.md).
 
-Logical attributes: Service Request Identifier; Request Type; Request Status; Received Date; Customer; Account; Priority; Assigned Role; Resolution Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Dispute
 
-A formal challenge to a Transaction, fee, balance, service, or decision.
+Canonical concept: [Dispute](../model/requirements/financial-services/statement/dispute.md).
 
-Logical attributes: Dispute Identifier; Dispute Type; Dispute Status; Opened Date; Customer; Account; Transaction; Disputed Amount; Currency; Reason; Resolution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjustment
 
-An authorized correction or compensating Transaction that preserves the original record.
+Canonical concept: [Adjustment](../model/requirements/financial-services/statement/adjustment.md).
 
-Logical attributes: Adjustment Identifier; Adjustment Type; Status; Requested Date; Approved Date; Amount; Currency; Reason; Original Transaction; Resulting Transaction.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -620,3 +612,58 @@ Logical names remain authoritative. Technology-stack, jurisdiction, accounting, 
 ## Future behavioral expansion
 
 This file is an actual logical industry pattern. A metamodel-conformant Financial Services knowledge base should create separate capabilities, entities, roles, rules, use cases, and workflows for Product Management, Customer Onboarding, Account Administration, Transaction Processing, Payments, Ledger and Posting, Statements and Servicing, Reconciliation, Disputes, Lending, Investments, Risk, and Compliance. Candidate actor-goal use cases include Configure Product Version, Onboard Customer, Verify Beneficial Ownership, Open Account, Manage Account Authority, Submit Instruction, Authorize Transaction, Place or Release Hold, Post Transaction, Initiate Payment, Clear and Settle Payment, Reconcile Activity, Generate Statement, Open Dispute, Reverse or Adjust Transaction, Establish Credit Facility, Disburse Loan, Execute Trade, and Complete Regulatory Review.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Financial Institution | [Financial Institution](../model/requirements/financial-services/financial-institution/financial-institution.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Institution Unit | [Institution Unit](../model/requirements/financial-services/financial-institution/institution-unit.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Financial Product | [Financial Product](../model/requirements/financial-services/financial-institution/financial-product.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Product Version | [Product Version](../model/requirements/financial-services/financial-institution/product-version.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Financial Offering | [Financial Offering](../model/requirements/financial-services/financial-institution/financial-offering.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Pricing Plan | [Pricing Plan](../model/requirements/financial-services/financial-institution/pricing-plan.md) | [Financial Institution](../model/requirements/financial-services/financial-institution/README.md) |
+| Customer Profile | [Customer Profile](../model/requirements/financial-services/customer-profile/customer-profile.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Product Application | [Product Application](../model/requirements/financial-services/customer-profile/product-application.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Identity Evidence | [Identity Evidence](../model/requirements/financial-services/customer-profile/identity-evidence.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Due Diligence Case | [Due Diligence Case](../model/requirements/financial-services/customer-profile/due-diligence-case.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Beneficial Ownership | [Beneficial Ownership](../model/requirements/financial-services/customer-profile/beneficial-ownership.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Screening Result | [Screening Result](../model/requirements/financial-services/customer-profile/screening-result.md) | [Customer Profile](../model/requirements/financial-services/customer-profile/README.md) |
+| Financial Agreement | [Financial Agreement](../model/requirements/financial-services/financial-agreement/financial-agreement.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Account | [Account](../model/requirements/financial-services/financial-agreement/account.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Account Party | [Account Party](../model/requirements/financial-services/financial-agreement/account-party.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Account Relationship | [Account Relationship](../model/requirements/financial-services/financial-agreement/account-relationship.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Mandate | [Mandate](../model/requirements/financial-services/financial-agreement/mandate.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Limit | [Limit](../model/requirements/financial-services/financial-agreement/limit.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Hold | [Hold](../model/requirements/financial-services/financial-agreement/hold.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Balance | [Balance](../model/requirements/financial-services/financial-agreement/balance.md) | [Financial Agreement](../model/requirements/financial-services/financial-agreement/README.md) |
+| Financial Instruction | [Financial Instruction](../model/requirements/financial-services/financial-instruction/financial-instruction.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Authorization | [Authorization](../model/requirements/financial-services/financial-instruction/authorization.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Financial Transaction | [Financial Transaction](../model/requirements/financial-services/financial-instruction/financial-transaction.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Transaction Relationship | [Transaction Relationship](../model/requirements/financial-services/financial-instruction/transaction-relationship.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Ledger Account | [Ledger Account](../model/requirements/financial-services/financial-instruction/ledger-account.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Ledger Entry | [Ledger Entry](../model/requirements/financial-services/financial-instruction/ledger-entry.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Posting Batch | [Posting Batch](../model/requirements/financial-services/financial-instruction/posting-batch.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Fee | [Fee](../model/requirements/financial-services/financial-instruction/fee.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Interest Accrual | [Interest Accrual](../model/requirements/financial-services/financial-instruction/interest-accrual.md) | [Financial Instruction](../model/requirements/financial-services/financial-instruction/README.md) |
+| Payment Order | [Payment Order](../model/requirements/financial-services/payment-order/payment-order.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Payment Party | [Payment Party](../model/requirements/financial-services/payment-order/payment-party.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Clearing Item | [Clearing Item](../model/requirements/financial-services/payment-order/clearing-item.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Settlement | [Settlement](../model/requirements/financial-services/payment-order/settlement.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Reconciliation | [Reconciliation](../model/requirements/financial-services/payment-order/reconciliation.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Reconciliation Exception | [Reconciliation Exception](../model/requirements/financial-services/payment-order/reconciliation-exception.md) | [Payment Order](../model/requirements/financial-services/payment-order/README.md) |
+| Credit Facility | [Credit Facility](../model/requirements/financial-services/credit-facility/credit-facility.md) | [Credit Facility](../model/requirements/financial-services/credit-facility/README.md) |
+| Loan | [Loan](../model/requirements/financial-services/credit-facility/loan.md) | [Credit Facility](../model/requirements/financial-services/credit-facility/README.md) |
+| Repayment Schedule | [Repayment Schedule](../model/requirements/financial-services/credit-facility/repayment-schedule.md) | [Credit Facility](../model/requirements/financial-services/credit-facility/README.md) |
+| Scheduled Payment | [Scheduled Payment](../model/requirements/financial-services/credit-facility/scheduled-payment.md) | [Credit Facility](../model/requirements/financial-services/credit-facility/README.md) |
+| Collateral | [Collateral](../model/requirements/financial-services/credit-facility/collateral.md) | [Credit Facility](../model/requirements/financial-services/credit-facility/README.md) |
+| Financial Instrument | [Financial Instrument](../model/requirements/financial-services/financial-instrument/financial-instrument.md) | [Financial Instrument](../model/requirements/financial-services/financial-instrument/README.md) |
+| Order | [Order](../model/requirements/financial-services/financial-instrument/order.md) | [Financial Instrument](../model/requirements/financial-services/financial-instrument/README.md) |
+| Trade | [Trade](../model/requirements/financial-services/financial-instrument/trade.md) | [Financial Instrument](../model/requirements/financial-services/financial-instrument/README.md) |
+| Position | [Position](../model/requirements/financial-services/financial-instrument/position.md) | [Financial Instrument](../model/requirements/financial-services/financial-instrument/README.md) |
+| Statement | [Statement](../model/requirements/financial-services/statement/statement.md) | [Statement](../model/requirements/financial-services/statement/README.md) |
+| Service Request | [Service Request](../model/requirements/financial-services/statement/service-request.md) | [Statement](../model/requirements/financial-services/statement/README.md) |
+| Dispute | [Dispute](../model/requirements/financial-services/statement/dispute.md) | [Statement](../model/requirements/financial-services/statement/README.md) |
+| Adjustment | [Adjustment](../model/requirements/financial-services/statement/adjustment.md) | [Statement](../model/requirements/financial-services/statement/README.md) |

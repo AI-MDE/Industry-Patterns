@@ -51,267 +51,255 @@ Rule: Traveler, Customer, Booker, Arranger, Payer, and Beneficiary may be differ
 
 ### Travel Product
 
-A reusable definition of a transport, lodging, vehicle, cruise, activity, package, or related travel product.
+Canonical concept: [Travel Product](../model/requirements/travel/travel-product/travel-product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Supplier; Description; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Travel Service
 
-A service capability supplied to a Traveler.
+Canonical concept: [Travel Service](../model/requirements/travel/travel-product/travel-service.md).
 
-Logical attributes: Service Identifier; Service Name; Service Type; Service Status; Supplier; Origin or Location; Destination; Standard Duration; Service Class.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Instance
 
-A dated or otherwise bounded occurrence of a Travel Service.
+Canonical concept: [Service Instance](../model/requirements/travel/travel-product/service-instance.md).
 
-Logical attributes: Service Instance Identifier; Service Date; Scheduled Start; Scheduled End; Actual Start; Actual End; Instance Status; Origin; Destination; Equipment or Property Reference.
-
-Examples: a specific flight, train, hotel-night stay, vehicle rental period, cruise sailing, tour departure, or event performance.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Schedule
 
-A governed pattern of planned Service Instances.
+Canonical concept: [Schedule](../model/requirements/travel/travel-product/schedule.md).
 
-Logical attributes: Schedule Identifier; Schedule Type; Operating Days; Start Time; End Time; Time Zone; Effective From; Effective Through; Schedule Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Location
 
-An airport, station, city, hotel, terminal, port, address, pickup point, region, or virtual meeting location.
+Canonical concept: [Location](../model/requirements/travel/travel-product/location.md).
 
-Logical attributes: Location Identifier; Location Code; Location Name; Location Type; Time Zone; Parent Location; Geographic Coordinates; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability
 
-A statement or calculation of capacity available for a Product, Service Instance, room type, vehicle class, or allotment.
+Canonical concept: [Availability](../model/requirements/travel/travel-product/availability.md).
 
-Logical attributes: Availability Identifier; Inventory Type; Available Quantity; Held Quantity; Sold Quantity; Availability Status; Checked At; Source.
-
-Rule: availability is time-sensitive sourced information, not a timeless attribute of the Product.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Offering and pricing
 
 ### Travel Offer
 
-A time-bounded commercial proposal for one or more travel services.
+Canonical concept: [Travel Offer](../model/requirements/travel/travel-offer/travel-offer.md).
 
-Logical attributes: Offer Identifier; Offer Status; Created At; Expires At; Currency; Total Price; Channel; Supplier; Customer Segment; Offer Source.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offer Item
 
-One priced travel service, package component, or ancillary within an Offer.
+Canonical concept: [Offer Item](../model/requirements/travel/travel-offer/offer-item.md).
 
-Logical attributes: Offer Item Identifier; Item Type; Quantity; Unit Price; Total Price; Service Instance; Fare or Rate; Conditions Summary.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fare or Rate
 
-A governed price basis and commercial condition for a Travel Service.
+Canonical concept: [Fare or Rate](../model/requirements/travel/travel-offer/fare-or-rate.md).
 
-Logical attributes: Fare or Rate Identifier; Code; Type; Amount; Currency; Cabin or Room Class; Occupancy; Effective From; Effective Through; Rule Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price Component
 
-A base amount, tax, fee, surcharge, discount, commission, markup, or other explainable component of a price.
+Canonical concept: [Price Component](../model/requirements/travel/travel-offer/price-component.md).
 
-Logical attributes: Price Component Identifier; Component Type; Description; Amount; Currency; Jurisdiction; Source; Refundable Indicator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fare Rule or Rate Rule
 
-A condition governing eligibility, changes, cancellation, refund, advance purchase, stay, occupancy, baggage, or another commercial constraint.
+Canonical concept: [Fare Rule or Rate Rule](../model/requirements/travel/travel-offer/fare-rule-or-rate-rule.md).
 
-Logical attributes: Rule Identifier; Rule Type; Rule Status; Condition; Result; Penalty; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ancillary Service
 
-An optional or separately priced service associated with a travel component.
+Canonical concept: [Ancillary Service](../model/requirements/travel/travel-offer/ancillary-service.md).
 
-Logical attributes: Ancillary Identifier; Ancillary Type; Description; Status; Quantity; Price; Fulfillment Method.
-
-Examples: baggage, seat, meal, lounge, transfer, insurance, equipment, early check-in, or activity add-on.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Traveler and itinerary concepts
 
 ### Traveler
 
-A Person participating in an Itinerary or consuming a Travel Service.
+Canonical concept: [Traveler](../model/requirements/travel/traveler/traveler.md).
 
-Logical attributes: Traveler Identifier; Traveler Type; Name; Date of Birth where required; Preferred Language; Loyalty References; Accessibility Needs.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Traveler Document
 
-A passport, identity document, visa, permit, trusted-traveler credential, or other document required for travel.
+Canonical concept: [Traveler Document](../model/requirements/travel/traveler/traveler-document.md).
 
-Logical attributes: Document Identifier; Document Type; Document Number; Issuing Authority; Nationality; Issue Date; Expiration Date; Verification Status.
-
-Sensitive document values require restricted access and appropriate protection.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Itinerary
 
-An organized travel plan containing ordered Segments and services for one or more Travelers.
+Canonical concept: [Itinerary](../model/requirements/travel/traveler/itinerary.md).
 
-Logical attributes: Itinerary Identifier; Itinerary Name; Itinerary Status; Start Date; End Date; Primary Destination; Created At; Owner.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Segment
 
-One ordered movement, stay, rental, activity, or other component of an Itinerary.
+Canonical concept: [Segment](../model/requirements/travel/traveler/segment.md).
 
-Logical attributes: Segment Identifier; Segment Type; Sequence; Planned Start; Planned End; Origin or Location; Destination; Segment Status; Service Instance.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Connection
 
-A relationship between consecutive Segments requiring continuity or transfer.
+Canonical concept: [Connection](../model/requirements/travel/traveler/connection.md).
 
-Logical attributes: Connection Identifier; Connection Type; Minimum Connection Time; Planned Connection Time; Protected Indicator; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Reservation and booking concepts
 
 ### Reservation
 
-A temporary or confirmed hold on supplier inventory before or as part of Booking.
+Canonical concept: [Reservation](../model/requirements/travel/reservation/reservation.md).
 
-Logical attributes: Reservation Identifier; Reservation Reference; Reservation Status; Created At; Expires At; Supplier; Source System.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reservation Item
 
-A held quantity or entitlement for one Service Instance, rate, room, seat, vehicle, or ancillary.
+Canonical concept: [Reservation Item](../model/requirements/travel/reservation/reservation-item.md).
 
-Logical attributes: Reservation Item Identifier; Item Type; Quantity; Hold Status; Service Instance; Fare or Rate; Traveler Assignment.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking
 
-The durable commercial and servicing record accepted by the seller or Supplier.
+Canonical concept: [Booking](../model/requirements/travel/reservation/booking.md).
 
-Logical attributes: Booking Identifier; Booking Reference; Booking Status; Booked At; Channel; Currency; Total Amount; Customer; Servicing Party.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Item
 
-One purchased or confirmed travel component.
+Canonical concept: [Booking Item](../model/requirements/travel/reservation/booking-item.md).
 
-Logical attributes: Booking Item Identifier; Item Type; Item Status; Quantity; Description Snapshot; Service Date; Unit Price; Total Price; Supplier Confirmation Reference.
-
-Rule: Booking Items preserve accepted service, price, rule, tax, and participant snapshots even when current Offers later change.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Party
 
-A Party participating in a Booking in a stated role.
+Canonical concept: [Booking Party](../model/requirements/travel/reservation/booking-party.md).
 
-Logical attributes: Booking Party Identifier; Role Type; Role Status; Effective From; Effective Through; Contact Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Traveler Assignment
 
-Assignment of a Traveler to a Booking Item, Segment, seat, room, vehicle, or ancillary.
+Canonical concept: [Traveler Assignment](../model/requirements/travel/reservation/traveler-assignment.md).
 
-Logical attributes: Assignment Identifier; Assignment Type; Assignment Status; Traveler; Booking Item; Service Preference; Confirmation Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Supplier Confirmation
 
-Evidence that a Supplier accepted or confirmed a Reservation or Booking Item.
+Canonical concept: [Supplier Confirmation](../model/requirements/travel/reservation/supplier-confirmation.md).
 
-Logical attributes: Confirmation Identifier; Supplier Reference; Confirmation Status; Confirmed At; Source; Conditions.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Payment and settlement
 
 ### Payment Authorization
 
-Approval to reserve spending capacity for a Booking or change.
+Canonical concept: [Payment Authorization](../model/requirements/travel/payment-authorization/payment-authorization.md).
 
-Logical attributes: Authorization Identifier; Provider Reference; Amount; Currency; Authorization Status; Authorized At; Expires At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-A captured or received transfer of value.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Amount; Currency; Method; Payment Status; Provider Reference; Payer.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Application of a Payment to Booking Items, invoices, fees, or change collections.
+Canonical concept: [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md).
 
-Logical attributes: Allocation Identifier; Allocation Type; Allocated Amount; Allocation Date; Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commission or Markup
 
-Distributor compensation or price adjustment.
+Canonical concept: [Commission or Markup](../model/requirements/travel/payment-authorization/commission-or-markup.md).
 
-Logical attributes: Compensation Identifier; Type; Basis Amount; Rate; Amount; Currency; Status; Recipient.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Supplier Settlement
 
-A financial settlement between Distributor and Supplier.
+Canonical concept: [Supplier Settlement](../model/requirements/travel/payment-authorization/supplier-settlement.md).
 
-Logical attributes: Settlement Identifier; Settlement Period; Currency; Gross Amount; Commission Amount; Adjustments; Net Amount; Settlement Status; Settlement Date.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Ticketing and fulfillment
 
 ### Travel Document
 
-A ticket, voucher, confirmation, pass, coupon, certificate, or other evidence of entitlement.
+Canonical concept: [Travel Document](../model/requirements/travel/travel-document/travel-document.md).
 
-Logical attributes: Travel Document Identifier; Document Type; Document Number; Document Status; Issued At; Issuer; Valid From; Valid Through; Holder; Booking Item.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ticket Coupon
 
-A ticketed entitlement for one transport Segment or service portion.
+Canonical concept: [Ticket Coupon](../model/requirements/travel/travel-document/ticket-coupon.md).
 
-Logical attributes: Coupon Identifier; Coupon Number; Coupon Status; Segment; Fare Basis; Validating Supplier; Used At.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Voucher
 
-A document authorizing lodging, rental, activity, transfer, or another non-ticket service.
+Canonical concept: [Voucher](../model/requirements/travel/travel-document/voucher.md).
 
-Logical attributes: Voucher Identifier; Voucher Number; Voucher Status; Service; Supplier; Valid From; Valid Through; Redemption Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment
 
-Evidence that a booked travel service or ancillary was delivered, used, boarded, checked in, stayed, rented, attended, or otherwise consumed.
+Canonical concept: [Fulfillment](../model/requirements/travel/travel-document/fulfillment.md).
 
-Logical attributes: Fulfillment Identifier; Fulfillment Type; Fulfillment Status; Started At; Completed At; Quantity; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Change, cancellation, and disruption
 
 ### Change Request
 
-A request to modify Traveler, date, route, service, class, room, vehicle, ancillary, or another Booking condition.
+Canonical concept: [Change Request](../model/requirements/travel/change-request/change-request.md).
 
-Logical attributes: Change Request Identifier; Change Type; Change Status; Requested At; Requested By; Reason; Affected Items; Desired Result.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Change
 
-An accepted modification with commercial and fulfillment consequences.
+Canonical concept: [Booking Change](../model/requirements/travel/change-request/booking-change.md).
 
-Logical attributes: Booking Change Identifier; Change Type; Change Status; Effective At; Prior Item Reference; Resulting Item Reference; Additional Collection; Refund Amount; Penalty.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cancellation
 
-An accepted request or supplier action terminating all or part of a Reservation or Booking.
+Canonical concept: [Cancellation](../model/requirements/travel/change-request/cancellation.md).
 
-Logical attributes: Cancellation Identifier; Cancellation Type; Cancellation Status; Requested At; Effective At; Reason; Cancelled Quantity; Penalty.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Refund
 
-A return of money or credit arising from cancellation, change, disruption, overpayment, or service failure.
+Canonical concept: [Refund](../model/requirements/travel/change-request/refund.md).
 
-Logical attributes: Refund Identifier; Refund Type; Refund Status; Requested At; Approved At; Completed At; Amount; Currency; Beneficiary; Reason.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Disruption
 
-An operational event that prevents or materially changes planned travel.
+Canonical concept: [Disruption](../model/requirements/travel/change-request/disruption.md).
 
-Logical attributes: Disruption Identifier; Disruption Type; Disruption Status; Detected At; Supplier; Affected Service Instances; Severity; Description.
-
-Examples: delay, cancellation, missed connection, closure, overbooking, equipment change, property unavailable, or force majeure.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reaccommodation
 
-Replacement travel or service arranged in response to Disruption.
+Canonical concept: [Reaccommodation](../model/requirements/travel/change-request/reaccommodation.md).
 
-Logical attributes: Reaccommodation Identifier; Status; Proposed At; Accepted At; Original Item; Replacement Item; Additional Cost; Responsible Party.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Duty of Care Case
 
-A managed safety or traveler-support case caused by risk, disruption, emergency, or policy concern.
+Canonical concept: [Duty of Care Case](../model/requirements/travel/change-request/duty-of-care-case.md).
 
-Logical attributes: Case Identifier; Case Type; Case Status; Priority; Opened At; Traveler; Location; Coordinator; Resolution.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
@@ -534,3 +522,50 @@ Logical names remain authoritative. Technology-stack and supplier-integration ru
 ## Future behavioral expansion
 
 This file is an actual logical industry pattern. A metamodel-conformant Travel knowledge base should create separate capabilities, entities, roles, rules, use cases, and workflows for Content and Availability, Shopping and Offers, Itinerary Planning, Reservation and Booking, Payment and Ticketing, Travel Fulfillment, Servicing and Refunds, Disruption Management, and Supplier Settlement. Candidate actor-goal use cases include Search Travel, Build Itinerary, Price Offer, Hold Inventory, Confirm Booking, Add Traveler, Collect Payment, Issue Ticket or Voucher, Change Booking, Cancel Booking, Calculate Refund, Manage Disruption, Reaccommodate Traveler, and Reconcile Supplier Settlement.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Travel Product | [Travel Product](../model/requirements/travel/travel-product/travel-product.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Travel Service | [Travel Service](../model/requirements/travel/travel-product/travel-service.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Service Instance | [Service Instance](../model/requirements/travel/travel-product/service-instance.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Schedule | [Schedule](../model/requirements/travel/travel-product/schedule.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Location | [Location](../model/requirements/travel/travel-product/location.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Availability | [Availability](../model/requirements/travel/travel-product/availability.md) | [Travel Product](../model/requirements/travel/travel-product/README.md) |
+| Travel Offer | [Travel Offer](../model/requirements/travel/travel-offer/travel-offer.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Offer Item | [Offer Item](../model/requirements/travel/travel-offer/offer-item.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Fare or Rate | [Fare or Rate](../model/requirements/travel/travel-offer/fare-or-rate.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Price Component | [Price Component](../model/requirements/travel/travel-offer/price-component.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Fare Rule or Rate Rule | [Fare Rule or Rate Rule](../model/requirements/travel/travel-offer/fare-rule-or-rate-rule.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Ancillary Service | [Ancillary Service](../model/requirements/travel/travel-offer/ancillary-service.md) | [Travel Offer](../model/requirements/travel/travel-offer/README.md) |
+| Traveler | [Traveler](../model/requirements/travel/traveler/traveler.md) | [Traveler](../model/requirements/travel/traveler/README.md) |
+| Traveler Document | [Traveler Document](../model/requirements/travel/traveler/traveler-document.md) | [Traveler](../model/requirements/travel/traveler/README.md) |
+| Itinerary | [Itinerary](../model/requirements/travel/traveler/itinerary.md) | [Traveler](../model/requirements/travel/traveler/README.md) |
+| Segment | [Segment](../model/requirements/travel/traveler/segment.md) | [Traveler](../model/requirements/travel/traveler/README.md) |
+| Connection | [Connection](../model/requirements/travel/traveler/connection.md) | [Traveler](../model/requirements/travel/traveler/README.md) |
+| Reservation | [Reservation](../model/requirements/travel/reservation/reservation.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Reservation Item | [Reservation Item](../model/requirements/travel/reservation/reservation-item.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Booking | [Booking](../model/requirements/travel/reservation/booking.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Booking Item | [Booking Item](../model/requirements/travel/reservation/booking-item.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Booking Party | [Booking Party](../model/requirements/travel/reservation/booking-party.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Traveler Assignment | [Traveler Assignment](../model/requirements/travel/reservation/traveler-assignment.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Supplier Confirmation | [Supplier Confirmation](../model/requirements/travel/reservation/supplier-confirmation.md) | [Reservation](../model/requirements/travel/reservation/README.md) |
+| Payment Authorization | [Payment Authorization](../model/requirements/travel/payment-authorization/payment-authorization.md) | [Payment Authorization](../model/requirements/travel/payment-authorization/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Commission or Markup | [Commission or Markup](../model/requirements/travel/payment-authorization/commission-or-markup.md) | [Payment Authorization](../model/requirements/travel/payment-authorization/README.md) |
+| Supplier Settlement | [Supplier Settlement](../model/requirements/travel/payment-authorization/supplier-settlement.md) | [Payment Authorization](../model/requirements/travel/payment-authorization/README.md) |
+| Travel Document | [Travel Document](../model/requirements/travel/travel-document/travel-document.md) | [Travel Document](../model/requirements/travel/travel-document/README.md) |
+| Ticket Coupon | [Ticket Coupon](../model/requirements/travel/travel-document/ticket-coupon.md) | [Travel Document](../model/requirements/travel/travel-document/README.md) |
+| Voucher | [Voucher](../model/requirements/travel/travel-document/voucher.md) | [Travel Document](../model/requirements/travel/travel-document/README.md) |
+| Fulfillment | [Fulfillment](../model/requirements/travel/travel-document/fulfillment.md) | [Travel Document](../model/requirements/travel/travel-document/README.md) |
+| Change Request | [Change Request](../model/requirements/travel/change-request/change-request.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Booking Change | [Booking Change](../model/requirements/travel/change-request/booking-change.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Cancellation | [Cancellation](../model/requirements/travel/change-request/cancellation.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Refund | [Refund](../model/requirements/travel/change-request/refund.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Disruption | [Disruption](../model/requirements/travel/change-request/disruption.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Reaccommodation | [Reaccommodation](../model/requirements/travel/change-request/reaccommodation.md) | [Change Request](../model/requirements/travel/change-request/README.md) |
+| Duty of Care Case | [Duty of Care Case](../model/requirements/travel/change-request/duty-of-care-case.md) | [Change Request](../model/requirements/travel/change-request/README.md) |

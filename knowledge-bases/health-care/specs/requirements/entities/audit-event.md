@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Audit Event
 
+## Canonical origin
+
+This selected specification derives from [Audit Event](../../../../../model/requirements/health-care/consent/audit-event.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 Immutable evidence of access to or action upon protected health information or system functionality.
@@ -32,3 +36,4 @@ recorded
 
 - [protected-access-must-be-audited](../rules/protected-access-must-be-audited.md)
 - [audit-events-are-immutable](../rules/audit-events-are-immutable.md)
+

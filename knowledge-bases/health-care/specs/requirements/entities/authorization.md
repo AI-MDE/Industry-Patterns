@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Authorization
 
+## Canonical origin
+
+This selected specification derives from [Authorization](../../../../../model/requirements/health-care/health-care-service/authorization.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A decision permitting specified care or financial coverage under stated conditions.
@@ -37,3 +41,4 @@ draft; requested; in-review; approved; partially-approved; denied; expired; revo
 
 - [authorization-does-not-replace-consent](../rules/authorization-does-not-replace-consent.md)
 - [authorized-service-must-match-conditions](../rules/authorized-service-must-match-conditions.md)
+

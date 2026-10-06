@@ -27,285 +27,267 @@ It is not a single universal database schema. Concepts should be adopted only wh
 
 ### Party
 
-A person, organization, or other legally or operationally recognized participant.
+Canonical concept: [Party](../model/requirements/party/party/party.md).
 
-Logical attributes: Party Identifier; Party Type; Display Name; Legal Name; Party Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Person
 
-A human Party.
+Canonical concept: [Person](../model/requirements/party/party/person.md).
 
-Logical attributes: Given Name; Middle Name; Family Name; Preferred Name; Birth Date where legitimately required.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Organization
 
-A business, government body, nonprofit, household, team, or other organized Party.
+Canonical concept: [Organization](../model/requirements/party/party/organization.md).
 
-Logical attributes: Organization Name; Legal Form; Registration Number; Parent Organization reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Role
 
-The capacity in which a Party participates in a context, such as Customer, Supplier, Employee, Provider, Insurer, Patient, Professional, or Account Holder.
+Canonical concept: [Party Role](../model/requirements/party/party/party-role.md).
 
-Logical attributes: Party Role Identifier; Role Type; Role Status; Effective From; Effective Through.
-
-Rule: a Party is not permanently equated with one role. The same Party may perform several roles concurrently or over time.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Relationship
 
-A typed, time-bounded relationship between two Parties or Party Roles.
+Canonical concept: [Party Relationship](../model/requirements/party/party/party-relationship.md).
 
-Logical attributes: Party Relationship Identifier; Relationship Type; Relationship Status; Effective From; Effective Through; Description.
-
-Examples: Organization employs Person; Organization owns Organization; Agent represents Customer; Provider serves Client.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 2. Contact and location
 
 ### Contact Mechanism
 
-A means by which a Party can be contacted.
+Canonical concept: [Contact Mechanism](../model/requirements/party/contact-mechanism/contact-mechanism.md).
 
-Logical attributes: Contact Mechanism Identifier; Mechanism Type; Value; Status; Verified Indicator; Effective From; Effective Through.
-
-Specializations: Postal Address; Email Address; Telephone Number; Web Address; Communication Identifier.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Contact
 
-Assignment of a Contact Mechanism to a Party for a stated purpose.
+Canonical concept: [Party Contact](../model/requirements/party/contact-mechanism/party-contact.md).
 
-Logical attributes: Party Contact Identifier; Purpose Type; Primary Indicator; Effective From; Effective Through.
-
-Examples of purpose: billing, shipping, legal, service, emergency, personal, or work.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Geographic Location
 
-A physical, administrative, service, or market location.
+Canonical concept: [Geographic Location](../model/requirements/party/contact-mechanism/geographic-location.md).
 
-Logical attributes: Location Identifier; Location Type; Location Name; Geographic Coordinates; Parent Location reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 3. Classification
 
 ### Classification Scheme
 
-A governed vocabulary or taxonomy.
+Canonical concept: [Classification Scheme](../model/requirements/classification/classification/classification-scheme.md).
 
-Logical attributes: Scheme Identifier; Scheme Name; Scheme Version; Scheme Status; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Classification
 
-A category within a Classification Scheme.
+Canonical concept: [Classification](../model/requirements/classification/classification/classification.md).
 
-Logical attributes: Classification Identifier; Classification Code; Classification Name; Description; Parent Classification reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Classification Assignment
 
-A time-bounded assignment of a Classification to a business subject.
+Canonical concept: [Classification Assignment](../model/requirements/classification/classification/classification-assignment.md).
 
-Logical attributes: Assignment Identifier; Subject Type; Assigned Date; Effective From; Effective Through; Assignment Source.
-
-Rule: use classification when categories vary by organization, jurisdiction, or time; use a first-class concept when the category has its own behavior and relationships.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 4. Product, service, and offering
 
 ### Product
 
-Something an organization defines, supplies, sells, leases, licenses, or otherwise provides.
+Canonical concept: [Product](../model/requirements/product-and-service/product/product.md).
 
-Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Description; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Component
 
-A recursive whole-part relationship between Products.
+Canonical concept: [Product Component](../model/requirements/product-and-service/product/product-component.md).
 
-Logical attributes: Component Identifier; Quantity; Unit of Measure; Effective From; Effective Through; Sequence.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service
 
-An act, capability, or continuing provision delivered for a beneficiary.
+Canonical concept: [Service](../model/requirements/product-and-service/product/service.md).
 
-Logical attributes: Service Identifier; Service Name; Service Type; Service Status; Description; Service Level reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offering
 
-A market- or context-specific way a Product or Service is made available.
+Canonical concept: [Offering](../model/requirements/product-and-service/product/offering.md).
 
-Logical attributes: Offering Identifier; Offering Name; Offering Status; Available From; Available Through; Market; Channel.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price
 
-A monetary charge applicable to an Offering under stated conditions.
+Canonical concept: [Price](../model/requirements/product-and-service/product/price.md).
 
-Logical attributes: Price Identifier; Price Type; Amount; Currency; Unit of Measure; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 5. Agreement, commitment, and entitlement
 
 ### Agreement
 
-A recorded understanding among Parties that establishes rights, obligations, terms, or constraints.
+Canonical concept: [Agreement](../model/requirements/agreement/agreement/agreement.md).
 
-Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agreement Status; Effective Date; Expiration Date; Description.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Role
 
-The capacity in which a Party participates in an Agreement.
+Canonical concept: [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md).
 
-Logical attributes: Agreement Role Identifier; Role Type; Effective From; Effective Through.
-
-Examples: buyer, seller, policyholder, insurer, client, provider, guarantor, or beneficiary.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Term
 
-A structured condition of an Agreement.
+Canonical concept: [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md).
 
-Logical attributes: Agreement Term Identifier; Term Type; Term Value; Unit; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commitment
 
-An obligation by a Party to perform, deliver, pay, refrain, or meet a condition.
+Canonical concept: [Commitment](../model/requirements/agreement/agreement/commitment.md).
 
-Logical attributes: Commitment Identifier; Commitment Type; Commitment Status; Due Date; Fulfilled Date; Description.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Entitlement
 
-A right granted to a Party by an Agreement, purchase, policy, subscription, or authority.
+Canonical concept: [Entitlement](../model/requirements/agreement/agreement/entitlement.md).
 
-Logical attributes: Entitlement Identifier; Entitlement Type; Entitlement Status; Quantity or Limit; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription
 
-A continuing Agreement or Entitlement to receive a Product or Service.
+Canonical concept: [Subscription](../model/requirements/agreement/agreement/subscription.md).
 
-Logical attributes: Subscription Identifier; Subscription Status; Start Date; Renewal Date; End Date; Billing Frequency; Quantity.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 6. Request, order, and fulfillment
 
 ### Request
 
-An expressed need for information, evaluation, authorization, service, product, or action.
+Canonical concept: [Request](../model/requirements/request-and-fulfillment/request/request.md).
 
-Logical attributes: Request Identifier; Request Type; Request Status; Requested Date; Needed By Date; Priority; Description.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order
 
-An authorized request to supply Products or Services under commercial or operational terms.
+Canonical concept: [Order](../model/requirements/request-and-fulfillment/request/order.md).
 
-Logical attributes: Order Identifier; Order Number; Order Type; Order Status; Order Date; Required Date; Currency; Total Amount.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Line
 
-One requested Product, Service, or chargeable unit within an Order.
+Canonical concept: [Order Line](../model/requirements/request-and-fulfillment/request/order-line.md).
 
-Logical attributes: Order Line Identifier; Line Number; Quantity; Unit of Measure; Unit Price; Line Amount; Line Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment
 
-The performance, delivery, shipment, activation, or provision that satisfies a Request, Order Line, Commitment, or Entitlement.
+Canonical concept: [Fulfillment](../model/requirements/request-and-fulfillment/request/fulfillment.md).
 
-Logical attributes: Fulfillment Identifier; Fulfillment Type; Fulfillment Status; Planned Date; Actual Date; Quantity; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 7. Work, event, and outcome
 
 ### Business Event
 
-A fact of business significance that occurs at a point in time and may trigger evaluation or action.
+Canonical concept: [Business Event](../model/requirements/work-management/work-effort/business-event.md).
 
-Logical attributes: Event Identifier; Event Type; Occurred At; Recorded At; Source; Correlation Reference; Description.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Effort
 
-A planned or performed unit of work, including a process, project, phase, task, activity, case step, or service action.
+Canonical concept: [Work Effort](../model/requirements/work-management/work-effort/work-effort.md).
 
-Logical attributes: Work Effort Identifier; Work Type; Work Name; Work Status; Planned Start; Planned End; Actual Start; Actual End; Parent Work Effort reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Assignment
 
-The allocation of a Party Role or resource to a Work Effort with a stated responsibility.
+Canonical concept: [Assignment](../model/requirements/work-management/work-effort/assignment.md).
 
-Logical attributes: Assignment Identifier; Assignment Role; Assignment Status; Allocation; Assigned From; Assigned Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome
 
-A meaningful result produced or recognized by business activity.
+Canonical concept: [Outcome](../model/requirements/work-management/work-effort/outcome.md).
 
-Logical attributes: Outcome Identifier; Outcome Type; Outcome Status; Achieved At; Description; Evidence Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 8. Status and lifecycle
 
 ### Status Type
 
-A named condition applicable to a type of business subject.
+Canonical concept: [Status Type](../model/requirements/work-management/status-type/status-type.md).
 
-Logical attributes: Status Type Identifier; Subject Type; Status Code; Status Name; Terminal Indicator.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status Transition
 
-An allowed change from one Status Type to another.
+Canonical concept: [Status Transition](../model/requirements/work-management/status-type/status-transition.md).
 
-Logical attributes: Transition Identifier; Transition Name; Trigger Type; Condition Reference; Effective From; Effective Through.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status History
 
-Evidence that a subject entered or left a status.
+Canonical concept: [Status History](../model/requirements/work-management/status-type/status-history.md).
 
-Logical attributes: Status History Identifier; Entered At; Exited At; Reason; Changed By; Event Reference.
-
-Rule: a status field alone is sufficient only when transition rules and history are not material. Otherwise, use the full lifecycle pattern.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 9. Charge, invoice, and payment
 
 ### Charge
 
-An amount a Party is expected to pay because of a Product, Service, Usage, Event, Fee, Penalty, Tax, or Adjustment.
+Canonical concept: [Charge](../model/requirements/finance/invoice/charge.md).
 
-Logical attributes: Charge Identifier; Charge Type; Charge Date; Amount; Currency; Charge Status; Source Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-A document requesting settlement of one or more Charges.
+Canonical concept: [Invoice](../model/requirements/finance/invoice/invoice.md).
 
-Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; Invoice Status; Subtotal; Tax Amount; Total Amount; Currency.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice Line
 
-An explainable component of an Invoice linked to its source Charge or business event.
+Canonical concept: [Invoice Line](../model/requirements/finance/invoice/invoice-line.md).
 
-Logical attributes: Invoice Line Identifier; Line Number; Description; Quantity; Unit Price; Line Amount; Tax Amount.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-A transfer of value intended to settle an Invoice, Charge, Account, or obligation.
+Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
 
-Logical attributes: Payment Identifier; Payment Date; Payment Amount; Currency; Payment Method; Payment Status; Payment Reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Application of some or all of a Payment to an Invoice or Charge.
+Canonical concept: [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md).
 
-Logical attributes: Allocation Identifier; Allocated Amount; Allocation Date; Allocation Status.
-
-Rule: keep Payment separate from its allocation so one payment may settle several invoices and one invoice may receive several payments.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## 10. Measurement and analytics
 
 ### Measure
 
-A defined quantity used to evaluate activity, performance, condition, or outcome.
+Canonical concept: [Measure](../model/requirements/measurement/measure/measure.md).
 
-Logical attributes: Measure Identifier; Measure Name; Measure Type; Unit of Measure; Definition; Calculation Rule reference.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Measurement
 
-An observed or calculated Measure for a subject, place, and period or point in time.
+Canonical concept: [Measurement](../model/requirements/measurement/measure/measurement.md).
 
-Logical attributes: Measurement Identifier; Measured Value; Measured At; Period Start; Period End; Source; Quality Status.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Analytic Fact
 
-A measurable business occurrence at an explicitly declared grain.
+Canonical concept: [Analytic Fact](../model/requirements/measurement/measure/analytic-fact.md).
 
-Logical attributes: Fact Identifier; Fact Type; Occurred Date; Quantity; Amount; Duration; Source Record reference.
-
-Rule: operational concepts remain authoritative; analytic facts and dimensions are derived projections with declared lineage.
+The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Core relationship model
 
@@ -414,3 +396,51 @@ For a new industry pattern:
 4. Define entity operations on the resulting domain concepts.
 5. Define capabilities and actor-goal Use Cases that invoke those operations.
 6. Add pages, scenarios, verification, and analytics as separate but traceable knowledge.
+
+## Canonical model bindings
+
+This pattern selects and connects concepts in the [coherent model](../model/README.md). The sections below are views of those definitions. Industry lifecycles, events, baseline rules, and variant choices continue to constrain the selected concepts.
+
+| Source term | Canonical concept | ABE |
+|---|---|---|
+| Party | [Party](../model/requirements/party/party/party.md) | [Party](../model/requirements/party/party/README.md) |
+| Person | [Person](../model/requirements/party/party/person.md) | [Party](../model/requirements/party/party/README.md) |
+| Organization | [Organization](../model/requirements/party/party/organization.md) | [Party](../model/requirements/party/party/README.md) |
+| Party Role | [Party Role](../model/requirements/party/party/party-role.md) | [Party](../model/requirements/party/party/README.md) |
+| Party Relationship | [Party Relationship](../model/requirements/party/party/party-relationship.md) | [Party](../model/requirements/party/party/README.md) |
+| Contact Mechanism | [Contact Mechanism](../model/requirements/party/contact-mechanism/contact-mechanism.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
+| Party Contact | [Party Contact](../model/requirements/party/contact-mechanism/party-contact.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
+| Geographic Location | [Geographic Location](../model/requirements/party/contact-mechanism/geographic-location.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
+| Classification Scheme | [Classification Scheme](../model/requirements/classification/classification/classification-scheme.md) | [Classification](../model/requirements/classification/classification/README.md) |
+| Classification | [Classification](../model/requirements/classification/classification/classification.md) | [Classification](../model/requirements/classification/classification/README.md) |
+| Classification Assignment | [Classification Assignment](../model/requirements/classification/classification/classification-assignment.md) | [Classification](../model/requirements/classification/classification/README.md) |
+| Product | [Product](../model/requirements/product-and-service/product/product.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Product Component | [Product Component](../model/requirements/product-and-service/product/product-component.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Service | [Service](../model/requirements/product-and-service/product/service.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Offering | [Offering](../model/requirements/product-and-service/product/offering.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Price | [Price](../model/requirements/product-and-service/product/price.md) | [Product](../model/requirements/product-and-service/product/README.md) |
+| Agreement | [Agreement](../model/requirements/agreement/agreement/agreement.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Agreement Role | [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Agreement Term | [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Commitment | [Commitment](../model/requirements/agreement/agreement/commitment.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Entitlement | [Entitlement](../model/requirements/agreement/agreement/entitlement.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Subscription | [Subscription](../model/requirements/agreement/agreement/subscription.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
+| Request | [Request](../model/requirements/request-and-fulfillment/request/request.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
+| Order | [Order](../model/requirements/request-and-fulfillment/request/order.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
+| Order Line | [Order Line](../model/requirements/request-and-fulfillment/request/order-line.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
+| Fulfillment | [Fulfillment](../model/requirements/request-and-fulfillment/request/fulfillment.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
+| Business Event | [Business Event](../model/requirements/work-management/work-effort/business-event.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
+| Work Effort | [Work Effort](../model/requirements/work-management/work-effort/work-effort.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
+| Assignment | [Assignment](../model/requirements/work-management/work-effort/assignment.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
+| Outcome | [Outcome](../model/requirements/work-management/work-effort/outcome.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
+| Status Type | [Status Type](../model/requirements/work-management/status-type/status-type.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
+| Status Transition | [Status Transition](../model/requirements/work-management/status-type/status-transition.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
+| Status History | [Status History](../model/requirements/work-management/status-type/status-history.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
+| Charge | [Charge](../model/requirements/finance/invoice/charge.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Invoice Line | [Invoice Line](../model/requirements/finance/invoice/invoice-line.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Measure | [Measure](../model/requirements/measurement/measure/measure.md) | [Measure](../model/requirements/measurement/measure/README.md) |
+| Measurement | [Measurement](../model/requirements/measurement/measure/measurement.md) | [Measure](../model/requirements/measurement/measure/README.md) |
+| Analytic Fact | [Analytic Fact](../model/requirements/measurement/measure/analytic-fact.md) | [Measure](../model/requirements/measurement/measure/README.md) |

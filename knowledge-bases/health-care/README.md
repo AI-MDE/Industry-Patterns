@@ -15,3 +15,8 @@ This is a reusable **Standard** Health Care knowledge base, not a complete hospi
 - [Architecture and requirements diagrams](specs/architecture/diagrams.md)
 - [Architecture](specs/architecture/overview.md)
 - [Architecture diagrams](specs/architecture/diagrams.md)
+
+
+## Canonical model
+
+This knowledge base is a selected application projection of the [coherent industry model](../../model/README.md). Its Entity pages link to their canonical origins while retaining their selected attributes, operations, states, and rule references. Canonical model integration does not discard application-specific detail.

@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Encounter
 
+## Canonical origin
+
+This selected specification derives from [Encounter](../../../../../model/requirements/health-care/encounter/encounter.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A bounded interaction in which care is assessed, discussed, delivered, or documented.
@@ -35,3 +39,4 @@ planned; arrived; in-progress; on-hold; completed; cancelled; entered-in-error
 
 - [encounter-end-cannot-precede-start](../rules/encounter-end-cannot-precede-start.md)
 - [finalized-records-preserve-history](../rules/finalized-records-preserve-history.md)
+

@@ -7,6 +7,10 @@ tags: [health-care, industry-pattern, entity]
 
 # Claim
 
+## Canonical origin
+
+This selected specification derives from [Claim](../../../../../model/requirements/health-care/coverage/claim.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+
 ## Purpose
 
 A request to a Payer for adjudication and payment of covered health-care Charges.
@@ -37,3 +41,4 @@ draft; submitted; acknowledged; in-review; adjudicated; rejected; denied; partia
 
 - [claim-line-must-trace-to-delivered-service](../rules/claim-line-must-trace-to-delivered-service.md)
 - [claim-totals-must-reconcile](../rules/claim-totals-must-reconcile.md)
+

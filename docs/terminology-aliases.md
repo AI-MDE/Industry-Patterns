@@ -87,3 +87,10 @@ It may later be reused by:
 - model migration;
 - Workbench search;
 - cross-model comparison.
+
+
+## Business concept terminology
+
+The coherent model also maintains a separate [source-aware business terminology table](../model/terminology-aliases.json). It maps original industry terms to canonical concept paths. The importer table above maps meta-types; it does not resolve business identity.
+
+For example, the scheduling source term Capability maps to Resource Capability, which remains distinct from business Capability. Insurance Claim and Health Care Claim retain different canonical paths. A specialization is recorded in the model manifest, not treated as an equivalent alias.
