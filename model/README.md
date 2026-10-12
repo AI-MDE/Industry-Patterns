@@ -4,6 +4,8 @@ Industry-Patterns has one connected semantic model. Shared concepts have one can
 
 Start with the [Domain index](domains/index.md), use the [industry catalog](../catalog.md) to discover a suitable pattern, or inspect the [integration review](integration-review.md).
 
+See the [small-business service coverage review](small-business-services-gap-review.md) for added shared service ABEs and remaining gaps.
+
 ## Organization
 
 The canonical model is organized as **Domain → ABE → Entity**. Industry profiles compose reusable domains and add only their industry-specific semantics. Every ABE has one Primary Entity and is named after it. Each Entity has its own Markdown page. A domain may reference ABEs from other domains without duplicating their definitions.
