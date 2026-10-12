@@ -6,7 +6,7 @@ There is **one canonical semantic model**, organized Domain → ABE → Entity. 
 
 ## Baseline
 
-The coherent integration report recorded 23 domains, 104 ABEs, 543 concepts, and 380 table relationships (276 resolved and 104 needing review). This update introduces **three shared ABEs and six concepts**, yielding 107 ABEs and 549 concept records in `model.json`. These are additions to the existing model, not full industry packages.
+The coherent integration report recorded 23 domains, 104 ABEs, 543 concepts, and 380 table relationships (276 resolved and 104 needing review). This update introduces **five shared ABEs and ten concepts**, yielding 109 ABEs and 553 concept records in `model.json`. These are additions to the existing model, not full industry packages.
 
 ## Coverage and remaining gaps
 
@@ -50,3 +50,12 @@ Appointment Policy, Crew, Route and Stop, Service Entitlement, Change Order, Veh
 ## Selection
 
 For each industry request: recognize required capabilities → select existing ABEs and depth → add industry-specific specialization only where meaning genuinely differs → check business scenarios and evidence. **No new standalone industry model.**
+
+## Conflict remediation — October 2026
+
+- Fixed 3,422 occurrences of obsolete `model/requirements/` manifest references to point to `model/domains/` in `model/model.json`. The manifest now includes 23 domains, 109 ABEs, and 553 concepts.
+- Added general-purpose **Service Appointment** (and Appointment Policy) and **Service Route** (and Route Stop) ABEs under Scheduling, avoiding duplicates of healthcare-specific appointments and industry-specific crew assignments.
+- Strengthened `tools/coherent-model/validate.mjs` to flag legacy canonical paths and improper "resolved" relationships.
+- **104 legacy relationship records remain in semantic review.** They cannot all be safely resolved by a string substitution: many endpoints are alternatives, conjunctions, state-qualified terms or role names (e.g., `Party → Person or Organization`, `Accepted Quote → Rental Agreement or Job Order`). Do not mark these resolved without splitting compound relationships, choosing semantic specialization and reviewing cardinalities.
+- Follow-up work: review each compound expression with its industry source, map all endpoints to existing concepts first, split only the actual independently meaningful relationships, and preserve the original expression as provenance. Do not invent additional generic entities to satisfy ambiguous labels.
+- Full local validator execution and repository-wide link validation have not been completed in this connected session. Treat the manifest correction as committed but not yet fully verified.
