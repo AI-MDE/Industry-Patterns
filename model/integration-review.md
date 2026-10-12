@@ -1,6 +1,6 @@
 # Integration review
 
-Integrated 568 detailed definition occurrences into 543 canonical concept pages across 23 Domains and 104 ABEs. Each ABE has one Primary Entity.
+The initial integration mapped 568 detailed definition occurrences into 543 canonical concept pages across 23 Domains and 104 ABEs. Each ABE has one Primary Entity. The subsequent [small-business service additions](small-business-services-gap-review.md) bring the current manifest to 553 concepts and 109 ABEs in the same 23 Domains.
 
 Preserved every migrated definition, attribute list, inline rule, and example in its canonical page. Original industry narratives, lifecycle descriptions, events, baseline rule sections, and variants remain in the pattern views.
 

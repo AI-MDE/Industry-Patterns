@@ -56,49 +56,49 @@ Rule: Person identity, employee relationship, application user, qualification, a
 
 ### Product
 
-Canonical concept: [Product](../model/requirements/manufacturing/product/product.md).
+Canonical concept: [Product](../model/domains/manufacturing/product/product.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-Canonical concept: [Product Version](../model/requirements/manufacturing/product/product-version.md).
+Canonical concept: [Product Version](../model/domains/manufacturing/product/product-version.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Part
 
-Canonical concept: [Part](../model/requirements/manufacturing/product/part.md).
+Canonical concept: [Part](../model/domains/manufacturing/product/part.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Part Revision
 
-Canonical concept: [Part Revision](../model/requirements/manufacturing/product/part-revision.md).
+Canonical concept: [Part Revision](../model/domains/manufacturing/product/part-revision.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Specification
 
-Canonical concept: [Product Specification](../model/requirements/manufacturing/product/product-specification.md).
+Canonical concept: [Product Specification](../model/domains/manufacturing/product/product-specification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Bill of Material
 
-Canonical concept: [Bill of Material](../model/requirements/manufacturing/product/bill-of-material.md).
+Canonical concept: [Bill of Material](../model/domains/manufacturing/product/bill-of-material.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### BOM Component
 
-Canonical concept: [BOM Component](../model/requirements/manufacturing/product/bom-component.md).
+Canonical concept: [BOM Component](../model/domains/manufacturing/product/bom-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Engineering Change
 
-Canonical concept: [Engineering Change](../model/requirements/manufacturing/product/engineering-change.md).
+Canonical concept: [Engineering Change](../model/domains/manufacturing/product/engineering-change.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -106,31 +106,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Routing
 
-Canonical concept: [Routing](../model/requirements/manufacturing/routing/routing.md).
+Canonical concept: [Routing](../model/domains/manufacturing/routing/routing.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operation Definition
 
-Canonical concept: [Operation Definition](../model/requirements/manufacturing/routing/operation-definition.md).
+Canonical concept: [Operation Definition](../model/domains/manufacturing/routing/operation-definition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Requirement
 
-Canonical concept: [Resource Requirement](../model/requirements/manufacturing/routing/resource-requirement.md).
+Canonical concept: [Resource Requirement](../model/domains/manufacturing/routing/resource-requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Instruction
 
-Canonical concept: [Work Instruction](../model/requirements/manufacturing/routing/work-instruction.md).
+Canonical concept: [Work Instruction](../model/domains/manufacturing/routing/work-instruction.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Recipe or Process Parameter
 
-Canonical concept: [Recipe or Process Parameter](../model/requirements/manufacturing/routing/recipe-or-process-parameter.md).
+Canonical concept: [Recipe or Process Parameter](../model/domains/manufacturing/routing/recipe-or-process-parameter.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -138,31 +138,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Manufacturing Facility
 
-Canonical concept: [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/manufacturing-facility.md).
+Canonical concept: [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/manufacturing-facility.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Center
 
-Canonical concept: [Work Center](../model/requirements/manufacturing/manufacturing-facility/work-center.md).
+Canonical concept: [Work Center](../model/domains/manufacturing/manufacturing-facility/work-center.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Machine Asset
 
-Canonical concept: [Machine Asset](../model/requirements/manufacturing/manufacturing-facility/machine-asset.md).
+Canonical concept: [Machine Asset](../model/domains/manufacturing/manufacturing-facility/machine-asset.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Tool
 
-Canonical concept: [Tool](../model/requirements/manufacturing/manufacturing-facility/tool.md).
+Canonical concept: [Tool](../model/domains/manufacturing/manufacturing-facility/tool.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capacity Plan
 
-Canonical concept: [Capacity Plan](../model/requirements/manufacturing/manufacturing-facility/capacity-plan.md).
+Canonical concept: [Capacity Plan](../model/domains/manufacturing/manufacturing-facility/capacity-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -170,31 +170,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Manufacturing Requirement
 
-Canonical concept: [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-requirement.md).
+Canonical concept: [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/manufacturing-requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Production Schedule
 
-Canonical concept: [Production Schedule](../model/requirements/manufacturing/manufacturing-requirement/production-schedule.md).
+Canonical concept: [Production Schedule](../model/domains/manufacturing/manufacturing-requirement/production-schedule.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Manufacturing Order
 
-Canonical concept: [Manufacturing Order](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-order.md).
+Canonical concept: [Manufacturing Order](../model/domains/manufacturing/manufacturing-requirement/manufacturing-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Order Operation
 
-Canonical concept: [Work Order Operation](../model/requirements/manufacturing/manufacturing-requirement/work-order-operation.md).
+Canonical concept: [Work Order Operation](../model/domains/manufacturing/manufacturing-requirement/work-order-operation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Requirement
 
-Canonical concept: [Material Requirement](../model/requirements/manufacturing/manufacturing-requirement/material-requirement.md).
+Canonical concept: [Material Requirement](../model/domains/manufacturing/manufacturing-requirement/material-requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -202,31 +202,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Inventory Item
 
-Canonical concept: [Inventory Item](../model/requirements/manufacturing/inventory-item/inventory-item.md).
+Canonical concept: [Inventory Item](../model/domains/manufacturing/inventory-item/inventory-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Lot
 
-Canonical concept: [Material Lot](../model/requirements/manufacturing/inventory-item/material-lot.md).
+Canonical concept: [Material Lot](../model/domains/manufacturing/inventory-item/material-lot.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inventory Transaction
 
-Canonical concept: [Inventory Transaction](../model/requirements/manufacturing/inventory-item/inventory-transaction.md).
+Canonical concept: [Inventory Transaction](../model/domains/manufacturing/inventory-item/inventory-transaction.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Reservation
 
-Canonical concept: [Material Reservation](../model/requirements/manufacturing/inventory-item/material-reservation.md).
+Canonical concept: [Material Reservation](../model/domains/manufacturing/inventory-item/material-reservation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Material Issue
 
-Canonical concept: [Material Issue](../model/requirements/manufacturing/inventory-item/material-issue.md).
+Canonical concept: [Material Issue](../model/domains/manufacturing/inventory-item/material-issue.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -234,43 +234,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Production Run
 
-Canonical concept: [Production Run](../model/requirements/manufacturing/production-run/production-run.md).
+Canonical concept: [Production Run](../model/domains/manufacturing/production-run/production-run.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operation Execution
 
-Canonical concept: [Operation Execution](../model/requirements/manufacturing/production-run/operation-execution.md).
+Canonical concept: [Operation Execution](../model/domains/manufacturing/production-run/operation-execution.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Labor Entry
 
-Canonical concept: [Labor Entry](../model/requirements/manufacturing/production-run/labor-entry.md).
+Canonical concept: [Labor Entry](../model/domains/manufacturing/production-run/labor-entry.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Machine Entry
 
-Canonical concept: [Machine Entry](../model/requirements/manufacturing/production-run/machine-entry.md).
+Canonical concept: [Machine Entry](../model/domains/manufacturing/production-run/machine-entry.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Process Measurement
 
-Canonical concept: [Process Measurement](../model/requirements/manufacturing/production-run/process-measurement.md).
+Canonical concept: [Process Measurement](../model/domains/manufacturing/production-run/process-measurement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Production Output
 
-Canonical concept: [Production Output](../model/requirements/manufacturing/production-run/production-output.md).
+Canonical concept: [Production Output](../model/domains/manufacturing/production-run/production-output.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Scrap and Rework
 
-Canonical concept: [Scrap and Rework](../model/requirements/manufacturing/production-run/scrap-and-rework.md).
+Canonical concept: [Scrap and Rework](../model/domains/manufacturing/production-run/scrap-and-rework.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -278,37 +278,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Quality Plan
 
-Canonical concept: [Quality Plan](../model/requirements/manufacturing/quality-plan/quality-plan.md).
+Canonical concept: [Quality Plan](../model/domains/manufacturing/quality-plan/quality-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection
 
-Canonical concept: [Inspection](../model/requirements/manufacturing/quality-plan/inspection.md).
+Canonical concept: [Inspection](../model/domains/manufacturing/quality-plan/inspection.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection Result
 
-Canonical concept: [Inspection Result](../model/requirements/manufacturing/quality-plan/inspection-result.md).
+Canonical concept: [Inspection Result](../model/domains/manufacturing/quality-plan/inspection-result.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Nonconformance
 
-Canonical concept: [Nonconformance](../model/requirements/manufacturing/quality-plan/nonconformance.md).
+Canonical concept: [Nonconformance](../model/domains/manufacturing/quality-plan/nonconformance.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Corrective Action
 
-Canonical concept: [Corrective Action](../model/requirements/manufacturing/quality-plan/corrective-action.md).
+Canonical concept: [Corrective Action](../model/domains/manufacturing/quality-plan/corrective-action.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Genealogy
 
-Canonical concept: [Product Genealogy](../model/requirements/manufacturing/quality-plan/product-genealogy.md).
+Canonical concept: [Product Genealogy](../model/domains/manufacturing/quality-plan/product-genealogy.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -316,25 +316,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Maintenance Work Order
 
-Canonical concept: [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/maintenance-work-order.md).
+Canonical concept: [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/maintenance-work-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Deployment
 
-Canonical concept: [Product Deployment](../model/requirements/manufacturing/maintenance-work-order/product-deployment.md).
+Canonical concept: [Product Deployment](../model/domains/manufacturing/maintenance-work-order/product-deployment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Usage
 
-Canonical concept: [Product Usage](../model/requirements/manufacturing/maintenance-work-order/product-usage.md).
+Canonical concept: [Product Usage](../model/domains/manufacturing/maintenance-work-order/product-usage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Warranty or Field Issue
 
-Canonical concept: [Warranty or Field Issue](../model/requirements/manufacturing/maintenance-work-order/warranty-or-field-issue.md).
+Canonical concept: [Warranty or Field Issue](../model/domains/manufacturing/maintenance-work-order/warranty-or-field-issue.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -556,48 +556,48 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Product | [Product](../model/requirements/manufacturing/product/product.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Product Version | [Product Version](../model/requirements/manufacturing/product/product-version.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Part | [Part](../model/requirements/manufacturing/product/part.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Part Revision | [Part Revision](../model/requirements/manufacturing/product/part-revision.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Product Specification | [Product Specification](../model/requirements/manufacturing/product/product-specification.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Bill of Material | [Bill of Material](../model/requirements/manufacturing/product/bill-of-material.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| BOM Component | [BOM Component](../model/requirements/manufacturing/product/bom-component.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Engineering Change | [Engineering Change](../model/requirements/manufacturing/product/engineering-change.md) | [Product](../model/requirements/manufacturing/product/README.md) |
-| Routing | [Routing](../model/requirements/manufacturing/routing/routing.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
-| Operation Definition | [Operation Definition](../model/requirements/manufacturing/routing/operation-definition.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
-| Resource Requirement | [Resource Requirement](../model/requirements/manufacturing/routing/resource-requirement.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
-| Work Instruction | [Work Instruction](../model/requirements/manufacturing/routing/work-instruction.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
-| Recipe or Process Parameter | [Recipe or Process Parameter](../model/requirements/manufacturing/routing/recipe-or-process-parameter.md) | [Routing](../model/requirements/manufacturing/routing/README.md) |
-| Manufacturing Facility | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/manufacturing-facility.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
-| Work Center | [Work Center](../model/requirements/manufacturing/manufacturing-facility/work-center.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
-| Machine Asset | [Machine Asset](../model/requirements/manufacturing/manufacturing-facility/machine-asset.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
-| Tool | [Tool](../model/requirements/manufacturing/manufacturing-facility/tool.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
-| Capacity Plan | [Capacity Plan](../model/requirements/manufacturing/manufacturing-facility/capacity-plan.md) | [Manufacturing Facility](../model/requirements/manufacturing/manufacturing-facility/README.md) |
-| Manufacturing Requirement | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-requirement.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
-| Production Schedule | [Production Schedule](../model/requirements/manufacturing/manufacturing-requirement/production-schedule.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
-| Manufacturing Order | [Manufacturing Order](../model/requirements/manufacturing/manufacturing-requirement/manufacturing-order.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
-| Work Order Operation | [Work Order Operation](../model/requirements/manufacturing/manufacturing-requirement/work-order-operation.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
-| Material Requirement | [Material Requirement](../model/requirements/manufacturing/manufacturing-requirement/material-requirement.md) | [Manufacturing Requirement](../model/requirements/manufacturing/manufacturing-requirement/README.md) |
-| Inventory Item | [Inventory Item](../model/requirements/manufacturing/inventory-item/inventory-item.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
-| Material Lot | [Material Lot](../model/requirements/manufacturing/inventory-item/material-lot.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
-| Inventory Transaction | [Inventory Transaction](../model/requirements/manufacturing/inventory-item/inventory-transaction.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
-| Material Reservation | [Material Reservation](../model/requirements/manufacturing/inventory-item/material-reservation.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
-| Material Issue | [Material Issue](../model/requirements/manufacturing/inventory-item/material-issue.md) | [Inventory Item](../model/requirements/manufacturing/inventory-item/README.md) |
-| Production Run | [Production Run](../model/requirements/manufacturing/production-run/production-run.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Operation Execution | [Operation Execution](../model/requirements/manufacturing/production-run/operation-execution.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Labor Entry | [Labor Entry](../model/requirements/manufacturing/production-run/labor-entry.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Machine Entry | [Machine Entry](../model/requirements/manufacturing/production-run/machine-entry.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Process Measurement | [Process Measurement](../model/requirements/manufacturing/production-run/process-measurement.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Production Output | [Production Output](../model/requirements/manufacturing/production-run/production-output.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Scrap and Rework | [Scrap and Rework](../model/requirements/manufacturing/production-run/scrap-and-rework.md) | [Production Run](../model/requirements/manufacturing/production-run/README.md) |
-| Quality Plan | [Quality Plan](../model/requirements/manufacturing/quality-plan/quality-plan.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Inspection | [Inspection](../model/requirements/manufacturing/quality-plan/inspection.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Inspection Result | [Inspection Result](../model/requirements/manufacturing/quality-plan/inspection-result.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Nonconformance | [Nonconformance](../model/requirements/manufacturing/quality-plan/nonconformance.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Corrective Action | [Corrective Action](../model/requirements/manufacturing/quality-plan/corrective-action.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Product Genealogy | [Product Genealogy](../model/requirements/manufacturing/quality-plan/product-genealogy.md) | [Quality Plan](../model/requirements/manufacturing/quality-plan/README.md) |
-| Maintenance Work Order | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/maintenance-work-order.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
-| Product Deployment | [Product Deployment](../model/requirements/manufacturing/maintenance-work-order/product-deployment.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
-| Product Usage | [Product Usage](../model/requirements/manufacturing/maintenance-work-order/product-usage.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
-| Warranty or Field Issue | [Warranty or Field Issue](../model/requirements/manufacturing/maintenance-work-order/warranty-or-field-issue.md) | [Maintenance Work Order](../model/requirements/manufacturing/maintenance-work-order/README.md) |
+| Product | [Product](../model/domains/manufacturing/product/product.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Product Version | [Product Version](../model/domains/manufacturing/product/product-version.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Part | [Part](../model/domains/manufacturing/product/part.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Part Revision | [Part Revision](../model/domains/manufacturing/product/part-revision.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Product Specification | [Product Specification](../model/domains/manufacturing/product/product-specification.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Bill of Material | [Bill of Material](../model/domains/manufacturing/product/bill-of-material.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| BOM Component | [BOM Component](../model/domains/manufacturing/product/bom-component.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Engineering Change | [Engineering Change](../model/domains/manufacturing/product/engineering-change.md) | [Product](../model/domains/manufacturing/product/README.md) |
+| Routing | [Routing](../model/domains/manufacturing/routing/routing.md) | [Routing](../model/domains/manufacturing/routing/README.md) |
+| Operation Definition | [Operation Definition](../model/domains/manufacturing/routing/operation-definition.md) | [Routing](../model/domains/manufacturing/routing/README.md) |
+| Resource Requirement | [Resource Requirement](../model/domains/manufacturing/routing/resource-requirement.md) | [Routing](../model/domains/manufacturing/routing/README.md) |
+| Work Instruction | [Work Instruction](../model/domains/manufacturing/routing/work-instruction.md) | [Routing](../model/domains/manufacturing/routing/README.md) |
+| Recipe or Process Parameter | [Recipe or Process Parameter](../model/domains/manufacturing/routing/recipe-or-process-parameter.md) | [Routing](../model/domains/manufacturing/routing/README.md) |
+| Manufacturing Facility | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/manufacturing-facility.md) | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/README.md) |
+| Work Center | [Work Center](../model/domains/manufacturing/manufacturing-facility/work-center.md) | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/README.md) |
+| Machine Asset | [Machine Asset](../model/domains/manufacturing/manufacturing-facility/machine-asset.md) | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/README.md) |
+| Tool | [Tool](../model/domains/manufacturing/manufacturing-facility/tool.md) | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/README.md) |
+| Capacity Plan | [Capacity Plan](../model/domains/manufacturing/manufacturing-facility/capacity-plan.md) | [Manufacturing Facility](../model/domains/manufacturing/manufacturing-facility/README.md) |
+| Manufacturing Requirement | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/manufacturing-requirement.md) | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/README.md) |
+| Production Schedule | [Production Schedule](../model/domains/manufacturing/manufacturing-requirement/production-schedule.md) | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/README.md) |
+| Manufacturing Order | [Manufacturing Order](../model/domains/manufacturing/manufacturing-requirement/manufacturing-order.md) | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/README.md) |
+| Work Order Operation | [Work Order Operation](../model/domains/manufacturing/manufacturing-requirement/work-order-operation.md) | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/README.md) |
+| Material Requirement | [Material Requirement](../model/domains/manufacturing/manufacturing-requirement/material-requirement.md) | [Manufacturing Requirement](../model/domains/manufacturing/manufacturing-requirement/README.md) |
+| Inventory Item | [Inventory Item](../model/domains/manufacturing/inventory-item/inventory-item.md) | [Inventory Item](../model/domains/manufacturing/inventory-item/README.md) |
+| Material Lot | [Material Lot](../model/domains/manufacturing/inventory-item/material-lot.md) | [Inventory Item](../model/domains/manufacturing/inventory-item/README.md) |
+| Inventory Transaction | [Inventory Transaction](../model/domains/manufacturing/inventory-item/inventory-transaction.md) | [Inventory Item](../model/domains/manufacturing/inventory-item/README.md) |
+| Material Reservation | [Material Reservation](../model/domains/manufacturing/inventory-item/material-reservation.md) | [Inventory Item](../model/domains/manufacturing/inventory-item/README.md) |
+| Material Issue | [Material Issue](../model/domains/manufacturing/inventory-item/material-issue.md) | [Inventory Item](../model/domains/manufacturing/inventory-item/README.md) |
+| Production Run | [Production Run](../model/domains/manufacturing/production-run/production-run.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Operation Execution | [Operation Execution](../model/domains/manufacturing/production-run/operation-execution.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Labor Entry | [Labor Entry](../model/domains/manufacturing/production-run/labor-entry.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Machine Entry | [Machine Entry](../model/domains/manufacturing/production-run/machine-entry.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Process Measurement | [Process Measurement](../model/domains/manufacturing/production-run/process-measurement.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Production Output | [Production Output](../model/domains/manufacturing/production-run/production-output.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Scrap and Rework | [Scrap and Rework](../model/domains/manufacturing/production-run/scrap-and-rework.md) | [Production Run](../model/domains/manufacturing/production-run/README.md) |
+| Quality Plan | [Quality Plan](../model/domains/manufacturing/quality-plan/quality-plan.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Inspection | [Inspection](../model/domains/manufacturing/quality-plan/inspection.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Inspection Result | [Inspection Result](../model/domains/manufacturing/quality-plan/inspection-result.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Nonconformance | [Nonconformance](../model/domains/manufacturing/quality-plan/nonconformance.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Corrective Action | [Corrective Action](../model/domains/manufacturing/quality-plan/corrective-action.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Product Genealogy | [Product Genealogy](../model/domains/manufacturing/quality-plan/product-genealogy.md) | [Quality Plan](../model/domains/manufacturing/quality-plan/README.md) |
+| Maintenance Work Order | [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/maintenance-work-order.md) | [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/README.md) |
+| Product Deployment | [Product Deployment](../model/domains/manufacturing/maintenance-work-order/product-deployment.md) | [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/README.md) |
+| Product Usage | [Product Usage](../model/domains/manufacturing/maintenance-work-order/product-usage.md) | [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/README.md) |
+| Warranty or Field Issue | [Warranty or Field Issue](../model/domains/manufacturing/maintenance-work-order/warranty-or-field-issue.md) | [Maintenance Work Order](../model/domains/manufacturing/maintenance-work-order/README.md) |

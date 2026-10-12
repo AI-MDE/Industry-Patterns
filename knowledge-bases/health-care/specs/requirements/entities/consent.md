@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Consent](../../../../../model/requirements/health-care/consent/consent.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Consent](../../../../../model/domains/health-care/consent/consent.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

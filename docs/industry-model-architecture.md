@@ -13,7 +13,7 @@ The preferred approach is a coherent canonical semantic model, organized into do
 
 ## Canonical repository model
 
-The [coherent model](../model/README.md) implements the semantic organization described here. [Domains](../model/requirements/index.md) contain named ABE folders; each ABE has one Primary Entity and supporting concept pages. A [manifest](../model/model.json) connects source bindings, specialization references, pattern selections, and relationship expressions. Industry patterns now link to those canonical definitions.
+The [coherent model](../model/README.md) implements the semantic organization described here. [Domains](../model/domains/index.md) contain named ABE folders; each ABE has one Primary Entity and supporting concept pages. A [manifest](../model/model.json) connects source bindings, specialization references, pattern selections, and relationship expressions. Industry patterns now link to those canonical definitions.
 
 Capabilities select and use ABEs. The reusable catalog has one semantic home per concept; application projections may place selected ABEs under capabilities. Initial ABE groupings preserve the cohesive concept sections already present in the patterns and can be refined as additional business relationships are reviewed.
 

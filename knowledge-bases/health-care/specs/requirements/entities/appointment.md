@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Appointment](../../../../../model/requirements/health-care/schedule/appointment.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Appointment](../../../../../model/domains/health-care/schedule/appointment.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

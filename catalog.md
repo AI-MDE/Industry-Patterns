@@ -2,7 +2,7 @@
 
 ## Canonical model
 
-This catalog is a discovery view of the [coherent industry model](model/README.md). Select patterns here, then follow their canonical bindings to [Domains and ABEs](model/requirements/index.md). Shared definitions are reused; industry specializations preserve distinct meaning. See the [integration review](model/integration-review.md) for unresolved relationship expressions.
+This catalog is a discovery view of the [coherent industry model](model/README.md). Select patterns here, then follow their canonical bindings to [Domains and ABEs](model/domains/index.md). Shared definitions are reused; industry specializations preserve distinct meaning. See the [integration review](model/integration-review.md) for unresolved relationship expressions.
 
 ## Cross-Industry Modeling Patterns
 

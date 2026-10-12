@@ -2,6 +2,8 @@
 
 Administration contains the reusable structures used to operate an organization regardless of industry.
 
+Status: candidate coverage. These area pages describe potential additions; they are not registered Domains, ABEs, or entities in `model/model.json`. Reconcile each candidate with existing canonical definitions before adding it, including [Party](../party/README.md), [Resource Management](../resource-management/README.md), and [Finance](../finance/README.md).
+
 It is not an industry domain. Industry profiles select Administration concepts rather than redefining organization, workforce, facilities, or accounting concepts.
 
 ## Areas

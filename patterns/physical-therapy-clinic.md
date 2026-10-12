@@ -61,31 +61,31 @@ Rule: Person, Patient, Provider, employee, application user, and billing Party a
 
 ### Physical Therapy Clinic
 
-Canonical concept: [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md).
+Canonical concept: [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinic Location
 
-Canonical concept: [Clinic Location](../model/requirements/physical-therapy/physical-therapy-clinic/clinic-location.md).
+Canonical concept: [Clinic Location](../model/domains/physical-therapy/physical-therapy-clinic/clinic-location.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Provider
 
-Canonical concept: [Therapy Provider](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-provider.md).
+Canonical concept: [Therapy Provider](../model/domains/physical-therapy/physical-therapy-clinic/therapy-provider.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provider Assignment
 
-Canonical concept: [Provider Assignment](../model/requirements/physical-therapy/physical-therapy-clinic/provider-assignment.md).
+Canonical concept: [Provider Assignment](../model/domains/physical-therapy/physical-therapy-clinic/provider-assignment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Resource
 
-Canonical concept: [Therapy Resource](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-resource.md).
+Canonical concept: [Therapy Resource](../model/domains/physical-therapy/physical-therapy-clinic/therapy-resource.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -93,37 +93,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Referral
 
-Canonical concept: [Referral](../model/requirements/health-care/schedule/referral.md).
+Canonical concept: [Referral](../model/domains/health-care/schedule/referral.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Intake
 
-Canonical concept: [Patient Intake](../model/requirements/physical-therapy/patient-intake/patient-intake.md).
+Canonical concept: [Patient Intake](../model/domains/physical-therapy/patient-intake/patient-intake.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intake Response
 
-Canonical concept: [Intake Response](../model/requirements/physical-therapy/patient-intake/intake-response.md).
+Canonical concept: [Intake Response](../model/domains/physical-therapy/patient-intake/intake-response.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Eligibility Verification
 
-Canonical concept: [Eligibility Verification](../model/requirements/physical-therapy/patient-intake/eligibility-verification.md).
+Canonical concept: [Eligibility Verification](../model/domains/physical-therapy/patient-intake/eligibility-verification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Authorization
 
-Canonical concept: [Therapy Authorization](../model/requirements/physical-therapy/patient-intake/therapy-authorization.md).
+Canonical concept: [Therapy Authorization](../model/domains/physical-therapy/patient-intake/therapy-authorization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Attendance Event
 
-Canonical concept: [Attendance Event](../model/requirements/physical-therapy/patient-intake/attendance-event.md).
+Canonical concept: [Attendance Event](../model/domains/physical-therapy/patient-intake/attendance-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -131,25 +131,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Therapy Episode
 
-Canonical concept: [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/therapy-episode.md).
+Canonical concept: [Therapy Episode](../model/domains/physical-therapy/therapy-episode/therapy-episode.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Presenting Concern
 
-Canonical concept: [Presenting Concern](../model/requirements/physical-therapy/therapy-episode/presenting-concern.md).
+Canonical concept: [Presenting Concern](../model/domains/physical-therapy/therapy-episode/presenting-concern.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Precaution or Contraindication
 
-Canonical concept: [Precaution or Contraindication](../model/requirements/physical-therapy/therapy-episode/precaution-or-contraindication.md).
+Canonical concept: [Precaution or Contraindication](../model/domains/physical-therapy/therapy-episode/precaution-or-contraindication.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Functional Limitation
 
-Canonical concept: [Functional Limitation](../model/requirements/physical-therapy/therapy-episode/functional-limitation.md).
+Canonical concept: [Functional Limitation](../model/domains/physical-therapy/therapy-episode/functional-limitation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -157,37 +157,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Therapy Evaluation
 
-Canonical concept: [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/therapy-evaluation.md).
+Canonical concept: [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/therapy-evaluation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subjective History
 
-Canonical concept: [Subjective History](../model/requirements/physical-therapy/therapy-evaluation/subjective-history.md).
+Canonical concept: [Subjective History](../model/domains/physical-therapy/therapy-evaluation/subjective-history.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Finding
 
-Canonical concept: [Clinical Finding](../model/requirements/physical-therapy/therapy-evaluation/clinical-finding.md).
+Canonical concept: [Clinical Finding](../model/domains/physical-therapy/therapy-evaluation/clinical-finding.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Definition
 
-Canonical concept: [Outcome Measure Definition](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-definition.md).
+Canonical concept: [Outcome Measure Definition](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-definition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Result
 
-Canonical concept: [Outcome Measure Result](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-result.md).
+Canonical concept: [Outcome Measure Result](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-result.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Assessment
 
-Canonical concept: [Therapy Assessment](../model/requirements/physical-therapy/therapy-evaluation/therapy-assessment.md).
+Canonical concept: [Therapy Assessment](../model/domains/physical-therapy/therapy-evaluation/therapy-assessment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -195,31 +195,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Plan of Care
 
-Canonical concept: [Plan of Care](../model/requirements/physical-therapy/plan-of-care/plan-of-care.md).
+Canonical concept: [Plan of Care](../model/domains/physical-therapy/plan-of-care/plan-of-care.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Goal
 
-Canonical concept: [Therapy Goal](../model/requirements/physical-therapy/plan-of-care/therapy-goal.md).
+Canonical concept: [Therapy Goal](../model/domains/physical-therapy/plan-of-care/therapy-goal.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Goal Progress
 
-Canonical concept: [Goal Progress](../model/requirements/physical-therapy/plan-of-care/goal-progress.md).
+Canonical concept: [Goal Progress](../model/domains/physical-therapy/plan-of-care/goal-progress.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Treatment Plan Item
 
-Canonical concept: [Treatment Plan Item](../model/requirements/physical-therapy/plan-of-care/treatment-plan-item.md).
+Canonical concept: [Treatment Plan Item](../model/domains/physical-therapy/plan-of-care/treatment-plan-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Plan Approval or Certification
 
-Canonical concept: [Plan Approval or Certification](../model/requirements/physical-therapy/plan-of-care/plan-approval-or-certification.md).
+Canonical concept: [Plan Approval or Certification](../model/domains/physical-therapy/plan-of-care/plan-approval-or-certification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -227,25 +227,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Provider Schedule
 
-Canonical concept: [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/provider-schedule.md).
+Canonical concept: [Provider Schedule](../model/domains/physical-therapy/provider-schedule/provider-schedule.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Appointment
 
-Canonical concept: [Therapy Appointment](../model/requirements/physical-therapy/provider-schedule/therapy-appointment.md).
+Canonical concept: [Therapy Appointment](../model/domains/physical-therapy/provider-schedule/therapy-appointment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Visit
 
-Canonical concept: [Therapy Visit](../model/requirements/physical-therapy/provider-schedule/therapy-visit.md).
+Canonical concept: [Therapy Visit](../model/domains/physical-therapy/provider-schedule/therapy-visit.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Visit Note
 
-Canonical concept: [Visit Note](../model/requirements/physical-therapy/provider-schedule/visit-note.md).
+Canonical concept: [Visit Note](../model/domains/physical-therapy/provider-schedule/visit-note.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -253,43 +253,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Intervention Definition
 
-Canonical concept: [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/intervention-definition.md).
+Canonical concept: [Intervention Definition](../model/domains/physical-therapy/intervention-definition/intervention-definition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intervention Delivery
 
-Canonical concept: [Intervention Delivery](../model/requirements/physical-therapy/intervention-definition/intervention-delivery.md).
+Canonical concept: [Intervention Delivery](../model/domains/physical-therapy/intervention-definition/intervention-delivery.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Definition
 
-Canonical concept: [Exercise Definition](../model/requirements/physical-therapy/intervention-definition/exercise-definition.md).
+Canonical concept: [Exercise Definition](../model/domains/physical-therapy/intervention-definition/exercise-definition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Prescription
 
-Canonical concept: [Exercise Prescription](../model/requirements/physical-therapy/intervention-definition/exercise-prescription.md).
+Canonical concept: [Exercise Prescription](../model/domains/physical-therapy/intervention-definition/exercise-prescription.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Exercise Program
 
-Canonical concept: [Home Exercise Program](../model/requirements/physical-therapy/intervention-definition/home-exercise-program.md).
+Canonical concept: [Home Exercise Program](../model/domains/physical-therapy/intervention-definition/home-exercise-program.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Program Activity
 
-Canonical concept: [Home Program Activity](../model/requirements/physical-therapy/intervention-definition/home-program-activity.md).
+Canonical concept: [Home Program Activity](../model/domains/physical-therapy/intervention-definition/home-program-activity.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Education
 
-Canonical concept: [Patient Education](../model/requirements/physical-therapy/intervention-definition/patient-education.md).
+Canonical concept: [Patient Education](../model/domains/physical-therapy/intervention-definition/patient-education.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -297,31 +297,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Progress Evaluation
 
-Canonical concept: [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/progress-evaluation.md).
+Canonical concept: [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/progress-evaluation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adverse Event
 
-Canonical concept: [Adverse Event](../model/requirements/physical-therapy/progress-evaluation/adverse-event.md).
+Canonical concept: [Adverse Event](../model/domains/physical-therapy/progress-evaluation/adverse-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Communication
 
-Canonical concept: [Clinical Communication](../model/requirements/physical-therapy/progress-evaluation/clinical-communication.md).
+Canonical concept: [Clinical Communication](../model/domains/physical-therapy/progress-evaluation/clinical-communication.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge
 
-Canonical concept: [Discharge](../model/requirements/physical-therapy/progress-evaluation/discharge.md).
+Canonical concept: [Discharge](../model/domains/physical-therapy/progress-evaluation/discharge.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge Summary
 
-Canonical concept: [Discharge Summary](../model/requirements/physical-therapy/progress-evaluation/discharge-summary.md).
+Canonical concept: [Discharge Summary](../model/domains/physical-therapy/progress-evaluation/discharge-summary.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -329,43 +329,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Coverage
 
-Canonical concept: [Coverage](../model/requirements/health-care/coverage/coverage.md).
+Canonical concept: [Coverage](../model/domains/health-care/coverage/coverage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Charge
 
-Canonical concept: [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/therapy-charge.md).
+Canonical concept: [Therapy Charge](../model/domains/physical-therapy/therapy-charge/therapy-charge.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-Canonical concept: [Claim](../model/requirements/health-care/coverage/claim.md).
+Canonical concept: [Claim](../model/domains/health-care/coverage/claim.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Line
 
-Canonical concept: [Claim Line](../model/requirements/health-care/coverage/claim-line.md).
+Canonical concept: [Claim Line](../model/domains/health-care/coverage/claim-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjudication
 
-Canonical concept: [Adjudication](../model/requirements/health-care/coverage/adjudication.md).
+Canonical concept: [Adjudication](../model/domains/health-care/coverage/adjudication.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Invoice
 
-Canonical concept: [Patient Invoice](../model/requirements/physical-therapy/therapy-charge/patient-invoice.md).
+Canonical concept: [Patient Invoice](../model/domains/physical-therapy/therapy-charge/patient-invoice.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -673,52 +673,52 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Physical Therapy Clinic | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
-| Clinic Location | [Clinic Location](../model/requirements/physical-therapy/physical-therapy-clinic/clinic-location.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
-| Therapy Provider | [Therapy Provider](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-provider.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
-| Provider Assignment | [Provider Assignment](../model/requirements/physical-therapy/physical-therapy-clinic/provider-assignment.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
-| Therapy Resource | [Therapy Resource](../model/requirements/physical-therapy/physical-therapy-clinic/therapy-resource.md) | [Physical Therapy Clinic](../model/requirements/physical-therapy/physical-therapy-clinic/README.md) |
-| Referral | [Referral](../model/requirements/health-care/schedule/referral.md) | [Schedule](../model/requirements/health-care/schedule/README.md) |
-| Patient Intake | [Patient Intake](../model/requirements/physical-therapy/patient-intake/patient-intake.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
-| Intake Response | [Intake Response](../model/requirements/physical-therapy/patient-intake/intake-response.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
-| Eligibility Verification | [Eligibility Verification](../model/requirements/physical-therapy/patient-intake/eligibility-verification.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
-| Therapy Authorization | [Therapy Authorization](../model/requirements/physical-therapy/patient-intake/therapy-authorization.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
-| Attendance Event | [Attendance Event](../model/requirements/physical-therapy/patient-intake/attendance-event.md) | [Patient Intake](../model/requirements/physical-therapy/patient-intake/README.md) |
-| Therapy Episode | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/therapy-episode.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
-| Presenting Concern | [Presenting Concern](../model/requirements/physical-therapy/therapy-episode/presenting-concern.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
-| Precaution or Contraindication | [Precaution or Contraindication](../model/requirements/physical-therapy/therapy-episode/precaution-or-contraindication.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
-| Functional Limitation | [Functional Limitation](../model/requirements/physical-therapy/therapy-episode/functional-limitation.md) | [Therapy Episode](../model/requirements/physical-therapy/therapy-episode/README.md) |
-| Therapy Evaluation | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/therapy-evaluation.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Subjective History | [Subjective History](../model/requirements/physical-therapy/therapy-evaluation/subjective-history.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Clinical Finding | [Clinical Finding](../model/requirements/physical-therapy/therapy-evaluation/clinical-finding.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Outcome Measure Definition | [Outcome Measure Definition](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-definition.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Outcome Measure Result | [Outcome Measure Result](../model/requirements/physical-therapy/therapy-evaluation/outcome-measure-result.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Therapy Assessment | [Therapy Assessment](../model/requirements/physical-therapy/therapy-evaluation/therapy-assessment.md) | [Therapy Evaluation](../model/requirements/physical-therapy/therapy-evaluation/README.md) |
-| Plan of Care | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/plan-of-care.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
-| Therapy Goal | [Therapy Goal](../model/requirements/physical-therapy/plan-of-care/therapy-goal.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
-| Goal Progress | [Goal Progress](../model/requirements/physical-therapy/plan-of-care/goal-progress.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
-| Treatment Plan Item | [Treatment Plan Item](../model/requirements/physical-therapy/plan-of-care/treatment-plan-item.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
-| Plan Approval or Certification | [Plan Approval or Certification](../model/requirements/physical-therapy/plan-of-care/plan-approval-or-certification.md) | [Plan of Care](../model/requirements/physical-therapy/plan-of-care/README.md) |
-| Provider Schedule | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/provider-schedule.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
-| Therapy Appointment | [Therapy Appointment](../model/requirements/physical-therapy/provider-schedule/therapy-appointment.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
-| Therapy Visit | [Therapy Visit](../model/requirements/physical-therapy/provider-schedule/therapy-visit.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
-| Visit Note | [Visit Note](../model/requirements/physical-therapy/provider-schedule/visit-note.md) | [Provider Schedule](../model/requirements/physical-therapy/provider-schedule/README.md) |
-| Intervention Definition | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/intervention-definition.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Intervention Delivery | [Intervention Delivery](../model/requirements/physical-therapy/intervention-definition/intervention-delivery.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Exercise Definition | [Exercise Definition](../model/requirements/physical-therapy/intervention-definition/exercise-definition.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Exercise Prescription | [Exercise Prescription](../model/requirements/physical-therapy/intervention-definition/exercise-prescription.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Home Exercise Program | [Home Exercise Program](../model/requirements/physical-therapy/intervention-definition/home-exercise-program.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Home Program Activity | [Home Program Activity](../model/requirements/physical-therapy/intervention-definition/home-program-activity.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Patient Education | [Patient Education](../model/requirements/physical-therapy/intervention-definition/patient-education.md) | [Intervention Definition](../model/requirements/physical-therapy/intervention-definition/README.md) |
-| Progress Evaluation | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/progress-evaluation.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
-| Adverse Event | [Adverse Event](../model/requirements/physical-therapy/progress-evaluation/adverse-event.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
-| Clinical Communication | [Clinical Communication](../model/requirements/physical-therapy/progress-evaluation/clinical-communication.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
-| Discharge | [Discharge](../model/requirements/physical-therapy/progress-evaluation/discharge.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
-| Discharge Summary | [Discharge Summary](../model/requirements/physical-therapy/progress-evaluation/discharge-summary.md) | [Progress Evaluation](../model/requirements/physical-therapy/progress-evaluation/README.md) |
-| Coverage | [Coverage](../model/requirements/health-care/coverage/coverage.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
-| Therapy Charge | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/therapy-charge.md) | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/README.md) |
-| Claim | [Claim](../model/requirements/health-care/coverage/claim.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
-| Claim Line | [Claim Line](../model/requirements/health-care/coverage/claim-line.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
-| Adjudication | [Adjudication](../model/requirements/health-care/coverage/adjudication.md) | [Coverage](../model/requirements/health-care/coverage/README.md) |
-| Patient Invoice | [Patient Invoice](../model/requirements/physical-therapy/therapy-charge/patient-invoice.md) | [Therapy Charge](../model/requirements/physical-therapy/therapy-charge/README.md) |
-| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
+| Physical Therapy Clinic | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
+| Clinic Location | [Clinic Location](../model/domains/physical-therapy/physical-therapy-clinic/clinic-location.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
+| Therapy Provider | [Therapy Provider](../model/domains/physical-therapy/physical-therapy-clinic/therapy-provider.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
+| Provider Assignment | [Provider Assignment](../model/domains/physical-therapy/physical-therapy-clinic/provider-assignment.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
+| Therapy Resource | [Therapy Resource](../model/domains/physical-therapy/physical-therapy-clinic/therapy-resource.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
+| Referral | [Referral](../model/domains/health-care/schedule/referral.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
+| Patient Intake | [Patient Intake](../model/domains/physical-therapy/patient-intake/patient-intake.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
+| Intake Response | [Intake Response](../model/domains/physical-therapy/patient-intake/intake-response.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
+| Eligibility Verification | [Eligibility Verification](../model/domains/physical-therapy/patient-intake/eligibility-verification.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
+| Therapy Authorization | [Therapy Authorization](../model/domains/physical-therapy/patient-intake/therapy-authorization.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
+| Attendance Event | [Attendance Event](../model/domains/physical-therapy/patient-intake/attendance-event.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
+| Therapy Episode | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/therapy-episode.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
+| Presenting Concern | [Presenting Concern](../model/domains/physical-therapy/therapy-episode/presenting-concern.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
+| Precaution or Contraindication | [Precaution or Contraindication](../model/domains/physical-therapy/therapy-episode/precaution-or-contraindication.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
+| Functional Limitation | [Functional Limitation](../model/domains/physical-therapy/therapy-episode/functional-limitation.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
+| Therapy Evaluation | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/therapy-evaluation.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Subjective History | [Subjective History](../model/domains/physical-therapy/therapy-evaluation/subjective-history.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Clinical Finding | [Clinical Finding](../model/domains/physical-therapy/therapy-evaluation/clinical-finding.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Outcome Measure Definition | [Outcome Measure Definition](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-definition.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Outcome Measure Result | [Outcome Measure Result](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-result.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Therapy Assessment | [Therapy Assessment](../model/domains/physical-therapy/therapy-evaluation/therapy-assessment.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
+| Plan of Care | [Plan of Care](../model/domains/physical-therapy/plan-of-care/plan-of-care.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
+| Therapy Goal | [Therapy Goal](../model/domains/physical-therapy/plan-of-care/therapy-goal.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
+| Goal Progress | [Goal Progress](../model/domains/physical-therapy/plan-of-care/goal-progress.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
+| Treatment Plan Item | [Treatment Plan Item](../model/domains/physical-therapy/plan-of-care/treatment-plan-item.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
+| Plan Approval or Certification | [Plan Approval or Certification](../model/domains/physical-therapy/plan-of-care/plan-approval-or-certification.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
+| Provider Schedule | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/provider-schedule.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
+| Therapy Appointment | [Therapy Appointment](../model/domains/physical-therapy/provider-schedule/therapy-appointment.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
+| Therapy Visit | [Therapy Visit](../model/domains/physical-therapy/provider-schedule/therapy-visit.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
+| Visit Note | [Visit Note](../model/domains/physical-therapy/provider-schedule/visit-note.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
+| Intervention Definition | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/intervention-definition.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Intervention Delivery | [Intervention Delivery](../model/domains/physical-therapy/intervention-definition/intervention-delivery.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Exercise Definition | [Exercise Definition](../model/domains/physical-therapy/intervention-definition/exercise-definition.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Exercise Prescription | [Exercise Prescription](../model/domains/physical-therapy/intervention-definition/exercise-prescription.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Home Exercise Program | [Home Exercise Program](../model/domains/physical-therapy/intervention-definition/home-exercise-program.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Home Program Activity | [Home Program Activity](../model/domains/physical-therapy/intervention-definition/home-program-activity.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Patient Education | [Patient Education](../model/domains/physical-therapy/intervention-definition/patient-education.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
+| Progress Evaluation | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/progress-evaluation.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
+| Adverse Event | [Adverse Event](../model/domains/physical-therapy/progress-evaluation/adverse-event.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
+| Clinical Communication | [Clinical Communication](../model/domains/physical-therapy/progress-evaluation/clinical-communication.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
+| Discharge | [Discharge](../model/domains/physical-therapy/progress-evaluation/discharge.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
+| Discharge Summary | [Discharge Summary](../model/domains/physical-therapy/progress-evaluation/discharge-summary.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
+| Coverage | [Coverage](../model/domains/health-care/coverage/coverage.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
+| Therapy Charge | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/therapy-charge.md) | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/README.md) |
+| Claim | [Claim](../model/domains/health-care/coverage/claim.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
+| Claim Line | [Claim Line](../model/domains/health-care/coverage/claim-line.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
+| Adjudication | [Adjudication](../model/domains/health-care/coverage/adjudication.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
+| Patient Invoice | [Patient Invoice](../model/domains/physical-therapy/therapy-charge/patient-invoice.md) | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/README.md) |
+| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |

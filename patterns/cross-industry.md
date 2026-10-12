@@ -27,31 +27,31 @@ It is not a single universal database schema. Concepts should be adopted only wh
 
 ### Party
 
-Canonical concept: [Party](../model/requirements/party/party/party.md).
+Canonical concept: [Party](../model/domains/party/party/party.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Person
 
-Canonical concept: [Person](../model/requirements/party/party/person.md).
+Canonical concept: [Person](../model/domains/party/party/person.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Organization
 
-Canonical concept: [Organization](../model/requirements/party/party/organization.md).
+Canonical concept: [Organization](../model/domains/party/party/organization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Role
 
-Canonical concept: [Party Role](../model/requirements/party/party/party-role.md).
+Canonical concept: [Party Role](../model/domains/party/party/party-role.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Relationship
 
-Canonical concept: [Party Relationship](../model/requirements/party/party/party-relationship.md).
+Canonical concept: [Party Relationship](../model/domains/party/party/party-relationship.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -59,19 +59,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Contact Mechanism
 
-Canonical concept: [Contact Mechanism](../model/requirements/party/contact-mechanism/contact-mechanism.md).
+Canonical concept: [Contact Mechanism](../model/domains/party/contact-mechanism/contact-mechanism.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Party Contact
 
-Canonical concept: [Party Contact](../model/requirements/party/contact-mechanism/party-contact.md).
+Canonical concept: [Party Contact](../model/domains/party/contact-mechanism/party-contact.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Geographic Location
 
-Canonical concept: [Geographic Location](../model/requirements/party/contact-mechanism/geographic-location.md).
+Canonical concept: [Geographic Location](../model/domains/party/contact-mechanism/geographic-location.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -79,19 +79,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Classification Scheme
 
-Canonical concept: [Classification Scheme](../model/requirements/classification/classification/classification-scheme.md).
+Canonical concept: [Classification Scheme](../model/domains/classification/classification/classification-scheme.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Classification
 
-Canonical concept: [Classification](../model/requirements/classification/classification/classification.md).
+Canonical concept: [Classification](../model/domains/classification/classification/classification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Classification Assignment
 
-Canonical concept: [Classification Assignment](../model/requirements/classification/classification/classification-assignment.md).
+Canonical concept: [Classification Assignment](../model/domains/classification/classification/classification-assignment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -99,31 +99,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Product
 
-Canonical concept: [Product](../model/requirements/product-and-service/product/product.md).
+Canonical concept: [Product](../model/domains/product-and-service/product/product.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Component
 
-Canonical concept: [Product Component](../model/requirements/product-and-service/product/product-component.md).
+Canonical concept: [Product Component](../model/domains/product-and-service/product/product-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service
 
-Canonical concept: [Service](../model/requirements/product-and-service/product/service.md).
+Canonical concept: [Service](../model/domains/product-and-service/product/service.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offering
 
-Canonical concept: [Offering](../model/requirements/product-and-service/product/offering.md).
+Canonical concept: [Offering](../model/domains/product-and-service/product/offering.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price
 
-Canonical concept: [Price](../model/requirements/product-and-service/product/price.md).
+Canonical concept: [Price](../model/domains/product-and-service/product/price.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -131,37 +131,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Agreement
 
-Canonical concept: [Agreement](../model/requirements/agreement/agreement/agreement.md).
+Canonical concept: [Agreement](../model/domains/agreement/agreement/agreement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Role
 
-Canonical concept: [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md).
+Canonical concept: [Agreement Role](../model/domains/agreement/agreement/agreement-role.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Term
 
-Canonical concept: [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md).
+Canonical concept: [Agreement Term](../model/domains/agreement/agreement/agreement-term.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commitment
 
-Canonical concept: [Commitment](../model/requirements/agreement/agreement/commitment.md).
+Canonical concept: [Commitment](../model/domains/agreement/agreement/commitment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Entitlement
 
-Canonical concept: [Entitlement](../model/requirements/agreement/agreement/entitlement.md).
+Canonical concept: [Entitlement](../model/domains/agreement/agreement/entitlement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription
 
-Canonical concept: [Subscription](../model/requirements/agreement/agreement/subscription.md).
+Canonical concept: [Subscription](../model/domains/agreement/agreement/subscription.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -169,25 +169,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Request
 
-Canonical concept: [Request](../model/requirements/request-and-fulfillment/request/request.md).
+Canonical concept: [Request](../model/domains/request-and-fulfillment/request/request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order
 
-Canonical concept: [Order](../model/requirements/request-and-fulfillment/request/order.md).
+Canonical concept: [Order](../model/domains/request-and-fulfillment/request/order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Line
 
-Canonical concept: [Order Line](../model/requirements/request-and-fulfillment/request/order-line.md).
+Canonical concept: [Order Line](../model/domains/request-and-fulfillment/request/order-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment
 
-Canonical concept: [Fulfillment](../model/requirements/request-and-fulfillment/request/fulfillment.md).
+Canonical concept: [Fulfillment](../model/domains/request-and-fulfillment/request/fulfillment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -195,25 +195,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Business Event
 
-Canonical concept: [Business Event](../model/requirements/work-management/work-effort/business-event.md).
+Canonical concept: [Business Event](../model/domains/work-management/work-effort/business-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Effort
 
-Canonical concept: [Work Effort](../model/requirements/work-management/work-effort/work-effort.md).
+Canonical concept: [Work Effort](../model/domains/work-management/work-effort/work-effort.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Assignment
 
-Canonical concept: [Assignment](../model/requirements/work-management/work-effort/assignment.md).
+Canonical concept: [Assignment](../model/domains/work-management/work-effort/assignment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome
 
-Canonical concept: [Outcome](../model/requirements/work-management/work-effort/outcome.md).
+Canonical concept: [Outcome](../model/domains/work-management/work-effort/outcome.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -221,19 +221,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Status Type
 
-Canonical concept: [Status Type](../model/requirements/work-management/status-type/status-type.md).
+Canonical concept: [Status Type](../model/domains/work-management/status-type/status-type.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status Transition
 
-Canonical concept: [Status Transition](../model/requirements/work-management/status-type/status-transition.md).
+Canonical concept: [Status Transition](../model/domains/work-management/status-type/status-transition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status History
 
-Canonical concept: [Status History](../model/requirements/work-management/status-type/status-history.md).
+Canonical concept: [Status History](../model/domains/work-management/status-type/status-history.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -241,31 +241,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Charge
 
-Canonical concept: [Charge](../model/requirements/finance/invoice/charge.md).
+Canonical concept: [Charge](../model/domains/finance/invoice/charge.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-Canonical concept: [Invoice](../model/requirements/finance/invoice/invoice.md).
+Canonical concept: [Invoice](../model/domains/finance/invoice/invoice.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice Line
 
-Canonical concept: [Invoice Line](../model/requirements/finance/invoice/invoice-line.md).
+Canonical concept: [Invoice Line](../model/domains/finance/invoice/invoice-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/requirements/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Canonical concept: [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md).
+Canonical concept: [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -273,19 +273,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Measure
 
-Canonical concept: [Measure](../model/requirements/measurement/measure/measure.md).
+Canonical concept: [Measure](../model/domains/measurement/measure/measure.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Measurement
 
-Canonical concept: [Measurement](../model/requirements/measurement/measure/measurement.md).
+Canonical concept: [Measurement](../model/domains/measurement/measure/measurement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Analytic Fact
 
-Canonical concept: [Analytic Fact](../model/requirements/measurement/measure/analytic-fact.md).
+Canonical concept: [Analytic Fact](../model/domains/measurement/measure/analytic-fact.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -403,44 +403,44 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Party | [Party](../model/requirements/party/party/party.md) | [Party](../model/requirements/party/party/README.md) |
-| Person | [Person](../model/requirements/party/party/person.md) | [Party](../model/requirements/party/party/README.md) |
-| Organization | [Organization](../model/requirements/party/party/organization.md) | [Party](../model/requirements/party/party/README.md) |
-| Party Role | [Party Role](../model/requirements/party/party/party-role.md) | [Party](../model/requirements/party/party/README.md) |
-| Party Relationship | [Party Relationship](../model/requirements/party/party/party-relationship.md) | [Party](../model/requirements/party/party/README.md) |
-| Contact Mechanism | [Contact Mechanism](../model/requirements/party/contact-mechanism/contact-mechanism.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
-| Party Contact | [Party Contact](../model/requirements/party/contact-mechanism/party-contact.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
-| Geographic Location | [Geographic Location](../model/requirements/party/contact-mechanism/geographic-location.md) | [Contact Mechanism](../model/requirements/party/contact-mechanism/README.md) |
-| Classification Scheme | [Classification Scheme](../model/requirements/classification/classification/classification-scheme.md) | [Classification](../model/requirements/classification/classification/README.md) |
-| Classification | [Classification](../model/requirements/classification/classification/classification.md) | [Classification](../model/requirements/classification/classification/README.md) |
-| Classification Assignment | [Classification Assignment](../model/requirements/classification/classification/classification-assignment.md) | [Classification](../model/requirements/classification/classification/README.md) |
-| Product | [Product](../model/requirements/product-and-service/product/product.md) | [Product](../model/requirements/product-and-service/product/README.md) |
-| Product Component | [Product Component](../model/requirements/product-and-service/product/product-component.md) | [Product](../model/requirements/product-and-service/product/README.md) |
-| Service | [Service](../model/requirements/product-and-service/product/service.md) | [Product](../model/requirements/product-and-service/product/README.md) |
-| Offering | [Offering](../model/requirements/product-and-service/product/offering.md) | [Product](../model/requirements/product-and-service/product/README.md) |
-| Price | [Price](../model/requirements/product-and-service/product/price.md) | [Product](../model/requirements/product-and-service/product/README.md) |
-| Agreement | [Agreement](../model/requirements/agreement/agreement/agreement.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Agreement Role | [Agreement Role](../model/requirements/agreement/agreement/agreement-role.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Agreement Term | [Agreement Term](../model/requirements/agreement/agreement/agreement-term.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Commitment | [Commitment](../model/requirements/agreement/agreement/commitment.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Entitlement | [Entitlement](../model/requirements/agreement/agreement/entitlement.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Subscription | [Subscription](../model/requirements/agreement/agreement/subscription.md) | [Agreement](../model/requirements/agreement/agreement/README.md) |
-| Request | [Request](../model/requirements/request-and-fulfillment/request/request.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
-| Order | [Order](../model/requirements/request-and-fulfillment/request/order.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
-| Order Line | [Order Line](../model/requirements/request-and-fulfillment/request/order-line.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
-| Fulfillment | [Fulfillment](../model/requirements/request-and-fulfillment/request/fulfillment.md) | [Request](../model/requirements/request-and-fulfillment/request/README.md) |
-| Business Event | [Business Event](../model/requirements/work-management/work-effort/business-event.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
-| Work Effort | [Work Effort](../model/requirements/work-management/work-effort/work-effort.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
-| Assignment | [Assignment](../model/requirements/work-management/work-effort/assignment.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
-| Outcome | [Outcome](../model/requirements/work-management/work-effort/outcome.md) | [Work Effort](../model/requirements/work-management/work-effort/README.md) |
-| Status Type | [Status Type](../model/requirements/work-management/status-type/status-type.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
-| Status Transition | [Status Transition](../model/requirements/work-management/status-type/status-transition.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
-| Status History | [Status History](../model/requirements/work-management/status-type/status-history.md) | [Status Type](../model/requirements/work-management/status-type/README.md) |
-| Charge | [Charge](../model/requirements/finance/invoice/charge.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Invoice | [Invoice](../model/requirements/finance/invoice/invoice.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Invoice Line | [Invoice Line](../model/requirements/finance/invoice/invoice-line.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Payment | [Payment](../model/requirements/finance/invoice/payment.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Payment Allocation | [Payment Allocation](../model/requirements/finance/invoice/payment-allocation.md) | [Invoice](../model/requirements/finance/invoice/README.md) |
-| Measure | [Measure](../model/requirements/measurement/measure/measure.md) | [Measure](../model/requirements/measurement/measure/README.md) |
-| Measurement | [Measurement](../model/requirements/measurement/measure/measurement.md) | [Measure](../model/requirements/measurement/measure/README.md) |
-| Analytic Fact | [Analytic Fact](../model/requirements/measurement/measure/analytic-fact.md) | [Measure](../model/requirements/measurement/measure/README.md) |
+| Party | [Party](../model/domains/party/party/party.md) | [Party](../model/domains/party/party/README.md) |
+| Person | [Person](../model/domains/party/party/person.md) | [Party](../model/domains/party/party/README.md) |
+| Organization | [Organization](../model/domains/party/party/organization.md) | [Party](../model/domains/party/party/README.md) |
+| Party Role | [Party Role](../model/domains/party/party/party-role.md) | [Party](../model/domains/party/party/README.md) |
+| Party Relationship | [Party Relationship](../model/domains/party/party/party-relationship.md) | [Party](../model/domains/party/party/README.md) |
+| Contact Mechanism | [Contact Mechanism](../model/domains/party/contact-mechanism/contact-mechanism.md) | [Contact Mechanism](../model/domains/party/contact-mechanism/README.md) |
+| Party Contact | [Party Contact](../model/domains/party/contact-mechanism/party-contact.md) | [Contact Mechanism](../model/domains/party/contact-mechanism/README.md) |
+| Geographic Location | [Geographic Location](../model/domains/party/contact-mechanism/geographic-location.md) | [Contact Mechanism](../model/domains/party/contact-mechanism/README.md) |
+| Classification Scheme | [Classification Scheme](../model/domains/classification/classification/classification-scheme.md) | [Classification](../model/domains/classification/classification/README.md) |
+| Classification | [Classification](../model/domains/classification/classification/classification.md) | [Classification](../model/domains/classification/classification/README.md) |
+| Classification Assignment | [Classification Assignment](../model/domains/classification/classification/classification-assignment.md) | [Classification](../model/domains/classification/classification/README.md) |
+| Product | [Product](../model/domains/product-and-service/product/product.md) | [Product](../model/domains/product-and-service/product/README.md) |
+| Product Component | [Product Component](../model/domains/product-and-service/product/product-component.md) | [Product](../model/domains/product-and-service/product/README.md) |
+| Service | [Service](../model/domains/product-and-service/product/service.md) | [Product](../model/domains/product-and-service/product/README.md) |
+| Offering | [Offering](../model/domains/product-and-service/product/offering.md) | [Product](../model/domains/product-and-service/product/README.md) |
+| Price | [Price](../model/domains/product-and-service/product/price.md) | [Product](../model/domains/product-and-service/product/README.md) |
+| Agreement | [Agreement](../model/domains/agreement/agreement/agreement.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Agreement Role | [Agreement Role](../model/domains/agreement/agreement/agreement-role.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Agreement Term | [Agreement Term](../model/domains/agreement/agreement/agreement-term.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Commitment | [Commitment](../model/domains/agreement/agreement/commitment.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Entitlement | [Entitlement](../model/domains/agreement/agreement/entitlement.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Subscription | [Subscription](../model/domains/agreement/agreement/subscription.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
+| Request | [Request](../model/domains/request-and-fulfillment/request/request.md) | [Request](../model/domains/request-and-fulfillment/request/README.md) |
+| Order | [Order](../model/domains/request-and-fulfillment/request/order.md) | [Request](../model/domains/request-and-fulfillment/request/README.md) |
+| Order Line | [Order Line](../model/domains/request-and-fulfillment/request/order-line.md) | [Request](../model/domains/request-and-fulfillment/request/README.md) |
+| Fulfillment | [Fulfillment](../model/domains/request-and-fulfillment/request/fulfillment.md) | [Request](../model/domains/request-and-fulfillment/request/README.md) |
+| Business Event | [Business Event](../model/domains/work-management/work-effort/business-event.md) | [Work Effort](../model/domains/work-management/work-effort/README.md) |
+| Work Effort | [Work Effort](../model/domains/work-management/work-effort/work-effort.md) | [Work Effort](../model/domains/work-management/work-effort/README.md) |
+| Assignment | [Assignment](../model/domains/work-management/work-effort/assignment.md) | [Work Effort](../model/domains/work-management/work-effort/README.md) |
+| Outcome | [Outcome](../model/domains/work-management/work-effort/outcome.md) | [Work Effort](../model/domains/work-management/work-effort/README.md) |
+| Status Type | [Status Type](../model/domains/work-management/status-type/status-type.md) | [Status Type](../model/domains/work-management/status-type/README.md) |
+| Status Transition | [Status Transition](../model/domains/work-management/status-type/status-transition.md) | [Status Type](../model/domains/work-management/status-type/README.md) |
+| Status History | [Status History](../model/domains/work-management/status-type/status-history.md) | [Status Type](../model/domains/work-management/status-type/README.md) |
+| Charge | [Charge](../model/domains/finance/invoice/charge.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Invoice Line | [Invoice Line](../model/domains/finance/invoice/invoice-line.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Measure | [Measure](../model/domains/measurement/measure/measure.md) | [Measure](../model/domains/measurement/measure/README.md) |
+| Measurement | [Measurement](../model/domains/measurement/measure/measurement.md) | [Measure](../model/domains/measurement/measure/README.md) |
+| Analytic Fact | [Analytic Fact](../model/domains/measurement/measure/analytic-fact.md) | [Measure](../model/domains/measurement/measure/README.md) |

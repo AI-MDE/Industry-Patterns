@@ -16,7 +16,7 @@ The canonical catalog uses named Domain and ABE folders under `model/domains/`. 
 
 ## Reuse and profile boundaries
 
-Reusable domains such as Common, Administration, Work Management, Resource Management, and Accounting provide concepts used across industries. An industry profile such as Professional Services should reference or specialize those concepts rather than redefine them.
+Reusable domains such as Party, Agreement, Work Management, Resource Management, and Finance provide concepts used across industries. An industry profile such as Professional Services should reference or specialize those concepts rather than redefine them. [Administration](domains/administration/README.md) records candidate coverage; its areas are not yet registered Domains or ABEs in the manifest.
 
 ## Meaning and source terminology
 

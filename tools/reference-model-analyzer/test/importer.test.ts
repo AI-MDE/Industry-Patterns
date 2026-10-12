@@ -133,9 +133,15 @@ test('aliases from unrelated sources cannot resolve business identity', () => {
     assert.equal(analyze(input, c).matches[0].classification, 'match');
 });
 test('coherent catalog loads canonical paths, logical attributes and relationship evidence', async () => {
-    const m = await loadCatalog(path.resolve(tool, '../../model/model.json'));
-    assert.equal(m.concepts.length, 543);
-    assert.equal(m.abes.length, 104);
+    const manifestPath = path.resolve(tool, '../../model/model.json');
+    const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+    const businessAliases = JSON.parse(await readFile(path.resolve(tool, '../../model/terminology-aliases.json'), 'utf8')).aliases;
+    const m = await loadCatalog(manifestPath);
+    assert.deepEqual(m.concepts.map(c => c.path).sort(), manifest.concepts.map((c: { path: string }) => c.path).sort());
+    assert.deepEqual(m.abes.map(a => a.path).sort(), manifest.abes.map((a: { path: string }) => a.path).sort());
+    for (const alias of businessAliases) {
+        assert.ok(m.concepts.find(c => c.path === alias.canonical)?.scopedAliases?.some(a => a.term === alias.term && a.source === alias.source), `Missing business alias: ${alias.term} (${alias.source})`);
+    }
     assert.ok(m.concepts.find(x => x.entity === 'Payment')!.attributes!.length);
     assert.ok(m.concepts.some(x => x.relationships!.length));
     assert.ok(m.warnings.length);

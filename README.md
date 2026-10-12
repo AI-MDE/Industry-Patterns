@@ -20,7 +20,22 @@ modeling-patterns/  cross-industry requirements patterns bound to domain concept
 knowledge-bases/    industry knowledge instantiated as MDE requirements specs
 pattern-anatomy.md  target anatomy of an industry pattern and roadmap
 tools/              reference-model import, analysis, and canonical-model validation
+docs/               architecture and modeling guidance
+references/         upstream source snapshots with license and provenance
 ```
+
+Shared and industry domains live directly under `model/domains/`; each concept has one canonical home. The [reference snapshots](references/README.md) are inputs for analysis, separate from the canonical model.
+
+## Validation
+
+From the repository root, run:
+
+```bash
+node tools/coherent-model/validate.mjs
+node --test tools/coherent-model/links.test.mjs
+```
+
+Validation checks canonical ownership, specialization, bindings, aliases, relationship navigation, and local Markdown links across the repository. Relationships marked `review` remain explicit semantic questions, not validation failures. See the [validator guide](tools/coherent-model/README.md) and [importer tests](tools/reference-model-analyzer/README.md#install).
 
 ## Industry patterns
 

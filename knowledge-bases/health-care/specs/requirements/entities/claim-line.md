@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Claim Line](../../../../../model/requirements/health-care/coverage/claim-line.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Claim Line](../../../../../model/domains/health-care/coverage/claim-line.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

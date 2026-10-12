@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Coverage](../../../../../model/requirements/health-care/coverage/coverage.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Coverage](../../../../../model/domains/health-care/coverage/coverage.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

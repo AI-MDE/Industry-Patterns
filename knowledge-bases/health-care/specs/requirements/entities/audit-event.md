@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Audit Event](../../../../../model/requirements/health-care/consent/audit-event.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Audit Event](../../../../../model/domains/health-care/consent/audit-event.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

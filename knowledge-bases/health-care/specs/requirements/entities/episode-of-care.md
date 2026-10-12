@@ -9,7 +9,7 @@ tags: [health-care, industry-pattern, entity]
 
 ## Canonical origin
 
-This selected specification derives from [Episode of Care](../../../../../model/requirements/health-care/encounter/episode-of-care.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
+This selected specification derives from [Episode of Care](../../../../../model/domains/health-care/encounter/episode-of-care.md). Its operations, states, rules, and selected attributes form the Health Care application projection.
 
 ## Purpose
 

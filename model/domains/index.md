@@ -1,4 +1,7 @@
-- [Administration](administration/README.md)
+# Canonical domains
+
+These 23 domains are registered in [model.json](../model.json). Shared domains and industry domains follow the same Domain → ABE → Entity structure.
+
 - [Party](party/README.md)
 - [Classification](classification/README.md)
 - [Product and Service](product-and-service/README.md)
@@ -22,3 +25,7 @@
 - [Professional Services](professional-services/README.md)
 - [Telecommunications](telecommunications/README.md)
 - [Travel](travel/README.md)
+
+## Candidate coverage
+
+- [Administration](administration/README.md) describes proposed coverage, not additional registered concepts.
