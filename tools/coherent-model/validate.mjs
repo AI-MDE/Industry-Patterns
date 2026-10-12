@@ -64,6 +64,17 @@ for (const r of model.relationships) {
   check(r.status === (r.sourceConcept && r.targetConcept ? 'resolved' : 'review'), `Wrong resolution status: ${r.sourceTerm}`);
 }
 
+
+// Canonical manifest paths must reference the actual coherent tree, not legacy migration roots.
+for (const entry of [...model.domains, ...model.abes, ...model.concepts]) {
+  check(entry.path.startsWith('model/domains/'), `Noncanonical model path: ${entry.path}`);
+}
+for (const relationship of model.relationships) {
+  // An unresolved compound endpoint is a semantic-review item, never an inferred match.
+  check(relationship.status === 'review' || (relationship.sourceConcept && relationship.targetConcept),
+    `Invalid resolved relationship: ${relationship.sourceTerm} → ${relationship.targetTerm}`);
+}
+
 // Check local links on model pages and the pattern views affected by this integration.
 const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]);
 const pages = [...walk(path.join(root, 'model')), ...model.patterns.map(p => path.join(root, p.source))].filter(p => p.endsWith('.md'));
