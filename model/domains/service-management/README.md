@@ -3,3 +3,5 @@
 - [Service Request](service-request/README.md)
 - [Service Plan](service-plan/README.md)
 - [Service Event](service-event/README.md)
+- [Service Estimate](service-estimate/README.md)
+- [Service Site](service-site/README.md)
