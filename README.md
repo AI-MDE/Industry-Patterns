@@ -8,7 +8,7 @@ The industry patterns adapt recurring business concepts inspired by *The Data Mo
 
 ## Coherent model
 
-The [canonical model](model/README.md) now connects the detailed industry concepts through **Domain → ABE → Entity**, with one page per concept, explicit reuse and specialization, and source-aware terminology. Industry files are pattern views onto this model. Start with the [Domain index](model/requirements/index.md) or inspect the [integration review](model/integration-review.md).
+The [canonical model](model/README.md) now connects the detailed industry concepts through **Domain → ABE → Entity**, with one page per concept, explicit reuse and specialization, and source-aware terminology. Industry files are pattern views onto this model. Start with the [Domain index](model/domains/index.md) or inspect the [integration review](model/integration-review.md).
 
 ## Repository areas
 
