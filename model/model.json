@@ -76,7 +76,9 @@
       "path": "model/domains/scheduling/README.md",
       "abes": [
         "model/domains/scheduling/demand/README.md",
-        "model/domains/scheduling/assignment/README.md"
+        "model/domains/scheduling/assignment/README.md",
+        "model/domains/scheduling/service-appointment/README.md",
+        "model/domains/scheduling/service-route/README.md"
       ]
     },
     {
@@ -1651,6 +1653,26 @@
       "entities": [
         "model/domains/service-management/service-site/service-site.md",
         "model/domains/service-management/service-site/site-assessment.md"
+      ]
+    },
+    {
+      "path": "model/domains/scheduling/service-appointment/README.md",
+      "name": "Service Appointment",
+      "domain": "Scheduling",
+      "primaryEntity": "model/domains/scheduling/service-appointment/service-appointment.md",
+      "entities": [
+        "model/domains/scheduling/service-appointment/service-appointment.md",
+        "model/domains/scheduling/service-appointment/appointment-policy.md"
+      ]
+    },
+    {
+      "path": "model/domains/scheduling/service-route/README.md",
+      "name": "Service Route",
+      "domain": "Scheduling",
+      "primaryEntity": "model/domains/scheduling/service-route/service-route.md",
+      "entities": [
+        "model/domains/scheduling/service-route/service-route.md",
+        "model/domains/scheduling/service-route/route-stop.md"
       ]
     }
   ],
@@ -5496,6 +5518,34 @@
       "name": "Site Assessment",
       "domain": "Service Management",
       "abe": "model/domains/service-management/service-site/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/scheduling/service-appointment/service-appointment.md",
+      "name": "Service Appointment",
+      "domain": "Scheduling",
+      "abe": "model/domains/scheduling/service-appointment/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/scheduling/service-appointment/appointment-policy.md",
+      "name": "Appointment Policy",
+      "domain": "Scheduling",
+      "abe": "model/domains/scheduling/service-appointment/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/scheduling/service-route/service-route.md",
+      "name": "Service Route",
+      "domain": "Scheduling",
+      "abe": "model/domains/scheduling/service-route/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/scheduling/service-route/route-stop.md",
+      "name": "Route Stop",
+      "domain": "Scheduling",
+      "abe": "model/domains/scheduling/service-route/README.md",
       "specializes": null
     }
   ],
