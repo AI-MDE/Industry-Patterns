@@ -59,3 +59,7 @@ For each industry request: recognize required capabilities → select existing A
 - **104 legacy relationship records remain in semantic review.** They cannot all be safely resolved by a string substitution: many endpoints are alternatives, conjunctions, state-qualified terms or role names (e.g., `Party → Person or Organization`, `Accepted Quote → Rental Agreement or Job Order`). Do not mark these resolved without splitting compound relationships, choosing semantic specialization and reviewing cardinalities.
 - Follow-up work: review each compound expression with its industry source, map all endpoints to existing concepts first, split only the actual independently meaningful relationships, and preserve the original expression as provenance. Do not invent additional generic entities to satisfy ambiguous labels.
 - Full local validator execution and repository-wide link validation have not been completed in this connected session. Treat the manifest correction as committed but not yet fully verified.
+
+## Domain index conflict fixes
+
+Verified all 23 canonical Domain manifest index paths through the GitHub connector. Five were absent and have been created: Party, Classification, Agreement, Work Management, and Measurement. The Scheduling domain index was also missing and has been created to expose Service Appointment and Service Route. The root README canonical index link was corrected to `model/domains/index.md`. Other ABE and concept page links still require local validator execution and, where necessary, repair.
