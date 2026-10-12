@@ -20,7 +20,8 @@
       "name": "Product and Service",
       "path": "model/requirements/product-and-service/README.md",
       "abes": [
-        "model/requirements/product-and-service/product/README.md"
+        "model/requirements/product-and-service/product/README.md",
+        "model/domains/product-and-service/service-offering/README.md"
       ]
     },
     {
@@ -65,7 +66,9 @@
       "abes": [
         "model/requirements/service-management/service-request/README.md",
         "model/requirements/service-management/service-plan/README.md",
-        "model/requirements/service-management/service-event/README.md"
+        "model/requirements/service-management/service-event/README.md",
+        "model/domains/service-management/service-estimate/README.md",
+        "model/domains/service-management/service-site/README.md"
       ]
     },
     {
@@ -1618,6 +1621,36 @@
         "model/requirements/travel/change-request/disruption.md",
         "model/requirements/travel/change-request/reaccommodation.md",
         "model/requirements/travel/change-request/duty-of-care-case.md"
+      ]
+    },
+    {
+      "path": "model/domains/product-and-service/service-offering/README.md",
+      "name": "Service Offering",
+      "domain": "Product and Service",
+      "primaryEntity": "model/domains/product-and-service/service-offering/service-offering.md",
+      "entities": [
+        "model/domains/product-and-service/service-offering/service-offering.md",
+        "model/domains/product-and-service/service-offering/service-package.md"
+      ]
+    },
+    {
+      "path": "model/domains/service-management/service-estimate/README.md",
+      "name": "Service Estimate",
+      "domain": "Service Management",
+      "primaryEntity": "model/domains/service-management/service-estimate/service-estimate.md",
+      "entities": [
+        "model/domains/service-management/service-estimate/service-estimate.md",
+        "model/domains/service-management/service-estimate/estimate-line.md"
+      ]
+    },
+    {
+      "path": "model/domains/service-management/service-site/README.md",
+      "name": "Service Site",
+      "domain": "Service Management",
+      "primaryEntity": "model/domains/service-management/service-site/service-site.md",
+      "entities": [
+        "model/domains/service-management/service-site/service-site.md",
+        "model/domains/service-management/service-site/site-assessment.md"
       ]
     }
   ],
@@ -5421,6 +5454,48 @@
       "name": "Duty of Care Case",
       "domain": "Travel",
       "abe": "model/requirements/travel/change-request/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/product-and-service/service-offering/service-offering.md",
+      "name": "Service Offering",
+      "domain": "Product and Service",
+      "abe": "model/domains/product-and-service/service-offering/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/product-and-service/service-offering/service-package.md",
+      "name": "Service Package",
+      "domain": "Product and Service",
+      "abe": "model/domains/product-and-service/service-offering/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/service-management/service-estimate/service-estimate.md",
+      "name": "Service Estimate",
+      "domain": "Service Management",
+      "abe": "model/domains/service-management/service-estimate/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/service-management/service-estimate/estimate-line.md",
+      "name": "Estimate Line",
+      "domain": "Service Management",
+      "abe": "model/domains/service-management/service-estimate/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/service-management/service-site/service-site.md",
+      "name": "Service Site",
+      "domain": "Service Management",
+      "abe": "model/domains/service-management/service-site/README.md",
+      "specializes": null
+    },
+    {
+      "path": "model/domains/service-management/service-site/site-assessment.md",
+      "name": "Site Assessment",
+      "domain": "Service Management",
+      "abe": "model/domains/service-management/service-site/README.md",
       "specializes": null
     }
   ],
