@@ -44,37 +44,37 @@ Adds: Legal Entity; Branch; Fleet Pool; Territory; Master Service Agreement; Cus
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/crane-rental/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/crane-rental.md#actors-and-roles).
 
 ## Customer, project, and site concepts
 
 ### Customer Account
 
-Canonical concept: [Customer Account](../model/domains/crane-rental/customer-account/customer-account.md).
+Canonical concept: [Customer Account](../model/subjects/party/customer-account/customer-account.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Project
 
-Canonical concept: [Project](../model/domains/crane-rental/customer-account/project.md).
+Canonical concept: [Project](../model/subjects/work/project/project.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Job Site
 
-Canonical concept: [Job Site](../model/domains/crane-rental/customer-account/job-site.md).
+Canonical concept: [Site](../model/subjects/location/site/site.md) (as Job Site).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Site Access Constraint
 
-Canonical concept: [Site Access Constraint](../model/domains/crane-rental/customer-account/site-access-constraint.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ground Condition
 
-Canonical concept: [Ground Condition](../model/domains/crane-rental/customer-account/ground-condition.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -82,31 +82,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Lift Request
 
-Canonical concept: [Lift Request](../model/domains/crane-rental/lift-request/lift-request.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Load Requirement
 
-Canonical concept: [Load Requirement](../model/domains/crane-rental/lift-request/load-requirement.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Condition
 
-Canonical concept: [Lift Condition](../model/domains/crane-rental/lift-request/lift-condition.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Site Survey
 
-Canonical concept: [Site Survey](../model/domains/crane-rental/lift-request/site-survey.md).
+Canonical concept: [Site Assessment](../model/subjects/location/site/site-assessment.md) (as Site Survey).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Classification
 
-Canonical concept: [Lift Classification](../model/domains/crane-rental/lift-request/lift-classification.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -114,37 +114,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Equipment Model
 
-Canonical concept: [Equipment Model](../model/domains/crane-rental/equipment-model/equipment-model.md).
+Canonical concept: [Equipment Model](../model/subjects/resource/equipment-model/equipment-model.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crane Asset
 
-Canonical concept: [Crane Asset](../model/domains/crane-rental/equipment-model/crane-asset.md).
+Canonical concept: [Equipment](../model/subjects/resource/equipment-model/equipment.md) (as Crane Asset).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Component
 
-Canonical concept: [Equipment Component](../model/domains/crane-rental/equipment-model/equipment-component.md).
+Canonical concept: [Equipment Component](../model/subjects/resource/equipment-model/equipment-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crane Configuration
 
-Canonical concept: [Crane Configuration](../model/domains/crane-rental/equipment-model/crane-configuration.md).
+Canonical concept: [Equipment Configuration](../model/subjects/resource/equipment-model/equipment-configuration.md) (as Crane Configuration).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capacity Evidence
 
-Canonical concept: [Capacity Evidence](../model/domains/crane-rental/equipment-model/capacity-evidence.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Compatibility
 
-Canonical concept: [Equipment Compatibility](../model/domains/crane-rental/equipment-model/equipment-compatibility.md).
+Canonical concept: [Equipment Compatibility](../model/subjects/resource/equipment-model/equipment-compatibility.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -152,43 +152,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Rental Offering
 
-Canonical concept: [Rental Offering](../model/domains/crane-rental/rental-offering/rental-offering.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rate Card
 
-Canonical concept: [Rate Card](../model/domains/crane-rental/rental-offering/rate-card.md).
+Canonical concept: [Price List](../model/subjects/product/offering/price-list.md) (as Rate Card).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote
 
-Canonical concept: [Quote](../model/domains/crane-rental/rental-offering/quote.md).
+Canonical concept: [Quote](../model/subjects/request/quote/quote.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote Line
 
-Canonical concept: [Quote Line](../model/domains/crane-rental/rental-offering/quote-line.md).
+Canonical concept: [Quote Line](../model/subjects/request/quote/quote-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rental Agreement
 
-Canonical concept: [Rental Agreement](../model/domains/crane-rental/rental-offering/rental-agreement.md).
+Canonical concept: [Rental Agreement](../model/subjects/agreement/agreement/rental-agreement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Job Order
 
-Canonical concept: [Job Order](../model/domains/crane-rental/rental-offering/job-order.md).
+Canonical concept: [Work Order](../model/subjects/work/work-effort/work-order.md) (as Job Order).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Change Order
 
-Canonical concept: [Change Order](../model/domains/crane-rental/rental-offering/change-order.md).
+Canonical concept: [Change Request](../model/subjects/request/order/change-request.md) (as Change Order).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -196,43 +196,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Lift Plan
 
-Canonical concept: [Lift Plan](../model/domains/crane-rental/lift-plan/lift-plan.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Plan Item
 
-Canonical concept: [Lift Plan Item](../model/domains/crane-rental/lift-plan/lift-plan-item.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rigging Plan
 
-Canonical concept: [Rigging Plan](../model/domains/crane-rental/lift-plan/rigging-plan.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Permit
 
-Canonical concept: [Permit](../model/domains/crane-rental/lift-plan/permit.md).
+Canonical concept: [Authorization](../model/subjects/case/decision/authorization.md) (as Permit).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Qualification
 
-Canonical concept: [Qualification](../model/domains/crane-rental/lift-plan/qualification.md).
+Canonical concept: [Qualification](../model/subjects/workforce/worker/qualification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Planning Requirement
 
-Canonical concept: [Planning Requirement](../model/domains/crane-rental/lift-plan/planning-requirement.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Readiness Review
 
-Canonical concept: [Readiness Review](../model/domains/crane-rental/lift-plan/readiness-review.md).
+Canonical concept: [Decision](../model/subjects/case/decision/decision.md) (as Readiness Review).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -240,37 +240,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Resource Requirement
 
-Canonical concept: [Resource Requirement](../model/domains/crane-rental/resource-requirement/resource-requirement.md).
+Canonical concept: [Requirement](../model/subjects/scheduling/demand/requirement.md) (as Resource Requirement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reservation
 
-Canonical concept: [Reservation](../model/domains/crane-rental/resource-requirement/reservation.md).
+Canonical concept: [Reservation](../model/subjects/scheduling/reservation/reservation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Crew Assignment
 
-Canonical concept: [Crew Assignment](../model/domains/crane-rental/resource-requirement/crew-assignment.md).
+Canonical concept: [Assignment](../model/subjects/work/work-effort/assignment.md) (as Crew Assignment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Dispatch Plan
 
-Canonical concept: [Dispatch Plan](../model/domains/crane-rental/resource-requirement/dispatch-plan.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Transport Movement
 
-Canonical concept: [Transport Movement](../model/domains/crane-rental/resource-requirement/transport-movement.md).
+Canonical concept: [Shipment](../model/subjects/fulfillment/fulfillment/shipment.md) (as Transport Movement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fleet Transfer
 
-Canonical concept: [Fleet Transfer](../model/domains/crane-rental/resource-requirement/fleet-transfer.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -278,31 +278,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Delivery
 
-Canonical concept: [Delivery](../model/domains/crane-rental/delivery/delivery.md).
+Canonical concept: [Delivery](../model/subjects/fulfillment/fulfillment/delivery.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Setup Activity
 
-Canonical concept: [Setup Activity](../model/domains/crane-rental/delivery/setup-activity.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection
 
-Canonical concept: [Inspection](../model/domains/crane-rental/delivery/inspection.md).
+Canonical concept: [Inspection](../model/subjects/quality/quality-plan/inspection.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inspection Finding
 
-Canonical concept: [Inspection Finding](../model/domains/crane-rental/delivery/inspection-finding.md).
+Canonical concept: [Inspection Result](../model/subjects/quality/quality-plan/inspection-result.md) (as Inspection Finding).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Release for Service
 
-Canonical concept: [Release for Service](../model/domains/crane-rental/delivery/release-for-service.md).
+Canonical concept: [Decision](../model/subjects/case/decision/decision.md) (as Release for Service).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -310,43 +310,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Pre-Lift Meeting
 
-Canonical concept: [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/pre-lift-meeting.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Lift Activity
 
-Canonical concept: [Lift Activity](../model/domains/crane-rental/pre-lift-meeting/lift-activity.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operational Observation
 
-Canonical concept: [Operational Observation](../model/domains/crane-rental/pre-lift-meeting/operational-observation.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Operational Delay
 
-Canonical concept: [Operational Delay](../model/domains/crane-rental/pre-lift-meeting/operational-delay.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Standby Period
 
-Canonical concept: [Standby Period](../model/domains/crane-rental/pre-lift-meeting/standby-period.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Stop-Work Event
 
-Canonical concept: [Stop-Work Event](../model/domains/crane-rental/pre-lift-meeting/stop-work-event.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Incident
 
-Canonical concept: [Incident](../model/domains/crane-rental/pre-lift-meeting/incident.md).
+Canonical concept: [Incident](../model/subjects/case/case/incident.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -354,43 +354,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Equipment Usage Record
 
-Canonical concept: [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/equipment-usage-record.md).
+Canonical concept: [Usage Record](../model/subjects/measurement/usage-record/usage-record.md) (as Equipment Usage Record).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fuel or Consumable Record
 
-Canonical concept: [Fuel or Consumable Record](../model/domains/crane-rental/equipment-usage-record/fuel-or-consumable-record.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Teardown Activity
 
-Canonical concept: [Teardown Activity](../model/domains/crane-rental/equipment-usage-record/teardown-activity.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return
 
-Canonical concept: [Return](../model/domains/crane-rental/equipment-usage-record/return.md).
+Canonical concept: [Return](../model/subjects/fulfillment/return/return.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Damage Report
 
-Canonical concept: [Damage Report](../model/domains/crane-rental/equipment-usage-record/damage-report.md).
+Canonical concept: [Incident](../model/subjects/case/case/incident.md) (as Damage Report).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Maintenance Work Order
 
-Canonical concept: [Maintenance Work Order](../model/domains/crane-rental/equipment-usage-record/maintenance-work-order.md).
+Canonical concept: [Work Order](../model/subjects/work/work-effort/work-order.md) (as Maintenance Work Order).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Asset Availability
 
-Canonical concept: [Asset Availability](../model/domains/crane-rental/equipment-usage-record/asset-availability.md).
+Canonical concept: [Availability](../model/subjects/resource/resource/availability.md) (as Asset Availability).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -398,55 +398,55 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Charge Event
 
-Canonical concept: [Charge Event](../model/domains/crane-rental/charge-event/charge-event.md).
+Canonical concept: [Charge](../model/subjects/finance/invoice/charge.md) (as Charge Event).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Timesheet
 
-Canonical concept: [Timesheet](../model/domains/crane-rental/charge-event/timesheet.md).
+Canonical concept: [Time Entry](../model/subjects/workforce/time-entry/time-entry.md) (as Timesheet).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-Canonical concept: [Invoice](../model/domains/finance/invoice/invoice.md).
+Canonical concept: [Invoice](../model/subjects/finance/invoice/invoice.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice Line
 
-Canonical concept: [Invoice Line](../model/domains/finance/invoice/invoice-line.md).
+Canonical concept: [Invoice Line](../model/subjects/finance/invoice/invoice-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commercial Dispute
 
-Canonical concept: [Commercial Dispute](../model/domains/crane-rental/charge-event/commercial-dispute.md).
+Canonical concept: [Dispute](../model/subjects/case/case/dispute.md) (as Commercial Dispute).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/crane-rental/behavior.md#relationship-model).
+See [canonical relationship model](behavior/crane-rental.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/crane-rental/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/crane-rental.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/crane-rental/behavior.md#business-events).
+See [canonical business events](behavior/crane-rental.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/crane-rental/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/crane-rental.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -582,64 +582,92 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Customer Account | [Customer Account](../model/domains/crane-rental/customer-account/customer-account.md) | [Customer Account](../model/domains/crane-rental/customer-account/README.md) |
-| Project | [Project](../model/domains/crane-rental/customer-account/project.md) | [Customer Account](../model/domains/crane-rental/customer-account/README.md) |
-| Job Site | [Job Site](../model/domains/crane-rental/customer-account/job-site.md) | [Customer Account](../model/domains/crane-rental/customer-account/README.md) |
-| Site Access Constraint | [Site Access Constraint](../model/domains/crane-rental/customer-account/site-access-constraint.md) | [Customer Account](../model/domains/crane-rental/customer-account/README.md) |
-| Ground Condition | [Ground Condition](../model/domains/crane-rental/customer-account/ground-condition.md) | [Customer Account](../model/domains/crane-rental/customer-account/README.md) |
-| Lift Request | [Lift Request](../model/domains/crane-rental/lift-request/lift-request.md) | [Lift Request](../model/domains/crane-rental/lift-request/README.md) |
-| Load Requirement | [Load Requirement](../model/domains/crane-rental/lift-request/load-requirement.md) | [Lift Request](../model/domains/crane-rental/lift-request/README.md) |
-| Lift Condition | [Lift Condition](../model/domains/crane-rental/lift-request/lift-condition.md) | [Lift Request](../model/domains/crane-rental/lift-request/README.md) |
-| Site Survey | [Site Survey](../model/domains/crane-rental/lift-request/site-survey.md) | [Lift Request](../model/domains/crane-rental/lift-request/README.md) |
-| Lift Classification | [Lift Classification](../model/domains/crane-rental/lift-request/lift-classification.md) | [Lift Request](../model/domains/crane-rental/lift-request/README.md) |
-| Equipment Model | [Equipment Model](../model/domains/crane-rental/equipment-model/equipment-model.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Crane Asset | [Crane Asset](../model/domains/crane-rental/equipment-model/crane-asset.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Equipment Component | [Equipment Component](../model/domains/crane-rental/equipment-model/equipment-component.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Crane Configuration | [Crane Configuration](../model/domains/crane-rental/equipment-model/crane-configuration.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Capacity Evidence | [Capacity Evidence](../model/domains/crane-rental/equipment-model/capacity-evidence.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Equipment Compatibility | [Equipment Compatibility](../model/domains/crane-rental/equipment-model/equipment-compatibility.md) | [Equipment Model](../model/domains/crane-rental/equipment-model/README.md) |
-| Rental Offering | [Rental Offering](../model/domains/crane-rental/rental-offering/rental-offering.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Rate Card | [Rate Card](../model/domains/crane-rental/rental-offering/rate-card.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Quote | [Quote](../model/domains/crane-rental/rental-offering/quote.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Quote Line | [Quote Line](../model/domains/crane-rental/rental-offering/quote-line.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Rental Agreement | [Rental Agreement](../model/domains/crane-rental/rental-offering/rental-agreement.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Job Order | [Job Order](../model/domains/crane-rental/rental-offering/job-order.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Change Order | [Change Order](../model/domains/crane-rental/rental-offering/change-order.md) | [Rental Offering](../model/domains/crane-rental/rental-offering/README.md) |
-| Lift Plan | [Lift Plan](../model/domains/crane-rental/lift-plan/lift-plan.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Lift Plan Item | [Lift Plan Item](../model/domains/crane-rental/lift-plan/lift-plan-item.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Rigging Plan | [Rigging Plan](../model/domains/crane-rental/lift-plan/rigging-plan.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Permit | [Permit](../model/domains/crane-rental/lift-plan/permit.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Qualification | [Qualification](../model/domains/crane-rental/lift-plan/qualification.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Planning Requirement | [Planning Requirement](../model/domains/crane-rental/lift-plan/planning-requirement.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Readiness Review | [Readiness Review](../model/domains/crane-rental/lift-plan/readiness-review.md) | [Lift Plan](../model/domains/crane-rental/lift-plan/README.md) |
-| Resource Requirement | [Resource Requirement](../model/domains/crane-rental/resource-requirement/resource-requirement.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Reservation | [Reservation](../model/domains/crane-rental/resource-requirement/reservation.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Crew Assignment | [Crew Assignment](../model/domains/crane-rental/resource-requirement/crew-assignment.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Dispatch Plan | [Dispatch Plan](../model/domains/crane-rental/resource-requirement/dispatch-plan.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Transport Movement | [Transport Movement](../model/domains/crane-rental/resource-requirement/transport-movement.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Fleet Transfer | [Fleet Transfer](../model/domains/crane-rental/resource-requirement/fleet-transfer.md) | [Resource Requirement](../model/domains/crane-rental/resource-requirement/README.md) |
-| Delivery | [Delivery](../model/domains/crane-rental/delivery/delivery.md) | [Delivery](../model/domains/crane-rental/delivery/README.md) |
-| Setup Activity | [Setup Activity](../model/domains/crane-rental/delivery/setup-activity.md) | [Delivery](../model/domains/crane-rental/delivery/README.md) |
-| Inspection | [Inspection](../model/domains/crane-rental/delivery/inspection.md) | [Delivery](../model/domains/crane-rental/delivery/README.md) |
-| Inspection Finding | [Inspection Finding](../model/domains/crane-rental/delivery/inspection-finding.md) | [Delivery](../model/domains/crane-rental/delivery/README.md) |
-| Release for Service | [Release for Service](../model/domains/crane-rental/delivery/release-for-service.md) | [Delivery](../model/domains/crane-rental/delivery/README.md) |
-| Pre-Lift Meeting | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/pre-lift-meeting.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Lift Activity | [Lift Activity](../model/domains/crane-rental/pre-lift-meeting/lift-activity.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Operational Observation | [Operational Observation](../model/domains/crane-rental/pre-lift-meeting/operational-observation.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Operational Delay | [Operational Delay](../model/domains/crane-rental/pre-lift-meeting/operational-delay.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Standby Period | [Standby Period](../model/domains/crane-rental/pre-lift-meeting/standby-period.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Stop-Work Event | [Stop-Work Event](../model/domains/crane-rental/pre-lift-meeting/stop-work-event.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Incident | [Incident](../model/domains/crane-rental/pre-lift-meeting/incident.md) | [Pre-Lift Meeting](../model/domains/crane-rental/pre-lift-meeting/README.md) |
-| Equipment Usage Record | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/equipment-usage-record.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Fuel or Consumable Record | [Fuel or Consumable Record](../model/domains/crane-rental/equipment-usage-record/fuel-or-consumable-record.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Teardown Activity | [Teardown Activity](../model/domains/crane-rental/equipment-usage-record/teardown-activity.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Return | [Return](../model/domains/crane-rental/equipment-usage-record/return.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Damage Report | [Damage Report](../model/domains/crane-rental/equipment-usage-record/damage-report.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Maintenance Work Order | [Maintenance Work Order](../model/domains/crane-rental/equipment-usage-record/maintenance-work-order.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Asset Availability | [Asset Availability](../model/domains/crane-rental/equipment-usage-record/asset-availability.md) | [Equipment Usage Record](../model/domains/crane-rental/equipment-usage-record/README.md) |
-| Charge Event | [Charge Event](../model/domains/crane-rental/charge-event/charge-event.md) | [Charge Event](../model/domains/crane-rental/charge-event/README.md) |
-| Timesheet | [Timesheet](../model/domains/crane-rental/charge-event/timesheet.md) | [Charge Event](../model/domains/crane-rental/charge-event/README.md) |
-| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Invoice Line | [Invoice Line](../model/domains/finance/invoice/invoice-line.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Commercial Dispute | [Commercial Dispute](../model/domains/crane-rental/charge-event/commercial-dispute.md) | [Charge Event](../model/domains/crane-rental/charge-event/README.md) |
+| Customer Account | [Customer Account](../model/subjects/party/customer-account/customer-account.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Project | [Project](../model/subjects/work/project/project.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Job Site | [Job Site](../model/subjects/location/site/site.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Site Access Constraint | [Site Access Constraint](#concepts-applications-typically-add) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Ground Condition | [Ground Condition](#concepts-applications-typically-add) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Lift Request | [Lift Request](#concepts-applications-typically-add) | [Lift Request](#) |
+| Load Requirement | [Load Requirement](#concepts-applications-typically-add) | [Lift Request](#) |
+| Lift Condition | [Lift Condition](#concepts-applications-typically-add) | [Lift Request](#) |
+| Site Survey | [Site Survey](../model/subjects/location/site/site-assessment.md) | [Lift Request](#) |
+| Lift Classification | [Lift Classification](#concepts-applications-typically-add) | [Lift Request](#) |
+| Equipment Model | [Equipment Model](../model/subjects/resource/equipment-model/equipment-model.md) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Crane Asset | [Crane Asset](../model/subjects/resource/equipment-model/equipment.md) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Equipment Component | [Equipment Component](../model/subjects/resource/equipment-model/equipment-component.md) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Crane Configuration | [Crane Configuration](../model/subjects/resource/equipment-model/equipment-configuration.md) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Capacity Evidence | [Capacity Evidence](#concepts-applications-typically-add) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Equipment Compatibility | [Equipment Compatibility](../model/subjects/resource/equipment-model/equipment-compatibility.md) | [Equipment Model](../model/subjects/resource/equipment-model/README.md) |
+| Rental Offering | [Rental Offering](#concepts-applications-typically-add) | [Rental Offering](#) |
+| Rate Card | [Rate Card](../model/subjects/product/offering/price-list.md) | [Rental Offering](#) |
+| Quote | [Quote](../model/subjects/request/quote/quote.md) | [Rental Offering](#) |
+| Quote Line | [Quote Line](../model/subjects/request/quote/quote-line.md) | [Rental Offering](#) |
+| Rental Agreement | [Rental Agreement](../model/subjects/agreement/agreement/rental-agreement.md) | [Rental Offering](#) |
+| Job Order | [Job Order](../model/subjects/work/work-effort/work-order.md) | [Rental Offering](#) |
+| Change Order | [Change Order](../model/subjects/request/order/change-request.md) | [Rental Offering](#) |
+| Lift Plan | [Lift Plan](#concepts-applications-typically-add) | [Lift Plan](#) |
+| Lift Plan Item | [Lift Plan Item](#concepts-applications-typically-add) | [Lift Plan](#) |
+| Rigging Plan | [Rigging Plan](#concepts-applications-typically-add) | [Lift Plan](#) |
+| Permit | [Permit](../model/subjects/case/decision/authorization.md) | [Lift Plan](#) |
+| Qualification | [Qualification](../model/subjects/workforce/worker/qualification.md) | [Lift Plan](#) |
+| Planning Requirement | [Planning Requirement](#concepts-applications-typically-add) | [Lift Plan](#) |
+| Readiness Review | [Readiness Review](../model/subjects/case/decision/decision.md) | [Lift Plan](#) |
+| Resource Requirement | [Resource Requirement](../model/subjects/scheduling/demand/requirement.md) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Reservation | [Reservation](../model/subjects/scheduling/reservation/reservation.md) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Crew Assignment | [Crew Assignment](../model/subjects/work/work-effort/assignment.md) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Dispatch Plan | [Dispatch Plan](#concepts-applications-typically-add) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Transport Movement | [Transport Movement](../model/subjects/fulfillment/fulfillment/shipment.md) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Fleet Transfer | [Fleet Transfer](#concepts-applications-typically-add) | [Resource Requirement](../model/subjects/scheduling/demand/README.md) |
+| Delivery | [Delivery](../model/subjects/fulfillment/fulfillment/delivery.md) | [Delivery](../model/subjects/fulfillment/fulfillment/README.md) |
+| Setup Activity | [Setup Activity](#concepts-applications-typically-add) | [Delivery](../model/subjects/fulfillment/fulfillment/README.md) |
+| Inspection | [Inspection](../model/subjects/quality/quality-plan/inspection.md) | [Delivery](../model/subjects/fulfillment/fulfillment/README.md) |
+| Inspection Finding | [Inspection Finding](../model/subjects/quality/quality-plan/inspection-result.md) | [Delivery](../model/subjects/fulfillment/fulfillment/README.md) |
+| Release for Service | [Release for Service](../model/subjects/case/decision/decision.md) | [Delivery](../model/subjects/fulfillment/fulfillment/README.md) |
+| Pre-Lift Meeting | [Pre-Lift Meeting](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Lift Activity | [Lift Activity](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Operational Observation | [Operational Observation](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Operational Delay | [Operational Delay](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Standby Period | [Standby Period](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Stop-Work Event | [Stop-Work Event](#concepts-applications-typically-add) | [Pre-Lift Meeting](#) |
+| Incident | [Incident](../model/subjects/case/case/incident.md) | [Pre-Lift Meeting](#) |
+| Equipment Usage Record | [Equipment Usage Record](../model/subjects/measurement/usage-record/usage-record.md) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Fuel or Consumable Record | [Fuel or Consumable Record](#concepts-applications-typically-add) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Teardown Activity | [Teardown Activity](#concepts-applications-typically-add) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Return | [Return](../model/subjects/fulfillment/return/return.md) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Damage Report | [Damage Report](../model/subjects/case/case/incident.md) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Maintenance Work Order | [Maintenance Work Order](../model/subjects/work/work-effort/work-order.md) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Asset Availability | [Asset Availability](../model/subjects/resource/resource/availability.md) | [Equipment Usage Record](../model/subjects/measurement/usage-record/README.md) |
+| Charge Event | [Charge Event](../model/subjects/finance/invoice/charge.md) | [Charge Event](../model/subjects/finance/invoice/README.md) |
+| Timesheet | [Timesheet](../model/subjects/workforce/time-entry/time-entry.md) | [Charge Event](../model/subjects/finance/invoice/README.md) |
+| Invoice | [Invoice](../model/subjects/finance/invoice/invoice.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Invoice Line | [Invoice Line](../model/subjects/finance/invoice/invoice-line.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Commercial Dispute | [Commercial Dispute](../model/subjects/case/case/dispute.md) | [Charge Event](../model/subjects/finance/invoice/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Site Access Constraint**: A condition affecting equipment choice, delivery, setup, movement, or removal.
+- **Ground Condition**: Evidence concerning the surface and subsurface supporting crane setup or travel.
+- **Lift Request**: A Customer request for equipment rental, lifting service, planning, or consultation.
+- **Load Requirement**: A description of the object or material to be lifted and the required movement.
+- **Lift Condition**: An operating or environmental condition relevant to planning and execution.
+- **Lift Classification**: A governed classification that determines planning, review, approval, and execution requirements.
+- **Capacity Evidence**: The governed source and evaluated result supporting equipment suitability for defined conditions.
+- **Rental Offering**: A governed commercial service definition.
+- **Lift Plan**: A versioned plan defining the Lift, equipment, configuration, load, path, roles, hazards, controls, communications, and execution conditions.
+- **Lift Plan Item**: A structured element of a Lift Plan.
+- **Rigging Plan**: A governed specification of rigging equipment, arrangement, capacity, angles, connection points, and inspection requirements.
+- **Planning Requirement**: A required document, decision, review, resource, or approval before a Job stage.
+- **Dispatch Plan**: A coordinated plan for assets, components, transport units, drivers, crew, route, sequence, and timing.
+- **Fleet Transfer**: A controlled movement of an Asset between branch or fleet custody locations.
+- **Setup Activity**: Assembly, positioning, configuration, stabilization, calibration, or commissioning work preparing Equipment for operation.
+- **Pre-Lift Meeting**: A recorded briefing confirming the Lift Plan, roles, communications, hazards, controls, stop-work authority, and changes.
+- **Lift Activity**: A bounded operational activity moving, holding, placing, or testing a Load.
+- **Operational Observation**: A measured or observed condition during setup or Lift execution.
+- **Operational Delay**: A period in which planned work could not proceed.
+- **Standby Period**: A period during which committed Equipment or personnel remain available but are not productively operating.
+- **Stop-Work Event**: A controlled halt due to safety, condition, authority, equipment, weather, plan deviation, or other concern.
+- **Fuel or Consumable Record**: A record of fuel, lubricant, power, wear item, or other consumable supplied or used.
+- **Teardown Activity**: Disassembly, deconfiguration, packing, loading, or site-restoration work following service.

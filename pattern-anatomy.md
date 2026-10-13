@@ -28,4 +28,4 @@ The actual application records its selections, specialized requirements, policy 
 
 ## Current coverage
 
-The industry guides link to canonical concepts and business-definition overviews. [Health Care](model/domains/health-care/README.md) additionally has detailed capabilities, roles, rules, use cases, and workflows. Other industries retain their existing coverage and open behavioral gaps; relocation does not make an outline a complete specification.
+The industry guides link to canonical concepts and business-definition overviews. [Health Care](industry-patterns/health-care.md) additionally has detailed capabilities, roles, rules, use cases, and workflows. Other industries retain their existing coverage and open behavioral gaps; relocation does not make an outline a complete specification.

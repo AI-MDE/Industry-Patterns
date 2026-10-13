@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Cession"
+---
+
+# Cession
+
+Subject: [Insurance Coverage and Claims](../README.md). ABE: [Reinsurance Contract](README.md).
+
+## Definition and detail
+
+The portion of a Policy, Coverage, premium, reserve, or loss allocated to reinsurance.
+
+Logical attributes: Cession Identifier; Cession Type; Ceded Percentage; Ceded Premium; Ceded Reserve; Ceded Loss; Effective Date.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#cession) | Cession |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| Policy or portfolio (review) | allocates through | Cession | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

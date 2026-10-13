@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Posting Batch"
+---
+
+# Posting Batch
+
+Subject: [Accounting](../README.md). ABE: [Journal Entry](README.md).
+
+## Definition and detail
+
+A controlled group of Ledger Entries submitted and posted together.
+
+Logical attributes: Posting Batch Identifier; Batch Type; Batch Status; Created Time; Posted Time; Entry Count; Debit Total; Credit Total; Currency or Currency Set.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#posting-batch) | Posting Batch |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| Posting Batch | contains | [Ledger Entry](journal-entry.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

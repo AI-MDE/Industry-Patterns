@@ -1,0 +1,22 @@
+---
+type: entity
+title: "Payment Method"
+---
+
+# Payment Method
+
+Subject: [Billing and Payments](../README.md). ABE: [Payment](README.md).
+
+## Definition and detail
+
+A tokenized or referenced means by which a Customer intends to pay.
+
+Logical attributes: Payment Method Identifier; Method Type; Provider; Masked Display; Token Reference; Expiration; Method Status.
+
+Never store raw payment-card credentials in the domain model.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#payment-method) | Payment Method |

@@ -9,11 +9,11 @@ The objective is to avoid two bad extremes:
 - one universal application model containing every possible concept; and
 - many disconnected fragments that duplicate concepts and are difficult to compose.
 
-The preferred approach is a coherent canonical semantic model, organized into domains and Aggregate Business Entities (ABEs), from which application-specific models are selected and composed according to required capabilities and the level of ABE detail needed by the application.
+The preferred approach is a coherent canonical semantic model, organized into subjects and Aggregate Business Entities (ABEs), from which application-specific models are selected and composed according to required capabilities and the level of ABE detail needed by the application.
 
 ## Canonical repository model
 
-The [coherent model](../model/README.md) implements the semantic organization described here. [Domains](../model/domains/index.md) contain named ABE folders; each ABE has one Primary Entity and supporting concept pages. A [manifest](../model/model.json) connects source bindings, specialization references, pattern selections, and relationship expressions. Industry patterns now link to those canonical definitions.
+The [coherent model](../model/README.md) implements the semantic organization described here. [Subjects](../model/subjects/index.md) contain named ABE folders; each ABE has one Primary Entity and supporting concept pages. A [manifest](../model/model.json) connects source bindings, specialization references, pattern selections, and relationship expressions. Industry patterns now link to those canonical definitions.
 
 Capabilities select and use ABEs. The reusable catalog has one semantic home per concept; application projections may place selected ABEs under capabilities. Initial ABE groupings preserve the cohesive concept sections already present in the patterns and can be refined as additional business relationships are reviewed.
 
@@ -21,7 +21,7 @@ See the [integration review](../model/integration-review.md) for current coverag
 
 ## Business behavior ownership
 
-The canonical domain owns reusable roles, rules, capabilities, use cases, and workflows alongside its ABEs. Entity operations and states stay on the entity pages. Industry patterns guide selection and link to these definitions; no separate knowledge-base layer duplicates entities. The actual application owns architecture and implementation decisions. See the [requirements registry](../model/requirements.json).
+The canonical subject owns reusable roles, rules, capabilities, use cases, and workflows alongside its ABEs. Entity operations and states stay on the entity pages. Industry patterns guide selection and link to these definitions; no separate knowledge-base layer duplicates entities. The actual application owns architecture and implementation decisions. See the [requirements registry](../model/requirements.json).
 
 ## Core principle
 
@@ -32,7 +32,7 @@ The canonical model defines meaning. Applications select only the semantic bread
 ```text
 Canonical Semantic Model
         ↓
-      Domain
+      Subject
         ↓
        ABE
         ↓
@@ -61,7 +61,7 @@ Application Model
 
 These two views complement each other:
 
-- **Domain / ABE / Entity** structures business meaning.
+- **Subject / ABE / Entity** structures business meaning.
 - **Capability / ABE / Module / Interface** structures selection and realization.
 
 ## 1. Canonical semantic model
@@ -92,9 +92,9 @@ Its job is to answer:
 
 It should minimize semantic duplication and provide a common vocabulary across industry and application patterns.
 
-## 2. Domain
+## 2. Subject
 
-A Domain is a broad coherent semantic area within the canonical model.
+A Subject is a broad coherent semantic area within the canonical model: an area of reusable business knowledge with one responsibility (the *subject data areas* of the Data Model Resource Book). An industry is not a subject: health care or crane rental is an industry pattern that selects and explains subjects. The model carries common models only; an application adds what only its kind of business needs.
 
 Examples:
 
@@ -107,20 +107,20 @@ Examples:
 - Asset Management;
 - Finance.
 
-A Domain is not necessarily an implementation boundary.
+A Subject is not necessarily an implementation boundary.
 
 Its primary purpose is organization and semantic coherence.
 
 ## 3. Aggregate Business Entity (ABE)
 
-An **Aggregate Business Entity (ABE)** is a primary first-class modeling concept in the Industry Patterns model. It is the principal reusable semantic unit between a Domain and individual entities.
+An **Aggregate Business Entity (ABE)** is a primary first-class modeling concept in the Industry Patterns model. It is the principal reusable semantic unit between a Subject and individual entities.
 
 An ABE groups business concepts that belong together semantically and are commonly understood, selected, specialized, and composed together. Industry models should be organized primarily around ABEs rather than around flat lists of entities.
 
 Example:
 
 ```text
-Domain: Resource Management
+Subject: Resource Management
 
 ABE: Resource
   Resource
@@ -556,7 +556,7 @@ Instead:
 ```text
 Canonical Semantic Model
         ↓
-Domains
+Subjects
         ↓
 ABEs
         ↓
@@ -611,7 +611,7 @@ Recognize business goals
         ↓
 Identify required capabilities
         ↓
-Select relevant domains / ABEs / patterns
+Select relevant subjects / ABEs / patterns
         ↓
 Bind to existing business concepts
         ↓
@@ -640,7 +640,7 @@ ABE is the critical middle layer because it gives model composition a useful gra
 Without ABE:
 
 ```text
-Domain
+Subject
   ↓
 hundreds of Entities
 ```
@@ -650,7 +650,7 @@ is too coarse at the top and too detailed at the bottom.
 With ABE:
 
 ```text
-Domain
+Subject
   ↓
 ABE
   ↓
@@ -674,7 +674,7 @@ Entity[] + Rules + Relationships
 The recommended MDE industry-model architecture is:
 
 ```text
-DOMAIN
+SUBJECT
   broad semantic area
 
     ↓
@@ -711,8 +711,8 @@ INTERFACE
 The central rules are:
 
 1. Maintain one coherent canonical semantic model.
-2. Organize it into Domains and ABEs.
-3. Treat ABE as the primary reusable modeling concept between Domain and Entity.
+2. Organize it into Subjects and ABEs.
+3. Treat ABE as the primary reusable modeling concept between Subject and Entity.
 4. Use capabilities to express what the application needs and which ABEs are relevant.
 5. Let Strategy select only the required detail from each ABE rather than introducing a separate Profile layer.
 6. Treat modules as bounded implementation and ownership units.
@@ -733,7 +733,7 @@ MDE may learn from mature external reference models without adopting their indus
 The [Reference Model Importer and Analyzer](reference-model-importer.md) provides a source-neutral pipeline for:
 
 - importing authorized reference-model files through adapters;
-- normalizing Domains, ABEs, Entities, Capabilities, and Interfaces;
+- normalizing Subjects, ABEs, Entities, Capabilities, and Interfaces;
 - comparing them with existing MDE Industry Patterns;
 - identifying matches, specializations, extensions, candidate ABEs, and gaps;
 - preserving source provenance for review.

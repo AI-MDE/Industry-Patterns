@@ -4,362 +4,362 @@
     {
       "type": "capability",
       "name": "Access And Scheduling",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/access-and-scheduling.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/access-and-scheduling.md",
       "relatedAbes": [
-        "model/domains/health-care/patient/README.md",
-        "model/domains/health-care/health-care-organization/README.md",
-        "model/domains/health-care/schedule/README.md",
-        "model/domains/health-care/service-request/README.md"
+        "model/subjects/care/patient/README.md",
+        "model/subjects/care/health-care-organization/README.md",
+        "model/subjects/scheduling/appointment/README.md",
+        "model/subjects/request/request/README.md"
       ]
     },
     {
       "type": "capability",
       "name": "Care Coordination",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/care-coordination.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/care-coordination.md",
       "relatedAbes": [
-        "model/domains/health-care/encounter/README.md",
-        "model/domains/health-care/service-request/README.md",
-        "model/domains/health-care/health-care-service/README.md"
+        "model/subjects/care/encounter/README.md",
+        "model/subjects/request/request/README.md",
+        "model/subjects/care/health-care-service/README.md"
       ]
     },
     {
       "type": "capability",
       "name": "Care Delivery",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/care-delivery.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/care-delivery.md",
       "relatedAbes": [
-        "model/domains/health-care/encounter/README.md",
-        "model/domains/health-care/clinical-note/README.md",
-        "model/domains/health-care/service-request/README.md",
-        "model/domains/health-care/health-care-service/README.md"
+        "model/subjects/care/encounter/README.md",
+        "model/subjects/document/evidence/README.md",
+        "model/subjects/request/request/README.md",
+        "model/subjects/care/health-care-service/README.md"
       ]
     },
     {
       "type": "capability",
       "name": "Patient Administration",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/patient-administration.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/patient-administration.md",
       "relatedAbes": [
-        "model/domains/health-care/patient/README.md",
-        "model/domains/health-care/consent/README.md",
-        "model/domains/health-care/coverage/README.md"
+        "model/subjects/care/patient/README.md",
+        "model/subjects/information/consent/README.md",
+        "model/subjects/coverage/coverage/README.md"
       ]
     },
     {
       "type": "capability",
       "name": "Privacy Consent And Audit",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/privacy-consent-and-audit.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/privacy-consent-and-audit.md",
       "relatedAbes": [
-        "model/domains/health-care/patient/README.md",
-        "model/domains/health-care/consent/README.md"
+        "model/subjects/care/patient/README.md",
+        "model/subjects/information/consent/README.md"
       ]
     },
     {
       "type": "capability",
       "name": "Revenue Cycle",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/capabilities/revenue-cycle.md",
+      "subject": "Health Care",
+      "path": "model/subjects/care/capabilities/revenue-cycle.md",
       "relatedAbes": [
-        "model/domains/health-care/health-care-service/README.md",
-        "model/domains/health-care/coverage/README.md"
+        "model/subjects/care/health-care-service/README.md",
+        "model/subjects/coverage/coverage/README.md"
       ]
     },
     {
       "type": "role",
       "name": "Billing Specialist",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/billing-specialist.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/billing-specialist.md"
     },
     {
       "type": "role",
       "name": "Care Coordinator",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/care-coordinator.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/care-coordinator.md"
     },
     {
       "type": "role",
       "name": "Patient",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/patient.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/patient.md"
     },
     {
       "type": "role",
       "name": "Payer Reviewer",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/payer-reviewer.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/payer-reviewer.md"
     },
     {
       "type": "role",
       "name": "Privacy Officer",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/privacy-officer.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/privacy-officer.md"
     },
     {
       "type": "role",
       "name": "Provider",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/provider.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/provider.md"
     },
     {
       "type": "role",
       "name": "Related Person",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/related-person.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/related-person.md"
     },
     {
       "type": "role",
       "name": "Scheduler",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/roles/scheduler.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/roles/scheduler.md"
     },
     {
       "type": "business-rule",
       "name": "Appointment Must Respect Availability",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/appointment-must-respect-availability.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/appointment-must-respect-availability.md"
     },
     {
       "type": "business-rule",
       "name": "Audit Events Are Immutable",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/audit-events-are-immutable.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/audit-events-are-immutable.md"
     },
     {
       "type": "business-rule",
       "name": "Authorization Does Not Replace Consent",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/authorization-does-not-replace-consent.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/authorization-does-not-replace-consent.md"
     },
     {
       "type": "business-rule",
       "name": "Authorized Service Must Match Conditions",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/authorized-service-must-match-conditions.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/authorized-service-must-match-conditions.md"
     },
     {
       "type": "business-rule",
       "name": "Care Plan Must Identify Accountable Provider",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/care-plan-must-identify-accountable-provider.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/care-plan-must-identify-accountable-provider.md"
     },
     {
       "type": "business-rule",
       "name": "Case Resolution Requires Evidence",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/case-resolution-requires-evidence.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/case-resolution-requires-evidence.md"
     },
     {
       "type": "business-rule",
       "name": "Claim Line Must Trace To Delivered Service",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/claim-line-must-trace-to-delivered-service.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/claim-line-must-trace-to-delivered-service.md"
     },
     {
       "type": "business-rule",
       "name": "Claim Totals Must Reconcile",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/claim-totals-must-reconcile.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/claim-totals-must-reconcile.md"
     },
     {
       "type": "business-rule",
       "name": "Clinical Assertion Requires Provenance",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/clinical-assertion-requires-provenance.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/clinical-assertion-requires-provenance.md"
     },
     {
       "type": "business-rule",
       "name": "Consent Evaluated By Purpose Scope And Time",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/consent-evaluated-by-purpose-scope-and-time.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/consent-evaluated-by-purpose-scope-and-time.md"
     },
     {
       "type": "business-rule",
       "name": "Coverage Must Be Effective On Service Date",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/coverage-must-be-effective-on-service-date.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/coverage-must-be-effective-on-service-date.md"
     },
     {
       "type": "business-rule",
       "name": "Encounter End Cannot Precede Start",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/encounter-end-cannot-precede-start.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/encounter-end-cannot-precede-start.md"
     },
     {
       "type": "business-rule",
       "name": "Episode Must Concern One Patient",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/episode-must-concern-one-patient.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/episode-must-concern-one-patient.md"
     },
     {
       "type": "business-rule",
       "name": "Finalized Records Preserve History",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/finalized-records-preserve-history.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/finalized-records-preserve-history.md"
     },
     {
       "type": "business-rule",
       "name": "Minimum Necessary Access",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/minimum-necessary-access.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/minimum-necessary-access.md"
     },
     {
       "type": "business-rule",
       "name": "Observation Requires Subject Time Source",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/observation-requires-subject-time-source.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/observation-requires-subject-time-source.md"
     },
     {
       "type": "business-rule",
       "name": "Patient Identity Must Be Traceable",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/patient-identity-must-be-traceable.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/patient-identity-must-be-traceable.md"
     },
     {
       "type": "business-rule",
       "name": "Protected Access Must Be Audited",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/protected-access-must-be-audited.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/protected-access-must-be-audited.md"
     },
     {
       "type": "business-rule",
       "name": "Provider Must Act Within Active Scope",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/provider-must-act-within-active-scope.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/provider-must-act-within-active-scope.md"
     },
     {
       "type": "business-rule",
       "name": "Service Delivery Must Trace To Request Or Plan",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/service-delivery-must-trace-to-request-or-plan.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/service-delivery-must-trace-to-request-or-plan.md"
     },
     {
       "type": "business-rule",
       "name": "Service Delivery Requires Traceability",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/service-delivery-requires-traceability.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/service-delivery-requires-traceability.md"
     },
     {
       "type": "business-rule",
       "name": "Service Location Must Be Operational",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/rules/service-location-must-be-operational.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/rules/service-location-must-be-operational.md"
     },
     {
       "type": "use-case",
       "name": "Capture Consent",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/capture-consent.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/capture-consent.md"
     },
     {
       "type": "use-case",
       "name": "Check In Patient",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/check-in-patient.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/check-in-patient.md"
     },
     {
       "type": "use-case",
       "name": "Complete Service Delivery",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/complete-service-delivery.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/complete-service-delivery.md"
     },
     {
       "type": "use-case",
       "name": "Conduct Encounter",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/conduct-encounter.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/conduct-encounter.md"
     },
     {
       "type": "use-case",
       "name": "Coordinate Medical Case",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/coordinate-medical-case.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/coordinate-medical-case.md"
     },
     {
       "type": "use-case",
       "name": "Create Care Plan",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/create-care-plan.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/create-care-plan.md"
     },
     {
       "type": "use-case",
       "name": "Order Service",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/order-service.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/order-service.md"
     },
     {
       "type": "use-case",
       "name": "Record Claim Adjudication",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/record-claim-adjudication.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/record-claim-adjudication.md"
     },
     {
       "type": "use-case",
       "name": "Record Observation",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/record-observation.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/record-observation.md"
     },
     {
       "type": "use-case",
       "name": "Register Patient",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/register-patient.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/register-patient.md"
     },
     {
       "type": "use-case",
       "name": "Request Service Authorization",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/request-service-authorization.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/request-service-authorization.md"
     },
     {
       "type": "use-case",
       "name": "Review Access Audit",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/review-access-audit.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/review-access-audit.md"
     },
     {
       "type": "use-case",
       "name": "Schedule Appointment",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/schedule-appointment.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/schedule-appointment.md"
     },
     {
       "type": "use-case",
       "name": "Submit Claim",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/submit-claim.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/submit-claim.md"
     },
     {
       "type": "use-case",
       "name": "Verify Coverage",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/use-cases/verify-coverage.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/use-cases/verify-coverage.md"
     },
     {
       "type": "workflow",
       "name": "Claim To Payment",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/workflows/claim-to-payment.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/workflows/claim-to-payment.md"
     },
     {
       "type": "workflow",
       "name": "Longitudinal Care Coordination",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/workflows/longitudinal-care-coordination.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/workflows/longitudinal-care-coordination.md"
     },
     {
       "type": "workflow",
       "name": "Ordered Service Delivery",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/workflows/ordered-service-delivery.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/workflows/ordered-service-delivery.md"
     },
     {
       "type": "workflow",
       "name": "Patient Access To Care",
-      "domain": "Health Care",
-      "path": "model/domains/health-care/workflows/patient-access-to-care.md"
+      "subject": "Health Care",
+      "path": "model/subjects/care/workflows/patient-access-to-care.md"
     }
   ]
 }

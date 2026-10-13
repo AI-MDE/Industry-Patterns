@@ -36,43 +36,43 @@ Adds: Legal Entity; Brand; Market; Channel; Product Bundle; Eligibility Rule; Ne
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/telecommunications/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/telecommunications.md#actors-and-roles).
 
 ## Product, service, and resource specifications
 
 ### Telecommunications Product
 
-Canonical concept: [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/telecommunications-product.md).
+Canonical concept: [Product](../model/subjects/product/product/product.md) (as Telecommunications Product).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-Canonical concept: [Product Version](../model/domains/telecommunications/telecommunications-product/product-version.md).
+Canonical concept: [Product Version](../model/subjects/product/product/product-version.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Offering
 
-Canonical concept: [Product Offering](../model/domains/telecommunications/telecommunications-product/product-offering.md).
+Canonical concept: [Offering](../model/subjects/product/offering/offering.md) (as Product Offering).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Component
 
-Canonical concept: [Product Component](../model/domains/telecommunications/telecommunications-product/product-component.md).
+Canonical concept: [Product Component](../model/subjects/product/product/product-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Specification
 
-Canonical concept: [Service Specification](../model/domains/telecommunications/telecommunications-product/service-specification.md).
+Canonical concept: [Service Specification](../model/subjects/network/service-specification/service-specification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Specification
 
-Canonical concept: [Resource Specification](../model/domains/telecommunications/telecommunications-product/resource-specification.md).
+Canonical concept: [Resource Specification](../model/subjects/network/service-specification/resource-specification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -80,31 +80,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Customer Account
 
-Canonical concept: [Customer Account](../model/domains/telecommunications/customer-account/customer-account.md).
+Canonical concept: [Customer Account](../model/subjects/party/customer-account/customer-account.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Billing Account
 
-Canonical concept: [Billing Account](../model/domains/telecommunications/customer-account/billing-account.md).
+Canonical concept: [Billing Account](../model/subjects/finance/invoice/billing-account.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Customer Agreement
 
-Canonical concept: [Customer Agreement](../model/domains/telecommunications/customer-account/customer-agreement.md).
+Canonical concept: [Agreement](../model/subjects/agreement/agreement/agreement.md) (as Customer Agreement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription
 
-Canonical concept: [Subscription](../model/domains/telecommunications/customer-account/subscription.md).
+Canonical concept: [Subscription](../model/subjects/agreement/agreement/subscription.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subscription Party
 
-Canonical concept: [Subscription Party](../model/domains/telecommunications/customer-account/subscription-party.md).
+Canonical concept: [Agreement Role](../model/subjects/agreement/agreement/agreement-role.md) (as Subscription Party).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -112,31 +112,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Service Request
 
-Canonical concept: [Service Request](../model/domains/telecommunications/service-request/service-request.md).
+Canonical concept: [Service Request](../model/subjects/request/request/service-request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Location
 
-Canonical concept: [Service Location](../model/domains/telecommunications/service-request/service-location.md).
+Canonical concept: [Site](../model/subjects/location/site/site.md) (as Service Location).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Qualification
 
-Canonical concept: [Service Qualification](../model/domains/telecommunications/service-request/service-qualification.md).
+Canonical concept: [Service Qualification](../model/subjects/network/service-qualification/service-qualification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Qualification Result
 
-Canonical concept: [Qualification Result](../model/domains/telecommunications/service-request/qualification-result.md).
+Canonical concept: [Qualification Result](../model/subjects/network/service-qualification/qualification-result.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Serviceability Rule
 
-Canonical concept: [Serviceability Rule](../model/domains/telecommunications/service-request/serviceability-rule.md).
+Canonical concept: [Serviceability Rule](../model/subjects/network/service-qualification/serviceability-rule.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -144,37 +144,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Telecommunications Quote
 
-Canonical concept: [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/telecommunications-quote.md).
+Canonical concept: [Quote](../model/subjects/request/quote/quote.md) (as Telecommunications Quote).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Order
 
-Canonical concept: [Product Order](../model/domains/telecommunications/telecommunications-quote/product-order.md).
+Canonical concept: [Order](../model/subjects/request/order/order.md) (as Product Order).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Order Item
 
-Canonical concept: [Product Order Item](../model/domains/telecommunications/telecommunications-quote/product-order-item.md).
+Canonical concept: [Order Line](../model/subjects/request/order/order-line.md) (as Product Order Item).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Order
 
-Canonical concept: [Service Order](../model/domains/telecommunications/telecommunications-quote/service-order.md).
+Canonical concept: [Service Order](../model/subjects/network/service-order/service-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Order Item
 
-Canonical concept: [Service Order Item](../model/domains/telecommunications/telecommunications-quote/service-order-item.md).
+Canonical concept: [Service Order Item](../model/subjects/network/service-order/service-order-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource Order
 
-Canonical concept: [Resource Order](../model/domains/telecommunications/telecommunications-quote/resource-order.md).
+Canonical concept: [Resource Order](../model/subjects/network/service-order/resource-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -182,55 +182,55 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Service Instance
 
-Canonical concept: [Service Instance](../model/domains/telecommunications/service-instance/service-instance.md).
+Canonical concept: [Service Instance](../model/subjects/network/service-instance/service-instance.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Characteristic
 
-Canonical concept: [Service Characteristic](../model/domains/telecommunications/service-instance/service-characteristic.md).
+Canonical concept: [Service Characteristic](../model/subjects/network/service-instance/service-characteristic.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Resource
 
-Canonical concept: [Network Resource](../model/domains/telecommunications/service-instance/network-resource.md).
+Canonical concept: [Network Resource](../model/subjects/network/service-instance/network-resource.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Component
 
-Canonical concept: [Network Component](../model/domains/telecommunications/service-instance/network-component.md).
+Canonical concept: [Network Component](../model/subjects/network/service-instance/network-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Endpoint
 
-Canonical concept: [Network Endpoint](../model/domains/telecommunications/service-instance/network-endpoint.md).
+Canonical concept: [Network Endpoint](../model/subjects/network/service-instance/network-endpoint.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Circuit
 
-Canonical concept: [Circuit](../model/domains/telecommunications/service-instance/circuit.md).
+Canonical concept: [Circuit](../model/subjects/network/service-instance/circuit.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Network Connection
 
-Canonical concept: [Network Connection](../model/domains/telecommunications/service-instance/network-connection.md).
+Canonical concept: [Network Connection](../model/subjects/network/service-instance/network-connection.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service-Resource Assignment
 
-Canonical concept: [Service-Resource Assignment](../model/domains/telecommunications/service-instance/service-resource-assignment.md).
+Canonical concept: [Service-Resource Assignment](../model/subjects/network/service-instance/service-resource-assignment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Communication Identifier
 
-Canonical concept: [Communication Identifier](../model/domains/telecommunications/service-instance/communication-identifier.md).
+Canonical concept: [Communication Identifier](../model/subjects/network/service-instance/communication-identifier.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -238,37 +238,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Resource Reservation
 
-Canonical concept: [Resource Reservation](../model/domains/telecommunications/resource-reservation/resource-reservation.md).
+Canonical concept: [Reservation](../model/subjects/scheduling/reservation/reservation.md) (as Resource Reservation).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provisioning Task
 
-Canonical concept: [Provisioning Task](../model/domains/telecommunications/resource-reservation/provisioning-task.md).
+Canonical concept: [Work Effort](../model/subjects/work/work-effort/work-effort.md) (as Provisioning Task).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Field Work Order
 
-Canonical concept: [Field Work Order](../model/domains/telecommunications/resource-reservation/field-work-order.md).
+Canonical concept: [Work Order](../model/subjects/work/work-effort/work-order.md) (as Field Work Order).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Configuration
 
-Canonical concept: [Service Configuration](../model/domains/telecommunications/resource-reservation/service-configuration.md).
+Canonical concept: [Service Configuration](../model/subjects/network/service-activation/service-configuration.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Activation Test
 
-Canonical concept: [Activation Test](../model/domains/telecommunications/resource-reservation/activation-test.md).
+Canonical concept: [Activation Test](../model/subjects/network/service-activation/activation-test.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Activation
 
-Canonical concept: [Service Activation](../model/domains/telecommunications/resource-reservation/service-activation.md).
+Canonical concept: [Service Activation](../model/subjects/network/service-activation/service-activation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -276,37 +276,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Trouble Ticket
 
-Canonical concept: [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/trouble-ticket.md).
+Canonical concept: [Case](../model/subjects/case/case/case.md) (as Trouble Ticket).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Alarm
 
-Canonical concept: [Alarm](../model/domains/telecommunications/trouble-ticket/alarm.md).
+Canonical concept: [Alarm](../model/subjects/network/outage/alarm.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Impact
 
-Canonical concept: [Service Impact](../model/domains/telecommunications/trouble-ticket/service-impact.md).
+Canonical concept: [Service Impact](../model/subjects/network/outage/service-impact.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Performance Measurement
 
-Canonical concept: [Performance Measurement](../model/domains/telecommunications/trouble-ticket/performance-measurement.md).
+Canonical concept: [Measurement](../model/subjects/measurement/measure/measurement.md) (as Performance Measurement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Level Agreement
 
-Canonical concept: [Service Level Agreement](../model/domains/telecommunications/trouble-ticket/service-level-agreement.md).
+Canonical concept: [Service Level Agreement](../model/subjects/agreement/agreement/service-level-agreement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outage
 
-Canonical concept: [Outage](../model/domains/telecommunications/trouble-ticket/outage.md).
+Canonical concept: [Outage](../model/subjects/network/outage/outage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -314,49 +314,49 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Usage Event
 
-Canonical concept: [Usage Event](../model/domains/telecommunications/usage-event/usage-event.md).
+Canonical concept: [Usage Record](../model/subjects/measurement/usage-record/usage-record.md) (as Usage Event).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Mediation Record
 
-Canonical concept: [Mediation Record](../model/domains/telecommunications/usage-event/mediation-record.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Rule
 
-Canonical concept: [Rating Rule](../model/domains/telecommunications/usage-event/rating-rule.md).
+Canonical concept: [Price Rule](../model/subjects/product/offering/price-rule.md) (as Rating Rule).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rated Usage
 
-Canonical concept: [Rated Usage](../model/domains/telecommunications/usage-event/rated-usage.md).
+Canonical concept: [Charge](../model/subjects/finance/invoice/charge.md) (as Rated Usage).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Allowance or Bucket
 
-Canonical concept: [Allowance or Bucket](../model/domains/telecommunications/usage-event/allowance-or-bucket.md).
+Canonical concept: [Allowance or Bucket](../model/subjects/agreement/agreement/allowance-or-bucket.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Charge
 
-Canonical concept: [Charge](../model/domains/telecommunications/usage-event/charge.md).
+Canonical concept: [Charge](../model/subjects/finance/invoice/charge.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-Canonical concept: [Invoice](../model/domains/finance/invoice/invoice.md).
+Canonical concept: [Invoice](../model/subjects/finance/invoice/invoice.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment and Adjustment
 
-Canonical concept: [Payment and Adjustment](../model/domains/telecommunications/usage-event/payment-and-adjustment.md).
+Canonical concept: [Adjustment](../model/subjects/finance/invoice/adjustment.md) (as Payment and Adjustment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -364,43 +364,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Interconnect Agreement
 
-Canonical concept: [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/interconnect-agreement.md).
+Canonical concept: [Interconnect Agreement](../model/subjects/network/interconnect-agreement/interconnect-agreement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Partner Service
 
-Canonical concept: [Partner Service](../model/domains/telecommunications/interconnect-agreement/partner-service.md).
+Canonical concept: [Partner Service](../model/subjects/network/interconnect-agreement/partner-service.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Partner Usage
 
-Canonical concept: [Partner Usage](../model/domains/telecommunications/interconnect-agreement/partner-usage.md).
+Canonical concept: [Partner Usage](../model/subjects/network/interconnect-agreement/partner-usage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Settlement
 
-Canonical concept: [Settlement](../model/domains/telecommunications/interconnect-agreement/settlement.md).
+Canonical concept: [Settlement](../model/subjects/finance/payment/settlement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/telecommunications/behavior.md#relationship-model).
+See [canonical relationship model](behavior/telecommunications.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/telecommunications/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/telecommunications.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/telecommunications/behavior.md#business-events).
+See [canonical business events](behavior/telecommunications.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/telecommunications/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/telecommunications.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -517,58 +517,64 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Telecommunications Product | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/telecommunications-product.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Product Version | [Product Version](../model/domains/telecommunications/telecommunications-product/product-version.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Product Offering | [Product Offering](../model/domains/telecommunications/telecommunications-product/product-offering.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Product Component | [Product Component](../model/domains/telecommunications/telecommunications-product/product-component.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Service Specification | [Service Specification](../model/domains/telecommunications/telecommunications-product/service-specification.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Resource Specification | [Resource Specification](../model/domains/telecommunications/telecommunications-product/resource-specification.md) | [Telecommunications Product](../model/domains/telecommunications/telecommunications-product/README.md) |
-| Customer Account | [Customer Account](../model/domains/telecommunications/customer-account/customer-account.md) | [Customer Account](../model/domains/telecommunications/customer-account/README.md) |
-| Billing Account | [Billing Account](../model/domains/telecommunications/customer-account/billing-account.md) | [Customer Account](../model/domains/telecommunications/customer-account/README.md) |
-| Customer Agreement | [Customer Agreement](../model/domains/telecommunications/customer-account/customer-agreement.md) | [Customer Account](../model/domains/telecommunications/customer-account/README.md) |
-| Subscription | [Subscription](../model/domains/telecommunications/customer-account/subscription.md) | [Customer Account](../model/domains/telecommunications/customer-account/README.md) |
-| Subscription Party | [Subscription Party](../model/domains/telecommunications/customer-account/subscription-party.md) | [Customer Account](../model/domains/telecommunications/customer-account/README.md) |
-| Service Request | [Service Request](../model/domains/telecommunications/service-request/service-request.md) | [Service Request](../model/domains/telecommunications/service-request/README.md) |
-| Service Location | [Service Location](../model/domains/telecommunications/service-request/service-location.md) | [Service Request](../model/domains/telecommunications/service-request/README.md) |
-| Service Qualification | [Service Qualification](../model/domains/telecommunications/service-request/service-qualification.md) | [Service Request](../model/domains/telecommunications/service-request/README.md) |
-| Qualification Result | [Qualification Result](../model/domains/telecommunications/service-request/qualification-result.md) | [Service Request](../model/domains/telecommunications/service-request/README.md) |
-| Serviceability Rule | [Serviceability Rule](../model/domains/telecommunications/service-request/serviceability-rule.md) | [Service Request](../model/domains/telecommunications/service-request/README.md) |
-| Telecommunications Quote | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/telecommunications-quote.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Product Order | [Product Order](../model/domains/telecommunications/telecommunications-quote/product-order.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Product Order Item | [Product Order Item](../model/domains/telecommunications/telecommunications-quote/product-order-item.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Service Order | [Service Order](../model/domains/telecommunications/telecommunications-quote/service-order.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Service Order Item | [Service Order Item](../model/domains/telecommunications/telecommunications-quote/service-order-item.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Resource Order | [Resource Order](../model/domains/telecommunications/telecommunications-quote/resource-order.md) | [Telecommunications Quote](../model/domains/telecommunications/telecommunications-quote/README.md) |
-| Service Instance | [Service Instance](../model/domains/telecommunications/service-instance/service-instance.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Service Characteristic | [Service Characteristic](../model/domains/telecommunications/service-instance/service-characteristic.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Network Resource | [Network Resource](../model/domains/telecommunications/service-instance/network-resource.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Network Component | [Network Component](../model/domains/telecommunications/service-instance/network-component.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Network Endpoint | [Network Endpoint](../model/domains/telecommunications/service-instance/network-endpoint.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Circuit | [Circuit](../model/domains/telecommunications/service-instance/circuit.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Network Connection | [Network Connection](../model/domains/telecommunications/service-instance/network-connection.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Service-Resource Assignment | [Service-Resource Assignment](../model/domains/telecommunications/service-instance/service-resource-assignment.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Communication Identifier | [Communication Identifier](../model/domains/telecommunications/service-instance/communication-identifier.md) | [Service Instance](../model/domains/telecommunications/service-instance/README.md) |
-| Resource Reservation | [Resource Reservation](../model/domains/telecommunications/resource-reservation/resource-reservation.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Provisioning Task | [Provisioning Task](../model/domains/telecommunications/resource-reservation/provisioning-task.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Field Work Order | [Field Work Order](../model/domains/telecommunications/resource-reservation/field-work-order.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Service Configuration | [Service Configuration](../model/domains/telecommunications/resource-reservation/service-configuration.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Activation Test | [Activation Test](../model/domains/telecommunications/resource-reservation/activation-test.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Service Activation | [Service Activation](../model/domains/telecommunications/resource-reservation/service-activation.md) | [Resource Reservation](../model/domains/telecommunications/resource-reservation/README.md) |
-| Trouble Ticket | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/trouble-ticket.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Alarm | [Alarm](../model/domains/telecommunications/trouble-ticket/alarm.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Service Impact | [Service Impact](../model/domains/telecommunications/trouble-ticket/service-impact.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Performance Measurement | [Performance Measurement](../model/domains/telecommunications/trouble-ticket/performance-measurement.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Service Level Agreement | [Service Level Agreement](../model/domains/telecommunications/trouble-ticket/service-level-agreement.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Outage | [Outage](../model/domains/telecommunications/trouble-ticket/outage.md) | [Trouble Ticket](../model/domains/telecommunications/trouble-ticket/README.md) |
-| Usage Event | [Usage Event](../model/domains/telecommunications/usage-event/usage-event.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Mediation Record | [Mediation Record](../model/domains/telecommunications/usage-event/mediation-record.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Rating Rule | [Rating Rule](../model/domains/telecommunications/usage-event/rating-rule.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Rated Usage | [Rated Usage](../model/domains/telecommunications/usage-event/rated-usage.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Allowance or Bucket | [Allowance or Bucket](../model/domains/telecommunications/usage-event/allowance-or-bucket.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Charge | [Charge](../model/domains/telecommunications/usage-event/charge.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment and Adjustment | [Payment and Adjustment](../model/domains/telecommunications/usage-event/payment-and-adjustment.md) | [Usage Event](../model/domains/telecommunications/usage-event/README.md) |
-| Interconnect Agreement | [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/interconnect-agreement.md) | [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/README.md) |
-| Partner Service | [Partner Service](../model/domains/telecommunications/interconnect-agreement/partner-service.md) | [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/README.md) |
-| Partner Usage | [Partner Usage](../model/domains/telecommunications/interconnect-agreement/partner-usage.md) | [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/README.md) |
-| Settlement | [Settlement](../model/domains/telecommunications/interconnect-agreement/settlement.md) | [Interconnect Agreement](../model/domains/telecommunications/interconnect-agreement/README.md) |
+| Telecommunications Product | [Telecommunications Product](../model/subjects/product/product/product.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Product Version | [Product Version](../model/subjects/product/product/product-version.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Product Offering | [Product Offering](../model/subjects/product/offering/offering.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Product Component | [Product Component](../model/subjects/product/product/product-component.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Service Specification | [Service Specification](../model/subjects/network/service-specification/service-specification.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Resource Specification | [Resource Specification](../model/subjects/network/service-specification/resource-specification.md) | [Telecommunications Product](../model/subjects/product/product/README.md) |
+| Customer Account | [Customer Account](../model/subjects/party/customer-account/customer-account.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Billing Account | [Billing Account](../model/subjects/finance/invoice/billing-account.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Customer Agreement | [Customer Agreement](../model/subjects/agreement/agreement/agreement.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Subscription | [Subscription](../model/subjects/agreement/agreement/subscription.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Subscription Party | [Subscription Party](../model/subjects/agreement/agreement/agreement-role.md) | [Customer Account](../model/subjects/party/customer-account/README.md) |
+| Service Request | [Service Request](../model/subjects/request/request/service-request.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Service Location | [Service Location](../model/subjects/location/site/site.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Service Qualification | [Service Qualification](../model/subjects/network/service-qualification/service-qualification.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Qualification Result | [Qualification Result](../model/subjects/network/service-qualification/qualification-result.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Serviceability Rule | [Serviceability Rule](../model/subjects/network/service-qualification/serviceability-rule.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Telecommunications Quote | [Telecommunications Quote](../model/subjects/request/quote/quote.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Product Order | [Product Order](../model/subjects/request/order/order.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Product Order Item | [Product Order Item](../model/subjects/request/order/order-line.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Service Order | [Service Order](../model/subjects/network/service-order/service-order.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Service Order Item | [Service Order Item](../model/subjects/network/service-order/service-order-item.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Resource Order | [Resource Order](../model/subjects/network/service-order/resource-order.md) | [Telecommunications Quote](../model/subjects/request/quote/README.md) |
+| Service Instance | [Service Instance](../model/subjects/network/service-instance/service-instance.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Service Characteristic | [Service Characteristic](../model/subjects/network/service-instance/service-characteristic.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Network Resource | [Network Resource](../model/subjects/network/service-instance/network-resource.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Network Component | [Network Component](../model/subjects/network/service-instance/network-component.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Network Endpoint | [Network Endpoint](../model/subjects/network/service-instance/network-endpoint.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Circuit | [Circuit](../model/subjects/network/service-instance/circuit.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Network Connection | [Network Connection](../model/subjects/network/service-instance/network-connection.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Service-Resource Assignment | [Service-Resource Assignment](../model/subjects/network/service-instance/service-resource-assignment.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Communication Identifier | [Communication Identifier](../model/subjects/network/service-instance/communication-identifier.md) | [Service Instance](../model/subjects/network/service-instance/README.md) |
+| Resource Reservation | [Resource Reservation](../model/subjects/scheduling/reservation/reservation.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Provisioning Task | [Provisioning Task](../model/subjects/work/work-effort/work-effort.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Field Work Order | [Field Work Order](../model/subjects/work/work-effort/work-order.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Service Configuration | [Service Configuration](../model/subjects/network/service-activation/service-configuration.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Activation Test | [Activation Test](../model/subjects/network/service-activation/activation-test.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Service Activation | [Service Activation](../model/subjects/network/service-activation/service-activation.md) | [Resource Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Trouble Ticket | [Trouble Ticket](../model/subjects/case/case/case.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Alarm | [Alarm](../model/subjects/network/outage/alarm.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Service Impact | [Service Impact](../model/subjects/network/outage/service-impact.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Performance Measurement | [Performance Measurement](../model/subjects/measurement/measure/measurement.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Service Level Agreement | [Service Level Agreement](../model/subjects/agreement/agreement/service-level-agreement.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Outage | [Outage](../model/subjects/network/outage/outage.md) | [Trouble Ticket](../model/subjects/case/case/README.md) |
+| Usage Event | [Usage Event](../model/subjects/measurement/usage-record/usage-record.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Mediation Record | [Mediation Record](#concepts-applications-typically-add) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Rating Rule | [Rating Rule](../model/subjects/product/offering/price-rule.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Rated Usage | [Rated Usage](../model/subjects/finance/invoice/charge.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Allowance or Bucket | [Allowance or Bucket](../model/subjects/agreement/agreement/allowance-or-bucket.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Charge | [Charge](../model/subjects/finance/invoice/charge.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Invoice | [Invoice](../model/subjects/finance/invoice/invoice.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment and Adjustment | [Payment and Adjustment](../model/subjects/finance/invoice/adjustment.md) | [Usage Event](../model/subjects/measurement/usage-record/README.md) |
+| Interconnect Agreement | [Interconnect Agreement](../model/subjects/network/interconnect-agreement/interconnect-agreement.md) | [Interconnect Agreement](../model/subjects/network/interconnect-agreement/README.md) |
+| Partner Service | [Partner Service](../model/subjects/network/interconnect-agreement/partner-service.md) | [Interconnect Agreement](../model/subjects/network/interconnect-agreement/README.md) |
+| Partner Usage | [Partner Usage](../model/subjects/network/interconnect-agreement/partner-usage.md) | [Interconnect Agreement](../model/subjects/network/interconnect-agreement/README.md) |
+| Settlement | [Settlement](../model/subjects/finance/payment/settlement.md) | [Interconnect Agreement](../model/subjects/network/interconnect-agreement/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Mediation Record**: A normalized, validated, enriched, correlated, or aggregated usage record.

@@ -8,7 +8,7 @@ The industry patterns adapt recurring business concepts inspired by *The Data Mo
 
 ## Coherent model
 
-The [canonical model](model/README.md) owns reusable business definitions and behavior. Concepts follow **Domain → ABE → Entity**; capabilities, roles, rules, use cases, and workflows sit alongside ABEs in their owning domain. Industry patterns guide selection from that model. Start with the [Domain index](model/domains/index.md) or inspect the [integration review](model/integration-review.md).
+The [canonical model](model/README.md) owns reusable business definitions and behavior. It carries **common models only**, organized as **Subject → ABE → Entity**: a subject is an area of reusable business knowledge with one responsibility (Parties and Roles, Agreements, Billing and Payments, Workforce, …). Industries are patterns: they select and explain subjects and name what an application typically adds; the application adds its own concepts. Start with the [Subject index](model/subjects/index.md), or see how the model was [reclassified by subject](docs/subject-reclassification.md).
 
 ## Repository areas
 
@@ -16,14 +16,14 @@ The [canonical model](model/README.md) owns reusable business definitions and be
 catalog.md          discovery index of industry patterns (start here)
 model/              canonical business definitions, requirements, and navigation
 industry-patterns/  industry context, variants, selection guidance, and questions
-modeling-patterns/  cross-industry requirements patterns bound to domain concepts
+modeling-patterns/  cross-industry requirements patterns bound to canonical concepts
 pattern-anatomy.md  target anatomy of an industry pattern and roadmap
 tools/              reference-model import, analysis, and canonical-model validation
 docs/               architecture and modeling guidance
 references/         upstream source snapshots with license and provenance
 ```
 
-Shared and industry domains live directly under `model/domains/`; each concept has one canonical home. The [reference snapshots](references/README.md) are inputs for analysis, separate from the canonical model.
+Subjects live under `model/subjects/`; each concept has one canonical home. The [reference snapshots](references/README.md) are inputs for analysis, separate from the canonical model.
 
 See [repository responsibilities and migration details](docs/repository-structure.md) for how definitions, industry guidance, and application decisions fit together.
 
@@ -51,7 +51,6 @@ Start with the [Catalog](catalog.md). Each pattern provides business context, co
 - [Insurance](industry-patterns/insurance.md)
 - [Financial Services](industry-patterns/financial-services.md)
 - [Travel](industry-patterns/travel.md)
-- [Real-World Extensions and Legacy Conversion](industry-patterns/legacy-conversion.md)
 
 ### Applied industry extensions
 
@@ -76,13 +75,14 @@ These patterns extend the catalog beyond the original book-derived industry subj
 - [Requirements modeling overview](modeling-patterns/requirements-modeling-overview.md)
 - [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md)
 - [Case management reference architecture](modeling-patterns/case-management-architecture.md)
+- [Data Migration](modeling-patterns/data-migration.md): converting and migrating legacy data (formerly the Legacy Conversion domain)
 
 ## Canonical business behavior
 
-Reusable requirements live directly in their owning domain. Use cases and workflows reference the same canonical entities as industry selections. Application-specific choices and architecture belong to the actual application.
+Reusable requirements live in their owning subject. Use cases and workflows reference the same canonical entities as industry selections. Application-specific choices and architecture belong to the actual application.
 
-- [Health Care use cases](model/domains/health-care/use-cases/README.md)
-- [Health Care workflows](model/domains/health-care/workflows/README.md)
+- [Health Care use cases](model/subjects/care/use-cases/README.md)
+- [Health Care workflows](model/subjects/care/workflows/README.md)
 - [Requirements registry](model/requirements.json)
 
 ## Reference model importer

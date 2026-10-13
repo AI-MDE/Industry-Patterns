@@ -2,7 +2,7 @@
 
 ## Canonical model
 
-This catalog is a discovery view of the [coherent industry model](model/README.md). Select patterns here, then follow their canonical bindings to [Domains and ABEs](model/domains/index.md). Shared definitions are reused; industry specializations preserve distinct meaning. See the [integration review](model/integration-review.md) for unresolved relationship expressions.
+This catalog is a discovery view of the [coherent industry model](model/README.md). Select patterns here, then follow their canonical bindings to [Subjects and ABEs](model/subjects/index.md). Shared definitions are reused; industry specializations preserve distinct meaning. See the [integration review](model/integration-review.md) for unresolved relationship expressions.
 
 ## Cross-Industry Modeling Patterns
 
@@ -92,11 +92,13 @@ See the full [E-Commerce model pattern](industry-patterns/e-commerce.md).
 
 ## Real-World Extensions and Legacy Conversion
 
+Now a modeling pattern, [Data Migration](modeling-patterns/data-migration.md): a migration project's concepts, not a business's. Identity, ownership, and data quality are in the [Information Governance](model/subjects/information/README.md) subject.
+
 **Business overview:** Organizations modernize existing systems by mapping legacy structures and terminology to canonical concepts, preserving identifiers and lineage, resolving incomplete or denormalized data, operating transitional integrations, and migrating capabilities incrementally without losing business meaning.
 
 Concerns: mapping legacy tables to canonical concepts, preserving external identifiers, supporting organization-specific terminology, handling incomplete or denormalized data, using classifications rather than proliferating entity types, progressive migration, and lineage between legacy data and MDE knowledge.
 
-See the full [Real-World Extensions and Legacy Conversion pattern](industry-patterns/legacy-conversion.md).
+See the full [Data Migration modeling pattern](modeling-patterns/data-migration.md).
 
 ## Applied Industry Extensions
 

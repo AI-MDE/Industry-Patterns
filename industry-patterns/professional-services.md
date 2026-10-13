@@ -52,7 +52,7 @@ Professional Services does not own the generic enterprise concepts needed to run
 
 ## Important relationship roles
 
-See [canonical important relationship roles](../model/domains/professional-services/behavior.md#important-relationship-roles).
+See [canonical important relationship roles](behavior/professional-services.md#important-relationship-roles).
 
 ## Modeling questions
 
@@ -82,41 +82,41 @@ Use the following selections to navigate the canonical definitions. Detailed rel
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Client | Canonical definition: [Client](../model/domains/professional-services/project/client.md). | See canonical concept for logical attributes. |
-| Professional | Canonical definition: [Professional](../model/domains/professional-services/project/professional.md). | See canonical concept for logical attributes. |
-| Project | Canonical definition: [Project](../model/domains/professional-services/project/project.md). | See canonical concept for logical attributes. |
-| Task | Canonical definition: [Task](../model/domains/professional-services/project/task.md). | See canonical concept for logical attributes. |
-| Time Entry | Canonical definition: [Time Entry](../model/domains/professional-services/project/time-entry.md). | See canonical concept for logical attributes. |
-| Expense | Canonical definition: [Expense](../model/domains/professional-services/project/expense.md). | See canonical concept for logical attributes. |
-| Invoice | Canonical definition: [Invoice](../model/domains/finance/invoice/invoice.md). | See canonical concept for logical attributes. |
+| Client | Canonical definition: [Client](../model/subjects/party/party/customer.md). | See canonical concept for logical attributes. |
+| Professional | Canonical definition: [Professional](../model/subjects/workforce/worker/worker.md). | See canonical concept for logical attributes. |
+| Project | Canonical definition: [Project](../model/subjects/work/project/project.md). | See canonical concept for logical attributes. |
+| Task | Canonical definition: [Task](../model/subjects/work/work-effort/work-effort.md). | See canonical concept for logical attributes. |
+| Time Entry | Canonical definition: [Time Entry](../model/subjects/workforce/time-entry/time-entry.md). | See canonical concept for logical attributes. |
+| Expense | Canonical definition: [Expense](../model/subjects/finance/invoice/expense.md). | See canonical concept for logical attributes. |
+| Invoice | Canonical definition: [Invoice](../model/subjects/finance/invoice/invoice.md). | See canonical concept for logical attributes. |
 
 ### Standard extensions
 
 | Concept | Definition | Logical attributes |
 |---|---|---|
-| Engagement | Canonical definition: [Engagement](../model/domains/professional-services/project/engagement.md). | See canonical concept for logical attributes. |
-| Service Agreement | Canonical definition: [Service Agreement](../model/domains/professional-services/project/service-agreement.md). | See canonical concept for logical attributes. |
-| Project Assignment | Canonical definition: [Project Assignment](../model/domains/professional-services/project/project-assignment.md). | See canonical concept for logical attributes. |
-| Billing Rate | Canonical definition: [Billing Rate](../model/domains/professional-services/project/billing-rate.md). | See canonical concept for logical attributes. |
-| Deliverable | Canonical definition: [Deliverable](../model/domains/professional-services/project/deliverable.md). | See canonical concept for logical attributes. |
-| Approval | Canonical definition: [Approval](../model/domains/professional-services/project/approval.md). | See canonical concept for logical attributes. |
-| Invoice Line | Canonical definition: [Invoice Line](../model/domains/finance/invoice/invoice-line.md). | See canonical concept for logical attributes. |
-| Payment | Canonical definition: [Payment](../model/domains/finance/invoice/payment.md). | See canonical concept for logical attributes. |
+| Engagement | Canonical definition: [Engagement](../model/subjects/agreement/agreement/engagement.md). | See canonical concept for logical attributes. |
+| Service Agreement | Canonical definition: [Service Agreement](../model/subjects/agreement/agreement/agreement.md). | See canonical concept for logical attributes. |
+| Project Assignment | Canonical definition: [Project Assignment](../model/subjects/work/work-effort/assignment.md). | See canonical concept for logical attributes. |
+| Billing Rate | Canonical definition: [Billing Rate](../model/subjects/product/offering/price.md). | See canonical concept for logical attributes. |
+| Deliverable | Canonical definition: [Deliverable](../model/subjects/work/project/deliverable.md). | See canonical concept for logical attributes. |
+| Approval | Canonical definition: [Approval](../model/subjects/case/decision/approval.md). | See canonical concept for logical attributes. |
+| Invoice Line | Canonical definition: [Invoice Line](../model/subjects/finance/invoice/invoice-line.md). | See canonical concept for logical attributes. |
+| Payment | Canonical definition: [Payment](../model/subjects/finance/payment/payment.md). | See canonical concept for logical attributes. |
 
 ### Relationship model
 
-See [canonical relationships](../model/domains/professional-services/behavior.md#relationship-model).
+See [canonical relationships](behavior/professional-services.md#relationship-model).
 
 ### Enterprise concepts
 
-- **Practice Area** — Canonical concept: [Practice Area](../model/domains/professional-services/project/practice-area.md).
-- **Service Offering** — Canonical concept: [Service Offering](../model/domains/professional-services/project/service-offering.md).
-- **Skill** — Canonical concept: [Skill](../model/domains/professional-services/project/skill.md).
-- **Resource Plan** — Canonical concept: [Resource Plan](../model/domains/professional-services/project/resource-plan.md).
-- **Client Account** — Canonical concept: [Client Account](../model/domains/professional-services/project/client-account.md).
-- **Matter** — Canonical concept: [Matter](../model/domains/professional-services/project/matter.md).
-- **Work Effort** — Canonical concept: [Work Effort](../model/domains/professional-services/project/work-effort.md).
-- **Billing Event** — Canonical concept: [Billing Event](../model/domains/professional-services/project/billing-event.md).
+- **Practice Area** — Canonical concept: [Practice Area](#concepts-applications-typically-add).
+- **Service Offering** — Canonical concept: [Service Offering](../model/subjects/product/offering/offering.md).
+- **Skill** — Canonical concept: [Skill](../model/subjects/workforce/worker/skill.md).
+- **Resource Plan** — Canonical concept: [Resource Plan](#concepts-applications-typically-add).
+- **Client Account** — Canonical concept: [Client Account](../model/subjects/party/customer-account/customer-account.md).
+- **Matter** — Canonical concept: [Matter](../model/subjects/case/case/case.md).
+- **Work Effort** — Canonical concept: [Work Effort](../model/subjects/work/work-effort/work-effort.md).
+- **Billing Event** — Canonical concept: [Billing Event](../model/subjects/finance/invoice/charge.md).
 
 ### Physical mapping
 
@@ -128,26 +128,33 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Client | [Client](../model/domains/professional-services/project/client.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Professional | [Professional](../model/domains/professional-services/project/professional.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Project | [Project](../model/domains/professional-services/project/project.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Task | [Task](../model/domains/professional-services/project/task.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Time Entry | [Time Entry](../model/domains/professional-services/project/time-entry.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Expense | [Expense](../model/domains/professional-services/project/expense.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Engagement | [Engagement](../model/domains/professional-services/project/engagement.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Service Agreement | [Service Agreement](../model/domains/professional-services/project/service-agreement.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Project Assignment | [Project Assignment](../model/domains/professional-services/project/project-assignment.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Billing Rate | [Billing Rate](../model/domains/professional-services/project/billing-rate.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Deliverable | [Deliverable](../model/domains/professional-services/project/deliverable.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Approval | [Approval](../model/domains/professional-services/project/approval.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Invoice Line | [Invoice Line](../model/domains/finance/invoice/invoice-line.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Practice Area | [Practice Area](../model/domains/professional-services/project/practice-area.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Service Offering | [Service Offering](../model/domains/professional-services/project/service-offering.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Skill | [Skill](../model/domains/professional-services/project/skill.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Resource Plan | [Resource Plan](../model/domains/professional-services/project/resource-plan.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Client Account | [Client Account](../model/domains/professional-services/project/client-account.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Matter | [Matter](../model/domains/professional-services/project/matter.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Work Effort | [Work Effort](../model/domains/professional-services/project/work-effort.md) | [Project](../model/domains/professional-services/project/README.md) |
-| Billing Event | [Billing Event](../model/domains/professional-services/project/billing-event.md) | [Project](../model/domains/professional-services/project/README.md) |
+| Client | [Client](../model/subjects/party/party/customer.md) | [Project](../model/subjects/work/project/README.md) |
+| Professional | [Professional](../model/subjects/workforce/worker/worker.md) | [Project](../model/subjects/work/project/README.md) |
+| Project | [Project](../model/subjects/work/project/project.md) | [Project](../model/subjects/work/project/README.md) |
+| Task | [Task](../model/subjects/work/work-effort/work-effort.md) | [Project](../model/subjects/work/project/README.md) |
+| Time Entry | [Time Entry](../model/subjects/workforce/time-entry/time-entry.md) | [Project](../model/subjects/work/project/README.md) |
+| Expense | [Expense](../model/subjects/finance/invoice/expense.md) | [Project](../model/subjects/work/project/README.md) |
+| Invoice | [Invoice](../model/subjects/finance/invoice/invoice.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Engagement | [Engagement](../model/subjects/agreement/agreement/engagement.md) | [Project](../model/subjects/work/project/README.md) |
+| Service Agreement | [Service Agreement](../model/subjects/agreement/agreement/agreement.md) | [Project](../model/subjects/work/project/README.md) |
+| Project Assignment | [Project Assignment](../model/subjects/work/work-effort/assignment.md) | [Project](../model/subjects/work/project/README.md) |
+| Billing Rate | [Billing Rate](../model/subjects/product/offering/price.md) | [Project](../model/subjects/work/project/README.md) |
+| Deliverable | [Deliverable](../model/subjects/work/project/deliverable.md) | [Project](../model/subjects/work/project/README.md) |
+| Approval | [Approval](../model/subjects/case/decision/approval.md) | [Project](../model/subjects/work/project/README.md) |
+| Invoice Line | [Invoice Line](../model/subjects/finance/invoice/invoice-line.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Practice Area | [Practice Area](#concepts-applications-typically-add) | [Project](../model/subjects/work/project/README.md) |
+| Service Offering | [Service Offering](../model/subjects/product/offering/offering.md) | [Project](../model/subjects/work/project/README.md) |
+| Skill | [Skill](../model/subjects/workforce/worker/skill.md) | [Project](../model/subjects/work/project/README.md) |
+| Resource Plan | [Resource Plan](#concepts-applications-typically-add) | [Project](../model/subjects/work/project/README.md) |
+| Client Account | [Client Account](../model/subjects/party/customer-account/customer-account.md) | [Project](../model/subjects/work/project/README.md) |
+| Matter | [Matter](../model/subjects/case/case/case.md) | [Project](../model/subjects/work/project/README.md) |
+| Work Effort | [Work Effort](../model/subjects/work/work-effort/work-effort.md) | [Project](../model/subjects/work/project/README.md) |
+| Billing Event | [Billing Event](../model/subjects/finance/invoice/charge.md) | [Project](../model/subjects/work/project/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Practice Area**: service line, department, or specialty; owns Engagements, groups Professionals, and provides Service Offerings.
+- **Resource Plan**: forecasts staffing needs and allocates Professional capacity.

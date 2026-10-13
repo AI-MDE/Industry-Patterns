@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Provenance"
+---
+
+# Provenance
+
+Subject: [Information Governance](../README.md). ABE: [Consent](README.md).
+
+## Definition and detail
+
+Evidence of who created, asserted, transformed, imported, or attested to a record.
+
+Logical attributes: Provenance Identifier; Recorded At; Activity Type; Agent; Source System; Source Record Identifier; Signature reference.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#provenance) | Provenance |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| Provenance | describes | Clinical or administrative record (review) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |

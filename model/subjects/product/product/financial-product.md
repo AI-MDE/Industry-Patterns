@@ -1,0 +1,29 @@
+---
+type: entity
+title: "Financial Product"
+---
+
+# Financial Product
+
+Subject: [Products, Offerings, and Prices](../README.md). ABE: [Product](README.md).
+
+Specializes: [Product](product.md). Inherit its meaning; apply the refinements below in this context.
+
+## Definition and detail
+
+A governed definition of a deposit, payment, credit, investment, custody, foreign-exchange, or other financial service.
+
+Logical attributes: Product Identifier; Product Name; Product Type; Product Status; Currency Policy; Customer Segment; Jurisdiction; Effective From; Effective Through.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-product) | Financial Product |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| [Financial Institution](../../accounts/financial-institution/financial-institution.md) | defines | Financial Product | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| Financial Product | has | [Product Version](product-version.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

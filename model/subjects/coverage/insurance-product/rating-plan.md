@@ -1,0 +1,20 @@
+---
+type: entity
+title: "Rating Plan"
+---
+
+# Rating Plan
+
+Subject: [Insurance Coverage and Claims](../README.md). ABE: [Insurance Product](README.md).
+
+## Definition and detail
+
+A governed method for determining premium.
+
+Logical attributes: Rating Plan Identifier; Plan Name; Version; Status; Currency; Effective From; Effective Through; Calculation Rule Reference.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#rating-plan) | Rating Plan |

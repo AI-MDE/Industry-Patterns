@@ -18,7 +18,7 @@ export function validateRequirements(root, model) {
   try { requirements = JSON.parse(fs.readFileSync(registry, 'utf8')).requirements; }
   catch (error) { return { errors: [`Invalid requirements registry: ${error.message}`], requirements: [] }; }
   if (!Array.isArray(requirements)) return { errors: ['Requirements registry must contain an array'], requirements: [] };
-  const domains = new Map(model.domains.map(d => [d.name, d]));
+  const subjects = new Map(model.subjects.map(d => [d.name, d]));
   const concepts = new Set(model.concepts.map(c => c.path));
   const abes = new Set(model.abes.map(a => a.path));
   const registered = new Set();
@@ -26,10 +26,10 @@ export function validateRequirements(root, model) {
     if (!entry || typeof entry !== 'object') { errors.push('Invalid requirement entry'); continue; }
     check(!registered.has(entry.path), `Duplicate requirement: ${entry.path}`);
     registered.add(entry.path);
-    const domain = domains.get(entry.domain);
+    const subject = subjects.get(entry.subject);
     const folder = folders[entry.type];
-    check(domain && folder, `Unknown requirement domain/type: ${entry.path}`);
-    const expected = domain && folder ? path.posix.join(path.posix.dirname(domain.path), folder) + '/' : null;
+    check(subject && folder, `Unknown requirement subject/type: ${entry.path}`);
+    const expected = subject && folder ? path.posix.join(path.posix.dirname(subject.path), folder) + '/' : null;
     check(expected && typeof entry.path === 'string' && entry.path.startsWith(expected), `Wrong requirement owner: ${entry.path}`);
     check(!concepts.has(entry.path) && !abes.has(entry.path), `Requirement duplicates structural identity: ${entry.path}`);
     if (entry.relatedAbes !== undefined) {
@@ -56,9 +56,9 @@ export function validateRequirements(root, model) {
     }
   }
   // Detect relocated files accidentally omitted from the machine-readable inventory.
-  for (const domain of model.domains) {
+  for (const subject of model.subjects) {
     for (const [type, folder] of Object.entries(folders)) {
-      const directory = local(path.posix.join(path.posix.dirname(domain.path), folder));
+      const directory = local(path.posix.join(path.posix.dirname(subject.path), folder));
       if (!directory || !fs.existsSync(directory)) continue;
       for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
         if (!entry.isFile() || !entry.name.endsWith('.md') || entry.name === 'README.md') continue;

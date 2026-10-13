@@ -5,237 +5,862 @@
     {
       "term": "Invoice",
       "source": "industry-patterns/crane-rental-orchestration.md",
-      "canonical": "model/domains/finance/invoice/invoice.md"
+      "canonical": "model/subjects/finance/invoice/invoice.md"
     },
     {
       "term": "Invoice Line",
       "source": "industry-patterns/crane-rental-orchestration.md",
-      "canonical": "model/domains/finance/invoice/invoice-line.md"
+      "canonical": "model/subjects/finance/invoice/invoice-line.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/crane-rental-orchestration.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Service",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/product-and-service/product/service.md"
+      "canonical": "model/subjects/product/product/service.md"
     },
     {
       "term": "Price",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/product-and-service/product/price.md"
+      "canonical": "model/subjects/product/offering/price.md"
     },
     {
       "term": "Agreement Role",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/agreement/agreement/agreement-role.md"
+      "canonical": "model/subjects/agreement/agreement/agreement-role.md"
     },
     {
       "term": "Agreement Term",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/agreement/agreement/agreement-term.md"
+      "canonical": "model/subjects/agreement/agreement/agreement-term.md"
     },
     {
       "term": "Status History",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/work-management/status-type/status-history.md"
+      "canonical": "model/subjects/work/status-type/status-history.md"
     },
     {
       "term": "Invoice",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/finance/invoice/invoice.md"
+      "canonical": "model/subjects/finance/invoice/invoice.md"
     },
     {
       "term": "Invoice Line",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/finance/invoice/invoice-line.md"
+      "canonical": "model/subjects/finance/invoice/invoice-line.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Payment Allocation",
       "source": "industry-patterns/cross-industry.md",
-      "canonical": "model/domains/finance/invoice/payment-allocation.md"
+      "canonical": "model/subjects/finance/payment/payment-allocation.md"
     },
     {
       "term": "Price",
       "source": "industry-patterns/e-commerce.md",
-      "canonical": "model/domains/product-and-service/product/price.md"
+      "canonical": "model/subjects/product/offering/price.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/e-commerce.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Payment Allocation",
       "source": "industry-patterns/e-commerce.md",
-      "canonical": "model/domains/finance/invoice/payment-allocation.md"
+      "canonical": "model/subjects/finance/payment/payment-allocation.md"
     },
     {
       "term": "Meter Reading (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/customer/meter-reading.md"
+      "canonical": "model/subjects/measurement/usage-record/usage-record.md"
     },
     {
       "term": "Maintenance Requirement (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/service-type/maintenance-requirement.md"
+      "canonical": "model/subjects/resource/equipment-model/maintenance-requirement.md"
     },
     {
       "term": "Service Plan (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/service-type/service-plan.md"
+      "canonical": "model/subjects/request/request/service-plan.md"
     },
     {
       "term": "Technician Availability (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/technician/technician-availability.md"
+      "canonical": "model/subjects/resource/resource/availability.md"
     },
     {
       "term": "Service Visit (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/service-request-assignment/service-visit.md"
+      "canonical": "model/subjects/work/service-event/service-event.md"
     },
     {
       "term": "Service Outcome and Finding (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/service-request-assignment/service-outcome-and-finding.md"
+      "canonical": "model/subjects/work/work-effort/outcome.md"
     },
     {
       "term": "Status History",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/work-management/status-type/status-history.md"
+      "canonical": "model/subjects/work/status-type/status-history.md"
     },
     {
       "term": "Agreement Role",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/agreement/agreement/agreement-role.md"
+      "canonical": "model/subjects/agreement/agreement/agreement-role.md"
     },
     {
       "term": "Agreement Term",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/agreement/agreement/agreement-term.md"
+      "canonical": "model/subjects/agreement/agreement/agreement-term.md"
     },
     {
       "term": "Warranty or Service Entitlement (Standard)",
       "source": "industry-patterns/equipment-service.md",
-      "canonical": "model/domains/equipment-service/equipment-agreement/warranty-or-service-entitlement.md"
+      "canonical": "model/subjects/agreement/agreement/warranty-or-service-entitlement.md"
     },
     {
       "term": "Referral",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/health-care/schedule/referral.md"
+      "canonical": "model/subjects/care/care-plan/referral.md"
     },
     {
       "term": "Coverage",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/health-care/coverage/coverage.md"
+      "canonical": "model/subjects/coverage/coverage/coverage.md"
     },
     {
       "term": "Claim",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/health-care/coverage/claim.md"
+      "canonical": "model/subjects/coverage/coverage/claim.md"
     },
     {
       "term": "Claim Line",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/health-care/coverage/claim-line.md"
+      "canonical": "model/subjects/coverage/coverage/claim-line.md"
     },
     {
       "term": "Adjudication",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/health-care/coverage/adjudication.md"
+      "canonical": "model/subjects/coverage/coverage/claim-assessment.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/health-care.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Invoice",
       "source": "industry-patterns/insurance.md",
-      "canonical": "model/domains/finance/invoice/invoice.md"
+      "canonical": "model/subjects/finance/invoice/invoice.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/insurance.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Referral",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/health-care/schedule/referral.md"
+      "canonical": "model/subjects/care/care-plan/referral.md"
     },
     {
       "term": "Coverage",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/health-care/coverage/coverage.md"
+      "canonical": "model/subjects/coverage/coverage/coverage.md"
     },
     {
       "term": "Claim",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/health-care/coverage/claim.md"
+      "canonical": "model/subjects/coverage/coverage/claim.md"
     },
     {
       "term": "Claim Line",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/health-care/coverage/claim-line.md"
+      "canonical": "model/subjects/coverage/coverage/claim-line.md"
     },
     {
       "term": "Adjudication",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/health-care/coverage/adjudication.md"
+      "canonical": "model/subjects/coverage/coverage/claim-assessment.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/physical-therapy-clinic.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Invoice",
       "source": "industry-patterns/professional-services.md",
-      "canonical": "model/domains/finance/invoice/invoice.md"
+      "canonical": "model/subjects/finance/invoice/invoice.md"
     },
     {
       "term": "Invoice Line",
       "source": "industry-patterns/professional-services.md",
-      "canonical": "model/domains/finance/invoice/invoice-line.md"
+      "canonical": "model/subjects/finance/invoice/invoice-line.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/professional-services.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Invoice",
       "source": "industry-patterns/telecommunications.md",
-      "canonical": "model/domains/finance/invoice/invoice.md"
+      "canonical": "model/subjects/finance/invoice/invoice.md"
     },
     {
       "term": "Payment",
       "source": "industry-patterns/travel.md",
-      "canonical": "model/domains/finance/invoice/payment.md"
+      "canonical": "model/subjects/finance/payment/payment.md"
     },
     {
       "term": "Payment Allocation",
       "source": "industry-patterns/travel.md",
-      "canonical": "model/domains/finance/invoice/payment-allocation.md"
+      "canonical": "model/subjects/finance/payment/payment-allocation.md"
     },
     {
       "term": "Service",
       "source": "modeling-patterns/service-scheduling.md",
-      "canonical": "model/domains/product-and-service/product/service.md"
+      "canonical": "model/subjects/product/product/service.md"
     },
     {
       "term": "Capability",
       "source": "modeling-patterns/service-scheduling.md",
-      "canonical": "model/domains/resource-management/resource/resource-capability.md"
+      "canonical": "model/subjects/resource/resource/resource-capability.md"
+    },
+    {
+      "term": "Job Site",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/location/site/site.md"
+    },
+    {
+      "term": "Site Survey",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/location/site/site-assessment.md"
+    },
+    {
+      "term": "Crane Asset",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/resource/equipment-model/equipment.md"
+    },
+    {
+      "term": "Crane Configuration",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/resource/equipment-model/equipment-configuration.md"
+    },
+    {
+      "term": "Rate Card",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/product/offering/price-list.md"
+    },
+    {
+      "term": "Job Order",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/work/work-effort/work-order.md"
+    },
+    {
+      "term": "Change Order",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/request/order/change-request.md"
+    },
+    {
+      "term": "Permit",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/case/decision/authorization.md"
+    },
+    {
+      "term": "Readiness Review",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/case/decision/decision.md"
+    },
+    {
+      "term": "Resource Requirement",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/scheduling/demand/requirement.md"
+    },
+    {
+      "term": "Crew Assignment",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/work/work-effort/assignment.md"
+    },
+    {
+      "term": "Transport Movement",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/fulfillment/fulfillment/shipment.md"
+    },
+    {
+      "term": "Inspection Finding",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/quality/quality-plan/inspection-result.md"
+    },
+    {
+      "term": "Release for Service",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/case/decision/decision.md"
+    },
+    {
+      "term": "Equipment Usage Record",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/measurement/usage-record/usage-record.md"
+    },
+    {
+      "term": "Damage Report",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/case/case/incident.md"
+    },
+    {
+      "term": "Maintenance Work Order",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/work/work-effort/work-order.md"
+    },
+    {
+      "term": "Asset Availability",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/resource/resource/availability.md"
+    },
+    {
+      "term": "Charge Event",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/finance/invoice/charge.md"
+    },
+    {
+      "term": "Timesheet",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/workforce/time-entry/time-entry.md"
+    },
+    {
+      "term": "Commercial Dispute",
+      "source": "industry-patterns/crane-rental-orchestration.md",
+      "canonical": "model/subjects/case/case/dispute.md"
+    },
+    {
+      "term": "Order Adjustment",
+      "source": "industry-patterns/e-commerce.md",
+      "canonical": "model/subjects/finance/invoice/adjustment.md"
+    },
+    {
+      "term": "Inventory Reservation",
+      "source": "industry-patterns/e-commerce.md",
+      "canonical": "model/subjects/scheduling/reservation/reservation.md"
+    },
+    {
+      "term": "Customer Case",
+      "source": "industry-patterns/e-commerce.md",
+      "canonical": "model/subjects/case/case/case.md"
+    },
+    {
+      "term": "Contact",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/party/contact-mechanism/party-contact.md"
+    },
+    {
+      "term": "Service Type",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/product/product/service.md"
+    },
+    {
+      "term": "Technician",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/workforce/worker/worker.md"
+    },
+    {
+      "term": "Technician Skill",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/workforce/worker/worker-skill.md"
+    },
+    {
+      "term": "Skill Requirement",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/scheduling/demand/requirement.md"
+    },
+    {
+      "term": "Service Request Assignment",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/work/work-effort/assignment.md"
+    },
+    {
+      "term": "Equipment Agreement",
+      "source": "industry-patterns/equipment-service.md",
+      "canonical": "model/subjects/agreement/agreement/agreement.md"
+    },
+    {
+      "term": "Financial Offering",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/product/offering/offering.md"
+    },
+    {
+      "term": "Pricing Plan",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/product/offering/price-list.md"
+    },
+    {
+      "term": "Customer Profile",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/party/customer-account/customer-account.md"
+    },
+    {
+      "term": "Product Application",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/request/request/application.md"
+    },
+    {
+      "term": "Identity Evidence",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/document/evidence/evidence.md"
+    },
+    {
+      "term": "Account Party",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Mandate",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/case/decision/authorization.md"
+    },
+    {
+      "term": "Ledger Entry",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/accounting/journal-entry/journal-entry.md"
+    },
+    {
+      "term": "Fee",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/finance/invoice/charge.md"
+    },
+    {
+      "term": "Payment Party",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Reconciliation Exception",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/case/case/exception.md"
+    },
+    {
+      "term": "Order",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/accounts/financial-instrument/trade-order.md"
+    },
+    {
+      "term": "Position",
+      "source": "industry-patterns/financial-services.md",
+      "canonical": "model/subjects/accounts/financial-instrument/investment-position.md"
+    },
+    {
+      "term": "Patient Identifier",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/information/external-identifier/external-identifier.md"
+    },
+    {
+      "term": "Patient Contact",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/party/contact-mechanism/party-contact.md"
+    },
+    {
+      "term": "Location",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/location/geographic-location/geographic-location.md"
+    },
+    {
+      "term": "Appointment Participant",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Care Team Member",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Clinical Note",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/document/evidence/note.md"
+    },
+    {
+      "term": "Service Delivery",
+      "source": "industry-patterns/health-care.md",
+      "canonical": "model/subjects/fulfillment/fulfillment/fulfillment.md"
+    },
+    {
+      "term": "Insurance Offering",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/product/offering/offering.md"
+    },
+    {
+      "term": "Insurance Application",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/request/request/application.md"
+    },
+    {
+      "term": "Underwriting Decision",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/case/decision/decision.md"
+    },
+    {
+      "term": "Policy Party",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/agreement/agreement/agreement-role.md"
+    },
+    {
+      "term": "Claim Party",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Claim Assignment",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/work/work-effort/assignment.md"
+    },
+    {
+      "term": "Evidence Item",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/document/evidence/evidence.md"
+    },
+    {
+      "term": "Claim Note",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/document/evidence/note.md"
+    },
+    {
+      "term": "Claim Payment",
+      "source": "industry-patterns/insurance.md",
+      "canonical": "model/subjects/finance/payment/payment.md"
+    },
+    {
+      "term": "Part Revision",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/product/product/product-version.md"
+    },
+    {
+      "term": "BOM Component",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/product/product/product-component.md"
+    },
+    {
+      "term": "Resource Requirement",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/scheduling/demand/requirement.md"
+    },
+    {
+      "term": "Manufacturing Facility",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/location/facility/facility.md"
+    },
+    {
+      "term": "Machine Asset",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/resource/equipment-model/equipment.md"
+    },
+    {
+      "term": "Tool",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/resource/equipment-model/equipment.md"
+    },
+    {
+      "term": "Manufacturing Requirement",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/scheduling/demand/demand.md"
+    },
+    {
+      "term": "Production Schedule",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/scheduling/appointment/schedule.md"
+    },
+    {
+      "term": "Material Reservation",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/scheduling/reservation/reservation.md"
+    },
+    {
+      "term": "Material Issue",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/resource/inventory-item/inventory-transaction.md"
+    },
+    {
+      "term": "Labor Entry",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/workforce/time-entry/time-entry.md"
+    },
+    {
+      "term": "Machine Entry",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/measurement/usage-record/usage-record.md"
+    },
+    {
+      "term": "Process Measurement",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/measurement/measure/measurement.md"
+    },
+    {
+      "term": "Maintenance Work Order",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/work/work-effort/work-order.md"
+    },
+    {
+      "term": "Product Usage",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/measurement/usage-record/usage-record.md"
+    },
+    {
+      "term": "Warranty or Field Issue",
+      "source": "industry-patterns/manufacturing.md",
+      "canonical": "model/subjects/case/case/case.md"
+    },
+    {
+      "term": "Provider Assignment",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/work/work-effort/assignment.md"
+    },
+    {
+      "term": "Patient Intake",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/request/request/application.md"
+    },
+    {
+      "term": "Intake Response",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/request/request/application-answer.md"
+    },
+    {
+      "term": "Therapy Authorization",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/case/decision/authorization.md"
+    },
+    {
+      "term": "Outcome Measure Definition",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/measurement/measure/measure.md"
+    },
+    {
+      "term": "Outcome Measure Result",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/measurement/measure/measurement.md"
+    },
+    {
+      "term": "Plan Approval or Certification",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/case/decision/approval.md"
+    },
+    {
+      "term": "Adverse Event",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/case/case/incident.md"
+    },
+    {
+      "term": "Clinical Communication",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/document/evidence/communication.md"
+    },
+    {
+      "term": "Therapy Charge",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/finance/invoice/charge.md"
+    },
+    {
+      "term": "Patient Invoice",
+      "source": "industry-patterns/physical-therapy-clinic.md",
+      "canonical": "model/subjects/finance/invoice/invoice.md"
+    },
+    {
+      "term": "Client",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/party/party/customer.md"
+    },
+    {
+      "term": "Professional",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/workforce/worker/worker.md"
+    },
+    {
+      "term": "Task",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/work/work-effort/work-effort.md"
+    },
+    {
+      "term": "Service Agreement",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/agreement/agreement/agreement.md"
+    },
+    {
+      "term": "Project Assignment",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/work/work-effort/assignment.md"
+    },
+    {
+      "term": "Billing Rate",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/product/offering/price.md"
+    },
+    {
+      "term": "Service Offering",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/product/offering/offering.md"
+    },
+    {
+      "term": "Client Account",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/party/customer-account/customer-account.md"
+    },
+    {
+      "term": "Matter",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/case/case/case.md"
+    },
+    {
+      "term": "Billing Event",
+      "source": "industry-patterns/professional-services.md",
+      "canonical": "model/subjects/finance/invoice/charge.md"
+    },
+    {
+      "term": "Telecommunications Product",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/product/product/product.md"
+    },
+    {
+      "term": "Product Offering",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/product/offering/offering.md"
+    },
+    {
+      "term": "Customer Agreement",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/agreement/agreement/agreement.md"
+    },
+    {
+      "term": "Subscription Party",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/agreement/agreement/agreement-role.md"
+    },
+    {
+      "term": "Service Location",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/location/site/site.md"
+    },
+    {
+      "term": "Telecommunications Quote",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/request/quote/quote.md"
+    },
+    {
+      "term": "Product Order",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/request/order/order.md"
+    },
+    {
+      "term": "Product Order Item",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/request/order/order-line.md"
+    },
+    {
+      "term": "Resource Reservation",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/scheduling/reservation/reservation.md"
+    },
+    {
+      "term": "Provisioning Task",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/work/work-effort/work-effort.md"
+    },
+    {
+      "term": "Field Work Order",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/work/work-effort/work-order.md"
+    },
+    {
+      "term": "Trouble Ticket",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/case/case/case.md"
+    },
+    {
+      "term": "Performance Measurement",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/measurement/measure/measurement.md"
+    },
+    {
+      "term": "Usage Event",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/measurement/usage-record/usage-record.md"
+    },
+    {
+      "term": "Rating Rule",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/product/offering/price-rule.md"
+    },
+    {
+      "term": "Rated Usage",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/finance/invoice/charge.md"
+    },
+    {
+      "term": "Payment and Adjustment",
+      "source": "industry-patterns/telecommunications.md",
+      "canonical": "model/subjects/finance/invoice/adjustment.md"
+    },
+    {
+      "term": "Travel Product",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/product/product/product.md"
+    },
+    {
+      "term": "Travel Service",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/product/product/service.md"
+    },
+    {
+      "term": "Service Instance",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/travel/scheduled-service/scheduled-service.md"
+    },
+    {
+      "term": "Location",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/location/geographic-location/geographic-location.md"
+    },
+    {
+      "term": "Travel Offer",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/product/offering/offering.md"
+    },
+    {
+      "term": "Fare or Rate",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/product/offering/price.md"
+    },
+    {
+      "term": "Fare Rule or Rate Rule",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/product/offering/price-rule.md"
+    },
+    {
+      "term": "Booking Party",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/party/party/party-role.md"
+    },
+    {
+      "term": "Commission or Markup",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/finance/invoice/commission.md"
+    },
+    {
+      "term": "Supplier Settlement",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/finance/payment/settlement.md"
+    },
+    {
+      "term": "Booking Change",
+      "source": "industry-patterns/travel.md",
+      "canonical": "model/subjects/request/order/change-request.md"
     }
   ]
 }

@@ -34,31 +34,31 @@ Adds: Organization Network; Department; Bed and Capacity Management; Referral; T
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/health-care/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/health-care.md#actors-and-roles).
 
 ## Identity and demographic concepts
 
 ### Patient
 
-Canonical concept: [Patient](../model/domains/health-care/patient/patient.md).
+Canonical concept: [Patient](../model/subjects/care/patient/patient.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Identifier
 
-Canonical concept: [Patient Identifier](../model/domains/health-care/patient/patient-identifier.md).
+Canonical concept: [External Identifier](../model/subjects/information/external-identifier/external-identifier.md) (as Patient Identifier).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Related Person
 
-Canonical concept: [Related Person](../model/domains/health-care/patient/related-person.md).
+Canonical concept: [Related Person](../model/subjects/care/patient/related-person.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Contact
 
-Canonical concept: [Patient Contact](../model/domains/health-care/patient/patient-contact.md).
+Canonical concept: [Party Contact](../model/subjects/party/contact-mechanism/party-contact.md) (as Patient Contact).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -66,31 +66,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Health Care Organization
 
-Canonical concept: [Health Care Organization](../model/domains/health-care/health-care-organization/health-care-organization.md).
+Canonical concept: [Health Care Organization](../model/subjects/care/health-care-organization/health-care-organization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provider
 
-Canonical concept: [Provider](../model/domains/health-care/health-care-organization/provider.md).
+Canonical concept: [Provider](../model/subjects/care/health-care-organization/provider.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Practitioner Role
 
-Canonical concept: [Practitioner Role](../model/domains/health-care/health-care-organization/practitioner-role.md).
+Canonical concept: [Practitioner Role](../model/subjects/care/health-care-organization/practitioner-role.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Facility
 
-Canonical concept: [Facility](../model/domains/health-care/health-care-organization/facility.md).
+Canonical concept: [Facility](../model/subjects/location/facility/facility.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Location
 
-Canonical concept: [Location](../model/domains/health-care/health-care-organization/location.md).
+Canonical concept: [Geographic Location](../model/subjects/location/geographic-location/geographic-location.md) (as Location).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -98,25 +98,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Schedule
 
-Canonical concept: [Schedule](../model/domains/health-care/schedule/schedule.md).
+Canonical concept: [Schedule](../model/subjects/scheduling/appointment/schedule.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Appointment
 
-Canonical concept: [Appointment](../model/domains/health-care/schedule/appointment.md).
+Canonical concept: [Appointment](../model/subjects/scheduling/appointment/appointment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Appointment Participant
 
-Canonical concept: [Appointment Participant](../model/domains/health-care/schedule/appointment-participant.md).
+Canonical concept: [Party Role](../model/subjects/party/party/party-role.md) (as Appointment Participant).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Referral
 
-Canonical concept: [Referral](../model/domains/health-care/schedule/referral.md).
+Canonical concept: [Referral](../model/subjects/care/care-plan/referral.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -124,31 +124,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Encounter
 
-Canonical concept: [Encounter](../model/domains/health-care/encounter/encounter.md).
+Canonical concept: [Encounter](../model/subjects/care/encounter/encounter.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Episode of Care
 
-Canonical concept: [Episode of Care](../model/domains/health-care/encounter/episode-of-care.md).
+Canonical concept: [Episode of Care](../model/subjects/care/encounter/episode-of-care.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Medical Case
 
-Canonical concept: [Medical Case](../model/domains/health-care/encounter/medical-case.md).
+Canonical concept: [Medical Case](../model/subjects/care/encounter/medical-case.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Team
 
-Canonical concept: [Care Team](../model/domains/health-care/encounter/care-team.md).
+Canonical concept: [Care Team](../model/subjects/care/encounter/care-team.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Team Member
 
-Canonical concept: [Care Team Member](../model/domains/health-care/encounter/care-team-member.md).
+Canonical concept: [Party Role](../model/subjects/party/party/party-role.md) (as Care Team Member).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -156,37 +156,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Clinical Note
 
-Canonical concept: [Clinical Note](../model/domains/health-care/clinical-note/clinical-note.md).
+Canonical concept: [Note](../model/subjects/document/evidence/note.md) (as Clinical Note).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Observation
 
-Canonical concept: [Observation](../model/domains/health-care/clinical-note/observation.md).
+Canonical concept: [Observation](../model/subjects/care/observation/observation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Condition
 
-Canonical concept: [Condition](../model/domains/health-care/clinical-note/condition.md).
+Canonical concept: [Condition](../model/subjects/care/observation/condition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Diagnosis
 
-Canonical concept: [Diagnosis](../model/domains/health-care/clinical-note/diagnosis.md).
+Canonical concept: [Diagnosis](../model/subjects/care/observation/diagnosis.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Procedure
 
-Canonical concept: [Procedure](../model/domains/health-care/clinical-note/procedure.md).
+Canonical concept: [Procedure](../model/subjects/care/observation/procedure.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Specimen
 
-Canonical concept: [Specimen](../model/domains/health-care/clinical-note/specimen.md).
+Canonical concept: [Specimen](../model/subjects/care/observation/specimen.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -194,31 +194,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Service Request
 
-Canonical concept: [Service Request](../model/domains/health-care/service-request/service-request.md).
+Canonical concept: [Service Request](../model/subjects/request/request/service-request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Medication Order
 
-Canonical concept: [Medication Order](../model/domains/health-care/service-request/medication-order.md).
+Canonical concept: [Medication Order](../model/subjects/care/care-plan/medication-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Plan
 
-Canonical concept: [Care Plan](../model/domains/health-care/service-request/care-plan.md).
+Canonical concept: [Care Plan](../model/subjects/care/care-plan/care-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Care Goal
 
-Canonical concept: [Care Goal](../model/domains/health-care/service-request/care-goal.md).
+Canonical concept: [Care Goal](../model/subjects/care/care-plan/care-goal.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Planned Activity
 
-Canonical concept: [Planned Activity](../model/domains/health-care/service-request/planned-activity.md).
+Canonical concept: [Planned Activity](../model/subjects/care/care-plan/planned-activity.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -226,19 +226,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Health Care Service
 
-Canonical concept: [Health Care Service](../model/domains/health-care/health-care-service/health-care-service.md).
+Canonical concept: [Health Care Service](../model/subjects/care/health-care-service/health-care-service.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Delivery
 
-Canonical concept: [Service Delivery](../model/domains/health-care/health-care-service/service-delivery.md).
+Canonical concept: [Fulfillment](../model/subjects/fulfillment/fulfillment/fulfillment.md) (as Service Delivery).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Authorization
 
-Canonical concept: [Authorization](../model/domains/health-care/health-care-service/authorization.md).
+Canonical concept: [Authorization](../model/subjects/case/decision/authorization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -246,25 +246,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Consent
 
-Canonical concept: [Consent](../model/domains/health-care/consent/consent.md).
+Canonical concept: [Consent](../model/subjects/information/consent/consent.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Access Restriction
 
-Canonical concept: [Access Restriction](../model/domains/health-care/consent/access-restriction.md).
+Canonical concept: [Access Restriction](../model/subjects/information/consent/access-restriction.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provenance
 
-Canonical concept: [Provenance](../model/domains/health-care/consent/provenance.md).
+Canonical concept: [Provenance](../model/subjects/information/consent/provenance.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Audit Event
 
-Canonical concept: [Audit Event](../model/domains/health-care/consent/audit-event.md).
+Canonical concept: [Audit Event](../model/subjects/information/consent/audit-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -272,61 +272,61 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Coverage
 
-Canonical concept: [Coverage](../model/domains/health-care/coverage/coverage.md).
+Canonical concept: [Coverage](../model/subjects/coverage/coverage/coverage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Guarantor
 
-Canonical concept: [Guarantor](../model/domains/health-care/coverage/guarantor.md).
+Canonical concept: [Guarantor](../model/subjects/party/party/guarantor.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Charge
 
-Canonical concept: [Charge](../model/domains/health-care/coverage/charge.md).
+Canonical concept: [Charge](../model/subjects/finance/invoice/charge.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-Canonical concept: [Claim](../model/domains/health-care/coverage/claim.md).
+Canonical concept: [Claim](../model/subjects/coverage/coverage/claim.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Line
 
-Canonical concept: [Claim Line](../model/domains/health-care/coverage/claim-line.md).
+Canonical concept: [Claim Line](../model/subjects/coverage/coverage/claim-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjudication
 
-Canonical concept: [Adjudication](../model/domains/health-care/coverage/adjudication.md).
+Canonical concept: [Claim Assessment](../model/subjects/coverage/coverage/claim-assessment.md) (as Adjudication).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/health-care/behavior.md#relationship-model).
+See [canonical relationship model](behavior/health-care.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/health-care/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/health-care.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/health-care/behavior.md#business-events).
+See [canonical business events](behavior/health-care.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/health-care/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/health-care.md#baseline-business-and-integrity-rules).
 
 ## Interoperability and terminology guidance
 
@@ -409,7 +409,7 @@ Logical names remain authoritative. Stack and jurisdiction rules generate physic
 
 ## Behavioral coverage
 
-The [Health Care domain](../model/domains/health-care/README.md) owns the detailed [capabilities](../model/domains/health-care/capabilities/README.md), [use cases](../model/domains/health-care/use-cases/README.md), [workflows](../model/domains/health-care/workflows/README.md), [roles](../model/domains/health-care/roles/README.md), and [rules](../model/domains/health-care/rules/README.md). Select the relevant behavior for the application's scope; do not copy entity definitions into another reusable layer.
+The [Health Care domain](#) owns the detailed [capabilities](../model/subjects/care/capabilities/README.md), [use cases](../model/subjects/care/use-cases/README.md), [workflows](../model/subjects/care/workflows/README.md), [roles](../model/subjects/care/roles/README.md), and [rules](../model/subjects/care/rules/README.md). Select the relevant behavior for the application's scope; do not copy entity definitions into another reusable layer.
 
 Detailed medication administration, laboratory/imaging, pharmacy, inpatient operations, and jurisdiction-specific profiles remain outside current coverage. Application UI, architecture, and executable scenarios belong to the consuming application.
 
@@ -419,46 +419,46 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Patient | [Patient](../model/domains/health-care/patient/patient.md) | [Patient](../model/domains/health-care/patient/README.md) |
-| Patient Identifier | [Patient Identifier](../model/domains/health-care/patient/patient-identifier.md) | [Patient](../model/domains/health-care/patient/README.md) |
-| Related Person | [Related Person](../model/domains/health-care/patient/related-person.md) | [Patient](../model/domains/health-care/patient/README.md) |
-| Patient Contact | [Patient Contact](../model/domains/health-care/patient/patient-contact.md) | [Patient](../model/domains/health-care/patient/README.md) |
-| Health Care Organization | [Health Care Organization](../model/domains/health-care/health-care-organization/health-care-organization.md) | [Health Care Organization](../model/domains/health-care/health-care-organization/README.md) |
-| Provider | [Provider](../model/domains/health-care/health-care-organization/provider.md) | [Health Care Organization](../model/domains/health-care/health-care-organization/README.md) |
-| Practitioner Role | [Practitioner Role](../model/domains/health-care/health-care-organization/practitioner-role.md) | [Health Care Organization](../model/domains/health-care/health-care-organization/README.md) |
-| Facility | [Facility](../model/domains/health-care/health-care-organization/facility.md) | [Health Care Organization](../model/domains/health-care/health-care-organization/README.md) |
-| Location | [Location](../model/domains/health-care/health-care-organization/location.md) | [Health Care Organization](../model/domains/health-care/health-care-organization/README.md) |
-| Schedule | [Schedule](../model/domains/health-care/schedule/schedule.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
-| Appointment | [Appointment](../model/domains/health-care/schedule/appointment.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
-| Appointment Participant | [Appointment Participant](../model/domains/health-care/schedule/appointment-participant.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
-| Referral | [Referral](../model/domains/health-care/schedule/referral.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
-| Encounter | [Encounter](../model/domains/health-care/encounter/encounter.md) | [Encounter](../model/domains/health-care/encounter/README.md) |
-| Episode of Care | [Episode of Care](../model/domains/health-care/encounter/episode-of-care.md) | [Encounter](../model/domains/health-care/encounter/README.md) |
-| Medical Case | [Medical Case](../model/domains/health-care/encounter/medical-case.md) | [Encounter](../model/domains/health-care/encounter/README.md) |
-| Care Team | [Care Team](../model/domains/health-care/encounter/care-team.md) | [Encounter](../model/domains/health-care/encounter/README.md) |
-| Care Team Member | [Care Team Member](../model/domains/health-care/encounter/care-team-member.md) | [Encounter](../model/domains/health-care/encounter/README.md) |
-| Clinical Note | [Clinical Note](../model/domains/health-care/clinical-note/clinical-note.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Observation | [Observation](../model/domains/health-care/clinical-note/observation.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Condition | [Condition](../model/domains/health-care/clinical-note/condition.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Diagnosis | [Diagnosis](../model/domains/health-care/clinical-note/diagnosis.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Procedure | [Procedure](../model/domains/health-care/clinical-note/procedure.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Specimen | [Specimen](../model/domains/health-care/clinical-note/specimen.md) | [Clinical Note](../model/domains/health-care/clinical-note/README.md) |
-| Service Request | [Service Request](../model/domains/health-care/service-request/service-request.md) | [Service Request](../model/domains/health-care/service-request/README.md) |
-| Medication Order | [Medication Order](../model/domains/health-care/service-request/medication-order.md) | [Service Request](../model/domains/health-care/service-request/README.md) |
-| Care Plan | [Care Plan](../model/domains/health-care/service-request/care-plan.md) | [Service Request](../model/domains/health-care/service-request/README.md) |
-| Care Goal | [Care Goal](../model/domains/health-care/service-request/care-goal.md) | [Service Request](../model/domains/health-care/service-request/README.md) |
-| Planned Activity | [Planned Activity](../model/domains/health-care/service-request/planned-activity.md) | [Service Request](../model/domains/health-care/service-request/README.md) |
-| Health Care Service | [Health Care Service](../model/domains/health-care/health-care-service/health-care-service.md) | [Health Care Service](../model/domains/health-care/health-care-service/README.md) |
-| Service Delivery | [Service Delivery](../model/domains/health-care/health-care-service/service-delivery.md) | [Health Care Service](../model/domains/health-care/health-care-service/README.md) |
-| Authorization | [Authorization](../model/domains/health-care/health-care-service/authorization.md) | [Health Care Service](../model/domains/health-care/health-care-service/README.md) |
-| Consent | [Consent](../model/domains/health-care/consent/consent.md) | [Consent](../model/domains/health-care/consent/README.md) |
-| Access Restriction | [Access Restriction](../model/domains/health-care/consent/access-restriction.md) | [Consent](../model/domains/health-care/consent/README.md) |
-| Provenance | [Provenance](../model/domains/health-care/consent/provenance.md) | [Consent](../model/domains/health-care/consent/README.md) |
-| Audit Event | [Audit Event](../model/domains/health-care/consent/audit-event.md) | [Consent](../model/domains/health-care/consent/README.md) |
-| Coverage | [Coverage](../model/domains/health-care/coverage/coverage.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Guarantor | [Guarantor](../model/domains/health-care/coverage/guarantor.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Charge | [Charge](../model/domains/health-care/coverage/charge.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Claim | [Claim](../model/domains/health-care/coverage/claim.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Claim Line | [Claim Line](../model/domains/health-care/coverage/claim-line.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Adjudication | [Adjudication](../model/domains/health-care/coverage/adjudication.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Patient | [Patient](../model/subjects/care/patient/patient.md) | [Patient](../model/subjects/care/patient/README.md) |
+| Patient Identifier | [Patient Identifier](../model/subjects/information/external-identifier/external-identifier.md) | [Patient](../model/subjects/care/patient/README.md) |
+| Related Person | [Related Person](../model/subjects/care/patient/related-person.md) | [Patient](../model/subjects/care/patient/README.md) |
+| Patient Contact | [Patient Contact](../model/subjects/party/contact-mechanism/party-contact.md) | [Patient](../model/subjects/care/patient/README.md) |
+| Health Care Organization | [Health Care Organization](../model/subjects/care/health-care-organization/health-care-organization.md) | [Health Care Organization](../model/subjects/care/health-care-organization/README.md) |
+| Provider | [Provider](../model/subjects/care/health-care-organization/provider.md) | [Health Care Organization](../model/subjects/care/health-care-organization/README.md) |
+| Practitioner Role | [Practitioner Role](../model/subjects/care/health-care-organization/practitioner-role.md) | [Health Care Organization](../model/subjects/care/health-care-organization/README.md) |
+| Facility | [Facility](../model/subjects/location/facility/facility.md) | [Health Care Organization](../model/subjects/care/health-care-organization/README.md) |
+| Location | [Location](../model/subjects/location/geographic-location/geographic-location.md) | [Health Care Organization](../model/subjects/care/health-care-organization/README.md) |
+| Schedule | [Schedule](../model/subjects/scheduling/appointment/schedule.md) | [Schedule](../model/subjects/scheduling/appointment/README.md) |
+| Appointment | [Appointment](../model/subjects/scheduling/appointment/appointment.md) | [Schedule](../model/subjects/scheduling/appointment/README.md) |
+| Appointment Participant | [Appointment Participant](../model/subjects/party/party/party-role.md) | [Schedule](../model/subjects/scheduling/appointment/README.md) |
+| Referral | [Referral](../model/subjects/care/care-plan/referral.md) | [Schedule](../model/subjects/scheduling/appointment/README.md) |
+| Encounter | [Encounter](../model/subjects/care/encounter/encounter.md) | [Encounter](../model/subjects/care/encounter/README.md) |
+| Episode of Care | [Episode of Care](../model/subjects/care/encounter/episode-of-care.md) | [Encounter](../model/subjects/care/encounter/README.md) |
+| Medical Case | [Medical Case](../model/subjects/care/encounter/medical-case.md) | [Encounter](../model/subjects/care/encounter/README.md) |
+| Care Team | [Care Team](../model/subjects/care/encounter/care-team.md) | [Encounter](../model/subjects/care/encounter/README.md) |
+| Care Team Member | [Care Team Member](../model/subjects/party/party/party-role.md) | [Encounter](../model/subjects/care/encounter/README.md) |
+| Clinical Note | [Clinical Note](../model/subjects/document/evidence/note.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Observation | [Observation](../model/subjects/care/observation/observation.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Condition | [Condition](../model/subjects/care/observation/condition.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Diagnosis | [Diagnosis](../model/subjects/care/observation/diagnosis.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Procedure | [Procedure](../model/subjects/care/observation/procedure.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Specimen | [Specimen](../model/subjects/care/observation/specimen.md) | [Clinical Note](../model/subjects/document/evidence/README.md) |
+| Service Request | [Service Request](../model/subjects/request/request/service-request.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Medication Order | [Medication Order](../model/subjects/care/care-plan/medication-order.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Care Plan | [Care Plan](../model/subjects/care/care-plan/care-plan.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Care Goal | [Care Goal](../model/subjects/care/care-plan/care-goal.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Planned Activity | [Planned Activity](../model/subjects/care/care-plan/planned-activity.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Health Care Service | [Health Care Service](../model/subjects/care/health-care-service/health-care-service.md) | [Health Care Service](../model/subjects/care/health-care-service/README.md) |
+| Service Delivery | [Service Delivery](../model/subjects/fulfillment/fulfillment/fulfillment.md) | [Health Care Service](../model/subjects/care/health-care-service/README.md) |
+| Authorization | [Authorization](../model/subjects/case/decision/authorization.md) | [Health Care Service](../model/subjects/care/health-care-service/README.md) |
+| Consent | [Consent](../model/subjects/information/consent/consent.md) | [Consent](../model/subjects/information/consent/README.md) |
+| Access Restriction | [Access Restriction](../model/subjects/information/consent/access-restriction.md) | [Consent](../model/subjects/information/consent/README.md) |
+| Provenance | [Provenance](../model/subjects/information/consent/provenance.md) | [Consent](../model/subjects/information/consent/README.md) |
+| Audit Event | [Audit Event](../model/subjects/information/consent/audit-event.md) | [Consent](../model/subjects/information/consent/README.md) |
+| Coverage | [Coverage](../model/subjects/coverage/coverage/coverage.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Guarantor | [Guarantor](../model/subjects/party/party/guarantor.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Charge | [Charge](../model/subjects/finance/invoice/charge.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Claim | [Claim](../model/subjects/coverage/coverage/claim.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Claim Line | [Claim Line](../model/subjects/coverage/coverage/claim-line.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Adjudication | [Adjudication](../model/subjects/coverage/coverage/claim-assessment.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |

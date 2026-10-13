@@ -48,43 +48,43 @@ Adds: Branch and Territory; Team / Crew; Service Vehicle; Tool and Test Equipmen
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/equipment-service/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/equipment-service.md#actors-and-roles).
 
 ## Customer and equipment concepts
 
 ### Customer
 
-Canonical concept: [Customer](../model/domains/equipment-service/customer/customer.md).
+Canonical concept: [Customer](../model/subjects/party/party/customer.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Contact
 
-Canonical concept: [Contact](../model/domains/equipment-service/customer/contact.md).
+Canonical concept: [Party Contact](../model/subjects/party/contact-mechanism/party-contact.md) (as Contact).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Category
 
-Canonical concept: [Equipment Category](../model/domains/equipment-service/customer/equipment-category.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment Model
 
-Canonical concept: [Equipment Model](../model/domains/equipment-service/customer/equipment-model.md).
+Canonical concept: [Equipment Model](../model/subjects/resource/equipment-model/equipment-model.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Equipment
 
-Canonical concept: [Equipment](../model/domains/equipment-service/customer/equipment.md).
+Canonical concept: [Equipment](../model/subjects/resource/equipment-model/equipment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Meter Reading (Standard)
 
-Canonical concept: [Meter Reading](../model/domains/equipment-service/customer/meter-reading.md).
+Canonical concept: [Usage Record](../model/subjects/measurement/usage-record/usage-record.md) (as Meter Reading).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -92,25 +92,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Service Type
 
-Canonical concept: [Service Type](../model/domains/equipment-service/service-type/service-type.md).
+Canonical concept: [Service](../model/subjects/product/product/service.md) (as Service Type).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Request
 
-Canonical concept: [Service Request](../model/domains/equipment-service/service-type/service-request.md).
+Canonical concept: [Service Request](../model/subjects/request/request/service-request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Maintenance Requirement (Standard)
 
-Canonical concept: [Maintenance Requirement](../model/domains/equipment-service/service-type/maintenance-requirement.md).
+Canonical concept: [Maintenance Requirement](../model/subjects/resource/equipment-model/maintenance-requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Plan (Standard)
 
-Canonical concept: [Service Plan](../model/domains/equipment-service/service-type/service-plan.md).
+Canonical concept: [Service Plan](../model/subjects/request/request/service-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -118,31 +118,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Technician
 
-Canonical concept: [Technician](../model/domains/equipment-service/technician/technician.md).
+Canonical concept: [Worker](../model/subjects/workforce/worker/worker.md) (as Technician).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Skill
 
-Canonical concept: [Skill](../model/domains/equipment-service/technician/skill.md).
+Canonical concept: [Skill](../model/subjects/workforce/worker/skill.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Technician Skill
 
-Canonical concept: [Technician Skill](../model/domains/equipment-service/technician/technician-skill.md).
+Canonical concept: [Worker Skill](../model/subjects/workforce/worker/worker-skill.md) (as Technician Skill).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Skill Requirement
 
-Canonical concept: [Skill Requirement](../model/domains/equipment-service/technician/skill-requirement.md).
+Canonical concept: [Requirement](../model/subjects/scheduling/demand/requirement.md) (as Skill Requirement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Technician Availability (Standard)
 
-Canonical concept: [Technician Availability](../model/domains/equipment-service/technician/technician-availability.md).
+Canonical concept: [Availability](../model/subjects/resource/resource/availability.md) (as Technician Availability).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -150,37 +150,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Service Request Assignment
 
-Canonical concept: [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/service-request-assignment.md).
+Canonical concept: [Assignment](../model/subjects/work/work-effort/assignment.md) (as Service Request Assignment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Work Effort
 
-Canonical concept: [Work Effort](../model/domains/equipment-service/service-request-assignment/work-effort.md).
+Canonical concept: [Work Effort](../model/subjects/work/work-effort/work-effort.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Visit (Standard)
 
-Canonical concept: [Service Visit](../model/domains/equipment-service/service-request-assignment/service-visit.md).
+Canonical concept: [Service Event](../model/subjects/work/service-event/service-event.md) (as Service Visit).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Time Entry
 
-Canonical concept: [Time Entry](../model/domains/equipment-service/service-request-assignment/time-entry.md).
+Canonical concept: [Time Entry](../model/subjects/workforce/time-entry/time-entry.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Outcome and Finding (Standard)
 
-Canonical concept: [Service Outcome and Finding](../model/domains/equipment-service/service-request-assignment/service-outcome-and-finding.md).
+Canonical concept: [Outcome](../model/subjects/work/work-effort/outcome.md) (as Service Outcome and Finding).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Status History
 
-Canonical concept: [Status History](../model/domains/work-management/status-type/status-history.md).
+Canonical concept: [Status History](../model/subjects/work/status-type/status-history.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -188,43 +188,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Equipment Agreement
 
-Canonical concept: [Equipment Agreement](../model/domains/equipment-service/equipment-agreement/equipment-agreement.md).
+Canonical concept: [Agreement](../model/subjects/agreement/agreement/agreement.md) (as Equipment Agreement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Role
 
-Canonical concept: [Agreement Role](../model/domains/agreement/agreement/agreement-role.md).
+Canonical concept: [Agreement Role](../model/subjects/agreement/agreement/agreement-role.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Agreement Term
 
-Canonical concept: [Agreement Term](../model/domains/agreement/agreement/agreement-term.md).
+Canonical concept: [Agreement Term](../model/subjects/agreement/agreement/agreement-term.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Warranty or Service Entitlement (Standard)
 
-Canonical concept: [Warranty or Service Entitlement](../model/domains/equipment-service/equipment-agreement/warranty-or-service-entitlement.md).
+Canonical concept: [Warranty or Service Entitlement](../model/subjects/agreement/agreement/warranty-or-service-entitlement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/equipment-service/behavior.md#relationship-model).
+See [canonical relationship model](behavior/equipment-service.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/equipment-service/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/equipment-service.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/equipment-service/behavior.md#business-events).
+See [canonical business events](behavior/equipment-service.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/equipment-service/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/equipment-service.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -340,28 +340,34 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Customer | [Customer](../model/domains/equipment-service/customer/customer.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Contact | [Contact](../model/domains/equipment-service/customer/contact.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Equipment Category | [Equipment Category](../model/domains/equipment-service/customer/equipment-category.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Equipment Model | [Equipment Model](../model/domains/equipment-service/customer/equipment-model.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Equipment | [Equipment](../model/domains/equipment-service/customer/equipment.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Meter Reading (Standard) | [Meter Reading](../model/domains/equipment-service/customer/meter-reading.md) | [Customer](../model/domains/equipment-service/customer/README.md) |
-| Service Type | [Service Type](../model/domains/equipment-service/service-type/service-type.md) | [Service Type](../model/domains/equipment-service/service-type/README.md) |
-| Service Request | [Service Request](../model/domains/equipment-service/service-type/service-request.md) | [Service Type](../model/domains/equipment-service/service-type/README.md) |
-| Maintenance Requirement (Standard) | [Maintenance Requirement](../model/domains/equipment-service/service-type/maintenance-requirement.md) | [Service Type](../model/domains/equipment-service/service-type/README.md) |
-| Service Plan (Standard) | [Service Plan](../model/domains/equipment-service/service-type/service-plan.md) | [Service Type](../model/domains/equipment-service/service-type/README.md) |
-| Technician | [Technician](../model/domains/equipment-service/technician/technician.md) | [Technician](../model/domains/equipment-service/technician/README.md) |
-| Skill | [Skill](../model/domains/equipment-service/technician/skill.md) | [Technician](../model/domains/equipment-service/technician/README.md) |
-| Technician Skill | [Technician Skill](../model/domains/equipment-service/technician/technician-skill.md) | [Technician](../model/domains/equipment-service/technician/README.md) |
-| Skill Requirement | [Skill Requirement](../model/domains/equipment-service/technician/skill-requirement.md) | [Technician](../model/domains/equipment-service/technician/README.md) |
-| Technician Availability (Standard) | [Technician Availability](../model/domains/equipment-service/technician/technician-availability.md) | [Technician](../model/domains/equipment-service/technician/README.md) |
-| Service Request Assignment | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/service-request-assignment.md) | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/README.md) |
-| Work Effort | [Work Effort](../model/domains/equipment-service/service-request-assignment/work-effort.md) | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/README.md) |
-| Service Visit (Standard) | [Service Visit](../model/domains/equipment-service/service-request-assignment/service-visit.md) | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/README.md) |
-| Time Entry | [Time Entry](../model/domains/equipment-service/service-request-assignment/time-entry.md) | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/README.md) |
-| Service Outcome and Finding (Standard) | [Service Outcome and Finding](../model/domains/equipment-service/service-request-assignment/service-outcome-and-finding.md) | [Service Request Assignment](../model/domains/equipment-service/service-request-assignment/README.md) |
-| Status History | [Status History](../model/domains/work-management/status-type/status-history.md) | [Status Type](../model/domains/work-management/status-type/README.md) |
-| Equipment Agreement | [Equipment Agreement](../model/domains/equipment-service/equipment-agreement/equipment-agreement.md) | [Equipment Agreement](../model/domains/equipment-service/equipment-agreement/README.md) |
-| Agreement Role | [Agreement Role](../model/domains/agreement/agreement/agreement-role.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
-| Agreement Term | [Agreement Term](../model/domains/agreement/agreement/agreement-term.md) | [Agreement](../model/domains/agreement/agreement/README.md) |
-| Warranty or Service Entitlement (Standard) | [Warranty or Service Entitlement](../model/domains/equipment-service/equipment-agreement/warranty-or-service-entitlement.md) | [Equipment Agreement](../model/domains/equipment-service/equipment-agreement/README.md) |
+| Customer | [Customer](../model/subjects/party/party/customer.md) | [Customer](../model/subjects/party/party/README.md) |
+| Contact | [Contact](../model/subjects/party/contact-mechanism/party-contact.md) | [Customer](../model/subjects/party/party/README.md) |
+| Equipment Category | [Equipment Category](#concepts-applications-typically-add) | [Customer](../model/subjects/party/party/README.md) |
+| Equipment Model | [Equipment Model](../model/subjects/resource/equipment-model/equipment-model.md) | [Customer](../model/subjects/party/party/README.md) |
+| Equipment | [Equipment](../model/subjects/resource/equipment-model/equipment.md) | [Customer](../model/subjects/party/party/README.md) |
+| Meter Reading (Standard) | [Meter Reading](../model/subjects/measurement/usage-record/usage-record.md) | [Customer](../model/subjects/party/party/README.md) |
+| Service Type | [Service Type](../model/subjects/product/product/service.md) | [Service Type](../model/subjects/product/product/README.md) |
+| Service Request | [Service Request](../model/subjects/request/request/service-request.md) | [Service Type](../model/subjects/product/product/README.md) |
+| Maintenance Requirement (Standard) | [Maintenance Requirement](../model/subjects/resource/equipment-model/maintenance-requirement.md) | [Service Type](../model/subjects/product/product/README.md) |
+| Service Plan (Standard) | [Service Plan](../model/subjects/request/request/service-plan.md) | [Service Type](../model/subjects/product/product/README.md) |
+| Technician | [Technician](../model/subjects/workforce/worker/worker.md) | [Technician](../model/subjects/workforce/worker/README.md) |
+| Skill | [Skill](../model/subjects/workforce/worker/skill.md) | [Technician](../model/subjects/workforce/worker/README.md) |
+| Technician Skill | [Technician Skill](../model/subjects/workforce/worker/worker-skill.md) | [Technician](../model/subjects/workforce/worker/README.md) |
+| Skill Requirement | [Skill Requirement](../model/subjects/scheduling/demand/requirement.md) | [Technician](../model/subjects/workforce/worker/README.md) |
+| Technician Availability (Standard) | [Technician Availability](../model/subjects/resource/resource/availability.md) | [Technician](../model/subjects/workforce/worker/README.md) |
+| Service Request Assignment | [Service Request Assignment](../model/subjects/work/work-effort/assignment.md) | [Service Request Assignment](../model/subjects/work/work-effort/README.md) |
+| Work Effort | [Work Effort](../model/subjects/work/work-effort/work-effort.md) | [Service Request Assignment](../model/subjects/work/work-effort/README.md) |
+| Service Visit (Standard) | [Service Visit](../model/subjects/work/service-event/service-event.md) | [Service Request Assignment](../model/subjects/work/work-effort/README.md) |
+| Time Entry | [Time Entry](../model/subjects/workforce/time-entry/time-entry.md) | [Service Request Assignment](../model/subjects/work/work-effort/README.md) |
+| Service Outcome and Finding (Standard) | [Service Outcome and Finding](../model/subjects/work/work-effort/outcome.md) | [Service Request Assignment](../model/subjects/work/work-effort/README.md) |
+| Status History | [Status History](../model/subjects/work/status-type/status-history.md) | [Status Type](../model/subjects/work/status-type/README.md) |
+| Equipment Agreement | [Equipment Agreement](../model/subjects/agreement/agreement/agreement.md) | [Equipment Agreement](../model/subjects/agreement/agreement/README.md) |
+| Agreement Role | [Agreement Role](../model/subjects/agreement/agreement/agreement-role.md) | [Agreement](../model/subjects/agreement/agreement/README.md) |
+| Agreement Term | [Agreement Term](../model/subjects/agreement/agreement/agreement-term.md) | [Agreement](../model/subjects/agreement/agreement/README.md) |
+| Warranty or Service Entitlement (Standard) | [Warranty or Service Entitlement](../model/subjects/agreement/agreement/warranty-or-service-entitlement.md) | [Equipment Agreement](../model/subjects/agreement/agreement/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Equipment Category**: Functional classification of equipment (excavator, crane, generator). Drives skill requirements and maintenance requirements.

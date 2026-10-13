@@ -34,49 +34,49 @@ Adds: Product Version; Rating Plan; Rating Factor; Rate Table; Distribution Agre
 
 ## Insurance roles
 
-See [canonical insurance roles](../model/domains/insurance/behavior.md#insurance-roles).
+See [canonical insurance roles](behavior/insurance.md#insurance-roles).
 
 ## Product and offering concepts
 
 ### Insurance Product
 
-Canonical concept: [Insurance Product](../model/domains/insurance/insurance-product/insurance-product.md).
+Canonical concept: [Insurance Product](../model/subjects/coverage/insurance-product/insurance-product.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Version
 
-Canonical concept: [Product Version](../model/domains/insurance/insurance-product/product-version.md).
+Canonical concept: [Product Version](../model/subjects/product/product/product-version.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insurance Offering
 
-Canonical concept: [Insurance Offering](../model/domains/insurance/insurance-product/insurance-offering.md).
+Canonical concept: [Offering](../model/subjects/product/offering/offering.md) (as Insurance Offering).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage Definition
 
-Canonical concept: [Coverage Definition](../model/domains/insurance/insurance-product/coverage-definition.md).
+Canonical concept: [Coverage Definition](../model/subjects/coverage/insurance-product/coverage-definition.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Form
 
-Canonical concept: [Policy Form](../model/domains/insurance/insurance-product/policy-form.md).
+Canonical concept: [Policy Form](../model/subjects/coverage/insurance-product/policy-form.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Plan
 
-Canonical concept: [Rating Plan](../model/domains/insurance/insurance-product/rating-plan.md).
+Canonical concept: [Rating Plan](../model/subjects/coverage/insurance-product/rating-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Rating Factor
 
-Canonical concept: [Rating Factor](../model/domains/insurance/insurance-product/rating-factor.md).
+Canonical concept: [Rating Factor](../model/subjects/coverage/insurance-product/rating-factor.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -84,49 +84,49 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Quote
 
-Canonical concept: [Quote](../model/domains/insurance/quote/quote.md).
+Canonical concept: [Quote](../model/subjects/request/quote/quote.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Quote Option
 
-Canonical concept: [Quote Option](../model/domains/insurance/quote/quote-option.md).
+Canonical concept: [Quote Option](../model/subjects/coverage/underwriting-case/quote-option.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insurance Application
 
-Canonical concept: [Insurance Application](../model/domains/insurance/quote/insurance-application.md).
+Canonical concept: [Application](../model/subjects/request/request/application.md) (as Insurance Application).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Application Answer
 
-Canonical concept: [Application Answer](../model/domains/insurance/quote/application-answer.md).
+Canonical concept: [Application Answer](../model/subjects/request/request/application-answer.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Risk Item
 
-Canonical concept: [Risk Item](../model/domains/insurance/quote/risk-item.md).
+Canonical concept: [Risk Item](../model/subjects/coverage/underwriting-case/risk-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Case
 
-Canonical concept: [Underwriting Case](../model/domains/insurance/quote/underwriting-case.md).
+Canonical concept: [Underwriting Case](../model/subjects/coverage/underwriting-case/underwriting-case.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Requirement
 
-Canonical concept: [Underwriting Requirement](../model/domains/insurance/quote/underwriting-requirement.md).
+Canonical concept: [Underwriting Requirement](../model/subjects/coverage/underwriting-case/underwriting-requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Underwriting Decision
 
-Canonical concept: [Underwriting Decision](../model/domains/insurance/quote/underwriting-decision.md).
+Canonical concept: [Decision](../model/subjects/case/decision/decision.md) (as Underwriting Decision).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -134,55 +134,55 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Policy
 
-Canonical concept: [Policy](../model/domains/insurance/policy/policy.md).
+Canonical concept: [Policy](../model/subjects/coverage/policy/policy.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Period
 
-Canonical concept: [Policy Period](../model/domains/insurance/policy/policy-period.md).
+Canonical concept: [Policy Period](../model/subjects/coverage/policy/policy-period.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Party
 
-Canonical concept: [Policy Party](../model/domains/insurance/policy/policy-party.md).
+Canonical concept: [Agreement Role](../model/subjects/agreement/agreement/agreement-role.md) (as Policy Party).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage
 
-Canonical concept: [Coverage](../model/domains/insurance/policy/coverage.md).
+Canonical concept: [Coverage](../model/subjects/coverage/coverage/coverage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Coverage Term
 
-Canonical concept: [Coverage Term](../model/domains/insurance/policy/coverage-term.md).
+Canonical concept: [Coverage Term](../model/subjects/coverage/policy/coverage-term.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exclusion
 
-Canonical concept: [Exclusion](../model/domains/insurance/policy/exclusion.md).
+Canonical concept: [Exclusion](../model/subjects/coverage/policy/exclusion.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Insured Object
 
-Canonical concept: [Insured Object](../model/domains/insurance/policy/insured-object.md).
+Canonical concept: [Insured Object](../model/subjects/coverage/policy/insured-object.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Policy Transaction
 
-Canonical concept: [Policy Transaction](../model/domains/insurance/policy/policy-transaction.md).
+Canonical concept: [Policy Transaction](../model/subjects/coverage/policy/policy-transaction.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Endorsement
 
-Canonical concept: [Endorsement](../model/domains/insurance/policy/endorsement.md).
+Canonical concept: [Endorsement](../model/subjects/coverage/policy/endorsement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -190,37 +190,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Premium
 
-Canonical concept: [Premium](../model/domains/insurance/premium/premium.md).
+Canonical concept: [Premium](../model/subjects/coverage/premium/premium.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Premium Transaction
 
-Canonical concept: [Premium Transaction](../model/domains/insurance/premium/premium-transaction.md).
+Canonical concept: [Premium Transaction](../model/subjects/coverage/premium/premium-transaction.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Billing Account
 
-Canonical concept: [Billing Account](../model/domains/insurance/premium/billing-account.md).
+Canonical concept: [Billing Account](../model/subjects/finance/invoice/billing-account.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Invoice
 
-Canonical concept: [Invoice](../model/domains/finance/invoice/invoice.md).
+Canonical concept: [Invoice](../model/subjects/finance/invoice/invoice.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commission
 
-Canonical concept: [Commission](../model/domains/insurance/premium/commission.md).
+Canonical concept: [Commission](../model/subjects/finance/invoice/commission.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -228,73 +228,73 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Loss Event
 
-Canonical concept: [Loss Event](../model/domains/insurance/loss-event/loss-event.md).
+Canonical concept: [Loss Event](../model/subjects/coverage/loss-event/loss-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-Canonical concept: [Claim](../model/domains/insurance/loss-event/claim.md).
+Canonical concept: [Claim](../model/subjects/coverage/coverage/claim.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Party
 
-Canonical concept: [Claim Party](../model/domains/insurance/loss-event/claim-party.md).
+Canonical concept: [Party Role](../model/subjects/party/party/party-role.md) (as Claim Party).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Exposure
 
-Canonical concept: [Claim Exposure](../model/domains/insurance/loss-event/claim-exposure.md).
+Canonical concept: [Claim Exposure](../model/subjects/coverage/loss-event/claim-exposure.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Assignment
 
-Canonical concept: [Claim Assignment](../model/domains/insurance/loss-event/claim-assignment.md).
+Canonical concept: [Assignment](../model/subjects/work/work-effort/assignment.md) (as Claim Assignment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Assessment
 
-Canonical concept: [Claim Assessment](../model/domains/insurance/loss-event/claim-assessment.md).
+Canonical concept: [Claim Assessment](../model/subjects/coverage/coverage/claim-assessment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Evidence Item
 
-Canonical concept: [Evidence Item](../model/domains/insurance/loss-event/evidence-item.md).
+Canonical concept: [Evidence](../model/subjects/document/evidence/evidence.md) (as Evidence Item).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Note
 
-Canonical concept: [Claim Note](../model/domains/insurance/loss-event/claim-note.md).
+Canonical concept: [Note](../model/subjects/document/evidence/note.md) (as Claim Note).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reserve
 
-Canonical concept: [Reserve](../model/domains/insurance/loss-event/reserve.md).
+Canonical concept: [Reserve](../model/subjects/coverage/loss-event/reserve.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Settlement
 
-Canonical concept: [Settlement](../model/domains/insurance/loss-event/settlement.md).
+Canonical concept: [Settlement](../model/subjects/finance/payment/settlement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Payment
 
-Canonical concept: [Claim Payment](../model/domains/insurance/loss-event/claim-payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md) (as Claim Payment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Recovery
 
-Canonical concept: [Recovery](../model/domains/insurance/loss-event/recovery.md).
+Canonical concept: [Recovery](../model/subjects/coverage/loss-event/recovery.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -302,43 +302,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Reinsurance Contract
 
-Canonical concept: [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/reinsurance-contract.md).
+Canonical concept: [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/reinsurance-contract.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reinsurance Coverage
 
-Canonical concept: [Reinsurance Coverage](../model/domains/insurance/reinsurance-contract/reinsurance-coverage.md).
+Canonical concept: [Reinsurance Coverage](../model/subjects/coverage/reinsurance-contract/reinsurance-coverage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cession
 
-Canonical concept: [Cession](../model/domains/insurance/reinsurance-contract/cession.md).
+Canonical concept: [Cession](../model/subjects/coverage/reinsurance-contract/cession.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reinsurance Claim
 
-Canonical concept: [Reinsurance Claim](../model/domains/insurance/reinsurance-contract/reinsurance-claim.md).
+Canonical concept: [Reinsurance Claim](../model/subjects/coverage/reinsurance-contract/reinsurance-claim.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/insurance/behavior.md#relationship-model).
+See [canonical relationship model](behavior/insurance.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/insurance/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/insurance.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/insurance/behavior.md#business-events).
+See [canonical business events](behavior/insurance.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/insurance/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/insurance.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -438,49 +438,49 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Insurance Product | [Insurance Product](../model/domains/insurance/insurance-product/insurance-product.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Product Version | [Product Version](../model/domains/insurance/insurance-product/product-version.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Insurance Offering | [Insurance Offering](../model/domains/insurance/insurance-product/insurance-offering.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Coverage Definition | [Coverage Definition](../model/domains/insurance/insurance-product/coverage-definition.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Policy Form | [Policy Form](../model/domains/insurance/insurance-product/policy-form.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Rating Plan | [Rating Plan](../model/domains/insurance/insurance-product/rating-plan.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Rating Factor | [Rating Factor](../model/domains/insurance/insurance-product/rating-factor.md) | [Insurance Product](../model/domains/insurance/insurance-product/README.md) |
-| Quote | [Quote](../model/domains/insurance/quote/quote.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Quote Option | [Quote Option](../model/domains/insurance/quote/quote-option.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Insurance Application | [Insurance Application](../model/domains/insurance/quote/insurance-application.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Application Answer | [Application Answer](../model/domains/insurance/quote/application-answer.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Risk Item | [Risk Item](../model/domains/insurance/quote/risk-item.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Underwriting Case | [Underwriting Case](../model/domains/insurance/quote/underwriting-case.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Underwriting Requirement | [Underwriting Requirement](../model/domains/insurance/quote/underwriting-requirement.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Underwriting Decision | [Underwriting Decision](../model/domains/insurance/quote/underwriting-decision.md) | [Quote](../model/domains/insurance/quote/README.md) |
-| Policy | [Policy](../model/domains/insurance/policy/policy.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Policy Period | [Policy Period](../model/domains/insurance/policy/policy-period.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Policy Party | [Policy Party](../model/domains/insurance/policy/policy-party.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Coverage | [Coverage](../model/domains/insurance/policy/coverage.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Coverage Term | [Coverage Term](../model/domains/insurance/policy/coverage-term.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Exclusion | [Exclusion](../model/domains/insurance/policy/exclusion.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Insured Object | [Insured Object](../model/domains/insurance/policy/insured-object.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Policy Transaction | [Policy Transaction](../model/domains/insurance/policy/policy-transaction.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Endorsement | [Endorsement](../model/domains/insurance/policy/endorsement.md) | [Policy](../model/domains/insurance/policy/README.md) |
-| Premium | [Premium](../model/domains/insurance/premium/premium.md) | [Premium](../model/domains/insurance/premium/README.md) |
-| Premium Transaction | [Premium Transaction](../model/domains/insurance/premium/premium-transaction.md) | [Premium](../model/domains/insurance/premium/README.md) |
-| Billing Account | [Billing Account](../model/domains/insurance/premium/billing-account.md) | [Premium](../model/domains/insurance/premium/README.md) |
-| Invoice | [Invoice](../model/domains/finance/invoice/invoice.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Commission | [Commission](../model/domains/insurance/premium/commission.md) | [Premium](../model/domains/insurance/premium/README.md) |
-| Loss Event | [Loss Event](../model/domains/insurance/loss-event/loss-event.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim | [Claim](../model/domains/insurance/loss-event/claim.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Party | [Claim Party](../model/domains/insurance/loss-event/claim-party.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Exposure | [Claim Exposure](../model/domains/insurance/loss-event/claim-exposure.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Assignment | [Claim Assignment](../model/domains/insurance/loss-event/claim-assignment.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Assessment | [Claim Assessment](../model/domains/insurance/loss-event/claim-assessment.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Evidence Item | [Evidence Item](../model/domains/insurance/loss-event/evidence-item.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Note | [Claim Note](../model/domains/insurance/loss-event/claim-note.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Reserve | [Reserve](../model/domains/insurance/loss-event/reserve.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Settlement | [Settlement](../model/domains/insurance/loss-event/settlement.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Claim Payment | [Claim Payment](../model/domains/insurance/loss-event/claim-payment.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Recovery | [Recovery](../model/domains/insurance/loss-event/recovery.md) | [Loss Event](../model/domains/insurance/loss-event/README.md) |
-| Reinsurance Contract | [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/reinsurance-contract.md) | [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/README.md) |
-| Reinsurance Coverage | [Reinsurance Coverage](../model/domains/insurance/reinsurance-contract/reinsurance-coverage.md) | [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/README.md) |
-| Cession | [Cession](../model/domains/insurance/reinsurance-contract/cession.md) | [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/README.md) |
-| Reinsurance Claim | [Reinsurance Claim](../model/domains/insurance/reinsurance-contract/reinsurance-claim.md) | [Reinsurance Contract](../model/domains/insurance/reinsurance-contract/README.md) |
+| Insurance Product | [Insurance Product](../model/subjects/coverage/insurance-product/insurance-product.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Product Version | [Product Version](../model/subjects/product/product/product-version.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Insurance Offering | [Insurance Offering](../model/subjects/product/offering/offering.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Coverage Definition | [Coverage Definition](../model/subjects/coverage/insurance-product/coverage-definition.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Policy Form | [Policy Form](../model/subjects/coverage/insurance-product/policy-form.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Rating Plan | [Rating Plan](../model/subjects/coverage/insurance-product/rating-plan.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Rating Factor | [Rating Factor](../model/subjects/coverage/insurance-product/rating-factor.md) | [Insurance Product](../model/subjects/coverage/insurance-product/README.md) |
+| Quote | [Quote](../model/subjects/request/quote/quote.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Quote Option | [Quote Option](../model/subjects/coverage/underwriting-case/quote-option.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Insurance Application | [Insurance Application](../model/subjects/request/request/application.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Application Answer | [Application Answer](../model/subjects/request/request/application-answer.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Risk Item | [Risk Item](../model/subjects/coverage/underwriting-case/risk-item.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Underwriting Case | [Underwriting Case](../model/subjects/coverage/underwriting-case/underwriting-case.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Underwriting Requirement | [Underwriting Requirement](../model/subjects/coverage/underwriting-case/underwriting-requirement.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Underwriting Decision | [Underwriting Decision](../model/subjects/case/decision/decision.md) | [Quote](../model/subjects/request/quote/README.md) |
+| Policy | [Policy](../model/subjects/coverage/policy/policy.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Policy Period | [Policy Period](../model/subjects/coverage/policy/policy-period.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Policy Party | [Policy Party](../model/subjects/agreement/agreement/agreement-role.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Coverage | [Coverage](../model/subjects/coverage/coverage/coverage.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Coverage Term | [Coverage Term](../model/subjects/coverage/policy/coverage-term.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Exclusion | [Exclusion](../model/subjects/coverage/policy/exclusion.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Insured Object | [Insured Object](../model/subjects/coverage/policy/insured-object.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Policy Transaction | [Policy Transaction](../model/subjects/coverage/policy/policy-transaction.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Endorsement | [Endorsement](../model/subjects/coverage/policy/endorsement.md) | [Policy](../model/subjects/coverage/policy/README.md) |
+| Premium | [Premium](../model/subjects/coverage/premium/premium.md) | [Premium](../model/subjects/coverage/premium/README.md) |
+| Premium Transaction | [Premium Transaction](../model/subjects/coverage/premium/premium-transaction.md) | [Premium](../model/subjects/coverage/premium/README.md) |
+| Billing Account | [Billing Account](../model/subjects/finance/invoice/billing-account.md) | [Premium](../model/subjects/coverage/premium/README.md) |
+| Invoice | [Invoice](../model/subjects/finance/invoice/invoice.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Commission | [Commission](../model/subjects/finance/invoice/commission.md) | [Premium](../model/subjects/coverage/premium/README.md) |
+| Loss Event | [Loss Event](../model/subjects/coverage/loss-event/loss-event.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim | [Claim](../model/subjects/coverage/coverage/claim.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Party | [Claim Party](../model/subjects/party/party/party-role.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Exposure | [Claim Exposure](../model/subjects/coverage/loss-event/claim-exposure.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Assignment | [Claim Assignment](../model/subjects/work/work-effort/assignment.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Assessment | [Claim Assessment](../model/subjects/coverage/coverage/claim-assessment.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Evidence Item | [Evidence Item](../model/subjects/document/evidence/evidence.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Note | [Claim Note](../model/subjects/document/evidence/note.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Reserve | [Reserve](../model/subjects/coverage/loss-event/reserve.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Settlement | [Settlement](../model/subjects/finance/payment/settlement.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Claim Payment | [Claim Payment](../model/subjects/finance/payment/payment.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Recovery | [Recovery](../model/subjects/coverage/loss-event/recovery.md) | [Loss Event](../model/subjects/coverage/loss-event/README.md) |
+| Reinsurance Contract | [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/reinsurance-contract.md) | [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/README.md) |
+| Reinsurance Coverage | [Reinsurance Coverage](../model/subjects/coverage/reinsurance-contract/reinsurance-coverage.md) | [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/README.md) |
+| Cession | [Cession](../model/subjects/coverage/reinsurance-contract/cession.md) | [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/README.md) |
+| Reinsurance Claim | [Reinsurance Claim](../model/subjects/coverage/reinsurance-contract/reinsurance-claim.md) | [Reinsurance Contract](../model/subjects/coverage/reinsurance-contract/README.md) |

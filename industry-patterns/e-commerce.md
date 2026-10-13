@@ -34,55 +34,55 @@ Adds: Seller; Marketplace Listing; Seller Offer; Price List; Contract Price; War
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/e-commerce/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/e-commerce.md#actors-and-roles).
 
 ## Catalog and merchandising concepts
 
 ### Channel
 
-Canonical concept: [Channel](../model/domains/e-commerce/channel/channel.md).
+Canonical concept: [Channel](../model/subjects/product/offering/channel.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Catalog
 
-Canonical concept: [Catalog](../model/domains/e-commerce/channel/catalog.md).
+Canonical concept: [Catalog](../model/subjects/product/offering/catalog.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Category
 
-Canonical concept: [Category](../model/domains/e-commerce/channel/category.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product
 
-Canonical concept: [Product](../model/domains/e-commerce/channel/product.md).
+Canonical concept: [Product](../model/subjects/product/product/product.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Product Variant
 
-Canonical concept: [Product Variant](../model/domains/e-commerce/channel/product-variant.md).
+Canonical concept: [Product Variant](../model/subjects/product/product/product-variant.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offering
 
-Canonical concept: [Offering](../model/domains/e-commerce/channel/offering.md).
+Canonical concept: [Offering](../model/subjects/product/offering/offering.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price
 
-Canonical concept: [Price](../model/domains/product-and-service/product/price.md).
+Canonical concept: [Price](../model/subjects/product/offering/price.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Promotion
 
-Canonical concept: [Promotion](../model/domains/e-commerce/channel/promotion.md).
+Canonical concept: [Promotion](../model/subjects/product/offering/promotion.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -90,25 +90,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Shopping Session
 
-Canonical concept: [Shopping Session](../model/domains/e-commerce/shopping-session/shopping-session.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cart
 
-Canonical concept: [Cart](../model/domains/e-commerce/shopping-session/cart.md).
+Canonical concept: [Cart](../model/subjects/request/order/cart.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cart Line
 
-Canonical concept: [Cart Line](../model/domains/e-commerce/shopping-session/cart-line.md).
+Canonical concept: [Cart Line](../model/subjects/request/order/cart-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Saved List
 
-Canonical concept: [Saved List](../model/domains/e-commerce/shopping-session/saved-list.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -116,25 +116,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Order
 
-Canonical concept: [Order](../model/domains/e-commerce/order/order.md).
+Canonical concept: [Order](../model/subjects/request/order/order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Line
 
-Canonical concept: [Order Line](../model/domains/e-commerce/order/order-line.md).
+Canonical concept: [Order Line](../model/subjects/request/order/order-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Adjustment
 
-Canonical concept: [Order Adjustment](../model/domains/e-commerce/order/order-adjustment.md).
+Canonical concept: [Adjustment](../model/subjects/finance/invoice/adjustment.md) (as Order Adjustment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Order Address
 
-Canonical concept: [Order Address](../model/domains/e-commerce/order/order-address.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -142,19 +142,19 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Inventory Item
 
-Canonical concept: [Inventory Item](../model/domains/e-commerce/inventory-item/inventory-item.md).
+Canonical concept: [Inventory Item](../model/subjects/resource/inventory-item/inventory-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Inventory Reservation
 
-Canonical concept: [Inventory Reservation](../model/domains/e-commerce/inventory-item/inventory-reservation.md).
+Canonical concept: [Reservation](../model/subjects/scheduling/reservation/reservation.md) (as Inventory Reservation).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability Promise
 
-Canonical concept: [Availability Promise](../model/domains/e-commerce/inventory-item/availability-promise.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -162,31 +162,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Payment Method
 
-Canonical concept: [Payment Method](../model/domains/e-commerce/payment-method/payment-method.md).
+Canonical concept: [Payment Method](../model/subjects/finance/payment/payment-method.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Authorization
 
-Canonical concept: [Payment Authorization](../model/domains/e-commerce/payment-method/payment-authorization.md).
+Canonical concept: [Payment Authorization](../model/subjects/finance/payment/payment-authorization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Canonical concept: [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md).
+Canonical concept: [Payment Allocation](../model/subjects/finance/payment/payment-allocation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Refund
 
-Canonical concept: [Refund](../model/domains/e-commerce/payment-method/refund.md).
+Canonical concept: [Refund](../model/subjects/finance/payment/refund.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -194,43 +194,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Fulfillment Order
 
-Canonical concept: [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/fulfillment-order.md).
+Canonical concept: [Fulfillment Order](../model/subjects/fulfillment/fulfillment/fulfillment-order.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment Line
 
-Canonical concept: [Fulfillment Line](../model/domains/e-commerce/fulfillment-order/fulfillment-line.md).
+Canonical concept: [Fulfillment Line](../model/subjects/fulfillment/fulfillment/fulfillment-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Shipment
 
-Canonical concept: [Shipment](../model/domains/e-commerce/fulfillment-order/shipment.md).
+Canonical concept: [Shipment](../model/subjects/fulfillment/fulfillment/shipment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Shipment Item
 
-Canonical concept: [Shipment Item](../model/domains/e-commerce/fulfillment-order/shipment-item.md).
+Canonical concept: [Shipment Item](../model/subjects/fulfillment/fulfillment/shipment-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Package
 
-Canonical concept: [Package](../model/domains/e-commerce/fulfillment-order/package.md).
+Canonical concept: [Package](../model/subjects/fulfillment/fulfillment/package.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Delivery
 
-Canonical concept: [Delivery](../model/domains/e-commerce/fulfillment-order/delivery.md).
+Canonical concept: [Delivery](../model/subjects/fulfillment/fulfillment/delivery.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Digital Entitlement
 
-Canonical concept: [Digital Entitlement](../model/domains/e-commerce/fulfillment-order/digital-entitlement.md).
+Canonical concept: [Digital Entitlement](../model/subjects/agreement/agreement/digital-entitlement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -238,49 +238,49 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Cancellation
 
-Canonical concept: [Cancellation](../model/domains/e-commerce/cancellation/cancellation.md).
+Canonical concept: [Cancellation](../model/subjects/request/order/cancellation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return
 
-Canonical concept: [Return](../model/domains/e-commerce/cancellation/return.md).
+Canonical concept: [Return](../model/subjects/fulfillment/return/return.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Return Line
 
-Canonical concept: [Return Line](../model/domains/e-commerce/cancellation/return-line.md).
+Canonical concept: [Return Line](../model/subjects/fulfillment/return/return-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Disposition
 
-Canonical concept: [Disposition](../model/domains/e-commerce/cancellation/disposition.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Customer Case
 
-Canonical concept: [Customer Case](../model/domains/e-commerce/cancellation/customer-case.md).
+Canonical concept: [Case](../model/subjects/case/case/case.md) (as Customer Case).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Standard relationship model
 
-See [canonical standard relationship model](../model/domains/e-commerce/behavior.md#standard-relationship-model).
+See [canonical standard relationship model](behavior/e-commerce.md#standard-relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/e-commerce/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/e-commerce.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/e-commerce/behavior.md#business-events).
+See [canonical business events](behavior/e-commerce.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/e-commerce/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/e-commerce.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -362,39 +362,50 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Channel | [Channel](../model/domains/e-commerce/channel/channel.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Catalog | [Catalog](../model/domains/e-commerce/channel/catalog.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Category | [Category](../model/domains/e-commerce/channel/category.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Product | [Product](../model/domains/e-commerce/channel/product.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Product Variant | [Product Variant](../model/domains/e-commerce/channel/product-variant.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Offering | [Offering](../model/domains/e-commerce/channel/offering.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Price | [Price](../model/domains/product-and-service/product/price.md) | [Product](../model/domains/product-and-service/product/README.md) |
-| Promotion | [Promotion](../model/domains/e-commerce/channel/promotion.md) | [Channel](../model/domains/e-commerce/channel/README.md) |
-| Shopping Session | [Shopping Session](../model/domains/e-commerce/shopping-session/shopping-session.md) | [Shopping Session](../model/domains/e-commerce/shopping-session/README.md) |
-| Cart | [Cart](../model/domains/e-commerce/shopping-session/cart.md) | [Shopping Session](../model/domains/e-commerce/shopping-session/README.md) |
-| Cart Line | [Cart Line](../model/domains/e-commerce/shopping-session/cart-line.md) | [Shopping Session](../model/domains/e-commerce/shopping-session/README.md) |
-| Saved List | [Saved List](../model/domains/e-commerce/shopping-session/saved-list.md) | [Shopping Session](../model/domains/e-commerce/shopping-session/README.md) |
-| Order | [Order](../model/domains/e-commerce/order/order.md) | [Order](../model/domains/e-commerce/order/README.md) |
-| Order Line | [Order Line](../model/domains/e-commerce/order/order-line.md) | [Order](../model/domains/e-commerce/order/README.md) |
-| Order Adjustment | [Order Adjustment](../model/domains/e-commerce/order/order-adjustment.md) | [Order](../model/domains/e-commerce/order/README.md) |
-| Order Address | [Order Address](../model/domains/e-commerce/order/order-address.md) | [Order](../model/domains/e-commerce/order/README.md) |
-| Inventory Item | [Inventory Item](../model/domains/e-commerce/inventory-item/inventory-item.md) | [Inventory Item](../model/domains/e-commerce/inventory-item/README.md) |
-| Inventory Reservation | [Inventory Reservation](../model/domains/e-commerce/inventory-item/inventory-reservation.md) | [Inventory Item](../model/domains/e-commerce/inventory-item/README.md) |
-| Availability Promise | [Availability Promise](../model/domains/e-commerce/inventory-item/availability-promise.md) | [Inventory Item](../model/domains/e-commerce/inventory-item/README.md) |
-| Payment Method | [Payment Method](../model/domains/e-commerce/payment-method/payment-method.md) | [Payment Method](../model/domains/e-commerce/payment-method/README.md) |
-| Payment Authorization | [Payment Authorization](../model/domains/e-commerce/payment-method/payment-authorization.md) | [Payment Method](../model/domains/e-commerce/payment-method/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment Allocation | [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Refund | [Refund](../model/domains/e-commerce/payment-method/refund.md) | [Payment Method](../model/domains/e-commerce/payment-method/README.md) |
-| Fulfillment Order | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/fulfillment-order.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Fulfillment Line | [Fulfillment Line](../model/domains/e-commerce/fulfillment-order/fulfillment-line.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Shipment | [Shipment](../model/domains/e-commerce/fulfillment-order/shipment.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Shipment Item | [Shipment Item](../model/domains/e-commerce/fulfillment-order/shipment-item.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Package | [Package](../model/domains/e-commerce/fulfillment-order/package.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Delivery | [Delivery](../model/domains/e-commerce/fulfillment-order/delivery.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Digital Entitlement | [Digital Entitlement](../model/domains/e-commerce/fulfillment-order/digital-entitlement.md) | [Fulfillment Order](../model/domains/e-commerce/fulfillment-order/README.md) |
-| Cancellation | [Cancellation](../model/domains/e-commerce/cancellation/cancellation.md) | [Cancellation](../model/domains/e-commerce/cancellation/README.md) |
-| Return | [Return](../model/domains/e-commerce/cancellation/return.md) | [Cancellation](../model/domains/e-commerce/cancellation/README.md) |
-| Return Line | [Return Line](../model/domains/e-commerce/cancellation/return-line.md) | [Cancellation](../model/domains/e-commerce/cancellation/README.md) |
-| Disposition | [Disposition](../model/domains/e-commerce/cancellation/disposition.md) | [Cancellation](../model/domains/e-commerce/cancellation/README.md) |
-| Customer Case | [Customer Case](../model/domains/e-commerce/cancellation/customer-case.md) | [Cancellation](../model/domains/e-commerce/cancellation/README.md) |
+| Channel | [Channel](../model/subjects/product/offering/channel.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Catalog | [Catalog](../model/subjects/product/offering/catalog.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Category | [Category](#concepts-applications-typically-add) | [Channel](../model/subjects/product/offering/README.md) |
+| Product | [Product](../model/subjects/product/product/product.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Product Variant | [Product Variant](../model/subjects/product/product/product-variant.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Offering | [Offering](../model/subjects/product/offering/offering.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Price | [Price](../model/subjects/product/offering/price.md) | [Product](../model/subjects/product/product/README.md) |
+| Promotion | [Promotion](../model/subjects/product/offering/promotion.md) | [Channel](../model/subjects/product/offering/README.md) |
+| Shopping Session | [Shopping Session](#concepts-applications-typically-add) | [Shopping Session](#) |
+| Cart | [Cart](../model/subjects/request/order/cart.md) | [Shopping Session](#) |
+| Cart Line | [Cart Line](../model/subjects/request/order/cart-line.md) | [Shopping Session](#) |
+| Saved List | [Saved List](#concepts-applications-typically-add) | [Shopping Session](#) |
+| Order | [Order](../model/subjects/request/order/order.md) | [Order](../model/subjects/request/order/README.md) |
+| Order Line | [Order Line](../model/subjects/request/order/order-line.md) | [Order](../model/subjects/request/order/README.md) |
+| Order Adjustment | [Order Adjustment](../model/subjects/finance/invoice/adjustment.md) | [Order](../model/subjects/request/order/README.md) |
+| Order Address | [Order Address](#concepts-applications-typically-add) | [Order](../model/subjects/request/order/README.md) |
+| Inventory Item | [Inventory Item](../model/subjects/resource/inventory-item/inventory-item.md) | [Inventory Item](../model/subjects/resource/inventory-item/README.md) |
+| Inventory Reservation | [Inventory Reservation](../model/subjects/scheduling/reservation/reservation.md) | [Inventory Item](../model/subjects/resource/inventory-item/README.md) |
+| Availability Promise | [Availability Promise](#concepts-applications-typically-add) | [Inventory Item](../model/subjects/resource/inventory-item/README.md) |
+| Payment Method | [Payment Method](../model/subjects/finance/payment/payment-method.md) | [Payment Method](../model/subjects/finance/payment/README.md) |
+| Payment Authorization | [Payment Authorization](../model/subjects/finance/payment/payment-authorization.md) | [Payment Method](../model/subjects/finance/payment/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/subjects/finance/payment/payment-allocation.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Refund | [Refund](../model/subjects/finance/payment/refund.md) | [Payment Method](../model/subjects/finance/payment/README.md) |
+| Fulfillment Order | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/fulfillment-order.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Fulfillment Line | [Fulfillment Line](../model/subjects/fulfillment/fulfillment/fulfillment-line.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Shipment | [Shipment](../model/subjects/fulfillment/fulfillment/shipment.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Shipment Item | [Shipment Item](../model/subjects/fulfillment/fulfillment/shipment-item.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Package | [Package](../model/subjects/fulfillment/fulfillment/package.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Delivery | [Delivery](../model/subjects/fulfillment/fulfillment/delivery.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Digital Entitlement | [Digital Entitlement](../model/subjects/agreement/agreement/digital-entitlement.md) | [Fulfillment Order](../model/subjects/fulfillment/fulfillment/README.md) |
+| Cancellation | [Cancellation](../model/subjects/request/order/cancellation.md) | [Cancellation](../model/subjects/request/order/README.md) |
+| Return | [Return](../model/subjects/fulfillment/return/return.md) | [Cancellation](../model/subjects/request/order/README.md) |
+| Return Line | [Return Line](../model/subjects/fulfillment/return/return-line.md) | [Cancellation](../model/subjects/request/order/README.md) |
+| Disposition | [Disposition](#concepts-applications-typically-add) | [Cancellation](../model/subjects/request/order/README.md) |
+| Customer Case | [Customer Case](../model/subjects/case/case/case.md) | [Cancellation](../model/subjects/request/order/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Category**: A navigational or merchandising classification used within a Catalog.
+- **Shopping Session**: A period of customer interaction that provides context for browsing and shopping.
+- **Saved List**: A named collection of Products or Offerings retained for later consideration.
+- **Order Address**: An immutable address snapshot used for billing, shipping, pickup, or service delivery.
+- **Availability Promise**: A calculated promise that a quantity can be delivered or made available by a stated date.
+- **Disposition**: Decision about a returned item.

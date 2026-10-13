@@ -1,0 +1,272 @@
+// The subject reclassification of the canonical model (docs/subject-reclassification.md): the
+// subjects, and every current concept's fate. One source for the review document and, once
+// agreed, for the moves.
+//
+// A concept's code:
+//   C:<subject>                 common: kept as it is, in the subject
+//   M:<subject>:<Common Name>   merged into the common concept of that name (the first member
+//                               named so becomes it; the others become its aliases)
+//   S:<subject>:<Parent>        kept as a common specialization of Parent, in the subject
+//   K:<subject>                 kept, in a subject one industry owns (no generic parent)
+//   A                           application detail: leaves the model, named in its industry pattern
+//   P                           a modeling concern: moves to modeling-patterns/ (data migration)
+// A kept concept (C, S, K) may end with :<New Name> when its name would clash with a common one.
+
+export const SUBJECTS = [
+  ["party", "Parties and Roles", "Who takes part: persons, organizations and their units, the roles they play in a context, their relationships (reporting among them), contacts, and customer and supplier accounts."],
+  ["location", "Locations and Sites", "Where things happen: geographic locations, facilities with their buildings and spaces, the sites where work or service is delivered, and their assessment."],
+  ["classification", "Classification", "Governed vocabularies and categories, and their assignment to anything."],
+  ["product", "Products, Offerings, and Prices", "What is provided and on what terms: products, versions and components, services, offerings, channels, catalogs, promotions, prices and price rules."],
+  ["agreement", "Agreements and Entitlements", "Rights and obligations: agreements of every kind, their parties and terms, commitments, entitlements, subscriptions, allowances, warranties, service levels."],
+  ["request", "Requests, Quotes, and Orders", "What is asked for and accepted: requests and applications, quotes, orders and order lines, changes and cancellations."],
+  ["fulfillment", "Fulfillment and Logistics", "How what was ordered reaches its recipient: fulfillment, fulfillment orders, shipments, packages, routes, delivery, and returns."],
+  ["work", "Work and Projects", "Work done: work efforts and orders, projects and tasks, assignments, service events, deliverables, outcomes, and status."],
+  ["case", "Cases and Decisions", "Managed matters and their resolution: cases, disputes, incidents, exceptions, approvals, authorizations, and decisions."],
+  ["document", "Documents and Evidence", "Recorded information: documents, notes, evidence, and communications."],
+  ["scheduling", "Scheduling and Reservations", "Time and capacity commitments: demand, requirements and constraints, schedules, appointments, reservations, attendance."],
+  ["workforce", "Workforce", "The people who do the work: workers and their employment, jobs and positions, skills and qualifications, and the time they record."],
+  ["resource", "Resources and Assets", "What capacity is drawn from: resources and their capabilities and availability, equipment and its models, components, configurations, maintenance, inventory."],
+  ["quality", "Quality and Inspection", "Whether something meets its requirements: quality plans, inspections and their results, nonconformances, corrective actions."],
+  ["finance", "Billing and Payments", "Money owed and settled: charges, invoices, billing accounts, payments and their methods and authorizations, refunds, adjustments, commissions, settlements, reconciliations, expenses."],
+  ["accounting", "Accounting", "Recording business transactions: the chart of accounts, accounting periods, ledger accounts, journal entries and their posting, receivables and payables."],
+  ["measurement", "Measurement and Usage", "What is measured and consumed: measures, measurements, usage records, analytic facts."],
+  ["information", "Information Governance", "How information is identified, owned, protected, and kept: external identifiers, matching and golden records, systems of record, data quality, consent, access, provenance, audit, retention."],
+  ["care", "Health Care", "Care of a patient: patients and providers, encounters and episodes, conditions, observations, diagnoses, procedures, care plans and goals, orders, care teams. One industry owns it."],
+  ["coverage", "Insurance Coverage and Claims", "Protection against loss and its claims: insurance products and policies, coverage and its terms, underwriting, premium, loss events, claims and their assessment, reserves, recoveries, reinsurance. Shared by insurance and health care."],
+  ["accounts", "Financial Accounts", "Financial positions and their movements, as a financial institution keeps them: accounts and balances, holds and limits, instructions and transactions, payment orders and clearing, credit and loans, instruments and trades. One industry owns it."],
+  ["network", "Service Provisioning and Networks", "Delivering a technical service: service and resource specifications, service instances, network resources and endpoints, provisioning and activation, alarms and outages."],
+  ["production", "Production", "Making products: routings and operations, work centers, bills of material, production orders and runs, output, scrap and rework, genealogy."],
+  ["travel", "Travel", "Travel itineraries and bookings: itineraries, segments, bookings and tickets, traveler documents, disruptions and reaccommodation. One industry owns it."],
+];
+
+// Shared domains: the subject of each concept (all common) unless overridden.
+const shared = (subject, overrides = {}) => ({ default: `C:${subject}`, overrides });
+
+export const CLASSIFICATION = {
+  party: shared("party", { "Geographic Location": "C:location" }),
+  classification: shared("classification"),
+  "product-and-service": shared("product", { "Service Offering": "S:product:Offering", "Service Package": "S:product:Offering" }),
+  agreement: shared("agreement"),
+  "request-and-fulfillment": shared("request", { Fulfillment: "C:fulfillment" }),
+  "work-management": shared("work"),
+  finance: shared("finance"),
+  measurement: shared("measurement"),
+  "resource-management": shared("resource"),
+  "service-management": { overrides: {
+    "Service Request": "S:request:Request", "Service Plan": "S:request:Request",
+    "Service Event": "C:work",
+    "Service Estimate": "M:request:Quote", "Estimate Line": "M:request:Quote Line",
+    "Service Site": "M:location:Site", "Site Assessment": "M:location:Site Assessment",
+  } },
+  scheduling: { overrides: {
+    Demand: "C:scheduling", Requirement: "C:scheduling", Constraint: "C:scheduling",
+    Assignment: "M:work:Assignment",
+    "Service Appointment": "M:scheduling:Appointment", "Appointment Policy": "C:scheduling",
+    "Service Route": "C:fulfillment", "Route Stop": "C:fulfillment",
+  } },
+  "crane-rental": { overrides: {
+    "Customer Account": "M:party:Customer Account", Project: "M:work:Project", "Job Site": "M:location:Site",
+    "Site Access Constraint": "A", "Ground Condition": "A",
+    "Lift Request": "A", "Load Requirement": "A", "Lift Condition": "A", "Site Survey": "M:location:Site Assessment", "Lift Classification": "A",
+    "Equipment Model": "M:resource:Equipment Model", "Crane Asset": "M:resource:Equipment", "Equipment Component": "C:resource",
+    "Crane Configuration": "M:resource:Equipment Configuration", "Capacity Evidence": "A", "Equipment Compatibility": "C:resource",
+    "Rental Offering": "A", "Rate Card": "M:product:Price List", Quote: "M:request:Quote", "Quote Line": "M:request:Quote Line",
+    "Rental Agreement": "S:agreement:Agreement", "Job Order": "M:work:Work Order", "Change Order": "M:request:Change Request",
+    "Lift Plan": "A", "Lift Plan Item": "A", "Rigging Plan": "A", Permit: "M:case:Authorization",
+    Qualification: "C:workforce", "Planning Requirement": "A", "Readiness Review": "M:case:Decision",
+    "Resource Requirement": "M:scheduling:Requirement", Reservation: "M:scheduling:Reservation", "Crew Assignment": "M:work:Assignment",
+    "Dispatch Plan": "A", "Transport Movement": "M:fulfillment:Shipment", "Fleet Transfer": "A",
+    Delivery: "M:fulfillment:Delivery", "Setup Activity": "A", Inspection: "M:quality:Inspection", "Inspection Finding": "M:quality:Inspection Result",
+    "Release for Service": "M:case:Decision",
+    "Pre-Lift Meeting": "A", "Lift Activity": "A", "Operational Observation": "A", "Operational Delay": "A", "Standby Period": "A",
+    "Stop-Work Event": "A", Incident: "M:case:Incident",
+    "Equipment Usage Record": "M:measurement:Usage Record", "Fuel or Consumable Record": "A", "Teardown Activity": "A",
+    Return: "M:fulfillment:Return", "Damage Report": "M:case:Incident", "Maintenance Work Order": "M:work:Work Order",
+    "Asset Availability": "M:resource:Availability",
+    "Charge Event": "M:finance:Charge", Timesheet: "M:workforce:Time Entry", "Commercial Dispute": "M:case:Dispute",
+  } },
+  "e-commerce": { overrides: {
+    Channel: "C:product", Catalog: "C:product", Category: "A", Product: "M:product:Product", "Product Variant": "C:product",
+    Offering: "M:product:Offering", Promotion: "C:product",
+    "Shopping Session": "A", Cart: "S:request:Request", "Cart Line": "S:request:Order Line", "Saved List": "A",
+    Order: "M:request:Order", "Order Line": "M:request:Order Line", "Order Adjustment": "M:finance:Adjustment", "Order Address": "A",
+    "Inventory Item": "M:resource:Inventory Item", "Inventory Reservation": "M:scheduling:Reservation", "Availability Promise": "A",
+    "Payment Method": "C:finance", "Payment Authorization": "M:finance:Payment Authorization", Refund: "M:finance:Refund",
+    "Fulfillment Order": "C:fulfillment", "Fulfillment Line": "C:fulfillment", Shipment: "M:fulfillment:Shipment", "Shipment Item": "C:fulfillment",
+    Package: "C:fulfillment", Delivery: "M:fulfillment:Delivery", "Digital Entitlement": "S:agreement:Entitlement",
+    Cancellation: "M:request:Cancellation", Return: "M:fulfillment:Return", "Return Line": "C:fulfillment", Disposition: "A",
+    "Customer Case": "M:case:Case",
+  } },
+  "equipment-service": { overrides: {
+    Customer: "M:party:Customer", Contact: "M:party:Party Contact", "Equipment Category": "A", "Equipment Model": "M:resource:Equipment Model",
+    Equipment: "M:resource:Equipment", "Meter Reading": "M:measurement:Usage Record",
+    "Service Type": "M:product:Service", "Service Request": "M:request:Service Request", "Maintenance Requirement": "C:resource", "Service Plan": "M:request:Service Plan",
+    Technician: "M:workforce:Worker", Skill: "M:workforce:Skill", "Technician Skill": "M:workforce:Worker Skill",
+    "Skill Requirement": "M:scheduling:Requirement", "Technician Availability": "M:resource:Availability",
+    "Service Request Assignment": "M:work:Assignment", "Work Effort": "M:work:Work Effort", "Service Visit": "M:work:Service Event",
+    "Time Entry": "M:workforce:Time Entry", "Service Outcome and Finding": "M:work:Outcome",
+    "Equipment Agreement": "M:agreement:Agreement", "Warranty or Service Entitlement": "C:agreement",
+  } },
+  "financial-services": { overrides: {
+    "Financial Institution": "S:accounts:Organization", "Institution Unit": "A", "Financial Product": "S:product:Product",
+    "Product Version": "M:product:Product Version", "Financial Offering": "M:product:Offering", "Pricing Plan": "M:product:Price List",
+    "Customer Profile": "M:party:Customer Account", "Product Application": "M:request:Application", "Identity Evidence": "M:document:Evidence",
+    "Due Diligence Case": "S:accounts:Case", "Beneficial Ownership": "S:accounts:Party Relationship", "Screening Result": "K:accounts",
+    "Financial Agreement": "S:accounts:Agreement", Account: "K:accounts", "Account Party": "M:party:Party Role", "Account Relationship": "K:accounts",
+    Mandate: "M:case:Authorization", Limit: "K:accounts", Hold: "K:accounts", Balance: "K:accounts",
+    "Financial Instruction": "K:accounts", Authorization: "M:case:Authorization", "Financial Transaction": "K:accounts", "Transaction Relationship": "K:accounts",
+    "Ledger Account": "C:accounting", "Ledger Entry": "M:accounting:Journal Entry", "Posting Batch": "C:accounting", Fee: "M:finance:Charge", "Interest Accrual": "K:accounts",
+    "Payment Order": "K:accounts", "Payment Party": "M:party:Party Role", "Clearing Item": "K:accounts", Settlement: "M:finance:Settlement",
+    Reconciliation: "M:finance:Reconciliation", "Reconciliation Exception": "M:case:Exception",
+    "Credit Facility": "S:accounts:Agreement", Loan: "K:accounts", "Repayment Schedule": "K:accounts", "Scheduled Payment": "K:accounts", Collateral: "K:accounts",
+    "Financial Instrument": "K:accounts", Order: "S:accounts:Order:Trade Order", Trade: "K:accounts", Position: "K:accounts::Investment Position",
+    Statement: "K:accounts", "Service Request": "M:request:Service Request", Dispute: "M:case:Dispute", Adjustment: "M:finance:Adjustment",
+  } },
+  "health-care": { overrides: {
+    Patient: "S:care:Party Role", "Patient Identifier": "M:information:External Identifier", "Related Person": "S:care:Party Role", "Patient Contact": "M:party:Party Contact",
+    "Health Care Organization": "S:care:Organization", Provider: "S:care:Party Role", "Practitioner Role": "S:care:Party Role",
+    Facility: "C:location", Location: "M:location:Geographic Location",
+    Schedule: "C:scheduling", Appointment: "M:scheduling:Appointment", "Appointment Participant": "M:party:Party Role", Referral: "S:care:Request",
+    Encounter: "S:care:Service Event", "Episode of Care": "K:care", "Medical Case": "S:care:Case", "Care Team": "K:care", "Care Team Member": "M:party:Party Role",
+    "Clinical Note": "M:document:Note", Observation: "S:care:Measurement", Condition: "K:care", Diagnosis: "K:care", Procedure: "K:care", Specimen: "K:care",
+    "Service Request": "M:request:Service Request", "Medication Order": "S:care:Order", "Care Plan": "K:care", "Care Goal": "K:care", "Planned Activity": "K:care",
+    "Health Care Service": "S:care:Service", "Service Delivery": "M:fulfillment:Fulfillment", Authorization: "M:case:Authorization",
+    Consent: "C:information", "Access Restriction": "C:information", Provenance: "C:information", "Audit Event": "C:information",
+    Coverage: "C:coverage", Guarantor: "C:party", Charge: "M:finance:Charge", Claim: "M:coverage:Claim", "Claim Line": "C:coverage", Adjudication: "M:coverage:Claim Assessment",
+  } },
+  insurance: { overrides: {
+    "Insurance Product": "S:coverage:Product", "Product Version": "M:product:Product Version", "Insurance Offering": "M:product:Offering",
+    "Coverage Definition": "K:coverage", "Policy Form": "K:coverage", "Rating Plan": "K:coverage", "Rating Factor": "K:coverage",
+    Quote: "M:request:Quote", "Quote Option": "K:coverage", "Insurance Application": "M:request:Application", "Application Answer": "C:request",
+    "Risk Item": "K:coverage", "Underwriting Case": "S:coverage:Case", "Underwriting Requirement": "K:coverage", "Underwriting Decision": "M:case:Decision",
+    Policy: "S:coverage:Agreement", "Policy Period": "K:coverage", "Policy Party": "M:agreement:Agreement Role", Coverage: "M:coverage:Coverage",
+    "Coverage Term": "K:coverage", Exclusion: "K:coverage", "Insured Object": "K:coverage", "Policy Transaction": "K:coverage", Endorsement: "K:coverage",
+    Premium: "S:coverage:Charge", "Premium Transaction": "K:coverage", "Billing Account": "C:finance", Commission: "C:finance",
+    "Loss Event": "K:coverage", Claim: "C:coverage", "Claim Party": "M:party:Party Role", "Claim Exposure": "K:coverage", "Claim Assignment": "M:work:Assignment",
+    "Claim Assessment": "C:coverage", "Evidence Item": "M:document:Evidence", "Claim Note": "M:document:Note", Reserve: "K:coverage",
+    Settlement: "M:finance:Settlement", "Claim Payment": "M:finance:Payment", Recovery: "K:coverage",
+    "Reinsurance Contract": "S:coverage:Agreement", "Reinsurance Coverage": "K:coverage", Cession: "K:coverage", "Reinsurance Claim": "S:coverage:Claim",
+  } },
+  "legacy-conversion": { default: "P", overrides: {
+    System: "C:information", "External Identifier": "C:information", "Record Link": "C:information", "Match Candidate": "C:information",
+    "Match Decision": "C:information", "Golden Record": "C:information", "Merge/Split History": "C:information",
+    "Data Quality Rule": "C:information", "Data Quality Finding": "C:information",
+    "System of Record Assignment": "C:information", "Data Ownership Rule": "C:information", "Retention Policy": "C:information",
+  } },
+  manufacturing: { overrides: {
+    Product: "M:product:Product", "Product Version": "M:product:Product Version", Part: "S:production:Product", "Part Revision": "M:product:Product Version",
+    "Product Specification": "K:production", "Bill of Material": "K:production", "BOM Component": "M:product:Product Component", "Engineering Change": "S:production:Change Request",
+    Routing: "K:production", "Operation Definition": "K:production", "Resource Requirement": "M:scheduling:Requirement", "Work Instruction": "C:work", "Recipe or Process Parameter": "K:production",
+    "Manufacturing Facility": "M:location:Facility", "Work Center": "S:production:Resource", "Machine Asset": "M:resource:Equipment", Tool: "M:resource:Equipment", "Capacity Plan": "K:production",
+    "Manufacturing Requirement": "M:scheduling:Demand", "Production Schedule": "M:scheduling:Schedule", "Manufacturing Order": "S:production:Work Order",
+    "Work Order Operation": "K:production", "Material Requirement": "K:production",
+    "Inventory Item": "C:resource", "Material Lot": "C:resource", "Inventory Transaction": "C:resource", "Material Reservation": "M:scheduling:Reservation", "Material Issue": "M:resource:Inventory Transaction",
+    "Production Run": "K:production", "Operation Execution": "K:production", "Labor Entry": "M:workforce:Time Entry", "Machine Entry": "M:measurement:Usage Record",
+    "Process Measurement": "M:measurement:Measurement", "Production Output": "K:production", "Scrap and Rework": "K:production",
+    "Quality Plan": "C:quality", Inspection: "C:quality", "Inspection Result": "C:quality", Nonconformance: "C:quality", "Corrective Action": "C:quality", "Product Genealogy": "K:production",
+    "Maintenance Work Order": "M:work:Work Order", "Product Deployment": "A", "Product Usage": "M:measurement:Usage Record", "Warranty or Field Issue": "M:case:Case",
+  } },
+  "physical-therapy": { default: "A", overrides: {
+    "Provider Assignment": "M:work:Assignment", "Patient Intake": "M:request:Application", "Intake Response": "M:request:Application Answer",
+    "Eligibility Verification": "C:coverage", "Therapy Authorization": "M:case:Authorization", "Attendance Event": "C:scheduling",
+    "Outcome Measure Definition": "M:measurement:Measure", "Outcome Measure Result": "M:measurement:Measurement", "Goal Progress": "A",
+    "Plan Approval or Certification": "M:case:Approval", "Adverse Event": "M:case:Incident", "Clinical Communication": "C:document::Communication", Discharge: "A",
+    "Therapy Charge": "M:finance:Charge", "Patient Invoice": "M:finance:Invoice",
+  } },
+  "professional-services": { overrides: {
+    Client: "M:party:Customer", Professional: "M:workforce:Worker", Project: "C:work", Task: "M:work:Work Effort", "Time Entry": "C:workforce", Expense: "C:finance",
+    Engagement: "S:agreement:Agreement", "Service Agreement": "M:agreement:Agreement", "Project Assignment": "M:work:Assignment", "Billing Rate": "M:product:Price",
+    Deliverable: "C:work", Approval: "C:case", "Practice Area": "A", "Service Offering": "M:product:Offering", Skill: "M:workforce:Skill",
+    "Resource Plan": "A", "Client Account": "M:party:Customer Account", Matter: "M:case:Case", "Work Effort": "M:work:Work Effort", "Billing Event": "M:finance:Charge",
+  } },
+  telecommunications: { overrides: {
+    "Telecommunications Product": "M:product:Product", "Product Version": "M:product:Product Version", "Product Offering": "M:product:Offering",
+    "Product Component": "M:product:Product Component", "Service Specification": "K:network", "Resource Specification": "K:network",
+    "Customer Account": "C:party", "Billing Account": "M:finance:Billing Account", "Customer Agreement": "M:agreement:Agreement",
+    Subscription: "M:agreement:Subscription", "Subscription Party": "M:agreement:Agreement Role",
+    "Service Request": "M:request:Service Request", "Service Location": "M:location:Site", "Service Qualification": "K:network", "Qualification Result": "K:network", "Serviceability Rule": "K:network",
+    "Telecommunications Quote": "M:request:Quote", "Product Order": "M:request:Order", "Product Order Item": "M:request:Order Line",
+    "Service Order": "S:network:Order", "Service Order Item": "S:network:Order Line", "Resource Order": "S:network:Order",
+    "Service Instance": "K:network", "Service Characteristic": "K:network", "Network Resource": "S:network:Resource", "Network Component": "K:network",
+    "Network Endpoint": "K:network", Circuit: "K:network", "Network Connection": "K:network", "Service-Resource Assignment": "K:network", "Communication Identifier": "K:network",
+    "Resource Reservation": "M:scheduling:Reservation", "Provisioning Task": "M:work:Work Effort", "Field Work Order": "M:work:Work Order",
+    "Service Configuration": "K:network", "Activation Test": "K:network", "Service Activation": "K:network",
+    "Trouble Ticket": "M:case:Case", Alarm: "K:network", "Service Impact": "K:network", "Performance Measurement": "M:measurement:Measurement",
+    "Service Level Agreement": "C:agreement", Outage: "S:network:Incident",
+    "Usage Event": "M:measurement:Usage Record", "Mediation Record": "A", "Rating Rule": "M:product:Price Rule", "Rated Usage": "M:finance:Charge",
+    "Allowance or Bucket": "S:agreement:Entitlement", Charge: "M:finance:Charge", "Payment and Adjustment": "M:finance:Adjustment",
+    "Interconnect Agreement": "S:network:Agreement", "Partner Service": "K:network", "Partner Usage": "K:network", Settlement: "M:finance:Settlement",
+  } },
+  travel: { overrides: {
+    "Travel Product": "M:product:Product", "Travel Service": "M:product:Service", "Service Instance": "K:travel::Scheduled Service", Schedule: "M:scheduling:Schedule",
+    Location: "M:location:Geographic Location", Availability: "M:resource:Availability",
+    "Travel Offer": "M:product:Offering", "Offer Item": "K:travel", "Fare or Rate": "M:product:Price", "Price Component": "C:product",
+    "Fare Rule or Rate Rule": "M:product:Price Rule", "Ancillary Service": "K:travel",
+    Traveler: "S:travel:Party Role", "Traveler Document": "K:travel", Itinerary: "K:travel", Segment: "K:travel", Connection: "K:travel",
+    Reservation: "M:scheduling:Reservation", "Reservation Item": "A", Booking: "S:travel:Order", "Booking Item": "S:travel:Order Line",
+    "Booking Party": "M:party:Party Role", "Traveler Assignment": "A", "Supplier Confirmation": "A",
+    "Payment Authorization": "M:finance:Payment Authorization", "Commission or Markup": "M:finance:Commission", "Supplier Settlement": "M:finance:Settlement",
+    "Travel Document": "K:travel", "Ticket Coupon": "K:travel", Voucher: "K:travel", Fulfillment: "M:fulfillment:Fulfillment",
+    "Change Request": "M:request:Change Request", "Booking Change": "M:request:Change Request", Cancellation: "M:request:Cancellation",
+    Refund: "M:finance:Refund", Disruption: "K:travel", Reaccommodation: "K:travel", "Duty of Care Case": "S:travel:Case",
+  } },
+};
+
+// New common concepts, from Administration's candidate lists (model/domains/administration/):
+// named there, never defined. [subject, name, one-line meaning, administration area]
+export const NEW_CONCEPTS = [
+  ["party", "Organization Unit", "A part of an Organization with its own responsibility: a department, business unit, team, or branch.", "Organization"],
+  ["party", "Reporting Relationship", "A Party Relationship stating who reports to whom, between Positions or Organization Units.", "Organization"],
+  ["party", "Supplier Account", "The governed commercial relationship with a Party that supplies Products or Services; the counterpart of Customer Account.", "Accounting"],
+  ["workforce", "Employment", "The time-bounded relationship under which a Worker works for an Organization: employee, contractor, or volunteer.", "Human Resources"],
+  ["workforce", "Job", "A defined kind of work an Organization recognizes, with its duties and requirements.", "Human Resources"],
+  ["workforce", "Position", "A place in an Organization Unit for one Worker, of a Job, which may be vacant.", "Human Resources"],
+  ["workforce", "Position Requirement", "A Skill, Qualification, or condition a Position requires.", "Human Resources"],
+  ["location", "Building", "A structure at a Facility or Site.", "Facilities"],
+  ["location", "Space", "An identifiable area within a Building or Facility: a floor, room, bay, bed, or desk.", "Facilities"],
+  ["accounting", "Chart of Accounts", "The governed set of Ledger Accounts an Organization records its transactions in.", "Accounting"],
+  ["accounting", "Accounting Period", "A bounded period for which transactions are recorded, closed, and reported.", "Accounting"],
+  ["accounting", "Receivable", "An amount owed to the Organization, recorded from an Invoice or other claim until settled.", "Accounting"],
+  ["accounting", "Payable", "An amount the Organization owes, recorded from a supplier invoice or other obligation until paid.", "Accounting"],
+];
+
+// ABE grouping, by hand, where a concept's former ABE does not carry over: subject → { concept: ABE }.
+// The ABE is named after its primary entity, which belongs to it.
+export const ABE_GROUPS = {
+  party: { Customer: "Party", Guarantor: "Party", "Organization Unit": "Party", "Reporting Relationship": "Party", "Supplier Account": "Customer Account" },
+  location: { Building: "Facility", Space: "Facility" },
+  product: { Price: "Offering", "Price List": "Offering", "Price Rule": "Offering", "Price Component": "Offering", "Service Offering": "Offering", "Service Package": "Offering",
+    Channel: "Offering", Catalog: "Offering", Promotion: "Offering", "Product Variant": "Product", "Financial Product": "Product" },
+  agreement: { "Rental Agreement": "Agreement", "Digital Entitlement": "Agreement", Engagement: "Agreement", "Service Level Agreement": "Agreement", "Allowance or Bucket": "Agreement" },
+  request: { "Order Line": "Order", "Service Request": "Request", "Service Plan": "Request", Application: "Request", "Application Answer": "Request", Quote: "Quote", "Quote Line": "Quote",
+    Cart: "Order", "Cart Line": "Order", "Change Request": "Order", Cancellation: "Order" },
+  fulfillment: { Fulfillment: "Fulfillment", "Fulfillment Order": "Fulfillment", "Fulfillment Line": "Fulfillment", Return: "Return", "Return Line": "Return" },
+  work: { "Business Event": "Status Type", Assignment: "Work Effort", "Service Event": "Service Event", "Work Order": "Work Effort", "Work Instruction": "Work Effort" },
+  case: { Case: "Case", Incident: "Case", Dispute: "Case", Exception: "Case", Decision: "Decision", Approval: "Decision", Authorization: "Decision" },
+  document: { Note: "Evidence", Communication: "Evidence" },
+  scheduling: { Schedule: "Appointment", "Attendance Event": "Appointment", Reservation: "Reservation" },
+  workforce: { Qualification: "Worker", Employment: "Worker", Job: "Position", "Position Requirement": "Position" },
+  resource: { "Maintenance Requirement": "Equipment Model" },
+  finance: { Charge: "Invoice", Adjustment: "Invoice", "Billing Account": "Invoice", Commission: "Invoice", Expense: "Invoice",
+    Payment: "Payment", "Payment Allocation": "Payment", "Payment Method": "Payment", "Payment Authorization": "Payment", Refund: "Payment", Settlement: "Payment", Reconciliation: "Payment" },
+  accounting: { "Chart of Accounts": "Ledger Account", Receivable: "Ledger Account", Payable: "Ledger Account", "Posting Batch": "Journal Entry", "Accounting Period": "Journal Entry" },
+  measurement: {},
+  information: { "System of Record Assignment": "System", "Data Ownership Rule": "System", "Retention Policy": "System", "Data Quality Finding": "Data Quality Rule" },
+  care: { Condition: "Observation", Diagnosis: "Observation", Procedure: "Observation", Specimen: "Observation",
+    "Care Goal": "Care Plan", "Planned Activity": "Care Plan", Referral: "Care Plan", "Medication Order": "Care Plan" },
+  coverage: { "Quote Option": "Underwriting Case", "Risk Item": "Underwriting Case", "Underwriting Requirement": "Underwriting Case", "Eligibility Verification": "Coverage" },
+  accounts: { "Beneficial Ownership": "Due Diligence Case", "Screening Result": "Due Diligence Case", Statement: "Financial Agreement" },
+  network: { "Resource Specification": "Service Specification", "Qualification Result": "Service Qualification", "Serviceability Rule": "Service Qualification",
+    "Service Order Item": "Service Order", "Resource Order": "Service Order", "Service Configuration": "Service Activation", "Activation Test": "Service Activation",
+    Alarm: "Outage", "Service Impact": "Outage" },
+  production: { Part: "Bill of Material", "Product Specification": "Bill of Material", "Engineering Change": "Bill of Material", "Capacity Plan": "Work Center",
+    "Work Order Operation": "Manufacturing Order", "Material Requirement": "Manufacturing Order", "Product Genealogy": "Production Run" },
+  travel: { "Ancillary Service": "Scheduled Service", "Offer Item": "Booking", "Booking Item": "Booking", Reaccommodation: "Disruption", "Duty of Care Case": "Disruption" },
+};
+
+/** A concept's code, by its current domain folder and name. */
+export function codeOf(domain, name) {
+  const d = CLASSIFICATION[domain];
+  if (!d) return null;
+  return d.overrides?.[name] ?? d.default ?? null;
+}

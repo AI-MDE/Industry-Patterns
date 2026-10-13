@@ -38,67 +38,67 @@ Examples include physical therapy visits, chiropractic treatment, lawn mowing, s
 
 ### Service
 
-Canonical concept: [Service](../model/domains/product-and-service/product/service.md).
+Canonical concept: [Service](../model/subjects/product/product/service.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Request
 
-Canonical concept: [Service Request](../model/domains/service-management/service-request/service-request.md).
+Canonical concept: [Service Request](../model/subjects/request/request/service-request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Plan
 
-Canonical concept: [Service Plan](../model/domains/service-management/service-plan/service-plan.md).
+Canonical concept: [Service Plan](../model/subjects/request/request/service-plan.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Demand
 
-Canonical concept: [Demand](../model/domains/scheduling/demand/demand.md).
+Canonical concept: [Demand](../model/subjects/scheduling/demand/demand.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Resource
 
-Canonical concept: [Resource](../model/domains/resource-management/resource/resource.md).
+Canonical concept: [Resource](../model/subjects/resource/resource/resource.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Requirement
 
-Canonical concept: [Requirement](../model/domains/scheduling/demand/requirement.md).
+Canonical concept: [Requirement](../model/subjects/scheduling/demand/requirement.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Capability
 
-Canonical concept: [Resource Capability](../model/domains/resource-management/resource/resource-capability.md).
+Canonical concept: [Resource Capability](../model/subjects/resource/resource/resource-capability.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability
 
-Canonical concept: [Availability](../model/domains/resource-management/resource/availability.md).
+Canonical concept: [Availability](../model/subjects/resource/resource/availability.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Constraint
 
-Canonical concept: [Constraint](../model/domains/scheduling/demand/constraint.md).
+Canonical concept: [Constraint](../model/subjects/scheduling/demand/constraint.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Assignment
 
-Canonical concept: [Assignment](../model/domains/scheduling/assignment/assignment.md).
+Canonical concept: [Assignment](../model/subjects/work/work-effort/assignment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Event
 
-Canonical concept: [Service Event](../model/domains/service-management/service-event/service-event.md).
+Canonical concept: [Service Event](../model/subjects/work/service-event/service-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -356,14 +356,14 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Service | [Service](../model/domains/product-and-service/product/service.md) | [Product](../model/domains/product-and-service/product/README.md) |
-| Service Request | [Service Request](../model/domains/service-management/service-request/service-request.md) | [Service Request](../model/domains/service-management/service-request/README.md) |
-| Service Plan | [Service Plan](../model/domains/service-management/service-plan/service-plan.md) | [Service Plan](../model/domains/service-management/service-plan/README.md) |
-| Demand | [Demand](../model/domains/scheduling/demand/demand.md) | [Demand](../model/domains/scheduling/demand/README.md) |
-| Resource | [Resource](../model/domains/resource-management/resource/resource.md) | [Resource](../model/domains/resource-management/resource/README.md) |
-| Requirement | [Requirement](../model/domains/scheduling/demand/requirement.md) | [Demand](../model/domains/scheduling/demand/README.md) |
-| Capability | [Resource Capability](../model/domains/resource-management/resource/resource-capability.md) | [Resource](../model/domains/resource-management/resource/README.md) |
-| Availability | [Availability](../model/domains/resource-management/resource/availability.md) | [Resource](../model/domains/resource-management/resource/README.md) |
-| Constraint | [Constraint](../model/domains/scheduling/demand/constraint.md) | [Demand](../model/domains/scheduling/demand/README.md) |
-| Assignment | [Assignment](../model/domains/scheduling/assignment/assignment.md) | [Assignment](../model/domains/scheduling/assignment/README.md) |
-| Service Event | [Service Event](../model/domains/service-management/service-event/service-event.md) | [Service Event](../model/domains/service-management/service-event/README.md) |
+| Service | [Service](../model/subjects/product/product/service.md) | [Product](../model/subjects/product/product/README.md) |
+| Service Request | [Service Request](../model/subjects/request/request/service-request.md) | [Service Request](../model/subjects/request/request/README.md) |
+| Service Plan | [Service Plan](../model/subjects/request/request/service-plan.md) | [Service Plan](../model/subjects/request/request/README.md) |
+| Demand | [Demand](../model/subjects/scheduling/demand/demand.md) | [Demand](../model/subjects/scheduling/demand/README.md) |
+| Resource | [Resource](../model/subjects/resource/resource/resource.md) | [Resource](../model/subjects/resource/resource/README.md) |
+| Requirement | [Requirement](../model/subjects/scheduling/demand/requirement.md) | [Demand](../model/subjects/scheduling/demand/README.md) |
+| Capability | [Resource Capability](../model/subjects/resource/resource/resource-capability.md) | [Resource](../model/subjects/resource/resource/README.md) |
+| Availability | [Availability](../model/subjects/resource/resource/availability.md) | [Resource](../model/subjects/resource/resource/README.md) |
+| Constraint | [Constraint](../model/subjects/scheduling/demand/constraint.md) | [Demand](../model/subjects/scheduling/demand/README.md) |
+| Assignment | [Assignment](../model/subjects/work/work-effort/assignment.md) | [Assignment](../model/subjects/work/work-effort/README.md) |
+| Service Event | [Service Event](../model/subjects/work/service-event/service-event.md) | [Service Event](../model/subjects/work/service-event/README.md) |

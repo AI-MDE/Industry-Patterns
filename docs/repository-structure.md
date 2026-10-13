@@ -1,5 +1,7 @@
 # Repository structure and ownership
 
+> **Since the subject reclassification,** the canonical model is organized by subject (`model/subjects/`), not by domain: industries are patterns, and an industry's behavior overview lives in `industry-patterns/behavior/`. The history below describes the earlier domain layout; see the [subject reclassification](subject-reclassification.md).
+
 ## Three responsibilities
 
 | Area | Responsibility |
@@ -12,7 +14,7 @@ Industry guides live in `industry-patterns/`. A concept keeps its existing Domai
 
 ## Health Care consolidation
 
-The former separate requirements collection has been removed. Its 15 use cases, four workflows, six capabilities, eight roles, and 22 rules now live directly under [Health Care](../model/domains/health-care/README.md). Eighteen entity specifications were merged into existing canonical entities; no new entity identities were created. Canonical attributes already covered the selected vocabulary except Service Delivery's Service Code, which was retained in its canonical attribute list. Operations invoked by use cases, including search and authorized audit query, now appear on their target entity pages.
+The former separate requirements collection has been removed. Its 15 use cases, four workflows, six capabilities, eight roles, and 22 rules now live directly under [Health Care](../industry-patterns/health-care.md). Eighteen entity specifications were merged into existing canonical entities; no new entity identities were created. Canonical attributes already covered the selected vocabulary except Service Delivery's Service Code, which was retained in its canonical attribute list. Operations invoked by use cases, including search and authorized audit query, now appear on their target entity pages.
 
 Business constraints and diagrams were retained in the domain. Architecture placeholders, configuration for the separate collection, and suggested UI page names were removed; the actual app makes those decisions. Cross-domain relationships and the 104 unresolved semantic expressions remain unchanged apart from renamed source paths.
 

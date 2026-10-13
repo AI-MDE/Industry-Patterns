@@ -1,0 +1,28 @@
+---
+type: entity
+title: "Related Person"
+---
+
+# Related Person
+
+Subject: [Health Care](../README.md). ABE: [Patient](README.md).
+
+Specializes: [Party Role](../../party/party/party-role.md). Inherit its meaning; apply the refinements below in this context.
+
+## Definition and detail
+
+A Person related to a Patient for care, consent, contact, or financial purposes.
+
+Logical attributes: Related Person Identifier; Relationship Type; Relationship Status; Effective From; Effective Through; Contact Priority.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#related-person) | Related Person |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| [Patient](patient.md) | relates to | Related Person | M:M | [health-care](../../../../industry-patterns/health-care.md) |

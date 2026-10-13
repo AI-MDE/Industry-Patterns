@@ -1,0 +1,18 @@
+---
+type: entity
+title: "Warranty or Service Entitlement"
+---
+
+# Warranty or Service Entitlement
+
+Subject: [Agreements and Entitlements](../README.md). ABE: [Agreement](README.md).
+
+## Definition and detail
+
+Coverage derived from an Agreement Term or service contract that determines whether service is covered, by whom, and until when.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#warranty-or-service-entitlement-standard) | Warranty or Service Entitlement (Standard) |

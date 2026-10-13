@@ -42,37 +42,37 @@ Adds: Organization Network; Department; Provider Credential; Supervision Arrange
 
 ## Actors and roles
 
-See [canonical actors and roles](../model/domains/physical-therapy/behavior.md#actors-and-roles).
+See [canonical actors and roles](behavior/physical-therapy.md#actors-and-roles).
 
 ## Organization, provider, and resource concepts
 
 ### Physical Therapy Clinic
 
-Canonical concept: [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinic Location
 
-Canonical concept: [Clinic Location](../model/domains/physical-therapy/physical-therapy-clinic/clinic-location.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Provider
 
-Canonical concept: [Therapy Provider](../model/domains/physical-therapy/physical-therapy-clinic/therapy-provider.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Provider Assignment
 
-Canonical concept: [Provider Assignment](../model/domains/physical-therapy/physical-therapy-clinic/provider-assignment.md).
+Canonical concept: [Assignment](../model/subjects/work/work-effort/assignment.md) (as Provider Assignment).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Resource
 
-Canonical concept: [Therapy Resource](../model/domains/physical-therapy/physical-therapy-clinic/therapy-resource.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -80,37 +80,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Referral
 
-Canonical concept: [Referral](../model/domains/health-care/schedule/referral.md).
+Canonical concept: [Referral](../model/subjects/care/care-plan/referral.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Intake
 
-Canonical concept: [Patient Intake](../model/domains/physical-therapy/patient-intake/patient-intake.md).
+Canonical concept: [Application](../model/subjects/request/request/application.md) (as Patient Intake).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intake Response
 
-Canonical concept: [Intake Response](../model/domains/physical-therapy/patient-intake/intake-response.md).
+Canonical concept: [Application Answer](../model/subjects/request/request/application-answer.md) (as Intake Response).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Eligibility Verification
 
-Canonical concept: [Eligibility Verification](../model/domains/physical-therapy/patient-intake/eligibility-verification.md).
+Canonical concept: [Eligibility Verification](../model/subjects/coverage/coverage/eligibility-verification.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Authorization
 
-Canonical concept: [Therapy Authorization](../model/domains/physical-therapy/patient-intake/therapy-authorization.md).
+Canonical concept: [Authorization](../model/subjects/case/decision/authorization.md) (as Therapy Authorization).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Attendance Event
 
-Canonical concept: [Attendance Event](../model/domains/physical-therapy/patient-intake/attendance-event.md).
+Canonical concept: [Attendance Event](../model/subjects/scheduling/appointment/attendance-event.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -118,25 +118,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Therapy Episode
 
-Canonical concept: [Therapy Episode](../model/domains/physical-therapy/therapy-episode/therapy-episode.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Presenting Concern
 
-Canonical concept: [Presenting Concern](../model/domains/physical-therapy/therapy-episode/presenting-concern.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Precaution or Contraindication
 
-Canonical concept: [Precaution or Contraindication](../model/domains/physical-therapy/therapy-episode/precaution-or-contraindication.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Functional Limitation
 
-Canonical concept: [Functional Limitation](../model/domains/physical-therapy/therapy-episode/functional-limitation.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -144,37 +144,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Therapy Evaluation
 
-Canonical concept: [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/therapy-evaluation.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Subjective History
 
-Canonical concept: [Subjective History](../model/domains/physical-therapy/therapy-evaluation/subjective-history.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Finding
 
-Canonical concept: [Clinical Finding](../model/domains/physical-therapy/therapy-evaluation/clinical-finding.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Definition
 
-Canonical concept: [Outcome Measure Definition](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-definition.md).
+Canonical concept: [Measure](../model/subjects/measurement/measure/measure.md) (as Outcome Measure Definition).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Outcome Measure Result
 
-Canonical concept: [Outcome Measure Result](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-result.md).
+Canonical concept: [Measurement](../model/subjects/measurement/measure/measurement.md) (as Outcome Measure Result).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Assessment
 
-Canonical concept: [Therapy Assessment](../model/domains/physical-therapy/therapy-evaluation/therapy-assessment.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -182,31 +182,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Plan of Care
 
-Canonical concept: [Plan of Care](../model/domains/physical-therapy/plan-of-care/plan-of-care.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Goal
 
-Canonical concept: [Therapy Goal](../model/domains/physical-therapy/plan-of-care/therapy-goal.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Goal Progress
 
-Canonical concept: [Goal Progress](../model/domains/physical-therapy/plan-of-care/goal-progress.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Treatment Plan Item
 
-Canonical concept: [Treatment Plan Item](../model/domains/physical-therapy/plan-of-care/treatment-plan-item.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Plan Approval or Certification
 
-Canonical concept: [Plan Approval or Certification](../model/domains/physical-therapy/plan-of-care/plan-approval-or-certification.md).
+Canonical concept: [Approval](../model/subjects/case/decision/approval.md) (as Plan Approval or Certification).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -214,25 +214,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Provider Schedule
 
-Canonical concept: [Provider Schedule](../model/domains/physical-therapy/provider-schedule/provider-schedule.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Appointment
 
-Canonical concept: [Therapy Appointment](../model/domains/physical-therapy/provider-schedule/therapy-appointment.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Visit
 
-Canonical concept: [Therapy Visit](../model/domains/physical-therapy/provider-schedule/therapy-visit.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Visit Note
 
-Canonical concept: [Visit Note](../model/domains/physical-therapy/provider-schedule/visit-note.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -240,43 +240,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Intervention Definition
 
-Canonical concept: [Intervention Definition](../model/domains/physical-therapy/intervention-definition/intervention-definition.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Intervention Delivery
 
-Canonical concept: [Intervention Delivery](../model/domains/physical-therapy/intervention-definition/intervention-delivery.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Definition
 
-Canonical concept: [Exercise Definition](../model/domains/physical-therapy/intervention-definition/exercise-definition.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Exercise Prescription
 
-Canonical concept: [Exercise Prescription](../model/domains/physical-therapy/intervention-definition/exercise-prescription.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Exercise Program
 
-Canonical concept: [Home Exercise Program](../model/domains/physical-therapy/intervention-definition/home-exercise-program.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Home Program Activity
 
-Canonical concept: [Home Program Activity](../model/domains/physical-therapy/intervention-definition/home-program-activity.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Education
 
-Canonical concept: [Patient Education](../model/domains/physical-therapy/intervention-definition/patient-education.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -284,31 +284,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Progress Evaluation
 
-Canonical concept: [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/progress-evaluation.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adverse Event
 
-Canonical concept: [Adverse Event](../model/domains/physical-therapy/progress-evaluation/adverse-event.md).
+Canonical concept: [Incident](../model/subjects/case/case/incident.md) (as Adverse Event).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Clinical Communication
 
-Canonical concept: [Clinical Communication](../model/domains/physical-therapy/progress-evaluation/clinical-communication.md).
+Canonical concept: [Communication](../model/subjects/document/evidence/communication.md) (as Clinical Communication).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge
 
-Canonical concept: [Discharge](../model/domains/physical-therapy/progress-evaluation/discharge.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Discharge Summary
 
-Canonical concept: [Discharge Summary](../model/domains/physical-therapy/progress-evaluation/discharge-summary.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -316,61 +316,61 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Coverage
 
-Canonical concept: [Coverage](../model/domains/health-care/coverage/coverage.md).
+Canonical concept: [Coverage](../model/subjects/coverage/coverage/coverage.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Therapy Charge
 
-Canonical concept: [Therapy Charge](../model/domains/physical-therapy/therapy-charge/therapy-charge.md).
+Canonical concept: [Charge](../model/subjects/finance/invoice/charge.md) (as Therapy Charge).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim
 
-Canonical concept: [Claim](../model/domains/health-care/coverage/claim.md).
+Canonical concept: [Claim](../model/subjects/coverage/coverage/claim.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Claim Line
 
-Canonical concept: [Claim Line](../model/domains/health-care/coverage/claim-line.md).
+Canonical concept: [Claim Line](../model/subjects/coverage/coverage/claim-line.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Adjudication
 
-Canonical concept: [Adjudication](../model/domains/health-care/coverage/adjudication.md).
+Canonical concept: [Claim Assessment](../model/subjects/coverage/coverage/claim-assessment.md) (as Adjudication).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Patient Invoice
 
-Canonical concept: [Patient Invoice](../model/domains/physical-therapy/therapy-charge/patient-invoice.md).
+Canonical concept: [Invoice](../model/subjects/finance/invoice/invoice.md) (as Patient Invoice).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/physical-therapy/behavior.md#relationship-model).
+See [canonical relationship model](behavior/physical-therapy.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/physical-therapy/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/physical-therapy.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/physical-therapy/behavior.md#business-events).
+See [canonical business events](behavior/physical-therapy.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/physical-therapy/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/physical-therapy.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -505,52 +505,87 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Physical Therapy Clinic | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/physical-therapy-clinic.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
-| Clinic Location | [Clinic Location](../model/domains/physical-therapy/physical-therapy-clinic/clinic-location.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
-| Therapy Provider | [Therapy Provider](../model/domains/physical-therapy/physical-therapy-clinic/therapy-provider.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
-| Provider Assignment | [Provider Assignment](../model/domains/physical-therapy/physical-therapy-clinic/provider-assignment.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
-| Therapy Resource | [Therapy Resource](../model/domains/physical-therapy/physical-therapy-clinic/therapy-resource.md) | [Physical Therapy Clinic](../model/domains/physical-therapy/physical-therapy-clinic/README.md) |
-| Referral | [Referral](../model/domains/health-care/schedule/referral.md) | [Schedule](../model/domains/health-care/schedule/README.md) |
-| Patient Intake | [Patient Intake](../model/domains/physical-therapy/patient-intake/patient-intake.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
-| Intake Response | [Intake Response](../model/domains/physical-therapy/patient-intake/intake-response.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
-| Eligibility Verification | [Eligibility Verification](../model/domains/physical-therapy/patient-intake/eligibility-verification.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
-| Therapy Authorization | [Therapy Authorization](../model/domains/physical-therapy/patient-intake/therapy-authorization.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
-| Attendance Event | [Attendance Event](../model/domains/physical-therapy/patient-intake/attendance-event.md) | [Patient Intake](../model/domains/physical-therapy/patient-intake/README.md) |
-| Therapy Episode | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/therapy-episode.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
-| Presenting Concern | [Presenting Concern](../model/domains/physical-therapy/therapy-episode/presenting-concern.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
-| Precaution or Contraindication | [Precaution or Contraindication](../model/domains/physical-therapy/therapy-episode/precaution-or-contraindication.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
-| Functional Limitation | [Functional Limitation](../model/domains/physical-therapy/therapy-episode/functional-limitation.md) | [Therapy Episode](../model/domains/physical-therapy/therapy-episode/README.md) |
-| Therapy Evaluation | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/therapy-evaluation.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Subjective History | [Subjective History](../model/domains/physical-therapy/therapy-evaluation/subjective-history.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Clinical Finding | [Clinical Finding](../model/domains/physical-therapy/therapy-evaluation/clinical-finding.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Outcome Measure Definition | [Outcome Measure Definition](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-definition.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Outcome Measure Result | [Outcome Measure Result](../model/domains/physical-therapy/therapy-evaluation/outcome-measure-result.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Therapy Assessment | [Therapy Assessment](../model/domains/physical-therapy/therapy-evaluation/therapy-assessment.md) | [Therapy Evaluation](../model/domains/physical-therapy/therapy-evaluation/README.md) |
-| Plan of Care | [Plan of Care](../model/domains/physical-therapy/plan-of-care/plan-of-care.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
-| Therapy Goal | [Therapy Goal](../model/domains/physical-therapy/plan-of-care/therapy-goal.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
-| Goal Progress | [Goal Progress](../model/domains/physical-therapy/plan-of-care/goal-progress.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
-| Treatment Plan Item | [Treatment Plan Item](../model/domains/physical-therapy/plan-of-care/treatment-plan-item.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
-| Plan Approval or Certification | [Plan Approval or Certification](../model/domains/physical-therapy/plan-of-care/plan-approval-or-certification.md) | [Plan of Care](../model/domains/physical-therapy/plan-of-care/README.md) |
-| Provider Schedule | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/provider-schedule.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
-| Therapy Appointment | [Therapy Appointment](../model/domains/physical-therapy/provider-schedule/therapy-appointment.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
-| Therapy Visit | [Therapy Visit](../model/domains/physical-therapy/provider-schedule/therapy-visit.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
-| Visit Note | [Visit Note](../model/domains/physical-therapy/provider-schedule/visit-note.md) | [Provider Schedule](../model/domains/physical-therapy/provider-schedule/README.md) |
-| Intervention Definition | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/intervention-definition.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Intervention Delivery | [Intervention Delivery](../model/domains/physical-therapy/intervention-definition/intervention-delivery.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Exercise Definition | [Exercise Definition](../model/domains/physical-therapy/intervention-definition/exercise-definition.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Exercise Prescription | [Exercise Prescription](../model/domains/physical-therapy/intervention-definition/exercise-prescription.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Home Exercise Program | [Home Exercise Program](../model/domains/physical-therapy/intervention-definition/home-exercise-program.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Home Program Activity | [Home Program Activity](../model/domains/physical-therapy/intervention-definition/home-program-activity.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Patient Education | [Patient Education](../model/domains/physical-therapy/intervention-definition/patient-education.md) | [Intervention Definition](../model/domains/physical-therapy/intervention-definition/README.md) |
-| Progress Evaluation | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/progress-evaluation.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
-| Adverse Event | [Adverse Event](../model/domains/physical-therapy/progress-evaluation/adverse-event.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
-| Clinical Communication | [Clinical Communication](../model/domains/physical-therapy/progress-evaluation/clinical-communication.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
-| Discharge | [Discharge](../model/domains/physical-therapy/progress-evaluation/discharge.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
-| Discharge Summary | [Discharge Summary](../model/domains/physical-therapy/progress-evaluation/discharge-summary.md) | [Progress Evaluation](../model/domains/physical-therapy/progress-evaluation/README.md) |
-| Coverage | [Coverage](../model/domains/health-care/coverage/coverage.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Therapy Charge | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/therapy-charge.md) | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/README.md) |
-| Claim | [Claim](../model/domains/health-care/coverage/claim.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Claim Line | [Claim Line](../model/domains/health-care/coverage/claim-line.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Adjudication | [Adjudication](../model/domains/health-care/coverage/adjudication.md) | [Coverage](../model/domains/health-care/coverage/README.md) |
-| Patient Invoice | [Patient Invoice](../model/domains/physical-therapy/therapy-charge/patient-invoice.md) | [Therapy Charge](../model/domains/physical-therapy/therapy-charge/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
+| Physical Therapy Clinic | [Physical Therapy Clinic](#concepts-applications-typically-add) | [Physical Therapy Clinic](#) |
+| Clinic Location | [Clinic Location](#concepts-applications-typically-add) | [Physical Therapy Clinic](#) |
+| Therapy Provider | [Therapy Provider](#concepts-applications-typically-add) | [Physical Therapy Clinic](#) |
+| Provider Assignment | [Provider Assignment](../model/subjects/work/work-effort/assignment.md) | [Physical Therapy Clinic](#) |
+| Therapy Resource | [Therapy Resource](#concepts-applications-typically-add) | [Physical Therapy Clinic](#) |
+| Referral | [Referral](../model/subjects/care/care-plan/referral.md) | [Schedule](../model/subjects/scheduling/appointment/README.md) |
+| Patient Intake | [Patient Intake](../model/subjects/request/request/application.md) | [Patient Intake](../model/subjects/request/request/README.md) |
+| Intake Response | [Intake Response](../model/subjects/request/request/application-answer.md) | [Patient Intake](../model/subjects/request/request/README.md) |
+| Eligibility Verification | [Eligibility Verification](../model/subjects/coverage/coverage/eligibility-verification.md) | [Patient Intake](../model/subjects/request/request/README.md) |
+| Therapy Authorization | [Therapy Authorization](../model/subjects/case/decision/authorization.md) | [Patient Intake](../model/subjects/request/request/README.md) |
+| Attendance Event | [Attendance Event](../model/subjects/scheduling/appointment/attendance-event.md) | [Patient Intake](../model/subjects/request/request/README.md) |
+| Therapy Episode | [Therapy Episode](#concepts-applications-typically-add) | [Therapy Episode](#) |
+| Presenting Concern | [Presenting Concern](#concepts-applications-typically-add) | [Therapy Episode](#) |
+| Precaution or Contraindication | [Precaution or Contraindication](#concepts-applications-typically-add) | [Therapy Episode](#) |
+| Functional Limitation | [Functional Limitation](#concepts-applications-typically-add) | [Therapy Episode](#) |
+| Therapy Evaluation | [Therapy Evaluation](#concepts-applications-typically-add) | [Therapy Evaluation](#) |
+| Subjective History | [Subjective History](#concepts-applications-typically-add) | [Therapy Evaluation](#) |
+| Clinical Finding | [Clinical Finding](#concepts-applications-typically-add) | [Therapy Evaluation](#) |
+| Outcome Measure Definition | [Outcome Measure Definition](../model/subjects/measurement/measure/measure.md) | [Therapy Evaluation](#) |
+| Outcome Measure Result | [Outcome Measure Result](../model/subjects/measurement/measure/measurement.md) | [Therapy Evaluation](#) |
+| Therapy Assessment | [Therapy Assessment](#concepts-applications-typically-add) | [Therapy Evaluation](#) |
+| Plan of Care | [Plan of Care](#concepts-applications-typically-add) | [Plan of Care](#) |
+| Therapy Goal | [Therapy Goal](#concepts-applications-typically-add) | [Plan of Care](#) |
+| Goal Progress | [Goal Progress](#concepts-applications-typically-add) | [Plan of Care](#) |
+| Treatment Plan Item | [Treatment Plan Item](#concepts-applications-typically-add) | [Plan of Care](#) |
+| Plan Approval or Certification | [Plan Approval or Certification](../model/subjects/case/decision/approval.md) | [Plan of Care](#) |
+| Provider Schedule | [Provider Schedule](#concepts-applications-typically-add) | [Provider Schedule](#) |
+| Therapy Appointment | [Therapy Appointment](#concepts-applications-typically-add) | [Provider Schedule](#) |
+| Therapy Visit | [Therapy Visit](#concepts-applications-typically-add) | [Provider Schedule](#) |
+| Visit Note | [Visit Note](#concepts-applications-typically-add) | [Provider Schedule](#) |
+| Intervention Definition | [Intervention Definition](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Intervention Delivery | [Intervention Delivery](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Exercise Definition | [Exercise Definition](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Exercise Prescription | [Exercise Prescription](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Home Exercise Program | [Home Exercise Program](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Home Program Activity | [Home Program Activity](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Patient Education | [Patient Education](#concepts-applications-typically-add) | [Intervention Definition](#) |
+| Progress Evaluation | [Progress Evaluation](#concepts-applications-typically-add) | [Progress Evaluation](#) |
+| Adverse Event | [Adverse Event](../model/subjects/case/case/incident.md) | [Progress Evaluation](#) |
+| Clinical Communication | [Clinical Communication](../model/subjects/document/evidence/communication.md) | [Progress Evaluation](#) |
+| Discharge | [Discharge](#concepts-applications-typically-add) | [Progress Evaluation](#) |
+| Discharge Summary | [Discharge Summary](#concepts-applications-typically-add) | [Progress Evaluation](#) |
+| Coverage | [Coverage](../model/subjects/coverage/coverage/coverage.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Therapy Charge | [Therapy Charge](../model/subjects/finance/invoice/charge.md) | [Therapy Charge](../model/subjects/finance/invoice/README.md) |
+| Claim | [Claim](../model/subjects/coverage/coverage/claim.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Claim Line | [Claim Line](../model/subjects/coverage/coverage/claim-line.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Adjudication | [Adjudication](../model/subjects/coverage/coverage/claim-assessment.md) | [Coverage](../model/subjects/coverage/coverage/README.md) |
+| Patient Invoice | [Patient Invoice](../model/subjects/finance/invoice/invoice.md) | [Therapy Charge](../model/subjects/finance/invoice/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Physical Therapy Clinic**: A Health Care Organization or organizational unit responsible for providing physical therapy services.
+- **Clinic Location**: A physical, mobile, home-care, or virtual setting in which clinic services are organized or delivered.
+- **Therapy Provider**: A Practitioner acting as a Physical Therapist, Physical Therapist Assistant, aide, or other permitted care role.
+- **Therapy Resource**: A room, treatment area, device, equipment item, pool, exercise station, or other schedulable resource.
+- **Therapy Episode**: An Episode of Care grouping related physical therapy evaluation, plans, visits, outcomes, and discharge activity for a Patient concern.
+- **Presenting Concern**: The Patient's reported reason for seeking therapy and its effect on function and participation.
+- **Precaution or Contraindication**: A condition or risk affecting evaluation, treatment choice, intensity, supervision, or need for referral.
+- **Functional Limitation**: A limitation in activity or participation relevant to the Patient's daily life and therapy goals.
+- **Therapy Evaluation**: A structured clinical assessment performed to determine therapy needs, diagnosis or classification, prognosis, goals, and Plan of Care.
+- **Subjective History**: Patient- or representative-reported symptoms, function, history, goals, and contextual factors.
+- **Clinical Finding**: A measured, observed, tested, or asserted fact recorded during evaluation or treatment.
+- **Therapy Assessment**: The Therapist's reasoned synthesis of history, findings, function, response, prognosis, and need for skilled care.
+- **Plan of Care**: An effective-dated clinical plan governing the intended physical therapy services for an Episode.
+- **Therapy Goal**: A measurable desired improvement in impairment, activity, participation, self-management, or risk.
+- **Goal Progress**: An evidence-based assessment of progress toward a Therapy Goal.
+- **Treatment Plan Item**: A planned category of intervention, education, monitoring, or coordination within a Plan of Care.
+- **Provider Schedule**: Planned availability of a Provider, Location, or Therapy Resource.
+- **Therapy Appointment**: A planned allocation of time, Provider, Patient, Location, and resources.
+- **Therapy Visit**: The actual bounded care interaction during which physical therapy is evaluated, delivered, discussed, or documented.
+- **Visit Note**: A versioned clinical document describing the Visit.
+- **Intervention Definition**: A governed type of therapeutic service or activity.
+- **Intervention Delivery**: Evidence that an Intervention was actually performed during a Visit.
+- **Exercise Definition**: A reusable definition of a movement or activity that may be prescribed or performed.
+- **Exercise Prescription**: A Patient-specific exercise instruction within a clinic or Home Exercise Program.
+- **Home Exercise Program**: A versioned set of Patient instructions, exercises, education, precautions, and progression guidance intended outside supervised Visits.
+- **Home Program Activity**: A record of Patient-reported or remotely observed home-program performance.
+- **Patient Education**: Education delivered to the Patient or caregiver concerning condition, safety, exercises, self-management, equipment, or prevention.
+- **Progress Evaluation**: A periodic comparison of Patient status with baseline, prior results, Plan of Care, and Therapy Goals.
+- **Discharge**: The clinical and administrative conclusion or transition of a Therapy Episode.
+- **Discharge Summary**: A finalized clinical document summarizing the Episode, services, outcomes, remaining limitations, home plan, precautions, and follow-up.

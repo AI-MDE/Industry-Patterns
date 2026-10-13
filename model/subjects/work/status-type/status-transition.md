@@ -1,0 +1,24 @@
+---
+type: entity
+title: "Status Transition"
+---
+
+# Status Transition
+
+Subject: [Work and Projects](../README.md). ABE: [Status Type](README.md).
+
+## Definition and detail
+
+An allowed change from one Status Type to another.
+
+Logical attributes: Transition Identifier; Transition Name; Trigger Type; Condition Reference; Effective From; Effective Through.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#status-transition) | Status Transition |
+
+## Integrity rules
+
+- A Status Transition must be allowed for the subject's current status.

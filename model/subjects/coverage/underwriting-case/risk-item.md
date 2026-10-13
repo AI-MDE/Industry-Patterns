@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Risk Item"
+---
+
+# Risk Item
+
+Subject: [Insurance Coverage and Claims](../README.md). ABE: [Underwriting Case](README.md).
+
+## Definition and detail
+
+A Party, property, vehicle, activity, liability, person, contract, location, or other subject being evaluated for insurance.
+
+Logical attributes: Risk Item Identifier; Risk Type; Description; Location; Valuation; Classification; Status; Effective From; Effective Through.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#risk-item) | Risk Item |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| [Insurance Application](../../request/request/application.md) | describes | Risk Item | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

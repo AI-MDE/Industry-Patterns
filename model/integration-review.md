@@ -76,13 +76,13 @@ Of 380 table relationships, 276 have both endpoints resolved. The following 104 
 | [insurance](../industry-patterns/insurance.md) | Claim or Exposure | resolves through | Settlement | 1:M |
 | [insurance](../industry-patterns/insurance.md) | Settlement or approved expense | produces | Claim Payment | 1:M |
 | [insurance](../industry-patterns/insurance.md) | Policy or portfolio | allocates through | Cession | 1:M |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Target Record or Golden Record | corresponds through | Record Link | 1:M |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Field Mapping | uses | Transformation Rule or Value Mapping | M:M |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Data Profile | describes | Dataset, Entity, or Field | M:1 |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Migration Item | produces | Validation Result or Conversion Error | 1:M |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Lineage Record | connects | Source Field and Target Attribute | M:1 each |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Reconciliation | evaluates | Migration Batch or Wave | M:1 |
-| [legacy-conversion](../industry-patterns/legacy-conversion.md) | Synchronization Contract | connects | Publisher System and Consumer System | M:1 each |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Target Record or Golden Record | corresponds through | Record Link | 1:M |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Field Mapping | uses | Transformation Rule or Value Mapping | M:M |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Data Profile | describes | Dataset, Entity, or Field | M:1 |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Migration Item | produces | Validation Result or Conversion Error | 1:M |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Lineage Record | connects | Source Field and Target Attribute | M:1 each |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Reconciliation | evaluates | Migration Batch or Wave | M:1 |
+| [legacy-conversion](../modeling-patterns/data-migration.md) | Synchronization Contract | connects | Publisher System and Consumer System | M:1 each |
 | [manufacturing](../industry-patterns/manufacturing.md) | Product Version | governed by | Bill of Material and Routing | 1:M versions |
 | [manufacturing](../industry-patterns/manufacturing.md) | Engineering Change | changes | Product, Part, BOM, Routing, or Specification | M:M |
 | [manufacturing](../industry-patterns/manufacturing.md) | Facility | contains | Work Center | 1:M |
@@ -128,4 +128,4 @@ Of 380 table relationships, 276 have both endpoints resolved. The following 104 
 
 ## Remaining detail
 
-The catalog still names some future/Enterprise concepts without detailed definitions. These retain their existing status. Canonical integration does not claim that every relationship, lifecycle, event, rule, or capability is already a standalone executable specification. Detailed [Health Care requirements](domains/health-care/README.md) now belong to the canonical domain, indexed in [requirements.json](requirements.json).
+The catalog still names some future/Enterprise concepts without detailed definitions. These retain their existing status. Canonical integration does not claim that every relationship, lifecycle, event, rule, or capability is already a standalone executable specification. Detailed [Health Care requirements](../industry-patterns/health-care.md) now belong to the canonical domain, indexed in [requirements.json](requirements.json).

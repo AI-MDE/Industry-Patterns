@@ -28,6 +28,7 @@ The [coherent industry model](../model/README.md) supplies reusable concept defi
 | **Workflow** | Activities require sequencing, branching, waiting, coordination, parallelism, or human work | Activities, transitions, conditions, events, work steps |
 | **Recurring Service** | A service need repeats by cadence, quantity, condition, or trigger and generates future service demand | Service plan, recurrence, demand generation, continuity, completion |
 | **Constraint-Based Scheduling** | Demand must be matched to limited resources subject to time, capability, location, capacity, equipment, or team constraints | Demand, resource, requirement, availability, constraint, assignment, optimization |
+| **[Data Migration](data-migration.md)** | Data must move from legacy systems: mapping source structures, preserving identifiers and lineage, reconciling, cutting over | Source dataset and fields, mapping specification, migration plan, waves and batches, validation, reconciliation, cutover |
 
 ## Discovery guidance
 

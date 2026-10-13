@@ -34,43 +34,43 @@ Adds: Supplier Agreement; Distribution Agreement; Agency; Corporate Account; Tra
 
 ## Travel roles
 
-See [canonical travel roles](../model/domains/travel/behavior.md#travel-roles).
+See [canonical travel roles](behavior/travel.md#travel-roles).
 
 ## Product, service, and schedule concepts
 
 ### Travel Product
 
-Canonical concept: [Travel Product](../model/domains/travel/travel-product/travel-product.md).
+Canonical concept: [Product](../model/subjects/product/product/product.md) (as Travel Product).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Travel Service
 
-Canonical concept: [Travel Service](../model/domains/travel/travel-product/travel-service.md).
+Canonical concept: [Service](../model/subjects/product/product/service.md) (as Travel Service).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Service Instance
 
-Canonical concept: [Service Instance](../model/domains/travel/travel-product/service-instance.md).
+Canonical concept: [Scheduled Service](../model/subjects/travel/scheduled-service/scheduled-service.md) (as Service Instance).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Schedule
 
-Canonical concept: [Schedule](../model/domains/travel/travel-product/schedule.md).
+Canonical concept: [Schedule](../model/subjects/scheduling/appointment/schedule.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Location
 
-Canonical concept: [Location](../model/domains/travel/travel-product/location.md).
+Canonical concept: [Geographic Location](../model/subjects/location/geographic-location/geographic-location.md) (as Location).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Availability
 
-Canonical concept: [Availability](../model/domains/travel/travel-product/availability.md).
+Canonical concept: [Availability](../model/subjects/resource/resource/availability.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -78,37 +78,37 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Travel Offer
 
-Canonical concept: [Travel Offer](../model/domains/travel/travel-offer/travel-offer.md).
+Canonical concept: [Offering](../model/subjects/product/offering/offering.md) (as Travel Offer).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Offer Item
 
-Canonical concept: [Offer Item](../model/domains/travel/travel-offer/offer-item.md).
+Canonical concept: [Offer Item](../model/subjects/travel/booking/offer-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fare or Rate
 
-Canonical concept: [Fare or Rate](../model/domains/travel/travel-offer/fare-or-rate.md).
+Canonical concept: [Price](../model/subjects/product/offering/price.md) (as Fare or Rate).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Price Component
 
-Canonical concept: [Price Component](../model/domains/travel/travel-offer/price-component.md).
+Canonical concept: [Price Component](../model/subjects/product/offering/price-component.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fare Rule or Rate Rule
 
-Canonical concept: [Fare Rule or Rate Rule](../model/domains/travel/travel-offer/fare-rule-or-rate-rule.md).
+Canonical concept: [Price Rule](../model/subjects/product/offering/price-rule.md) (as Fare Rule or Rate Rule).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ancillary Service
 
-Canonical concept: [Ancillary Service](../model/domains/travel/travel-offer/ancillary-service.md).
+Canonical concept: [Ancillary Service](../model/subjects/travel/scheduled-service/ancillary-service.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -116,31 +116,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Traveler
 
-Canonical concept: [Traveler](../model/domains/travel/traveler/traveler.md).
+Canonical concept: [Traveler](../model/subjects/travel/traveler/traveler.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Traveler Document
 
-Canonical concept: [Traveler Document](../model/domains/travel/traveler/traveler-document.md).
+Canonical concept: [Traveler Document](../model/subjects/travel/traveler/traveler-document.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Itinerary
 
-Canonical concept: [Itinerary](../model/domains/travel/traveler/itinerary.md).
+Canonical concept: [Itinerary](../model/subjects/travel/traveler/itinerary.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Segment
 
-Canonical concept: [Segment](../model/domains/travel/traveler/segment.md).
+Canonical concept: [Segment](../model/subjects/travel/traveler/segment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Connection
 
-Canonical concept: [Connection](../model/domains/travel/traveler/connection.md).
+Canonical concept: [Connection](../model/subjects/travel/traveler/connection.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -148,43 +148,43 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Reservation
 
-Canonical concept: [Reservation](../model/domains/travel/reservation/reservation.md).
+Canonical concept: [Reservation](../model/subjects/scheduling/reservation/reservation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reservation Item
 
-Canonical concept: [Reservation Item](../model/domains/travel/reservation/reservation-item.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking
 
-Canonical concept: [Booking](../model/domains/travel/reservation/booking.md).
+Canonical concept: [Booking](../model/subjects/travel/booking/booking.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Item
 
-Canonical concept: [Booking Item](../model/domains/travel/reservation/booking-item.md).
+Canonical concept: [Booking Item](../model/subjects/travel/booking/booking-item.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Party
 
-Canonical concept: [Booking Party](../model/domains/travel/reservation/booking-party.md).
+Canonical concept: [Party Role](../model/subjects/party/party/party-role.md) (as Booking Party).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Traveler Assignment
 
-Canonical concept: [Traveler Assignment](../model/domains/travel/reservation/traveler-assignment.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Supplier Confirmation
 
-Canonical concept: [Supplier Confirmation](../model/domains/travel/reservation/supplier-confirmation.md).
+Application detail: not in the canonical model; an application adds it ([concepts applications typically add](#concepts-applications-typically-add)).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -192,31 +192,31 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Payment Authorization
 
-Canonical concept: [Payment Authorization](../model/domains/travel/payment-authorization/payment-authorization.md).
+Canonical concept: [Payment Authorization](../model/subjects/finance/payment/payment-authorization.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment
 
-Canonical concept: [Payment](../model/domains/finance/invoice/payment.md).
+Canonical concept: [Payment](../model/subjects/finance/payment/payment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Payment Allocation
 
-Canonical concept: [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md).
+Canonical concept: [Payment Allocation](../model/subjects/finance/payment/payment-allocation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Commission or Markup
 
-Canonical concept: [Commission or Markup](../model/domains/travel/payment-authorization/commission-or-markup.md).
+Canonical concept: [Commission](../model/subjects/finance/invoice/commission.md) (as Commission or Markup).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Supplier Settlement
 
-Canonical concept: [Supplier Settlement](../model/domains/travel/payment-authorization/supplier-settlement.md).
+Canonical concept: [Settlement](../model/subjects/finance/payment/settlement.md) (as Supplier Settlement).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -224,25 +224,25 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Travel Document
 
-Canonical concept: [Travel Document](../model/domains/travel/travel-document/travel-document.md).
+Canonical concept: [Travel Document](../model/subjects/travel/travel-document/travel-document.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Ticket Coupon
 
-Canonical concept: [Ticket Coupon](../model/domains/travel/travel-document/ticket-coupon.md).
+Canonical concept: [Ticket Coupon](../model/subjects/travel/travel-document/ticket-coupon.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Voucher
 
-Canonical concept: [Voucher](../model/domains/travel/travel-document/voucher.md).
+Canonical concept: [Voucher](../model/subjects/travel/travel-document/voucher.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Fulfillment
 
-Canonical concept: [Fulfillment](../model/domains/travel/travel-document/fulfillment.md).
+Canonical concept: [Fulfillment](../model/subjects/fulfillment/fulfillment/fulfillment.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
@@ -250,61 +250,61 @@ The canonical page contains the definition, logical attributes, rules, and sourc
 
 ### Change Request
 
-Canonical concept: [Change Request](../model/domains/travel/change-request/change-request.md).
+Canonical concept: [Change Request](../model/subjects/request/order/change-request.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Booking Change
 
-Canonical concept: [Booking Change](../model/domains/travel/change-request/booking-change.md).
+Canonical concept: [Change Request](../model/subjects/request/order/change-request.md) (as Booking Change).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Cancellation
 
-Canonical concept: [Cancellation](../model/domains/travel/change-request/cancellation.md).
+Canonical concept: [Cancellation](../model/subjects/request/order/cancellation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Refund
 
-Canonical concept: [Refund](../model/domains/travel/change-request/refund.md).
+Canonical concept: [Refund](../model/subjects/finance/payment/refund.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Disruption
 
-Canonical concept: [Disruption](../model/domains/travel/change-request/disruption.md).
+Canonical concept: [Disruption](../model/subjects/travel/disruption/disruption.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Reaccommodation
 
-Canonical concept: [Reaccommodation](../model/domains/travel/change-request/reaccommodation.md).
+Canonical concept: [Reaccommodation](../model/subjects/travel/disruption/reaccommodation.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ### Duty of Care Case
 
-Canonical concept: [Duty of Care Case](../model/domains/travel/change-request/duty-of-care-case.md).
+Canonical concept: [Duty of Care Case](../model/subjects/travel/disruption/duty-of-care-case.md).
 
 The canonical page contains the definition, logical attributes, rules, and source-specific detail.
 
 ## Relationship model
 
-See [canonical relationship model](../model/domains/travel/behavior.md#relationship-model).
+See [canonical relationship model](behavior/travel.md#relationship-model).
 
 ## Lifecycle models
 
-See [canonical lifecycle models](../model/domains/travel/behavior.md#lifecycle-models).
+See [canonical lifecycle models](behavior/travel.md#lifecycle-models).
 
 ## Business events
 
-See [canonical business events](../model/domains/travel/behavior.md#business-events).
+See [canonical business events](behavior/travel.md#business-events).
 
 ## Baseline business and integrity rules
 
-See [canonical baseline business and integrity rules](../model/domains/travel/behavior.md#baseline-business-and-integrity-rules).
+See [canonical baseline business and integrity rules](behavior/travel.md#baseline-business-and-integrity-rules).
 
 ## AI modeling questions
 
@@ -397,43 +397,51 @@ This pattern selects and connects concepts in the [coherent model](../model/READ
 
 | Source term | Canonical concept | ABE |
 |---|---|---|
-| Travel Product | [Travel Product](../model/domains/travel/travel-product/travel-product.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Travel Service | [Travel Service](../model/domains/travel/travel-product/travel-service.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Service Instance | [Service Instance](../model/domains/travel/travel-product/service-instance.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Schedule | [Schedule](../model/domains/travel/travel-product/schedule.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Location | [Location](../model/domains/travel/travel-product/location.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Availability | [Availability](../model/domains/travel/travel-product/availability.md) | [Travel Product](../model/domains/travel/travel-product/README.md) |
-| Travel Offer | [Travel Offer](../model/domains/travel/travel-offer/travel-offer.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Offer Item | [Offer Item](../model/domains/travel/travel-offer/offer-item.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Fare or Rate | [Fare or Rate](../model/domains/travel/travel-offer/fare-or-rate.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Price Component | [Price Component](../model/domains/travel/travel-offer/price-component.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Fare Rule or Rate Rule | [Fare Rule or Rate Rule](../model/domains/travel/travel-offer/fare-rule-or-rate-rule.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Ancillary Service | [Ancillary Service](../model/domains/travel/travel-offer/ancillary-service.md) | [Travel Offer](../model/domains/travel/travel-offer/README.md) |
-| Traveler | [Traveler](../model/domains/travel/traveler/traveler.md) | [Traveler](../model/domains/travel/traveler/README.md) |
-| Traveler Document | [Traveler Document](../model/domains/travel/traveler/traveler-document.md) | [Traveler](../model/domains/travel/traveler/README.md) |
-| Itinerary | [Itinerary](../model/domains/travel/traveler/itinerary.md) | [Traveler](../model/domains/travel/traveler/README.md) |
-| Segment | [Segment](../model/domains/travel/traveler/segment.md) | [Traveler](../model/domains/travel/traveler/README.md) |
-| Connection | [Connection](../model/domains/travel/traveler/connection.md) | [Traveler](../model/domains/travel/traveler/README.md) |
-| Reservation | [Reservation](../model/domains/travel/reservation/reservation.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Reservation Item | [Reservation Item](../model/domains/travel/reservation/reservation-item.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Booking | [Booking](../model/domains/travel/reservation/booking.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Booking Item | [Booking Item](../model/domains/travel/reservation/booking-item.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Booking Party | [Booking Party](../model/domains/travel/reservation/booking-party.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Traveler Assignment | [Traveler Assignment](../model/domains/travel/reservation/traveler-assignment.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Supplier Confirmation | [Supplier Confirmation](../model/domains/travel/reservation/supplier-confirmation.md) | [Reservation](../model/domains/travel/reservation/README.md) |
-| Payment Authorization | [Payment Authorization](../model/domains/travel/payment-authorization/payment-authorization.md) | [Payment Authorization](../model/domains/travel/payment-authorization/README.md) |
-| Payment | [Payment](../model/domains/finance/invoice/payment.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Payment Allocation | [Payment Allocation](../model/domains/finance/invoice/payment-allocation.md) | [Invoice](../model/domains/finance/invoice/README.md) |
-| Commission or Markup | [Commission or Markup](../model/domains/travel/payment-authorization/commission-or-markup.md) | [Payment Authorization](../model/domains/travel/payment-authorization/README.md) |
-| Supplier Settlement | [Supplier Settlement](../model/domains/travel/payment-authorization/supplier-settlement.md) | [Payment Authorization](../model/domains/travel/payment-authorization/README.md) |
-| Travel Document | [Travel Document](../model/domains/travel/travel-document/travel-document.md) | [Travel Document](../model/domains/travel/travel-document/README.md) |
-| Ticket Coupon | [Ticket Coupon](../model/domains/travel/travel-document/ticket-coupon.md) | [Travel Document](../model/domains/travel/travel-document/README.md) |
-| Voucher | [Voucher](../model/domains/travel/travel-document/voucher.md) | [Travel Document](../model/domains/travel/travel-document/README.md) |
-| Fulfillment | [Fulfillment](../model/domains/travel/travel-document/fulfillment.md) | [Travel Document](../model/domains/travel/travel-document/README.md) |
-| Change Request | [Change Request](../model/domains/travel/change-request/change-request.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Booking Change | [Booking Change](../model/domains/travel/change-request/booking-change.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Cancellation | [Cancellation](../model/domains/travel/change-request/cancellation.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Refund | [Refund](../model/domains/travel/change-request/refund.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Disruption | [Disruption](../model/domains/travel/change-request/disruption.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Reaccommodation | [Reaccommodation](../model/domains/travel/change-request/reaccommodation.md) | [Change Request](../model/domains/travel/change-request/README.md) |
-| Duty of Care Case | [Duty of Care Case](../model/domains/travel/change-request/duty-of-care-case.md) | [Change Request](../model/domains/travel/change-request/README.md) |
+| Travel Product | [Travel Product](../model/subjects/product/product/product.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Travel Service | [Travel Service](../model/subjects/product/product/service.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Service Instance | [Service Instance](../model/subjects/travel/scheduled-service/scheduled-service.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Schedule | [Schedule](../model/subjects/scheduling/appointment/schedule.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Location | [Location](../model/subjects/location/geographic-location/geographic-location.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Availability | [Availability](../model/subjects/resource/resource/availability.md) | [Travel Product](../model/subjects/product/product/README.md) |
+| Travel Offer | [Travel Offer](../model/subjects/product/offering/offering.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Offer Item | [Offer Item](../model/subjects/travel/booking/offer-item.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Fare or Rate | [Fare or Rate](../model/subjects/product/offering/price.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Price Component | [Price Component](../model/subjects/product/offering/price-component.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Fare Rule or Rate Rule | [Fare Rule or Rate Rule](../model/subjects/product/offering/price-rule.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Ancillary Service | [Ancillary Service](../model/subjects/travel/scheduled-service/ancillary-service.md) | [Travel Offer](../model/subjects/product/offering/README.md) |
+| Traveler | [Traveler](../model/subjects/travel/traveler/traveler.md) | [Traveler](../model/subjects/travel/traveler/README.md) |
+| Traveler Document | [Traveler Document](../model/subjects/travel/traveler/traveler-document.md) | [Traveler](../model/subjects/travel/traveler/README.md) |
+| Itinerary | [Itinerary](../model/subjects/travel/traveler/itinerary.md) | [Traveler](../model/subjects/travel/traveler/README.md) |
+| Segment | [Segment](../model/subjects/travel/traveler/segment.md) | [Traveler](../model/subjects/travel/traveler/README.md) |
+| Connection | [Connection](../model/subjects/travel/traveler/connection.md) | [Traveler](../model/subjects/travel/traveler/README.md) |
+| Reservation | [Reservation](../model/subjects/scheduling/reservation/reservation.md) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Reservation Item | [Reservation Item](#concepts-applications-typically-add) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Booking | [Booking](../model/subjects/travel/booking/booking.md) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Booking Item | [Booking Item](../model/subjects/travel/booking/booking-item.md) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Booking Party | [Booking Party](../model/subjects/party/party/party-role.md) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Traveler Assignment | [Traveler Assignment](#concepts-applications-typically-add) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Supplier Confirmation | [Supplier Confirmation](#concepts-applications-typically-add) | [Reservation](../model/subjects/scheduling/reservation/README.md) |
+| Payment Authorization | [Payment Authorization](../model/subjects/finance/payment/payment-authorization.md) | [Payment Authorization](../model/subjects/finance/payment/README.md) |
+| Payment | [Payment](../model/subjects/finance/payment/payment.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Payment Allocation | [Payment Allocation](../model/subjects/finance/payment/payment-allocation.md) | [Invoice](../model/subjects/finance/invoice/README.md) |
+| Commission or Markup | [Commission or Markup](../model/subjects/finance/invoice/commission.md) | [Payment Authorization](../model/subjects/finance/payment/README.md) |
+| Supplier Settlement | [Supplier Settlement](../model/subjects/finance/payment/settlement.md) | [Payment Authorization](../model/subjects/finance/payment/README.md) |
+| Travel Document | [Travel Document](../model/subjects/travel/travel-document/travel-document.md) | [Travel Document](../model/subjects/travel/travel-document/README.md) |
+| Ticket Coupon | [Ticket Coupon](../model/subjects/travel/travel-document/ticket-coupon.md) | [Travel Document](../model/subjects/travel/travel-document/README.md) |
+| Voucher | [Voucher](../model/subjects/travel/travel-document/voucher.md) | [Travel Document](../model/subjects/travel/travel-document/README.md) |
+| Fulfillment | [Fulfillment](../model/subjects/fulfillment/fulfillment/fulfillment.md) | [Travel Document](../model/subjects/travel/travel-document/README.md) |
+| Change Request | [Change Request](../model/subjects/request/order/change-request.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Booking Change | [Booking Change](../model/subjects/request/order/change-request.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Cancellation | [Cancellation](../model/subjects/request/order/cancellation.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Refund | [Refund](../model/subjects/finance/payment/refund.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Disruption | [Disruption](../model/subjects/travel/disruption/disruption.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Reaccommodation | [Reaccommodation](../model/subjects/travel/disruption/reaccommodation.md) | [Change Request](../model/subjects/request/order/README.md) |
+| Duty of Care Case | [Duty of Care Case](../model/subjects/travel/disruption/duty-of-care-case.md) | [Change Request](../model/subjects/request/order/README.md) |
+
+## Concepts applications typically add
+
+Not in the canonical model: specific to this kind of business, or nothing an application could not define itself. An application adds them in its own Specs, usually specializing the canonical concept named.
+
+- **Reservation Item**: A held quantity or entitlement for one Service Instance, rate, room, seat, vehicle, or ancillary.
+- **Traveler Assignment**: Assignment of a Traveler to a Booking Item, Segment, seat, room, vehicle, or ancillary.
+- **Supplier Confirmation**: Evidence that a Supplier accepted or confirmed a Reservation or Booking Item.

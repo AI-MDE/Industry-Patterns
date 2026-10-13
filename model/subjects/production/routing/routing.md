@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Routing"
+---
+
+# Routing
+
+Subject: [Production](../README.md). ABE: [Routing](README.md).
+
+## Definition and detail
+
+A versioned sequence or network of Operations required to manufacture a Product.
+
+Logical attributes: Routing Identifier; Version; Status; Product Version; Facility; Effective From; Effective Through; Standard Lead Time.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#routing) | Routing |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| Routing | contains | [Operation Definition](operation-definition.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

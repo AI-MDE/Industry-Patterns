@@ -21,17 +21,17 @@ const index = (items, key, label) => {
 };
 const concepts = index(model.concepts, 'path', 'concept');
 const abes = index(model.abes, 'path', 'ABE');
-const domains = index(model.domains, 'name', 'domain');
+const subjects = index(model.subjects, 'name', 'subject');
 const memberships = new Map();
-for (const domain of domains.values()) {
-  check(exists(domain.path), `Missing domain page: ${domain.path}`);
-  for (const p of domain.abes) check(abes.get(p)?.domain === domain.name, `Invalid domain ABE: ${p}`);
+for (const subject of subjects.values()) {
+  check(exists(subject.path), `Missing subject page: ${subject.path}`);
+  for (const p of subject.abes) check(abes.get(p)?.subject === subject.name, `Invalid subject ABE: ${p}`);
 }
 for (const abe of abes.values()) {
   check(exists(abe.path), `Missing ABE page: ${abe.path}`);
   const primary = concepts.get(abe.primaryEntity);
   check(primary?.name === abe.name && abe.entities.includes(abe.primaryEntity), `Invalid primary entity: ${abe.path}`);
-  check(domains.get(abe.domain)?.abes.includes(abe.path), `Unlisted ABE: ${abe.path}`);
+  check(subjects.get(abe.subject)?.abes.includes(abe.path), `Unlisted ABE: ${abe.path}`);
   check(new Set(abe.entities).size === abe.entities.length, `Duplicate ABE membership: ${abe.path}`);
   for (const p of abe.entities) {
     check(concepts.get(p)?.abe === abe.path, `Invalid ABE member: ${p}`);
@@ -41,7 +41,7 @@ for (const abe of abes.values()) {
 for (const concept of concepts.values()) {
   check(exists(concept.path), `Missing concept page: ${concept.path}`);
   check(memberships.get(concept.path) === 1, `Concept must have one ABE home: ${concept.path}`);
-  check(abes.get(concept.abe)?.domain === concept.domain, `Wrong concept domain: ${concept.path}`);
+  check(abes.get(concept.abe)?.subject === concept.subject, `Wrong concept subject: ${concept.path}`);
   const seen = new Set([concept.path]);
   let parent = concept.specializes;
   while (parent) {
@@ -72,8 +72,8 @@ for (const r of model.relationships) {
 
 
 // Canonical manifest paths must reference the actual coherent tree, not legacy migration roots.
-for (const entry of [...model.domains, ...model.abes, ...model.concepts]) {
-  check(entry.path.startsWith('model/domains/'), `Noncanonical model path: ${entry.path}`);
+for (const entry of [...model.subjects, ...model.abes, ...model.concepts]) {
+  check(entry.path.startsWith('model/subjects/'), `Noncanonical model path: ${entry.path}`);
 }
 for (const relationship of model.relationships) {
   // An unresolved compound endpoint is a semantic-review item, never an inferred match.
@@ -81,12 +81,12 @@ for (const relationship of model.relationships) {
     `Invalid resolved relationship: ${relationship.sourceTerm} → ${relationship.targetTerm}`);
 }
 
-for (const legacy of ['patterns', 'knowledge-bases']) check(!fs.existsSync(path.join(root, legacy)), `Retired folder remains: ${legacy}`);
+for (const legacy of ['patterns', 'knowledge-bases', 'model/domains']) check(!fs.existsSync(path.join(root, legacy)), `Retired folder remains: ${legacy}`);
 const requirements = validateRequirements(root, model);
 errors.push(...requirements.errors);
 
-// Cover discovery docs, domain requirements and tool docs as well as entity pages.
+// Cover discovery docs, subject requirements and tool docs as well as entity pages.
 const links = validateLinks(root);
 errors.push(...links.errors);
 if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
-else console.log(`Valid: ${domains.size} Domains, ${abes.size} ABEs, ${concepts.size} concepts, ${requirements.requirements.length} requirements, ${model.bindings.length} source bindings, ${model.relationships.length} relationships (${model.relationships.filter(r => r.status === 'review').length} for semantic review). Local links checked in ${links.pages} Markdown pages.`);
+else console.log(`Valid: ${subjects.size} Subjects, ${abes.size} ABEs, ${concepts.size} concepts, ${requirements.requirements.length} requirements, ${model.bindings.length} source bindings, ${model.relationships.length} relationships (${model.relationships.filter(r => r.status === 'review').length} for semantic review). Local links checked in ${links.pages} Markdown pages.`);

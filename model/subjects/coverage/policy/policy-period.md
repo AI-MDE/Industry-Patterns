@@ -1,0 +1,26 @@
+---
+type: entity
+title: "Policy Period"
+---
+
+# Policy Period
+
+Subject: [Insurance Coverage and Claims](../README.md). ABE: [Policy](README.md).
+
+## Definition and detail
+
+A bounded period during which a Policy's terms apply.
+
+Logical attributes: Policy Period Identifier; Period Number; Start Date; End Date; Period Status; Transaction Effective Date.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#policy-period) | Policy Period |
+
+## Relationships
+
+| Source concept | Role | Target concept | Original cardinality | Pattern |
+|---|---|---|---|---|
+| [Policy](policy.md) | contains | Policy Period | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

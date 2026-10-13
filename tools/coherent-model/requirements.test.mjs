@@ -17,11 +17,11 @@ function fixture(t) {
   };
   const model = {
     requirements: 'model/requirements.json',
-    domains: [{ name: 'Care', path: 'model/domains/care/README.md' }],
-    abes: [{ path: 'model/domains/care/patient/README.md' }],
-    concepts: [{ path: 'model/domains/care/patient/patient.md' }],
+    subjects: [{ name: 'Care', path: 'model/subjects/care/README.md' }],
+    abes: [{ path: 'model/subjects/care/patient/README.md' }],
+    concepts: [{ path: 'model/subjects/care/patient/patient.md' }],
   };
-  const entry = { type: 'use-case', name: 'Register Patient', domain: 'Care', path: 'model/domains/care/use-cases/register.md' };
+  const entry = { type: 'use-case', name: 'Register Patient', subject: 'Care', path: 'model/subjects/care/use-cases/register.md' };
   const page = '---\ntype: use-case\ntitle: "Register Patient"\n---\n\n# Register Patient\n\n## Invoked Entity Operations\n\n[Patient.register](../patient/patient.md#operations)\n';
   write(entry.path, page);
   write(model.concepts[0].path, '# Patient\n\n## Operations\n\n- register\n\n## States\n\nactive\n');
@@ -30,7 +30,7 @@ function fixture(t) {
   return { root, model, entry, page, write, registry };
 }
 
-test('accepts a domain-owned use case that invokes an existing canonical operation', t => {
+test('accepts a subject-owned use case that invokes an existing canonical operation', t => {
   const f = fixture(t);
   assert.deepEqual(validateRequirements(f.root, f.model).errors, []);
 });
@@ -41,9 +41,9 @@ test('rejects undefined operations even when the entity link and heading exist',
   assert.ok(validateRequirements(f.root, f.model).errors.some(e => e.includes('Undefined operation')));
 });
 
-test('rejects duplicated registrations and incorrect domain ownership', t => {
+test('rejects duplicated registrations and incorrect subject ownership', t => {
   const f = fixture(t);
-  f.registry([f.entry, { ...f.entry, domain: 'Unknown' }]);
+  f.registry([f.entry, { ...f.entry, subject: 'Unknown' }]);
   const errors = validateRequirements(f.root, f.model).errors;
   assert.ok(errors.some(e => e.includes('Duplicate requirement')));
   assert.ok(errors.some(e => e.includes('Wrong requirement owner')));
@@ -51,13 +51,13 @@ test('rejects duplicated registrations and incorrect domain ownership', t => {
 
 test('detects migrated requirements omitted from the inventory', t => {
   const f = fixture(t);
-  f.write('model/domains/care/use-cases/unlisted.md', f.page);
+  f.write('model/subjects/care/use-cases/unlisted.md', f.page);
   assert.ok(validateRequirements(f.root, f.model).errors.some(e => e.includes('Unregistered use-case')));
 });
 
 test('detects missing pages and inconsistent titles', t => {
   const f = fixture(t);
-  f.registry([{ ...f.entry, name: 'Wrong title' }, { ...f.entry, path: 'model/domains/care/use-cases/missing.md' }]);
+  f.registry([{ ...f.entry, name: 'Wrong title' }, { ...f.entry, path: 'model/subjects/care/use-cases/missing.md' }]);
   const errors = validateRequirements(f.root, f.model).errors;
   assert.ok(errors.some(e => e.includes('Wrong requirement title')));
   assert.ok(errors.some(e => e.includes('Missing requirement page')));

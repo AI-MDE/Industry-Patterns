@@ -1,0 +1,20 @@
+---
+type: entity
+title: "Organization"
+---
+
+# Organization
+
+Subject: [Parties and Roles](../README.md). ABE: [Party](README.md).
+
+## Definition and detail
+
+A business, government body, nonprofit, household, team, or other organized Party.
+
+Logical attributes: Organization Name; Legal Form; Registration Number; Parent Organization reference.
+
+## Source terminology
+
+| Source | Term |
+|---|---|
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#organization) | Organization |

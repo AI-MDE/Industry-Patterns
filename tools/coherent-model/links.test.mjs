@@ -19,11 +19,11 @@ function fixture(t, files) {
   return root;
 }
 
-test('validates discovery and domain requirement links', t => {
+test('validates discovery and subject requirement links', t => {
   const root = fixture(t, {
     'catalog.md': '[Domains](model/requirements/index.md)',
-    'model/domains/example/use-cases/register.md': '[Entity](../missing.md)',
-    'model/domains/index.md': '# Domains',
+    'model/subjects/example/use-cases/register.md': '[Entity](../missing.md)',
+    'model/subjects/index.md': '# Subjects',
   });
   const result = validateLinks(root);
   assert.equal(result.pages, 3);

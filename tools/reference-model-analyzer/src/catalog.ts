@@ -48,7 +48,7 @@ export async function loadCatalog(file: string): Promise<MdeCatalog> {
             for (const attr of match[1].replace(/\.$/, '').split(';').map(s => s.trim()))
                 if (attr && !attributes.some(a => a.name === attr))
                     attributes.push({ name: attr });
-        concepts.push({ domain: c.domain, abe: a.name, entity: c.name, path: c.path, specializes: c.specializes, attributes, scopedAliases: aliases.filter(x => x.canonical === c.path).map(x => ({ term: x.term, source: x.source })), relationships: [] });
+        concepts.push({ domain: c.subject ?? c.domain, abe: a.name, entity: c.name, path: c.path, specializes: c.specializes, attributes, scopedAliases: aliases.filter(x => x.canonical === c.path).map(x => ({ term: x.term, source: x.source })), relationships: [] });
     }
     const bypath = new Map(concepts.map(c => [c.path, c]));
     for (const r of manifest.relationships ?? [])
@@ -58,5 +58,5 @@ export async function loadCatalog(file: string): Promise<MdeCatalog> {
                 throw new Error('Canonical relationship has unknown endpoint');
             c.relationships!.push({ name: r.role, target: r.targetConcept, cardinality: r.cardinality });
         }
-    return { concepts, domains: list(manifest.domains, 'manifest.domains').map(d => d.name), abes: [...abes.values()].map(a => ({ name: a.name, domain: a.domain, path: a.path })), capabilities, interfaces: manifest.interfaces ?? [], warnings: [...(capabilities.length ? ['The capability inventory covers only registered requirements; other industry capabilities may remain unmodeled.'] : ['The canonical manifest has no capability inventory; supplied capabilities remain review candidates.']), ...(manifest.interfaces?.length ? [] : ['The canonical manifest has no interface inventory; supplied interfaces remain review candidates.'])] };
+    return { concepts, domains: list(manifest.subjects ?? manifest.domains, 'manifest.subjects').map(d => d.name), abes: [...abes.values()].map(a => ({ name: a.name, domain: a.subject ?? a.domain, path: a.path })), capabilities, interfaces: manifest.interfaces ?? [], warnings: [...(capabilities.length ? ['The capability inventory covers only registered requirements; other industry capabilities may remain unmodeled.'] : ['The canonical manifest has no capability inventory; supplied capabilities remain review candidates.']), ...(manifest.interfaces?.length ? [] : ['The canonical manifest has no interface inventory; supplied interfaces remain review candidates.'])] };
 }
