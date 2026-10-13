@@ -19,11 +19,11 @@ Logical attributes: Subscription Identifier; Subscription Number; Subscription S
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#subscription) | Subscription |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#subscription) | Subscription |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Customer Agreement](customer-agreement.md) | governs | [Subscription](subscription.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Subscription](subscription.md) | instantiates | [Product Offering](../telecommunications-product/product-offering.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Customer Agreement](customer-agreement.md) | governs | [Subscription](subscription.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Subscription](subscription.md) | instantiates | [Product Offering](../telecommunications-product/product-offering.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

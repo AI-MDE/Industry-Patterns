@@ -17,4 +17,4 @@ Logical attributes: Decision Identifier; Decision Type; Decision Status; Decided
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#match-decision) | Match Decision |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#match-decision) | Match Decision |

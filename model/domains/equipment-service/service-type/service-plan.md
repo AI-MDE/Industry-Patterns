@@ -15,4 +15,4 @@ Equipment-specific application of Maintenance Requirements: next due date or met
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-plan-standard) | Service Plan (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-plan-standard) | Service Plan (Standard) |

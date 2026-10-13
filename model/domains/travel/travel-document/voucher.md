@@ -17,4 +17,4 @@ Logical attributes: Voucher Identifier; Voucher Number; Voucher Status; Service;
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#voucher) | Voucher |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#voucher) | Voucher |

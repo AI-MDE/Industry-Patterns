@@ -19,4 +19,4 @@ Logical attributes: Resource Identifier; Resource Type; Resource Name; Resource 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-resource) | Therapy Resource |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-resource) | Therapy Resource |

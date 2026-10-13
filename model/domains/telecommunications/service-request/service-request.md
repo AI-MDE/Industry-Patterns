@@ -19,10 +19,10 @@ Logical attributes: Request Identifier; Request Type; Status; Requested Date; Cu
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-request) | Service Request |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-request) | Service Request |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Request](service-request.md) | receives | [Service Qualification](service-qualification.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Request](service-request.md) | receives | [Service Qualification](service-qualification.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

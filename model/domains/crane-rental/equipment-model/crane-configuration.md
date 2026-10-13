@@ -17,12 +17,12 @@ Logical attributes: Configuration Identifier; Configuration Type; Status; Crane 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#crane-configuration) | Crane Configuration |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#crane-configuration) | Crane Configuration |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Plan](../lift-plan/lift-plan.md) | specifies | [Crane Configuration](crane-configuration.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Crane Configuration](crane-configuration.md) | uses | Crane Asset or Equipment Model (review) | M:1 | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Crane Configuration](crane-configuration.md) | contains | [Equipment Component](equipment-component.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Plan](../lift-plan/lift-plan.md) | specifies | [Crane Configuration](crane-configuration.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Crane Configuration](crane-configuration.md) | uses | Crane Asset or Equipment Model (review) | M:1 | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Crane Configuration](crane-configuration.md) | contains | [Equipment Component](equipment-component.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

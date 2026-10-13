@@ -17,10 +17,10 @@ Logical attributes: Asset Identifier; Asset Number; Asset Type; Model; Serial Nu
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#machine-asset) | Machine Asset |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#machine-asset) | Machine Asset |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Work Center](work-center.md) | contains | [Machine Asset](machine-asset.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Work Center](work-center.md) | contains | [Machine Asset](machine-asset.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

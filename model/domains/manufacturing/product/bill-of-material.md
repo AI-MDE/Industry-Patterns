@@ -17,10 +17,10 @@ Logical attributes: BOM Identifier; BOM Type; Version; Status; Parent Product or
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#bill-of-material) | Bill of Material |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#bill-of-material) | Bill of Material |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Bill of Material](bill-of-material.md) | contains | [BOM Component](bom-component.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Bill of Material](bill-of-material.md) | contains | [BOM Component](bom-component.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

@@ -19,10 +19,10 @@ Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agre
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#rental-agreement) | Rental Agreement |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#rental-agreement) | Rental Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Rental Agreement](rental-agreement.md) | governs | [Job Order](job-order.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Rental Agreement](rental-agreement.md) | governs | [Job Order](job-order.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

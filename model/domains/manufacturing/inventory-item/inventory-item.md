@@ -17,4 +17,4 @@ Logical attributes: Inventory Item Identifier; Part Revision; Facility; Location
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#inventory-item) | Inventory Item |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#inventory-item) | Inventory Item |

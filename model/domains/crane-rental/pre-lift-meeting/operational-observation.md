@@ -19,10 +19,10 @@ Examples: wind, ground movement, radius, load indication, boom angle, equipment 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#operational-observation) | Operational Observation |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#operational-observation) | Operational Observation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Activity](lift-activity.md) | records | [Operational Observation](operational-observation.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Activity](lift-activity.md) | records | [Operational Observation](operational-observation.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

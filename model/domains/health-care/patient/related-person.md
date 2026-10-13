@@ -19,10 +19,10 @@ Logical attributes: Related Person Identifier; Relationship Type; Relationship S
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#related-person) | Related Person |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#related-person) | Related Person |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Patient](patient.md) | relates to | [Related Person](related-person.md) | M:M | [health-care](../../../../patterns/health-care.md) |
+| [Patient](patient.md) | relates to | [Related Person](related-person.md) | M:M | [health-care](../../../../industry-patterns/health-care.md) |

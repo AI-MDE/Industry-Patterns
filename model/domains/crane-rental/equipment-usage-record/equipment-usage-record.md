@@ -19,10 +19,10 @@ Logical attributes: Usage Identifier; Asset; Job Order; Usage Type; Start Time; 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#equipment-usage-record) | Equipment Usage Record |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#equipment-usage-record) | Equipment Usage Record |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Asset (review) | produces | [Equipment Usage Record](equipment-usage-record.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| Asset (review) | produces | [Equipment Usage Record](equipment-usage-record.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

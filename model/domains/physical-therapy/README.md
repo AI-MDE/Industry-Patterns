@@ -9,3 +9,7 @@
 - [Intervention Definition](intervention-definition/README.md)
 - [Progress Evaluation](progress-evaluation/README.md)
 - [Therapy Charge](therapy-charge/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

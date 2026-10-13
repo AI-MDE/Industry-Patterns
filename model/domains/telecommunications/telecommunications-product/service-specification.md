@@ -17,12 +17,12 @@ Logical attributes: Service Specification Identifier; Name; Service Type; Versio
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-specification) | Service Specification |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-specification) | Service Specification |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Component](product-component.md) | maps to | [Service Specification](service-specification.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Service Specification](service-specification.md) | requires | [Resource Specification](resource-specification.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Service Instance](../service-instance/service-instance.md) | instantiates | [Service Specification](service-specification.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Product Component](product-component.md) | maps to | [Service Specification](service-specification.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Service Specification](service-specification.md) | requires | [Resource Specification](resource-specification.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Service Instance](../service-instance/service-instance.md) | instantiates | [Service Specification](service-specification.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

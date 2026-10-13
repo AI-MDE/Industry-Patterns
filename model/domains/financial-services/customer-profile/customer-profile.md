@@ -17,10 +17,10 @@ Logical attributes: Customer Identifier; Customer Type; Customer Status; Risk Ra
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#customer-profile) | Customer Profile |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#customer-profile) | Customer Profile |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Party](../../party/party/party.md) | has | [Customer Profile](customer-profile.md) | 1:M by institution | [financial-services](../../../../patterns/financial-services.md) |
+| [Party](../../party/party/party.md) | has | [Customer Profile](customer-profile.md) | 1:M by institution | [financial-services](../../../../industry-patterns/financial-services.md) |

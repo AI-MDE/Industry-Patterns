@@ -17,10 +17,10 @@ Logical attributes: Refund Identifier; Refund Type; Refund Status; Requested At;
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#refund) | Refund |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#refund) | Refund |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Cancellation or Booking Change (review) | may produce | [Refund](refund.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| Cancellation or Booking Change (review) | may produce | [Refund](refund.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

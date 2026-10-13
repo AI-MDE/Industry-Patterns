@@ -15,4 +15,4 @@ forecasts staffing needs and allocates Professional capacity.
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Resource Plan |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Resource Plan |

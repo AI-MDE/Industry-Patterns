@@ -17,4 +17,4 @@ Logical attributes: Evidence Identifier; Evidence Type; Issuer; Reference; Issue
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#identity-evidence) | Identity Evidence |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#identity-evidence) | Identity Evidence |

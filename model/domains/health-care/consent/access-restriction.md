@@ -17,4 +17,4 @@ Logical attributes: Restriction Identifier; Restriction Type; Restriction Status
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#access-restriction) | Access Restriction |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#access-restriction) | Access Restriction |

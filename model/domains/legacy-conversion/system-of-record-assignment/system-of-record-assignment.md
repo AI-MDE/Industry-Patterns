@@ -17,11 +17,11 @@ Logical attributes: Assignment Identifier; Scope; Authority Type; System; Effect
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#system-of-record-assignment) | System of Record Assignment |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#system-of-record-assignment) | System of Record Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [System of Record Assignment](system-of-record-assignment.md) | assigns authority to | [System](../system/system.md) | M:1 | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Cutover Event](../cutover-event/cutover-event.md) | activates | [System of Record Assignment](system-of-record-assignment.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [System of Record Assignment](system-of-record-assignment.md) | assigns authority to | [System](../system/system.md) | M:1 | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Cutover Event](../cutover-event/cutover-event.md) | activates | [System of Record Assignment](system-of-record-assignment.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

@@ -17,10 +17,10 @@ Logical attributes: Schedule Identifier; Schedule Type; Operating Days; Start Ti
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#schedule) | Schedule |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#schedule) | Schedule |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Schedule](schedule.md) | generates or governs | [Service Instance](service-instance.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Schedule](schedule.md) | generates or governs | [Service Instance](service-instance.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

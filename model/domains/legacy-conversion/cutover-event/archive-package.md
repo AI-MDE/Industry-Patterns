@@ -17,10 +17,10 @@ Logical attributes: Archive Identifier; Archive Type; Created At; Content Scope;
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#archive-package) | Archive Package |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#archive-package) | Archive Package |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Decommission Plan](decommission-plan.md) | preserves | [Archive Package](archive-package.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Decommission Plan](decommission-plan.md) | preserves | [Archive Package](archive-package.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

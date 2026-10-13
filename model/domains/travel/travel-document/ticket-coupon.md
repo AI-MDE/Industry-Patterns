@@ -17,10 +17,10 @@ Logical attributes: Coupon Identifier; Coupon Number; Coupon Status; Segment; Fa
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#ticket-coupon) | Ticket Coupon |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#ticket-coupon) | Ticket Coupon |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Ticket (review) | contains | [Ticket Coupon](ticket-coupon.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| Ticket (review) | contains | [Ticket Coupon](ticket-coupon.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

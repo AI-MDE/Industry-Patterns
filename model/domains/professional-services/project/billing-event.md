@@ -15,4 +15,4 @@ approved time, milestone, retainer, installment, expense, or deliverable accepta
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Billing Event |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Billing Event |

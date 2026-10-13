@@ -118,7 +118,7 @@ This makes patterns useful to AI as composable requirements-model fragments and 
 
 ## Industry patterns versus modeling patterns
 
-**Industry patterns/models** answer: *What is commonly found in this domain?*
+**Industry industry-patterns/models** answer: *What is commonly found in this domain?*
 
 **Modeling patterns** answer: *What recurring requirements structure is present here, independent of industry?*
 

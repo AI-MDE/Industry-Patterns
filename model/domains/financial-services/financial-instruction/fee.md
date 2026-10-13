@@ -17,4 +17,4 @@ Logical attributes: Fee Identifier; Fee Type; Fee Status; Assessment Date; Amoun
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#fee) | Fee |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#fee) | Fee |

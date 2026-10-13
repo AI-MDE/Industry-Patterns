@@ -19,4 +19,4 @@ Logical attributes: Maintenance Order Identifier; Type; Status; Asset or Tool; P
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#maintenance-work-order) | Maintenance Work Order |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#maintenance-work-order) | Maintenance Work Order |

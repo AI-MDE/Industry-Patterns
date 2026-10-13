@@ -17,12 +17,16 @@ Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agre
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#agreement) | Agreement |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#agreement) | Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Agreement](agreement.md) | includes | [Agreement Role](agreement-role.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Agreement](agreement.md) | contains | [Agreement Term](agreement-term.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Agreement](agreement.md) | establishes | Commitment or Entitlement (review) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Agreement](agreement.md) | includes | [Agreement Role](agreement-role.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Agreement](agreement.md) | contains | [Agreement Term](agreement-term.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Agreement](agreement.md) | establishes | Commitment or Entitlement (review) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+
+## Integrity rules
+
+- Effective-through dates cannot precede effective-from dates.

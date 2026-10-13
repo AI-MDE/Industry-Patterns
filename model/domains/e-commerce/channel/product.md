@@ -19,10 +19,10 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#product) | Product |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#product) | Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product](product.md) | has | [Product Variant](product-variant.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Product](product.md) | has | [Product Variant](product-variant.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

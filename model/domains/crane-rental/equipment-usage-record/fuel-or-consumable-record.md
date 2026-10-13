@@ -17,4 +17,4 @@ Logical attributes: Consumable Record Identifier; Type; Quantity; Unit; Recorded
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#fuel-or-consumable-record) | Fuel or Consumable Record |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#fuel-or-consumable-record) | Fuel or Consumable Record |

@@ -17,4 +17,4 @@ Logical attributes: Standby Identifier; Start Time; End Time; Resource; Reason; 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#standby-period) | Standby Period |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#standby-period) | Standby Period |

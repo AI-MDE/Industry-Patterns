@@ -15,4 +15,4 @@ Make and model designation within a category. Catalog content, not a physical it
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#equipment-model) | Equipment Model |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#equipment-model) | Equipment Model |

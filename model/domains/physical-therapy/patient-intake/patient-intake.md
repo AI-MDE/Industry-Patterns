@@ -17,4 +17,4 @@ Logical attributes: Intake Identifier; Intake Status; Started Date; Completed Da
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#patient-intake) | Patient Intake |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#patient-intake) | Patient Intake |

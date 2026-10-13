@@ -17,11 +17,11 @@ Logical attributes: Operation Identifier; Operation Code; Name; Operation Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#operation-definition) | Operation Definition |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#operation-definition) | Operation Definition |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Routing](routing.md) | contains | [Operation Definition](operation-definition.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Operation Definition](operation-definition.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Routing](routing.md) | contains | [Operation Definition](operation-definition.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Operation Definition](operation-definition.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

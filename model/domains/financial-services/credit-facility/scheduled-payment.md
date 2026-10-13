@@ -17,10 +17,10 @@ Logical attributes: Scheduled Payment Identifier; Due Date; Principal Due; Inter
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#scheduled-payment) | Scheduled Payment |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#scheduled-payment) | Scheduled Payment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Repayment Schedule](repayment-schedule.md) | contains | [Scheduled Payment](scheduled-payment.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Repayment Schedule](repayment-schedule.md) | contains | [Scheduled Payment](scheduled-payment.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

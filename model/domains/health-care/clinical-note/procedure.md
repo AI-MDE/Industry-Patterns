@@ -17,4 +17,4 @@ Logical attributes: Procedure Identifier; Procedure Code; Procedure Status; Perf
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#procedure) | Procedure |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#procedure) | Procedure |

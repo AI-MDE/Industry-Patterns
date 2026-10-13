@@ -17,10 +17,10 @@ Logical attributes: Issue Identifier; Order; Operation; Part Revision; Lot or Se
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#material-issue) | Material Issue |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#material-issue) | Material Issue |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Operation Execution](../production-run/operation-execution.md) | consumes | [Material Issue](material-issue.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Operation Execution](../production-run/operation-execution.md) | consumes | [Material Issue](material-issue.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

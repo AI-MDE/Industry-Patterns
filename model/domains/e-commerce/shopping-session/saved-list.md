@@ -17,4 +17,4 @@ Logical attributes: Saved List Identifier; List Name; List Type; Visibility; Cre
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#saved-list) | Saved List |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#saved-list) | Saved List |

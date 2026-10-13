@@ -19,4 +19,4 @@ Never store raw payment-card credentials in the domain model.
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#payment-method) | Payment Method |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#payment-method) | Payment Method |

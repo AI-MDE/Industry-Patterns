@@ -17,4 +17,4 @@ Logical attributes: Compensation Identifier; Type; Basis Amount; Rate; Amount; C
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#commission-or-markup) | Commission or Markup |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#commission-or-markup) | Commission or Markup |

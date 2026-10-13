@@ -17,10 +17,10 @@ Logical attributes: Contract Identifier; Contract Version; Publisher; Consumer; 
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#synchronization-contract) | Synchronization Contract |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#synchronization-contract) | Synchronization Contract |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Synchronization Contract](synchronization-contract.md) | connects | Publisher System and Consumer System (review) | M:1 each | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Synchronization Contract](synchronization-contract.md) | connects | Publisher System and Consumer System (review) | M:1 each | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

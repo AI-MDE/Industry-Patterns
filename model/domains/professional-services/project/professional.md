@@ -19,13 +19,13 @@ Logical attributes: Professional Identifier; Professional Name; Professional Rol
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Professional |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Professional |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Professional](professional.md) | manages | [Engagement](engagement.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | participates through | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | records | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | submits | [Expense](expense.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Professional](professional.md) | manages | [Engagement](engagement.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | participates through | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | records | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | submits | [Expense](expense.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

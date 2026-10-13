@@ -17,10 +17,10 @@ Logical attributes: Booking Change Identifier; Change Type; Change Status; Effec
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#booking-change) | Booking Change |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#booking-change) | Booking Change |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Accepted Change Request (review) | produces | [Booking Change](booking-change.md) | 1:1 | [travel](../../../../patterns/travel.md) |
+| Accepted Change Request (review) | produces | [Booking Change](booking-change.md) | 1:1 | [travel](../../../../industry-patterns/travel.md) |

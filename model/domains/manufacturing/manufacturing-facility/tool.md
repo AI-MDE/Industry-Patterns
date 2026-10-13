@@ -17,4 +17,4 @@ Logical attributes: Tool Identifier; Tool Type; Tool Number; Revision; Status; C
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#tool) | Tool |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#tool) | Tool |

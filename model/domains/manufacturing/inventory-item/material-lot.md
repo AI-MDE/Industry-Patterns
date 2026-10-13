@@ -17,4 +17,4 @@ Logical attributes: Lot Identifier; Lot Number; Part Revision; Origin; Manufactu
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#material-lot) | Material Lot |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#material-lot) | Material Lot |

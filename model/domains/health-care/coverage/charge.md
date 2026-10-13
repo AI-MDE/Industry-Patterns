@@ -19,10 +19,10 @@ Logical attributes: Charge Identifier; Charge Code; Charge Type; Charge Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#charge) | Charge |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#charge) | Charge |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Delivery](../health-care-service/service-delivery.md) | produces | [Charge](charge.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
+| [Service Delivery](../health-care-service/service-delivery.md) | produces | [Charge](charge.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |

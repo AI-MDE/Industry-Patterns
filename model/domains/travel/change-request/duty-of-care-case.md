@@ -17,4 +17,4 @@ Logical attributes: Case Identifier; Case Type; Case Status; Priority; Opened At
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#duty-of-care-case) | Duty of Care Case |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#duty-of-care-case) | Duty of Care Case |

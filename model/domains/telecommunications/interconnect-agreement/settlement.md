@@ -17,4 +17,4 @@ Logical attributes: Settlement Identifier; Settlement Type; Status; Partner; Per
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#settlement) | Settlement |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#settlement) | Settlement |

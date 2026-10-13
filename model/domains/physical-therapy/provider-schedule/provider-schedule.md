@@ -19,4 +19,4 @@ Logical attributes: Schedule Identifier; Schedule Type; Effective From; Effectiv
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#provider-schedule) | Provider Schedule |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#provider-schedule) | Provider Schedule |

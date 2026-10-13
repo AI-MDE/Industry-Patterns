@@ -17,10 +17,10 @@ Logical attributes: Position Identifier; Position Date; Account or Portfolio; In
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#position) | Position |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#position) | Position |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Trade](trade.md) | changes | [Position](position.md) | M:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Trade](trade.md) | changes | [Position](position.md) | M:M | [financial-services](../../../../industry-patterns/financial-services.md) |

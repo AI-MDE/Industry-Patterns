@@ -17,4 +17,4 @@ Logical attributes: Schedule Identifier; Schedule Type; Period; Facility; Status
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#production-schedule) | Production Schedule |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#production-schedule) | Production Schedule |

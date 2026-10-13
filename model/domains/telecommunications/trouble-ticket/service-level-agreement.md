@@ -17,4 +17,4 @@ Logical attributes: SLA Identifier; SLA Type; Status; Agreement; Service Scope; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-level-agreement) | Service Level Agreement |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-level-agreement) | Service Level Agreement |

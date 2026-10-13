@@ -17,10 +17,10 @@ Logical attributes: Circuit Identifier; Circuit Number; Circuit Type; Circuit St
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#circuit) | Circuit |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#circuit) | Circuit |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Circuit](circuit.md) | connects | [Network Endpoint](network-endpoint.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Circuit](circuit.md) | connects | [Network Endpoint](network-endpoint.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

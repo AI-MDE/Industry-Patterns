@@ -17,12 +17,12 @@ Logical attributes: Offering Identifier; Offering Name; Offering Status; Availab
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#offering) | Offering |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#offering) | Offering |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Offering](offering.md) | makes available | Product or Service (review) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Offering](offering.md) | has | [Price](price.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Order Line](../../request-and-fulfillment/request/order-line.md) | requests | [Offering](offering.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Offering](offering.md) | makes available | Product or Service (review) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Offering](offering.md) | has | [Price](price.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Order Line](../../request-and-fulfillment/request/order-line.md) | requests | [Offering](offering.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |

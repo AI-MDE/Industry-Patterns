@@ -19,13 +19,13 @@ Logical attributes: Lift Activity Identifier; Lift Number; Lift Status; Job Orde
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-activity) | Lift Activity |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-activity) | Lift Activity |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Job Order](../rental-offering/job-order.md) | contains | [Lift Activity](lift-activity.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Activity](lift-activity.md) | follows | Lift Plan Version (review) | M:1 | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Activity](lift-activity.md) | uses | Crane Asset and Configuration (review) | M:1 each | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Activity](lift-activity.md) | records | [Operational Observation](operational-observation.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Job Order](../rental-offering/job-order.md) | contains | [Lift Activity](lift-activity.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Activity](lift-activity.md) | follows | Lift Plan Version (review) | M:1 | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Activity](lift-activity.md) | uses | Crane Asset and Configuration (review) | M:1 each | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Activity](lift-activity.md) | records | [Operational Observation](operational-observation.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

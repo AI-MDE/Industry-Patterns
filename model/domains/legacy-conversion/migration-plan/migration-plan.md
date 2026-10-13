@@ -17,10 +17,10 @@ Logical attributes: Migration Plan Identifier; Plan Name; Plan Version; Plan Sta
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#migration-plan) | Migration Plan |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#migration-plan) | Migration Plan |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Migration Plan](migration-plan.md) | contains | [Migration Wave](migration-wave.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Migration Plan](migration-plan.md) | contains | [Migration Wave](migration-wave.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

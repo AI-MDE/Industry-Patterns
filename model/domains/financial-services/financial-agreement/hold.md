@@ -17,4 +17,4 @@ Logical attributes: Hold Identifier; Hold Type; Hold Status; Amount; Currency; P
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#hold) | Hold |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#hold) | Hold |

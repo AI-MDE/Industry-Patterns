@@ -19,13 +19,13 @@ Logical attributes: Plan Identifier; Plan Status; Version; Authored Date; Effect
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#plan-of-care) | Plan of Care |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#plan-of-care) | Plan of Care |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](../therapy-episode/therapy-episode.md) | governed by | [Plan of Care](plan-of-care.md) | 1:M versions | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Plan of Care](plan-of-care.md) | contains | [Therapy Goal](therapy-goal.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Plan of Care](plan-of-care.md) | contains | [Treatment Plan Item](treatment-plan-item.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Plan of Care](plan-of-care.md) | receives | Approval or Certification (review) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](../therapy-episode/therapy-episode.md) | governed by | [Plan of Care](plan-of-care.md) | 1:M versions | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Plan of Care](plan-of-care.md) | contains | [Therapy Goal](therapy-goal.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Plan of Care](plan-of-care.md) | contains | [Treatment Plan Item](treatment-plan-item.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Plan of Care](plan-of-care.md) | receives | Approval or Certification (review) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

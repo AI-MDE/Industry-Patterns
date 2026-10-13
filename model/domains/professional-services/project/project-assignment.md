@@ -19,11 +19,11 @@ Logical attributes: Assignment Identifier; Assignment Role; Assignment Status; A
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Project Assignment |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Project Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Project](project.md) | has | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | participates through | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Project](project.md) | has | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | participates through | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

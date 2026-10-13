@@ -17,10 +17,10 @@ Logical attributes: Assessment Identifier; Assessment Type; Assessment Status; A
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim-assessment) | Claim Assessment |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim-assessment) | Claim Assessment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim Exposure](claim-exposure.md) | receives | [Claim Assessment](claim-assessment.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Claim Exposure](claim-exposure.md) | receives | [Claim Assessment](claim-assessment.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

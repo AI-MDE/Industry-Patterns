@@ -17,11 +17,11 @@ Logical attributes: Order Identifier; Order Number; Order Type; Order Status; Or
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#order) | Order |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#order) | Order |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Request](request.md) | may become | [Order](order.md) | 1:0..1 | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Request](request.md) | may become | [Order](order.md) | 1:0..1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

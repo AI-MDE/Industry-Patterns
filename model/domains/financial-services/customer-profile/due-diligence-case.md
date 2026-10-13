@@ -17,10 +17,10 @@ Logical attributes: Case Identifier; Case Type; Case Status; Opened Date; Risk R
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#due-diligence-case) | Due Diligence Case |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#due-diligence-case) | Due Diligence Case |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Due Diligence Case](due-diligence-case.md) | evaluates | Customer, Application, or relationship (review) | M:1 | [financial-services](../../../../patterns/financial-services.md) |
+| [Due Diligence Case](due-diligence-case.md) | evaluates | Customer, Application, or relationship (review) | M:1 | [financial-services](../../../../industry-patterns/financial-services.md) |

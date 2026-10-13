@@ -17,4 +17,4 @@ Logical attributes: Deployment Identifier; Product Unit or Lot; Destination; Dep
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product-deployment) | Product Deployment |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product-deployment) | Product Deployment |

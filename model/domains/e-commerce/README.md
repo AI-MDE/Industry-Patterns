@@ -7,3 +7,7 @@
 - [Payment Method](payment-method/README.md)
 - [Fulfillment Order](fulfillment-order/README.md)
 - [Cancellation](cancellation/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

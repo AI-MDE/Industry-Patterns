@@ -17,4 +17,4 @@ Logical attributes: Configuration Identifier; Service; Version; Configuration St
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-configuration) | Service Configuration |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-configuration) | Service Configuration |

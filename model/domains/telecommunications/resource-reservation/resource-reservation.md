@@ -17,10 +17,10 @@ Logical attributes: Reservation Identifier; Resource or Pool; Quantity; Service 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#resource-reservation) | Resource Reservation |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#resource-reservation) | Resource Reservation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Resource Reservation](resource-reservation.md) | reserves | Network Resource or capacity (review) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Resource Reservation](resource-reservation.md) | reserves | Network Resource or capacity (review) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

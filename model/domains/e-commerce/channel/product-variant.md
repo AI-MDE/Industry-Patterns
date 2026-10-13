@@ -19,11 +19,11 @@ Examples: size, color, capacity, format, license tier, or package size.
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#product-variant) | Product Variant |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#product-variant) | Product Variant |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product](product.md) | has | [Product Variant](product-variant.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Inventory Item](../inventory-item/inventory-item.md) | stocks | [Product Variant](product-variant.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Product](product.md) | has | [Product Variant](product-variant.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Inventory Item](../inventory-item/inventory-item.md) | stocks | [Product Variant](product-variant.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

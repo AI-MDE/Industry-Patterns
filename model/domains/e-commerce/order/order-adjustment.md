@@ -17,4 +17,4 @@ Logical attributes: Adjustment Identifier; Adjustment Type; Description; Amount;
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#order-adjustment) | Order Adjustment |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#order-adjustment) | Order Adjustment |

@@ -19,10 +19,10 @@ Rule: preserve the facts, rules, authority, and rationale supporting an underwri
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#underwriting-decision) | Underwriting Decision |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#underwriting-decision) | Underwriting Decision |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Underwriting Case](underwriting-case.md) | produces | [Underwriting Decision](underwriting-decision.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Underwriting Case](underwriting-case.md) | produces | [Underwriting Decision](underwriting-decision.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

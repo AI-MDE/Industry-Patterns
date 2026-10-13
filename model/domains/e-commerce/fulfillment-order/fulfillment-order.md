@@ -17,11 +17,11 @@ Logical attributes: Fulfillment Order Identifier; Fulfillment Type; Fulfillment 
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#fulfillment-order) | Fulfillment Order |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#fulfillment-order) | Fulfillment Order |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](../order/order.md) | releases | [Fulfillment Order](fulfillment-order.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Fulfillment Order](fulfillment-order.md) | contains | [Fulfillment Line](fulfillment-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Order](../order/order.md) | releases | [Fulfillment Order](fulfillment-order.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Fulfillment Order](fulfillment-order.md) | contains | [Fulfillment Line](fulfillment-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

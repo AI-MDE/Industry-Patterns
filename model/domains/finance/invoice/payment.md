@@ -59,24 +59,24 @@ Logical attributes: Payment Identifier; Payment Date; Amount; Currency; Method; 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#payment) | Payment |
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#payment) | Payment |
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#payment) | Payment |
-| [patterns/health-care.md](../../../../patterns/health-care.md#payment) | Payment |
-| [patterns/insurance.md](../../../../patterns/insurance.md#payment) | Payment |
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#payment) | Payment |
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Payment |
-| [patterns/travel.md](../../../../patterns/travel.md#payment) | Payment |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#payment) | Payment |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#payment) | Payment |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#payment) | Payment |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#payment) | Payment |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#payment) | Payment |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#payment) | Payment |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Payment |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#payment) | Payment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Invoice](invoice.md) | receives | [Payment](payment.md) | M:M through allocation | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Payment](payment.md) | applies through | [Payment Allocation](payment-allocation.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Payment Authorization](../../e-commerce/payment-method/payment-authorization.md) | may produce | [Payment](payment.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Payment](payment.md) | applies through | [Payment Allocation](payment-allocation.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Adjudication](../../health-care/coverage/adjudication.md) | may produce | [Payment](payment.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| Adjudication or Invoice (review) | receives | [Payment](payment.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Invoice](invoice.md) | is settled by | [Payment](payment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Booking](../../travel/reservation/booking.md) | receives | [Payment](payment.md) | M:M through Payment Allocation | [travel](../../../../patterns/travel.md) |
+| [Invoice](invoice.md) | receives | [Payment](payment.md) | M:M through allocation | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Payment](payment.md) | applies through | [Payment Allocation](payment-allocation.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Payment Authorization](../../e-commerce/payment-method/payment-authorization.md) | may produce | [Payment](payment.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Payment](payment.md) | applies through | [Payment Allocation](payment-allocation.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Adjudication](../../health-care/coverage/adjudication.md) | may produce | [Payment](payment.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| Adjudication or Invoice (review) | receives | [Payment](payment.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Invoice](invoice.md) | is settled by | [Payment](payment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Booking](../../travel/reservation/booking.md) | receives | [Payment](payment.md) | M:M through Payment Allocation | [travel](../../../../industry-patterns/travel.md) |

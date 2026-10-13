@@ -17,11 +17,11 @@ Logical attributes: BOM Component Identifier; Component Part Revision; Quantity;
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#bom-component) | BOM Component |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#bom-component) | BOM Component |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Bill of Material](bill-of-material.md) | contains | [BOM Component](bom-component.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [BOM Component](bom-component.md) | references | [Part Revision](part-revision.md) | M:1 | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Bill of Material](bill-of-material.md) | contains | [BOM Component](bom-component.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [BOM Component](bom-component.md) | references | [Part Revision](part-revision.md) | M:1 | [manufacturing](../../../../industry-patterns/manufacturing.md) |

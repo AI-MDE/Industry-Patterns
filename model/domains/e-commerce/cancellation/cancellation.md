@@ -17,10 +17,10 @@ Logical attributes: Cancellation Identifier; Cancellation Reason; Cancellation S
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#cancellation) | Cancellation |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#cancellation) | Cancellation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Order or Order Line (review) | receives | [Cancellation](cancellation.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| Order or Order Line (review) | receives | [Cancellation](cancellation.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

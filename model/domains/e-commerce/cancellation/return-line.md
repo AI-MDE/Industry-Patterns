@@ -17,11 +17,11 @@ Logical attributes: Return Line Identifier; Requested Quantity; Authorized Quant
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#return-line) | Return Line |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#return-line) | Return Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Return](return.md) | contains | [Return Line](return-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Return Line](return-line.md) | refers to | [Order Line](../order/order-line.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Return](return.md) | contains | [Return Line](return-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Return Line](return-line.md) | refers to | [Order Line](../order/order-line.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

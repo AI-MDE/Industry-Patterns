@@ -17,4 +17,4 @@ Logical attributes: Reservation Identifier; Order; Material Requirement; Invento
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#material-reservation) | Material Reservation |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#material-reservation) | Material Reservation |

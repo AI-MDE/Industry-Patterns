@@ -19,10 +19,10 @@ Logical attributes: Service Agreement Identifier; Agreement Number; Agreement Ty
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Service Agreement |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Service Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Agreement](service-agreement.md) | governs | [Engagement](engagement.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Service Agreement](service-agreement.md) | governs | [Engagement](engagement.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

@@ -19,10 +19,10 @@ function fixture(t, files) {
   return root;
 }
 
-test('validates discovery and projection links outside the canonical model', t => {
+test('validates discovery and domain requirement links', t => {
   const root = fixture(t, {
     'catalog.md': '[Domains](model/requirements/index.md)',
-    'knowledge-bases/example/README.md': '[Entity](../../model/missing.md)',
+    'model/domains/example/use-cases/register.md': '[Entity](../missing.md)',
     'model/domains/index.md': '# Domains',
   });
   const result = validateLinks(root);

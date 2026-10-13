@@ -17,4 +17,4 @@ Logical attributes: Partner Usage Identifier; Partner; Direction; Service Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#partner-usage) | Partner Usage |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#partner-usage) | Partner Usage |

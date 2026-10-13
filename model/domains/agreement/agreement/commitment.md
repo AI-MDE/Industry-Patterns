@@ -17,4 +17,4 @@ Logical attributes: Commitment Identifier; Commitment Type; Commitment Status; D
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#commitment) | Commitment |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#commitment) | Commitment |

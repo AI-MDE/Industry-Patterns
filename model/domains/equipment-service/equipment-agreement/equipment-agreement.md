@@ -17,4 +17,4 @@ Sale or Lease of an Equipment item to a Customer, with effective and expiration 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#equipment-agreement) | Equipment Agreement |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#equipment-agreement) | Equipment Agreement |

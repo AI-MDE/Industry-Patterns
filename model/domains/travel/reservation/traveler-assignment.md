@@ -17,10 +17,10 @@ Logical attributes: Assignment Identifier; Assignment Type; Assignment Status; T
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#traveler-assignment) | Traveler Assignment |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#traveler-assignment) | Traveler Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Booking Item](booking-item.md) | receives | [Traveler Assignment](traveler-assignment.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Booking Item](booking-item.md) | receives | [Traveler Assignment](traveler-assignment.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

@@ -41,20 +41,20 @@ Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#invoice) | Invoice |
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#invoice) | Invoice |
-| [patterns/insurance.md](../../../../patterns/insurance.md#invoice) | Invoice |
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Invoice |
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#invoice) | Invoice |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#invoice) | Invoice |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#invoice) | Invoice |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#invoice) | Invoice |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Invoice |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#invoice) | Invoice |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Invoice](invoice.md) | receives | [Payment](payment.md) | M:M through allocation | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Client](../../professional-services/project/client.md) | receives | [Invoice](invoice.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](../../professional-services/project/project.md) | is billed by | [Invoice](invoice.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Invoice](invoice.md) | is settled by | [Payment](payment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Invoice](invoice.md) | receives | [Payment](payment.md) | M:M through allocation | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Client](../../professional-services/project/client.md) | receives | [Invoice](invoice.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](../../professional-services/project/project.md) | is billed by | [Invoice](invoice.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Invoice](invoice.md) | is settled by | [Payment](payment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

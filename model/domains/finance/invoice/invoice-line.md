@@ -29,16 +29,20 @@ Logical attributes: Invoice Line Identifier; Line Number; Description; Quantity;
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#invoice-line) | Invoice Line |
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#invoice-line) | Invoice Line |
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Invoice Line |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#invoice-line) | Invoice Line |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#invoice-line) | Invoice Line |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Invoice Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Invoice Line](invoice-line.md) | derives from | [Charge Event](../../crane-rental/charge-event/charge-event.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Invoice Line](invoice-line.md) | explains | [Charge](charge.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Invoice Line](invoice-line.md) | derives from | [Charge Event](../../crane-rental/charge-event/charge-event.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Invoice Line](invoice-line.md) | explains | [Charge](charge.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Invoice](invoice.md) | contains | [Invoice Line](invoice-line.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+
+## Integrity rules
+
+- Every Invoice Line must have an explainable source.

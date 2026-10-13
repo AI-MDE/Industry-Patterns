@@ -17,10 +17,10 @@ Logical attributes: Ticket Identifier; Ticket Number; Ticket Type; Ticket Status
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#trouble-ticket) | Trouble Ticket |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#trouble-ticket) | Trouble Ticket |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Trouble Ticket](trouble-ticket.md) | concerns | [Service Instance](../service-instance/service-instance.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Trouble Ticket](trouble-ticket.md) | concerns | [Service Instance](../service-instance/service-instance.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

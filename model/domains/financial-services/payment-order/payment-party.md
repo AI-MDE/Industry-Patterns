@@ -17,10 +17,10 @@ Logical attributes: Payment Party Identifier; Role Type; Party; Account Referenc
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#payment-party) | Payment Party |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#payment-party) | Payment Party |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Payment Order](payment-order.md) | has | [Payment Party](payment-party.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Payment Order](payment-order.md) | has | [Payment Party](payment-party.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

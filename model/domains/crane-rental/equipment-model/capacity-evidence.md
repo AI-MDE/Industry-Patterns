@@ -19,10 +19,10 @@ Rule: a generic crane capacity is not a commitment that a particular configurati
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#capacity-evidence) | Capacity Evidence |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#capacity-evidence) | Capacity Evidence |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Plan](../lift-plan/lift-plan.md) | supported by | [Capacity Evidence](capacity-evidence.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Plan](../lift-plan/lift-plan.md) | supported by | [Capacity Evidence](capacity-evidence.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

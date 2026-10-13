@@ -17,10 +17,10 @@ Logical attributes: Cutover Identifier; Cutover Type; Cutover Status; Planned At
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#cutover-event) | Cutover Event |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#cutover-event) | Cutover Event |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Cutover Event](cutover-event.md) | activates | [System of Record Assignment](../system-of-record-assignment/system-of-record-assignment.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Cutover Event](cutover-event.md) | activates | [System of Record Assignment](../system-of-record-assignment/system-of-record-assignment.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

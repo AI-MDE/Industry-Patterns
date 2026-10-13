@@ -17,4 +17,4 @@ Logical attributes: Field Issue Identifier; Issue Type; Status; Reported Date; P
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#warranty-or-field-issue) | Warranty or Field Issue |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#warranty-or-field-issue) | Warranty or Field Issue |

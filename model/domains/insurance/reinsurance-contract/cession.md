@@ -17,10 +17,10 @@ Logical attributes: Cession Identifier; Cession Type; Ceded Percentage; Ceded Pr
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#cession) | Cession |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#cession) | Cession |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Policy or portfolio (review) | allocates through | [Cession](cession.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Policy or portfolio (review) | allocates through | [Cession](cession.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

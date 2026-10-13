@@ -17,12 +17,12 @@ Logical attributes: Fulfillment Line Identifier; Quantity Assigned; Quantity Ful
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#fulfillment-line) | Fulfillment Line |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#fulfillment-line) | Fulfillment Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Fulfillment Order](fulfillment-order.md) | contains | [Fulfillment Line](fulfillment-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Fulfillment Line](fulfillment-line.md) | satisfies | [Order Line](../order/order-line.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Shipment Item](shipment-item.md) | fulfills | [Fulfillment Line](fulfillment-line.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Fulfillment Order](fulfillment-order.md) | contains | [Fulfillment Line](fulfillment-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Fulfillment Line](fulfillment-line.md) | satisfies | [Order Line](../order/order-line.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Shipment Item](shipment-item.md) | fulfills | [Fulfillment Line](fulfillment-line.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

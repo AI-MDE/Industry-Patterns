@@ -17,12 +17,12 @@ Logical attributes: Source Entity Identifier; Source Name; Description; Storage 
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#source-entity) | Source Entity |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#source-entity) | Source Entity |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Source Dataset](source-dataset.md) | contains | [Source Entity](source-entity.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Source Entity](source-entity.md) | defines | [Source Field](source-field.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Source Entity](source-entity.md) | contains | [Source Record](source-record.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Source Dataset](source-dataset.md) | contains | [Source Entity](source-entity.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Source Entity](source-entity.md) | defines | [Source Field](source-field.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Source Entity](source-entity.md) | contains | [Source Record](source-record.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

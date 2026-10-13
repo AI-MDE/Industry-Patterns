@@ -17,4 +17,4 @@ Logical attributes: Machine Entry Identifier; Asset; Operation Execution; Start 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#machine-entry) | Machine Entry |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#machine-entry) | Machine Entry |

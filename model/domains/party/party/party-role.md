@@ -19,12 +19,16 @@ Rule: a Party is not permanently equated with one role. The same Party may perfo
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#party-role) | Party Role |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#party-role) | Party Role |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Party](party.md) | performs | [Party Role](party-role.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Party Role](party-role.md) | relates to | [Party Role](party-role.md) | M:M through Party Relationship | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Party Role](party-role.md) | receives | [Assignment](../../work-management/work-effort/assignment.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Party](party.md) | performs | [Party Role](party-role.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Party Role](party-role.md) | relates to | [Party Role](party-role.md) | M:M through Party Relationship | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Party Role](party-role.md) | receives | [Assignment](../../work-management/work-effort/assignment.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+
+## Integrity rules
+
+- Every Party Role must reference exactly one Party.

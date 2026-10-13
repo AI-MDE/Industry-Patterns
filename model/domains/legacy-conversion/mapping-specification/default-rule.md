@@ -19,4 +19,4 @@ Rule: defaulted, inferred, and manually supplied values must remain distinguisha
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#default-rule) | Default Rule |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#default-rule) | Default Rule |

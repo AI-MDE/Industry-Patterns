@@ -17,4 +17,4 @@ Logical attributes: Asset Identifier; Fleet Number; Serial Number; Equipment Mod
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#crane-asset) | Crane Asset |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#crane-asset) | Crane Asset |

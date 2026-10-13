@@ -17,11 +17,11 @@ Logical attributes: Rated Usage Identifier; Service; Billing Account; Usage Peri
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#rated-usage) | Rated Usage |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#rated-usage) | Rated Usage |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Mediation Record](mediation-record.md) | produces | [Rated Usage](rated-usage.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Rated Usage](rated-usage.md) | produces | [Charge](charge.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Mediation Record](mediation-record.md) | produces | [Rated Usage](rated-usage.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Rated Usage](rated-usage.md) | produces | [Charge](charge.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

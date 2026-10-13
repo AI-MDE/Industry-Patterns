@@ -17,11 +17,11 @@ Logical attributes: Quote Option Identifier; Option Name; Option Status; Premium
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#quote-option) | Quote Option |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#quote-option) | Quote Option |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Quote](quote.md) | contains | [Quote Option](quote-option.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Quote Option](quote-option.md) | proposes | Coverage configuration (review) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Quote](quote.md) | contains | [Quote Option](quote-option.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Quote Option](quote-option.md) | proposes | Coverage configuration (review) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

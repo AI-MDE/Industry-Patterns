@@ -17,11 +17,11 @@ Logical attributes: Quote Identifier; Quote Number; Quote Status; Issued Date; E
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#quote) | Quote |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#quote) | Quote |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Request](../lift-request/lift-request.md) | produces | [Quote](quote.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Quote](quote.md) | contains | [Quote Line](quote-line.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Request](../lift-request/lift-request.md) | produces | [Quote](quote.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Quote](quote.md) | contains | [Quote Line](quote-line.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

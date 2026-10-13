@@ -17,4 +17,4 @@ Logical attributes: History Identifier; Recorded Date; Symptom Description; Func
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#subjective-history) | Subjective History |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#subjective-history) | Subjective History |

@@ -17,4 +17,4 @@ Logical attributes: Teardown Identifier; Status; Start Time; End Time; Asset; Co
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#teardown-activity) | Teardown Activity |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#teardown-activity) | Teardown Activity |

@@ -17,11 +17,11 @@ Logical attributes: Batch Identifier; Batch Type; Batch Status; Started At; Comp
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#migration-batch) | Migration Batch |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#migration-batch) | Migration Batch |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Migration Wave](migration-wave.md) | executes through | [Migration Batch](migration-batch.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Batch](migration-batch.md) | contains | [Migration Item](migration-item.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Migration Wave](migration-wave.md) | executes through | [Migration Batch](migration-batch.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Batch](migration-batch.md) | contains | [Migration Item](migration-item.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

@@ -17,4 +17,4 @@ Logical attributes: Component Identifier; Component Type; Model; Serial or Logic
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#network-component) | Network Component |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#network-component) | Network Component |

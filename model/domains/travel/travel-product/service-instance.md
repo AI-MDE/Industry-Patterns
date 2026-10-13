@@ -19,14 +19,14 @@ Examples: a specific flight, train, hotel-night stay, vehicle rental period, cru
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#service-instance) | Service Instance |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#service-instance) | Service Instance |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Travel Service](travel-service.md) | occurs as | [Service Instance](service-instance.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Schedule](schedule.md) | generates or governs | [Service Instance](service-instance.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Service Instance](service-instance.md) | uses | [Location](location.md) | M:M | [travel](../../../../patterns/travel.md) |
-| [Segment](../traveler/segment.md) | references | [Service Instance](service-instance.md) | M:0..1 | [travel](../../../../patterns/travel.md) |
-| [Disruption](../change-request/disruption.md) | affects | [Service Instance](service-instance.md) | M:M | [travel](../../../../patterns/travel.md) |
+| [Travel Service](travel-service.md) | occurs as | [Service Instance](service-instance.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Schedule](schedule.md) | generates or governs | [Service Instance](service-instance.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Service Instance](service-instance.md) | uses | [Location](location.md) | M:M | [travel](../../../../industry-patterns/travel.md) |
+| [Segment](../traveler/segment.md) | references | [Service Instance](service-instance.md) | M:0..1 | [travel](../../../../industry-patterns/travel.md) |
+| [Disruption](../change-request/disruption.md) | affects | [Service Instance](service-instance.md) | M:M | [travel](../../../../industry-patterns/travel.md) |

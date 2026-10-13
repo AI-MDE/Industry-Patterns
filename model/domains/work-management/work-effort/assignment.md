@@ -17,11 +17,11 @@ Logical attributes: Assignment Identifier; Assignment Role; Assignment Status; A
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#assignment) | Assignment |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#assignment) | Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Party Role](../../party/party/party-role.md) | receives | [Assignment](assignment.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Assignment](assignment.md) | allocates to | [Work Effort](work-effort.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Party Role](../../party/party/party-role.md) | receives | [Assignment](assignment.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Assignment](assignment.md) | allocates to | [Work Effort](work-effort.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |

@@ -17,11 +17,11 @@ Logical attributes: Reconciliation Identifier; Reconciliation Type; Period; Stat
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#reconciliation) | Reconciliation |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#reconciliation) | Reconciliation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reconciliation](reconciliation.md) | compares | Transactions, entries, or external items (review) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Reconciliation](reconciliation.md) | identifies | [Reconciliation Exception](reconciliation-exception.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Reconciliation](reconciliation.md) | compares | Transactions, entries, or external items (review) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Reconciliation](reconciliation.md) | identifies | [Reconciliation Exception](reconciliation-exception.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

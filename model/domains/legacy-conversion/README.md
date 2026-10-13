@@ -9,3 +9,7 @@
 - [Lineage Record](lineage-record/README.md)
 - [System of Record Assignment](system-of-record-assignment/README.md)
 - [Cutover Event](cutover-event/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

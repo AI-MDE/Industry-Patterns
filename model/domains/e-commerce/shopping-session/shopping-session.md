@@ -17,4 +17,4 @@ Logical attributes: Session Identifier; Started At; Last Activity At; Channel; L
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#shopping-session) | Shopping Session |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#shopping-session) | Shopping Session |

@@ -15,4 +15,4 @@ Recurring obligation defined for an Equipment Category (or Model): service type,
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#maintenance-requirement-standard) | Maintenance Requirement (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#maintenance-requirement-standard) | Maintenance Requirement (Standard) |

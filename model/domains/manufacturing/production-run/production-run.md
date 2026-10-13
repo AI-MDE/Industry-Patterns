@@ -17,10 +17,10 @@ Logical attributes: Run Identifier; Run Number; Run Type; Run Status; Manufactur
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#production-run) | Production Run |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#production-run) | Production Run |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Manufacturing Order](../manufacturing-requirement/manufacturing-order.md) | has | [Production Run](production-run.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Manufacturing Order](../manufacturing-requirement/manufacturing-order.md) | has | [Production Run](production-run.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

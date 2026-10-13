@@ -21,5 +21,5 @@ An act or capability delivered for a client, beneficiary, site, asset, or other 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#service) | Service |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#service) | Service |
 | [modeling-patterns/service-scheduling.md](../../../../modeling-patterns/service-scheduling.md#service) | Service |

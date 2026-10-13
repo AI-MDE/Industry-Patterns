@@ -17,10 +17,10 @@ Logical attributes: Lineage Identifier; Target Record; Target Attribute; Source 
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#lineage-record) | Lineage Record |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#lineage-record) | Lineage Record |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lineage Record](lineage-record.md) | connects | Source Field and Target Attribute (review) | M:1 each | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Lineage Record](lineage-record.md) | connects | Source Field and Target Attribute (review) | M:1 each | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

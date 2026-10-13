@@ -19,4 +19,4 @@ Rule: distinguish physical on-hand quantity from available-to-promise quantity.
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#availability-promise) | Availability Promise |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#availability-promise) | Availability Promise |

@@ -17,10 +17,10 @@ Logical attributes: Precaution Identifier; Precaution Type; Status; Description;
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#precaution-or-contraindication) | Precaution or Contraindication |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#precaution-or-contraindication) | Precaution or Contraindication |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](therapy-episode.md) | has | [Precaution or Contraindication](precaution-or-contraindication.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](therapy-episode.md) | has | [Precaution or Contraindication](precaution-or-contraindication.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

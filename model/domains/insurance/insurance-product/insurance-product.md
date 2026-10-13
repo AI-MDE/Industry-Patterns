@@ -19,11 +19,11 @@ Logical attributes: Product Identifier; Product Name; Product Type; Line of Busi
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#insurance-product) | Insurance Product |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#insurance-product) | Insurance Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Insurer (review) | defines | [Insurance Product](insurance-product.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Insurance Product](insurance-product.md) | has | [Product Version](product-version.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Insurer (review) | defines | [Insurance Product](insurance-product.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Insurance Product](insurance-product.md) | has | [Product Version](product-version.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

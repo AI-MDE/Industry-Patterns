@@ -17,10 +17,32 @@ Logical attributes: Consent Identifier; Consent Type; Consent Status; Decision; 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#consent) | Consent |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#consent) | Consent |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Consent](consent.md) | given by | Patient or Related Person (review) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Consent](consent.md) | given by | Patient or Related Person (review) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Concerns a Patient; authorizes or refuses a defined purpose, actor, information scope, or service.
+
+## Operations
+
+- propose
+- record-decision
+- activate
+- revoke
+- expire
+- correct
+
+## States
+
+proposed; active; inactive; rejected; revoked; entered-in-error
+
+## Rules
+
+- [consent-evaluated-by-purpose-scope-and-time](../rules/consent-evaluated-by-purpose-scope-and-time.md)
+- [authorization-does-not-replace-consent](../rules/authorization-does-not-replace-consent.md)

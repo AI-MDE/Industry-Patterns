@@ -19,4 +19,4 @@ Logical attributes: Qualification Identifier; Qualification Type; Holder; Issuer
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#qualification) | Qualification |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#qualification) | Qualification |

@@ -8,3 +8,7 @@
 - [Production Run](production-run/README.md)
 - [Quality Plan](quality-plan/README.md)
 - [Maintenance Work Order](maintenance-work-order/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

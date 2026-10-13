@@ -17,10 +17,10 @@ Logical attributes: Facility Identifier; Facility Type; Facility Status; Approve
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#credit-facility) | Credit Facility |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#credit-facility) | Credit Facility |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Credit Facility](credit-facility.md) | governs | [Loan](loan.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Credit Facility](credit-facility.md) | governs | [Loan](loan.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

@@ -17,10 +17,30 @@ Logical attributes: Episode Identifier; Episode Type; Episode Status; Start Date
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#episode-of-care) | Episode of Care |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#episode-of-care) | Episode of Care |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Episode of Care](episode-of-care.md) | groups | [Encounter](encounter.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
+| [Episode of Care](episode-of-care.md) | groups | [Encounter](encounter.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Groups Encounters, Care Plans, Service Requests, and outcomes for a Patient.
+
+## Operations
+
+- open
+- add-encounter
+- place-on-hold
+- finish
+- cancel
+
+## States
+
+planned; active; on-hold; finished; cancelled; entered-in-error
+
+## Rules
+
+- [episode-must-concern-one-patient](../rules/episode-must-concern-one-patient.md)

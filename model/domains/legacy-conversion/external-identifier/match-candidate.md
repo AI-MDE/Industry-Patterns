@@ -17,4 +17,4 @@ Logical attributes: Candidate Identifier; Match Score; Match Method; Candidate S
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#match-candidate) | Match Candidate |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#match-candidate) | Match Candidate |

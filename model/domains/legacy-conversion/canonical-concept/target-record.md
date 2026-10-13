@@ -17,11 +17,11 @@ Logical attributes: Target Record Identifier; Target Key; Canonical Concept; Cre
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#target-record) | Target Record |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#target-record) | Target Record |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Target Store](target-store.md) | contains | [Target Record](target-record.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Item](../migration-plan/migration-item.md) | creates or updates | [Target Record](target-record.md) | M:0..M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Target Store](target-store.md) | contains | [Target Record](target-record.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Item](../migration-plan/migration-item.md) | creates or updates | [Target Record](target-record.md) | M:0..M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

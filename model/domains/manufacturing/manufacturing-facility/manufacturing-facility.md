@@ -19,4 +19,4 @@ Logical attributes: Facility Identifier; Facility Name; Facility Type; Status; T
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#manufacturing-facility) | Manufacturing Facility |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#manufacturing-facility) | Manufacturing Facility |

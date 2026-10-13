@@ -17,10 +17,10 @@ Logical attributes: Return Identifier; Return Status; Returned At; Asset List; R
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#return) | Return |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#return) | Return |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Return](return.md) | may produce | Damage Report or Maintenance Work Order (review) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Return](return.md) | may produce | Damage Report or Maintenance Work Order (review) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

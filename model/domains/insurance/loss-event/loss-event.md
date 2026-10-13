@@ -17,10 +17,10 @@ Logical attributes: Loss Event Identifier; Event Type; Occurred Start; Occurred 
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#loss-event) | Loss Event |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#loss-event) | Loss Event |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Loss Event](loss-event.md) | gives rise to | [Claim](claim.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Loss Event](loss-event.md) | gives rise to | [Claim](claim.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

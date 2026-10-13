@@ -17,4 +17,4 @@ Logical attributes: Status Type Identifier; Subject Type; Status Code; Status Na
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#status-type) | Status Type |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#status-type) | Status Type |

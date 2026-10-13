@@ -17,4 +17,4 @@ Logical attributes: Rate Card Identifier; Rate Card Name; Version; Currency; Ter
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#rate-card) | Rate Card |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#rate-card) | Rate Card |

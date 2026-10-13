@@ -17,11 +17,11 @@ Logical attributes: Reservation Identifier; Reserved Quantity; Reservation Statu
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#inventory-reservation) | Inventory Reservation |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#inventory-reservation) | Inventory Reservation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Inventory Reservation](inventory-reservation.md) | reserves | [Inventory Item](inventory-item.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Order Line](../order/order-line.md) | receives | [Inventory Reservation](inventory-reservation.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Inventory Reservation](inventory-reservation.md) | reserves | [Inventory Item](inventory-item.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Order Line](../order/order-line.md) | receives | [Inventory Reservation](inventory-reservation.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

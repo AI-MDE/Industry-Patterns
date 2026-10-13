@@ -19,11 +19,11 @@ Logical attributes: Service Order Identifier; Service Order Number; Order Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-order) | Service Order |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-order) | Service Order |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Order](service-order.md) | contains | [Service Order Item](service-order-item.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Service Order](service-order.md) | contains | [Provisioning Task](../resource-reservation/provisioning-task.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Order](service-order.md) | contains | [Service Order Item](service-order-item.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Service Order](service-order.md) | contains | [Provisioning Task](../resource-reservation/provisioning-task.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

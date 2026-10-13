@@ -19,4 +19,4 @@ Logical attributes: Service Request Identifier; Request Type; Request Status; Re
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#service-request) | Service Request |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#service-request) | Service Request |

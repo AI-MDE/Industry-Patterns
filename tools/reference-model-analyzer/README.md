@@ -94,6 +94,6 @@ Matching uses camel-case-aware names, applicable source aliases, and Domain/ABE 
 
 Reports contain entity mapping candidates, source-declared specialization, attribute gaps/type conflicts, relationship target ambiguity, missing relationships, cardinality review, declared relationship kind/lifecycle/cascade conflicts, Domain/ABE comparisons, capability/interface candidates, and unmapped constructs.
 
-Canonical cardinalities sometimes contain prose. They are preserved and flagged for review instead of guessing lifecycle/cascade behavior. The current manifest has no separate capability/interface inventory, so those imported structures remain review candidates; reports say so. Modules/workflows remain in normalized output for architecture review.
+Canonical cardinalities sometimes contain prose. They are preserved and flagged for review instead of guessing lifecycle/cascade behavior. The manifest's requirements registry supplies a partial Health Care capability inventory. Other capability and interface gaps remain review candidates; reports say so. Imported modules/workflows remain in normalized output for review.
 
 See the [architecture](../../docs/reference-model-importer.md), [coherent model](../../model/README.md), and [terminology scope](../../docs/terminology-aliases.md).

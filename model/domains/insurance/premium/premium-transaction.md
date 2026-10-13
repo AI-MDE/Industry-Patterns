@@ -17,4 +17,4 @@ Logical attributes: Premium Transaction Identifier; Transaction Type; Amount; Ta
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#premium-transaction) | Premium Transaction |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#premium-transaction) | Premium Transaction |

@@ -19,10 +19,10 @@ Logical attributes: Fulfillment Identifier; Fulfillment Type; Fulfillment Status
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#fulfillment) | Fulfillment |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#fulfillment) | Fulfillment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Travel Document](travel-document.md) | authorizes | [Fulfillment](fulfillment.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Travel Document](travel-document.md) | authorizes | [Fulfillment](fulfillment.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

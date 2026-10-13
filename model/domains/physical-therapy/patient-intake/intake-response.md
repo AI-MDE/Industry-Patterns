@@ -17,4 +17,4 @@ Logical attributes: Response Identifier; Question Code; Response Value; Recorded
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#intake-response) | Intake Response |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#intake-response) | Intake Response |

@@ -17,10 +17,10 @@ Logical attributes: Event Identifier; Event Type; Occurred At; Recorded At; Sour
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#business-event) | Business Event |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#business-event) | Business Event |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Business Event](business-event.md) | may trigger | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Business Event](business-event.md) | may trigger | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

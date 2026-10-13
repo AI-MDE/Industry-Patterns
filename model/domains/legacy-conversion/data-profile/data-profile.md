@@ -17,10 +17,10 @@ Logical attributes: Profile Identifier; Profiled At; Record Count; Null Count; D
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#data-profile) | Data Profile |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#data-profile) | Data Profile |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Data Profile](data-profile.md) | describes | Dataset, Entity, or Field (review) | M:1 | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Data Profile](data-profile.md) | describes | Dataset, Entity, or Field (review) | M:1 | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

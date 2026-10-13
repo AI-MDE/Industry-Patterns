@@ -19,10 +19,10 @@ Reconciliation types include record count, control total, monetary total, balanc
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#reconciliation) | Reconciliation |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#reconciliation) | Reconciliation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reconciliation](reconciliation.md) | evaluates | Migration Batch or Wave (review) | M:1 | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Reconciliation](reconciliation.md) | evaluates | Migration Batch or Wave (review) | M:1 | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

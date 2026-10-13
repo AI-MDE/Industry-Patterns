@@ -19,10 +19,10 @@ Logical attributes: Location Identifier; Location Code; Location Name; Location 
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#location) | Location |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#location) | Location |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Instance](service-instance.md) | uses | [Location](location.md) | M:M | [travel](../../../../patterns/travel.md) |
+| [Service Instance](service-instance.md) | uses | [Location](location.md) | M:M | [travel](../../../../industry-patterns/travel.md) |

@@ -17,4 +17,4 @@ Logical attributes: Location Identifier; Location Type; Address or Coordinates; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-location) | Service Location |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-location) | Service Location |

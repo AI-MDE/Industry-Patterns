@@ -17,10 +17,10 @@ Logical attributes: Quote Identifier; Quote Number; Quote Status; Requested Date
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#quote) | Quote |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#quote) | Quote |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Quote](quote.md) | contains | [Quote Option](quote-option.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Quote](quote.md) | contains | [Quote Option](quote-option.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

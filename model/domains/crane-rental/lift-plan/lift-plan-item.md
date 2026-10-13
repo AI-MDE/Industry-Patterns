@@ -19,4 +19,4 @@ Items may address load, pick/set locations, crane position, configuration, radiu
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-plan-item) | Lift Plan Item |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-plan-item) | Lift Plan Item |

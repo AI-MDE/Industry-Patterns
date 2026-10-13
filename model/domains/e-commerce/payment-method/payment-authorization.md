@@ -17,11 +17,11 @@ Logical attributes: Authorization Identifier; Provider Reference; Requested Amou
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#payment-authorization) | Payment Authorization |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#payment-authorization) | Payment Authorization |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](../order/order.md) | receives | [Payment Authorization](payment-authorization.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Payment Authorization](payment-authorization.md) | may produce | [Payment](../../finance/invoice/payment.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Order](../order/order.md) | receives | [Payment Authorization](payment-authorization.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Payment Authorization](payment-authorization.md) | may produce | [Payment](../../finance/invoice/payment.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

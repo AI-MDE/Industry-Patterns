@@ -19,4 +19,4 @@ Logical attributes: Work Order Identifier; Work Type; Status; Site; Appointment;
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#field-work-order) | Field Work Order |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#field-work-order) | Field Work Order |

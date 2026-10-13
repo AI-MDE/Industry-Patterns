@@ -21,4 +21,4 @@ Rule: Product Order expresses the Customer commitment; Service and Resource Orde
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#resource-order) | Resource Order |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#resource-order) | Resource Order |

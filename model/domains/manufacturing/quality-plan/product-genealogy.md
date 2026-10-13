@@ -19,10 +19,10 @@ Rule: inspection, conformance decision, nonconformance, disposition, and correct
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product-genealogy) | Product Genealogy |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product-genealogy) | Product Genealogy |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Genealogy](product-genealogy.md) | links | Input to Output (review) | M:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Product Genealogy](product-genealogy.md) | links | Input to Output (review) | M:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

@@ -10,3 +10,7 @@
 - [Pre-Lift Meeting](pre-lift-meeting/README.md)
 - [Equipment Usage Record](equipment-usage-record/README.md)
 - [Charge Event](charge-event/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

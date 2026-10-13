@@ -17,10 +17,10 @@ Logical attributes: Part Revision Identifier; Revision; Status; Effective From; 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#part-revision) | Part Revision |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#part-revision) | Part Revision |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [BOM Component](bom-component.md) | references | [Part Revision](part-revision.md) | M:1 | [manufacturing](../../../../patterns/manufacturing.md) |
+| [BOM Component](bom-component.md) | references | [Part Revision](part-revision.md) | M:1 | [manufacturing](../../../../industry-patterns/manufacturing.md) |

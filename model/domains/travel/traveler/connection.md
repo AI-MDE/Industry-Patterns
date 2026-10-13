@@ -17,10 +17,10 @@ Logical attributes: Connection Identifier; Connection Type; Minimum Connection T
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#connection) | Connection |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#connection) | Connection |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Segment](segment.md) | connects through | [Connection](connection.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Segment](segment.md) | connects through | [Connection](connection.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

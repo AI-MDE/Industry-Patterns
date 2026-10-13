@@ -17,4 +17,4 @@ Logical attributes: Component Identifier; Quantity; Unit of Measure; Effective F
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#product-component) | Product Component |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#product-component) | Product Component |

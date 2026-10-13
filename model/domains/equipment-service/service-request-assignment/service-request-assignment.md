@@ -17,4 +17,4 @@ Commitment of a Technician to a Service Request (and, in Standard, to a period).
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-request-assignment) | Service Request Assignment |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-request-assignment) | Service Request Assignment |

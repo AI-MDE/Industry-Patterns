@@ -17,10 +17,10 @@ Logical attributes: Activity Identifier; Program; Activity Date; Exercise Prescr
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#home-program-activity) | Home Program Activity |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#home-program-activity) | Home Program Activity |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Home Exercise Program](home-exercise-program.md) | receives | [Home Program Activity](home-program-activity.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Home Exercise Program](home-exercise-program.md) | receives | [Home Program Activity](home-program-activity.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

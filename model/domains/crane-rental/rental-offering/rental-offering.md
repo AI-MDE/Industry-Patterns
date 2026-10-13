@@ -19,4 +19,4 @@ Logical attributes: Offering Identifier; Offering Name; Offering Type; Status; E
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#rental-offering) | Rental Offering |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#rental-offering) | Rental Offering |

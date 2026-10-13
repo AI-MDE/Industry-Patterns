@@ -17,13 +17,13 @@ Logical attributes: Migration Item Identifier; Item Status; Source Record refere
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#migration-item) | Migration Item |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#migration-item) | Migration Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Migration Batch](migration-batch.md) | contains | [Migration Item](migration-item.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Item](migration-item.md) | reads | [Source Record](../system/source-record.md) | M:1 | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Item](migration-item.md) | creates or updates | [Target Record](../canonical-concept/target-record.md) | M:0..M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Item](migration-item.md) | produces | Validation Result or Conversion Error (review) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Migration Batch](migration-batch.md) | contains | [Migration Item](migration-item.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Item](migration-item.md) | reads | [Source Record](../system/source-record.md) | M:1 | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Item](migration-item.md) | creates or updates | [Target Record](../canonical-concept/target-record.md) | M:0..M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Item](migration-item.md) | produces | Validation Result or Conversion Error (review) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

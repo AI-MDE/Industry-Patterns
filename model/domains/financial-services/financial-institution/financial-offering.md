@@ -19,10 +19,10 @@ Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-offering) | Financial Offering |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-offering) | Financial Offering |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Financial Offering](financial-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [financial-services](../../../../patterns/financial-services.md) |
+| [Financial Offering](financial-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [financial-services](../../../../industry-patterns/financial-services.md) |

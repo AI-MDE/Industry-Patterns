@@ -19,4 +19,4 @@ Rule: retain every Plan of Care version and the goals, approvals, frequency, dur
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#plan-approval-or-certification) | Plan Approval or Certification |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#plan-approval-or-certification) | Plan Approval or Certification |

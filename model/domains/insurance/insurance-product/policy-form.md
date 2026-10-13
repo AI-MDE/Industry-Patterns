@@ -17,4 +17,4 @@ Logical attributes: Form Identifier; Form Number; Form Title; Form Type; Form Ve
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#policy-form) | Policy Form |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#policy-form) | Policy Form |

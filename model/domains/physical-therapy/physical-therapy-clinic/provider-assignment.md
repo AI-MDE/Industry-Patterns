@@ -19,10 +19,10 @@ Logical attributes: Assignment Identifier; Assignment Role; Assignment Status; A
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#provider-assignment) | Provider Assignment |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#provider-assignment) | Provider Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Provider](therapy-provider.md) | receives | [Provider Assignment](provider-assignment.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Provider](therapy-provider.md) | receives | [Provider Assignment](provider-assignment.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

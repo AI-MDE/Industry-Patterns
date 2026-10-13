@@ -19,4 +19,4 @@ Rule: Alarm, Trouble Ticket, Incident, Outage, Service Impact, and SLA violation
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#outage) | Outage |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#outage) | Outage |

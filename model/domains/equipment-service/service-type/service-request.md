@@ -17,4 +17,4 @@ On-demand expression of need for service on one Equipment item, from a Contact, 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-request) | Service Request |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-request) | Service Request |

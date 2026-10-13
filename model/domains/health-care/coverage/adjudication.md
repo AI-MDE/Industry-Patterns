@@ -23,13 +23,13 @@ Logical attributes: Adjudication Identifier; Decision Date; Decision Status; All
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#adjudication) | Adjudication |
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#adjudication) | Adjudication |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#adjudication) | Adjudication |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#adjudication) | Adjudication |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| [Adjudication](adjudication.md) | may produce | [Payment](../../finance/invoice/payment.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| [Adjudication](adjudication.md) | may produce | [Payment](../../finance/invoice/payment.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

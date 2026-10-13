@@ -17,4 +17,4 @@ Logical attributes: Error Identifier; Error Type; Error Code; Severity; Message;
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#conversion-error) | Conversion Error |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#conversion-error) | Conversion Error |

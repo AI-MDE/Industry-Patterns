@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateLinks } from './links.mjs';
+import { validateRequirements } from './requirements.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const model = JSON.parse(fs.readFileSync(path.join(root, 'model/model.json'), 'utf8'));
@@ -80,8 +81,12 @@ for (const relationship of model.relationships) {
     `Invalid resolved relationship: ${relationship.sourceTerm} → ${relationship.targetTerm}`);
 }
 
-// Cover discovery docs, knowledge bases and tool docs as well as canonical pages.
+for (const legacy of ['patterns', 'knowledge-bases']) check(!fs.existsSync(path.join(root, legacy)), `Retired folder remains: ${legacy}`);
+const requirements = validateRequirements(root, model);
+errors.push(...requirements.errors);
+
+// Cover discovery docs, domain requirements and tool docs as well as entity pages.
 const links = validateLinks(root);
 errors.push(...links.errors);
 if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
-else console.log(`Valid: ${domains.size} Domains, ${abes.size} ABEs, ${concepts.size} concepts, ${model.bindings.length} source bindings, ${model.relationships.length} relationships (${model.relationships.filter(r => r.status === 'review').length} for semantic review). Local links checked in ${links.pages} Markdown pages.`);
+else console.log(`Valid: ${domains.size} Domains, ${abes.size} ABEs, ${concepts.size} concepts, ${requirements.requirements.length} requirements, ${model.bindings.length} source bindings, ${model.relationships.length} relationships (${model.relationships.filter(r => r.status === 'review').length} for semantic review). Local links checked in ${links.pages} Markdown pages.`);

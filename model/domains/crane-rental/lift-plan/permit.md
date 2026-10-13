@@ -17,4 +17,4 @@ Logical attributes: Permit Identifier; Permit Type; Permit Number; Permit Status
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#permit) | Permit |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#permit) | Permit |

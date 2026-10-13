@@ -17,10 +17,10 @@ Logical attributes: Subscription Identifier; Subscription Status; Start Date; Re
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#subscription) | Subscription |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#subscription) | Subscription |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Subscription](subscription.md) | grants | [Entitlement](entitlement.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Subscription](subscription.md) | grants | [Entitlement](entitlement.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

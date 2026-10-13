@@ -17,10 +17,10 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#product) | Product |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#product) | Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product](product.md) | contains | [Product](product.md) | M:M through Product Component | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Product](product.md) | contains | [Product](product.md) | M:M through Product Component | [cross-industry](../../../../industry-patterns/cross-industry.md) |

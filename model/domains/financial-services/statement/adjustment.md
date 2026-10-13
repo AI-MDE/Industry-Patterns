@@ -17,10 +17,10 @@ Logical attributes: Adjustment Identifier; Adjustment Type; Status; Requested Da
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#adjustment) | Adjustment |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#adjustment) | Adjustment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Dispute](dispute.md) | may produce | [Adjustment](adjustment.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Dispute](dispute.md) | may produce | [Adjustment](adjustment.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

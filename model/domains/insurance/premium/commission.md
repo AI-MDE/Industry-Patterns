@@ -17,10 +17,10 @@ Logical attributes: Commission Identifier; Commission Type; Basis Amount; Rate; 
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#commission) | Commission |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#commission) | Commission |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Producer (review) | earns | [Commission](commission.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Producer (review) | earns | [Commission](commission.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

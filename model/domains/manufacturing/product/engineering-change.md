@@ -19,10 +19,10 @@ Rule: Product, Product Version, Part, Part Revision, Specification, and BOM Vers
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#engineering-change) | Engineering Change |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#engineering-change) | Engineering Change |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Engineering Change](engineering-change.md) | changes | Product, Part, BOM, Routing, or Specification (review) | M:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Engineering Change](engineering-change.md) | changes | Product, Part, BOM, Routing, or Specification (review) | M:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

@@ -17,11 +17,11 @@ Logical attributes: Dataset Identifier; Dataset Name; Dataset Type; Source Syste
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#source-dataset) | Source Dataset |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#source-dataset) | Source Dataset |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [System](system.md) | provides | [Source Dataset](source-dataset.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Source Dataset](source-dataset.md) | contains | [Source Entity](source-entity.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [System](system.md) | provides | [Source Dataset](source-dataset.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Source Dataset](source-dataset.md) | contains | [Source Entity](source-entity.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

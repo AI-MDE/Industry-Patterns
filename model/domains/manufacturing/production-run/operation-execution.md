@@ -17,13 +17,13 @@ Logical attributes: Execution Identifier; Work Operation; Status; Start Time; En
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#operation-execution) | Operation Execution |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#operation-execution) | Operation Execution |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Work Order Operation](../manufacturing-requirement/work-order-operation.md) | receives | [Operation Execution](operation-execution.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Operation Execution](operation-execution.md) | consumes | [Material Issue](../inventory-item/material-issue.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Operation Execution](operation-execution.md) | produces | [Production Output](production-output.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Operation Execution](operation-execution.md) | records | Labor, Machine, and Process Measurement (review) | 1:M each | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Work Order Operation](../manufacturing-requirement/work-order-operation.md) | receives | [Operation Execution](operation-execution.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Operation Execution](operation-execution.md) | consumes | [Material Issue](../inventory-item/material-issue.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Operation Execution](operation-execution.md) | produces | [Production Output](production-output.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Operation Execution](operation-execution.md) | records | Labor, Machine, and Process Measurement (review) | 1:M each | [manufacturing](../../../../industry-patterns/manufacturing.md) |

@@ -17,10 +17,10 @@ Logical attributes: Confirmation Identifier; Supplier Reference; Confirmation St
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#supplier-confirmation) | Supplier Confirmation |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#supplier-confirmation) | Supplier Confirmation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Booking Item](booking-item.md) | receives | [Supplier Confirmation](supplier-confirmation.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Booking Item](booking-item.md) | receives | [Supplier Confirmation](supplier-confirmation.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

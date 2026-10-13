@@ -17,10 +17,10 @@ Logical attributes: Specification Identifier; Specification Type; Version; Statu
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product-specification) | Product Specification |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product-specification) | Product Specification |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Version](product-version.md) | has | [Product Specification](product-specification.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Product Version](product-version.md) | has | [Product Specification](product-specification.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

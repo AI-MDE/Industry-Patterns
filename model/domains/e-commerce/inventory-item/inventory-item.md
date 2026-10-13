@@ -17,11 +17,11 @@ Logical attributes: Inventory Item Identifier; SKU; Location reference; Inventor
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#inventory-item) | Inventory Item |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#inventory-item) | Inventory Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Inventory Item](inventory-item.md) | stocks | [Product Variant](../channel/product-variant.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Inventory Reservation](inventory-reservation.md) | reserves | [Inventory Item](inventory-item.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Inventory Item](inventory-item.md) | stocks | [Product Variant](../channel/product-variant.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Inventory Reservation](inventory-reservation.md) | reserves | [Inventory Item](inventory-item.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

@@ -19,4 +19,4 @@ Sensitive document values require restricted access and appropriate protection.
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#traveler-document) | Traveler Document |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#traveler-document) | Traveler Document |

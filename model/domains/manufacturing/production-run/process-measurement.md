@@ -19,4 +19,4 @@ Logical attributes: Measurement Identifier; Parameter; Observed At; Value; Unit;
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#process-measurement) | Process Measurement |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#process-measurement) | Process Measurement |

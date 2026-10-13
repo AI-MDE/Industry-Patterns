@@ -17,11 +17,11 @@ Logical attributes: Work Center Identifier; Work Center Name; Work Center Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#work-center) | Work Center |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#work-center) | Work Center |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Facility (review) | contains | [Work Center](work-center.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Work Center](work-center.md) | contains | [Machine Asset](machine-asset.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| Facility (review) | contains | [Work Center](work-center.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Work Center](work-center.md) | contains | [Machine Asset](machine-asset.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

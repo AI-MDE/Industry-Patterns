@@ -20,7 +20,7 @@ Concepts: Product, Part, Component, Product Specification, Bill of Materials, En
 
 Reusable patterns: Product/Part, Bill of Materials, Engineering Change, Inventory Configuration, Manufacturing Order, Work Effort/Process Plan, Production Run, Product Deployment, and Manufacturing Star Schema.
 
-See the full [Manufacturing model pattern](patterns/manufacturing.md).
+See the full [Manufacturing model pattern](industry-patterns/manufacturing.md).
 
 ## Telecommunications
 
@@ -30,7 +30,7 @@ Concepts: Telecommunications Product, Telecommunications Service, Network Compon
 
 Reusable patterns: Product/Service, Network Component, Circuit/Connection, Service Order, Deployment/Usage, Subscription, Usage Billing, and Contact Mechanism.
 
-See the full [Telecommunications model pattern](patterns/telecommunications.md).
+See the full [Telecommunications model pattern](industry-patterns/telecommunications.md).
 
 ## Health Care
 
@@ -40,7 +40,7 @@ Concepts: Patient, Health Care Provider, Facility, Encounter, Medical Case, Heal
 
 Reusable patterns: Patient/Provider Role, Encounter, Case Management, Health Care Claim, Service Delivery, Facility, Status Lifecycle, and Privacy/Access Control.
 
-See the full [Health Care model pattern](patterns/health-care.md).
+See the full [Health Care model pattern](industry-patterns/health-care.md).
 
 ## Insurance
 
@@ -50,7 +50,7 @@ Concepts: Insurer, Insurance Product, Policy, Coverage, Policyholder, Policy Par
 
 The principal distinctions are product versus policy, policy versus coverage, insured subject versus policy party, and claim versus settlement/payment.
 
-See the full [Insurance model pattern](patterns/insurance.md).
+See the full [Insurance model pattern](industry-patterns/insurance.md).
 
 ## Financial Services
 
@@ -60,7 +60,7 @@ Concepts: Financial Institution, Customer, Account, Financial Product, Financial
 
 Reusable patterns: Party/Customer Role, Product/Offering, Customer Due Diligence, Financial Agreement, Account/Authority, Instruction/Authorization, Transaction/Ledger Entry, Payment/Clearing/Settlement, Reconciliation, and Dispute.
 
-See the full [Financial Services model pattern](patterns/financial-services.md).
+See the full [Financial Services model pattern](industry-patterns/financial-services.md).
 
 ## Professional Services
 
@@ -70,7 +70,7 @@ Concepts: Client, Client Contact, Professional, Engagement, Service Agreement, P
 
 Enterprise extensions: Practice Area, Service Offering, Skill, Resource Plan, Client Account, Matter, Work Effort, and Billing Event.
 
-See [Professional Services](patterns/professional-services.md).
+See [Professional Services](industry-patterns/professional-services.md).
 
 ## Travel
 
@@ -78,7 +78,7 @@ See [Professional Services](patterns/professional-services.md).
 
 Concepts: Traveler, Travel Provider, Travel Product/Service, Itinerary, Reservation, Booking, Trip Segment, Location, Schedule, Fare, Rate, Ticket, Payment, Cancellation, and Status.
 
-See the full [Travel model pattern](patterns/travel.md).
+See the full [Travel model pattern](industry-patterns/travel.md).
 
 ## E-Commerce
 
@@ -88,7 +88,7 @@ Concepts: Customer, Product, Product Offering, Catalog, Shopping Cart, Sales Ord
 
 This subject reuses Party, Product, Order, Payment, Shipment, and Status Lifecycle patterns.
 
-See the full [E-Commerce model pattern](patterns/e-commerce.md).
+See the full [E-Commerce model pattern](industry-patterns/e-commerce.md).
 
 ## Real-World Extensions and Legacy Conversion
 
@@ -96,7 +96,7 @@ See the full [E-Commerce model pattern](patterns/e-commerce.md).
 
 Concerns: mapping legacy tables to canonical concepts, preserving external identifiers, supporting organization-specific terminology, handling incomplete or denormalized data, using classifications rather than proliferating entity types, progressive migration, and lineage between legacy data and MDE knowledge.
 
-See the full [Real-World Extensions and Legacy Conversion pattern](patterns/legacy-conversion.md).
+See the full [Real-World Extensions and Legacy Conversion pattern](industry-patterns/legacy-conversion.md).
 
 ## Applied Industry Extensions
 
@@ -110,7 +110,7 @@ Concepts: Patient Intake, Referral, Therapy Episode, Initial Evaluation, Clinica
 
 Reusable patterns: Patient/Provider Role, Referral and Intake, Evaluation, Plan of Care and Goal, Recurring Service, Constraint-Based Scheduling, Appointment/Visit, Intervention Delivery, Exercise Prescription, Outcome Measurement, Authorization Utilization, Billing, and Discharge.
 
-See the full [Physical Therapy Clinic model pattern](patterns/physical-therapy-clinic.md).
+See the full [Physical Therapy Clinic model pattern](industry-patterns/physical-therapy-clinic.md).
 
 ### Industrial & Commercial Crane Rental Orchestration
 
@@ -120,7 +120,7 @@ Concepts: Lift Request, Job Site, Load Requirement, Site Survey, Crane Asset, Cr
 
 Reusable patterns: Asset/Fleet, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling, Lift Demand Assessment, Equipment Selection and Configuration, Quote/Agreement, Lift Planning, Qualification and Readiness, Reservation and Dispatch, Transport, Setup and Inspection, Lift Execution, Utilization and Maintenance, and Usage-Based Billing.
 
-See the full [Industrial & Commercial Crane Rental Orchestration model pattern](patterns/crane-rental-orchestration.md).
+See the full [Industrial & Commercial Crane Rental Orchestration model pattern](industry-patterns/crane-rental-orchestration.md).
 
 ### Equipment Service and Field Service
 
@@ -130,5 +130,5 @@ Concepts: Customer, Contact, Equipment Category, Equipment Model, Equipment, Met
 
 Reusable patterns: Party/Contact, Asset Catalog vs. Instance, On-Demand Service Request, Recurring Maintenance/Inspection, Constraint-Based Scheduling (skills and certification), Assignment, Work Effort, Time Entry, Status Lifecycle and History, and Agreement.
 
-See the full [Equipment Service and Field Service model pattern](patterns/equipment-service.md).
+See the full [Equipment Service and Field Service model pattern](industry-patterns/equipment-service.md).
 

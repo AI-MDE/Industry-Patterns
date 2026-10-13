@@ -19,11 +19,11 @@ Examples: delay, cancellation, missed connection, closure, overbooking, equipmen
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#disruption) | Disruption |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#disruption) | Disruption |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Disruption](disruption.md) | affects | [Service Instance](../travel-product/service-instance.md) | M:M | [travel](../../../../patterns/travel.md) |
-| [Disruption](disruption.md) | may produce | Reaccommodation or Duty of Care Case (review) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Disruption](disruption.md) | affects | [Service Instance](../travel-product/service-instance.md) | M:M | [travel](../../../../industry-patterns/travel.md) |
+| [Disruption](disruption.md) | may produce | Reaccommodation or Duty of Care Case (review) | 1:M | [travel](../../../../industry-patterns/travel.md) |

@@ -19,10 +19,10 @@ Roles include claimant, insured, injured party, witness, service provider, attor
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim-party) | Claim Party |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim-party) | Claim Party |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim](claim.md) | has | [Claim Party](claim-party.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Claim](claim.md) | has | [Claim Party](claim-party.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

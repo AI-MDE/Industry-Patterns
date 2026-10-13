@@ -17,10 +17,10 @@ Logical attributes: Concern Identifier; Concern Type; Description; Onset Date; M
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#presenting-concern) | Presenting Concern |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#presenting-concern) | Presenting Concern |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](therapy-episode.md) | concerns | [Presenting Concern](presenting-concern.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](therapy-episode.md) | concerns | [Presenting Concern](presenting-concern.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

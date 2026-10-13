@@ -19,10 +19,10 @@ Logical attributes: Charge Identifier; Charge Type; Charge Status; Billing Accou
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#charge) | Charge |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#charge) | Charge |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Rated Usage](rated-usage.md) | produces | [Charge](charge.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Rated Usage](rated-usage.md) | produces | [Charge](charge.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

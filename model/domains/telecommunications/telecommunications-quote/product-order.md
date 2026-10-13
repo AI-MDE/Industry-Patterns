@@ -19,10 +19,10 @@ Logical attributes: Product Order Identifier; Order Number; Order Type; Order St
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#product-order) | Product Order |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#product-order) | Product Order |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Order](product-order.md) | contains | [Product Order Item](product-order-item.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Product Order](product-order.md) | contains | [Product Order Item](product-order-item.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

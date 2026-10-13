@@ -19,10 +19,10 @@ Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agre
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#customer-agreement) | Customer Agreement |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#customer-agreement) | Customer Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Customer Agreement](customer-agreement.md) | governs | [Subscription](subscription.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Customer Agreement](customer-agreement.md) | governs | [Subscription](subscription.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

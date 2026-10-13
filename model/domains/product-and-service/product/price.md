@@ -23,12 +23,12 @@ Logical attributes: Price Identifier; Price Type; Amount; Currency; Unit of Meas
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#price) | Price |
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#price) | Price |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#price) | Price |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#price) | Price |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Offering](offering.md) | has | [Price](price.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Offering](../../e-commerce/channel/offering.md) | has | [Price](price.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Offering](offering.md) | has | [Price](price.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Offering](../../e-commerce/channel/offering.md) | has | [Price](price.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

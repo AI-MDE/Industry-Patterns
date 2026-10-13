@@ -17,4 +17,4 @@ Logical attributes: Identity Change Identifier; Change Type; Effective At; Chang
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#mergesplit-history) | Merge/Split History |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#mergesplit-history) | Merge/Split History |

@@ -21,11 +21,11 @@ Structured clause: payment schedule, renewal, warranty, penalty, insurance, retu
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#agreement-term) | Agreement Term |
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#agreement-term) | Agreement Term |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#agreement-term) | Agreement Term |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#agreement-term) | Agreement Term |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Agreement](agreement.md) | contains | [Agreement Term](agreement-term.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Agreement](agreement.md) | contains | [Agreement Term](agreement-term.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

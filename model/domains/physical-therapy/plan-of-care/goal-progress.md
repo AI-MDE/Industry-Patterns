@@ -19,10 +19,10 @@ Progress statuses may include not started, progressing, met, partially met, not 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#goal-progress) | Goal Progress |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#goal-progress) | Goal Progress |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Goal](therapy-goal.md) | receives | [Goal Progress](goal-progress.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Goal](therapy-goal.md) | receives | [Goal Progress](goal-progress.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

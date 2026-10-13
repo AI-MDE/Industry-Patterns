@@ -17,4 +17,4 @@ Logical attributes: Goal Identifier; Goal Description; Goal Status; Priority; Ta
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#care-goal) | Care Goal |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#care-goal) | Care Goal |

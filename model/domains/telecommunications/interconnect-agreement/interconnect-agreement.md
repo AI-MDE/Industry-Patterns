@@ -19,10 +19,10 @@ Logical attributes: Agreement Identifier; Agreement Number; Status; Partner; Eff
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#interconnect-agreement) | Interconnect Agreement |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#interconnect-agreement) | Interconnect Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Interconnect Agreement](interconnect-agreement.md) | governs | Partner Service and Settlement (review) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Interconnect Agreement](interconnect-agreement.md) | governs | Partner Service and Settlement (review) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

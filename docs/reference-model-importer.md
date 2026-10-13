@@ -228,7 +228,7 @@ The analyzer loads the coherent model manifest and Markdown concept pages. Sourc
 
 Equal-name candidates are compared with Domain/ABE context. Unresolved ties become conflicts. Explicit source generalizations support specialization findings. Attributes and relationships are compared where both sides provide evidence. Domain, ABE, capability, and interface comparisons are included. Every mapping requires review; no concept is automatically adopted.
 
-The current canonical manifest has no separate capability/interface inventory. Imported structures therefore remain review candidates until a target inventory is supplied. Adapter dialect limitations are reported. FHIR, ACORD, GS1, and additional vendor-specific adapters remain future work.
+The requirements registry provides a partial capability inventory for Health Care. Other industry capabilities and interfaces still need inventories; imported structures without targets remain review candidates. Adapter dialect limitations are reported. FHIR, ACORD, GS1, and additional vendor-specific adapters remain future work.
 
 ## Strategic value
 

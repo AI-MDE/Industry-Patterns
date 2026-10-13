@@ -19,11 +19,11 @@ Logical attributes: Requirement Identifier; Resource Type; Required Capability; 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#resource-requirement) | Resource Requirement |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#resource-requirement) | Resource Requirement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Job Order](../rental-offering/job-order.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Resource Requirement](resource-requirement.md) | fulfilled by | [Reservation](reservation.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Job Order](../rental-offering/job-order.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Resource Requirement](resource-requirement.md) | fulfilled by | [Reservation](reservation.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

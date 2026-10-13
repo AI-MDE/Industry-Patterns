@@ -44,4 +44,8 @@ The industry adds or specializes concepts that are distinctive to professional-s
 
 A Professional Services application should compose these shared domains and add only the professional-service refinements it needs. Generic concepts such as Client, Professional, Skill, Project, Task, Time Entry, Expense, Approval, Invoice, Payment, Client Account, and Resource Plan are not owned by this industry profile.
 
-See the [Professional Services pattern](../../../patterns/professional-services.md) for the business view.
+See the [Professional Services pattern](../../../industry-patterns/professional-services.md) for the business view.
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

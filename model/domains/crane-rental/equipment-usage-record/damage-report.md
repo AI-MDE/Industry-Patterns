@@ -17,4 +17,4 @@ Logical attributes: Damage Report Identifier; Status; Detected At; Asset or Comp
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#damage-report) | Damage Report |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#damage-report) | Damage Report |

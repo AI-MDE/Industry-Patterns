@@ -19,13 +19,13 @@ Rule: Booking Items preserve accepted service, price, rule, tax, and participant
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#booking-item) | Booking Item |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#booking-item) | Booking Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Booking](booking.md) | contains | [Booking Item](booking-item.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Booking Item](booking-item.md) | receives | [Traveler Assignment](traveler-assignment.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Booking Item](booking-item.md) | receives | [Supplier Confirmation](supplier-confirmation.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Booking Item](booking-item.md) | issues | [Travel Document](../travel-document/travel-document.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Booking](booking.md) | contains | [Booking Item](booking-item.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Booking Item](booking-item.md) | receives | [Traveler Assignment](traveler-assignment.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Booking Item](booking-item.md) | receives | [Supplier Confirmation](supplier-confirmation.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Booking Item](booking-item.md) | issues | [Travel Document](../travel-document/travel-document.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

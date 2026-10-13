@@ -19,4 +19,4 @@ Examples: wind, temperature, visibility, proximity to power lines, simultaneous 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-condition) | Lift Condition |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-condition) | Lift Condition |

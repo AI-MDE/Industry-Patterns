@@ -17,10 +17,10 @@ Logical attributes: Verification Identifier; Coverage; Verification Status; Veri
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#eligibility-verification) | Eligibility Verification |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#eligibility-verification) | Eligibility Verification |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Eligibility Verification](eligibility-verification.md) | evaluates | [Coverage](../../health-care/coverage/coverage.md) | M:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Eligibility Verification](eligibility-verification.md) | evaluates | [Coverage](../../health-care/coverage/coverage.md) | M:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

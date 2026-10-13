@@ -19,4 +19,4 @@ Examples: restock, refurbish, quarantine, return to supplier, destroy, or reject
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#disposition) | Disposition |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#disposition) | Disposition |

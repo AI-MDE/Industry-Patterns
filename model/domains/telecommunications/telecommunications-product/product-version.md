@@ -17,12 +17,12 @@ Logical attributes: Product Version Identifier; Version; Status; Effective From;
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#product-version) | Product Version |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#product-version) | Product Version |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Telecommunications Product](telecommunications-product.md) | has | [Product Version](product-version.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Product Version](product-version.md) | contains | [Product Component](product-component.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Product Offering](product-offering.md) | offers | [Product Version](product-version.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Telecommunications Product](telecommunications-product.md) | has | [Product Version](product-version.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Product Version](product-version.md) | contains | [Product Component](product-component.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Product Offering](product-offering.md) | offers | [Product Version](product-version.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

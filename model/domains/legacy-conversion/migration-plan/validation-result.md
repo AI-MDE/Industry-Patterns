@@ -17,4 +17,4 @@ Logical attributes: Validation Result Identifier; Validation Stage; Rule referen
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#validation-result) | Validation Result |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#validation-result) | Validation Result |

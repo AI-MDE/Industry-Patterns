@@ -21,10 +21,10 @@ Rule: Referral, clinical order, Patient consent, payer authorization, and clinic
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-authorization) | Therapy Authorization |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-authorization) | Therapy Authorization |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Authorization](therapy-authorization.md) | authorizes | Episode, Visit, or Service (review) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Authorization](therapy-authorization.md) | authorizes | Episode, Visit, or Service (review) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

@@ -17,4 +17,4 @@ Logical attributes: Exclusion Identifier; Exclusion Code; Description; Effective
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#exclusion) | Exclusion |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#exclusion) | Exclusion |

@@ -19,10 +19,10 @@ Logical attributes: Assignment Identifier; Assignment Type; Assigned Role or Par
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim-assignment) | Claim Assignment |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim-assignment) | Claim Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Claim or Exposure (review) | receives | [Claim Assignment](claim-assignment.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Claim or Exposure (review) | receives | [Claim Assignment](claim-assignment.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

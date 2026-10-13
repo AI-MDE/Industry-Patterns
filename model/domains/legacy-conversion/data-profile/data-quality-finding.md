@@ -17,10 +17,10 @@ Logical attributes: Finding Identifier; Finding Status; Observed At; Observed Va
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#data-quality-finding) | Data Quality Finding |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#data-quality-finding) | Data Quality Finding |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Data Quality Rule](data-quality-rule.md) | produces | [Data Quality Finding](data-quality-finding.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Data Quality Rule](data-quality-rule.md) | produces | [Data Quality Finding](data-quality-finding.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

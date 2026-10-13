@@ -17,10 +17,10 @@ Logical attributes: Delivery Identifier; Delivery Status; Delivered At; Recipien
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#delivery) | Delivery |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#delivery) | Delivery |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Shipment](shipment.md) | results in | [Delivery](delivery.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Shipment](shipment.md) | results in | [Delivery](delivery.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

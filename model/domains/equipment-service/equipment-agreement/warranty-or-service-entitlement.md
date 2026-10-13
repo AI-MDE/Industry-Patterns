@@ -15,4 +15,4 @@ Coverage derived from an Agreement Term or service contract that determines whet
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#warranty-or-service-entitlement-standard) | Warranty or Service Entitlement (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#warranty-or-service-entitlement-standard) | Warranty or Service Entitlement (Standard) |

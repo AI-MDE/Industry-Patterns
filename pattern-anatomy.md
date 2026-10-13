@@ -1,29 +1,31 @@
 # MDE Industry Pattern Anatomy
 
-The current material is a domain-model foundation enriched with business meaning. A complete MDE industry pattern should ultimately contain:
+An industry pattern is a selection guide for the [canonical business model](model/README.md).
 
-1. Business overview, scope, motivation, and value
-2. Capabilities
-3. Actors and roles
-4. Core business concepts and relationships
-5. Business events
-6. Processes and journeys
-7. Use cases
-8. Entity operations
-9. Policies and business rules
-10. States and transitions
-11. Pages and interaction requirements
-12. Scenarios and test examples
-13. Analytics and measures
+## Industry guide responsibilities
 
-## Current coverage
+1. Business context, scope, motivation, and value.
+2. Simple, Standard, and Enterprise selection guidance where applicable.
+3. Links to canonical domains, ABEs, entities, and business behavior.
+4. Explanation of how selected concepts work together in the industry.
+5. Modeling questions, suggested choices, and unresolved business decisions.
+6. Pitfalls and semantic distinctions to preserve.
+7. Coverage gaps and candidate expansions.
 
-Every industry pattern except Professional Services now carries a detailed logical model: business overview, complexity variants, actors and roles, concepts, relationships, lifecycles, business events, baseline rules, AI modeling questions, MDE guidance, anti-patterns, and candidate behavioral expansion. Professional Services is the least detailed and does not yet follow this structure (no variants, lifecycles, events, or baseline rules sections). Health Care is the only subject instantiated as a [knowledge base](knowledge-bases/health-care/README.md).
+## Canonical model responsibilities
 
-## Future work
+Definitions of entities, relationships, operations, states, events, roles, rules, capabilities, use cases, and workflows belong in `model/`. Structural concepts follow Domain → ABE → Entity. Reusable requirements sit beside ABEs in the owning domain, referencing the same canonical entities.
 
-Expand each catalog subject into the complete anatomy without treating entities as the whole business model. Use cases should follow MDE's behavioral contract:
+Use cases follow the behavioral contract:
 
 **Trigger → Preconditions → Input → Context → Steps → Outcome → Output → Postconditions**
 
-Rules should govern entity operations. Use-case steps should invoke those operations and relevant pages, while scenarios provide concrete values and choices for verification and testing.
+Rules govern business operations. Use cases coordinate those operations; workflows sequence business activities and outcomes across use cases. Cross-domain behavior has one owner and references other domains without copying them.
+
+## Application responsibilities
+
+The actual application records its selections, specialized requirements, policy decisions, architecture, technologies, interfaces, UI, physical design, deployment, and executable tests. These decisions are not prescribed by an industry guide or by a separate reusable application architecture.
+
+## Current coverage
+
+The industry guides link to canonical concepts and business-definition overviews. [Health Care](model/domains/health-care/README.md) additionally has detailed capabilities, roles, rules, use cases, and workflows. Other industries retain their existing coverage and open behavioral gaps; relocation does not make an outline a complete specification.

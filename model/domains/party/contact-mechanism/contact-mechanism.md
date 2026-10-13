@@ -19,10 +19,10 @@ Specializations: Postal Address; Email Address; Telephone Number; Web Address; C
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#contact-mechanism) | Contact Mechanism |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#contact-mechanism) | Contact Mechanism |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Party](../party/party.md) | uses | [Contact Mechanism](contact-mechanism.md) | M:M through Party Contact | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Party](../party/party.md) | uses | [Contact Mechanism](contact-mechanism.md) | M:M through Party Contact | [cross-industry](../../../../industry-patterns/cross-industry.md) |

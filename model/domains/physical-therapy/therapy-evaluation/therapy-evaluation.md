@@ -19,12 +19,12 @@ Evaluation types may include initial evaluation, progress evaluation, reassessme
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-evaluation) | Therapy Evaluation |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-evaluation) | Therapy Evaluation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](../therapy-episode/therapy-episode.md) | contains | [Therapy Evaluation](therapy-evaluation.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Evaluation](therapy-evaluation.md) | records | [Clinical Finding](clinical-finding.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Evaluation](therapy-evaluation.md) | produces | [Therapy Assessment](therapy-assessment.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](../therapy-episode/therapy-episode.md) | contains | [Therapy Evaluation](therapy-evaluation.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Evaluation](therapy-evaluation.md) | records | [Clinical Finding](clinical-finding.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Evaluation](therapy-evaluation.md) | produces | [Therapy Assessment](therapy-assessment.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

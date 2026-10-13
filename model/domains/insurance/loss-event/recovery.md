@@ -17,10 +17,10 @@ Logical attributes: Recovery Identifier; Recovery Type; Recovery Status; Expecte
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#recovery) | Recovery |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#recovery) | Recovery |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim](claim.md) | may produce | [Recovery](recovery.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Claim](claim.md) | may produce | [Recovery](recovery.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

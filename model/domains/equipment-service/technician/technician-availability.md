@@ -17,4 +17,4 @@ Working periods, absences, and capacity during which a Technician can be assigne
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#technician-availability-standard) | Technician Availability (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#technician-availability-standard) | Technician Availability (Standard) |

@@ -17,11 +17,11 @@ Logical attributes: Itinerary Identifier; Itinerary Name; Itinerary Status; Star
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#itinerary) | Itinerary |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#itinerary) | Itinerary |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Itinerary](itinerary.md) | contains | [Segment](segment.md) | 1:M ordered | [travel](../../../../patterns/travel.md) |
-| [Itinerary](itinerary.md) | includes | [Traveler](traveler.md) | M:M | [travel](../../../../patterns/travel.md) |
+| [Itinerary](itinerary.md) | contains | [Segment](segment.md) | 1:M ordered | [travel](../../../../industry-patterns/travel.md) |
+| [Itinerary](itinerary.md) | includes | [Traveler](traveler.md) | M:M | [travel](../../../../industry-patterns/travel.md) |

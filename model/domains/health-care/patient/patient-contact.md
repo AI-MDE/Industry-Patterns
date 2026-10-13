@@ -19,4 +19,4 @@ Logical attributes: Patient Contact Identifier; Purpose; Preferred Indicator; Co
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#patient-contact) | Patient Contact |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#patient-contact) | Patient Contact |

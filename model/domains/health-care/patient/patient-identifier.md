@@ -19,10 +19,10 @@ Rule: support multiple identifiers and never assume that one organization's medi
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#patient-identifier) | Patient Identifier |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#patient-identifier) | Patient Identifier |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Patient](patient.md) | has | [Patient Identifier](patient-identifier.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
+| [Patient](patient.md) | has | [Patient Identifier](patient-identifier.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |

@@ -21,15 +21,15 @@ Rule: Product describes what something is; Offering describes how and where it c
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#offering) | Offering |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#offering) | Offering |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Category](category.md) | classifies | [Offering](offering.md) | M:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Offering](offering.md) | offers | Product or Product Variant (review) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Catalog](catalog.md) | publishes | [Offering](offering.md) | M:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Offering](offering.md) | has | [Price](../../product-and-service/product/price.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Cart Line](../shopping-session/cart-line.md) | selects | [Offering](offering.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Order Line](../order/order-line.md) | snapshots | [Offering](offering.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Category](category.md) | classifies | [Offering](offering.md) | M:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Offering](offering.md) | offers | Product or Product Variant (review) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Catalog](catalog.md) | publishes | [Offering](offering.md) | M:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Offering](offering.md) | has | [Price](../../product-and-service/product/price.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Cart Line](../shopping-session/cart-line.md) | selects | [Offering](offering.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Order Line](../order/order-line.md) | snapshots | [Offering](offering.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

@@ -17,11 +17,11 @@ Logical attributes: Inspection Identifier; Inspection Type; Status; Inspected At
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#inspection) | Inspection |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#inspection) | Inspection |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Production Output](../production-run/production-output.md) | receives | [Inspection](inspection.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Inspection](inspection.md) | contains | [Inspection Result](inspection-result.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Production Output](../production-run/production-output.md) | receives | [Inspection](inspection.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Inspection](inspection.md) | contains | [Inspection Result](inspection-result.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

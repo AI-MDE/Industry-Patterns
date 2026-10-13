@@ -17,10 +17,10 @@ Logical attributes: Cancellation Identifier; Cancellation Type; Cancellation Sta
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#cancellation) | Cancellation |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#cancellation) | Cancellation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Booking or Booking Item (review) | receives | [Cancellation](cancellation.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| Booking or Booking Item (review) | receives | [Cancellation](cancellation.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

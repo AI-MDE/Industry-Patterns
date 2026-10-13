@@ -19,10 +19,10 @@ Rule: commercial Product, Product Offering, technical Service Specification, and
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#resource-specification) | Resource Specification |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#resource-specification) | Resource Specification |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Specification](service-specification.md) | requires | [Resource Specification](resource-specification.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Specification](service-specification.md) | requires | [Resource Specification](resource-specification.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

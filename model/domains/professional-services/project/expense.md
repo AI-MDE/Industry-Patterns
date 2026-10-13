@@ -17,11 +17,11 @@ Logical attributes: Expense Identifier; Expense Date; Expense Type; Expense Amou
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Expense |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Expense |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Project](project.md) | incurs | [Expense](expense.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | submits | [Expense](expense.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Project](project.md) | incurs | [Expense](expense.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | submits | [Expense](expense.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

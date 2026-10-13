@@ -144,6 +144,9 @@ test('coherent catalog loads canonical paths, logical attributes and relationshi
     }
     assert.ok(m.concepts.find(x => x.entity === 'Payment')!.attributes!.length);
     assert.ok(m.concepts.some(x => x.relationships!.length));
+    const requirements = JSON.parse(await readFile(path.resolve(tool, '../..', manifest.requirements), 'utf8')).requirements;
+    assert.deepEqual(m.capabilities.map(c => c.name).sort(), requirements.filter((r: { type: string }) => r.type === 'capability').map((r: { name: string }) => r.name).sort());
+    assert.ok(m.capabilities.some(c => c.name === 'Care Delivery'));
     assert.ok(m.warnings.length);
 });
 test('CLI pipeline writes three outputs, preserves analyzed provenance, refuses overwrite, and leaves canonical model unchanged', async () => {

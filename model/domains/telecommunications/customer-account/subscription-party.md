@@ -17,4 +17,4 @@ Logical attributes: Subscription Party Identifier; Party; Role Type; Status; Eff
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#subscription-party) | Subscription Party |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#subscription-party) | Subscription Party |

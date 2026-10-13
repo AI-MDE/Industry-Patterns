@@ -8,3 +8,7 @@
 - [Credit Facility](credit-facility/README.md)
 - [Financial Instrument](financial-instrument/README.md)
 - [Statement](statement/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

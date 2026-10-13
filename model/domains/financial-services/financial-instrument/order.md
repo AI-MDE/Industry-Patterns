@@ -19,10 +19,10 @@ Logical attributes: Order Identifier; Order Type; Order Status; Entered Time; Ac
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#order) | Order |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#order) | Order |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](order.md) | executes as | [Trade](trade.md) | 1:0..M | [financial-services](../../../../patterns/financial-services.md) |
+| [Order](order.md) | executes as | [Trade](trade.md) | 1:0..M | [financial-services](../../../../industry-patterns/financial-services.md) |

@@ -17,11 +17,11 @@ Logical attributes: Load Requirement Identifier; Load Description; Load Type; Ve
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#load-requirement) | Load Requirement |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#load-requirement) | Load Requirement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Request](lift-request.md) | contains | [Load Requirement](load-requirement.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Plan](../lift-plan/lift-plan.md) | references | [Load Requirement](load-requirement.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | contains | [Load Requirement](load-requirement.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Plan](../lift-plan/lift-plan.md) | references | [Load Requirement](load-requirement.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

@@ -17,10 +17,10 @@ Logical attributes: Survey Identifier; Survey Status; Survey Date; Surveyor; Sit
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#site-survey) | Site Survey |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#site-survey) | Site Survey |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Request](lift-request.md) | receives | [Site Survey](site-survey.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | receives | [Site Survey](site-survey.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

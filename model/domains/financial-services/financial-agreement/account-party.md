@@ -17,10 +17,10 @@ Logical attributes: Account Party Identifier; Role Type; Role Status; Ownership 
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#account-party) | Account Party |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#account-party) | Account Party |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Account](account.md) | has | [Account Party](account-party.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Account](account.md) | has | [Account Party](account-party.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

@@ -17,4 +17,4 @@ Logical attributes: Retention Policy Identifier; Record Class; Retention Period;
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#retention-policy) | Retention Policy |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#retention-policy) | Retention Policy |

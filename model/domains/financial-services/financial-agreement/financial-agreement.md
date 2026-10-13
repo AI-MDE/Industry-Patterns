@@ -19,11 +19,11 @@ Logical attributes: Agreement Identifier; Agreement Number; Agreement Type; Agre
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-agreement) | Financial Agreement |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-agreement) | Financial Agreement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Accepted Application (review) | establishes | [Financial Agreement](financial-agreement.md) | 1:0..M | [financial-services](../../../../patterns/financial-services.md) |
-| [Financial Agreement](financial-agreement.md) | governs | [Account](account.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Accepted Application (review) | establishes | [Financial Agreement](financial-agreement.md) | 1:0..M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Financial Agreement](financial-agreement.md) | governs | [Account](account.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

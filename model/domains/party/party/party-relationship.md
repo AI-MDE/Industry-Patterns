@@ -19,4 +19,4 @@ Examples: Organization employs Person; Organization owns Organization; Agent rep
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#party-relationship) | Party Relationship |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#party-relationship) | Party Relationship |

@@ -17,11 +17,11 @@ Logical attributes: Inspection Identifier; Inspection Type; Inspection Status; I
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#inspection) | Inspection |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#inspection) | Inspection |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Asset or Setup (review) | receives | [Inspection](inspection.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Inspection](inspection.md) | contains | [Inspection Finding](inspection-finding.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| Asset or Setup (review) | receives | [Inspection](inspection.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Inspection](inspection.md) | contains | [Inspection Finding](inspection-finding.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

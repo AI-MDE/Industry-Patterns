@@ -19,10 +19,10 @@ Logical attributes: Site Identifier; Site Name; Address or Coordinates; Site Typ
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#job-site) | Job Site |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#job-site) | Job Site |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Request](../lift-request/lift-request.md) | concerns | [Job Site](job-site.md) | M:1 | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Request](../lift-request/lift-request.md) | concerns | [Job Site](job-site.md) | M:1 | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

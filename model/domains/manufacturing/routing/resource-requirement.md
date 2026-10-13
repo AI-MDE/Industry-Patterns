@@ -19,10 +19,10 @@ Logical attributes: Requirement Identifier; Resource Type; Required Capability; 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#resource-requirement) | Resource Requirement |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#resource-requirement) | Resource Requirement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Operation Definition](operation-definition.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Operation Definition](operation-definition.md) | has | [Resource Requirement](resource-requirement.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

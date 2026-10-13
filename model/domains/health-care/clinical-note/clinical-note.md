@@ -17,4 +17,4 @@ Logical attributes: Note Identifier; Note Type; Note Status; Authored At; Author
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#clinical-note) | Clinical Note |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#clinical-note) | Clinical Note |

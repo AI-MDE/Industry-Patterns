@@ -17,10 +17,10 @@ Logical attributes: Requirement Identifier; Requirement Type; Requirement Status
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#underwriting-requirement) | Underwriting Requirement |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#underwriting-requirement) | Underwriting Requirement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Underwriting Case](underwriting-case.md) | contains | [Underwriting Requirement](underwriting-requirement.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Underwriting Case](underwriting-case.md) | contains | [Underwriting Requirement](underwriting-requirement.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

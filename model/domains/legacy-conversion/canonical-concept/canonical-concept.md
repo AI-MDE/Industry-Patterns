@@ -17,10 +17,10 @@ Logical attributes: Concept Identifier; Concept Name; Definition; Concept Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#canonical-concept) | Canonical Concept |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#canonical-concept) | Canonical Concept |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Canonical Concept](canonical-concept.md) | defines | [Canonical Attribute](canonical-attribute.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Canonical Concept](canonical-concept.md) | defines | [Canonical Attribute](canonical-attribute.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

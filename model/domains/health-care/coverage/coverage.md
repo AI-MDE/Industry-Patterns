@@ -25,12 +25,31 @@ Logical attributes: Coverage Identifier; Coverage Type; Coverage Status; Payer; 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#coverage) | Coverage |
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#coverage) | Coverage |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#coverage) | Coverage |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#coverage) | Coverage |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Coverage](coverage.md) | covers | [Patient](../patient/patient.md) | M:1 | [health-care](../../../../patterns/health-care.md) |
-| [Eligibility Verification](../../physical-therapy/patient-intake/eligibility-verification.md) | evaluates | [Coverage](coverage.md) | M:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Coverage](coverage.md) | covers | [Patient](../patient/patient.md) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |
+| [Eligibility Verification](../../physical-therapy/patient-intake/eligibility-verification.md) | evaluates | [Coverage](coverage.md) | M:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+
+## Business participation
+
+Covers a Patient; may govern Authorizations and Claims.
+
+## Operations
+
+- record
+- verify
+- activate
+- terminate
+
+## States
+
+draft; active; suspended; terminated; entered-in-error
+
+## Rules
+
+- [coverage-must-be-effective-on-service-date](../rules/coverage-must-be-effective-on-service-date.md)

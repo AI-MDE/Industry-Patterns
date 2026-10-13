@@ -19,10 +19,10 @@ Logical attributes: Plan Item Identifier; Intervention Type; Plan Item Status; I
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#treatment-plan-item) | Treatment Plan Item |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#treatment-plan-item) | Treatment Plan Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Plan of Care](plan-of-care.md) | contains | [Treatment Plan Item](treatment-plan-item.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Plan of Care](plan-of-care.md) | contains | [Treatment Plan Item](treatment-plan-item.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

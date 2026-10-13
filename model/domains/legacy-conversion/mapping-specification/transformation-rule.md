@@ -17,4 +17,4 @@ Logical attributes: Transformation Rule Identifier; Rule Name; Rule Version; Rul
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#transformation-rule) | Transformation Rule |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#transformation-rule) | Transformation Rule |

@@ -19,10 +19,10 @@ Logical attributes: Assignment Identifier; Person; Role; Job Order; Shift; Start
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#crew-assignment) | Crew Assignment |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#crew-assignment) | Crew Assignment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Job Order](../rental-offering/job-order.md) | has | [Crew Assignment](crew-assignment.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Job Order](../rental-offering/job-order.md) | has | [Crew Assignment](crew-assignment.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

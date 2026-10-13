@@ -19,11 +19,11 @@ Logical attributes: Category Identifier; Category Name; Category Code; Category 
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#category) | Category |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#category) | Category |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Catalog](catalog.md) | contains | [Category](category.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Category](category.md) | classifies | [Offering](offering.md) | M:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Catalog](catalog.md) | contains | [Category](category.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Category](category.md) | classifies | [Offering](offering.md) | M:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

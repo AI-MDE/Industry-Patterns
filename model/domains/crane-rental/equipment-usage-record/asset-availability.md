@@ -19,4 +19,4 @@ Logical attributes: Availability Identifier; Asset; Availability Status; Effecti
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#asset-availability) | Asset Availability |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#asset-availability) | Asset Availability |

@@ -19,10 +19,10 @@ Logical attributes: Traveler Identifier; Traveler Type; Name; Date of Birth wher
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#traveler) | Traveler |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#traveler) | Traveler |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Itinerary](itinerary.md) | includes | [Traveler](traveler.md) | M:M | [travel](../../../../patterns/travel.md) |
+| [Itinerary](itinerary.md) | includes | [Traveler](traveler.md) | M:M | [travel](../../../../industry-patterns/travel.md) |

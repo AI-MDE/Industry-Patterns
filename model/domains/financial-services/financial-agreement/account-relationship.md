@@ -17,4 +17,4 @@ Logical attributes: Relationship Identifier; Relationship Type; Status; Effectiv
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#account-relationship) | Account Relationship |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#account-relationship) | Account Relationship |

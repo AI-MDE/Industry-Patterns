@@ -17,4 +17,4 @@ Staff member who performs service work. Active or Inactive; never deleted.
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#technician) | Technician |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#technician) | Technician |

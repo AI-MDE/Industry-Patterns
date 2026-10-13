@@ -17,4 +17,4 @@ Logical attributes: Rule Identifier; Rule Type; Rule Status; Condition; Result; 
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#fare-rule-or-rate-rule) | Fare Rule or Rate Rule |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#fare-rule-or-rate-rule) | Fare Rule or Rate Rule |

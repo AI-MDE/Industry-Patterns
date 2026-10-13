@@ -17,11 +17,11 @@ Logical attributes: Resource Identifier; Resource Type; Resource Status; Specifi
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#network-resource) | Network Resource |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#network-resource) | Network Resource |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Instance](service-instance.md) | uses | [Network Resource](network-resource.md) | M:M through assignment | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Alarm](../trouble-ticket/alarm.md) | concerns | [Network Resource](network-resource.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Instance](service-instance.md) | uses | [Network Resource](network-resource.md) | M:M through assignment | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Alarm](../trouble-ticket/alarm.md) | concerns | [Network Resource](network-resource.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

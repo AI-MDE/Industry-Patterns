@@ -8,16 +8,15 @@ The industry patterns adapt recurring business concepts inspired by *The Data Mo
 
 ## Coherent model
 
-The [canonical model](model/README.md) now connects the detailed industry concepts through **Domain → ABE → Entity**, with one page per concept, explicit reuse and specialization, and source-aware terminology. Industry files are pattern views onto this model. Start with the [Domain index](model/domains/index.md) or inspect the [integration review](model/integration-review.md).
+The [canonical model](model/README.md) owns reusable business definitions and behavior. Concepts follow **Domain → ABE → Entity**; capabilities, roles, rules, use cases, and workflows sit alongside ABEs in their owning domain. Industry patterns guide selection from that model. Start with the [Domain index](model/domains/index.md) or inspect the [integration review](model/integration-review.md).
 
 ## Repository areas
 
 ```text
 catalog.md          discovery index of industry patterns (start here)
-model/              canonical Domains, ABEs, Entities, bindings, and relationship registry
-patterns/           industry views selecting and connecting canonical concepts
+model/              canonical business definitions, requirements, and navigation
+industry-patterns/  industry context, variants, selection guidance, and questions
 modeling-patterns/  cross-industry requirements patterns bound to domain concepts
-knowledge-bases/    industry knowledge instantiated as MDE requirements specs
 pattern-anatomy.md  target anatomy of an industry pattern and roadmap
 tools/              reference-model import, analysis, and canonical-model validation
 docs/               architecture and modeling guidance
@@ -26,39 +25,41 @@ references/         upstream source snapshots with license and provenance
 
 Shared and industry domains live directly under `model/domains/`; each concept has one canonical home. The [reference snapshots](references/README.md) are inputs for analysis, separate from the canonical model.
 
+See [repository responsibilities and migration details](docs/repository-structure.md) for how definitions, industry guidance, and application decisions fit together.
+
 ## Validation
 
 From the repository root, run:
 
 ```bash
 node tools/coherent-model/validate.mjs
-node --test tools/coherent-model/links.test.mjs
+node --test tools/coherent-model/*.test.mjs
 ```
 
 Validation checks canonical ownership, specialization, bindings, aliases, relationship navigation, and local Markdown links across the repository. Relationships marked `review` remain explicit semantic questions, not validation failures. See the [validator guide](tools/coherent-model/README.md) and [importer tests](tools/reference-model-analyzer/README.md#install).
 
 ## Industry patterns
 
-Start with the [Catalog](catalog.md). Each pattern combines business context, complexity variants, roles, concepts, relationships, lifecycles, events, baseline rules, AI modeling questions, MDE guidance, anti-patterns, and candidate behavioral expansion.
+Start with the [Catalog](catalog.md). Each pattern provides business context, complexity variants, canonical selections, modeling questions, guidance, and pitfalls. Definitions of entities, relationships, roles, lifecycles, events, and rules live in the linked model pages.
 
-- [Cross-industry concepts](patterns/cross-industry.md)
-- [Manufacturing](patterns/manufacturing.md)
-- [Telecommunications](patterns/telecommunications.md)
-- [Professional Services](patterns/professional-services.md)
-- [E-Commerce](patterns/e-commerce.md)
-- [Health Care](patterns/health-care.md)
-- [Insurance](patterns/insurance.md)
-- [Financial Services](patterns/financial-services.md)
-- [Travel](patterns/travel.md)
-- [Real-World Extensions and Legacy Conversion](patterns/legacy-conversion.md)
+- [Cross-industry concepts](industry-patterns/cross-industry.md)
+- [Manufacturing](industry-patterns/manufacturing.md)
+- [Telecommunications](industry-patterns/telecommunications.md)
+- [Professional Services](industry-patterns/professional-services.md)
+- [E-Commerce](industry-patterns/e-commerce.md)
+- [Health Care](industry-patterns/health-care.md)
+- [Insurance](industry-patterns/insurance.md)
+- [Financial Services](industry-patterns/financial-services.md)
+- [Travel](industry-patterns/travel.md)
+- [Real-World Extensions and Legacy Conversion](industry-patterns/legacy-conversion.md)
 
 ### Applied industry extensions
 
 These patterns extend the catalog beyond the original book-derived industry subjects.
 
-- [Physical Therapy Clinic](patterns/physical-therapy-clinic.md)
-- [Industrial & Commercial Crane Rental Orchestration](patterns/crane-rental-orchestration.md)
-- [Equipment Service and Field Service](patterns/equipment-service.md)
+- [Physical Therapy Clinic](industry-patterns/physical-therapy-clinic.md)
+- [Industrial & Commercial Crane Rental Orchestration](industry-patterns/crane-rental-orchestration.md)
+- [Equipment Service and Field Service](industry-patterns/equipment-service.md)
 
 ### Complexity variants
 
@@ -76,11 +77,13 @@ These patterns extend the catalog beyond the original book-derived industry subj
 - [Recurring Service and Constraint-Based Scheduling](modeling-patterns/service-scheduling.md)
 - [Case management reference architecture](modeling-patterns/case-management-architecture.md)
 
-## Knowledge bases
+## Canonical business behavior
 
-A knowledge base instantiates an industry pattern as separate MDE requirements specifications (capabilities, entities, roles, rules, use cases, and workflows) following the [MDE metamodel](https://github.com/AI-MDE/mde/tree/main/method/metamodel).
+Reusable requirements live directly in their owning domain. Use cases and workflows reference the same canonical entities as industry selections. Application-specific choices and architecture belong to the actual application.
 
-- [Health Care knowledge base](knowledge-bases/health-care/README.md) (Standard variant)
+- [Health Care use cases](model/domains/health-care/use-cases/README.md)
+- [Health Care workflows](model/domains/health-care/workflows/README.md)
+- [Requirements registry](model/requirements.json)
 
 ## Reference model importer
 

@@ -17,4 +17,4 @@ Logical attributes: Activity Identifier; Activity Type; Activity Status; Schedul
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#planned-activity) | Planned Activity |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#planned-activity) | Planned Activity |

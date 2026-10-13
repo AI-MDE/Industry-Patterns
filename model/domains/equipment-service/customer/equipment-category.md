@@ -17,4 +17,4 @@ Functional classification of equipment (excavator, crane, generator). Drives ski
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#equipment-category) | Equipment Category |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#equipment-category) | Equipment Category |

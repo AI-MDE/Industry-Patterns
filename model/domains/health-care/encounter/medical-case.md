@@ -17,10 +17,31 @@ Logical attributes: Case Identifier; Case Type; Case Status; Opened Date; Closed
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#medical-case) | Medical Case |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#medical-case) | Medical Case |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Medical Case](medical-case.md) | concerns | [Patient](../patient/patient.md) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Medical Case](medical-case.md) | concerns | [Patient](../patient/patient.md) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Concerns one Patient; is supported by a Care Team; groups Requests, Decisions, and evidence.
+
+## Operations
+
+- open
+- assign
+- add-evidence
+- resolve
+- close
+- reopen
+
+## States
+
+open; assigned; investigating; decision-required; resolved; closed
+
+## Rules
+
+- [case-resolution-requires-evidence](../rules/case-resolution-requires-evidence.md)

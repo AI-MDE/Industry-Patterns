@@ -19,4 +19,4 @@ Rule: site information supplied by a Customer remains a sourced assertion until 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#ground-condition) | Ground Condition |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#ground-condition) | Ground Condition |

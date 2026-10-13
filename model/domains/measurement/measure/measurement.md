@@ -17,4 +17,8 @@ Logical attributes: Measurement Identifier; Measured Value; Measured At; Period 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#measurement) | Measurement |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#measurement) | Measurement |
+
+## Integrity rules
+
+- A Measurement must identify its Measure, subject, time context, and source.

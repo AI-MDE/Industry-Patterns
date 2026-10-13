@@ -17,10 +17,10 @@ Logical attributes: Scheme Identifier; Scheme Name; Scheme Version; Scheme Statu
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#classification-scheme) | Classification Scheme |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#classification-scheme) | Classification Scheme |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Classification Scheme](classification-scheme.md) | contains | [Classification](classification.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Classification Scheme](classification-scheme.md) | contains | [Classification](classification.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

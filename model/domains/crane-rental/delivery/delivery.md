@@ -17,10 +17,10 @@ Logical attributes: Delivery Identifier; Delivery Status; Job Order; Movement; D
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#delivery) | Delivery |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#delivery) | Delivery |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Delivery](delivery.md) | completes | [Transport Movement](../resource-requirement/transport-movement.md) | M:1 | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Delivery](delivery.md) | completes | [Transport Movement](../resource-requirement/transport-movement.md) | M:1 | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

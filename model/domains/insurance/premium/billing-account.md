@@ -17,11 +17,11 @@ Logical attributes: Billing Account Identifier; Account Number; Account Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#billing-account) | Billing Account |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#billing-account) | Billing Account |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Billing Account](billing-account.md) | bills | [Policy](../policy/policy.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Billing Account](billing-account.md) | receives | Invoice and Payment (review) | 1:M each | [insurance](../../../../patterns/insurance.md) |
+| [Billing Account](billing-account.md) | bills | [Policy](../policy/policy.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Billing Account](billing-account.md) | receives | Invoice and Payment (review) | 1:M each | [insurance](../../../../industry-patterns/insurance.md) |

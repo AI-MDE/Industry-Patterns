@@ -17,10 +17,10 @@ Logical attributes: Endpoint Identifier; Endpoint Type; Status; Resource; Locati
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#network-endpoint) | Network Endpoint |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#network-endpoint) | Network Endpoint |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Circuit](circuit.md) | connects | [Network Endpoint](network-endpoint.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Circuit](circuit.md) | connects | [Network Endpoint](network-endpoint.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

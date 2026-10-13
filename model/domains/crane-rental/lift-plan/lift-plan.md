@@ -17,13 +17,13 @@ Logical attributes: Lift Plan Identifier; Plan Number; Version; Plan Status; Job
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-plan) | Lift Plan |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-plan) | Lift Plan |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Job Order](../rental-offering/job-order.md) | has | [Lift Plan](lift-plan.md) | 1:M versions | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Plan](lift-plan.md) | references | [Load Requirement](../lift-request/load-requirement.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Plan](lift-plan.md) | specifies | [Crane Configuration](../equipment-model/crane-configuration.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Plan](lift-plan.md) | supported by | [Capacity Evidence](../equipment-model/capacity-evidence.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Job Order](../rental-offering/job-order.md) | has | [Lift Plan](lift-plan.md) | 1:M versions | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Plan](lift-plan.md) | references | [Load Requirement](../lift-request/load-requirement.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Plan](lift-plan.md) | specifies | [Crane Configuration](../equipment-model/crane-configuration.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Plan](lift-plan.md) | supported by | [Capacity Evidence](../equipment-model/capacity-evidence.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

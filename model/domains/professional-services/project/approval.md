@@ -17,10 +17,10 @@ Logical attributes: Approval Identifier; Approval Subject Type; Approval Status;
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Approval |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Approval |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Time Entry, Expense, or Deliverable (review) | receives | [Approval](approval.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| Time Entry, Expense, or Deliverable (review) | receives | [Approval](approval.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

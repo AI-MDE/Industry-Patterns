@@ -17,12 +17,12 @@ Logical attributes: Time Entry Identifier; Work Date; Hours Worked; Billable Ind
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Time Entry |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Time Entry |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Project](project.md) | receives | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Task](task.md) | is supported by | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Professional](professional.md) | records | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Project](project.md) | receives | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Task](task.md) | is supported by | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Professional](professional.md) | records | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

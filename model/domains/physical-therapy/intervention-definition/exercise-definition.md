@@ -17,10 +17,10 @@ Logical attributes: Exercise Identifier; Exercise Name; Exercise Category; Instr
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#exercise-definition) | Exercise Definition |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#exercise-definition) | Exercise Definition |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Exercise Prescription](exercise-prescription.md) | references | [Exercise Definition](exercise-definition.md) | M:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Exercise Prescription](exercise-prescription.md) | references | [Exercise Definition](exercise-definition.md) | M:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

@@ -17,4 +17,4 @@ Logical attributes: Disposition Identifier; Disposition Type; Quantity; Unit; Re
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#scrap-and-rework) | Scrap and Rework |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#scrap-and-rework) | Scrap and Rework |

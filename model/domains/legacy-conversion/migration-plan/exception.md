@@ -17,10 +17,10 @@ Logical attributes: Exception Identifier; Exception Type; Exception Status; Seve
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#exception) | Exception |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#exception) | Exception |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Exception](exception.md) | is resolved by | [Resolution](resolution.md) | 1:0..M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Exception](exception.md) | is resolved by | [Resolution](resolution.md) | 1:0..M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

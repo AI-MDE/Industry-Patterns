@@ -17,10 +17,10 @@ Logical attributes: Statement Identifier; Statement Type; Period Start; Period E
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#statement) | Statement |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#statement) | Statement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Account](../financial-agreement/account.md) | produces | [Statement](statement.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Account](../financial-agreement/account.md) | produces | [Statement](statement.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

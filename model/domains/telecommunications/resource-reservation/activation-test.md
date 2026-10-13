@@ -17,4 +17,4 @@ Logical attributes: Test Identifier; Test Type; Test Status; Executed At; Servic
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#activation-test) | Activation Test |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#activation-test) | Activation Test |

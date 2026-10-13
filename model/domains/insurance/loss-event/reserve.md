@@ -17,10 +17,10 @@ Logical attributes: Reserve Identifier; Reserve Type; Reserve Status; Amount; Cu
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#reserve) | Reserve |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#reserve) | Reserve |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim Exposure](claim-exposure.md) | has | [Reserve](reserve.md) | 1:M over time | [insurance](../../../../patterns/insurance.md) |
+| [Claim Exposure](claim-exposure.md) | has | [Reserve](reserve.md) | 1:M over time | [insurance](../../../../industry-patterns/insurance.md) |

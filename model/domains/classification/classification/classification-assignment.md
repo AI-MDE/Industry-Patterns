@@ -19,4 +19,4 @@ Rule: use classification when categories vary by organization, jurisdiction, or 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#classification-assignment) | Classification Assignment |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#classification-assignment) | Classification Assignment |

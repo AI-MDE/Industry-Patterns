@@ -17,10 +17,10 @@ Logical attributes: Requirement Identifier; Requirement Type; Product Version; Q
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#manufacturing-requirement) | Manufacturing Requirement |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#manufacturing-requirement) | Manufacturing Requirement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Manufacturing Requirement](manufacturing-requirement.md) | produces | [Manufacturing Order](manufacturing-order.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Manufacturing Requirement](manufacturing-requirement.md) | produces | [Manufacturing Order](manufacturing-order.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

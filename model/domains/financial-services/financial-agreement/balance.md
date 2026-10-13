@@ -21,4 +21,4 @@ Rule: Account is not the accounting ledger. An Account is a customer or operatio
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#balance) | Balance |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#balance) | Balance |

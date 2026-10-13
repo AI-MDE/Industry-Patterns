@@ -19,4 +19,4 @@ Rule: preserve External Identifiers as mappings; do not make mutable or system-s
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#external-identifier) | External Identifier |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#external-identifier) | External Identifier |

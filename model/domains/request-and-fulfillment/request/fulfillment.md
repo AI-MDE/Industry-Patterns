@@ -17,10 +17,14 @@ Logical attributes: Fulfillment Identifier; Fulfillment Type; Fulfillment Status
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#fulfillment) | Fulfillment |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#fulfillment) | Fulfillment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Fulfillment](fulfillment.md) | satisfies | Order Line or Commitment (review) | M:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Fulfillment](fulfillment.md) | satisfies | Order Line or Commitment (review) | M:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+
+## Integrity rules
+
+- Fulfilled quantity cannot exceed ordered quantity unless an explicit tolerance or change authorization permits it.

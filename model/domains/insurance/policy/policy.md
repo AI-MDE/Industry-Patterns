@@ -19,17 +19,17 @@ Logical attributes: Policy Identifier; Policy Number; Policy Type; Policy Status
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#policy) | Policy |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#policy) | Policy |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Accepted Quote/Application (review) | produces | [Policy](policy.md) | 1:0..1 | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | contains | [Policy Period](policy-period.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | has | [Policy Party](policy-party.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | covers | [Insured Object](insured-object.md) | M:M through Coverage | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | contains | [Coverage](coverage.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | changes through | [Policy Transaction](policy-transaction.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Billing Account](../premium/billing-account.md) | bills | [Policy](policy.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy](policy.md) | responds to | [Claim](../loss-event/claim.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Accepted Quote/Application (review) | produces | [Policy](policy.md) | 1:0..1 | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | contains | [Policy Period](policy-period.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | has | [Policy Party](policy-party.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | covers | [Insured Object](insured-object.md) | M:M through Coverage | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | contains | [Coverage](coverage.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | changes through | [Policy Transaction](policy-transaction.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Billing Account](../premium/billing-account.md) | bills | [Policy](policy.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](policy.md) | responds to | [Claim](../loss-event/claim.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

@@ -19,4 +19,4 @@ Logical attributes: Medication Order Identifier; Medication Code; Order Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#medication-order) | Medication Order |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#medication-order) | Medication Order |

@@ -17,4 +17,4 @@ Logical attributes: Stop Event Identifier; Stopped At; Stopped By; Reason; Scope
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#stop-work-event) | Stop-Work Event |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#stop-work-event) | Stop-Work Event |

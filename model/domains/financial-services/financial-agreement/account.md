@@ -17,14 +17,14 @@ Logical attributes: Account Identifier; Account Number; Account Type; Account St
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#account) | Account |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#account) | Account |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Financial Agreement](financial-agreement.md) | governs | [Account](account.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Account](account.md) | has | [Account Party](account-party.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Account](account.md) | relates to | [Account](account.md) | M:M through Account Relationship | [financial-services](../../../../patterns/financial-services.md) |
-| [Account](account.md) | has | Balance, Limit, and Hold (review) | 1:M each | [financial-services](../../../../patterns/financial-services.md) |
-| [Account](account.md) | produces | [Statement](../statement/statement.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Financial Agreement](financial-agreement.md) | governs | [Account](account.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Account](account.md) | has | [Account Party](account-party.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Account](account.md) | relates to | [Account](account.md) | M:M through Account Relationship | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Account](account.md) | has | Balance, Limit, and Hold (review) | 1:M each | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Account](account.md) | produces | [Statement](../statement/statement.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

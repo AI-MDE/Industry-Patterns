@@ -17,4 +17,4 @@ Logical attributes: Reaccommodation Identifier; Status; Proposed At; Accepted At
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#reaccommodation) | Reaccommodation |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#reaccommodation) | Reaccommodation |

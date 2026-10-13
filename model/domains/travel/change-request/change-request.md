@@ -19,10 +19,10 @@ Logical attributes: Change Request Identifier; Change Type; Change Status; Reque
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#change-request) | Change Request |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#change-request) | Change Request |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Booking or Booking Item (review) | receives | [Change Request](change-request.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| Booking or Booking Item (review) | receives | [Change Request](change-request.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

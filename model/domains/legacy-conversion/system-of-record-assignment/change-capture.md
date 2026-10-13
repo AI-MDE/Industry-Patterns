@@ -17,10 +17,10 @@ Logical attributes: Change Identifier; Source Record; Change Type; Source Versio
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#change-capture) | Change Capture |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#change-capture) | Change Capture |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Change Capture](change-capture.md) | may create | [Conflict](conflict.md) | M:0..M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Change Capture](change-capture.md) | may create | [Conflict](conflict.md) | M:0..M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

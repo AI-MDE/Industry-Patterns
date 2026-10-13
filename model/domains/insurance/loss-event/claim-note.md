@@ -17,4 +17,4 @@ Logical attributes: Claim Note Identifier; Note Type; Note Status; Authored At; 
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim-note) | Claim Note |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim-note) | Claim Note |

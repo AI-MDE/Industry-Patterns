@@ -17,4 +17,4 @@ Logical attributes: Quote Identifier; Quote Number; Quote Status; Issued Date; E
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#telecommunications-quote) | Telecommunications Quote |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#telecommunications-quote) | Telecommunications Quote |

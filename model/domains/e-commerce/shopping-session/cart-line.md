@@ -19,11 +19,11 @@ Rule: cart price, availability, tax, and delivery values are estimates until che
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#cart-line) | Cart Line |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#cart-line) | Cart Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Cart](cart.md) | contains | [Cart Line](cart-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Cart Line](cart-line.md) | selects | [Offering](../channel/offering.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Cart](cart.md) | contains | [Cart Line](cart-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Cart Line](cart-line.md) | selects | [Offering](../channel/offering.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

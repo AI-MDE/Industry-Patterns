@@ -17,10 +17,10 @@ Logical attributes: Outcome Identifier; Outcome Type; Outcome Status; Achieved A
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#outcome) | Outcome |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#outcome) | Outcome |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Work Effort](work-effort.md) | produces | [Outcome](outcome.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Work Effort](work-effort.md) | produces | [Outcome](outcome.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

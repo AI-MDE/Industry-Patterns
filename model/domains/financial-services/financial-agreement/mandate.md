@@ -17,11 +17,11 @@ Logical attributes: Mandate Identifier; Mandate Type; Mandate Status; Granted By
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#mandate) | Mandate |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#mandate) | Mandate |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Party](../../party/party/party.md) | grants | [Mandate](mandate.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Mandate](mandate.md) | authorizes | Party on Account (review) | M:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Party](../../party/party/party.md) | grants | [Mandate](mandate.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Mandate](mandate.md) | authorizes | Party on Account (review) | M:M | [financial-services](../../../../industry-patterns/financial-services.md) |

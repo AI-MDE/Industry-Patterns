@@ -17,10 +17,10 @@ Logical attributes: Exception Identifier; Exception Type; Exception Status; Dete
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#reconciliation-exception) | Reconciliation Exception |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#reconciliation-exception) | Reconciliation Exception |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reconciliation](reconciliation.md) | identifies | [Reconciliation Exception](reconciliation-exception.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Reconciliation](reconciliation.md) | identifies | [Reconciliation Exception](reconciliation-exception.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

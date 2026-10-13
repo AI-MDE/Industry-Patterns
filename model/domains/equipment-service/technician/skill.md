@@ -17,4 +17,4 @@ Area of technical expertise, flagged when certification is required to exercise 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#skill) | Skill |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#skill) | Skill |

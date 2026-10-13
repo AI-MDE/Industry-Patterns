@@ -19,4 +19,4 @@ Rule: any material change to load, radius, site, configuration, rigging, weather
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#incident) | Incident |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#incident) | Incident |

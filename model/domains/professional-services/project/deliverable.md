@@ -17,10 +17,10 @@ Logical attributes: Deliverable Identifier; Deliverable Name; Deliverable Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Deliverable |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Deliverable |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Project](project.md) | produces | [Deliverable](deliverable.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Project](project.md) | produces | [Deliverable](deliverable.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

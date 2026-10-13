@@ -19,11 +19,11 @@ Logical attributes: Charge Identifier; Charge Code; Charge Status; Service Date;
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-charge) | Therapy Charge |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-charge) | Therapy Charge |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Intervention Delivery](../intervention-definition/intervention-delivery.md) | produces | [Therapy Charge](therapy-charge.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Claim Line](../../health-care/coverage/claim-line.md) | references | [Therapy Charge](therapy-charge.md) | M:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Intervention Delivery](../intervention-definition/intervention-delivery.md) | produces | [Therapy Charge](therapy-charge.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Claim Line](../../health-care/coverage/claim-line.md) | references | [Therapy Charge](therapy-charge.md) | M:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

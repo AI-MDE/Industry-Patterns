@@ -17,10 +17,10 @@ Logical attributes: Routing Identifier; Version; Status; Product Version; Facili
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#routing) | Routing |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#routing) | Routing |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Routing](routing.md) | contains | [Operation Definition](operation-definition.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Routing](routing.md) | contains | [Operation Definition](operation-definition.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

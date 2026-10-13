@@ -17,4 +17,4 @@ Logical attributes: Connection Identifier; Connection Type; Status; Endpoint A; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#network-connection) | Network Connection |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#network-connection) | Network Connection |

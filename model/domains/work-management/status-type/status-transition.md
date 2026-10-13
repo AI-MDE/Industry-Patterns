@@ -17,4 +17,8 @@ Logical attributes: Transition Identifier; Transition Name; Trigger Type; Condit
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#status-transition) | Status Transition |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#status-transition) | Status Transition |
+
+## Integrity rules
+
+- A Status Transition must be allowed for the subject's current status.

@@ -7,3 +7,7 @@
 - [Payment Authorization](payment-authorization/README.md)
 - [Travel Document](travel-document/README.md)
 - [Change Request](change-request/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

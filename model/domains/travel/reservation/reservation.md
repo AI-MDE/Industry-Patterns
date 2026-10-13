@@ -17,10 +17,10 @@ Logical attributes: Reservation Identifier; Reservation Reference; Reservation S
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#reservation) | Reservation |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#reservation) | Reservation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reservation](reservation.md) | contains | [Reservation Item](reservation-item.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Reservation](reservation.md) | contains | [Reservation Item](reservation-item.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

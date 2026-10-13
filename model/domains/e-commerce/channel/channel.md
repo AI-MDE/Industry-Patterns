@@ -19,11 +19,11 @@ Examples: website, mobile application, marketplace, call center, social storefro
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#channel) | Channel |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#channel) | Channel |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Merchant (review) | operates | [Channel](channel.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Channel](channel.md) | presents | [Catalog](catalog.md) | M:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| Merchant (review) | operates | [Channel](channel.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Channel](channel.md) | presents | [Catalog](catalog.md) | M:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

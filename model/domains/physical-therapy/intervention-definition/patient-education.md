@@ -17,4 +17,4 @@ Logical attributes: Education Identifier; Visit; Topic; Recipient; Method; Mater
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#patient-education) | Patient Education |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#patient-education) | Patient Education |

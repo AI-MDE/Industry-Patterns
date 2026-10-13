@@ -17,11 +17,11 @@ Logical attributes: Coverage Definition Identifier; Coverage Code; Coverage Name
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#coverage-definition) | Coverage Definition |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#coverage-definition) | Coverage Definition |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Version](product-version.md) | contains | [Coverage Definition](coverage-definition.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Coverage](../policy/coverage.md) | derives from | [Coverage Definition](coverage-definition.md) | M:1 | [insurance](../../../../patterns/insurance.md) |
+| [Product Version](product-version.md) | contains | [Coverage Definition](coverage-definition.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Coverage](../policy/coverage.md) | derives from | [Coverage Definition](coverage-definition.md) | M:1 | [insurance](../../../../industry-patterns/insurance.md) |

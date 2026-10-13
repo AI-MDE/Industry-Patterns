@@ -19,4 +19,4 @@ Rule: an Instruction expresses intent, an Authorization records a permission dec
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#interest-accrual) | Interest Accrual |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#interest-accrual) | Interest Accrual |

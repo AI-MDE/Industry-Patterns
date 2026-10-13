@@ -17,10 +17,10 @@ Logical attributes: Order Address Identifier; Address Purpose; Recipient Name; A
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#order-address) | Order Address |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#order-address) | Order Address |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](order.md) | uses | [Order Address](order-address.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Order](order.md) | uses | [Order Address](order-address.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

@@ -17,4 +17,4 @@ Logical attributes: Attendance Event Identifier; Event Type; Event Time; Appoint
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#attendance-event) | Attendance Event |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#attendance-event) | Attendance Event |

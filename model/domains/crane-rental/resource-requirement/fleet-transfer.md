@@ -17,4 +17,4 @@ Logical attributes: Transfer Identifier; Asset; From Location; To Location; Tran
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#fleet-transfer) | Fleet Transfer |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#fleet-transfer) | Fleet Transfer |

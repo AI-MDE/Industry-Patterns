@@ -19,10 +19,10 @@ Logical attributes: Result Identifier; Measure Definition; Assessment Date; Raw 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#outcome-measure-result) | Outcome Measure Result |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#outcome-measure-result) | Outcome Measure Result |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](../therapy-episode/therapy-episode.md) | has | [Outcome Measure Result](outcome-measure-result.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](../therapy-episode/therapy-episode.md) | has | [Outcome Measure Result](outcome-measure-result.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

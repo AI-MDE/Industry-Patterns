@@ -19,11 +19,11 @@ Logical attributes: Component Identifier; Component Type; Referenced Product or 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#product-component) | Product Component |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#product-component) | Product Component |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Version](product-version.md) | contains | [Product Component](product-component.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Product Component](product-component.md) | maps to | [Service Specification](service-specification.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Product Version](product-version.md) | contains | [Product Component](product-component.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Product Component](product-component.md) | maps to | [Service Specification](service-specification.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

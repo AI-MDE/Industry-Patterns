@@ -17,13 +17,13 @@ Logical attributes: Transaction Identifier; Transaction Type; Transaction Status
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-transaction) | Financial Transaction |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-transaction) | Financial Transaction |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Instruction (review) | produces | [Financial Transaction](financial-transaction.md) | 1:0..M | [financial-services](../../../../patterns/financial-services.md) |
-| [Financial Transaction](financial-transaction.md) | produces | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Financial Transaction](financial-transaction.md) | relates to | [Financial Transaction](financial-transaction.md) | M:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Payment Order](../payment-order/payment-order.md) | produces | [Financial Transaction](financial-transaction.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Instruction (review) | produces | [Financial Transaction](financial-transaction.md) | 1:0..M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Financial Transaction](financial-transaction.md) | produces | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Financial Transaction](financial-transaction.md) | relates to | [Financial Transaction](financial-transaction.md) | M:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Payment Order](../payment-order/payment-order.md) | produces | [Financial Transaction](financial-transaction.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

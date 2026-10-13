@@ -17,10 +17,10 @@ Logical attributes: Membership Identifier; Team Role; Membership Status; Effecti
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#care-team-member) | Care Team Member |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#care-team-member) | Care Team Member |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Care Team](care-team.md) | contains | [Care Team Member](care-team-member.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
+| [Care Team](care-team.md) | contains | [Care Team Member](care-team-member.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |

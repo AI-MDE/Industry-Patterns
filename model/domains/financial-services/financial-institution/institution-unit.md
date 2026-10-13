@@ -17,4 +17,4 @@ Logical attributes: Unit Identifier; Unit Name; Unit Type; Parent Unit; Location
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#institution-unit) | Institution Unit |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#institution-unit) | Institution Unit |

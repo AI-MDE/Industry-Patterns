@@ -19,16 +19,16 @@ Logical attributes: Project Identifier; Project Name; Project Description; Proje
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Project |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Project |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Engagement](engagement.md) | authorizes | [Project](project.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | has | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | contains | [Task](task.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | receives | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | incurs | [Expense](expense.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | produces | [Deliverable](deliverable.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Project](project.md) | is billed by | [Invoice](../../finance/invoice/invoice.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Engagement](engagement.md) | authorizes | [Project](project.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | has | [Project Assignment](project-assignment.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | contains | [Task](task.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | receives | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | incurs | [Expense](expense.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | produces | [Deliverable](deliverable.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Project](project.md) | is billed by | [Invoice](../../finance/invoice/invoice.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

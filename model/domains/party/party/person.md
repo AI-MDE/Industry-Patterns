@@ -17,10 +17,10 @@ Logical attributes: Given Name; Middle Name; Family Name; Preferred Name; Birth 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#person) | Person |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#person) | Person |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Person](person.md) | performs role of | [Patient](../../health-care/patient/patient.md) | 1:M over time | [health-care](../../../../patterns/health-care.md) |
+| [Person](person.md) | performs role of | [Patient](../../health-care/patient/patient.md) | 1:M over time | [health-care](../../../../industry-patterns/health-care.md) |

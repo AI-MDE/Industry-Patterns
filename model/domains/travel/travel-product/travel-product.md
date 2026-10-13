@@ -19,4 +19,4 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#travel-product) | Travel Product |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#travel-product) | Travel Product |

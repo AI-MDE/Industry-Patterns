@@ -17,10 +17,10 @@ Logical attributes: Booking Party Identifier; Role Type; Role Status; Effective 
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#booking-party) | Booking Party |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#booking-party) | Booking Party |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Booking](booking.md) | has | [Booking Party](booking-party.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Booking](booking.md) | has | [Booking Party](booking-party.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

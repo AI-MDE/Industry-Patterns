@@ -17,4 +17,4 @@ Logical attributes: Requirement Identifier; Requirement Type; Requirement Status
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#planning-requirement) | Planning Requirement |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#planning-requirement) | Planning Requirement |

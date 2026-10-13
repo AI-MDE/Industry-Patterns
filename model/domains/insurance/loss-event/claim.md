@@ -17,16 +17,16 @@ Logical attributes: Claim Identifier; Claim Number; Claim Type; Claim Status; Re
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim) | Claim |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim) | Claim |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Loss Event](loss-event.md) | gives rise to | [Claim](claim.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy](../policy/policy.md) | responds to | [Claim](claim.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Claim](claim.md) | has | [Claim Party](claim-party.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Claim](claim.md) | contains | [Claim Exposure](claim-exposure.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Claim](claim.md) | contains | Evidence Item and Claim Note (review) | 1:M each | [insurance](../../../../patterns/insurance.md) |
-| [Claim](claim.md) | may produce | [Recovery](recovery.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Claim](claim.md) | may produce | [Reinsurance Claim](../reinsurance-contract/reinsurance-claim.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Loss Event](loss-event.md) | gives rise to | [Claim](claim.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy](../policy/policy.md) | responds to | [Claim](claim.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim](claim.md) | has | [Claim Party](claim-party.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim](claim.md) | contains | [Claim Exposure](claim-exposure.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim](claim.md) | contains | Evidence Item and Claim Note (review) | 1:M each | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim](claim.md) | may produce | [Recovery](recovery.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim](claim.md) | may produce | [Reinsurance Claim](../reinsurance-contract/reinsurance-claim.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

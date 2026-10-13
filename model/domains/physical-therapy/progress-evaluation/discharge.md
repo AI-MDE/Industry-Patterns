@@ -19,11 +19,11 @@ Discharge reasons may include goals met, maximum benefit, independent self-manag
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#discharge) | Discharge |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#discharge) | Discharge |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](../therapy-episode/therapy-episode.md) | concludes with | [Discharge](discharge.md) | 1:0..1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Discharge](discharge.md) | produces | [Discharge Summary](discharge-summary.md) | 1:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](../therapy-episode/therapy-episode.md) | concludes with | [Discharge](discharge.md) | 1:0..1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Discharge](discharge.md) | produces | [Discharge Summary](discharge-summary.md) | 1:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

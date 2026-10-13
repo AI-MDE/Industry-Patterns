@@ -17,4 +17,25 @@ Logical attributes: Observation Identifier; Observation Code; Observation Status
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#observation) | Observation |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#observation) | Observation |
+
+## Business participation
+
+Concerns a Patient; is recorded in an Encounter or produced by Service Delivery.
+
+## Operations
+
+- record
+- validate
+- finalize
+- correct
+- supersede
+
+## States
+
+registered; preliminary; final; amended; corrected; cancelled; entered-in-error
+
+## Rules
+
+- [observation-requires-subject-time-source](../rules/observation-requires-subject-time-source.md)
+- [finalized-records-preserve-history](../rules/finalized-records-preserve-history.md)

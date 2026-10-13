@@ -17,11 +17,11 @@ Logical attributes: Clearing Item Identifier; Clearing Scheme; Item Type; Item S
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#clearing-item) | Clearing Item |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#clearing-item) | Clearing Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Payment Order](payment-order.md) | exchanges through | [Clearing Item](clearing-item.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Clearing Item](clearing-item.md) | resolves through | [Settlement](settlement.md) | M:1 | [financial-services](../../../../patterns/financial-services.md) |
+| [Payment Order](payment-order.md) | exchanges through | [Clearing Item](clearing-item.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Clearing Item](clearing-item.md) | resolves through | [Settlement](settlement.md) | M:1 | [financial-services](../../../../industry-patterns/financial-services.md) |

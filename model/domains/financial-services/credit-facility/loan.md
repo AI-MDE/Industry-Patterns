@@ -17,11 +17,11 @@ Logical attributes: Loan Identifier; Loan Type; Loan Status; Original Principal;
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#loan) | Loan |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#loan) | Loan |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Credit Facility](credit-facility.md) | governs | [Loan](loan.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Loan](loan.md) | has | [Repayment Schedule](repayment-schedule.md) | 1:M versions | [financial-services](../../../../patterns/financial-services.md) |
+| [Credit Facility](credit-facility.md) | governs | [Loan](loan.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Loan](loan.md) | has | [Repayment Schedule](repayment-schedule.md) | 1:M versions | [financial-services](../../../../industry-patterns/financial-services.md) |

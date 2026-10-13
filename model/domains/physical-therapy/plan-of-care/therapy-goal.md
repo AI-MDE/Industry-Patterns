@@ -21,12 +21,12 @@ Goal types may include short-term, long-term, maintenance, prevention, or Patien
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-goal) | Therapy Goal |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-goal) | Therapy Goal |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Plan of Care](plan-of-care.md) | contains | [Therapy Goal](therapy-goal.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Goal](therapy-goal.md) | receives | [Goal Progress](goal-progress.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Intervention Delivery](../intervention-definition/intervention-delivery.md) | supports | [Therapy Goal](therapy-goal.md) | M:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Plan of Care](plan-of-care.md) | contains | [Therapy Goal](therapy-goal.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Goal](therapy-goal.md) | receives | [Goal Progress](goal-progress.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Intervention Delivery](../intervention-definition/intervention-delivery.md) | supports | [Therapy Goal](therapy-goal.md) | M:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

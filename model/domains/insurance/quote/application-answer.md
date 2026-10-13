@@ -17,4 +17,4 @@ Logical attributes: Answer Identifier; Question Code; Answer Value; Answer Date;
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#application-answer) | Application Answer |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#application-answer) | Application Answer |

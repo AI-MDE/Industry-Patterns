@@ -27,11 +27,11 @@ Referral types may include physician referral, internal referral, self-referral,
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#referral) | Referral |
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#referral) | Referral |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#referral) | Referral |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#referral) | Referral |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Referral](referral.md) | may initiate | [Therapy Episode](../../physical-therapy/therapy-episode/therapy-episode.md) | 1:0..M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Referral](referral.md) | may initiate | [Therapy Episode](../../physical-therapy/therapy-episode/therapy-episode.md) | 1:0..M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

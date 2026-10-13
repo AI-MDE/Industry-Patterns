@@ -17,4 +17,4 @@ Logical attributes: Relationship Identifier; Relationship Type; Source Transacti
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#transaction-relationship) | Transaction Relationship |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#transaction-relationship) | Transaction Relationship |

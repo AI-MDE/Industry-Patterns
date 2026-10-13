@@ -17,10 +17,10 @@ Logical attributes: Insured Object Identifier; Object Type; Description; Externa
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#insured-object) | Insured Object |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#insured-object) | Insured Object |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Policy](policy.md) | covers | [Insured Object](insured-object.md) | M:M through Coverage | [insurance](../../../../patterns/insurance.md) |
+| [Policy](policy.md) | covers | [Insured Object](insured-object.md) | M:M through Coverage | [insurance](../../../../industry-patterns/insurance.md) |

@@ -17,13 +17,13 @@ Logical attributes: Work Effort Identifier; Work Type; Work Name; Work Status; P
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#work-effort) | Work Effort |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#work-effort) | Work Effort |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Business Event](business-event.md) | may trigger | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Work Effort](work-effort.md) | contains | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Assignment](assignment.md) | allocates to | [Work Effort](work-effort.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Work Effort](work-effort.md) | produces | [Outcome](outcome.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Business Event](business-event.md) | may trigger | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Work Effort](work-effort.md) | contains | [Work Effort](work-effort.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Assignment](assignment.md) | allocates to | [Work Effort](work-effort.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Work Effort](work-effort.md) | produces | [Outcome](outcome.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

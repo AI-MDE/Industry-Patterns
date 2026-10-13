@@ -17,4 +17,4 @@ Logical attributes: Pricing Plan Identifier; Plan Name; Version; Currency; Statu
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#pricing-plan) | Pricing Plan |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#pricing-plan) | Pricing Plan |

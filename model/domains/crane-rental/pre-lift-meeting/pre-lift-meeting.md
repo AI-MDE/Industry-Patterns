@@ -17,4 +17,4 @@ Logical attributes: Meeting Identifier; Held At; Job Order; Lift Plan Version; L
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#pre-lift-meeting) | Pre-Lift Meeting |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#pre-lift-meeting) | Pre-Lift Meeting |

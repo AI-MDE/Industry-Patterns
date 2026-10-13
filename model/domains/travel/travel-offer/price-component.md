@@ -17,10 +17,10 @@ Logical attributes: Price Component Identifier; Component Type; Description; Amo
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#price-component) | Price Component |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#price-component) | Price Component |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Offer Item](offer-item.md) | contains | [Price Component](price-component.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Offer Item](offer-item.md) | contains | [Price Component](price-component.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

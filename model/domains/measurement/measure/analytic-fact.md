@@ -19,4 +19,8 @@ Rule: operational concepts remain authoritative; analytic facts and dimensions a
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#analytic-fact) | Analytic Fact |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#analytic-fact) | Analytic Fact |
+
+## Integrity rules
+
+- Derived analytic facts must retain lineage to authoritative operational records.

@@ -21,4 +21,4 @@ A classification may identify routine, standard, complex, critical, engineered, 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-classification) | Lift Classification |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-classification) | Lift Classification |

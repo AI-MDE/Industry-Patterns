@@ -17,4 +17,4 @@ Logical attributes: Transaction Identifier; Transaction Type; Status; Transactio
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#inventory-transaction) | Inventory Transaction |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#inventory-transaction) | Inventory Transaction |

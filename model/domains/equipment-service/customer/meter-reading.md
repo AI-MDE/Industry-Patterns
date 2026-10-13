@@ -17,4 +17,4 @@ Recorded operating hours, mileage, or cycles at a point in time, with source and
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#meter-reading-standard) | Meter Reading (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#meter-reading-standard) | Meter Reading (Standard) |

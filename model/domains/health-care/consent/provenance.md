@@ -17,10 +17,10 @@ Logical attributes: Provenance Identifier; Recorded At; Activity Type; Agent; So
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#provenance) | Provenance |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#provenance) | Provenance |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Provenance](provenance.md) | describes | Clinical or administrative record (review) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Provenance](provenance.md) | describes | Clinical or administrative record (review) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |

@@ -17,4 +17,4 @@ Logical attributes: Rigging Plan Identifier; Status; Load Requirement; Configura
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#rigging-plan) | Rigging Plan |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#rigging-plan) | Rigging Plan |

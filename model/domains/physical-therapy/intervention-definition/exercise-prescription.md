@@ -17,11 +17,11 @@ Logical attributes: Prescription Identifier; Exercise Definition; Status; Sets; 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#exercise-prescription) | Exercise Prescription |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#exercise-prescription) | Exercise Prescription |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Home Exercise Program](home-exercise-program.md) | contains | [Exercise Prescription](exercise-prescription.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Exercise Prescription](exercise-prescription.md) | references | [Exercise Definition](exercise-definition.md) | M:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Home Exercise Program](home-exercise-program.md) | contains | [Exercise Prescription](exercise-prescription.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Exercise Prescription](exercise-prescription.md) | references | [Exercise Definition](exercise-definition.md) | M:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

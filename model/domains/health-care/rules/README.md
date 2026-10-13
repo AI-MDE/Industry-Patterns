@@ -1,0 +1,26 @@
+# Health Care rules
+
+Reusable business requirements in the [Health Care domain](../README.md). References resolve to canonical definitions; application architecture is defined separately.
+
+- [Appointment Must Respect Availability](appointment-must-respect-availability.md)
+- [Audit Events Are Immutable](audit-events-are-immutable.md)
+- [Authorization Does Not Replace Consent](authorization-does-not-replace-consent.md)
+- [Authorized Service Must Match Conditions](authorized-service-must-match-conditions.md)
+- [Care Plan Must Identify Accountable Provider](care-plan-must-identify-accountable-provider.md)
+- [Case Resolution Requires Evidence](case-resolution-requires-evidence.md)
+- [Claim Line Must Trace To Delivered Service](claim-line-must-trace-to-delivered-service.md)
+- [Claim Totals Must Reconcile](claim-totals-must-reconcile.md)
+- [Clinical Assertion Requires Provenance](clinical-assertion-requires-provenance.md)
+- [Consent Evaluated By Purpose Scope And Time](consent-evaluated-by-purpose-scope-and-time.md)
+- [Coverage Must Be Effective On Service Date](coverage-must-be-effective-on-service-date.md)
+- [Encounter End Cannot Precede Start](encounter-end-cannot-precede-start.md)
+- [Episode Must Concern One Patient](episode-must-concern-one-patient.md)
+- [Finalized Records Preserve History](finalized-records-preserve-history.md)
+- [Minimum Necessary Access](minimum-necessary-access.md)
+- [Observation Requires Subject Time Source](observation-requires-subject-time-source.md)
+- [Patient Identity Must Be Traceable](patient-identity-must-be-traceable.md)
+- [Protected Access Must Be Audited](protected-access-must-be-audited.md)
+- [Provider Must Act Within Active Scope](provider-must-act-within-active-scope.md)
+- [Service Delivery Must Trace To Request Or Plan](service-delivery-must-trace-to-request-or-plan.md)
+- [Service Delivery Requires Traceability](service-delivery-requires-traceability.md)
+- [Service Location Must Be Operational](service-location-must-be-operational.md)

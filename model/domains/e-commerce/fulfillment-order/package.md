@@ -17,4 +17,4 @@ Logical attributes: Package Identifier; Package Type; Weight; Dimensions; Tracki
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#package) | Package |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#package) | Package |

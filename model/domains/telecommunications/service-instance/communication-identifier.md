@@ -19,4 +19,4 @@ Examples include telephone number, IP address, SIM/eSIM identifier, IMSI, MAC ad
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#communication-identifier) | Communication Identifier |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#communication-identifier) | Communication Identifier |

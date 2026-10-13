@@ -19,10 +19,10 @@ Rule: keep longitudinal Condition separate from an Encounter-specific Diagnosis 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#diagnosis) | Diagnosis |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#diagnosis) | Diagnosis |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Diagnosis](diagnosis.md) | may assert | [Condition](condition.md) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Diagnosis](diagnosis.md) | may assert | [Condition](condition.md) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |

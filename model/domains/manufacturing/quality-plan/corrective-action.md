@@ -17,4 +17,4 @@ Logical attributes: Action Identifier; Action Type; Status; Owner; Opened Date; 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#corrective-action) | Corrective Action |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#corrective-action) | Corrective Action |

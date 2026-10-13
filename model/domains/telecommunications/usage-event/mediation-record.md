@@ -17,11 +17,11 @@ Logical attributes: Mediation Record Identifier; Usage Event; Mediation Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#mediation-record) | Mediation Record |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#mediation-record) | Mediation Record |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Usage Event](usage-event.md) | produces | [Mediation Record](mediation-record.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Mediation Record](mediation-record.md) | produces | [Rated Usage](rated-usage.md) | M:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Usage Event](usage-event.md) | produces | [Mediation Record](mediation-record.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Mediation Record](mediation-record.md) | produces | [Rated Usage](rated-usage.md) | M:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

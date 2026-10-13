@@ -17,10 +17,10 @@ Logical attributes: Refund Identifier; Refund Reference; Refund Amount; Currency
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#refund) | Refund |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#refund) | Refund |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Return](../cancellation/return.md) | may cause | [Refund](refund.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Return](../cancellation/return.md) | may cause | [Refund](refund.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

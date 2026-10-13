@@ -17,4 +17,4 @@ Party whose equipment is serviced or supplied. Specializes cross-industry Party 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#customer) | Customer |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#customer) | Customer |

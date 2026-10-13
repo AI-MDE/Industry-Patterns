@@ -17,4 +17,4 @@ Logical attributes: Instruction Identifier; Instruction Type; Version; Status; L
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#work-instruction) | Work Instruction |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#work-instruction) | Work Instruction |

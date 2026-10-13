@@ -19,10 +19,10 @@ Logical attributes: Service Identifier; Service Name; Service Type; Service Stat
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#travel-service) | Travel Service |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#travel-service) | Travel Service |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Travel Service](travel-service.md) | occurs as | [Service Instance](service-instance.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Travel Service](travel-service.md) | occurs as | [Service Instance](service-instance.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

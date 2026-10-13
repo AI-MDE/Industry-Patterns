@@ -17,10 +17,10 @@ Logical attributes: Risk Item Identifier; Risk Type; Description; Location; Valu
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#risk-item) | Risk Item |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#risk-item) | Risk Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Insurance Application](insurance-application.md) | describes | [Risk Item](risk-item.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Insurance Application](insurance-application.md) | describes | [Risk Item](risk-item.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

@@ -19,10 +19,10 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product) | Product |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product) | Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product](product.md) | has | [Product Version](product-version.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Product](product.md) | has | [Product Version](product-version.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

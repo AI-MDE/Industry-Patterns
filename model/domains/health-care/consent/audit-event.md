@@ -17,10 +17,28 @@ Logical attributes: Audit Event Identifier; Event Type; Occurred At; Actor; Acti
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#audit-event) | Audit Event |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#audit-event) | Audit Event |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Audit Event](audit-event.md) | records access or action upon | Patient information (review) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Audit Event](audit-event.md) | records access or action upon | Patient information (review) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+References the Patient, actor, operation, record, and policy context.
+
+## Operations
+
+- record
+- query-authorized-audit
+
+## States
+
+recorded
+
+## Rules
+
+- [protected-access-must-be-audited](../rules/protected-access-must-be-audited.md)
+- [audit-events-are-immutable](../rules/audit-events-are-immutable.md)

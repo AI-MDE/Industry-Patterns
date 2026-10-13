@@ -17,11 +17,11 @@ Logical attributes: Dispute Identifier; Dispute Type; Dispute Status; Opened Dat
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#dispute) | Dispute |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#dispute) | Dispute |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Transaction (review) | may be challenged by | [Dispute](dispute.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Dispute](dispute.md) | may produce | [Adjustment](adjustment.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Transaction (review) | may be challenged by | [Dispute](dispute.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Dispute](dispute.md) | may produce | [Adjustment](adjustment.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

@@ -9,3 +9,7 @@
 - [Trouble Ticket](trouble-ticket/README.md)
 - [Usage Event](usage-event/README.md)
 - [Interconnect Agreement](interconnect-agreement/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

@@ -19,11 +19,11 @@ Charge types may include minimum rental, hourly or daily rental, operating time,
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#charge-event) | Charge Event |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#charge-event) | Charge Event |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Job Order](../rental-offering/job-order.md) | produces | [Charge Event](charge-event.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Invoice Line](../../finance/invoice/invoice-line.md) | derives from | [Charge Event](charge-event.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Job Order](../rental-offering/job-order.md) | produces | [Charge Event](charge-event.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Invoice Line](../../finance/invoice/invoice-line.md) | derives from | [Charge Event](charge-event.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

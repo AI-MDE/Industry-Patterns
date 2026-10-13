@@ -17,10 +17,10 @@ Logical attributes: Conflict Identifier; Conflict Type; Conflict Status; Detecte
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#conflict) | Conflict |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#conflict) | Conflict |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Change Capture](change-capture.md) | may create | [Conflict](conflict.md) | M:0..M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Change Capture](change-capture.md) | may create | [Conflict](conflict.md) | M:0..M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

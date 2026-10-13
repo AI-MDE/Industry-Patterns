@@ -17,4 +17,4 @@ Logical attributes: Rollback Point Identifier; Captured At; Scope; Storage Refer
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#rollback-point) | Rollback Point |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#rollback-point) | Rollback Point |

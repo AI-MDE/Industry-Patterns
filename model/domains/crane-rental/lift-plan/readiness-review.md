@@ -17,4 +17,4 @@ Logical attributes: Review Identifier; Review Type; Review Status; Performed At;
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#readiness-review) | Readiness Review |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#readiness-review) | Readiness Review |

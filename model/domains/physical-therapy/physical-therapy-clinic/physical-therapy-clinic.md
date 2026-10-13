@@ -19,10 +19,10 @@ Logical attributes: Clinic Identifier; Clinic Name; Clinic Type; Clinic Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#physical-therapy-clinic) | Physical Therapy Clinic |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#physical-therapy-clinic) | Physical Therapy Clinic |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Physical Therapy Clinic](physical-therapy-clinic.md) | operates | [Clinic Location](clinic-location.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Physical Therapy Clinic](physical-therapy-clinic.md) | operates | [Clinic Location](clinic-location.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

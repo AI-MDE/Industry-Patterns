@@ -17,11 +17,11 @@ Logical attributes: Travel Document Identifier; Document Type; Document Number; 
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#travel-document) | Travel Document |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#travel-document) | Travel Document |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Booking Item](../reservation/booking-item.md) | issues | [Travel Document](travel-document.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Travel Document](travel-document.md) | authorizes | [Fulfillment](fulfillment.md) | 1:M | [travel](../../../../patterns/travel.md) |
+| [Booking Item](../reservation/booking-item.md) | issues | [Travel Document](travel-document.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Travel Document](travel-document.md) | authorizes | [Fulfillment](fulfillment.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |

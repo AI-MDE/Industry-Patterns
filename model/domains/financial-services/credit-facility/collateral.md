@@ -17,10 +17,10 @@ Logical attributes: Collateral Identifier; Collateral Type; Description; Owner; 
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#collateral) | Collateral |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#collateral) | Collateral |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Credit obligation (review) | is supported by | [Collateral](collateral.md) | M:M | [financial-services](../../../../patterns/financial-services.md) |
+| Credit obligation (review) | is supported by | [Collateral](collateral.md) | M:M | [financial-services](../../../../industry-patterns/financial-services.md) |

@@ -21,14 +21,14 @@ Rule: retain product, description, price, tax, and promotion snapshots needed to
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#order-line) | Order Line |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#order-line) | Order Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Order Line](order-line.md) | snapshots | [Offering](../channel/offering.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Order Line](order-line.md) | receives | [Inventory Reservation](../inventory-item/inventory-reservation.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Fulfillment Line](../fulfillment-order/fulfillment-line.md) | satisfies | [Order Line](order-line.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Return Line](../cancellation/return-line.md) | refers to | [Order Line](order-line.md) | M:1 | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Order Line](order-line.md) | snapshots | [Offering](../channel/offering.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Order Line](order-line.md) | receives | [Inventory Reservation](../inventory-item/inventory-reservation.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Fulfillment Line](../fulfillment-order/fulfillment-line.md) | satisfies | [Order Line](order-line.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Return Line](../cancellation/return-line.md) | refers to | [Order Line](order-line.md) | M:1 | [e-commerce](../../../../industry-patterns/e-commerce.md) |

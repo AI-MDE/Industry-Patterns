@@ -19,4 +19,4 @@ Examples of purpose: billing, shipping, legal, service, emergency, personal, or 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#party-contact) | Party Contact |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#party-contact) | Party Contact |

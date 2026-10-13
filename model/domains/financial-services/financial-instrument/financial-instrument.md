@@ -17,4 +17,4 @@ Logical attributes: Instrument Identifier; Instrument Type; Instrument Name; Iss
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-instrument) | Financial Instrument |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-instrument) | Financial Instrument |

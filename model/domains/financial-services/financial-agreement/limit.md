@@ -17,4 +17,4 @@ Logical attributes: Limit Identifier; Limit Type; Limit Amount; Currency; Period
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#limit) | Limit |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#limit) | Limit |

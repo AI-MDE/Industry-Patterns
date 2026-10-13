@@ -15,4 +15,4 @@ Labor recorded by a Technician against a request and optionally a Work Effort: d
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#time-entry) | Time Entry |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#time-entry) | Time Entry |

@@ -17,4 +17,4 @@ Logical attributes: Rating Factor Identifier; Factor Name; Factor Type; Value Ty
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#rating-factor) | Rating Factor |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#rating-factor) | Rating Factor |

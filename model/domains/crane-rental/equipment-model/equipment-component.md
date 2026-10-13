@@ -19,10 +19,10 @@ Examples: boom section, jib, counterweight, outrigger mat, hook block, personnel
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#equipment-component) | Equipment Component |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#equipment-component) | Equipment Component |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Crane Configuration](crane-configuration.md) | contains | [Equipment Component](equipment-component.md) | M:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Crane Configuration](crane-configuration.md) | contains | [Equipment Component](equipment-component.md) | M:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

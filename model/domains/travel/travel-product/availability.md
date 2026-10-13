@@ -19,10 +19,10 @@ Rule: availability is time-sensitive sourced information, not a timeless attribu
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#availability) | Availability |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#availability) | Availability |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Availability](availability.md) | describes | Service Instance or inventory class (review) | M:1 | [travel](../../../../patterns/travel.md) |
+| [Availability](availability.md) | describes | Service Instance or inventory class (review) | M:1 | [travel](../../../../industry-patterns/travel.md) |

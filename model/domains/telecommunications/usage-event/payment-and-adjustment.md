@@ -17,4 +17,4 @@ Logical attributes: Transaction Identifier; Transaction Type; Status; Effective 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#payment-and-adjustment) | Payment and Adjustment |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#payment-and-adjustment) | Payment and Adjustment |

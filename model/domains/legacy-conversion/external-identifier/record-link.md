@@ -19,11 +19,11 @@ Link types include exact match, probable match, created from, supersedes, duplic
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#record-link) | Record Link |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#record-link) | Record Link |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Source Record](../system/source-record.md) | corresponds through | [Record Link](record-link.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| Target Record or Golden Record (review) | corresponds through | [Record Link](record-link.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Source Record](../system/source-record.md) | corresponds through | [Record Link](record-link.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| Target Record or Golden Record (review) | corresponds through | [Record Link](record-link.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

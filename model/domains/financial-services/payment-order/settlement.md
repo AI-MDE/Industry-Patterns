@@ -17,10 +17,10 @@ Logical attributes: Settlement Identifier; Settlement Type; Settlement Status; S
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#settlement) | Settlement |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#settlement) | Settlement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Clearing Item](clearing-item.md) | resolves through | [Settlement](settlement.md) | M:1 | [financial-services](../../../../patterns/financial-services.md) |
+| [Clearing Item](clearing-item.md) | resolves through | [Settlement](settlement.md) | M:1 | [financial-services](../../../../industry-patterns/financial-services.md) |

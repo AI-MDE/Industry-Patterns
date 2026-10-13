@@ -19,10 +19,10 @@ Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#insurance-offering) | Insurance Offering |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#insurance-offering) | Insurance Offering |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Insurance Offering](insurance-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [insurance](../../../../patterns/insurance.md) |
+| [Insurance Offering](insurance-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [insurance](../../../../industry-patterns/insurance.md) |

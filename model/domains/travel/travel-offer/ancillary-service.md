@@ -19,4 +19,4 @@ Examples: baggage, seat, meal, lounge, transfer, insurance, equipment, early che
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#ancillary-service) | Ancillary Service |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#ancillary-service) | Ancillary Service |

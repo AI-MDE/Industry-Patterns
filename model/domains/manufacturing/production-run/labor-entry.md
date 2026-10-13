@@ -17,4 +17,4 @@ Logical attributes: Labor Entry Identifier; Operator; Role; Operation Execution;
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#labor-entry) | Labor Entry |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#labor-entry) | Labor Entry |

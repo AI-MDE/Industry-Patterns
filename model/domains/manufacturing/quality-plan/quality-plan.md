@@ -17,4 +17,4 @@ Logical attributes: Quality Plan Identifier; Version; Status; Product or Operati
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#quality-plan) | Quality Plan |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#quality-plan) | Quality Plan |

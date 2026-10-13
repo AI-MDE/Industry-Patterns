@@ -17,4 +17,4 @@ Logical attributes: Measurement Identifier; Metric; Observed At; Interval; Value
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#performance-measurement) | Performance Measurement |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#performance-measurement) | Performance Measurement |

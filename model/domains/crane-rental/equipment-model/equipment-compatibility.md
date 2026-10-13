@@ -17,4 +17,4 @@ Logical attributes: Compatibility Identifier; Parent Model or Asset; Component; 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#equipment-compatibility) | Equipment Compatibility |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#equipment-compatibility) | Equipment Compatibility |

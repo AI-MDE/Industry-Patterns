@@ -17,4 +17,4 @@ Configuration mapping (Service Type × Equipment Category → Skill set) used to
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#skill-requirement) | Skill Requirement |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#skill-requirement) | Skill Requirement |

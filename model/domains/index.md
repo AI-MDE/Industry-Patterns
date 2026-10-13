@@ -1,5 +1,7 @@
 # Canonical domains
 
+Domains own business structure and behavior. ABEs contain canonical entities; domain-level capabilities, roles, rules, use cases, and workflows reference them. See the [requirements registry](../requirements.json) and [cross-domain relationship view](../relationships.md).
+
 These 23 domains are registered in [model.json](../model.json). Shared domains and industry domains follow the same Domain → ABE → Entity structure.
 
 - [Party](party/README.md)

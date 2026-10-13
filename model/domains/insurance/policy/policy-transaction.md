@@ -19,11 +19,11 @@ Types include issue, bind, endorsement, renewal, cancellation, reinstatement, re
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#policy-transaction) | Policy Transaction |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#policy-transaction) | Policy Transaction |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Policy](policy.md) | changes through | [Policy Transaction](policy-transaction.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Policy Transaction](policy-transaction.md) | may create | [Endorsement](endorsement.md) | 1:0..M | [insurance](../../../../patterns/insurance.md) |
+| [Policy](policy.md) | changes through | [Policy Transaction](policy-transaction.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Policy Transaction](policy-transaction.md) | may create | [Endorsement](endorsement.md) | 1:0..M | [insurance](../../../../industry-patterns/insurance.md) |

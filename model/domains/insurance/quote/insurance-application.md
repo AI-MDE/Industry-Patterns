@@ -19,11 +19,11 @@ Logical attributes: Application Identifier; Application Number; Application Type
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#insurance-application) | Insurance Application |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#insurance-application) | Insurance Application |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Applicant (review) | submits | [Insurance Application](insurance-application.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Insurance Application](insurance-application.md) | describes | [Risk Item](risk-item.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Applicant (review) | submits | [Insurance Application](insurance-application.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Insurance Application](insurance-application.md) | describes | [Risk Item](risk-item.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

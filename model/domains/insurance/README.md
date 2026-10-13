@@ -6,3 +6,7 @@
 - [Premium](premium/README.md)
 - [Loss Event](loss-event/README.md)
 - [Reinsurance Contract](reinsurance-contract/README.md)
+
+## Business definitions
+
+See [relationships, roles, and business behavior](behavior.md).

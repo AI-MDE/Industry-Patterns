@@ -17,4 +17,4 @@ Configured classification of service work (repair, preventive maintenance, inspe
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-type) | Service Type |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-type) | Service Type |

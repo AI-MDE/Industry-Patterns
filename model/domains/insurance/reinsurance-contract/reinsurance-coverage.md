@@ -17,10 +17,10 @@ Logical attributes: Reinsurance Coverage Identifier; Coverage Type; Attachment P
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#reinsurance-coverage) | Reinsurance Coverage |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#reinsurance-coverage) | Reinsurance Coverage |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reinsurance Contract](reinsurance-contract.md) | contains | [Reinsurance Coverage](reinsurance-coverage.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Reinsurance Contract](reinsurance-contract.md) | contains | [Reinsurance Coverage](reinsurance-coverage.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

@@ -17,11 +17,11 @@ Logical attributes: Work Operation Identifier; Sequence; Status; Work Center; Pl
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#work-order-operation) | Work Order Operation |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#work-order-operation) | Work Order Operation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Manufacturing Order](manufacturing-order.md) | contains | [Work Order Operation](work-order-operation.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Work Order Operation](work-order-operation.md) | receives | [Operation Execution](../production-run/operation-execution.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Manufacturing Order](manufacturing-order.md) | contains | [Work Order Operation](work-order-operation.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Work Order Operation](work-order-operation.md) | receives | [Operation Execution](../production-run/operation-execution.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

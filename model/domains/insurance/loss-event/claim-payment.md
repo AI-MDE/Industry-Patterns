@@ -17,10 +17,10 @@ Logical attributes: Claim Payment Identifier; Payment Type; Payment Status; Requ
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#claim-payment) | Claim Payment |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#claim-payment) | Claim Payment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Settlement or approved expense (review) | produces | [Claim Payment](claim-payment.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Settlement or approved expense (review) | produces | [Claim Payment](claim-payment.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

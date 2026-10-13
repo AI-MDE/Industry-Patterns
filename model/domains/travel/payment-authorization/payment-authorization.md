@@ -17,4 +17,4 @@ Logical attributes: Authorization Identifier; Provider Reference; Amount; Curren
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#payment-authorization) | Payment Authorization |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#payment-authorization) | Payment Authorization |

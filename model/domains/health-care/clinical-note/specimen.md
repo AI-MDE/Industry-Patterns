@@ -17,4 +17,4 @@ Logical attributes: Specimen Identifier; Specimen Type; Specimen Status; Collect
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#specimen) | Specimen |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#specimen) | Specimen |

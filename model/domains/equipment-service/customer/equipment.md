@@ -15,4 +15,4 @@ A specific physical item, identified by serial number, instance of one Equipment
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#equipment) | Equipment |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#equipment) | Equipment |

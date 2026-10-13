@@ -17,11 +17,11 @@ Logical attributes: Ledger Entry Identifier; Posting Date; Value Date; Debit/Cre
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#ledger-entry) | Ledger Entry |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#ledger-entry) | Ledger Entry |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Financial Transaction](financial-transaction.md) | produces | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Posting Batch](posting-batch.md) | contains | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Financial Transaction](financial-transaction.md) | produces | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Posting Batch](posting-batch.md) | contains | [Ledger Entry](ledger-entry.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

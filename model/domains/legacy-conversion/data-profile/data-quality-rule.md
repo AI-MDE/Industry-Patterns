@@ -17,10 +17,10 @@ Logical attributes: Quality Rule Identifier; Rule Name; Quality Dimension; Rule 
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#data-quality-rule) | Data Quality Rule |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#data-quality-rule) | Data Quality Rule |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Data Quality Rule](data-quality-rule.md) | produces | [Data Quality Finding](data-quality-finding.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Data Quality Rule](data-quality-rule.md) | produces | [Data Quality Finding](data-quality-finding.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

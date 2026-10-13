@@ -19,4 +19,4 @@ Logical attributes: Invoice Identifier; Invoice Number; Invoice Date; Due Date; 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#patient-invoice) | Patient Invoice |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#patient-invoice) | Patient Invoice |

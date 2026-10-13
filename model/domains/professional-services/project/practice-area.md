@@ -15,4 +15,4 @@ service line, department, or specialty; owns Engagements, groups Professionals, 
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Practice Area |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Practice Area |

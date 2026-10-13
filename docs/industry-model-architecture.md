@@ -19,6 +19,10 @@ Capabilities select and use ABEs. The reusable catalog has one semantic home per
 
 See the [integration review](../model/integration-review.md) for current coverage and unresolved expressions. This integration changes Industry-Patterns; the separately proposed MDE meta-model changes remain documented in [Changes to MDE](changes-to-mde.md).
 
+## Business behavior ownership
+
+The canonical domain owns reusable roles, rules, capabilities, use cases, and workflows alongside its ABEs. Entity operations and states stay on the entity pages. Industry patterns guide selection and link to these definitions; no separate knowledge-base layer duplicates entities. The actual application owns architecture and implementation decisions. See the [requirements registry](../model/requirements.json).
+
 ## Core principle
 
 **Keep one coherent semantic universe, but do not force one model depth or one implementation on every application.**

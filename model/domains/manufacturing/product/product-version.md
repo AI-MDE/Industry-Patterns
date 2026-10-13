@@ -17,12 +17,12 @@ Logical attributes: Product Version Identifier; Revision; Status; Effective From
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product-version) | Product Version |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product-version) | Product Version |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product](product.md) | has | [Product Version](product-version.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Product Version](product-version.md) | has | [Product Specification](product-specification.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
-| [Product Version](product-version.md) | governed by | Bill of Material and Routing (review) | 1:M versions | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Product](product.md) | has | [Product Version](product-version.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Product Version](product-version.md) | has | [Product Specification](product-specification.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |
+| [Product Version](product-version.md) | governed by | Bill of Material and Routing (review) | 1:M versions | [manufacturing](../../../../industry-patterns/manufacturing.md) |

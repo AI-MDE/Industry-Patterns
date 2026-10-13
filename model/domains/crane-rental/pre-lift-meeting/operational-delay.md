@@ -17,4 +17,4 @@ Logical attributes: Delay Identifier; Delay Type; Delay Status; Start Time; End 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#operational-delay) | Operational Delay |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#operational-delay) | Operational Delay |

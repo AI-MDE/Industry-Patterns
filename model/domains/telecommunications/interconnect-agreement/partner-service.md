@@ -17,4 +17,4 @@ Logical attributes: Partner Service Identifier; Service Type; Status; Partner; E
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#partner-service) | Partner Service |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#partner-service) | Partner Service |

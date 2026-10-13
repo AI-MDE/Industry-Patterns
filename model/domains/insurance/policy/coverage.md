@@ -19,13 +19,13 @@ Logical attributes: Coverage Identifier; Coverage Code; Coverage Status; Effecti
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#coverage) | Coverage |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#coverage) | Coverage |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Policy](policy.md) | contains | [Coverage](coverage.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Coverage](coverage.md) | derives from | [Coverage Definition](../insurance-product/coverage-definition.md) | M:1 | [insurance](../../../../patterns/insurance.md) |
-| [Coverage](coverage.md) | has | Coverage Term or Exclusion (review) | 1:M | [insurance](../../../../patterns/insurance.md) |
-| [Claim Exposure](../loss-event/claim-exposure.md) | evaluates | [Coverage](coverage.md) | M:1 | [insurance](../../../../patterns/insurance.md) |
+| [Policy](policy.md) | contains | [Coverage](coverage.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Coverage](coverage.md) | derives from | [Coverage Definition](../insurance-product/coverage-definition.md) | M:1 | [insurance](../../../../industry-patterns/insurance.md) |
+| [Coverage](coverage.md) | has | Coverage Term or Exclusion (review) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |
+| [Claim Exposure](../loss-event/claim-exposure.md) | evaluates | [Coverage](coverage.md) | M:1 | [insurance](../../../../industry-patterns/insurance.md) |

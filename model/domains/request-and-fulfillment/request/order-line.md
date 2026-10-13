@@ -17,11 +17,15 @@ Logical attributes: Order Line Identifier; Line Number; Quantity; Unit of Measur
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#order-line) | Order Line |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#order-line) | Order Line |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Order Line](order-line.md) | requests | [Offering](../../product-and-service/product/offering.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Order](order.md) | contains | [Order Line](order-line.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Order Line](order-line.md) | requests | [Offering](../../product-and-service/product/offering.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+
+## Integrity rules
+
+- An Order Line must identify what is requested and its quantity or scope.

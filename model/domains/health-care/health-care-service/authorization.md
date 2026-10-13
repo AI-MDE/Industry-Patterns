@@ -19,10 +19,33 @@ Rule: clinical orders, patient consent, organizational approval, and payer autho
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#authorization) | Authorization |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#authorization) | Authorization |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Authorization](authorization.md) | authorizes | Service Request or Service Delivery (review) | M:M | [health-care](../../../../patterns/health-care.md) |
+| [Authorization](authorization.md) | authorizes | Service Request or Service Delivery (review) | M:M | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Concerns a Patient and Coverage; authorizes Service Requests or Deliveries.
+
+## Operations
+
+- request
+- review
+- approve
+- deny
+- amend
+- revoke
+- expire
+
+## States
+
+draft; requested; in-review; approved; partially-approved; denied; expired; revoked
+
+## Rules
+
+- [authorization-does-not-replace-consent](../rules/authorization-does-not-replace-consent.md)
+- [authorized-service-must-match-conditions](../rules/authorized-service-must-match-conditions.md)

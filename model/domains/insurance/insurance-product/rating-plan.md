@@ -17,4 +17,4 @@ Logical attributes: Rating Plan Identifier; Plan Name; Version; Status; Currency
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#rating-plan) | Rating Plan |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#rating-plan) | Rating Plan |

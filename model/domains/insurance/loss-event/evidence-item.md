@@ -17,4 +17,4 @@ Logical attributes: Evidence Identifier; Evidence Type; Evidence Status; Receive
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#evidence-item) | Evidence Item |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#evidence-item) | Evidence Item |

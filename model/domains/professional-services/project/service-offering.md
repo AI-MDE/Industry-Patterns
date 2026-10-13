@@ -17,4 +17,4 @@ professional service sold through an Engagement and delivered through a Project.
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Service Offering |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Service Offering |

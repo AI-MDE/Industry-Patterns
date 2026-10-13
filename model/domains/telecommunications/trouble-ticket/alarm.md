@@ -17,10 +17,10 @@ Logical attributes: Alarm Identifier; Alarm Type; Severity; Alarm Status; Raised
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#alarm) | Alarm |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#alarm) | Alarm |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Alarm](alarm.md) | concerns | [Network Resource](../service-instance/network-resource.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Alarm](alarm.md) | concerns | [Network Resource](../service-instance/network-resource.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

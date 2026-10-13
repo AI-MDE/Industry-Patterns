@@ -19,4 +19,4 @@ Examples: gate width, bridge limit, road restriction, turning radius, overhead o
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#site-access-constraint) | Site Access Constraint |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#site-access-constraint) | Site Access Constraint |

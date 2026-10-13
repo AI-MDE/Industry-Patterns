@@ -17,10 +17,10 @@ Logical attributes: Settlement Identifier; Settlement Type; Settlement Status; O
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#settlement) | Settlement |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#settlement) | Settlement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Claim or Exposure (review) | resolves through | [Settlement](settlement.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| Claim or Exposure (review) | resolves through | [Settlement](settlement.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

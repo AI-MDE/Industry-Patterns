@@ -19,10 +19,10 @@ Logical attributes: Task Identifier; Task Type; Task Status; Service or Resource
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#provisioning-task) | Provisioning Task |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#provisioning-task) | Provisioning Task |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Order](../telecommunications-quote/service-order.md) | contains | [Provisioning Task](provisioning-task.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Order](../telecommunications-quote/service-order.md) | contains | [Provisioning Task](provisioning-task.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

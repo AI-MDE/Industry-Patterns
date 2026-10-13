@@ -17,10 +17,10 @@ Logical attributes: Policy Period Identifier; Period Number; Start Date; End Dat
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#policy-period) | Policy Period |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#policy-period) | Policy Period |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Policy](policy.md) | contains | [Policy Period](policy-period.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Policy](policy.md) | contains | [Policy Period](policy-period.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

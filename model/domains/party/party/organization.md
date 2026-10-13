@@ -17,4 +17,4 @@ Logical attributes: Organization Name; Legal Form; Registration Number; Parent O
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#organization) | Organization |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#organization) | Organization |

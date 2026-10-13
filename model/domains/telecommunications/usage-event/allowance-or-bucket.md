@@ -17,4 +17,4 @@ Logical attributes: Allowance Identifier; Allowance Type; Subscription; Initial 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#allowance-or-bucket) | Allowance or Bucket |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#allowance-or-bucket) | Allowance or Bucket |

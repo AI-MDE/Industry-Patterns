@@ -17,10 +17,10 @@ Logical attributes: Request Identifier; Request Type; Request Status; Requested 
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#request) | Request |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#request) | Request |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Request](request.md) | may become | [Order](order.md) | 1:0..1 | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Request](request.md) | may become | [Order](order.md) | 1:0..1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |

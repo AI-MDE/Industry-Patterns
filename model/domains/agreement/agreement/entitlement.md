@@ -17,10 +17,10 @@ Logical attributes: Entitlement Identifier; Entitlement Type; Entitlement Status
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#entitlement) | Entitlement |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#entitlement) | Entitlement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Subscription](subscription.md) | grants | [Entitlement](entitlement.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Subscription](subscription.md) | grants | [Entitlement](entitlement.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

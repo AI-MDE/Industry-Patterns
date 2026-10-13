@@ -19,4 +19,4 @@ Rule: identity evidence and screening results are sourced assertions. Preserve s
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#screening-result) | Screening Result |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#screening-result) | Screening Result |

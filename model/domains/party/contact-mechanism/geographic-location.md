@@ -17,4 +17,4 @@ Logical attributes: Location Identifier; Location Type; Location Name; Geographi
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#geographic-location) | Geographic Location |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#geographic-location) | Geographic Location |

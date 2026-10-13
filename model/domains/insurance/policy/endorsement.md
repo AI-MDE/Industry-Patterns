@@ -17,10 +17,10 @@ Logical attributes: Endorsement Identifier; Endorsement Type; Status; Requested 
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#endorsement) | Endorsement |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#endorsement) | Endorsement |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Policy Transaction](policy-transaction.md) | may create | [Endorsement](endorsement.md) | 1:0..M | [insurance](../../../../patterns/insurance.md) |
+| [Policy Transaction](policy-transaction.md) | may create | [Endorsement](endorsement.md) | 1:0..M | [insurance](../../../../industry-patterns/insurance.md) |

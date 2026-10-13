@@ -17,11 +17,11 @@ Logical attributes: Charge Identifier; Charge Type; Charge Date; Amount; Currenc
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#charge) | Charge |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#charge) | Charge |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Charge](charge.md) | may arise from | Order Line, Usage, Fulfillment, or Event (review) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
-| [Invoice Line](invoice-line.md) | explains | [Charge](charge.md) | M:1 | [cross-industry](../../../../patterns/cross-industry.md) |
+| [Charge](charge.md) | may arise from | Order Line, Usage, Fulfillment, or Event (review) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |
+| [Invoice Line](invoice-line.md) | explains | [Charge](charge.md) | M:1 | [cross-industry](../../../../industry-patterns/cross-industry.md) |

@@ -19,4 +19,4 @@ Logical attributes: Work Order Identifier; Work Order Type; Status; Asset; Opene
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#maintenance-work-order) | Maintenance Work Order |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#maintenance-work-order) | Maintenance Work Order |

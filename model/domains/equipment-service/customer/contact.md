@@ -17,4 +17,4 @@ Person representing a Customer in a capacity such as site manager, operator, or 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#contact) | Contact |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#contact) | Contact |

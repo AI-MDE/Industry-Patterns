@@ -17,4 +17,4 @@ Logical attributes: Usage Identifier; Product Unit; Usage Type; Observed At; Val
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#product-usage) | Product Usage |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#product-usage) | Product Usage |

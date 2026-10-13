@@ -15,4 +15,4 @@ Structured result of the work: work performed, findings and defects, inspection 
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-outcome-and-finding-standard) | Service Outcome and Finding (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-outcome-and-finding-standard) | Service Outcome and Finding (Standard) |

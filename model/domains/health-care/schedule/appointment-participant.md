@@ -17,10 +17,10 @@ Logical attributes: Participant Identifier; Participant Type; Participation Stat
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#appointment-participant) | Appointment Participant |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#appointment-participant) | Appointment Participant |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Appointment](appointment.md) | includes | [Appointment Participant](appointment-participant.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
+| [Appointment](appointment.md) | includes | [Appointment Participant](appointment-participant.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |

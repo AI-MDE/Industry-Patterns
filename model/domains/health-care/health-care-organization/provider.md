@@ -19,11 +19,30 @@ Logical attributes: Provider Identifier; Provider Type; Provider Status; Primary
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#provider) | Provider |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#provider) | Provider |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Provider](provider.md) | performs | [Practitioner Role](practitioner-role.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| [Provider](provider.md) | participates in | [Encounter](../encounter/encounter.md) | M:M | [health-care](../../../../patterns/health-care.md) |
+| [Provider](provider.md) | performs | [Practitioner Role](practitioner-role.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| [Provider](provider.md) | participates in | [Encounter](../encounter/encounter.md) | M:M | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Performs Practitioner Roles; participates in Encounters; authors Requests, Observations, Diagnoses, Procedures, and Notes.
+
+## Operations
+
+- register
+- verify-credential
+- assign-role
+- suspend-role
+
+## States
+
+proposed; active; suspended; inactive
+
+## Rules
+
+- [provider-must-act-within-active-scope](../rules/provider-must-act-within-active-scope.md)

@@ -17,4 +17,4 @@ Logical attributes: Parameter Identifier; Parameter Name; Value Type; Target; Lo
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#recipe-or-process-parameter) | Recipe or Process Parameter |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#recipe-or-process-parameter) | Recipe or Process Parameter |

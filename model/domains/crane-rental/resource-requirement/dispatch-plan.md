@@ -17,10 +17,10 @@ Logical attributes: Dispatch Plan Identifier; Plan Status; Job Order; Dispatch D
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#dispatch-plan) | Dispatch Plan |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#dispatch-plan) | Dispatch Plan |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Dispatch Plan](dispatch-plan.md) | contains | [Transport Movement](transport-movement.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Dispatch Plan](dispatch-plan.md) | contains | [Transport Movement](transport-movement.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

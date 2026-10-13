@@ -17,10 +17,10 @@ Logical attributes: Instruction Identifier; Instruction Type; Instruction Status
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-instruction) | Financial Instruction |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-instruction) | Financial Instruction |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Account or Party (review) | submits | [Financial Instruction](financial-instruction.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Account or Party (review) | submits | [Financial Instruction](financial-instruction.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

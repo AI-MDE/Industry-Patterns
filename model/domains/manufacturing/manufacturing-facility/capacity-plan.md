@@ -17,4 +17,4 @@ Logical attributes: Capacity Plan Identifier; Period; Work Center; Required Capa
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#capacity-plan) | Capacity Plan |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#capacity-plan) | Capacity Plan |

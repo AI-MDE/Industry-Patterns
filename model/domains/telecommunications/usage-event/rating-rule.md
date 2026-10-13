@@ -17,4 +17,4 @@ Logical attributes: Rating Rule Identifier; Rule Type; Version; Effective From; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#rating-rule) | Rating Rule |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#rating-rule) | Rating Rule |

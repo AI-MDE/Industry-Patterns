@@ -19,10 +19,10 @@ Rule: raw findings, standardized outcome scores, and the Therapist's clinical as
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-assessment) | Therapy Assessment |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-assessment) | Therapy Assessment |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Evaluation](therapy-evaluation.md) | produces | [Therapy Assessment](therapy-assessment.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Evaluation](therapy-evaluation.md) | produces | [Therapy Assessment](therapy-assessment.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

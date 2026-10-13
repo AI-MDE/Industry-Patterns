@@ -17,12 +17,12 @@ Logical attributes: Return Identifier; Return Number; Return Status; Requested A
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#return) | Return |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#return) | Return |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Order](../order/order.md) | receives | [Return](return.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Return](return.md) | contains | [Return Line](return-line.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
-| [Return](return.md) | may cause | [Refund](../payment-method/refund.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| [Order](../order/order.md) | receives | [Return](return.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Return](return.md) | contains | [Return Line](return-line.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |
+| [Return](return.md) | may cause | [Refund](../payment-method/refund.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

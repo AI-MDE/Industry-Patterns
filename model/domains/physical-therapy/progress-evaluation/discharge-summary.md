@@ -17,10 +17,10 @@ Logical attributes: Summary Identifier; Document Status; Authored At; Author; Si
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#discharge-summary) | Discharge Summary |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#discharge-summary) | Discharge Summary |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Discharge](discharge.md) | produces | [Discharge Summary](discharge-summary.md) | 1:1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Discharge](discharge.md) | produces | [Discharge Summary](discharge-summary.md) | 1:1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

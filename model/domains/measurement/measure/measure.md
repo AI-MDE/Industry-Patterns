@@ -17,4 +17,4 @@ Logical attributes: Measure Identifier; Measure Name; Measure Type; Unit of Meas
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#measure) | Measure |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#measure) | Measure |

@@ -19,11 +19,11 @@ Logical attributes: Task Identifier; Task Name; Task Description; Task Status; P
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Task |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Task |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Project](project.md) | contains | [Task](task.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
-| [Task](task.md) | is supported by | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Project](project.md) | contains | [Task](task.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |
+| [Task](task.md) | is supported by | [Time Entry](time-entry.md) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

@@ -17,11 +17,11 @@ Logical attributes: Wave Identifier; Wave Name; Wave Status; Sequence; Planned S
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#migration-wave) | Migration Wave |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#migration-wave) | Migration Wave |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Migration Plan](migration-plan.md) | contains | [Migration Wave](migration-wave.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
-| [Migration Wave](migration-wave.md) | executes through | [Migration Batch](migration-batch.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Migration Plan](migration-plan.md) | contains | [Migration Wave](migration-wave.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |
+| [Migration Wave](migration-wave.md) | executes through | [Migration Batch](migration-batch.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

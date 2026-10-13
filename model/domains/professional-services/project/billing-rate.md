@@ -17,10 +17,10 @@ Logical attributes: Billing Rate Identifier; Rate Name; Rate Type; Billing Rate 
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Billing Rate |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Billing Rate |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Billing Rate](billing-rate.md) | prices | Project Assignment or Invoice Line (review) | 1:M | [professional-services](../../../../patterns/professional-services.md) |
+| [Billing Rate](billing-rate.md) | prices | Project Assignment or Invoice Line (review) | 1:M | [professional-services](../../../../industry-patterns/professional-services.md) |

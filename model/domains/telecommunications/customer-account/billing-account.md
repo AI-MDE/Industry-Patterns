@@ -17,11 +17,11 @@ Logical attributes: Billing Account Identifier; Billing Account Number; Status; 
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#billing-account) | Billing Account |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#billing-account) | Billing Account |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Customer Account](customer-account.md) | has | [Billing Account](billing-account.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Billing Account](billing-account.md) | receives | Charge, Invoice, and Payment (review) | 1:M each | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Customer Account](customer-account.md) | has | [Billing Account](billing-account.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Billing Account](billing-account.md) | receives | Charge, Invoice, and Payment (review) | 1:M each | [telecommunications](../../../../industry-patterns/telecommunications.md) |

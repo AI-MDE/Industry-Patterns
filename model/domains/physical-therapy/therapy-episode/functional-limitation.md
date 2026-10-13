@@ -19,10 +19,10 @@ Examples include walking, stairs, transfers, lifting, reaching, dressing, work, 
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#functional-limitation) | Functional Limitation |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#functional-limitation) | Functional Limitation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Episode](therapy-episode.md) | has | [Functional Limitation](functional-limitation.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](therapy-episode.md) | has | [Functional Limitation](functional-limitation.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

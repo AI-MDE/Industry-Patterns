@@ -17,10 +17,10 @@ Logical attributes: Mapping Identifier; Mapping Name; Mapping Version; Mapping S
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#mapping-specification) | Mapping Specification |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#mapping-specification) | Mapping Specification |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Mapping Specification](mapping-specification.md) | contains | [Field Mapping](field-mapping.md) | 1:M | [legacy-conversion](../../../../patterns/legacy-conversion.md) |
+| [Mapping Specification](mapping-specification.md) | contains | [Field Mapping](field-mapping.md) | 1:M | [legacy-conversion](../../../../industry-patterns/legacy-conversion.md) |

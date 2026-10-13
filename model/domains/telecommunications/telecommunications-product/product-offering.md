@@ -19,11 +19,11 @@ Logical attributes: Offering Identifier; Offering Name; Offering Status; Channel
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#product-offering) | Product Offering |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#product-offering) | Product Offering |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Product Offering](product-offering.md) | offers | [Product Version](product-version.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
-| [Subscription](../customer-account/subscription.md) | instantiates | [Product Offering](product-offering.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Product Offering](product-offering.md) | offers | [Product Version](product-version.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |
+| [Subscription](../customer-account/subscription.md) | instantiates | [Product Offering](product-offering.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

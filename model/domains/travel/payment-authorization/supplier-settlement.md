@@ -17,4 +17,4 @@ Logical attributes: Settlement Identifier; Settlement Period; Currency; Gross Am
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#supplier-settlement) | Supplier Settlement |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#supplier-settlement) | Supplier Settlement |

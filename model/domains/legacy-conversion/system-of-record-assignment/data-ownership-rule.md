@@ -17,4 +17,4 @@ Logical attributes: Ownership Rule Identifier; Subject Scope; Attribute Scope; O
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#data-ownership-rule) | Data Ownership Rule |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#data-ownership-rule) | Data Ownership Rule |

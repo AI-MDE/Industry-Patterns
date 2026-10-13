@@ -21,13 +21,13 @@ Service models may include bare rental, operated rental, managed lift, taxi cran
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#lift-request) | Lift Request |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#lift-request) | Lift Request |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Lift Request](lift-request.md) | concerns | [Job Site](../customer-account/job-site.md) | M:1 | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Request](lift-request.md) | contains | [Load Requirement](load-requirement.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Request](lift-request.md) | receives | [Site Survey](site-survey.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
-| [Lift Request](lift-request.md) | produces | [Quote](../rental-offering/quote.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | concerns | [Job Site](../customer-account/job-site.md) | M:1 | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | contains | [Load Requirement](load-requirement.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | receives | [Site Survey](site-survey.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |
+| [Lift Request](lift-request.md) | produces | [Quote](../rental-offering/quote.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

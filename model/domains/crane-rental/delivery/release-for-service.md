@@ -19,10 +19,10 @@ Rule: arrival at site, setup completion, inspection completion, and release for 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#release-for-service) | Release for Service |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#release-for-service) | Release for Service |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Release for Service](release-for-service.md) | applies to | Asset and Configuration (review) | M:1 each | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Release for Service](release-for-service.md) | applies to | Asset and Configuration (review) | M:1 each | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

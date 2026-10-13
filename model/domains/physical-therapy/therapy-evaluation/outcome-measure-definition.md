@@ -17,4 +17,4 @@ Logical attributes: Measure Definition Identifier; Measure Name; Version; Domain
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#outcome-measure-definition) | Outcome Measure Definition |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#outcome-measure-definition) | Outcome Measure Definition |

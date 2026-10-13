@@ -17,10 +17,10 @@ Logical attributes: Impact Identifier; Event; Service; Impact Type; Severity; St
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-impact) | Service Impact |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-impact) | Service Impact |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Alarm or Outage (review) | creates | [Service Impact](service-impact.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| Alarm or Outage (review) | creates | [Service Impact](service-impact.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

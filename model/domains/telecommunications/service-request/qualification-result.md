@@ -17,4 +17,4 @@ Logical attributes: Result Identifier; Result Type; Feasible Date; Available Cap
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#qualification-result) | Qualification Result |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#qualification-result) | Qualification Result |

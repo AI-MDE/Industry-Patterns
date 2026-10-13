@@ -17,4 +17,4 @@ Logical attributes: Model Identifier; Manufacturer; Model Name; Equipment Type; 
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#equipment-model) | Equipment Model |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#equipment-model) | Equipment Model |

@@ -17,4 +17,4 @@ Logical attributes: Dispute Identifier; Dispute Type; Status; Opened Date; Custo
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#commercial-dispute) | Commercial Dispute |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#commercial-dispute) | Commercial Dispute |

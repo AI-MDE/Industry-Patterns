@@ -17,4 +17,4 @@ Logical attributes: Change Order Identifier; Change Type; Change Status; Request
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#change-order) | Change Order |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#change-order) | Change Order |

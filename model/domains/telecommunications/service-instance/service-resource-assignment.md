@@ -17,4 +17,4 @@ Logical attributes: Assignment Identifier; Service; Resource; Assignment Type; Q
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-resource-assignment) | Service-Resource Assignment |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-resource-assignment) | Service-Resource Assignment |

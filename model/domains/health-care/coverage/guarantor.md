@@ -19,4 +19,4 @@ Logical attributes: Guarantor Identifier; Relationship to Patient; Responsibilit
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#guarantor) | Guarantor |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#guarantor) | Guarantor |

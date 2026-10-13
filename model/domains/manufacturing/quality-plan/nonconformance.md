@@ -17,10 +17,10 @@ Logical attributes: Nonconformance Identifier; Type; Status; Detected At; Source
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#nonconformance) | Nonconformance |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#nonconformance) | Nonconformance |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Nonconformance](nonconformance.md) | concerns | Material, Output, Process, or Asset (review) | M:1 | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Nonconformance](nonconformance.md) | concerns | Material, Output, Process, or Asset (review) | M:1 | [manufacturing](../../../../industry-patterns/manufacturing.md) |

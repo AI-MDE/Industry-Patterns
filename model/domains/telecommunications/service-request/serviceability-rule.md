@@ -19,4 +19,4 @@ Rule: commercial eligibility, geographic coverage, technical feasibility, availa
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#serviceability-rule) | Serviceability Rule |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#serviceability-rule) | Serviceability Rule |

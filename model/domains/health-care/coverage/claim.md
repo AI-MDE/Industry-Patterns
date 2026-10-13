@@ -23,14 +23,38 @@ Logical attributes: Claim Identifier; Claim Number; Claim Status; Submitted Date
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#claim) | Claim |
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#claim) | Claim |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#claim) | Claim |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#claim) | Claim |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Claim](claim.md) | contains | [Claim Line](claim-line.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [health-care](../../../../patterns/health-care.md) |
-| [Claim](claim.md) | contains | [Claim Line](claim-line.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Claim](claim.md) | contains | [Claim Line](claim-line.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [health-care](../../../../industry-patterns/health-care.md) |
+| [Claim](claim.md) | contains | [Claim Line](claim-line.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Claim](claim.md) | receives | [Adjudication](adjudication.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+
+## Business participation
+
+Contains Claim Lines; references Coverage and Authorization; receives Adjudications and Payments.
+
+## Operations
+
+- assemble
+- validate
+- submit
+- correct
+- appeal
+- void
+- close
+- record-adjudication
+
+## States
+
+draft; submitted; acknowledged; in-review; adjudicated; rejected; denied; partially-paid; paid; appealed; closed; voided
+
+## Rules
+
+- [claim-line-must-trace-to-delivered-service](../rules/claim-line-must-trace-to-delivered-service.md)
+- [claim-totals-must-reconcile](../rules/claim-totals-must-reconcile.md)

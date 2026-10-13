@@ -19,4 +19,4 @@ Logical attributes: Entitlement Identifier; Entitlement Type; Entitlement Status
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#digital-entitlement) | Digital Entitlement |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#digital-entitlement) | Digital Entitlement |

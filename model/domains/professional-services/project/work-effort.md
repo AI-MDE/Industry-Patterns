@@ -17,4 +17,4 @@ generalized task, phase, milestone, activity, or matter step; may contain child 
 
 | Source | Term |
 |---|---|
-| [patterns/professional-services.md](../../../../patterns/professional-services.md#detailed-logical-model) | Work Effort |
+| [industry-patterns/professional-services.md](../../../../industry-patterns/professional-services.md#detailed-logical-model) | Work Effort |

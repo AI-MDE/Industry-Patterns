@@ -17,10 +17,10 @@ Logical attributes: Case Identifier; Case Type; Case Status; Priority; Opened At
 
 | Source | Term |
 |---|---|
-| [patterns/e-commerce.md](../../../../patterns/e-commerce.md#customer-case) | Customer Case |
+| [industry-patterns/e-commerce.md](../../../../industry-patterns/e-commerce.md#customer-case) | Customer Case |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Customer (review) | opens | [Customer Case](customer-case.md) | 1:M | [e-commerce](../../../../patterns/e-commerce.md) |
+| Customer (review) | opens | [Customer Case](customer-case.md) | 1:M | [e-commerce](../../../../industry-patterns/e-commerce.md) |

@@ -19,11 +19,11 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#financial-product) | Financial Product |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#financial-product) | Financial Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Financial Institution](financial-institution.md) | defines | [Financial Product](financial-product.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Financial Product](financial-product.md) | has | [Product Version](product-version.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| [Financial Institution](financial-institution.md) | defines | [Financial Product](financial-product.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Financial Product](financial-product.md) | has | [Product Version](product-version.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

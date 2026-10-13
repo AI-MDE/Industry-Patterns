@@ -19,10 +19,10 @@ Logical attributes: Reinsurance Contract Identifier; Contract Number; Contract T
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#reinsurance-contract) | Reinsurance Contract |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#reinsurance-contract) | Reinsurance Contract |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reinsurance Contract](reinsurance-contract.md) | contains | [Reinsurance Coverage](reinsurance-coverage.md) | 1:M | [insurance](../../../../patterns/insurance.md) |
+| [Reinsurance Contract](reinsurance-contract.md) | contains | [Reinsurance Coverage](reinsurance-coverage.md) | 1:M | [insurance](../../../../industry-patterns/insurance.md) |

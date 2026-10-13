@@ -17,11 +17,11 @@ Logical attributes: Product Version Identifier; Version; Status; Effective From;
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#product-version) | Product Version |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#product-version) | Product Version |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Financial Product](financial-product.md) | has | [Product Version](product-version.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
-| [Financial Offering](financial-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [financial-services](../../../../patterns/financial-services.md) |
+| [Financial Product](financial-product.md) | has | [Product Version](product-version.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |
+| [Financial Offering](financial-offering.md) | makes available | [Product Version](product-version.md) | M:1 | [financial-services](../../../../industry-patterns/financial-services.md) |

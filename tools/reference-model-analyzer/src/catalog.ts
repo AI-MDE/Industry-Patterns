@@ -28,6 +28,10 @@ export async function loadCatalog(file: string): Promise<MdeCatalog> {
     function local(p: string) { if (path.isAbsolute(p))
         throw new Error(`Canonical paths must be relative: ${p}`); const resolved = path.resolve(root, p); if (!resolved.startsWith(root + path.sep))
         throw new Error(`Canonical path escapes repository: ${p}`); return resolved; }
+    const requirements = manifest.requirements
+        ? list(object(JSON.parse(await readFile(local(manifest.requirements), 'utf8')), 'requirements registry').requirements, 'requirements')
+        : [];
+    const capabilities = manifest.capabilities ?? requirements.filter(r => r.type === 'capability');
     const concepts: MdeConcept[] = [];
     for (const raw of manifest.concepts) {
         const c = object(raw, 'manifest concept');
@@ -54,5 +58,5 @@ export async function loadCatalog(file: string): Promise<MdeCatalog> {
                 throw new Error('Canonical relationship has unknown endpoint');
             c.relationships!.push({ name: r.role, target: r.targetConcept, cardinality: r.cardinality });
         }
-    return { concepts, domains: list(manifest.domains, 'manifest.domains').map(d => d.name), abes: [...abes.values()].map(a => ({ name: a.name, domain: a.domain, path: a.path })), capabilities: manifest.capabilities ?? [], interfaces: manifest.interfaces ?? [], warnings: [...(manifest.capabilities?.length ? [] : ['The canonical manifest has no capability inventory; supplied capabilities remain review candidates.']), ...(manifest.interfaces?.length ? [] : ['The canonical manifest has no interface inventory; supplied interfaces remain review candidates.'])] };
+    return { concepts, domains: list(manifest.domains, 'manifest.domains').map(d => d.name), abes: [...abes.values()].map(a => ({ name: a.name, domain: a.domain, path: a.path })), capabilities, interfaces: manifest.interfaces ?? [], warnings: [...(capabilities.length ? ['The capability inventory covers only registered requirements; other industry capabilities may remain unmodeled.'] : ['The canonical manifest has no capability inventory; supplied capabilities remain review candidates.']), ...(manifest.interfaces?.length ? [] : ['The canonical manifest has no interface inventory; supplied interfaces remain review candidates.'])] };
 }

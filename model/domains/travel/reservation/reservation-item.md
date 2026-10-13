@@ -17,11 +17,11 @@ Logical attributes: Reservation Item Identifier; Item Type; Quantity; Hold Statu
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#reservation-item) | Reservation Item |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#reservation-item) | Reservation Item |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Reservation](reservation.md) | contains | [Reservation Item](reservation-item.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Reservation Item](reservation-item.md) | holds | Service Instance inventory (review) | M:1 | [travel](../../../../patterns/travel.md) |
+| [Reservation](reservation.md) | contains | [Reservation Item](reservation-item.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Reservation Item](reservation-item.md) | holds | Service Instance inventory (review) | M:1 | [travel](../../../../industry-patterns/travel.md) |

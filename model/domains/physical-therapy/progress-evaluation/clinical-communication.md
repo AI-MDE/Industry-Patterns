@@ -17,4 +17,4 @@ Logical attributes: Communication Identifier; Communication Type; Status; Occurr
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#clinical-communication) | Clinical Communication |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#clinical-communication) | Clinical Communication |

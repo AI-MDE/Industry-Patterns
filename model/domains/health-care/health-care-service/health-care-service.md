@@ -19,10 +19,10 @@ Logical attributes: Service Identifier; Service Code; Service Name; Service Type
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#health-care-service) | Health Care Service |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#health-care-service) | Health Care Service |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Request](../service-request/service-request.md) | requests | [Health Care Service](health-care-service.md) | M:1 | [health-care](../../../../patterns/health-care.md) |
+| [Service Request](../service-request/service-request.md) | requests | [Health Care Service](health-care-service.md) | M:1 | [health-care](../../../../industry-patterns/health-care.md) |

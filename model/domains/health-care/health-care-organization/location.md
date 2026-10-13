@@ -19,10 +19,10 @@ Logical attributes: Location Identifier; Location Name; Location Type; Location 
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#location) | Location |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#location) | Location |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Facility](facility.md) | contains | [Location](location.md) | 1:M recursive | [health-care](../../../../patterns/health-care.md) |
+| [Facility](facility.md) | contains | [Location](location.md) | 1:M recursive | [health-care](../../../../industry-patterns/health-care.md) |

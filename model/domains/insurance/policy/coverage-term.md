@@ -17,4 +17,4 @@ Logical attributes: Coverage Term Identifier; Term Type; Term Value; Unit; Effec
 
 | Source | Term |
 |---|---|
-| [patterns/insurance.md](../../../../patterns/insurance.md#coverage-term) | Coverage Term |
+| [industry-patterns/insurance.md](../../../../industry-patterns/insurance.md#coverage-term) | Coverage Term |

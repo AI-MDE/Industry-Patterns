@@ -23,11 +23,11 @@ Immutable record of every status transition on tracked entities: subject, from/t
 
 | Source | Term |
 |---|---|
-| [patterns/cross-industry.md](../../../../patterns/cross-industry.md#status-history) | Status History |
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#status-history) | Status History |
+| [industry-patterns/cross-industry.md](../../../../industry-patterns/cross-industry.md#status-history) | Status History |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#status-history) | Status History |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Business subject (review) | records | [Status History](status-history.md) | 1:M | [cross-industry](../../../../patterns/cross-industry.md) |
+| Business subject (review) | records | [Status History](status-history.md) | 1:M | [cross-industry](../../../../industry-patterns/cross-industry.md) |

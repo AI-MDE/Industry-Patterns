@@ -17,10 +17,10 @@ Logical attributes: Activation Identifier; Service; Activation Status; Requested
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#service-activation) | Service Activation |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#service-activation) | Service Activation |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Service Activation](service-activation.md) | activates | [Service Instance](../service-instance/service-instance.md) | M:1 | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Service Activation](service-activation.md) | activates | [Service Instance](../service-instance/service-instance.md) | M:1 | [telecommunications](../../../../industry-patterns/telecommunications.md) |

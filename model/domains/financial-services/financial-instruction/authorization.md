@@ -17,10 +17,10 @@ Logical attributes: Authorization Identifier; Authorization Type; Authorization 
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#authorization) | Authorization |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#authorization) | Authorization |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Instruction (review) | receives | [Authorization](authorization.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Instruction (review) | receives | [Authorization](authorization.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

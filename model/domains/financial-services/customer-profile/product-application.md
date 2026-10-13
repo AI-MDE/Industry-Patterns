@@ -19,10 +19,10 @@ Logical attributes: Application Identifier; Application Number; Application Type
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#product-application) | Product Application |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#product-application) | Product Application |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Applicant (review) | submits | [Product Application](product-application.md) | 1:M | [financial-services](../../../../patterns/financial-services.md) |
+| Applicant (review) | submits | [Product Application](product-application.md) | 1:M | [financial-services](../../../../industry-patterns/financial-services.md) |

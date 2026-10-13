@@ -17,4 +17,4 @@ Logical attributes: Timesheet Identifier; Person; Job Order; Work Date; Time Typ
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#timesheet) | Timesheet |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#timesheet) | Timesheet |

@@ -15,4 +15,4 @@ The actual bounded occurrence at a location: arrival, start, end, attended techn
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#service-visit-standard) | Service Visit (Standard) |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#service-visit-standard) | Service Visit (Standard) |

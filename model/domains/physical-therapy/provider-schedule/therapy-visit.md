@@ -21,13 +21,13 @@ Visit types may include initial evaluation, treatment, progress evaluation, re-e
 
 | Source | Term |
 |---|---|
-| [patterns/physical-therapy-clinic.md](../../../../patterns/physical-therapy-clinic.md#therapy-visit) | Therapy Visit |
+| [industry-patterns/physical-therapy-clinic.md](../../../../industry-patterns/physical-therapy-clinic.md#therapy-visit) | Therapy Visit |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Therapy Appointment](therapy-appointment.md) | may result in | [Therapy Visit](therapy-visit.md) | 1:0..1 | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Episode](../therapy-episode/therapy-episode.md) | contains | [Therapy Visit](therapy-visit.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Visit](therapy-visit.md) | has | [Visit Note](visit-note.md) | 1:M versions | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
-| [Therapy Visit](therapy-visit.md) | contains | [Intervention Delivery](../intervention-definition/intervention-delivery.md) | 1:M | [physical-therapy-clinic](../../../../patterns/physical-therapy-clinic.md) |
+| [Therapy Appointment](therapy-appointment.md) | may result in | [Therapy Visit](therapy-visit.md) | 1:0..1 | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Episode](../therapy-episode/therapy-episode.md) | contains | [Therapy Visit](therapy-visit.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Visit](therapy-visit.md) | has | [Visit Note](visit-note.md) | 1:M versions | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |
+| [Therapy Visit](therapy-visit.md) | contains | [Intervention Delivery](../intervention-definition/intervention-delivery.md) | 1:M | [physical-therapy-clinic](../../../../industry-patterns/physical-therapy-clinic.md) |

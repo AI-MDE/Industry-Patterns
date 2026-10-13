@@ -19,4 +19,4 @@ Logical attributes: Part Identifier; Part Number; Part Name; Part Type; Unit of 
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#part) | Part |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#part) | Part |

@@ -17,4 +17,4 @@ Planned or performed unit of work within a request, hierarchical (phase → task
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#work-effort) | Work Effort |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#work-effort) | Work Effort |

@@ -15,4 +15,4 @@ Technician's holding of a Skill with certification date, expiry, and certificate
 
 | Source | Term |
 |---|---|
-| [patterns/equipment-service.md](../../../../patterns/equipment-service.md#technician-skill) | Technician Skill |
+| [industry-patterns/equipment-service.md](../../../../industry-patterns/equipment-service.md#technician-skill) | Technician Skill |

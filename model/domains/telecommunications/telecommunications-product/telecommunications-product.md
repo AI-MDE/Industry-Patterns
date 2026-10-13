@@ -19,10 +19,10 @@ Logical attributes: Product Identifier; Product Name; Product Type; Product Stat
 
 | Source | Term |
 |---|---|
-| [patterns/telecommunications.md](../../../../patterns/telecommunications.md#telecommunications-product) | Telecommunications Product |
+| [industry-patterns/telecommunications.md](../../../../industry-patterns/telecommunications.md#telecommunications-product) | Telecommunications Product |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Telecommunications Product](telecommunications-product.md) | has | [Product Version](product-version.md) | 1:M | [telecommunications](../../../../patterns/telecommunications.md) |
+| [Telecommunications Product](telecommunications-product.md) | has | [Product Version](product-version.md) | 1:M | [telecommunications](../../../../industry-patterns/telecommunications.md) |

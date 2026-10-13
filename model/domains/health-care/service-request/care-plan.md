@@ -17,10 +17,32 @@ Logical attributes: Care Plan Identifier; Care Plan Type; Care Plan Status; Star
 
 | Source | Term |
 |---|---|
-| [patterns/health-care.md](../../../../patterns/health-care.md#care-plan) | Care Plan |
+| [industry-patterns/health-care.md](../../../../industry-patterns/health-care.md#care-plan) | Care Plan |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Care Plan](care-plan.md) | contains | Care Goal and Planned Activity (review) | 1:M each | [health-care](../../../../patterns/health-care.md) |
+| [Care Plan](care-plan.md) | contains | Care Goal and Planned Activity (review) | 1:M each | [health-care](../../../../industry-patterns/health-care.md) |
+
+## Business participation
+
+Concerns one Patient; contains Goals and Planned Activities; is supported by a Care Team.
+
+## Operations
+
+- draft
+- activate
+- add-goal
+- add-activity
+- review
+- complete
+- revoke
+
+## States
+
+draft; active; on-hold; completed; revoked; entered-in-error
+
+## Rules
+
+- [care-plan-must-identify-accountable-provider](../rules/care-plan-must-identify-accountable-provider.md)

@@ -17,10 +17,10 @@ Logical attributes: Finding Identifier; Finding Type; Severity; Description; Sta
 
 | Source | Term |
 |---|---|
-| [patterns/crane-rental-orchestration.md](../../../../patterns/crane-rental-orchestration.md#inspection-finding) | Inspection Finding |
+| [industry-patterns/crane-rental-orchestration.md](../../../../industry-patterns/crane-rental-orchestration.md#inspection-finding) | Inspection Finding |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Inspection](inspection.md) | contains | [Inspection Finding](inspection-finding.md) | 1:M | [crane-rental-orchestration](../../../../patterns/crane-rental-orchestration.md) |
+| [Inspection](inspection.md) | contains | [Inspection Finding](inspection-finding.md) | 1:M | [crane-rental-orchestration](../../../../industry-patterns/crane-rental-orchestration.md) |

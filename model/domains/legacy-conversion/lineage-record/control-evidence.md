@@ -17,4 +17,4 @@ Logical attributes: Evidence Identifier; Control Type; Performed At; Performed B
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#control-evidence) | Control Evidence |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#control-evidence) | Control Evidence |

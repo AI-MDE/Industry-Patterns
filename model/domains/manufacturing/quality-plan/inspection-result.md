@@ -17,10 +17,10 @@ Logical attributes: Result Identifier; Characteristic; Value; Unit; Lower Limit;
 
 | Source | Term |
 |---|---|
-| [patterns/manufacturing.md](../../../../patterns/manufacturing.md#inspection-result) | Inspection Result |
+| [industry-patterns/manufacturing.md](../../../../industry-patterns/manufacturing.md#inspection-result) | Inspection Result |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| [Inspection](inspection.md) | contains | [Inspection Result](inspection-result.md) | 1:M | [manufacturing](../../../../patterns/manufacturing.md) |
+| [Inspection](inspection.md) | contains | [Inspection Result](inspection-result.md) | 1:M | [manufacturing](../../../../industry-patterns/manufacturing.md) |

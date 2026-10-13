@@ -17,4 +17,4 @@ Logical attributes: Ledger Account Identifier; Ledger Account Code; Ledger Accou
 
 | Source | Term |
 |---|---|
-| [patterns/financial-services.md](../../../../patterns/financial-services.md#ledger-account) | Ledger Account |
+| [industry-patterns/financial-services.md](../../../../industry-patterns/financial-services.md#ledger-account) | Ledger Account |

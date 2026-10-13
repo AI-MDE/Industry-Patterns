@@ -17,13 +17,13 @@ Logical attributes: Booking Identifier; Booking Reference; Booking Status; Booke
 
 | Source | Term |
 |---|---|
-| [patterns/travel.md](../../../../patterns/travel.md#booking) | Booking |
+| [industry-patterns/travel.md](../../../../industry-patterns/travel.md#booking) | Booking |
 
 ## Relationships
 
 | Source concept | Role | Target concept | Original cardinality | Pattern |
 |---|---|---|---|---|
-| Accepted Offer or Reservation (review) | produces | [Booking](booking.md) | 1:0..1 | [travel](../../../../patterns/travel.md) |
-| [Booking](booking.md) | contains | [Booking Item](booking-item.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Booking](booking.md) | has | [Booking Party](booking-party.md) | 1:M | [travel](../../../../patterns/travel.md) |
-| [Booking](booking.md) | receives | [Payment](../../finance/invoice/payment.md) | M:M through Payment Allocation | [travel](../../../../patterns/travel.md) |
+| Accepted Offer or Reservation (review) | produces | [Booking](booking.md) | 1:0..1 | [travel](../../../../industry-patterns/travel.md) |
+| [Booking](booking.md) | contains | [Booking Item](booking-item.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Booking](booking.md) | has | [Booking Party](booking-party.md) | 1:M | [travel](../../../../industry-patterns/travel.md) |
+| [Booking](booking.md) | receives | [Payment](../../finance/invoice/payment.md) | M:M through Payment Allocation | [travel](../../../../industry-patterns/travel.md) |

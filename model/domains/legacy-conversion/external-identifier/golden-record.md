@@ -17,4 +17,4 @@ Logical attributes: Golden Record Identifier; Concept Type; Golden Record Status
 
 | Source | Term |
 |---|---|
-| [patterns/legacy-conversion.md](../../../../patterns/legacy-conversion.md#golden-record) | Golden Record |
+| [industry-patterns/legacy-conversion.md](../../../../industry-patterns/legacy-conversion.md#golden-record) | Golden Record |
