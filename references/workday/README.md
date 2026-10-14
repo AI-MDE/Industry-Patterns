@@ -4,7 +4,7 @@ This folder holds **source evidence for comparison**, not a parallel Workday dom
 
 ## Status (2026-10-14)
 
-- **Imported as a review input:** 19 manually curated named records in `public-docs-seed.json`: 7 candidate entities, 6 capabilities, and 6 workflows (counts should be reconfirmed if the seed changes). Each is an interpretation of identified public documentation, **not** a machine-extracted Workday tenant or API schema.
+- **Imported as a review input:** 19 manually curated named records in `public-docs-seed.json`: 7 candidate entities, 7 capabilities, and 5 workflows (counts should be reconfirmed if the seed changes). Each is an interpretation of identified public documentation, **not** a machine-extracted Workday tenant or API schema.
 - **Not imported:** the full Data Cloud XLSX catalog, Workday WSDL/XSD schemas, full operation directory, or tenant-specific business-process definitions. Public documentation references are listed in the seed; access and reuse rights require checking.
 - **Not merged:** nothing has been added to the canonical `model/` or the requirement registry. Existing concepts keep their single ownership and naming.
 
