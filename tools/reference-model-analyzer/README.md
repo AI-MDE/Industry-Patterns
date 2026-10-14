@@ -51,7 +51,7 @@ You can also invoke the CLI directly: `node src/index.ts analyze /path/openapi.y
 
 | Adapter | Input | Extracted detail |
 |---|---|---|
-| `normalized` | Hierarchical normalized JSON | Domains, ABEs, entities, attributes, relationships, capabilities, interfaces, modules, workflows, unknown fields |
+| `behavior-json` | Vendor-neutral behavior exchange JSON | Capabilities, use cases, process/workflow steps, roles, rules, events, provenance and unrecognized types; behavior retained for review, not automatically adopted |\n| `normalized` | Hierarchical normalized JSON | Domains, ABEs, entities, attributes, relationships, capabilities, interfaces, modules, workflows, unknown fields |
 | `records-json` | JSON array or `{source, records}` | Named typed records with optional domain/ABE placement and nested arrays |
 | `csv` | CSV using the record contract | Quoted commas/newlines, escaped quotes, JSON array cells |
 | `sid-xmi` | UML/XMI XML | Named Classes, Package context, ownedAttribute references, binary ownedEnd associations, multiplicities, generalization |
@@ -97,3 +97,15 @@ Reports contain entity mapping candidates, source-declared specialization, attri
 Canonical cardinalities sometimes contain prose. They are preserved and flagged for review instead of guessing lifecycle/cascade behavior. The manifest's requirements registry supplies a partial Health Care capability inventory. Other capability and interface gaps remain review candidates; reports say so. Imported modules/workflows remain in normalized output for review.
 
 See the [architecture](../../docs/reference-model-importer.md), [coherent model](../../model/README.md), and [terminology scope](../../docs/terminology-aliases.md).
+
+## Business behavior intake (Workday and other vendors)
+
+Use a documented exchange JSON contract to stage functional knowledge as well as entities:
+
+```bash
+npm run run -- ../../references/workday/behavior-public-examples.json --adapter behavior-json --out output/workday-behavior
+```
+
+Input has `source: { system, version?, urls?, license? }` and `records: [{id?, name, type, ...}]`. Supported types: `capability`, `use-case`, `process`, `workflow`, `business-rule`, `event`, and `role`. Each record may provide triggers, actors, security, steps, branches, outcomes, preconditions, constraints, evidence and links to entity IDs. The importer **retains** those properties with per-record provenance instead of guessing semantics. Unrecognized kinds are held in `unmapped`. Business rules, events and roles are saved under `extensions` because the base analysis report currently compares only entities, capabilities and interfaces; workflows are preserved but not yet semantically compared. Consequently, the existing analysis report **does not certify** equivalent behavior. Do not treat sample processes as a full tenant export.
+
+The current `behavior-json` adapter requires source data to be supplied as JSON by a permitted exporter or human researcher. An actual Workday catalog/XLSX, SOAP WSDL/XSD, or tenant process definition requires a dedicated extraction stage. No proprietary authenticated content is included. Run `npm test` and `npm run typecheck` to verify after checkout.
