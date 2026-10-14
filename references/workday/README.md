@@ -40,3 +40,7 @@ Review `normalized.json`, `report.json` and `report.md`. The importer must prese
 For **Hire Worker**, candidate behavior extracted from the public business-process examples includes authorized initiation, tasks routed to configured roles/security groups, a compensation proposal step, conditional actions where configured, notifications, and a completed process event. This does **not** imply every Workday tenant uses those exact steps, nor that MDE should prescribe a single hiring workflow.
 
 The MDE canonical model should own **Hiring** as a workforce capability, with implementation choices bound to applicable entities and shared Approval, Workflow, Access Control and Audit patterns. Workday remains a cited source with a separately retained alias/provenance record.
+
+## Implemented behavior import
+
+A vendor-neutral `behavior-json` adapter is available in `tools/reference-model-analyzer/`. It preserves capabilities, use-case/process/workflow definitions, rules, roles and events with original source payload and provenance; unknown constructs remain reviewable. A staged [Workday behavior example](behavior-public-examples.json) exercises the format. Run `npm run run -- ../../references/workday/behavior-public-examples.json --adapter behavior-json --out output/workday-behavior` from the analyzer directory. This is an implemented staging capability, **not** full Workday extraction or verified semantic integration. Full catalog XLSX and WSDL/XSD ingestion and automatic behavior conflict analysis remain pending.
