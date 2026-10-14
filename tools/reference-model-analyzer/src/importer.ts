@@ -1,9 +1,10 @@
 import { createHash } from 'node:crypto';
+import { importBehavior } from './behavior.ts';
 import { xml2js } from 'xml-js';
 import { parseDocument } from 'yaml';
 import type { ImportOptions, Provenance, ReferenceModel, ReferenceEntity } from './types.ts';
 import { object, name, list, validateReference } from './validation.ts';
-export const adapters = ['normalized', 'records-json', 'csv', 'sid-xmi', 'bian-json', 'bian-csv', 'bian-openapi'] as const;
+export const adapters = ['normalized', 'records-json', 'csv', 'sid-xmi', 'bian-json', 'bian-csv', 'bian-openapi', 'behavior-json'] as const;
 export type Adapter = typeof adapters[number];
 export function alignType(term: string, system: string, aliases: ImportOptions['aliases']): string | undefined {
     if (['Domain', 'ABE', 'Entity', 'Capability', 'Module', 'Interface', 'Workflow'].includes(term))
@@ -302,6 +303,8 @@ export function importModel(text: string, adapter: Adapter, options: ImportOptio
             for (const [i, r] of (model[kind] ?? []).entries())
                 r.provenance = provenance(r, `${kind}[${i}]`, { ...options, system: model.source.system }, { capabilities: 'Capability', interfaces: 'Interface', modules: 'Module', workflows: 'Workflow' }[kind]);
     }
+    else if (adapter === 'behavior-json')
+        model = importBehavior(text, options);
     else if (adapter === 'sid-xmi')
         model = importXmi(text, options);
     else if (adapter === 'bian-openapi') {
