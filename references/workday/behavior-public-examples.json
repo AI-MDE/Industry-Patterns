@@ -1,0 +1,89 @@
+{
+  "source": {
+    "system": "Workday",
+    "version": "public-documentation-2026-10",
+    "scope": "Example patterns interpreted from public documentation, NOT actual tenant business process definitions",
+    "urls": [
+      "https://community-content.workday.com/en-us/public/products/platform-and-product-extensions/soap-api-reference.html",
+      "https://doc.workday.com/workday-education/en-us/course-manuals/creating-integrations-using-workday-studio/using-workday-web-services.html"
+    ]
+  },
+  "records": [
+    {
+      "id": "wd-hire-capability",
+      "type": "capability",
+      "name": "Hire Worker",
+      "domain": "Workforce",
+      "entities": [
+        "Worker",
+        "Position"
+      ],
+      "evidenceLevel": "public-doc-pattern",
+      "notes": "Actual steps and security group membership vary by tenant."
+    },
+    {
+      "id": "wd-hire-process-pattern",
+      "type": "process",
+      "name": "Hire Worker Business Process",
+      "domain": "Workforce",
+      "capability": "wd-hire-capability",
+      "initiator": "Authorized initiator resolved through configured process security",
+      "steps": [
+        {
+          "id": "initiate",
+          "type": "initiation",
+          "result": "Initiated business process event"
+        },
+        {
+          "id": "approval",
+          "type": "approval",
+          "optional": true,
+          "condition": "Configured organizational policy",
+          "assignee": "Configured security group",
+          "outcomes": [
+            "approve",
+            "deny",
+            "send back"
+          ]
+        },
+        {
+          "id": "completion",
+          "type": "completion",
+          "requires": [
+            "Required configured steps completed"
+          ],
+          "result": "Completed process event"
+        }
+      ],
+      "events": [
+        "initiated",
+        "step completed",
+        "completed"
+      ],
+      "notes": "Illustrative framework pattern, not an asserted standard Hire Worker sequence."
+    },
+    {
+      "id": "wd-conditional-rule",
+      "type": "business-rule",
+      "name": "Conditional business process routing",
+      "predicate": "Configured condition evaluates true",
+      "action": "Execute conditional step",
+      "origin": "public documentation behavior concept",
+      "verification": "requires tenant configuration for concrete decision logic"
+    },
+    {
+      "id": "wd-approver-role",
+      "type": "role",
+      "name": "Process Approver",
+      "resolution": "security group and organizational context",
+      "notes": "A role pattern, not a specific Workday security policy"
+    },
+    {
+      "id": "wd-process-completed-event",
+      "type": "event",
+      "name": "Business Process Completed",
+      "emittedBy": "wd-hire-process-pattern",
+      "notes": "Process lifecycle event candidate for audit correlation"
+    }
+  ]
+}
