@@ -1,0 +1,398 @@
+{
+  "source": {
+    "system": "Workday",
+    "release": "2026R2",
+    "apiVersion": "47.0",
+    "verifiedAt": "2026-10-14",
+    "url": "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html",
+    "kind": "public-soap-service-directory",
+    "coverage": "Directory inventory only; no inferred schemas or tenant process rules"
+  },
+  "services": [
+    {
+      "id": "ACA_Partner_Integrations",
+      "name": "ACA_Partner_Integrations",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/ACA_Partner_Integrations/v47.0/ACA_Partner_Integrations.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Absence_Management",
+      "name": "Absence_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Absence_Management/v47.0/Absence_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Academic_Advising",
+      "name": "Academic_Advising",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Academic_Advising/v47.0/Academic_Advising.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Academic_Foundation",
+      "name": "Academic_Foundation",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Academic_Foundation/v47.0/Academic_Foundation.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Admissions",
+      "name": "Admissions",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Admissions/v47.0/Admissions.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Adoption",
+      "name": "Adoption",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Adoption/v47.0/Adoption.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Benefits_Administration",
+      "name": "Benefits_Administration",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Benefits_Administration/v47.0/Benefits_Administration.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Benefits_Partner_Program_Integrations",
+      "name": "Benefits_Partner_Program_Integrations",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Benefits_Partner_Program_Integrations/v47.0/Benefits_Partner_Program_Integrations.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Campus_Engagement",
+      "name": "Campus_Engagement",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Campus_Engagement/v47.0/Campus_Engagement.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Cash_Management",
+      "name": "Cash_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Cash_Management/v47.0/Cash_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Compensation",
+      "name": "Compensation",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Compensation/v47.0/Compensation.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Compensation_Review",
+      "name": "Compensation_Review",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Compensation_Review/v47.0/Compensation_Review.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Drive",
+      "name": "Drive",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Drive/v47.0/Drive.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Dynamic_Document_Generation",
+      "name": "Dynamic_Document_Generation",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Dynamic_Document_Generation/v47.0/Dynamic_Document_Generation.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "External_Integrations",
+      "name": "External_Integrations",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/External_Integrations/v47.0/External_Integrations.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Financial_Aid",
+      "name": "Financial_Aid",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Aid/v47.0/Financial_Aid.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Financial_Management",
+      "name": "Financial_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/v47.0/Financial_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Flex_Team",
+      "name": "Flex_Team",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Flex_Team/v47.0/Flex_Team.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Human_Resources",
+      "name": "Human_Resources",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v47.0/Human_Resources.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Identity_Management",
+      "name": "Identity_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Identity_Management/v47.0/Identity_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Integrations",
+      "name": "Integrations",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Integrations/v47.0/Integrations.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Interview_Feedback__Do_Not_Use_",
+      "name": "Interview_Feedback__Do_Not_Use_",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Interview_Feedback__Do_Not_Use_/v47.0/Interview_Feedback__Do_Not_Use_.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Inventory",
+      "name": "Inventory",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Inventory/v47.0/Inventory.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Learning",
+      "name": "Learning",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v47.0/Learning.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Metadata_Translations",
+      "name": "Metadata_Translations",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Metadata_Translations/v47.0/Metadata_Translations.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Moments",
+      "name": "Moments",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Moments/v47.0/Moments.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Notification",
+      "name": "Notification",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Notification/v47.0/Notification.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Org_Studio",
+      "name": "Org_Studio",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Org_Studio/v47.0/Org_Studio.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll",
+      "name": "Payroll",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll/v47.0/Payroll.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll_AUS",
+      "name": "Payroll_AUS",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll_AUS/v47.0/Payroll_AUS.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll_CAN",
+      "name": "Payroll_CAN",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll_CAN/v47.0/Payroll_CAN.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll_FRA",
+      "name": "Payroll_FRA",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll_FRA/v47.0/Payroll_FRA.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll_GBR",
+      "name": "Payroll_GBR",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll_GBR/v47.0/Payroll_GBR.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Payroll_Interface",
+      "name": "Payroll_Interface",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll_Interface/v47.0/Payroll_Interface.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Performance_Management",
+      "name": "Performance_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Performance_Management/v47.0/Performance_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Prism_Analytics",
+      "name": "Prism_Analytics",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Prism_Analytics/v47.0/Prism_Analytics.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Professional_Services_Automation",
+      "name": "Professional_Services_Automation",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Professional_Services_Automation/v47.0/Professional_Services_Automation.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Recruiting",
+      "name": "Recruiting",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Recruiting/v47.0/Recruiting.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Requests",
+      "name": "Requests",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Requests/v47.0/Requests.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Resource_Management",
+      "name": "Resource_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Resource_Management/v47.0/Resource_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Revenue_Management",
+      "name": "Revenue_Management",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Revenue_Management/v47.0/Revenue_Management.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Scheduling",
+      "name": "Scheduling",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Scheduling/v47.0/Scheduling.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Settlement_Services",
+      "name": "Settlement_Services",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Settlement_Services/v47.0/Settlement_Services.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Staffing",
+      "name": "Staffing",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Staffing/v47.0/Staffing.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Student_Core",
+      "name": "Student_Core",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Core/v47.0/Student_Core.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Student_Finance",
+      "name": "Student_Finance",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Finance/v47.0/Student_Finance.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Student_Records",
+      "name": "Student_Records",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Records/v47.0/Student_Records.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Student_Recruiting",
+      "name": "Student_Recruiting",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Recruiting/v47.0/Student_Recruiting.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Student_Transfer_Credit",
+      "name": "Student_Transfer_Credit",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Transfer_Credit/v47.0/Student_Transfer_Credit.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Talent",
+      "name": "Talent",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Talent/v47.0/Talent.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Tenant_Data_Translation",
+      "name": "Tenant_Data_Translation",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Tenant_Data_Translation/v47.0/Tenant_Data_Translation.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Time_Tracking",
+      "name": "Time_Tracking",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Time_Tracking/v47.0/Time_Tracking.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Workday_Connect",
+      "name": "Workday_Connect",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Workday_Connect/v47.0/Workday_Connect.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Workday_Extensibility",
+      "name": "Workday_Extensibility",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Workday_Extensibility/v47.0/Workday_Extensibility.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    },
+    {
+      "id": "Workforce_Planning",
+      "name": "Workforce_Planning",
+      "definitionUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Workforce_Planning/v47.0/Workforce_Planning.wsdl",
+      "definitionUrlStatus": "unverified; retrieve via actual directory links",
+      "status": "listed"
+    }
+  ]
+}
