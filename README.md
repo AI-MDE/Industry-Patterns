@@ -21,6 +21,7 @@ pattern-anatomy.md  target anatomy of an industry pattern and roadmap
 tools/              reference-model import, analysis, and canonical-model validation
 docs/               architecture and modeling guidance
 references/         upstream source snapshots with license and provenance
+workday/            independent Workday source model (not canonical model/)
 ```
 
 Subjects live under `model/subjects/`; each concept has one canonical home. The [reference snapshots](references/README.md) are inputs for analysis, separate from the canonical model.
@@ -84,6 +85,10 @@ Reusable requirements live in their owning subject. Use cases and workflows refe
 - [Health Care use cases](model/subjects/care/use-cases/README.md)
 - [Health Care workflows](model/subjects/care/workflows/README.md)
 - [Requirements registry](model/requirements.json)
+
+## Standalone source models
+
+[Workday source model](workday/README.md) retains Workday's published WWS service inventory and provides an extractor for authorized XLSX and WSDL/XSD source files. It is intentionally separate from the unified MDE model and must not be mistaken for the complete proprietary Workday internals.
 
 ## Reference model importer
 
