@@ -1,0 +1,36 @@
+{
+  "source": {
+    "system": "Workday",
+    "version": "public-docs-2026-10-14",
+    "description": "Small, manually curated reference inventory derived from public Workday documentation. NOT a complete Workday export, exact tenant configuration, or canonical MDE definitions.",
+    "urls": [
+      "https://doc.workday.com/admin-guide/en-us/workday-data-cloud/data-out/data-cloud-catalog.html",
+      "https://community-content.workday.com/en-us/public/products/platform-and-product-extensions/soap-api-reference.html",
+      "https://doc.workday.com/admin-guide/en-us/manage-workday/business-processes/business-process-framework-concepts/dan1370797198449.html",
+      "https://doc.workday.com/workday-education/en-us/course-manuals/hcm-core-for-administrators/business-process-framework.html",
+      "https://doc.workday.com/workday-education/en-us/course-manuals/financial-management-for-administrators/business-process-overview.html"
+    ],
+    "access": "Public documentation reviewed 2026-10-14. Follow upstream licensing and access restrictions before redistributing catalog spreadsheets or WSDL/XSD files."
+  },
+  "records": [
+    {"id":"wd-worker","name":"Worker","type":"Business Entity","domain":"Workforce","abe":"Employment","notes":"Documented Workday business object; confirm definition, worker categories and effective dating against downloadable catalog."},
+    {"id":"wd-position","name":"Position","type":"Business Entity","domain":"Workforce","abe":"Staffing","notes":"Documented Workday business object; confirm position/job distinction."},
+    {"id":"wd-candidate","name":"Candidate","type":"Business Entity","domain":"Recruiting","abe":"Candidate Management"},
+    {"id":"wd-supervisory-org","name":"Supervisory Organization","type":"Business Entity","domain":"Organization","abe":"Organization Structure","notes":"Workday-specific structure; do not collapse into generic organizational unit without semantic review."},
+    {"id":"wd-process-definition","name":"Business Process Definition","type":"Business Entity","domain":"Workflow Governance","abe":"Business Process","notes":"Configurable step and role definition; organizational overrides/inheritance."},
+    {"id":"wd-process-event","name":"Business Process Event","type":"Business Entity","domain":"Workflow Governance","abe":"Business Process","notes":"A running business process instance/event; distinct from the reusable process definition."},
+    {"id":"wd-security-group","name":"Security Group","type":"Business Entity","domain":"Access Control","abe":"Authorization","notes":"Steps route to members of security groups rather than hard-coded individuals."},
+    {"id":"wd-hire","name":"Hire Worker","type":"Capability","domain":"Workforce","abe":"Employment","notes":"Initiated by an authorized role; includes configurable tasks and compensation proposal. Example behavior, not an exhaustive prescribed workflow."},
+    {"id":"wd-create-position","name":"Create Position","type":"Capability","domain":"Workforce","abe":"Staffing"},
+    {"id":"wd-change-org","name":"Change Organization Assignments","type":"Capability","domain":"Organization","abe":"Organization Structure"},
+    {"id":"wd-propose-comp","name":"Propose Compensation for Hire","type":"Capability","domain":"Workforce","abe":"Compensation"},
+    {"id":"wd-supplier-invoice","name":"Supplier Invoice Processing","type":"Capability","domain":"Accounting","abe":"Accounts Payable","notes":"Workday financial BP example; details of tenant approval policies are not public universal rules."},
+    {"id":"wd-approval","name":"Approval Step","type":"Workflow","domain":"Workflow Governance","abe":"Business Process","notes":"Approve, deny, or send back according to process configuration. Behavior derived from public framework documentation."},
+    {"id":"wd-approval-chain","name":"Approval Chain","type":"Workflow","domain":"Workflow Governance","abe":"Business Process","notes":"May traverse management hierarchy subject to an exit condition."},
+    {"id":"wd-conditional-routing","name":"Conditional Step Routing","type":"Workflow","domain":"Workflow Governance","abe":"Business Process","notes":"Conditional step execution based on configured business conditions."},
+    {"id":"wd-notification","name":"Business Process Notifications","type":"Capability","domain":"Workflow Governance","abe":"Business Process","notes":"Trigger at event or step transitions; recipient determination follows configurations."},
+    {"id":"wd-organization-override","name":"Organization-Specific Process Definition","type":"Workflow","domain":"Workflow Governance","abe":"Business Process","notes":"Child organization may inherit or override superior organization's process definition."},
+    {"id":"wd-process-security","name":"Role-Based Process Routing","type":"Workflow","domain":"Access Control","abe":"Authorization","notes":"Authorized initiators and step assignees resolved through security groups and context."},
+    {"id":"wd-process-audit","name":"Business Process Event Tracking","type":"Capability","domain":"Information Governance","abe":"Audit","notes":"Process event traceability and audit history."}
+  ]
+}
