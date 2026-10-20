@@ -30,7 +30,7 @@ Research Markets and Needs; Design Programs; Manage Applications and Eligibility
 Manage Prospects; Manage Party Relationships; Design and Develop Offerings; Manage Pricing and Terms; Manage Contracts and Agreements; Receive and Evaluate Requests; Manage Cases and Exceptions; Resolve Cases and Disputes; Manage Risk; Manage Compliance; Establish Charges; Collect and Disburse Payments; Produce Financial Reports.
 
 ## Financial Services
-Manage Party Relationships; Manage Products and Service Catalogs; Manage Applications and Eligibility; Manage Risk; Manage Compliance; Manage Contracts and Agreements; Manage Funding and Cash; Collect and Disburse Payments; Record Accounting Transactions; Reconcile Accounts; Govern Information Access; Produce Financial Reports.
+Manage Party Relationships; Manage Product and Service Catalogs; Manage Applications and Eligibility; Manage Risk; Manage Compliance; Manage Contracts and Agreements; Manage Funding and Cash; Collect and Disburse Payments; Record Accounting Transactions; Reconcile Accounts; Govern Information Access; Produce Financial Reports.
 
 ## Nonprofit Membership Association
 Set Mission and Strategy; Govern the Organization; Manage Outreach; Recruit and Enroll Members; Manage Membership Status; Renew Memberships; Manage Membership Benefits and Rights; Manage Membership Dues; Plan Events; Manage Invitations and Registrations; Conduct Events; Manage Volunteers; Cultivate Donors and Supporters; Manage Fundraising Campaigns; Manage Donations and Pledges; Produce Financial Reports.
